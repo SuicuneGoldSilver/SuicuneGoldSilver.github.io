@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>ポケカ日英単語リスト</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .card-img-crop {
+      position: relative;
+      overflow: hidden;
+      height: 400px; /* 80% of 200px */
+    }
+    .card-img-crop img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+
+    .audio-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #a9a9a9;
+            font-size: 16px;
+        }
+        .audio-button:hover {
+            color: #a9a9a9b0;
+        }
+
+    </style>
+
+<script>
+  function playAudio(word) {
+      var audio = new Audio('audio/' + word + '.m4a');
+      audio.play();
+  }
+  </script>
+
+  <!-- Guides icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About Me</h4>
+          <p class="text-white">Hi, I'm Nick, also known as SuicuneGS. I'm originally from the US, now living in Japan, and am an avid Pokémon card player.
+            When I moved to Japan, I realized the need for English resources in the Pokémon card scene. So, I created this site to help English-speaking players navigate Japanese tournaments and Japanese players compete abroad!
+            <br><br>
+            Thanks for stopping by; I hope you find the guides helpful!
+          </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://twitter.com/SuicuneGS" class="text-white">Follow on Twitter</a></li>
+            <li><a href="https://www.youtube.com/channel/UCK4LrVdU3ey_nkRitr0WlYA" class="text-white">Subscribe on YouTube</a></li>
+            <li><a href="mailto:SuicuneGoldSilver@gmail.com" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="guides.html" class="navbar-brand d-flex align-items-center">
+        <i class="bi bi-book me-2"></i>
+        <strong>Guides</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 entries">
+
+          <!--Image for image cap-->
+          <div class="card">
+            <div class="card-img-crop">
+              <img src="images/usa-jp-2.JPG" class="card-img-top" alt="">
+            </div>
+            
+    
+            <div class="card-body">
+              <!--Title for image cap-->
+              <h2 class="card-title">ポケカ日英単語リスト</h2>
+              
+              <!--Text for image cap-->
+              <p class="card-text">
+                <!-- Table 1: カードの種類 -->
+                <h3>カードの種類</h3>
+                <table class="table">
+                  <thead>
+                      <tr>
+                          <th>日本語</th>
+                          <th>English</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>ポケモン</td>
+                          <td>Pokémon <button class="audio-button" onclick="playAudio('pokemon')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>たね</td>
+                          <td>Basic <button class="audio-button" onclick="playAudio('basic')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>１進化</td>
+                          <td>Stage 1 <button class="audio-button" onclick="playAudio('stage 1')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>２進化</td>
+                          <td>Stage 2 <button class="audio-button" onclick="playAudio('stage 2')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>エネルギー</td>
+                          <td>Energy <button class="audio-button" onclick="playAudio('energy')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>基本エネルギー</td>
+                          <td>Basic Energy <button class="audio-button" onclick="playAudio('basic energy')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>特殊エネルギー</td>
+                          <td>Special Energy <button class="audio-button" onclick="playAudio('special energy')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>トレーナーズ</td>
+                          <td>Trainers <button class="audio-button" onclick="playAudio('trainers')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>グッズ</td>
+                          <td>Item <button class="audio-button" onclick="playAudio('item')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>どうぐ</td>
+                          <td>Tool <button class="audio-button" onclick="playAudio('tool')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>サポート</td>
+                          <td>Supporter <button class="audio-button" onclick="playAudio('supporter')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>スタジアム</td>
+                          <td>Stadium <button class="audio-button" onclick="playAudio('stadium')"><i class="fas fa-volume-up"></i></button></td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+
+                <!-- Table 2: 特殊状態 -->
+                <h3>特殊状態</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>ねむり</td>
+                      <td>Asleep <button class="audio-button" onclick="playAudio('asleep')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>やけど</td>
+                      <td>Burned <button class="audio-button" onclick="playAudio('burned')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>こんらん</td>
+                      <td>Confused <button class="audio-button" onclick="playAudio('confused')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>まひ</td>
+                      <td>Paralyzed <button class="audio-button" onclick="playAudio('paralyzed')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>どく</td>
+                      <td>Poisoned <button class="audio-button" onclick="playAudio('poisoned')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Table 3: ポケモンのタイプ -->
+                <h3>ポケモンのタイプ</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>くさ</td>
+                      <td>Grass <button class="audio-button" onclick="playAudio('grass')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ほのお</td>
+                      <td>Fire <button class="audio-button" onclick="playAudio('fire')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>みず</td>
+                      <td>Water <button class="audio-button" onclick="playAudio('water')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>かみなり</td>
+                      <td>Lightning <button class="audio-button" onclick="playAudio('lightning')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>エスパー</td>
+                      <td>Psychic <button class="audio-button" onclick="playAudio('psychic')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>かくとう</td>
+                      <td>Fighting <button class="audio-button" onclick="playAudio('fighting')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>あく</td>
+                      <td>Darkness <button class="audio-button" onclick="playAudio('darkness')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>はがね</td>
+                      <td>Metal <button class="audio-button" onclick="playAudio('metal')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>フェリー</td>
+                      <td>Fairy <button class="audio-button" onclick="playAudio('fairy')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ドラゴン</td>
+                      <td>Dragon <button class="audio-button" onclick="playAudio('dragon')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ノーマル</td>
+                      <td>Normal <button class="audio-button" onclick="playAudio('normal')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Table 4: 対戦に使うもの -->
+                <h3>対戦に使うもの</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>デッキ</td>
+                      <td>Deck <button class="audio-button" onclick="playAudio('deck')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>コイン</td>
+                      <td>Coin <button class="audio-button" onclick="playAudio('coin')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ダメカン</td>
+                      <td>Damage counter <button class="audio-button" onclick="playAudio('damage counter')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>スリーブ</td>
+                      <td>Sleeves <button class="audio-button" onclick="playAudio('sleeves')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>プレーマット</td>
+                      <td>Playmat <button class="audio-button" onclick="playAudio('playmat')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>どくマーカー</td>
+                      <td>Poison marker <button class="audio-button" onclick="playAudio('poison marker')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>やけどマーカー</td>
+                      <td>Burn marker <button class="audio-button" onclick="playAudio('burn marker')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>VSTARマーカー</td>
+                      <td>VSTAR marker <button class="audio-button" onclick="playAudio('vstar marker')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Table 5: 場所の名前 -->
+                <h3>場所の名前</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>山札</td>
+                      <td>Deck <button class="audio-button" onclick="playAudio('deck')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>トラッシュ</td>
+                      <td>Discard Pile <button class="audio-button" onclick="playAudio('discard pile')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>バトル場</td>
+                      <td>Active Spot <button class="audio-button" onclick="playAudio('active spot')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ベンチ</td>
+                      <td>Bench <button class="audio-button" onclick="playAudio('bench')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>サイド</td>
+                      <td>Prize Cards <button class="audio-button" onclick="playAudio('prize cards')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Table 6: 対戦が始まる前 -->
+                <h3>対戦が始まる前</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>私の名前は「名前」</td>
+                      <td>My name is “Name” <button class="audio-button" onclick="playAudio('before battle 1')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>名前はなんですか？</td>
+                      <td>What is your name? <button class="audio-button" onclick="playAudio('before battle 2')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>試合中にサイコロは使ってもいいですか？</td>
+                      <td>Can I use dice during the match? <button class="audio-button" onclick="playAudio('before battle 3')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>私がコインを投げていいですか？</td>
+                      <td>Is it okay if I flip the coin? <button class="audio-button" onclick="playAudio('before battle 4')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>私がサイコロを振っていいですか？</td>
+                      <td>Is it okay if I roll the die? <button class="audio-button" onclick="playAudio('before battle 5')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>いい試合にしましょう</td>
+                      <td>Let’s have a good match <button class="audio-button" onclick="playAudio('before battle 6')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>頑張ってください</td>
+                      <td>Good luck <button class="audio-button" onclick="playAudio('before battle 7')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Table 7: コインを投げること -->
+                <h3>コインを投げること</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>コインを投げる</td>
+                      <td>Flip a coin <button class="audio-button" onclick="playAudio('flip a coin')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>おもて</td>
+                      <td>Heads <button class="audio-button" onclick="playAudio('heads')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>うら</td>
+                      <td>Tails <button class="audio-button" onclick="playAudio('tails')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>サイコロ</td>
+                      <td>Dice <button class="audio-button" onclick="playAudio('dice')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>サイコロを振る</td>
+                      <td>Roll a dice <button class="audio-button" onclick="playAudio('roll a dice')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>奇数</td>
+                      <td>Odd; Odd number <button class="audio-button" onclick="playAudio('odd')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>偶数</td>
+                      <td>Even; Even number <button class="audio-button" onclick="playAudio('even')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>先行</td>
+                      <td>First <button class="audio-button" onclick="playAudio('first')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>後攻</td>
+                      <td>Second <button class="audio-button" onclick="playAudio('second')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Table 8: 対戦でよく使う表現 -->
+                <h3>対戦でよく使う表現</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>番を始めます</td>
+                      <td>I start my turn <button class="audio-button" onclick="playAudio('often used phrase 1')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>番は終了です</td>
+                      <td>I end my turn <button class="audio-button" onclick="playAudio('often used phrase 2')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>引きます</td>
+                      <td>I draw <button class="audio-button" onclick="playAudio('often used phrase 3')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「x枚」を引きます</td>
+                      <td>I draw “x” cards <button class="audio-button" onclick="playAudio('often used phrase 4')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「トレーナーズカード」を使います</td>
+                      <td>I use “trainer card” <button class="audio-button" onclick="playAudio('often used phrase 5')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「グッズ」を使います</td>
+                      <td>I use “item card” <button class="audio-button" onclick="playAudio('often used phrase 6')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「どうぐ」を付けます</td>
+                      <td>I attach “tool card” <button class="audio-button" onclick="playAudio('often used phrase 7')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「どうぐ」を「ポケモン」に付ける</td>
+                      <td>I attach “tool card” to “Pokémon” <button class="audio-button" onclick="playAudio('often used phrase 8')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>エネルギーを手張る</td>
+                      <td>I attach an energy <button class="audio-button" onclick="playAudio('often used phrase 9')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>エネルギーを「ポケモン」に手張る</td>
+                      <td>I attach an energy to “Pokémon” <button class="audio-button" onclick="playAudio('often used phrase 10')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「ポケモン」をベンチに出す</td>
+                      <td>I put “Pokémon” on my bench <button class="audio-button" onclick="playAudio('often used phrase 11')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「ポケモン」を進化させる</td>
+                      <td>I evolve “Pokémon” <button class="audio-button" onclick="playAudio('often used phrase 12')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「ポケモン」を「ポケモン」に進化させる</td>
+                      <td>I evolve “Pokémon” into “Pokémon” <button class="audio-button" onclick="playAudio('often used phrase 13')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>特性を使います</td>
+                      <td>I use “ability” <button class="audio-button" onclick="playAudio('often used phrase 14')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「ポケモン」の特性を使います</td>
+                      <td>I use “Pokémon’s” ability <button class="audio-button" onclick="playAudio('often used phrase 15')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「カード」の効果を使います</td>
+                      <td>I use the effect of “card” <button class="audio-button" onclick="playAudio('often used phrase 16')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>トラッシュを見せてください</td>
+                      <td>Can I check your discard pile? <button class="audio-button" onclick="playAudio('often used phrase 17')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>手札の枚数は何ですか？</td>
+                      <td>How many cards do you have in hand? <button class="audio-button" onclick="playAudio('often used phrase 18')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「わざ」を使います</td>
+                      <td>I use “attack” <button class="audio-button" onclick="playAudio('often used phrase 19')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「わざ」を使って「ｘダメージ」を与えます</td>
+                      <td>I use “attack” and do “x” damage <button class="audio-button" onclick="playAudio('often used phrase 20')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>逃げます</td>
+                      <td>I retreat <button class="audio-button" onclick="playAudio('often used phrase 21')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「カード」をトラッシュします</td>
+                      <td>I discard “card” <button class="audio-button" onclick="playAudio('often used phrase 22')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「ポケモン」のHPは何ですか？</td>
+                      <td>How much HP does “Pokémon” have? <button class="audio-button" onclick="playAudio('often used phrase 23')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>山札を触ります</td>
+                      <td>I search my deck for “card” <button class="audio-button" onclick="playAudio('often used phrase 24')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>「カード」を手札に加えます</td>
+                      <td>I add “card” to my hand. <button class="audio-button" onclick="playAudio('often used phrase 25')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>対象なし</td>
+                      <td>No target <button class="audio-button" onclick="playAudio('often used phrase 26')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>山札をまた触ります</td>
+                      <td>I will search my deck again <button class="audio-button" onclick="playAudio('often used phrase 27')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>あなたのポケモンを気絶させます</td>
+                      <td>I knockout your Pokémon <button class="audio-button" onclick="playAudio('often used phrase 28')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>サイド「x枚」をとります</td>
+                      <td>I take “x prize card(s)” <button class="audio-button" onclick="playAudio('often used phrase 29')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>次の試合に入りましょう (Bo3の場合)</td>
+                      <td>Let's move on to the next match. <button class="audio-button" onclick="playAudio('often used phrase 32')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>投了します</td>
+                      <td>I forfeit <button class="audio-button" onclick="playAudio('often used phrase 30')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>降参します</td>
+                      <td>I surrender <button class="audio-button" onclick="playAudio('often used phrase 31')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Table 9: 相手の間違いを指摘すること -->
+                <h3>相手の間違いを指摘すること</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>もうサポートを使いました</td>
+                      <td>You already used a supporter this turn <button class="audio-button" onclick="playAudio('correcting opponent 1')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>もうてばりました</td>
+                      <td>You already attached an energy card <button class="audio-button" onclick="playAudio('correcting opponent 2')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>もうスターパワーを使いました</td>
+                      <td>You already used your star power <button class="audio-button" onclick="playAudio('correcting opponent 3')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>もうその特性を使いました</td>
+                      <td>You already used that ability <button class="audio-button" onclick="playAudio('correcting opponent 4')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>もうその効果を使いました</td>
+                      <td>You already used that effect <button class="audio-button" onclick="playAudio('correcting opponent 5')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>この番に進化できません</td>
+                      <td>You can’t evolve this turn <button class="audio-button" onclick="playAudio('correcting opponent 6')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ごめんなさい、もうわざを宣言しました</td>
+                      <td>Sorry you already declared your attack <button class="audio-button" onclick="playAudio('correcting opponent 7')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ごめんなさい、もう番の終了を宣言しました</td>
+                      <td>Sorry you already ended your turn <button class="audio-button" onclick="playAudio('already ended your turn')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>まだシャッフルしていません</td>
+                      <td>You still haven’t shuffled <button class="audio-button" onclick="playAudio('correcting opponent 8')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>山札を切ってください</td>
+                      <td>Please shuffle your deck <button class="audio-button" onclick="playAudio('correcting opponent 9')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>急いでもらえませんか？</td>
+                      <td>Can you hurry up? <button class="audio-button" onclick="playAudio('correcting opponent 10')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>急いでもらえませんか？</td>
+                      <td>Can you play faster? <button class="audio-button" onclick="playAudio('correcting opponent 11')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>急ぎましょう</td>
+                      <td>Let's play faster <button class="audio-button" onclick="playAudio('lets play faster')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>時間がなくなっています</td>
+                      <td>We are running out of time <button class="audio-button" onclick="playAudio('correcting opponent 12')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>時間がきついです</td>
+                      <td>There’s not much time left <button class="audio-button" onclick="playAudio('correcting opponent 13')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>サイコロを振り直してください</td>
+                      <td>Please roll the die again <button class="audio-button" onclick="playAudio('correcting opponent 14')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>コインをやり直してください</td>
+                      <td>Please flip the coin again <button class="audio-button" onclick="playAudio('correcting opponent 15')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ジャッジを呼びます</td>
+                      <td>I will call a judge <button class="audio-button" onclick="playAudio('correcting opponent 16')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>ジャッジを呼びましょう</td>
+                      <td>Let's call a judge <button class="audio-button" onclick="playAudio('correcting opponent 17')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Table 10: 試合の後 -->
+                <h3>試合の後</h3>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>日本語</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>いい試合だった</td>
+                      <td>Good game <button class="audio-button" onclick="playAudio('after battle 1')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>惜しかった</td>
+                      <td>It was a close match <button class="audio-button" onclick="playAudio('after battle 2')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>いいデッキを持っている</td>
+                      <td>You have a good deck <button class="audio-button" onclick="playAudio('after battle 3')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>xは全部サイド落ちだった</td>
+                      <td>All my x were prized <button class="audio-button" onclick="playAudio('after battle 4')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>私の初手は強かった</td>
+                      <td>My opening hand was strong <button class="audio-button" onclick="playAudio('after battle 5')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>事故らなくてよかった</td>
+                      <td>I’m glad I didn’t brick <button class="audio-button" onclick="playAudio('after battle 6')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>対戦してくれてありがとうございます</td>
+                      <td>Thank you for playing <button class="audio-button" onclick="playAudio('after battle 7')"><i class="fas fa-volume-up"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p> 
+            </div>
+          </div>
+
+
+      
+    </div>
+  </div>
+</div>
+</div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">&copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved</p>  </div>
+</footer>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

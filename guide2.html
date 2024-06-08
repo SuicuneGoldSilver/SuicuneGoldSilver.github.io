@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>ポケカ日英単語リスト (2024年の環境カード)</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .card-img-crop {
+      position: relative;
+      overflow: hidden;
+      height: 400px; /* 80% of 200px */
+    }
+    .card-img-crop img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+
+    .audio-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #a9a9a9;
+            font-size: 16px;
+        }
+        .audio-button:hover {
+            color: #a9a9a9b0;
+        }
+    </style>
+
+<script>
+  function playAudio(word) {
+      var audio = new Audio('audio2/' + word + '.m4a');
+      audio.play();
+  }
+</script>
+
+  <!-- Guides icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About Me</h4>
+          <p class="text-white">Hi, I'm Nick, also known as SuicuneGS. I'm originally from the US, now living in Japan, and am an avid Pokémon card player.
+            When I moved to Japan, I realized the need for English resources in the Pokémon card scene. So, I created this site to help English-speaking players navigate Japanese tournaments and Japanese players compete abroad!
+            <br><br>
+            Thanks for stopping by; I hope you find the guides helpful!
+          </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://twitter.com/SuicuneGS" class="text-white">Follow on Twitter</a></li>
+            <li><a href="https://www.youtube.com/channel/UCK4LrVdU3ey_nkRitr0WlYA" class="text-white">Subscribe on YouTube</a></li>
+            <li><a href="mailto:SuicuneGoldSilver@gmail.com" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="guides.html" class="navbar-brand d-flex align-items-center">
+        <i class="bi bi-book me-2"></i>
+        <strong>Guides</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 entries">
+
+          <!--Image for image cap-->
+          <div class="card">
+            <div class="card-img-crop">
+              <img src="images/lugia.JPG" class="card-img-top" alt="Image cap">
+            </div>
+            
+    
+            <div class="card-body">
+              <!--Title for image cap-->
+              <h2 class="card-title">ポケカ日英単語リスト (2024年の環境カード)</h2>
+              
+              <!--Text for image cap-->
+              <p class="card-text">
+                
+                <p>日本語版カード検索： <a href="https://www.pokemon-card.com/card-search/">https://www.pokemon-card.com/card-search/</a></p>
+                <p>英語版カード検索： <a href="https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/">https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/</a></p>
+
+                <h3>ポケモン</h3>
+                <table class = "table">
+                  <tr>
+                    <th>日本語</th>
+                    <th>English</th>
+                  </tr>
+                  <tr>
+                    <td>アーケオス</td>
+                    <td>Archeops <button class="audio-button" onclick="playAudio('Archeops')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>チラーミィ</td>
+                    <td>Minccino <button class="audio-button" onclick="playAudio('Minccino')"><i class="fas fa-volume-up"></i></td>
+                  </tr>
+                  <tr>
+                    <td>チラチーノ</td>
+                    <td>Cinccino <button class="audio-button" onclick="playAudio('Cinccino')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ネオラント</td>
+                    <td>Lumineon <button class="audio-button" onclick="playAudio('Lumineon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>テツノカイナ</td>
+                    <td>Iron Hands <button class="audio-button" onclick="playAudio('Iron Hands')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ハバタクカミ</td>
+                    <td>Flutter Mane <button class="audio-button" onclick="playAudio('Flutter Mane')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>テツノツイバム</td>
+                    <td>Iron Crown <button class="audio-button" onclick="playAudio('Iron Crown')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>コレクレー</td>
+                    <td>Gimmighoul <button class="audio-button" onclick="playAudio('Gimmighoul')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>サーフゴー</td>
+                    <td>Gholdengo <button class="audio-button" onclick="playAudio('Gholdengo')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>タケルライコ</td>
+                    <td>Raging Bolt <button class="audio-button" onclick="playAudio('Raging Bolt')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>イーユイ</td>
+                    <td>Chi-Yu <button class="audio-button" onclick="playAudio('Chi-Yu')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>トドロクツキ</td>
+                    <td>Roaring Moon <button class="audio-button" onclick="playAudio('Roaring Moon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ゲッコウガ</td>
+                    <td>Greninja <button class="audio-button" onclick="playAudio('Greninja')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ケロマツ</td>
+                    <td>Froakie <button class="audio-button" onclick="playAudio('Froakie')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ゲコガシラ</td>
+                    <td>Frogadier <button class="audio-button" onclick="playAudio('Frogadier')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ピィ</td>
+                    <td>Cleffa <button class="audio-button" onclick="playAudio('Cleffa')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ユキワラシ</td>
+                    <td>Snorunt <button class="audio-button" onclick="playAudio('Snorunt')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ユキメノコ</td>
+                    <td>Froslass <button class="audio-button" onclick="playAudio('Froslass')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>カビゴン</td>
+                    <td>Snorlax <button class="audio-button" onclick="playAudio('Snorlax')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>かがやくフーディン</td>
+                    <td>Radiant Alakazam <button class="audio-button" onclick="playAudio('Radiant Alakazam')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>かがやくゲッコウガ</td>
+                    <td>Radiant Greninja <button class="audio-button" onclick="playAudio('Radiant Greninja')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>かがやくリザードン</td>
+                    <td>Radiant Charizard <button class="audio-button" onclick="playAudio('Radiant Charizard')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ミミッキュ</td>
+                    <td>Mimikyu <button class="audio-button" onclick="playAudio('Mimikyu')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ピジョット</td>
+                    <td>Pidgeot <button class="audio-button" onclick="playAudio('Pidgeot')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>パオジアン</td>
+                    <td>Chien-Pao <button class="audio-button" onclick="playAudio('Chien-Pao')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>セグレイブ</td>
+                    <td>Baxcalibur <button class="audio-button" onclick="playAudio('Baxcalibur')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>セビエ</td>
+                    <td>Frigibax <button class="audio-button" onclick="playAudio('Frigibax')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>パルキア</td>
+                    <td>Palkia <button class="audio-button" onclick="playAudio('Palkia')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ミカルゲ</td>
+                    <td>Spiritomb <button class="audio-button" onclick="playAudio('Spiritomb')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ミライドン</td>
+                    <td>Miraidon <button class="audio-button" onclick="playAudio('Miraidon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ライチュウ</td>
+                    <td>Raichu <button class="audio-button" onclick="playAudio('Raichu')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>サンダー</td>
+                    <td>Zapdos <button class="audio-button" onclick="playAudio('Zapdos')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>サーナイト</td>
+                    <td>Gardevoir <button class="audio-button" onclick="playAudio('Gardevoir')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>キルリア</td>
+                    <td>Kirlia <button class="audio-button" onclick="playAudio('Kirlia')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ラルトス</td>
+                    <td>Ralts <button class="audio-button" onclick="playAudio('Ralts')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>フワンテ</td>
+                    <td>Drifloon <button class="audio-button" onclick="playAudio('Drifloon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>サケブシッポ</td>
+                    <td>Scream Tail <button class="audio-button" onclick="playAudio('Scream Tail')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ミュウ</td>
+                    <td>Mew <button class="audio-button" onclick="playAudio('Mew')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>イキリンコ</td>
+                    <td>Squawkabilly <button class="audio-button" onclick="playAudio('Squawkabilly')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>マシマシラ</td>
+                    <td>Munkidori <button class="audio-button" onclick="playAudio('Munkidori')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ハピナス</td>
+                    <td>Blissey <button class="audio-button" onclick="playAudio('Blissey')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ラッキー</td>
+                    <td>Chansey <button class="audio-button" onclick="playAudio('Chansey')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>コライドン</td>
+                    <td>Koraidon <button class="audio-button" onclick="playAudio('Koraidon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ドラパルト</td>
+                    <td>Dragapult <button class="audio-button" onclick="playAudio('Dragapult')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ドラメシヤ</td>
+                    <td>Dreepy <button class="audio-button" onclick="playAudio('Dreepy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ドロンチ</td>
+                    <td>Drakloak <button class="audio-button" onclick="playAudio('Drakloak')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ネイティオ</td>
+                    <td>Xatu <button class="audio-button" onclick="playAudio('Xatu')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ネイティ</td>
+                    <td>Natu <button class="audio-button" onclick="playAudio('Natu')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>シャリタツ</td>
+                    <td>Tatsugiri <button class="audio-button" onclick="playAudio('Tatsugiri')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ロトム</td>
+                    <td>Rotom <button class="audio-button" onclick="playAudio('Rotom')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>オーガポン</td>
+                    <td>Ogerpon <button class="audio-button" onclick="playAudio('Ogerpon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>リザードン</td>
+                    <td>Charizard <button class="audio-button" onclick="playAudio('Charizard')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>リザード</td>
+                    <td>Charmeleon <button class="audio-button" onclick="playAudio('Charmeleon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ヒトカゲ</td>
+                    <td>Charmander <button class="audio-button" onclick="playAudio('Charmander')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ポッポ</td>
+                    <td>Pidgey <button class="audio-button" onclick="playAudio('Pidgey')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ビッパ</td>
+                    <td>Bidoof <button class="audio-button" onclick="playAudio('Bidoof')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ビーダル</td>
+                    <td>Bibarel <button class="audio-button" onclick="playAudio('Bibarel')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ギラティナ</td>
+                    <td>Giratina <button class="audio-button" onclick="playAudio('Giratina')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>キュワワー</td>
+                    <td>Comfey <button class="audio-button" onclick="playAudio('Comfey')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ウッウ</td>
+                    <td>Cramorant <button class="audio-button" onclick="playAudio('Cramorant')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ヤミラミ</td>
+                    <td>Sableye <button class="audio-button" onclick="playAudio('Sableye')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ガチグマ</td>
+                    <td>Ursaluna <button class="audio-button" onclick="playAudio('Ursaluna')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ライコウ</td>
+                    <td>Raikou <button class="audio-button" onclick="playAudio('Raikou')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>テツノツツミ</td>
+                    <td>Iron Bundle <button class="audio-button" onclick="playAudio('Iron Bundle')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>マナフィ</td>
+                    <td>Manaphy <button class="audio-button" onclick="playAudio('Manaphy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+
+                </table>
+
+                <h3>サポート</h3>
+                <table class="table">
+                  <tr>
+                    <th>日本語</th>
+                    <th>English</th>
+                  </tr>
+                  <tr>
+                    <td>アクロマの実験</td>
+                    <td>Colress’s Experiment <button class="audio-button" onclick="playAudio('Colresss Experiment')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エール団の応援</td>
+                    <td>Team Yell’s Cheer <button class="audio-button" onclick="playAudio('Team Yells Cheer')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エリカの招待</td>
+                    <td>Erika’s Invitation <button class="audio-button" onclick="playAudio('Erikas Invitation')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>オーリム博士の気迫</td>
+                    <td>Professor Sada’s Vitality <button class="audio-button" onclick="playAudio('Professor Sadas Vitality')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>カイ</td>
+                    <td>Iridia <button class="audio-button" onclick="playAudio('Iridia')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ジニア</td>
+                    <td>Jacq <button class="audio-button" onclick="playAudio('Jacq')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ジャッジマン</td>
+                    <td>Judge <button class="audio-button" onclick="playAudio('Judge')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>スグリ</td>
+                    <td>Kieran <button class="audio-button" onclick="playAudio('Kieran')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>セレナ</td>
+                    <td>Serena <button class="audio-button" onclick="playAudio('Serena')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>チェレンの気くばり</td>
+                    <td>Cheren's Care <button class="audio-button" onclick="playAudio('Cherens Care')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ツツジ</td>
+                    <td>Roxanne <button class="audio-button" onclick="playAudio('Roxanne')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ナンジャモ</td>
+                    <td>Iono <button class="audio-button" onclick="playAudio('Iono')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ピーニャ</td>
+                    <td>Giacomo <button class="audio-button" onclick="playAudio('Giacomo')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ビワ</td>
+                    <td>Eri <button class="audio-button" onclick="playAudio('Eri')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ボタン</td>
+                    <td>Penny <button class="audio-button" onclick="playAudio('Penny')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ペパー</td>
+                    <td>Arven <button class="audio-button" onclick="playAudio('Arven')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ボスの指令</td>
+                    <td>Boss’s Orders <button class="audio-button" onclick="playAudio('Bosss Orders')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>フトゥー博士のシナリオ</td>
+                    <td>Professor Turo’s Scenario <button class="audio-button" onclick="playAudio('Professor Turos Scenario')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>博士の研究</td>
+                    <td>Professor’s Research <button class="audio-button" onclick="playAudio('Professors Research')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>マツバの確信</td>
+                    <td>Morty’s Conviction <button class="audio-button" onclick="playAudio('Mortys Conviction')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>暗号マニアの解読</td>
+                    <td>Ciphermaniac’s Codebreaking <button class="audio-button" onclick="playAudio('Ciphermaniacs Codebreaking')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>探検家の先導</td>
+                    <td>Explorer’s Guidance <button class="audio-button" onclick="playAudio('Explorers Guidance')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>シロナの覇気</td>
+                    <td>Cynthia’s Ambition <button class="audio-button" onclick="playAudio('Cynthias Ambition')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ゼイユ</td>
+                    <td>Carmine <button class="audio-button" onclick="playAudio('Carmine')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                </table>
+                
+
+                <h3>グッズ</h3>
+
+                <table class="table">
+                  <tr>
+                    <th>日本語</th>
+                    <th>English</th>
+                  </tr>
+                  <tr>
+                    <td>アンフェアスタンプ</td>
+                    <td>Unfair Stamp <button class="audio-button" onclick="playAudio('Unfair Stamp')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>いれかえ</td>
+                    <td>Switch <button class="audio-button" onclick="playAudio('Switch')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>いれかえカート</td>
+                    <td>Switch Cart <button class="audio-button" onclick="playAudio('Switch Cart')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>おはやし笛</td>
+                    <td>Accompanying Flute <button class="audio-button" onclick="playAudio('Accompanying Flute')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>カウンターキャッチャー</td>
+                    <td>Counter Catcher <button class="audio-button" onclick="playAudio('Counter Catcher')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エネルギーくじ</td>
+                    <td>Energy Lotto <button class="audio-button" onclick="playAudio('Energy Lotto')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エネルギー付け替え</td>
+                    <td>Energy Switch <button class="audio-button" onclick="playAudio('Energy Switch')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エネルギー回収</td>
+                    <td>Energy Retrieval <button class="audio-button" onclick="playAudio('Energy Retrieval')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エネルギー転送</td>
+                    <td>Energy Search <button class="audio-button" onclick="playAudio('Energy Search')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>エレクトリックジェネレーター</td>
+                    <td>Electric Generator <button class="audio-button" onclick="playAudio('Electric Generator')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>キャプチャーアロマ</td>
+                    <td>Capture Aroma <button class="audio-button" onclick="playAudio('Capture Aroma')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>キャンセルコロン</td>
+                    <td>Cancel Cologne <button class="audio-button" onclick="playAudio('Cancel Cologne')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>スーパーエネルギー回収</td>
+                    <td>Super Energy Retrieval <button class="audio-button" onclick="playAudio('Super Energy Retrieval')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>スーパーボール</td>
+                    <td>Great Ball <button class="audio-button" onclick="playAudio('Great Ball')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>すごいつりざお</td>
+                    <td>Super Rod <button class="audio-button" onclick="playAudio('Super Rod')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ダークパッチ</td>
+                    <td>Dark Patch <button class="audio-button" onclick="playAudio('Dark Patch')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ネストボール</td>
+                    <td>Nest Ball <button class="audio-button" onclick="playAudio('Nest Ball')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ハイパーアロマ</td>
+                    <td>Hyper Aroma <button class="audio-button" onclick="playAudio('Hyper Aroma')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ハイパーボール</td>
+                    <td>Ultra Ball <button class="audio-button" onclick="playAudio('Ultra Ball')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ヘビーボール</td>
+                    <td>Heavy Ball <button class="audio-button" onclick="playAudio('Heavy Ball')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ミラージュゲート</td>
+                    <td>Mirage Gate <button class="audio-button" onclick="playAudio('Mirage Gate')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ポケギア</td>
+                    <td>Pokegéar <button class="audio-button" onclick="playAudio('Pokegear')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ポケモン回収サイクロン</td>
+                    <td>Scoop Up Cyclone <button class="audio-button" onclick="playAudio('Scoop Up Cyclone')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>プライムキャッチャー</td>
+                    <td>Prime Catcher <button class="audio-button" onclick="playAudio('Prime Catcher')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ロストスイーパー</td>
+                    <td>Lost Sweeper <button class="audio-button" onclick="playAudio('Lost Sweeper')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>なかよしポフィン</td>
+                    <td>Buddy-Buddy Poffin <button class="audio-button" onclick="playAudio('Buddy-Buddy Poffin')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ふしぎなアメ</td>
+                    <td>Rare Candy <button class="audio-button" onclick="playAudio('Rare Candy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>トレッキングシューズ</td>
+                    <td>Trekking Shoes <button class="audio-button" onclick="playAudio('Trekking Shoes')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>大地の器</td>
+                    <td>Earthen Vessel <button class="audio-button" onclick="playAudio('Earthen Vessel')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                </table>
+                
+                
+                <h3>道具</h3>
+                <table class="table">
+                  <tr>
+                    <th>日本語</th>
+                    <th>English</th>
+                  </tr>
+                  <tr>
+                    <td>こだわりベルト</td>
+                    <td>Choice Belt <button class="audio-button" onclick="playAudio('Choice Belt')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>がくしゅうそうち</td>
+                    <td>EXP. Share <button class="audio-button" onclick="playAudio('EXP. Share')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ゴージャスマント</td>
+                    <td>Luxurious Mount <button class="audio-button" onclick="playAudio('Luxurious Mount')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ハンディサーキュレーター</td>
+                    <td>Handheld Fan <button class="audio-button" onclick="playAudio('Handheld Fan')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ヒーローマント</td>
+                    <td>Hero's Cape <button class="audio-button" onclick="playAudio('Heros Cape')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ヘビーバトン</td>
+                    <td>Heavy Baton <button class="audio-button" onclick="playAudio('Heavy Baton')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ブーストエナジー 未来</td>
+                    <td>Future Booster Energy Capsule <button class="audio-button" onclick="playAudio('Future Booster Energy Capsule')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ブーストエナジー 古代</td>
+                    <td>Ancient Booster Energy Capsule <button class="audio-button" onclick="playAudio('Ancient Booster Energy Capsule')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>まけんきハチマキ</td>
+                    <td>Defiance Band <button class="audio-button" onclick="playAudio('Defiance Band')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ポケモンのどうぐ</td>
+                    <td>Defiance Vest <button class="audio-button" onclick="playAudio('Defiance Vest')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>げんきのハチマキ</td>
+                    <td>Vitality Band <button class="audio-button" onclick="playAudio('Vitality Band')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>勇気のおまもり</td>
+                    <td>Bravery Charm <button class="audio-button" onclick="playAudio('Bravery Charm')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ワザマシン エナジーターボ</td>
+                    <td>Technical Machine: Turbo Energize <button class="audio-button" onclick="playAudio('Technical Machine Turbo Energize')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ワザマシン エヴォリューション</td>
+                    <td>Technical Machine: Evolution <button class="audio-button" onclick="playAudio('Technical Machine Evolution')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ワザマシン デヴォリューション</td>
+                    <td>Technical Machine: Devolution <button class="audio-button" onclick="playAudio('Technical Machine Devolution')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>緊急ボード</td>
+                    <td>Rescue Board <button class="audio-button" onclick="playAudio('Rescue Board')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                </table>
+                
+
+                <h3>スタジアム</h3>
+
+                <table class="table">
+                  <tr>
+                    <th>日本語</th>
+                    <th>English</th>
+                  </tr>
+                  <tr>
+                    <td>チャンピオンズフェスティバル</td>
+                    <td>Champions Festival <button class="audio-button" onclick="playAudio('Champions Festival')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ポケストップ</td>
+                    <td>PokéStop <button class="audio-button" onclick="playAudio('PokeStop')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ポケモンリーグ本部</td>
+                    <td>Pokémon League Headquarters <button class="audio-button" onclick="playAudio('Pokemon League Headquarters')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>マグマの滝壺</td>
+                    <td>Magma Basin <button class="audio-button" onclick="playAudio('Magma Basin')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ビーチコート</td>
+                    <td>Beach Court <button class="audio-button" onclick="playAudio('Beach Court')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ボウルタウン</td>
+                    <td>Artazon <button class="audio-button" onclick="playAudio('Artazon')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ロストシティ</td>
+                    <td>Lost City <button class="audio-button" onclick="playAudio('Lost City')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>お祭り会場</td>
+                    <td>Festival Grounds <button class="audio-button" onclick="playAudio('Festival Grounds')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>シンオウ神殿</td>
+                    <td>Temple of Sinnoh <button class="audio-button" onclick="playAudio('Temple of Sinnoh')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ジャミングタワー</td>
+                    <td>Jamming Tower <button class="audio-button" onclick="playAudio('Jamming Tower')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>タウンデパート</td>
+                    <td>Town Store <button class="audio-button" onclick="playAudio('Town Store')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>月明かりの丘</td>
+                    <td>Moonlit Hill <button class="audio-button" onclick="playAudio('Moonlit Hill')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>テーブルシティ</td>
+                    <td>Mesagoza <button class="audio-button" onclick="playAudio('Mesagoza')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>崩れたスタジアム</td>
+                    <td>Collapsed Stadium <button class="audio-button" onclick="playAudio('Collapsed Stadium')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                </table>
+                
+                <h3>エネルギー</h3>
+                <table class="table">
+                  <tr>
+                    <th>日本語</th>
+                    <th>English</th>
+                  </tr>
+                  <tr>
+                    <td>ギフトエネルギー</td>
+                    <td>Gift Energy <button class="audio-button" onclick="playAudio('Gift Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ジェットエネルギー</td>
+                    <td>Jet Energy <button class="audio-button" onclick="playAudio('Jet Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ダブルターボエネルギー</td>
+                    <td>Double Turbo Energy <button class="audio-button" onclick="playAudio('Double Turbo Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ネオアッパーエネルギー</td>
+                    <td>Neo Upper Energy <button class="audio-button" onclick="playAudio('Neo Upper Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ミストエネルギー</td>
+                    <td>Mist Energy <button class="audio-button" onclick="playAudio('Mist Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>レガシーエネルギー</td>
+                    <td>Legacy Energy <button class="audio-button" onclick="playAudio('Legacy Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>リバーサルエネルギー</td>
+                    <td>Reversal Energy <button class="audio-button" onclick="playAudio('Reversal Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>ルミナスエネルギー</td>
+                    <td>Luminous Energy <button class="audio-button" onclick="playAudio('Luminous Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>セラピーエネルギー</td>
+                    <td>Therapeutic Energy <button class="audio-button" onclick="playAudio('Therapeutic Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                  <tr>
+                    <td>Vガードエネルギー</td>
+                    <td>V Guard Energy <button class="audio-button" onclick="playAudio('V Guard Energy')"><i class="fas fa-volume-up"></i></button></td>
+                  </tr>
+                </table>
+                
+
+              </p> 
+            </div>
+          </div>
+
+
+      
+    </div>
+  </div>
+</div>
+</div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">&copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved</p>  </div>
+</footer>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
