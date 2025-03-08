@@ -1,0 +1,5 @@
+bp = battle partners
+pd = paradise dragona
+seb = super electric breaker
+tfex = terastal fest ex
+

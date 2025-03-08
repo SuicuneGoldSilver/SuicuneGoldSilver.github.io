@@ -1,0 +1,1685 @@
+[
+  {
+      "id": "tfex-1",
+      "japaneseName": "スボミー",
+      "englishName": "Budew",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/1.jpg",
+      "englishImage": "images/sets/tfex/en/1.jpg"
+  },
+  {
+      "id": "tfex-2",
+      "japaneseName": "リーフィア",
+      "englishName": "Leafeon",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/2.jpg",
+      "englishImage": "images/sets/tfex/en/2.jpg"
+  },
+  {
+      "id": "tfex-3",
+      "japaneseName": "リフィアーex",
+      "englishName": "Leafeon ex",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/3.jpg",
+      "englishImage": "images/sets/tfex/en/3.jpg"
+  },
+  {
+      "id": "tfex-4",
+      "japaneseName": "モンメン",
+      "englishName": "Cottonee",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/4.jpg",
+      "englishImage": "images/sets/tfex/en/4.jpg"
+  },
+  {
+      "id": "tfex-5",
+      "japaneseName": "エルフーン",
+      "englishName": "Whimsicott",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/5.jpg",
+      "englishImage": "images/sets/tfex/en/5.jpg"
+  },
+  {
+      "id": "tfex-6",
+      "japaneseName": "サルノリ",
+      "englishName": "Grookey",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/6.jpg",
+      "englishImage": "images/sets/tfex/en/6.jpg"
+  },
+  {
+      "id": "tfex-7",
+      "japaneseName": "バチンキー",
+      "englishName": "Thwackey",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/7.jpg",
+      "englishImage": "images/sets/tfex/en/7.jpg"
+  },
+  {
+      "id": "tfex-8",
+      "japaneseName": "カジッチュ",
+      "englishName": "Applin",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/8.jpg",
+      "englishImage": "images/sets/tfex/en/8.jpg"
+  },
+  {
+      "id": "tfex-9",
+      "japaneseName": "カミッチュ",
+      "englishName": "Dipplin",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/9.jpg",
+      "englishImage": "images/sets/tfex/en/9.jpg"
+  },
+  {
+      "id": "tfex-10",
+      "japaneseName": "カミツオロチ",
+      "englishName": "Hydrapple ex",
+      "japaneseSetName": "テラスタルフェス",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/tfex/jp/10.jpg",
+      "englishImage": "images/sets/tfex/en/10.jpg"
+  },
+  {
+    "id": "tfex-11",
+    "japaneseName": "アノクサ",
+    "englishName": "Bramblin",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/11.jpg",
+    "englishImage": "images/sets/tfex/en/11.jpg"
+},
+{
+    "id": "tfex-12",
+    "japaneseName": "アノホラグサ",
+    "englishName": "Brambleghast",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/12.jpg",
+    "englishImage": "images/sets/tfex/en/12.jpg"
+},
+{
+    "id": "tfex-13",
+    "japaneseName": "シガロコ",
+    "englishName": "Rellor",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/13.jpg",
+    "englishImage": "images/sets/tfex/en/13.jpg"
+},
+{
+    "id": "tfex-14",
+    "japaneseName": "ベラカス",
+    "englishName": "Rabsca",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/14.jpg",
+    "englishImage": "images/sets/tfex/en/14.jpg"
+},
+{
+    "id": "tfex-15",
+    "japaneseName": "チオンジェン",
+    "englishName": "Wo-Chien",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/15.jpg",
+    "englishImage": "images/sets/tfex/en/15.jpg"
+},
+{
+    "id": "tfex-16",
+    "japaneseName": "テツノイサハex",
+    "englishName": "Iron Leaves ex",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/16.jpg",
+    "englishImage": "images/sets/tfex/en/16.jpg"
+},
+{
+    "id": "tfex-17",
+    "japaneseName": "チャデス",
+    "englishName": "Poltchageist",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/17.jpg",
+    "englishImage": "images/sets/tfex/en/17.jpg"
+},
+{
+    "id": "tfex-18",
+    "japaneseName": "ヤバソチャ",
+    "englishName": "Sinistcha",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/18.jpg",
+    "englishImage": "images/sets/tfex/en/18.jpg"
+},
+{
+    "id": "tfex-19",
+    "japaneseName": "ヤバソチャex",
+    "englishName": "Sinistcha ex",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/19.jpg",
+    "englishImage": "images/sets/tfex/en/19.jpg"
+},
+{
+    "id": "tfex-20",
+    "japaneseName": "オーガポンみどりのめん",
+    "englishName": "Teal Mask Ogerpon ex",
+    "japaneseSetName": "テラスタルフェス",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/tfex/jp/20.jpg",
+    "englishImage": "images/sets/tfex/en/20.jpg"
+},
+{
+  "id": "tfex-21",
+  "japaneseName": "ブースター",
+  "englishName": "Flareon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/21.jpg",
+  "englishImage": "images/sets/tfex/en/21.jpg"
+},
+{
+  "id": "tfex-22",
+  "japaneseName": "ブースターex",
+  "englishName": "Flareon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/22.jpg",
+  "englishImage": "images/sets/tfex/en/22.jpg"
+},
+{
+  "id": "tfex-23",
+  "japaneseName": "カルボウ",
+  "englishName": "Charcadet",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/23.jpg",
+  "englishImage": "images/sets/tfex/en/23.jpg"
+},
+{
+  "id": "tfex-24",
+  "japaneseName": "テツノドクガ",
+  "englishName": "Iron Moth",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/24.jpg",
+  "englishImage": "images/sets/tfex/en/24.jpg"
+},
+{
+  "id": "tfex-25",
+  "japaneseName": "イーユイ",
+  "englishName": "Chi-Yu",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/25.jpg",
+  "englishImage": "images/sets/tfex/en/25.jpg"
+},
+{
+  "id": "tfex-26",
+  "japaneseName": "オーガポンかまどのめん",
+  "englishName": "Hearthflame Mask Ogerpon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/26.jpg",
+  "englishImage": "images/sets/tfex/en/26.jpg"
+},
+{
+  "id": "tfex-27",
+  "japaneseName": "ウガツホムラex",
+  "englishName": "Gouging Fire ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/27.jpg",
+  "englishImage": "images/sets/tfex/en/27.jpg"
+},
+{
+  "id": "tfex-28",
+  "japaneseName": "トサキント",
+  "englishName": "Goldeen",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/28.jpg",
+  "englishImage": "images/sets/tfex/en/28.jpg"
+},
+{
+  "id": "tfex-29",
+  "japaneseName": "アズマオウ",
+  "englishName": "Seaking",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/29.jpg",
+  "englishImage": "images/sets/tfex/en/29.jpg"
+},
+{
+  "id": "tfex-30",
+  "japaneseName": "シャワーズ",
+  "englishName": "Vaporeon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/30.jpg",
+  "englishImage": "images/sets/tfex/en/30.jpg"
+},
+{
+  "id": "tfex-31",
+  "japaneseName": "シャワーズex",
+  "englishName": "Vaporeon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/31.jpg",
+  "englishImage": "images/sets/tfex/en/31.jpg"
+},
+{
+  "id": "tfex-32",
+  "japaneseName": "ワニノコ",
+  "englishName": "Totodile",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/32.jpg",
+  "englishImage": "images/sets/tfex/en/32.jpg"
+},
+{
+  "id": "tfex-33",
+  "japaneseName": "アリゲイツ",
+  "englishName": "Croconaw",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/33.jpg",
+  "englishImage": "images/sets/tfex/en/33.jpg"
+},
+{
+  "id": "tfex-34",
+  "japaneseName": "オーダイル",
+  "englishName": "Feraligatr",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/34.jpg",
+  "englishImage": "images/sets/tfex/en/34.jpg"
+},
+{
+  "id": "tfex-35",
+  "japaneseName": "ヒンバス",
+  "englishName": "Feebas",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/35.jpg",
+  "englishImage": "images/sets/tfex/en/35.jpg"
+},
+{
+  "id": "tfex-36",
+  "japaneseName": "ミロカロス",
+  "englishName": "Milotic",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/36.jpg",
+  "englishImage": "images/sets/tfex/en/36.jpg"
+},
+{
+  "id": "tfex-37",
+  "japaneseName": "ユキワラシ",
+  "englishName": "Snorunt",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/37.jpg",
+  "englishImage": "images/sets/tfex/en/37.jpg"
+},
+{
+  "id": "tfex-38",
+  "japaneseName": "ユキメノコ",
+  "englishName": "Froslass",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/38.jpg",
+  "englishImage": "images/sets/tfex/en/38.jpg"
+},
+{
+  "id": "tfex-39",
+  "japaneseName": "ガブリアスex",
+  "englishName": "Garchomp ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/39.jpg",
+  "englishImage": "images/sets/tfex/en/39.jpg"
+},
+{
+  "id": "tfex-40",
+  "japaneseName": "グレイシア",
+  "englishName": "Glaceon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/40.jpg",
+  "englishImage": "images/sets/tfex/en/40.jpg"
+},
+{
+  "id": "tfex-41",
+  "japaneseName": "グレイシアex",
+  "englishName": "Glaceon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/41.jpg",
+  "englishImage": "images/sets/tfex/en/41.jpg"
+},
+{
+  "id": "tfex-42",
+  "japaneseName": "ウミディグダ",
+  "englishName": "Wiglett",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/42.jpg",
+  "englishImage": "images/sets/tfex/en/42.jpg"
+},
+{
+  "id": "tfex-43",
+  "japaneseName": "ウミトリオ",
+  "englishName": "Wugtrio",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/43.jpg",
+  "englishImage": "images/sets/tfex/en/43.jpg"
+},
+{
+  "id": "tfex-44",
+  "japaneseName": "ナミイルカ",
+  "englishName": "Finizen",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/44.jpg",
+  "englishImage": "images/sets/tfex/en/44.jpg"
+},
+{
+  "id": "tfex-45",
+  "japaneseName": "イルカマン",
+  "englishName": "Palafin",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/45.jpg",
+  "englishImage": "images/sets/tfex/en/45.jpg"
+},
+{
+  "id": "tfex-46",
+  "japaneseName": "イルカマンex",
+  "englishName": "Palafin ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/46.jpg",
+  "englishImage": "images/sets/tfex/en/46.jpg"
+},
+{
+  "id": "tfex-47",
+  "japaneseName": "テツノツツミ",
+  "englishName": "Iron Bundle",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/47.jpg",
+  "englishImage": "images/sets/tfex/en/47.jpg"
+},
+{
+  "id": "tfex-48",
+  "japaneseName": "パオジアン",
+  "englishName": "Chien-Pao",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/48.jpg",
+  "englishImage": "images/sets/tfex/en/48.jpg"
+},
+{
+  "id": "tfex-49",
+  "japaneseName": "ウネルミナモex",
+  "englishName": "Waling Wake ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/49.jpg",
+  "englishImage": "images/sets/tfex/en/49.jpg"
+},
+{
+  "id": "tfex-50",
+  "japaneseName": "オーガポンいどのめんex",
+  "englishName": "Wellspring Mask Ogerpon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/50.jpg",
+  "englishImage": "images/sets/tfex/en/50.jpg"
+},
+{
+  "id": "tfex-51",
+  "japaneseName": "サンダース",
+  "englishName": "Jolteon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/51.jpg",
+  "englishImage": "images/sets/tfex/en/51.jpg"
+},
+{
+  "id": "tfex-52",
+  "japaneseName": "サンダースex",
+  "englishName": "Jolteon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/52.jpg",
+  "englishImage": "images/sets/tfex/en/52.jpg"
+},
+{
+  "id": "tfex-53",
+  "japaneseName": "ゼラオラ",
+  "englishName": "Zeraora",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/53.jpg",
+  "englishImage": "images/sets/tfex/en/53.jpg"
+},
+{
+  "id": "tfex-54",
+  "japaneseName": "テツノカイナex",
+  "englishName": "Iron Hands ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/54.jpg",
+  "englishImage": "images/sets/tfex/en/54.jpg"
+},
+{
+  "id": "tfex-55",
+  "japaneseName": "テツノイバラ",
+  "englishName": "Iron Thorns",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/55.jpg",
+  "englishImage": "images/sets/tfex/en/55.jpg"
+},
+{
+  "id": "tfex-56",
+  "japaneseName": "テツノイバラex",
+  "englishName": "Iron Thorns ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/56.jpg",
+  "englishImage": "images/sets/tfex/en/56.jpg"
+},
+{
+  "id": "tfex-57",
+  "japaneseName": "ケーシィ",
+  "englishName": "Abra",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/57.jpg",
+  "englishImage": "images/sets/tfex/en/57.jpg"
+},
+{
+  "id": "tfex-58",
+  "japaneseName": "ユンゲラー",
+  "englishName": "Kadabra",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/58.jpg",
+  "englishImage": "images/sets/tfex/en/58.jpg"
+},
+{
+  "id": "tfex-59",
+  "japaneseName": "フーディン",
+  "englishName": "Alakazam",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/59.jpg",
+  "englishImage": "images/sets/tfex/en/59.jpg"
+},
+{
+  "id": "tfex-60",
+  "japaneseName": "ネイティ",
+  "englishName": "Natu",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/60.jpg",
+  "englishImage": "images/sets/tfex/en/60.jpg"
+},
+{
+  "id": "tfex-61",
+  "japaneseName": "ネイティオ",
+  "englishName": "Xatu",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/61.jpg",
+  "englishImage": "images/sets/tfex/en/61.jpg"
+},
+{
+  "id": "tfex-62",
+  "japaneseName": "エーフィ",
+  "englishName": "Espeon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/62.jpg",
+  "englishImage": "images/sets/tfex/en/62.jpg"
+},
+{
+  "id": "tfex-63",
+  "japaneseName": "エーフィex",
+  "englishName": "Espeon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/63.jpg",
+  "englishImage": "images/sets/tfex/en/63.jpg"
+},
+{
+  "id": "tfex-64",
+  "japaneseName": "ヨマワル",
+  "englishName": "Duskull",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/64.jpg",
+  "englishImage": "images/sets/tfex/en/64.jpg"
+},
+{
+  "id": "tfex-65",
+  "japaneseName": "サマヨール",
+  "englishName": "Dusclops",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/65.jpg",
+  "englishImage": "images/sets/tfex/en/65.jpg"
+},
+{
+  "id": "tfex-66",
+  "japaneseName": "ヨノワール",
+  "englishName": "Dusknoir",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/66.jpg",
+  "englishImage": "images/sets/tfex/en/66.jpg"
+},
+{
+  "id": "tfex-67",
+  "japaneseName": "ペロッパフ",
+  "englishName": "Swirlix",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/67.jpg",
+  "englishImage": "images/sets/tfex/en/67.jpg"
+},
+{
+  "id": "tfex-68",
+  "japaneseName": "ニンフィア",
+  "englishName": "Sylveon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/68.jpg",
+  "englishImage": "images/sets/tfex/en/68.jpg"
+},
+{
+  "id": "tfex-69",
+  "japaneseName": "ニンフィアex",
+  "englishName": "Sylveon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/69.jpg",
+  "englishImage": "images/sets/tfex/en/69.jpg"
+},
+{
+  "id": "tfex-70",
+  "japaneseName": "ソウブレイズ",
+  "englishName": "Ceruledge",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/70.jpg",
+  "englishImage": "images/sets/tfex/en/70.jpg"
+},
+{
+  "id": "tfex-71",
+  "japaneseName": "サケブシッポ",
+  "englishName": "Scream Tail",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/71.jpg",
+  "englishImage": "images/sets/tfex/en/71.jpg"
+},
+{
+  "id": "tfex-72",
+  "japaneseName": "ハバタクカミ",
+  "englishName": "Flutter Mane",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/72.jpg",
+  "englishImage": "images/sets/tfex/en/72.jpg"
+},
+{
+  "id": "tfex-73",
+  "japaneseName": "コレクレー",
+  "englishName": "Gimmighoul",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/73.jpg",
+  "englishImage": "images/sets/tfex/en/73.jpg"
+},
+{
+  "id": "tfex-74",
+  "japaneseName": "テツノブジンex",
+  "englishName": "Iron Valiant ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/74.jpg",
+  "englishImage": "images/sets/tfex/en/74.jpg"
+},
+{
+  "id": "tfex-75",
+  "japaneseName": "マシマシラ",
+  "englishName": "Munkidori",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/75.jpg",
+  "englishImage": "images/sets/tfex/en/75.jpg"
+},
+{
+  "id": "tfex-76",
+  "japaneseName": "キチキギス",
+  "englishName": "Fezandipiti",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/76.jpg",
+  "englishImage": "images/sets/tfex/en/76.jpg"
+},
+{
+  "id": "tfex-77",
+  "japaneseName": "テツノイワオ",
+  "englishName": "Iron Boulder",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/77.jpg",
+  "englishImage": "images/sets/tfex/en/77.jpg"
+},
+{
+  "id": "tfex-78",
+  "japaneseName": "テツノカシラex",
+  "englishName": "Iron Crown ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/78.jpg",
+  "englishImage": "images/sets/tfex/en/78.jpg"
+},
+{
+  "id": "tfex-79",
+  "japaneseName": "ジーランス",
+  "englishName": "Relicanth",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/79.jpg",
+  "englishImage": "images/sets/tfex/en/79.jpg"
+},
+{
+  "id": "tfex-80",
+  "japaneseName": "グラードン",
+  "englishName": "Groudon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/80.jpg",
+  "englishImage": "images/sets/tfex/en/80.jpg"
+},
+{
+  "id": "tfex-81",
+  "japaneseName": "フカマル",
+  "englishName": "Gible",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/81.jpg",
+  "englishImage": "images/sets/tfex/en/81.jpg"
+},
+{
+  "id": "tfex-82",
+  "japaneseName": "ガバイト",
+  "englishName": "Gabite",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/82.jpg",
+  "englishImage": "images/sets/tfex/en/82.jpg"
+},
+{
+  "id": "tfex-83",
+  "japaneseName": "モグリュー",
+  "englishName": "Drilbur",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/83.jpg",
+  "englishImage": "images/sets/tfex/en/83.jpg"
+},
+{
+  "id": "tfex-84",
+  "japaneseName": "ルチャブル",
+  "englishName": "Hawlucha",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/84.jpg",
+  "englishImage": "images/sets/tfex/en/84.jpg"
+},
+{
+  "id": "tfex-85",
+  "japaneseName": "ガチグマアカツキ",
+  "englishName": "Bloodmoon Ursaluna",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/85.jpg",
+  "englishImage": "images/sets/tfex/en/85.jpg"
+},
+{
+  "id": "tfex-86",
+  "japaneseName": "イダイナキバ",
+  "englishName": "Great Tusk",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/86.jpg",
+  "englishImage": "images/sets/tfex/en/86.jpg"
+},
+{
+  "id": "tfex-87",
+  "japaneseName": "チヲハウハネ",
+  "englishName": "Slither Wing",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/87.jpg",
+  "englishImage": "images/sets/tfex/en/87.jpg"
+},
+{
+  "id": "tfex-88",
+  "japaneseName": "スナノケガワex",
+  "englishName": "Sandy Shocks ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/88.jpg",
+  "englishImage": "images/sets/tfex/en/88.jpg"
+},
+{
+  "id": "tfex-89",
+  "japaneseName": "ディンルー",
+  "englishName": "Ting-Lu",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/9.jpg",
+  "englishImage": "images/sets/tfex/en/9.jpg"
+},
+{
+  "id": "tfex-90",
+  "japaneseName": "イイネイヌ",
+  "englishName": "Okidogi",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/90.jpg",
+  "englishImage": "images/sets/tfex/en/90.jpg"
+},
+{
+  "id": "tfex-91",
+  "japaneseName": "オーガポンいしずえのめんex",
+  "englishName": "Cornerstone Mask Ogerpon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/91.jpg",
+  "englishImage": "images/sets/tfex/en/91.jpg"
+},
+{
+  "id": "tfex-92",
+  "japaneseName": "ブラッキー",
+  "englishName": "Umbreon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/92.jpg",
+  "englishImage": "images/sets/tfex/en/92.jpg"
+},
+{
+  "id": "tfex-93",
+  "japaneseName": "ブラッキーex",
+  "englishName": "Umbreon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/93.jpg",
+  "englishImage": "images/sets/tfex/en/93.jpg"
+},
+{
+  "id": "tfex-94",
+  "japaneseName": "ヤブクロン",
+  "englishName": "Trubbish",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/94.jpg",
+  "englishImage": "images/sets/tfex/en/94.jpg"
+},
+{
+  "id": "tfex-95",
+  "japaneseName": "ダストダス",
+  "englishName": "Garbodor",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/95.jpg",
+  "englishImage": "images/sets/tfex/en/95.jpg"
+},
+{
+  "id": "tfex-96",
+  "japaneseName": "ゾロア",
+  "englishName": "Zorua",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/96.jpg",
+  "englishImage": "images/sets/tfex/en/96.jpg"
+},
+{
+  "id": "tfex-97",
+  "japaneseName": "ゾロアーク",
+  "englishName": "Zoroark",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/97.jpg",
+  "englishImage": "images/sets/tfex/en/97.jpg"
+},
+{
+  "id": "tfex-98",
+  "japaneseName": "モルペコ",
+  "englishName": "Morpeko",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/98.jpg",
+  "englishImage": "images/sets/tfex/en/98.jpg"
+},
+{
+  "id": "tfex-99",
+  "japaneseName": "アラブルタケ",
+  "englishName": "Brute Bonnet",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/99.jpg",
+  "englishImage": "images/sets/tfex/en/99.jpg"
+},
+{
+  "id": "tfex-100",
+  "japaneseName": "トドロクツキ",
+  "englishName": "Roaring Moon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/100.jpg",
+  "englishImage": "images/sets/tfex/en/100.jpg"
+},
+{
+  "id": "tfex-101",
+  "japaneseName": "トドロクツキex",
+  "englishName": "Roaring Moon ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/101.jpg",
+  "englishImage": "images/sets/tfex/en/101.jpg"
+},
+{
+  "id": "tfex-102",
+  "japaneseName": "イイネイヌex",
+  "englishName": "Okidogi ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/102.jpg",
+  "englishImage": "images/sets/tfex/en/102.jpg"
+},
+{
+  "id": "tfex-103",
+  "japaneseName": "マシマシラex",
+  "englishName": "Munkidori ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/103.jpg",
+  "englishImage": "images/sets/tfex/en/103.jpg"
+},
+{
+  "id": "tfex-104",
+  "japaneseName": "キチキギスex",
+  "englishName": "Fezandipiti ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/104.jpg",
+  "englishImage": "images/sets/tfex/en/104.jpg"
+},
+{
+  "id": "tfex-105",
+  "japaneseName": "モモワロウex",
+  "englishName": "Pecharunt ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/105.jpg",
+  "englishImage": "images/sets/tfex/en/105.jpg"
+},
+{
+  "id": "tfex-106",
+  "japaneseName": "ダンバル",
+  "englishName": "Beldum",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/106.jpg",
+  "englishImage": "images/sets/tfex/en/106.jpg"
+},
+{
+  "id": "tfex-107",
+  "japaneseName": "メタング",
+  "englishName": "Metang",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/107.jpg",
+  "englishImage": "images/sets/tfex/en/107.jpg"
+},
+{
+  "id": "tfex-108",
+  "japaneseName": "ジラーチ",
+  "englishName": "Jirachi",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/108.jpg",
+  "englishImage": "images/sets/tfex/en/108.jpg"
+},
+{
+  "id": "tfex-109",
+  "japaneseName": "ヒトツキ",
+  "englishName": "Honedge",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/109.jpg",
+  "englishImage": "images/sets/tfex/en/109.jpg"
+},
+{
+  "id": "tfex-110",
+  "japaneseName": "ニダンギル",
+  "englishName": "Doublade",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/110.jpg",
+  "englishImage": "images/sets/tfex/en/110.jpg"
+},
+{
+  "id": "tfex-111",
+  "japaneseName": "ギルガルド",
+  "englishName": "Aegislash",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/111.jpg",
+  "englishImage": "images/sets/tfex/en/111.jpg"
+},
+{
+  "id": "tfex-112",
+  "japaneseName": "ジュラルドン",
+  "englishName": "Duraludon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/112.jpg",
+  "englishImage": "images/sets/tfex/en/112.jpg"
+},
+{
+  "id": "tfex-113",
+  "japaneseName": "ブリジュラス",
+  "englishName": "Archaludon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/113.jpg",
+  "englishImage": "images/sets/tfex/en/113.jpg"
+},
+{
+  "id": "tfex-114",
+  "japaneseName": "ブロロン",
+  "englishName": "Varoom",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/114.jpg",
+  "englishImage": "images/sets/tfex/en/114.jpg"
+},
+{
+  "id": "tfex-115",
+  "japaneseName": "ブロロローム",
+  "englishName": "Revavroom",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/115.jpg",
+  "englishImage": "images/sets/tfex/en/115.jpg"
+},
+{
+  "id": "tfex-116",
+  "japaneseName": "テツノワダチ",
+  "englishName": "Iron Treads",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/116.jpg",
+  "englishImage": "images/sets/tfex/en/116.jpg"
+},
+{
+  "id": "tfex-117",
+  "japaneseName": "サーフゴーex",
+  "englishName": "Gholdengo ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/117.jpg",
+  "englishImage": "images/sets/tfex/en/117.jpg"
+},
+{
+  "id": "tfex-118",
+  "japaneseName": "ドラメシヤ",
+  "englishName": "Dreepy",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/118.jpg",
+  "englishImage": "images/sets/tfex/en/118.jpg"
+},
+{
+  "id": "tfex-119",
+  "japaneseName": "ドロンチ",
+  "englishName": "Drakloak",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/119.jpg",
+  "englishImage": "images/sets/tfex/en/119.jpg"
+},
+{
+  "id": "tfex-120",
+  "japaneseName": "ドラパルトex",
+  "englishName": "Dragapult ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/120.jpg",
+  "englishImage": "images/sets/tfex/en/120.jpg"
+},
+{
+  "id": "tfex-121",
+  "japaneseName": "シャリタツ",
+  "englishName": "Tatsugiri",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/121.jpg",
+  "englishImage": "images/sets/tfex/en/121.jpg"
+},
+{
+  "id": "tfex-122",
+  "japaneseName": "コライドン",
+  "englishName": "Koraidon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/122.jpg",
+  "englishImage": "images/sets/tfex/en/122.jpg"
+},
+{
+  "id": "tfex-123",
+  "japaneseName": "ミライドン",
+  "englishName": "Miraidon",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/123.jpg",
+  "englishImage": "images/sets/tfex/en/123.jpg"
+},
+{
+  "id": "tfex-124",
+  "japaneseName": "タケルライコex",
+  "englishName": "Raging Bolt ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/124.jpg",
+  "englishImage": "images/sets/tfex/en/124.jpg"
+},
+{
+  "id": "tfex-125",
+  "japaneseName": "イーブイ",
+  "englishName": "Eevee",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/125.jpg",
+  "englishImage": "images/sets/tfex/en/125.jpg"
+},
+{
+  "id": "tfex-126",
+  "japaneseName": "イーブイex",
+  "englishName": "Eevee ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/126.jpg",
+  "englishImage": "images/sets/tfex/en/126.jpg"
+},
+{
+  "id": "tfex-127",
+  "japaneseName": "ホーホー",
+  "englishName": "Hoothoot",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/127.jpg",
+  "englishImage": "images/sets/tfex/en/127.jpg"
+},
+{
+  "id": "tfex-128",
+  "japaneseName": "ヨルノズク",
+  "englishName": "Noctowl",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/128.jpg",
+  "englishImage": "images/sets/tfex/en/128.jpg"
+},
+{
+  "id": "tfex-129",
+  "japaneseName": "ノコッチ",
+  "englishName": "Dunsparce",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/129.jpg",
+  "englishImage": "images/sets/tfex/en/129.jpg"
+},
+{
+  "id": "tfex-130",
+  "japaneseName": "ノココッチ",
+  "englishName": "Dundunsparce",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/130.jpg",
+  "englishImage": "images/sets/tfex/en/130.jpg"
+},
+{
+  "id": "tfex-131",
+  "japaneseName": "スピンロトム",
+  "englishName": "Fan Rotom",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/131.jpg",
+  "englishImage": "images/sets/tfex/en/131.jpg"
+},
+{
+  "id": "tfex-132",
+  "japaneseName": "レジギガス",
+  "englishName": "Regigigas",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/132.jpg",
+  "englishImage": "images/sets/tfex/en/132.jpg"
+},
+{
+  "id": "tfex-133",
+  "japaneseName": "バッフロン",
+  "englishName": "Bouffalant",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/133.jpg",
+  "englishImage": "images/sets/tfex/en/133.jpg"
+},
+{
+  "id": "tfex-134",
+  "japaneseName": "ガチグマアカツキex",
+  "englishName": "Bloodmoon Ursaluna ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/134.jpg",
+  "englishImage": "images/sets/tfex/en/134.jpg"
+},
+{
+  "id": "tfex-135",
+  "japaneseName": "テツノコウベ",
+  "englishName": "Iron Jugulis",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/135.jpg",
+  "englishImage": "images/sets/tfex/en/135.jpg"
+},
+{
+  "id": "tfex-136",
+  "japaneseName": "テラパゴスex",
+  "englishName": "Terapagos ex",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/136.jpg",
+  "englishImage": "images/sets/tfex/en/136.jpg"
+},
+{
+  "id": "tfex-137",
+  "japaneseName": "鬼の仮面",
+  "englishName": "Ogre's Mask",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/137.jpg",
+  "englishImage": "images/sets/tfex/en/137.jpg"
+},
+{
+  "id": "tfex-138",
+  "japaneseName": "改造ハンマー",
+  "englishName": "Enhanced Hammer",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/138.jpg",
+  "englishImage": "images/sets/tfex/en/138.jpg"
+},
+{
+  "id": "tfex-139",
+  "japaneseName": "カウンターキャッチャー",
+  "englishName": "Counter Catcher",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/139.jpg",
+  "englishImage": "images/sets/tfex/en/139.jpg"
+},
+{
+  "id": "tfex-140",
+  "japaneseName": "ガラスのラッパ",
+  "englishName": "Glass Trumpet",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/140.jpg",
+  "englishImage": "images/sets/tfex/en/140.jpg"
+},
+{
+  "id": "tfex-141",
+  "japaneseName": "スーパーエネルギー回収",
+  "englishName": "Superior Energy Retrieval",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/141.jpg",
+  "englishImage": "images/sets/tfex/en/141.jpg"
+},
+{
+  "id": "tfex-142",
+  "japaneseName": "つりざおMAX",
+  "englishName": "Max Rod",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/142.jpg",
+  "englishImage": "images/sets/tfex/en/142.jpg"
+},
+{
+  "id": "tfex-143",
+  "japaneseName": "大地の器",
+  "englishName": "Earthern Vessel",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/143.jpg",
+  "englishImage": "images/sets/tfex/en/143.jpg"
+},
+{
+  "id": "tfex-144",
+  "japaneseName": "テクノレーダー",
+  "englishName": "Techno Radar",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/144.jpg",
+  "englishImage": "images/sets/tfex/en/144.jpg"
+},
+{
+  "id": "tfex-145",
+  "japaneseName": "テラスタルオーブ",
+  "englishName": "Tera Orb",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/145.jpg",
+  "englishImage": "images/sets/tfex/en/145.jpg"
+},
+{
+  "id": "tfex-146",
+  "japaneseName": "トレジャーガジェット",
+  "englishName": "Treasure Tracker",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/146.jpg",
+  "englishImage": "images/sets/tfex/en/146.jpg"
+},
+{
+  "id": "tfex-147",
+  "japaneseName": "なかよしポフィン",
+  "englishName": "Buddy-Buddy Poffin",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/147.jpg",
+  "englishImage": "images/sets/tfex/en/147.jpg"
+},
+{
+  "id": "tfex-148",
+  "japaneseName": "プライムキャッチャー",
+  "englishName": "Prime Catcher",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/148.jpg",
+  "englishImage": "images/sets/tfex/en/148.jpg"
+},
+{
+  "id": "tfex-149",
+  "japaneseName": "ポケモン回収サイクロン",
+  "englishName": "Scoop Up Cyclone",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/149.jpg",
+  "englishImage": "images/sets/tfex/en/149.jpg"
+},
+{
+  "id": "tfex-150",
+  "japaneseName": "むしとりセット",
+  "englishName": "Bug Catching Set",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/150.jpg",
+  "englishImage": "images/sets/tfex/en/150.jpg"
+},
+{
+  "id": "tfex-151",
+  "japaneseName": "夜のタンカ",
+  "englishName": "Night Stretcher",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/151.jpg",
+  "englishImage": "images/sets/tfex/en/151.jpg"
+},
+{
+  "id": "tfex-152",
+  "japaneseName": "きらめく結晶",
+  "englishName": "Sparkling Crystal",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/152.jpg",
+  "englishImage": "images/sets/tfex/en/152.jpg"
+},
+{
+  "id": "tfex-153",
+  "japaneseName": "緊急ボード",
+  "englishName": "Rescue Board",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/153.jpg",
+  "englishImage": "images/sets/tfex/en/153.jpg"
+},
+{
+  "id": "tfex-154",
+  "japaneseName": "くさりもち",
+  "englishName": "Binding Mochi",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/154.jpg",
+  "englishImage": "images/sets/tfex/en/154.jpg"
+},
+{
+  "id": "tfex-155",
+  "japaneseName": "ゴージャスマント",
+  "englishName": "Luxurious Cape",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/155.jpg",
+  "englishImage": "images/sets/tfex/en/155.jpg"
+},
+{
+  "id": "tfex-156",
+  "japaneseName": "ハバンのみ",
+  "englishName": "Haban Berry",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/156.jpg",
+  "englishImage": "images/sets/tfex/en/156.jpg"
+},
+{
+  "id": "tfex-157",
+  "japaneseName": "ブーストエナジー古代",
+  "englishName": "Ancient Booster Energy Capsule",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/157.jpg",
+  "englishImage": "images/sets/tfex/en/157.jpg"
+},
+{
+  "id": "tfex-158",
+  "japaneseName": "ブーストエナジー未来",
+  "englishName": "Future Booster Energy Capsule",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/158.jpg",
+  "englishImage": "images/sets/tfex/en/158.jpg"
+},
+{
+  "id": "tfex-159",
+  "japaneseName": "マキシマムベルト",
+  "englishName": "Maximum Belt",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/159.jpg",
+  "englishImage": "images/sets/tfex/en/159.jpg"
+},
+{
+  "id": "tfex-160",
+  "japaneseName": "ワザマシンエヴォリューション",
+  "englishName": "Technical Machine: Evolution",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/160.jpg",
+  "englishImage": "images/sets/tfex/en/160.jpg"
+},
+{
+  "id": "tfex-161",
+  "japaneseName": "ワザマシンデヴォリューション",
+  "englishName": "Technical Machine: Devolution",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/161.jpg",
+  "englishImage": "images/sets/tfex/en/161.jpg"
+},
+{
+  "id": "tfex-2",
+  "japaneseName": "アオキの手際",
+  "englishName": "Larry's Skill",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/162.jpg",
+  "englishImage": "images/sets/tfex/en/162.jpg"
+},
+{
+  "id": "tfex-163",
+  "japaneseName": "アカマツ",
+  "englishName": "Crispin",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/163.jpg",
+  "englishImage": "images/sets/tfex/en/163.jpg"
+},
+{
+  "id": "tfex-164",
+  "japaneseName": "アクロマの執念",
+  "englishName": "Colress's Tenacity",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/164.jpg",
+  "englishImage": "images/sets/tfex/en/164.jpg"
+},
+{
+  "id": "tfex-165",
+  "japaneseName": "暗号マニアの解読",
+  "englishName": "Ciphermaniac's Codebreaking",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/165.jpg",
+  "englishImage": "images/sets/tfex/en/165.jpg"
+},
+{
+  "id": "tfex-166",
+  "japaneseName": "アンズの秘技",
+  "englishName": "Janine's Secre Art",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/166.jpg",
+  "englishImage": "images/sets/tfex/en/166.jpg"
+},
+{
+  "id": "tfex-167",
+  "japaneseName": "オーリム博士の気迫",
+  "englishName": "Professor Sada's Vitality",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/167.jpg",
+  "englishImage": "images/sets/tfex/en/167.jpg"
+},
+{
+  "id": "tfex-168",
+  "japaneseName": "スイレンのお世話",
+  "englishName": "Lana's Aid",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/168.jpg",
+  "englishImage": "images/sets/tfex/en/168.jpg"
+},
+{
+  "id": "tfex-169",
+  "japaneseName": "スグリ",
+  "englishName": "Kieran",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/169.jpg",
+  "englishImage": "images/sets/tfex/en/169.jpg"
+},
+{
+  "id": "tfex-170",
+  "japaneseName": "ゼイユ",
+  "englishName": "Carmine",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/170.jpg",
+  "englishImage": "images/sets/tfex/en/170.jpg"
+},
+{
+  "id": "tfex-171",
+  "japaneseName": "タロ",
+  "englishName": "Lacey",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/171.jpg",
+  "englishImage": "images/sets/tfex/en/171.jpg"
+},
+{
+  "id": "tfex-172",
+  "japaneseName": "探検家の先導",
+  "englishName": "Explorer's Guidance",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/172.jpg",
+  "englishImage": "images/sets/tfex/en/172.jpg"
+},
+{
+  "id": "tfex-173",
+  "japaneseName": "ネリネ",
+  "englishName": "Amarys",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/173.jpg",
+  "englishImage": "images/sets/tfex/en/173.jpg"
+},
+{
+  "id": "tfex-174",
+  "japaneseName": "パルデアの仲間たち",
+  "englishName": "Friends in Paldea",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/174.jpg",
+  "englishImage": "images/sets/tfex/en/174.jpg"
+},
+{
+  "id": "tfex-175",
+  "japaneseName": "フトゥー博士のシナリオ",
+  "englishName": "Professor Turo's Scenario",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/175.jpg",
+  "englishImage": "images/sets/tfex/en/175.jpg"
+},
+{
+  "id": "tfex-176",
+  "japaneseName": "ブライア",
+  "englishName": "Briar",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/176.jpg",
+  "englishImage": "images/sets/tfex/en/176.jpg"
+},
+{
+  "id": "tfex-177",
+  "japaneseName": "ベルのまごころ",
+  "englishName": "Bianca's Devotion",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/177.jpg",
+  "englishImage": "images/sets/tfex/en/177.jpg"
+},
+{
+  "id": "tfex-178",
+  "japaneseName": "マツバの確信",
+  "englishName": "Morty's Conviction",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/178.jpg",
+  "englishImage": "images/sets/tfex/en/178.jpg"
+},
+{
+  "id": "tfex-179",
+  "japaneseName": "メロコ",
+  "englishName": "Mela",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/179.jpg",
+  "englishImage": "images/sets/tfex/en/179.jpg"
+},
+{
+  "id": "tfex-180",
+  "japaneseName": "お祭り会場",
+  "englishName": "Festival Grounds",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/180.jpg",
+  "englishImage": "images/sets/tfex/en/180.jpg"
+},
+{
+  "id": "tfex-181",
+  "japaneseName": "ジャミングタワー",
+  "englishName": "Jamming Tower",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/181.jpg",
+  "englishImage": "images/sets/tfex/en/181.jpg"
+},
+{
+  "id": "tfex-182",
+  "japaneseName": "ゼロの大空洞",
+  "englishName": "Area Zero Underdepths",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/182.jpg",
+  "englishImage": "images/sets/tfex/en/182.jpg"
+},
+{
+  "id": "tfex-183",
+  "japaneseName": "月明かりの丘",
+  "englishName": "Moonlit Hill",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/183.jpg",
+  "englishImage": "images/sets/tfex/en/183.jpg"
+},
+{
+  "id": "tfex-184",
+  "japaneseName": "ニュートラルセンター",
+  "englishName": "Neutralization Zone",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/184.jpg",
+  "englishImage": "images/sets/tfex/en/184.jpg"
+},
+{
+  "id": "tfex-185",
+  "japaneseName": "ジェットエネルギー",
+  "englishName": "Jet Energy",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/185.jpg",
+  "englishImage": "images/sets/tfex/en/185.jpg"
+},
+{
+  "id": "tfex-186",
+  "japaneseName": "ミストエネルギー",
+  "englishName": "Mist Energy",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/186.jpg",
+  "englishImage": "images/sets/tfex/en/186.jpg"
+},
+{
+  "id": "tfex-187",
+  "japaneseName": "レガシーエネルギー",
+  "englishName": "Legacy Energy",
+  "japaneseSetName": "テラスタルフェス",
+  "japaneseSetReleaseDate": "12-2-2024",
+  "japaneseImage": "images/sets/tfex/jp/187.jpg",
+  "englishImage": "images/sets/tfex/en/187.jpg"
+}
+]
