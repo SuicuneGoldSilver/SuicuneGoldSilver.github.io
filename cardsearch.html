@@ -68,11 +68,37 @@
   </head>
   <body>
     <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About Me</h4>
+              <p class="text-white">Hi, I'm Nick, also known as SuicuneGS. I'm originally from the US, now living in Japan, and am an avid Pokémon card player.
+                I created this site to help English-speaking players navigate Japanese tournaments, Japanese players compete abroad, and to encourage international play!
+                <br><br>
+                Thanks for stopping by; I hope you find the website helpful!
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/SuicuneGS" class="text-white">Follow on Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UCK4LrVdU3ey_nkRitr0WlYA" class="text-white">Subscribe on YouTube</a></li>
+                <li><a href="mailto:SuicuneGoldSilver@gmail.com" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
           <a href="index.html" class="navbar-brand d-flex align-items-center">
+            
             <strong>SuicuneGS</strong>
           </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </div>
     </header>
@@ -82,10 +108,10 @@
         <input type="text" id="search-input" placeholder="名前やテキスト" />
         <select id="set-select">
           <option value="">セット選択</option>
-          <!--<option value="bp">楽園ドラゴーナ</option>-->
-          <!--<option value="bp">超電ブレイカー</option>-->
-          <option value="tfex">テラスタルフェス</option>
           <!--<option value="bp">バトルパートナーズ</option>-->
+          <option value="tfex">テラスタルフェス</option>
+          <option value="seb">超電ブレイカー</option>
+          <option value="pd">楽園ドラゴーナ</option>
           <!-- Add more options for more sets -->
         </select>
         <button onclick="searchCards()">検索</button>
@@ -97,7 +123,7 @@
     </main>
 
     <script>
-     const allSets = ["tfex", "bp"]; // List of all available sets
+     const allSets = ["tfex", "seb", "pd"]; // List of all available sets
 
     // Load cards from a specific set
     function loadSetData(setName) {

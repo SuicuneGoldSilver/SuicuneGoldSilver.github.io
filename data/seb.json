@@ -1,1803 +1,956 @@
 [
-    {
-        "id": "seb-1",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/1.jpg",
-        "englishImage": "images/sets/seb/en/1.jpg"
-    },
-    {
-        "id": "seb-2",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/2.jpg",
-        "englishImage": "images/sets/seb/en/2.jpg"
-    },
-    {
-        "id": "seb-3",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/3.jpg",
-        "englishImage": "images/sets/seb/en/3.jpg"
-    },
-    {
-        "id": "seb-4",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/4.jpg",
-        "englishImage": "images/sets/seb/en/4.jpg"
-    },
-    {
-        "id": "seb-5",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/5.jpg",
-        "englishImage": "images/sets/seb/en/5.jpg"
-    },
-    {
-        "id": "seb-6",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/6.jpg",
-        "englishImage": "images/sets/seb/en/6.jpg"
-    },
-    {
-        "id": "seb-7",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/7.jpg",
-        "englishImage": "images/sets/seb/en/7.jpg"
-    },
-    {
-        "id": "seb-8",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/8.jpg",
-        "englishImage": "images/sets/seb/en/8.jpg"
-    },
-    {
-        "id": "seb-9",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/9.jpg",
-        "englishImage": "images/sets/seb/en/9.jpg"
-    },
-    {
-        "id": "seb-10",
-        "japaneseName": "",
-        "englishName": "",
-        "japaneseSetName": "テラスタルフェス",
-        "japaneseSetReleaseDate": "12-2-2024",
-        "japaneseImage": "images/sets/seb/jp/10.jpg",
-        "englishImage": "images/sets/seb/en/10.jpg"
-    },
-    {
-      "id": "seb-11",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/11.jpg",
-      "englishImage": "images/sets/seb/en/11.jpg"
-  },
-  {
-      "id": "seb-12",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/12.jpg",
-      "englishImage": "images/sets/seb/en/12.jpg"
-  },
-  {
-      "id": "seb-13",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/13.jpg",
-      "englishImage": "images/sets/seb/en/13.jpg"
-  },
-  {
-      "id": "seb-14",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/14.jpg",
-      "englishImage": "images/sets/seb/en/14.jpg"
-  },
-  {
-      "id": "seb-15",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/15.jpg",
-      "englishImage": "images/sets/seb/en/15.jpg"
-  },
-  {
-      "id": "seb-16",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/16.jpg",
-      "englishImage": "images/sets/seb/en/16.jpg"
-  },
-  {
-      "id": "seb-17",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/17.jpg",
-      "englishImage": "images/sets/seb/en/17.jpg"
-  },
-  {
-      "id": "seb-18",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/18.jpg",
-      "englishImage": "images/sets/seb/en/18.jpg"
-  },
-  {
-      "id": "seb-19",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/19.jpg",
-      "englishImage": "images/sets/seb/en/19.jpg"
-  },
-  {
-      "id": "seb-20",
-      "japaneseName": "",
-      "englishName": "",
-      "japaneseSetName": "テラスタルフェス",
-      "japaneseSetReleaseDate": "12-2-2024",
-      "japaneseImage": "images/sets/seb/jp/20.jpg",
-      "englishImage": "images/sets/seb/en/20.jpg"
-  },
-  {
-    "id": "seb-21",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/21.jpg",
-    "englishImage": "images/sets/seb/en/21.jpg"
-  },
-  {
-    "id": "seb-22",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/22.jpg",
-    "englishImage": "images/sets/seb/en/22.jpg"
-  },
-  {
-    "id": "seb-23",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/23.jpg",
-    "englishImage": "images/sets/seb/en/23.jpg"
-  },
-  {
-    "id": "seb-24",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/24.jpg",
-    "englishImage": "images/sets/seb/en/24.jpg"
-  },
-  {
-    "id": "seb-25",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/25.jpg",
-    "englishImage": "images/sets/seb/en/25.jpg"
-  },
-  {
-    "id": "seb-26",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/26.jpg",
-    "englishImage": "images/sets/seb/en/26.jpg"
-  },
-  {
-    "id": "seb-27",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/27.jpg",
-    "englishImage": "images/sets/seb/en/27.jpg"
-  },
-  {
-    "id": "seb-28",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/28.jpg",
-    "englishImage": "images/sets/seb/en/28.jpg"
-  },
-  {
-    "id": "seb-29",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/29.jpg",
-    "englishImage": "images/sets/seb/en/29.jpg"
-  },
-  {
-    "id": "seb-30",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/30.jpg",
-    "englishImage": "images/sets/seb/en/30.jpg"
-  },
-  {
-    "id": "seb-31",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/31.jpg",
-    "englishImage": "images/sets/seb/en/31.jpg"
-  },
-  {
-    "id": "seb-32",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/32.jpg",
-    "englishImage": "images/sets/seb/en/32.jpg"
-  },
-  {
-    "id": "seb-33",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/33.jpg",
-    "englishImage": "images/sets/seb/en/33.jpg"
-  },
-  {
-    "id": "seb-34",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/34.jpg",
-    "englishImage": "images/sets/seb/en/34.jpg"
-  },
-  {
-    "id": "seb-35",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/35.jpg",
-    "englishImage": "images/sets/seb/en/35.jpg"
-  },
-  {
-    "id": "seb-36",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/36.jpg",
-    "englishImage": "images/sets/seb/en/36.jpg"
-  },
-  {
-    "id": "seb-37",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/37.jpg",
-    "englishImage": "images/sets/seb/en/37.jpg"
-  },
-  {
-    "id": "seb-38",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/38.jpg",
-    "englishImage": "images/sets/seb/en/38.jpg"
-  },
-  {
-    "id": "seb-39",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/39.jpg",
-    "englishImage": "images/sets/seb/en/39.jpg"
-  },
-  {
-    "id": "seb-40",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/40.jpg",
-    "englishImage": "images/sets/seb/en/40.jpg"
-  },
-  {
-    "id": "seb-41",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/41.jpg",
-    "englishImage": "images/sets/seb/en/41.jpg"
-  },
-  {
-    "id": "seb-42",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/42.jpg",
-    "englishImage": "images/sets/seb/en/42.jpg"
-  },
-  {
-    "id": "seb-43",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/43.jpg",
-    "englishImage": "images/sets/seb/en/43.jpg"
-  },
-  {
-    "id": "seb-44",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/44.jpg",
-    "englishImage": "images/sets/seb/en/44.jpg"
-  },
-  {
-    "id": "seb-45",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/45.jpg",
-    "englishImage": "images/sets/seb/en/45.jpg"
-  },
-  {
-    "id": "seb-46",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/46.jpg",
-    "englishImage": "images/sets/seb/en/46.jpg"
-  },
-  {
-    "id": "seb-47",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/47.jpg",
-    "englishImage": "images/sets/seb/en/47.jpg"
-  },
-  {
-    "id": "seb-48",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/48.jpg",
-    "englishImage": "images/sets/seb/en/48.jpg"
-  },
-  {
-    "id": "seb-49",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/49.jpg",
-    "englishImage": "images/sets/seb/en/49.jpg"
-  },
-  {
-    "id": "seb-50",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/50.jpg",
-    "englishImage": "images/sets/seb/en/50.jpg"
-  },
-  {
-    "id": "seb-51",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/51.jpg",
-    "englishImage": "images/sets/seb/en/51.jpg"
-  },
-  {
-    "id": "seb-52",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/52.jpg",
-    "englishImage": "images/sets/seb/en/52.jpg"
-  },
-  {
-    "id": "seb-53",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/53.jpg",
-    "englishImage": "images/sets/seb/en/53.jpg"
-  },
-  {
-    "id": "seb-54",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/54.jpg",
-    "englishImage": "images/sets/seb/en/54.jpg"
-  },
-  {
-    "id": "seb-55",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/55.jpg",
-    "englishImage": "images/sets/seb/en/55.jpg"
-  },
-  {
-    "id": "seb-56",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/56.jpg",
-    "englishImage": "images/sets/seb/en/56.jpg"
-  },
-  {
-    "id": "seb-57",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/57.jpg",
-    "englishImage": "images/sets/seb/en/57.jpg"
-  },
-  {
-    "id": "seb-58",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/58.jpg",
-    "englishImage": "images/sets/seb/en/58.jpg"
-  },
-  {
-    "id": "seb-59",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/59.jpg",
-    "englishImage": "images/sets/seb/en/59.jpg"
-  },
-  {
-    "id": "seb-60",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/60.jpg",
-    "englishImage": "images/sets/seb/en/60.jpg"
-  },
-  {
-    "id": "seb-61",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/61.jpg",
-    "englishImage": "images/sets/seb/en/61.jpg"
-  },
-  {
-    "id": "seb-62",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/62.jpg",
-    "englishImage": "images/sets/seb/en/62.jpg"
-  },
-  {
-    "id": "seb-63",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/63.jpg",
-    "englishImage": "images/sets/seb/en/63.jpg"
-  },
-  {
-    "id": "seb-64",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/64.jpg",
-    "englishImage": "images/sets/seb/en/64.jpg"
-  },
-  {
-    "id": "seb-65",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/65.jpg",
-    "englishImage": "images/sets/seb/en/65.jpg"
-  },
-  {
-    "id": "seb-66",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/66.jpg",
-    "englishImage": "images/sets/seb/en/66.jpg"
-  },
-  {
-    "id": "seb-67",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/67.jpg",
-    "englishImage": "images/sets/seb/en/67.jpg"
-  },
-  {
-    "id": "seb-68",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/68.jpg",
-    "englishImage": "images/sets/seb/en/68.jpg"
-  },
-  {
-    "id": "seb-69",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/69.jpg",
-    "englishImage": "images/sets/seb/en/69.jpg"
-  },
-  {
-    "id": "seb-70",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/70.jpg",
-    "englishImage": "images/sets/seb/en/70.jpg"
-  },
-  {
-    "id": "seb-71",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/71.jpg",
-    "englishImage": "images/sets/seb/en/71.jpg"
-  },
-  {
-    "id": "seb-72",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/72.jpg",
-    "englishImage": "images/sets/seb/en/72.jpg"
-  },
-  {
-    "id": "seb-73",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/73.jpg",
-    "englishImage": "images/sets/seb/en/73.jpg"
-  },
-  {
-    "id": "seb-74",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/74.jpg",
-    "englishImage": "images/sets/seb/en/74.jpg"
-  },
-  {
-    "id": "seb-75",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/75.jpg",
-    "englishImage": "images/sets/seb/en/75.jpg"
-  },
-  {
-    "id": "seb-76",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/76.jpg",
-    "englishImage": "images/sets/seb/en/76.jpg"
-  },
-  {
-    "id": "seb-77",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/77.jpg",
-    "englishImage": "images/sets/seb/en/77.jpg"
-  },
-  {
-    "id": "seb-78",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/78.jpg",
-    "englishImage": "images/sets/seb/en/78.jpg"
-  },
-  {
-    "id": "seb-79",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/79.jpg",
-    "englishImage": "images/sets/seb/en/79.jpg"
-  },
-  {
-    "id": "seb-80",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/80.jpg",
-    "englishImage": "images/sets/seb/en/80.jpg"
-  },
-  {
-    "id": "seb-81",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/81.jpg",
-    "englishImage": "images/sets/seb/en/81.jpg"
-  },
-  {
-    "id": "seb-82",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/82.jpg",
-    "englishImage": "images/sets/seb/en/82.jpg"
-  },
-  {
-    "id": "seb-83",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/83.jpg",
-    "englishImage": "images/sets/seb/en/83.jpg"
-  },
-  {
-    "id": "seb-84",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/84.jpg",
-    "englishImage": "images/sets/seb/en/84.jpg"
-  },
-  {
-    "id": "seb-85",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/85.jpg",
-    "englishImage": "images/sets/seb/en/85.jpg"
-  },
-  {
-    "id": "seb-86",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/86.jpg",
-    "englishImage": "images/sets/seb/en/86.jpg"
-  },
-  {
-    "id": "seb-87",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/87.jpg",
-    "englishImage": "images/sets/seb/en/87.jpg"
-  },
-  {
-    "id": "seb-88",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/88.jpg",
-    "englishImage": "images/sets/seb/en/88.jpg"
-  },
-  {
-    "id": "seb-89",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/9.jpg",
-    "englishImage": "images/sets/seb/en/9.jpg"
-  },
-  {
-    "id": "seb-90",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/90.jpg",
-    "englishImage": "images/sets/seb/en/90.jpg"
-  },
-  {
-    "id": "seb-91",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/91.jpg",
-    "englishImage": "images/sets/seb/en/91.jpg"
-  },
-  {
-    "id": "seb-92",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/92.jpg",
-    "englishImage": "images/sets/seb/en/92.jpg"
-  },
-  {
-    "id": "seb-93",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/93.jpg",
-    "englishImage": "images/sets/seb/en/93.jpg"
-  },
-  {
-    "id": "seb-94",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/94.jpg",
-    "englishImage": "images/sets/seb/en/94.jpg"
-  },
-  {
-    "id": "seb-95",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/95.jpg",
-    "englishImage": "images/sets/seb/en/95.jpg"
-  },
-  {
-    "id": "seb-96",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/96.jpg",
-    "englishImage": "images/sets/seb/en/96.jpg"
-  },
-  {
-    "id": "seb-97",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/97.jpg",
-    "englishImage": "images/sets/seb/en/97.jpg"
-  },
-  {
-    "id": "seb-98",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/98.jpg",
-    "englishImage": "images/sets/seb/en/98.jpg"
-  },
-  {
-    "id": "seb-99",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/99.jpg",
-    "englishImage": "images/sets/seb/en/99.jpg"
-  },
-  {
-    "id": "seb-100",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/100.jpg",
-    "englishImage": "images/sets/seb/en/100.jpg"
-  },
-  {
-    "id": "seb-101",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/101.jpg",
-    "englishImage": "images/sets/seb/en/101.jpg"
-  },
-  {
-    "id": "seb-102",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/102.jpg",
-    "englishImage": "images/sets/seb/en/102.jpg"
-  },
-  {
-    "id": "seb-103",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/103.jpg",
-    "englishImage": "images/sets/seb/en/103.jpg"
-  },
-  {
-    "id": "seb-104",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/104.jpg",
-    "englishImage": "images/sets/seb/en/104.jpg"
-  },
-  {
-    "id": "seb-105",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/105.jpg",
-    "englishImage": "images/sets/seb/en/105.jpg"
-  },
-  {
-    "id": "seb-106",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/106.jpg",
-    "englishImage": "images/sets/seb/en/106.jpg"
-  },
-  {
-    "id": "seb-107",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/107.jpg",
-    "englishImage": "images/sets/seb/en/107.jpg"
-  },
-  {
-    "id": "seb-108",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/108.jpg",
-    "englishImage": "images/sets/seb/en/108.jpg"
-  },
-  {
-    "id": "seb-109",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/109.jpg",
-    "englishImage": "images/sets/seb/en/109.jpg"
-  },
-  {
-    "id": "seb-110",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/110.jpg",
-    "englishImage": "images/sets/seb/en/110.jpg"
-  },
-  {
-    "id": "seb-111",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/111.jpg",
-    "englishImage": "images/sets/seb/en/111.jpg"
-  },
-  {
-    "id": "seb-112",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/112.jpg",
-    "englishImage": "images/sets/seb/en/112.jpg"
-  },
-  {
-    "id": "seb-113",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/113.jpg",
-    "englishImage": "images/sets/seb/en/113.jpg"
-  },
-  {
-    "id": "seb-114",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/114.jpg",
-    "englishImage": "images/sets/seb/en/114.jpg"
-  },
-  {
-    "id": "seb-115",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/115.jpg",
-    "englishImage": "images/sets/seb/en/115.jpg"
-  },
-  {
-    "id": "seb-116",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/116.jpg",
-    "englishImage": "images/sets/seb/en/116.jpg"
-  },
-  {
-    "id": "seb-117",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/117.jpg",
-    "englishImage": "images/sets/seb/en/117.jpg"
-  },
-  {
-    "id": "seb-118",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/118.jpg",
-    "englishImage": "images/sets/seb/en/118.jpg"
-  },
-  {
-    "id": "seb-119",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/119.jpg",
-    "englishImage": "images/sets/seb/en/119.jpg"
-  },
-  {
-    "id": "seb-120",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/120.jpg",
-    "englishImage": "images/sets/seb/en/120.jpg"
-  },
-  {
-    "id": "seb-121",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/121.jpg",
-    "englishImage": "images/sets/seb/en/121.jpg"
-  },
-  {
-    "id": "seb-122",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/122.jpg",
-    "englishImage": "images/sets/seb/en/122.jpg"
-  },
-  {
-    "id": "seb-123",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/123.jpg",
-    "englishImage": "images/sets/seb/en/123.jpg"
-  },
-  {
-    "id": "seb-124",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/124.jpg",
-    "englishImage": "images/sets/seb/en/124.jpg"
-  },
-  {
-    "id": "seb-125",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/125.jpg",
-    "englishImage": "images/sets/seb/en/125.jpg"
-  },
-  {
-    "id": "seb-126",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/126.jpg",
-    "englishImage": "images/sets/seb/en/126.jpg"
-  },
-  {
-    "id": "seb-127",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/127.jpg",
-    "englishImage": "images/sets/seb/en/127.jpg"
-  },
-  {
-    "id": "seb-128",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/128.jpg",
-    "englishImage": "images/sets/seb/en/128.jpg"
-  },
-  {
-    "id": "seb-129",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/129.jpg",
-    "englishImage": "images/sets/seb/en/129.jpg"
-  },
-  {
-    "id": "seb-130",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/130.jpg",
-    "englishImage": "images/sets/seb/en/130.jpg"
-  },
-  {
-    "id": "seb-131",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/131.jpg",
-    "englishImage": "images/sets/seb/en/131.jpg"
-  },
-  {
-    "id": "seb-132",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/132.jpg",
-    "englishImage": "images/sets/seb/en/132.jpg"
-  },
-  {
-    "id": "seb-133",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/133.jpg",
-    "englishImage": "images/sets/seb/en/133.jpg"
-  },
-  {
-    "id": "seb-134",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/134.jpg",
-    "englishImage": "images/sets/seb/en/134.jpg"
-  },
-  {
-    "id": "seb-135",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/135.jpg",
-    "englishImage": "images/sets/seb/en/135.jpg"
-  },
-  {
-    "id": "seb-136",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/136.jpg",
-    "englishImage": "images/sets/seb/en/136.jpg"
-  },
-  {
-    "id": "seb-137",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/137.jpg",
-    "englishImage": "images/sets/seb/en/137.jpg"
-  },
-  {
-    "id": "seb-138",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/138.jpg",
-    "englishImage": "images/sets/seb/en/138.jpg"
-  },
-  {
-    "id": "seb-139",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/139.jpg",
-    "englishImage": "images/sets/seb/en/139.jpg"
-  },
-  {
-    "id": "seb-140",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/140.jpg",
-    "englishImage": "images/sets/seb/en/140.jpg"
-  },
-  {
-    "id": "seb-141",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/141.jpg",
-    "englishImage": "images/sets/seb/en/141.jpg"
-  },
-  {
-    "id": "seb-142",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/142.jpg",
-    "englishImage": "images/sets/seb/en/142.jpg"
-  },
-  {
-    "id": "seb-143",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/143.jpg",
-    "englishImage": "images/sets/seb/en/143.jpg"
-  },
-  {
-    "id": "seb-144",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/144.jpg",
-    "englishImage": "images/sets/seb/en/144.jpg"
-  },
-  {
-    "id": "seb-145",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/145.jpg",
-    "englishImage": "images/sets/seb/en/145.jpg"
-  },
-  {
-    "id": "seb-146",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/146.jpg",
-    "englishImage": "images/sets/seb/en/146.jpg"
-  },
-  {
-    "id": "seb-147",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/147.jpg",
-    "englishImage": "images/sets/seb/en/147.jpg"
-  },
-  {
-    "id": "seb-148",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/148.jpg",
-    "englishImage": "images/sets/seb/en/148.jpg"
-  },
-  {
-    "id": "seb-149",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/149.jpg",
-    "englishImage": "images/sets/seb/en/149.jpg"
-  },
-  {
-    "id": "seb-150",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/150.jpg",
-    "englishImage": "images/sets/seb/en/150.jpg"
-  },
-  {
-    "id": "seb-151",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/151.jpg",
-    "englishImage": "images/sets/seb/en/151.jpg"
-  },
-  {
-    "id": "seb-152",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/152.jpg",
-    "englishImage": "images/sets/seb/en/152.jpg"
-  },
-  {
-    "id": "seb-153",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/153.jpg",
-    "englishImage": "images/sets/seb/en/153.jpg"
-  },
-  {
-    "id": "seb-154",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/154.jpg",
-    "englishImage": "images/sets/seb/en/154.jpg"
-  },
-  {
-    "id": "seb-155",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/155.jpg",
-    "englishImage": "images/sets/seb/en/155.jpg"
-  },
-  {
-    "id": "seb-156",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/156.jpg",
-    "englishImage": "images/sets/seb/en/156.jpg"
-  },
-  {
-    "id": "seb-157",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/157.jpg",
-    "englishImage": "images/sets/seb/en/157.jpg"
-  },
-  {
-    "id": "seb-158",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/158.jpg",
-    "englishImage": "images/sets/seb/en/158.jpg"
-  },
-  {
-    "id": "seb-159",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/159.jpg",
-    "englishImage": "images/sets/seb/en/159.jpg"
-  },
-  {
-    "id": "seb-160",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/160.jpg",
-    "englishImage": "images/sets/seb/en/160.jpg"
-  },
-  {
-    "id": "seb-161",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/161.jpg",
-    "englishImage": "images/sets/seb/en/161.jpg"
-  },
-  {
-    "id": "seb-2",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/162.jpg",
-    "englishImage": "images/sets/seb/en/162.jpg"
-  },
-  {
-    "id": "seb-163",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/163.jpg",
-    "englishImage": "images/sets/seb/en/163.jpg"
-  },
-  {
-    "id": "seb-164",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/164.jpg",
-    "englishImage": "images/sets/seb/en/164.jpg"
-  },
-  {
-    "id": "seb-165",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/165.jpg",
-    "englishImage": "images/sets/seb/en/165.jpg"
-  },
-  {
-    "id": "seb-166",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/166.jpg",
-    "englishImage": "images/sets/seb/en/166.jpg"
-  },
-  {
-    "id": "seb-167",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/167.jpg",
-    "englishImage": "images/sets/seb/en/167.jpg"
-  },
-  {
-    "id": "seb-168",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/168.jpg",
-    "englishImage": "images/sets/seb/en/168.jpg"
-  },
-  {
-    "id": "seb-169",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/169.jpg",
-    "englishImage": "images/sets/seb/en/169.jpg"
-  },
-  {
-    "id": "seb-170",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/170.jpg",
-    "englishImage": "images/sets/seb/en/170.jpg"
-  },
-  {
-    "id": "seb-171",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/171.jpg",
-    "englishImage": "images/sets/seb/en/171.jpg"
-  },
-  {
-    "id": "seb-172",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/172.jpg",
-    "englishImage": "images/sets/seb/en/172.jpg"
-  },
-  {
-    "id": "seb-173",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/173.jpg",
-    "englishImage": "images/sets/seb/en/173.jpg"
-  },
-  {
-    "id": "seb-174",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/174.jpg",
-    "englishImage": "images/sets/seb/en/174.jpg"
-  },
-  {
-    "id": "seb-175",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/175.jpg",
-    "englishImage": "images/sets/seb/en/175.jpg"
-  },
-  {
-    "id": "seb-176",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/176.jpg",
-    "englishImage": "images/sets/seb/en/176.jpg"
-  },
-  {
-    "id": "seb-177",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/177.jpg",
-    "englishImage": "images/sets/seb/en/177.jpg"
-  },
-  {
-    "id": "seb-178",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/178.jpg",
-    "englishImage": "images/sets/seb/en/178.jpg"
-  },
-  {
-    "id": "seb-179",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/179.jpg",
-    "englishImage": "images/sets/seb/en/179.jpg"
-  },
-  {
-    "id": "seb-180",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/180.jpg",
-    "englishImage": "images/sets/seb/en/180.jpg"
-  },
-  {
-    "id": "seb-181",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/181.jpg",
-    "englishImage": "images/sets/seb/en/181.jpg"
-  },
-  {
-    "id": "seb-182",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/182.jpg",
-    "englishImage": "images/sets/seb/en/182.jpg"
-  },
-  {
-    "id": "seb-183",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/183.jpg",
-    "englishImage": "images/sets/seb/en/183.jpg"
-  },
-  {
-    "id": "seb-184",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/184.jpg",
-    "englishImage": "images/sets/seb/en/184.jpg"
-  },
-  {
-    "id": "seb-185",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/185.jpg",
-    "englishImage": "images/sets/seb/en/185.jpg"
-  },
-  {
-    "id": "seb-186",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/186.jpg",
-    "englishImage": "images/sets/seb/en/186.jpg"
-  },
-  {
-    "id": "seb-187",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/187.jpg",
-    "englishImage": "images/sets/seb/en/187.jpg"
-  },
-  {
-    "id": "seb-188",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/188.jpg",
-    "englishImage": "images/sets/seb/en/188.jpg"
-  },
-  {
-    "id": "seb-189",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/189.jpg",
-    "englishImage": "images/sets/seb/en/189.jpg"
-  },
-  {
-    "id": "seb-190",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/190.jpg",
-    "englishImage": "images/sets/seb/en/190.jpg"
-  },
-  {
-    "id": "seb-191",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/191.jpg",
-    "englishImage": "images/sets/seb/en/191.jpg"
-  },
-  {
-    "id": "seb-192",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/192.jpg",
-    "englishImage": "images/sets/seb/en/192.jpg"
-  },
-  {
-    "id": "seb-193",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/193.jpg",
-    "englishImage": "images/sets/seb/en/193.jpg"
-  },
-  {
-    "id": "seb-194",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/194.jpg",
-    "englishImage": "images/sets/seb/en/194.jpg"
-  },
-  {
-    "id": "seb-195",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/195.jpg",
-    "englishImage": "images/sets/seb/en/195.jpg"
-  },
-  {
-    "id": "seb-196",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/196.jpg",
-    "englishImage": "images/sets/seb/en/196.jpg"
-  },
-  {
-    "id": "seb-197",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/197.jpg",
-    "englishImage": "images/sets/seb/en/197.jpg"
-  },
-  {
-    "id": "seb-198",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/198.jpg",
-    "englishImage": "images/sets/seb/en/198.jpg"
-  },
-  {
-    "id": "seb-199",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/199.jpg",
-    "englishImage": "images/sets/seb/en/199.jpg"
-  },
   {
-    "id": "seb-200",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "テラスタルフェス",
-    "japaneseSetReleaseDate": "12-2-2024",
-    "japaneseImage": "images/sets/seb/jp/200.jpg",
-    "englishImage": "images/sets/seb/en/200.jpg"
-  }
-  ]
-  
+      "id": "seb-1",
+      "japaneseName": "タマタマ",
+      "englishName": "Exeggcute",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/1.jpg",
+      "englishImage": "images/sets/seb/en/1.jpg"
+  },
+  {
+      "id": "seb-2",
+      "japaneseName": "ナッシー",
+      "englishName": "Exeggutor",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/2.jpg",
+      "englishImage": "images/sets/seb/en/2.jpg"
+  },
+  {
+      "id": "seb-3",
+      "japaneseName": "アイアントex",
+      "englishName": "Durant ex",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/3.jpg",
+      "englishImage": "images/sets/seb/en/3.jpg"
+  },
+  {
+      "id": "seb-4",
+      "japaneseName": "コフキムシ",
+      "englishName": "Scatterbug",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/4.jpg",
+      "englishImage": "images/sets/seb/en/4.jpg"
+  },
+  {
+      "id": "seb-5",
+      "japaneseName": "コフーライ",
+      "englishName": "Spewpa",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/5.jpg",
+      "englishImage": "images/sets/seb/en/5.jpg"
+  },
+  {
+      "id": "seb-6",
+      "japaneseName": "ビビヨン",
+      "englishName": "Vivillon",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/6.jpg",
+      "englishImage": "images/sets/seb/en/6.jpg"
+  },
+  {
+      "id": "seb-7",
+      "japaneseName": "カブサイジ",
+      "englishName": "Capsakid",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/7.jpg",
+      "englishImage": "images/sets/seb/en/7.jpg"
+  },
+  {
+      "id": "seb-8",
+      "japaneseName": "シガロコ",
+      "englishName": "Rellor",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/8.jpg",
+      "englishImage": "images/sets/seb/en/8.jpg"
+  },
+  {
+      "id": "seb-9",
+      "japaneseName": "ベラカス",
+      "englishName": "Rabsca",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/9.jpg",
+      "englishImage": "images/sets/seb/en/9.jpg"
+  },
+  {
+      "id": "seb-10",
+      "japaneseName": "チオンジェン",
+      "englishName": "Wo-Chien",
+      "japaneseSetName": "超電ブレイカー",
+      "japaneseSetReleaseDate": "10-16-2024",
+      "japaneseImage": "images/sets/seb/jp/10.jpg",
+      "englishImage": "images/sets/seb/en/10.jpg"
+  },
+  {
+    "id": "seb-11",
+    "japaneseName": "パルデアケンタロス",
+    "englishName": "Paldean Tauros",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/11.jpg",
+    "englishImage": "images/sets/seb/en/11.jpg"
+},
+{
+    "id": "seb-12",
+    "japaneseName": "ビクティニ",
+    "englishName": "Victini",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/12.jpg",
+    "englishImage": "images/sets/seb/en/12.jpg"
+},
+{
+    "id": "seb-13",
+    "japaneseName": "メラルバ",
+    "englishName": "Larvesta",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/13.jpg",
+    "englishImage": "images/sets/seb/en/13.jpg"
+},
+{
+    "id": "seb-14",
+    "japaneseName": "ウルガモス",
+    "englishName": "Volcarona",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/14.jpg",
+    "englishImage": "images/sets/seb/en/14.jpg"
+},
+{
+    "id": "seb-15",
+    "japaneseName": "ヤクデ",
+    "englishName": "Sizzlipede",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/15.jpg",
+    "englishImage": "images/sets/seb/en/15.jpg"
+},
+{
+    "id": "seb-16",
+    "japaneseName": "マルヤクデ",
+    "englishName": "Centiskorch",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/16.jpg",
+    "englishImage": "images/sets/seb/en/16.jpg"
+},
+{
+    "id": "seb-17",
+    "japaneseName": "ホゲータ",
+    "englishName": "Fuecoco",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/17.jpg",
+    "englishImage": "images/sets/seb/en/17.jpg"
+},
+{
+    "id": "seb-18",
+    "japaneseName": "アチゲータ",
+    "englishName": "Crocalor",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/18.jpg",
+    "englishImage": "images/sets/seb/en/18.jpg"
+},
+{
+    "id": "seb-19",
+    "japaneseName": "ラウドボーン",
+    "englishName": "Skeledirge",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/19.jpg",
+    "englishImage": "images/sets/seb/en/19.jpg"
+},
+{
+    "id": "seb-20",
+    "japaneseName": "カルボウ",
+    "englishName": "Charcadet",
+    "japaneseSetName": "超電ブレイカー",
+    "japaneseSetReleaseDate": "10-16-2024",
+    "japaneseImage": "images/sets/seb/jp/20.jpg",
+    "englishImage": "images/sets/seb/en/20.jpg"
+},
+{
+  "id": "seb-21",
+  "japaneseName": "グレンアルマ",
+  "englishName": "Armarouge",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/21.jpg",
+  "englishImage": "images/sets/seb/en/21.jpg"
+},
+{
+  "id": "seb-22",
+  "japaneseName": "ソウブレイズ",
+  "englishName": "Ceruledge",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/22.jpg",
+  "englishImage": "images/sets/seb/en/22.jpg"
+},
+{
+  "id": "seb-23",
+  "japaneseName": "スコヴィランex",
+  "englishName": "Scovillain ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/23.jpg",
+  "englishImage": "images/sets/seb/en/23.jpg"
+},
+{
+  "id": "seb-24",
+  "japaneseName": "パルデアケンタロス",
+  "englishName": "Paldean Tauros",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/24.jpg",
+  "englishImage": "images/sets/seb/en/24.jpg"
+},
+{
+  "id": "seb-25",
+  "japaneseName": "ヒンバス",
+  "englishName": "Feebas",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/25.jpg",
+  "englishImage": "images/sets/seb/en/25.jpg"
+},
+{
+  "id": "seb-26",
+  "japaneseName": "ミロカロスex",
+  "englishName": "Milotic ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/26.jpg",
+  "englishImage": "images/sets/seb/en/26.jpg"
+},
+{
+  "id": "seb-27",
+  "japaneseName": "タマザラシ",
+  "englishName": "Spheal",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/27.jpg",
+  "englishImage": "images/sets/seb/en/27.jpg"
+},
+{
+  "id": "seb-28",
+  "japaneseName": "トドグラー",
+  "englishName": "Sealeo",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/28.jpg",
+  "englishImage": "images/sets/seb/en/28.jpg"
+},
+{
+  "id": "seb-29",
+  "japaneseName": "トドゼルガ",
+  "englishName": "Walrein",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/29.jpg",
+  "englishImage": "images/sets/seb/en/29.jpg"
+},
+{
+  "id": "seb-30",
+  "japaneseName": "カラナクシ",
+  "englishName": "Shellos",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/30.jpg",
+  "englishImage": "images/sets/seb/en/30.jpg"
+},
+{
+  "id": "seb-31",
+  "japaneseName": "テツノツツミ",
+  "englishName": "Iron Bundle",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/31.jpg",
+  "englishImage": "images/sets/seb/en/31.jpg"
+},
+{
+  "id": "seb-32",
+  "japaneseName": "パオジアン",
+  "englishName": "Chien-Pao",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/32.jpg",
+  "englishImage": "images/sets/seb/en/32.jpg"
+},
+{
+  "id": "seb-33",
+  "japaneseName": "ピカチュウex",
+  "englishName": "Pikachu ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/33.jpg",
+  "englishImage": "images/sets/seb/en/33.jpg"
+},
+{
+  "id": "seb-34",
+  "japaneseName": "コイル",
+  "englishName": "Magnemite",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/34.jpg",
+  "englishImage": "images/sets/seb/en/34.jpg"
+},
+{
+  "id": "seb-35",
+  "japaneseName": "レアコイル",
+  "englishName": "Magneton",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/35.jpg",
+  "englishImage": "images/sets/seb/en/35.jpg"
+},
+{
+  "id": "seb-36",
+  "japaneseName": "ジバコイル",
+  "englishName": "Magnezone",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/36.jpg",
+  "englishImage": "images/sets/seb/en/36.jpg"
+},
+{
+  "id": "seb-37",
+  "japaneseName": "ロトム",
+  "englishName": "Rotom",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/37.jpg",
+  "englishImage": "images/sets/seb/en/37.jpg"
+},
+{
+  "id": "seb-38",
+  "japaneseName": "シママ",
+  "englishName": "Blitzle",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/38.jpg",
+  "englishImage": "images/sets/seb/en/38.jpg"
+},
+{
+  "id": "seb-39",
+  "japaneseName": "ゼブライカ",
+  "englishName": "Zebstrika",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/39.jpg",
+  "englishImage": "images/sets/seb/en/39.jpg"
+},
+{
+  "id": "seb-40",
+  "japaneseName": "マッギョ",
+  "englishName": "Stunfisk",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/40.jpg",
+  "englishImage": "images/sets/seb/en/40.jpg"
+},
+{
+  "id": "seb-41",
+  "japaneseName": "カプ・コケコ",
+  "englishName": "Tapu Koko",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/41.jpg",
+  "englishImage": "images/sets/seb/en/41.jpg"
+},
+{
+  "id": "seb-42",
+  "japaneseName": "カイデン",
+  "englishName": "Wattrel",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/42.jpg",
+  "englishImage": "images/sets/seb/en/42.jpg"
+},
+{
+  "id": "seb-43",
+  "japaneseName": "タイカイデン",
+  "englishName": "Kilowattrel",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/43.jpg",
+  "englishImage": "images/sets/seb/en/43.jpg"
+},
+{
+  "id": "seb-44",
+  "japaneseName": "ミライドン",
+  "englishName": "Miraidon",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/44.jpg",
+  "englishImage": "images/sets/seb/en/44.jpg"
+},
+{
+  "id": "seb-45",
+  "japaneseName": "トゲピー",
+  "englishName": "Togepi",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/45.jpg",
+  "englishImage": "images/sets/seb/en/45.jpg"
+},
+{
+  "id": "seb-46",
+  "japaneseName": "トゲチック",
+  "englishName": "Togetic",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/46.jpg",
+  "englishImage": "images/sets/seb/en/46.jpg"
+},
+{
+  "id": "seb-47",
+  "japaneseName": "トゲキッス",
+  "englishName": "Togekiss",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/47.jpg",
+  "englishImage": "images/sets/seb/en/47.jpg"
+},
+{
+  "id": "seb-48",
+  "japaneseName": "ユクシー",
+  "englishName": "Uxie",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/48.jpg",
+  "englishImage": "images/sets/seb/en/48.jpg"
+},
+{
+  "id": "seb-49",
+  "japaneseName": "エムリット",
+  "englishName": "Mesprit",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/49.jpg",
+  "englishImage": "images/sets/seb/en/49.jpg"
+},
+{
+  "id": "seb-50",
+  "japaneseName": "アグノム",
+  "englishName": "Azelf",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/50.jpg",
+  "englishImage": "images/sets/seb/en/50.jpg"
+},
+{
+  "id": "seb-51",
+  "japaneseName": "デスマス",
+  "englishName": "Yamask",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/51.jpg",
+  "englishImage": "images/sets/seb/en/51.jpg"
+},
+{
+  "id": "seb-52",
+  "japaneseName": "デスカーン",
+  "englishName": "Cofagrigus",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/52.jpg",
+  "englishImage": "images/sets/seb/en/52.jpg"
+},
+{
+  "id": "seb-53",
+  "japaneseName": "ニャスパー",
+  "englishName": "Espurr",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/53.jpg",
+  "englishImage": "images/sets/seb/en/53.jpg"
+},
+{
+  "id": "seb-54",
+  "japaneseName": "ニャオニクス",
+  "englishName": "Meowstic",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/54.jpg",
+  "englishImage": "images/sets/seb/en/54.jpg"
+},
+{
+  "id": "seb-55",
+  "japaneseName": "デデンネ",
+  "englishName": "Dedenne",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/55.jpg",
+  "englishImage": "images/sets/seb/en/55.jpg"
+},
+{
+  "id": "seb-56",
+  "japaneseName": "スナバァ",
+  "englishName": "Sandygast",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/56.jpg",
+  "englishImage": "images/sets/seb/en/56.jpg"
+},
+{
+  "id": "seb-57",
+  "japaneseName": "シロデスナex",
+  "englishName": "Palossand ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/57.jpg",
+  "englishImage": "images/sets/seb/en/57.jpg"
+},
+{
+  "id": "seb-58",
+  "japaneseName": "イエッサン",
+  "englishName": "Indeedee",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/58.jpg",
+  "englishImage": "images/sets/seb/en/58.jpg"
+},
+{
+  "id": "seb-59",
+  "japaneseName": "ハバタクカミ",
+  "englishName": "Flutter Mane",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/59.jpg",
+  "englishImage": "images/sets/seb/en/59.jpg"
+},
+{
+  "id": "seb-60",
+  "japaneseName": "マンキー",
+  "englishName": "Mankey",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/60.jpg",
+  "englishImage": "images/sets/seb/en/60.jpg"
+},
+{
+  "id": "seb-61",
+  "japaneseName": "オコリザル",
+  "englishName": "Primeape",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/61.jpg",
+  "englishImage": "images/sets/seb/en/61.jpg"
+},
+{
+  "id": "seb-62",
+  "japaneseName": "コノヨザル",
+  "englishName": "Annihilape",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/62.jpg",
+  "englishImage": "images/sets/seb/en/62.jpg"
+},
+{
+  "id": "seb-63",
+  "japaneseName": "パルデアケンタロス",
+  "englishName": "Paldean Tauros",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/63.jpg",
+  "englishImage": "images/sets/seb/en/63.jpg"
+},
+{
+  "id": "seb-64",
+  "japaneseName": "ゴマゾウ",
+  "englishName": "Phanpy",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/64.jpg",
+  "englishImage": "images/sets/seb/en/64.jpg"
+},
+{
+  "id": "seb-65",
+  "japaneseName": "ドンファン",
+  "englishName": "Donphan",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/65.jpg",
+  "englishImage": "images/sets/seb/en/65.jpg"
+},
+{
+  "id": "seb-66",
+  "japaneseName": "トリトドン",
+  "englishName": "Gastrodon",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/66.jpg",
+  "englishImage": "images/sets/seb/en/66.jpg"
+},
+{
+  "id": "seb-67",
+  "japaneseName": "キラーメ",
+  "englishName": "Glimmet",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/67.jpg",
+  "englishImage": "images/sets/seb/en/67.jpg"
+},
+{
+  "id": "seb-68",
+  "japaneseName": "キラフロル",
+  "englishName": "Glimmora",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/68.jpg",
+  "englishImage": "images/sets/seb/en/68.jpg"
+},
+{
+  "id": "seb-69",
+  "japaneseName": "コライドン",
+  "englishName": "Koraidon",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/69.jpg",
+  "englishImage": "images/sets/seb/en/69.jpg"
+},
+{
+  "id": "seb-70",
+  "japaneseName": "モノズ",
+  "englishName": "Deino",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/70.jpg",
+  "englishImage": "images/sets/seb/en/70.jpg"
+},
+{
+  "id": "seb-71",
+  "japaneseName": "ジヘッド",
+  "englishName": "Zweilous",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/71.jpg",
+  "englishImage": "images/sets/seb/en/71.jpg"
+},
+{
+  "id": "seb-72",
+  "japaneseName": "サザンドラex",
+  "englishName": "Hydreigon ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/72.jpg",
+  "englishImage": "images/sets/seb/en/72.jpg"
+},
+{
+  "id": "seb-73",
+  "japaneseName": "シルシュルー",
+  "englishName": "Shroodle",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/73.jpg",
+  "englishImage": "images/sets/seb/en/73.jpg"
+},
+{
+  "id": "seb-74",
+  "japaneseName": "タギングル",
+  "englishName": "Grafaiai",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/74.jpg",
+  "englishImage": "images/sets/seb/en/74.jpg"
+},
+{
+  "id": "seb-75",
+  "japaneseName": "モモワロウ",
+  "englishName": "Pecharunt",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/75.jpg",
+  "englishImage": "images/sets/seb/en/75.jpg"
+},
+{
+  "id": "seb-76",
+  "japaneseName": "アローラディグダ",
+  "englishName": "Alolan Diglett",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/76.jpg",
+  "englishImage": "images/sets/seb/en/76.jpg"
+},
+{
+  "id": "seb-77",
+  "japaneseName": "アローラダグトリオ",
+  "englishName": "Alolan Dugtrio",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/77.jpg",
+  "englishImage": "images/sets/seb/en/77.jpg"
+},
+{
+  "id": "seb-78",
+  "japaneseName": "ドーミラー",
+  "englishName": "Bronzor",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/78.jpg",
+  "englishImage": "images/sets/seb/en/78.jpg"
+},
+{
+  "id": "seb-79",
+  "japaneseName": "ドータクン",
+  "englishName": "Bronzong",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/79.jpg",
+  "englishImage": "images/sets/seb/en/79.jpg"
+},
+{
+  "id": "seb-80",
+  "japaneseName": "ムゲンダイナ",
+  "englishName": "Eternatus",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/80.jpg",
+  "englishImage": "images/sets/seb/en/80.jpg"
+},
+{
+  "id": "seb-81",
+  "japaneseName": "シャリタツex",
+  "englishName": "Tatsugiri ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/81.jpg",
+  "englishImage": "images/sets/seb/en/81.jpg"
+},
+{
+  "id": "seb-82",
+  "japaneseName": "ナマケロ",
+  "englishName": "Slakoth",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/82.jpg",
+  "englishImage": "images/sets/seb/en/82.jpg"
+},
+{
+  "id": "seb-83",
+  "japaneseName": "ヤルキモノ",
+  "englishName": "Vigoroth",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/83.jpg",
+  "englishImage": "images/sets/seb/en/83.jpg"
+},
+{
+  "id": "seb-84",
+  "japaneseName": "ケッキングex",
+  "englishName": "Slaking ex",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/84.jpg",
+  "englishImage": "images/sets/seb/en/84.jpg"
+},
+{
+  "id": "seb-85",
+  "japaneseName": "ザングース",
+  "englishName": "Zangoose",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/85.jpg",
+  "englishImage": "images/sets/seb/en/85.jpg"
+},
+{
+  "id": "seb-86",
+  "japaneseName": "カクレオン",
+  "englishName": "Kecleon",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/86.jpg",
+  "englishImage": "images/sets/seb/en/86.jpg"
+},
+{
+  "id": "seb-87",
+  "japaneseName": "バッフロン",
+  "englishName": "Bouffalant",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/87.jpg",
+  "englishImage": "images/sets/seb/en/87.jpg"
+},
+{
+  "id": "seb-88",
+  "japaneseName": "エリキテル",
+  "englishName": "Helioptile",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/88.jpg",
+  "englishImage": "images/sets/seb/en/88.jpg"
+},
+{
+  "id": "seb-89",
+  "japaneseName": "エレザード",
+  "englishName": "Heliolisk",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/9.jpg",
+  "englishImage": "images/sets/seb/en/9.jpg"
+},
+{
+  "id": "seb-90",
+  "japaneseName": "ヤレユータン",
+  "englishName": "Oranguru",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/90.jpg",
+  "englishImage": "images/sets/seb/en/90.jpg"
+},
+{
+  "id": "seb-91",
+  "japaneseName": "ワッカネズミ",
+  "englishName": "Tandemaus",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/91.jpg",
+  "englishImage": "images/sets/seb/en/91.jpg"
+},
+{
+  "id": "seb-92",
+  "japaneseName": "イッカネズミ",
+  "englishName": "Maushold",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/92.jpg",
+  "englishImage": "images/sets/seb/en/92.jpg"
+},
+{
+  "id": "seb-93",
+  "japaneseName": "テラパゴス",
+  "englishName": "Terapagos",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/93.jpg",
+  "englishImage": "images/sets/seb/en/93.jpg"
+},
+{
+  "id": "seb-94",
+  "japaneseName": "推理セット",
+  "englishName": "Deduction Kit",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/94.jpg",
+  "englishImage": "images/sets/seb/en/94.jpg"
+},
+{
+  "id": "seb-95",
+  "japaneseName": "スクランブルスイッチ",
+  "englishName": "Scramble Switch",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/95.jpg",
+  "englishImage": "images/sets/seb/en/95.jpg"
+},
+{
+  "id": "seb-96",
+  "japaneseName": "のんびりじゃらし",
+  "englishName": "Chill Teaser Toy",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/96.jpg",
+  "englishImage": "images/sets/seb/en/96.jpg"
+},
+{
+  "id": "seb-97",
+  "japaneseName": "ミラクルインカム",
+  "englishName": "Miracle Headset",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/97.jpg",
+  "englishImage": "images/sets/seb/en/97.jpg"
+},
+{
+  "id": "seb-98",
+  "japaneseName": "希望のアミュレット",
+  "englishName": "Amulet of Hope",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/98.jpg",
+  "englishImage": "images/sets/seb/en/98.jpg"
+},
+{
+  "id": "seb-99",
+  "japaneseName": "ナモのみ",
+  "englishName": "Colbur Berry",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/99.jpg",
+  "englishImage": "images/sets/seb/en/99.jpg"
+},
+{
+  "id": "seb-100",
+  "japaneseName": "リリバのみ",
+  "englishName": "Babiri Berry",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/100.jpg",
+  "englishImage": "images/sets/seb/en/100.jpg"
+},
+{
+  "id": "seb-101",
+  "japaneseName": "ワザマシンフローライト",
+  "englishName": "Technical Machine: Fluorite",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/101.jpg",
+  "englishImage": "images/sets/seb/en/101.jpg"
+},
+{
+  "id": "seb-102",
+  "japaneseName": "シアノ",
+  "englishName": "Cyrano",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/102.jpg",
+  "englishImage": "images/sets/seb/en/102.jpg"
+},
+{
+  "id": "seb-103",
+  "japaneseName": "シトロンの機転",
+  "englishName": "Clemont's Quick Wit",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/103.jpg",
+  "englishImage": "images/sets/seb/en/103.jpg"
+},
+{
+  "id": "seb-104",
+  "japaneseName": "ミカンのまなざし",
+  "englishName": "Jasmine's Gaze",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/104.jpg",
+  "englishImage": "images/sets/seb/en/104.jpg"
+},
+{
+  "id": "seb-105",
+  "japaneseName": "エキサイトスタジアム",
+  "englishName": "Lively Stadium",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/105.jpg",
+  "englishImage": "images/sets/seb/en/105.jpg"
+},
+{
+  "id": "seb-106",
+  "japaneseName": "グラビティーマウンテン",
+  "englishName": "Gravity Mountain",
+  "japaneseSetName": "超電ブレイカー",
+  "japaneseSetReleaseDate": "10-16-2024",
+  "japaneseImage": "images/sets/seb/jp/106.jpg",
+  "englishImage": "images/sets/seb/en/106.jpg"
+}
+]
