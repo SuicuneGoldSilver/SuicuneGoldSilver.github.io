@@ -1,0 +1,921 @@
+[
+    {
+        "id": "sm-1",
+        "japaneseName": "レディバ",
+        "englishName": "Ledyba",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/1.jpg",
+        "englishImage": "images/sets/sm/en/1.jpg"
+    },
+    {
+        "id": "sm-2",
+        "japaneseName": "レディアン",
+        "englishName": "Ledian",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/2.jpg",
+        "englishImage": "images/sets/sm/en/2.jpg"
+    },
+    {
+        "id": "sm-3",
+        "japaneseName": "リリーラ",
+        "englishName": "Lileep",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/3.jpg",
+        "englishImage": "images/sets/sm/en/3.jpg"
+    },
+    {
+        "id": "sm-4",
+        "japaneseName": "ユレイドル",
+        "englishName": "Cradily",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/4.jpg",
+        "englishImage": "images/sets/sm/en/4.jpg"
+    },
+    {
+        "id": "sm-5",
+        "japaneseName": "マスキッパ",
+        "englishName": "Carnivine",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/5.jpg",
+        "englishImage": "images/sets/sm/en/5.jpg"
+    },
+    {
+        "id": "sm-6",
+        "japaneseName": "カットロトム",
+        "englishName": "Mow Rotom",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/6.jpg",
+        "englishImage": "images/sets/sm/en/6.jpg"
+    },
+    {
+        "id": "sm-7",
+        "japaneseName": "アゴジムシ",
+        "englishName": "Grubbin",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/7.jpg",
+        "englishImage": "images/sets/sm/en/7.jpg"
+    },
+    {
+        "id": "sm-8",
+        "japaneseName": "ヒメンカ",
+        "englishName": "Gossifleur",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/8.jpg",
+        "englishImage": "images/sets/sm/en/8.jpg"
+    },
+    {
+        "id": "sm-9",
+        "japaneseName": "ワタシラガ",
+        "englishName": "Eldegoss",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/9.jpg",
+        "englishImage": "images/sets/sm/en/9.jpg"
+    },
+    {
+        "id": "sm-10",
+        "japaneseName": "カジッチュ",
+        "englishName": "Applin",
+        "japaneseSetName": "ステラミラクル",
+        "japaneseSetReleaseDate": "7-20-2024",
+        "japaneseImage": "images/sets/sm/jp/10.jpg",
+        "englishImage": "images/sets/sm/en/10.jpg"
+    },
+    {
+      "id": "sm-11",
+      "japaneseName": "カミッチュ",
+      "englishName": "Dipplin",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/11.jpg",
+      "englishImage": "images/sets/sm/en/11.jpg"
+  },
+  {
+      "id": "sm-12",
+      "japaneseName": "カミツオロチex",
+      "englishName": "Hydrapple ex",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/12.jpg",
+      "englishImage": "images/sets/sm/en/12.jpg"
+  },
+  {
+      "id": "sm-13",
+      "japaneseName": "ヤトウモリ",
+      "englishName": "Salandit",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/13.jpg",
+      "englishImage": "images/sets/sm/en/13.jpg"
+  },
+  {
+      "id": "sm-14",
+      "japaneseName": "エンニュート",
+      "englishName": "Salazzle",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/14.jpg",
+      "englishImage": "images/sets/sm/en/14.jpg"
+  },
+  {
+      "id": "sm-15",
+      "japaneseName": "バクガメス",
+      "englishName": "Turtonator",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/15.jpg",
+      "englishImage": "images/sets/sm/en/15.jpg"
+  },
+  {
+      "id": "sm-16",
+      "japaneseName": "ヒバニー",
+      "englishName": "Scorbunny",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/16.jpg",
+      "englishImage": "images/sets/sm/en/16.jpg"
+  },
+  {
+      "id": "sm-17",
+      "japaneseName": "ラビフット",
+      "englishName": "Raboot",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/17.jpg",
+      "englishImage": "images/sets/sm/en/17.jpg"
+  },
+  {
+      "id": "sm-18",
+      "japaneseName": "エースバーン",
+      "englishName": "Cinderace ex",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/18.jpg",
+      "englishImage": "images/sets/sm/en/18.jpg"
+  },
+  {
+      "id": "sm-19",
+      "japaneseName": "ラプラスex",
+      "englishName": "Lapras ex",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/19.jpg",
+      "englishImage": "images/sets/sm/en/19.jpg"
+  },
+  {
+      "id": "sm-20",
+      "japaneseName": "ケイコウオ",
+      "englishName": "Finneon",
+      "japaneseSetName": "ステラミラクル",
+      "japaneseSetReleaseDate": "7-20-2024",
+      "japaneseImage": "images/sets/sm/jp/20.jpg",
+      "englishImage": "images/sets/sm/en/20.jpg"
+  },
+  {
+    "id": "sm-21",
+    "japaneseName": "ネオラント",
+    "englishName": "Lumineon",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/21.jpg",
+    "englishImage": "images/sets/sm/en/21.jpg"
+  },
+  {
+    "id": "sm-22",
+    "japaneseName": "プロトーガ",
+    "englishName": "Tirtouga",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/22.jpg",
+    "englishImage": "images/sets/sm/en/22.jpg"
+  },
+  {
+    "id": "sm-23",
+    "japaneseName": "アバゴーラ",
+    "englishName": "Carracosta",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/23.jpg",
+    "englishImage": "images/sets/sm/en/23.jpg"
+  },
+  {
+    "id": "sm-24",
+    "japaneseName": "ケケンカニ",
+    "englishName": "Crabominable",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/24.jpg",
+    "englishImage": "images/sets/sm/en/24.jpg"
+  },
+  {
+    "id": "sm-25",
+    "japaneseName": "カムカメ",
+    "englishName": "Chewtle",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/25.jpg",
+    "englishImage": "images/sets/sm/en/25.jpg"
+  },
+  {
+    "id": "sm-26",
+    "japaneseName": "カジリガメ",
+    "englishName": "Drednaw",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/26.jpg",
+    "englishImage": "images/sets/sm/en/26.jpg"
+  },
+  {
+    "id": "sm-27",
+    "japaneseName": "ミガルーサ",
+    "englishName": "Veluza",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/27.jpg",
+    "englishImage": "images/sets/sm/en/27.jpg"
+  },
+  {
+    "id": "sm-28",
+    "japaneseName": "エレブー",
+    "englishName": "Electabuzz",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/28.jpg",
+    "englishImage": "images/sets/sm/en/28.jpg"
+  },
+  {
+    "id": "sm-29",
+    "japaneseName": "エレキブル",
+    "englishName": "Electivire",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/29.jpg",
+    "englishImage": "images/sets/sm/en/29.jpg"
+  },
+  {
+    "id": "sm-30",
+    "japaneseName": "チョンチー",
+    "englishName": "Chinchou",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/30.jpg",
+    "englishImage": "images/sets/sm/en/30.jpg"
+  },
+  {
+    "id": "sm-31",
+    "japaneseName": "ランターン",
+    "englishName": "Lanturn",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/31.jpg",
+    "englishImage": "images/sets/sm/en/31.jpg"
+  },
+  {
+    "id": "sm-32",
+    "japaneseName": "バチュル",
+    "englishName": "Joltik",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/32.jpg",
+    "englishImage": "images/sets/sm/en/32.jpg"
+  },
+  {
+    "id": "sm-33",
+    "japaneseName": "デンチュラex",
+    "englishName": "Galvantula ex",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/33.jpg",
+    "englishImage": "images/sets/sm/en/33.jpg"
+  },
+  {
+    "id": "sm-34",
+    "japaneseName": "デンヂムシ",
+    "englishName": "Charjabug",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/34.jpg",
+    "englishImage": "images/sets/sm/en/34.jpg"
+  },
+  {
+    "id": "sm-35",
+    "japaneseName": "クワガノン",
+    "englishName": "Vikavolt",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/35.jpg",
+    "englishImage": "images/sets/sm/en/35.jpg"
+  },
+  {
+    "id": "sm-36",
+    "japaneseName": "トゲデマル",
+    "englishName": "Togedemaru",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/36.jpg",
+    "englishImage": "images/sets/sm/en/36.jpg"
+  },
+  {
+    "id": "sm-37",
+    "japaneseName": "ゼラオラ",
+    "englishName": "Zeraora",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/37.jpg",
+    "englishImage": "images/sets/sm/en/37.jpg"
+  },
+  {
+    "id": "sm-38",
+    "japaneseName": "ヤドン",
+    "englishName": "Slowpoke",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/38.jpg",
+    "englishImage": "images/sets/sm/en/38.jpg"
+  },
+  {
+    "id": "sm-39",
+    "japaneseName": "ヤドキング",
+    "englishName": "Slowking",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/39.jpg",
+    "englishImage": "images/sets/sm/en/39.jpg"
+  },
+  {
+    "id": "sm-40",
+    "japaneseName": "フワンテ",
+    "englishName": "Drifloon",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/40.jpg",
+    "englishImage": "images/sets/sm/en/40.jpg"
+  },
+  {
+    "id": "sm-41",
+    "japaneseName": "フワライド",
+    "englishName": "Drifblim",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/41.jpg",
+    "englishImage": "images/sets/sm/en/41.jpg"
+  },
+  {
+    "id": "sm-42",
+    "japaneseName": "キュワワー",
+    "englishName": "Comfey",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/42.jpg",
+    "englishImage": "images/sets/sm/en/42.jpg"
+  },
+  {
+    "id": "sm-43",
+    "japaneseName": "マホミル",
+    "englishName": "Milcery",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/43.jpg",
+    "englishImage": "images/sets/sm/en/43.jpg"
+  },
+  {
+    "id": "sm-44",
+    "japaneseName": "マホイップ",
+    "englishName": "Alcremie",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/44.jpg",
+    "englishImage": "images/sets/sm/en/44.jpg"
+  },
+  {
+    "id": "sm-45",
+    "japaneseName": "パピモッチ",
+    "englishName": "Fidough",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/45.jpg",
+    "englishImage": "images/sets/sm/en/45.jpg"
+  },
+  {
+    "id": "sm-46",
+    "japaneseName": "バウッツェルex",
+    "englishName": "Dachsbun ex",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/46.jpg",
+    "englishImage": "images/sets/sm/en/46.jpg"
+  },
+  {
+    "id": "sm-47",
+    "japaneseName": "テツノイワオ",
+    "englishName": "Iron boulder",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/47.jpg",
+    "englishImage": "images/sets/sm/en/47.jpg"
+  },
+  {
+    "id": "sm-48",
+    "japaneseName": "カラカラ",
+    "englishName": "Cubone",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/48.jpg",
+    "englishImage": "images/sets/sm/en/48.jpg"
+  },
+  {
+    "id": "sm-49",
+    "japaneseName": "ガラガラガラガラ",
+    "englishName": "Marowak",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/49.jpg",
+    "englishImage": "images/sets/sm/en/49.jpg"
+  },
+  {
+    "id": "sm-50",
+    "japaneseName": "サイホーン",
+    "englishName": "Rhyhorn",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/50.jpg",
+    "englishImage": "images/sets/sm/en/50.jpg"
+  },
+  {
+    "id": "sm-51",
+    "japaneseName": "サイドン",
+    "englishName": "Rhydon",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/51.jpg",
+    "englishImage": "images/sets/sm/en/51.jpg"
+  },
+  {
+    "id": "sm-52",
+    "japaneseName": "ドサイドン",
+    "englishName": "Rhyperior",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/52.jpg",
+    "englishImage": "images/sets/sm/en/52.jpg"
+  },
+  {
+    "id": "sm-53",
+    "japaneseName": "アサナン",
+    "englishName": "Meditite",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/53.jpg",
+    "englishImage": "images/sets/sm/en/53.jpg"
+  },
+  {
+    "id": "sm-54",
+    "japaneseName": "チャーレムex",
+    "englishName": "Medicham ex",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/54.jpg",
+    "englishImage": "images/sets/sm/en/54.jpg"
+  },
+  {
+    "id": "sm-55",
+    "japaneseName": "コジョフー",
+    "englishName": "Mienfoo",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/55.jpg",
+    "englishImage": "images/sets/sm/en/55.jpg"
+  },
+  {
+    "id": "sm-56",
+    "japaneseName": "コジョンド",
+    "englishName": "Mienshao",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/56.jpg",
+    "englishImage": "images/sets/sm/en/56.jpg"
+  },
+  {
+    "id": "sm-57",
+    "japaneseName": "ヤンチャム",
+    "englishName": "Pancham",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/57.jpg",
+    "englishImage": "images/sets/sm/en/57.jpg"
+  },
+  {
+    "id": "sm-58",
+    "japaneseName": "ディアンシー",
+    "englishName": "Diancie",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/58.jpg",
+    "englishImage": "images/sets/sm/en/58.jpg"
+  },
+  {
+    "id": "sm-59",
+    "japaneseName": "マケンカニ",
+    "englishName": "Crabrawler",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/59.jpg",
+    "englishImage": "images/sets/sm/en/59.jpg"
+  },
+  {
+    "id": "sm-60",
+    "japaneseName": "タイレーツ",
+    "englishName": "Falinks",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/60.jpg",
+    "englishImage": "images/sets/sm/en/60.jpg"
+  },
+  {
+    "id": "sm-61",
+    "japaneseName": "ゴクリン",
+    "englishName": "Gulpin",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/61.jpg",
+    "englishImage": "images/sets/sm/en/61.jpg"
+  },
+  {
+    "id": "sm-62",
+    "japaneseName": "マルノーム",
+    "englishName": "Swalot",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/62.jpg",
+    "englishImage": "images/sets/sm/en/62.jpg"
+  },
+  {
+    "id": "sm-63",
+    "japaneseName": "ゴロンダ",
+    "englishName": "Pangoro",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/63.jpg",
+    "englishImage": "images/sets/sm/en/63.jpg"
+  },
+  {
+    "id": "sm-64",
+    "japaneseName": "ベロバー",
+    "englishName": "Impidimp",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/64.jpg",
+    "englishImage": "images/sets/sm/en/64.jpg"
+  },
+  {
+    "id": "sm-65",
+    "japaneseName": "ギモー",
+    "englishName": "Morgrem",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/65.jpg",
+    "englishImage": "images/sets/sm/en/65.jpg"
+  },
+  {
+    "id": "sm-66",
+    "japaneseName": "オーロンゲ",
+    "englishName": "Grimmsnarl",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/66.jpg",
+    "englishImage": "images/sets/sm/en/66.jpg"
+  },
+  {
+    "id": "sm-67",
+    "japaneseName": "ギアル",
+    "englishName": "Klink",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/67.jpg",
+    "englishImage": "images/sets/sm/en/67.jpg"
+  },
+  {
+    "id": "sm-68",
+    "japaneseName": "ギギアル",
+    "englishName": "Klang",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/68.jpg",
+    "englishImage": "images/sets/sm/en/68.jpg"
+  },
+  {
+    "id": "sm-69",
+    "japaneseName": "ギギギアル",
+    "englishName": "Klinklang",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/69.jpg",
+    "englishImage": "images/sets/sm/en/69.jpg"
+  },
+  {
+    "id": "sm-70",
+    "japaneseName": "メルタン",
+    "englishName": "Meltan",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/70.jpg",
+    "englishImage": "images/sets/sm/en/70.jpg"
+  },
+  {
+    "id": "sm-71",
+    "japaneseName": "メルメタル",
+    "englishName": "Melmetal",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/71.jpg",
+    "englishImage": "images/sets/sm/en/71.jpg"
+  },
+  {
+    "id": "sm-72",
+    "japaneseName": "ジュラルドン",
+    "englishName": "Duraludon",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/72.jpg",
+    "englishImage": "images/sets/sm/en/72.jpg"
+  },
+  {
+    "id": "sm-73",
+    "japaneseName": "ブリジュラス",
+    "englishName": "Archaludon",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/73.jpg",
+    "englishImage": "images/sets/sm/en/73.jpg"
+  },
+  {
+    "id": "sm-74",
+    "japaneseName": "ミミズズ",
+    "englishName": "Orthworm ex",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/74.jpg",
+    "englishImage": "images/sets/sm/en/74.jpg"
+  },
+  {
+    "id": "sm-75",
+    "japaneseName": "タケルライコ",
+    "englishName": "Raging Bolt",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/75.jpg",
+    "englishImage": "images/sets/sm/en/75.jpg"
+  },
+  {
+    "id": "sm-76",
+    "japaneseName": "ホーホー",
+    "englishName": "Hoothoot",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/76.jpg",
+    "englishImage": "images/sets/sm/en/76.jpg"
+  },
+  {
+    "id": "sm-77",
+    "japaneseName": "ヨルノズク",
+    "englishName": "Noctowl",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/77.jpg",
+    "englishImage": "images/sets/sm/en/77.jpg"
+  },
+  {
+    "id": "sm-78",
+    "japaneseName": "ニャルマー",
+    "englishName": "Glameow",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/78.jpg",
+    "englishImage": "images/sets/sm/en/78.jpg"
+  },
+  {
+    "id": "sm-79",
+    "japaneseName": "ブニャット",
+    "englishName": "Purugly",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/79.jpg",
+    "englishImage": "images/sets/sm/en/79.jpg"
+  },
+  {
+    "id": "sm-80",
+    "japaneseName": "スピンロトム",
+    "englishName": "Fan Rotom",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/80.jpg",
+    "englishImage": "images/sets/sm/en/80.jpg"
+  },
+  {
+    "id": "sm-81",
+    "japaneseName": "バッフロン",
+    "englishName": "Bouffalant",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/81.jpg",
+    "englishImage": "images/sets/sm/en/81.jpg"
+  },
+  {
+    "id": "sm-82",
+    "japaneseName": "トルネロス",
+    "englishName": "Tornadus",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/82.jpg",
+    "englishImage": "images/sets/sm/en/82.jpg"
+  },
+  {
+    "id": "sm-83",
+    "japaneseName": "ヤヤコマ",
+    "englishName": "Fletchling",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/83.jpg",
+    "englishImage": "images/sets/sm/en/83.jpg"
+  },
+  {
+    "id": "sm-84",
+    "japaneseName": "ヒノヤコマ",
+    "englishName": "Fletchinder",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/84.jpg",
+    "englishImage": "images/sets/sm/en/84.jpg"
+  },
+  {
+    "id": "sm-85",
+    "japaneseName": "ファイアロー",
+    "englishName": "Talonflame",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/85.jpg",
+    "englishImage": "images/sets/sm/en/85.jpg"
+  },
+  {
+    "id": "sm-86",
+    "japaneseName": "ウールー",
+    "englishName": "Wooloo",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/86.jpg",
+    "englishImage": "images/sets/sm/en/86.jpg"
+  },
+  {
+    "id": "sm-87",
+    "japaneseName": "バイウールー",
+    "englishName": "Dubwool",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/87.jpg",
+    "englishImage": "images/sets/sm/en/87.jpg"
+  },
+  {
+    "id": "sm-88",
+    "japaneseName": "テラパゴスex",
+    "englishName": "Terapagos ex",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/88.jpg",
+    "englishImage": "images/sets/sm/en/88.jpg"
+  },
+  {
+    "id": "sm-89",
+    "japaneseName": "ガラスのラッパ",
+    "englishName": "Glass Trumpet",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/9.jpg",
+    "englishImage": "images/sets/sm/en/9.jpg"
+  },
+  {
+    "id": "sm-90",
+    "japaneseName": "古びたねっこの化石",
+    "englishName": "Root Fossil",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/90.jpg",
+    "englishImage": "images/sets/sm/en/90.jpg"
+  },
+  {
+    "id": "sm-91",
+    "japaneseName": "古びたふたの化石",
+    "englishName": "Cover Fossil",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/91.jpg",
+    "englishImage": "images/sets/sm/en/91.jpg"
+  },
+  {
+    "id": "sm-92",
+    "japaneseName": "ウタンのみ",
+    "englishName": "Payapa Berry",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/92.jpg",
+    "englishImage": "images/sets/sm/en/92.jpg"
+  },
+  {
+    "id": "sm-93",
+    "japaneseName": "オッカのみ",
+    "englishName": "Occa Berry",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/93.jpg",
+    "englishImage": "images/sets/sm/en/93.jpg"
+  },
+  {
+    "id": "sm-94",
+    "japaneseName": "きらめく結晶",
+    "englishName": "Sparkling Crystal",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/94.jpg",
+    "englishImage": "images/sets/sm/en/94.jpg"
+  },
+  {
+    "id": "sm-95",
+    "japaneseName": "重力玉",
+    "englishName": "Gravity Gemstone",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/95.jpg",
+    "englishImage": "images/sets/sm/en/95.jpg"
+  },
+  {
+    "id": "sm-96",
+    "japaneseName": "デラックスボム",
+    "englishName": "Deluxe Bomb",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/96.jpg",
+    "englishImage": "images/sets/sm/en/96.jpg"
+  },
+  {
+    "id": "sm-97",
+    "japaneseName": "アカマツ",
+    "englishName": "Crispin",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/97.jpg",
+    "englishImage": "images/sets/sm/en/97.jpg"
+  },
+  {
+    "id": "sm-98",
+    "japaneseName": "タロ",
+    "englishName": "Lacey",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/98.jpg",
+    "englishImage": "images/sets/sm/en/98.jpg"
+  },
+  {
+    "id": "sm-99",
+    "japaneseName": "ハイダイ",
+    "englishName": "Kofu",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/99.jpg",
+    "englishImage": "images/sets/sm/en/99.jpg"
+  },
+  {
+    "id": "sm-100",
+    "japaneseName": "ブライア",
+    "englishName": "Briar",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/100.jpg",
+    "englishImage": "images/sets/sm/en/100.jpg"
+  },
+  {
+    "id": "sm-101",
+    "japaneseName": "偉大な大樹",
+    "englishName": "Grand Tree",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/101.jpg",
+    "englishImage": "images/sets/sm/en/101.jpg"
+  },
+  {
+    "id": "sm-102",
+    "japaneseName": "ゼロの大空洞",
+    "englishName": "Area Zero Underdepths",
+    "japaneseSetName": "ステラミラクル",
+    "japaneseSetReleaseDate": "7-20-2024",
+    "japaneseImage": "images/sets/sm/jp/102.jpg",
+    "englishImage": "images/sets/sm/en/102.jpg"
+  }
+  ]
+  

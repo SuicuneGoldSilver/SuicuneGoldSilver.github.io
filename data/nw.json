@@ -1,0 +1,579 @@
+[
+    {
+        "id": "nw-1",
+        "japaneseName": "バチュル",
+        "englishName": "Joltik",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/1.jpg",
+        "englishImage": "images/sets/nw/en/1.jpg"
+    },
+    {
+        "id": "nw-2",
+        "japaneseName": "デンチュラ",
+        "englishName": "Galvantula",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/2.jpg",
+        "englishImage": "images/sets/nw/en/2.jpg"
+    },
+    {
+        "id": "nw-3",
+        "japaneseName": "モクロー",
+        "englishName": "Rowlet",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/3.jpg",
+        "englishImage": "images/sets/nw/en/3.jpg"
+    },
+    {
+        "id": "nw-4",
+        "japaneseName": "フクスロー",
+        "englishName": "Dartrix",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/4.jpg",
+        "englishImage": "images/sets/nw/en/4.jpg"
+    },
+    {
+        "id": "nw-5",
+        "japaneseName": "ジュナイパー",
+        "englishName": "Decidueye",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/5.jpg",
+        "englishImage": "images/sets/nw/en/5.jpg"
+    },
+    {
+        "id": "nw-6",
+        "japaneseName": "カプ・ブルル",
+        "englishName": "Tapu Bulu",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/6.jpg",
+        "englishImage": "images/sets/nw/en/6.jpg"
+    },
+    {
+        "id": "nw-7",
+        "japaneseName": "デルビル",
+        "englishName": "Houndour",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/7.jpg",
+        "englishImage": "images/sets/nw/en/7.jpg"
+    },
+    {
+        "id": "nw-8",
+        "japaneseName": "ヘルガー",
+        "englishName": "Houndoom",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/8.jpg",
+        "englishImage": "images/sets/nw/en/8.jpg"
+    },
+    {
+        "id": "nw-9",
+        "japaneseName": "テツノドクガ",
+        "englishName": "Iron Moth",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/9.jpg",
+        "englishImage": "images/sets/nw/en/9.jpg"
+    },
+    {
+        "id": "nw-10",
+        "japaneseName": "タッツー",
+        "englishName": "Horsea",
+        "japaneseSetName": "ナイトワンダラー",
+        "japaneseSetReleaseDate": "6-7-2024",
+        "japaneseImage": "images/sets/nw/jp/10.jpg",
+        "englishImage": "images/sets/nw/en/10.jpg"
+    },
+    {
+      "id": "nw-11",
+      "japaneseName": "シードラ",
+      "englishName": "Seadra",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/11.jpg",
+      "englishImage": "images/sets/nw/en/11.jpg"
+  },
+  {
+      "id": "nw-12",
+      "japaneseName": "キングドラex",
+      "englishName": "Kindra ex",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/12.jpg",
+      "englishImage": "images/sets/nw/en/12.jpg"
+  },
+  {
+      "id": "nw-13",
+      "japaneseName": "ニューラ",
+      "englishName": "Sneasel",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/13.jpg",
+      "englishImage": "images/sets/nw/en/13.jpg"
+  },
+  {
+      "id": "nw-14",
+      "japaneseName": "マニューラ",
+      "englishName": "Weavile",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/14.jpg",
+      "englishImage": "images/sets/nw/en/14.jpg"
+  },
+  {
+      "id": "nw-15",
+      "japaneseName": "ブロロロームex",
+      "englishName": "Revavroom ex",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/15.jpg",
+      "englishImage": "images/sets/nw/en/15.jpg"
+  },
+  {
+      "id": "nw-16",
+      "japaneseName": "スリープ",
+      "englishName": "Drowzee",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/16.jpg",
+      "englishImage": "images/sets/nw/en/16.jpg"
+  },
+  {
+      "id": "nw-17",
+      "japaneseName": "スリーパー",
+      "englishName": "Hypno",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/17.jpg",
+      "englishImage": "images/sets/nw/en/17.jpg"
+  },
+  {
+      "id": "nw-18",
+      "japaneseName": "ヨマワル",
+      "englishName": "Duskull",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/18.jpg",
+      "englishImage": "images/sets/nw/en/18.jpg"
+  },
+  {
+      "id": "nw-19",
+      "japaneseName": "サマヨール",
+      "englishName": "Dusclops",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/19.jpg",
+      "englishImage": "images/sets/nw/en/19.jpg"
+  },
+  {
+      "id": "nw-20",
+      "japaneseName": "ヨノワール",
+      "englishName": "Dusknoir",
+      "japaneseSetName": "ナイトワンダラー",
+      "japaneseSetReleaseDate": "6-7-2024",
+      "japaneseImage": "images/sets/nw/jp/20.jpg",
+      "englishImage": "images/sets/nw/en/20.jpg"
+  },
+  {
+    "id": "nw-21",
+    "japaneseName": "クレセリア",
+    "englishName": "Cresselia",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/21.jpg",
+    "englishImage": "images/sets/nw/en/21.jpg"
+  },
+  {
+    "id": "nw-22",
+    "japaneseName": "ニンフィア",
+    "englishName": "Sylveon",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/22.jpg",
+    "englishImage": "images/sets/nw/en/22.jpg"
+  },
+  {
+    "id": "nw-23",
+    "japaneseName": "グレッグル",
+    "englishName": "Croagunk",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/23.jpg",
+    "englishImage": "images/sets/nw/en/23.jpg"
+  },
+  {
+    "id": "nw-24",
+    "japaneseName": "ドグロッグ",
+    "englishName": "Toxicroak",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/24.jpg",
+    "englishImage": "images/sets/nw/en/24.jpg"
+  },
+  {
+    "id": "nw-25",
+    "japaneseName": "ガチグマアカツキ",
+    "englishName": "Bloodmoon Ursaluna",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/25.jpg",
+    "englishImage": "images/sets/nw/en/25.jpg"
+  },
+  {
+    "id": "nw-26",
+    "japaneseName": "チヲハウハネ",
+    "englishName": "Slither Wing",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/26.jpg",
+    "englishImage": "images/sets/nw/en/26.jpg"
+  },
+  {
+    "id": "nw-27",
+    "japaneseName": "ズバット",
+    "englishName": "Zubat",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/27.jpg",
+    "englishImage": "images/sets/nw/en/27.jpg"
+  },
+  {
+    "id": "nw-28",
+    "japaneseName": "ゴルバット",
+    "englishName": "Golbat",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/28.jpg",
+    "englishImage": "images/sets/nw/en/28.jpg"
+  },
+  {
+    "id": "nw-29",
+    "japaneseName": "クロバット",
+    "englishName": "Crobat",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/29.jpg",
+    "englishImage": "images/sets/nw/en/29.jpg"
+  },
+  {
+    "id": "nw-30",
+    "japaneseName": "アブソル",
+    "englishName": "Absol",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/30.jpg",
+    "englishImage": "images/sets/nw/en/30.jpg"
+  },
+  {
+    "id": "nw-31",
+    "japaneseName": "ゾロア",
+    "englishName": "Zorua",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/31.jpg",
+    "englishImage": "images/sets/nw/en/31.jpg"
+  },
+  {
+    "id": "nw-32",
+    "japaneseName": "ゾロアーク",
+    "englishName": "Zoroark",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/32.jpg",
+    "englishImage": "images/sets/nw/en/32.jpg"
+  },
+  {
+    "id": "nw-33",
+    "japaneseName": "マーイーカ",
+    "englishName": "Inkay",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/33.jpg",
+    "englishImage": "images/sets/nw/en/33.jpg"
+  },
+  {
+    "id": "nw-34",
+    "japaneseName": "カラメネロ",
+    "englishName": "Malamar",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/34.jpg",
+    "englishImage": "images/sets/nw/en/34.jpg"
+  },
+  {
+    "id": "nw-35",
+    "japaneseName": "イベルタル",
+    "englishName": "Yveltal",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/35.jpg",
+    "englishImage": "images/sets/nw/en/35.jpg"
+  },
+  {
+    "id": "nw-36",
+    "japaneseName": "イイネイヌ",
+    "englishName": "Okidogi ex",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/36.jpg",
+    "englishImage": "images/sets/nw/en/36.jpg"
+  },
+  {
+    "id": "nw-37",
+    "japaneseName": "マシマシラex",
+    "englishName": "Munkidori ex",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/37.jpg",
+    "englishImage": "images/sets/nw/en/37.jpg"
+  },
+  {
+    "id": "nw-38",
+    "japaneseName": "キチキギスex",
+    "englishName": "Fezandipiti ex",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/38.jpg",
+    "englishImage": "images/sets/nw/en/38.jpg"
+  },
+  {
+    "id": "nw-39",
+    "japaneseName": "モモワロウex",
+    "englishName": "Pecharunt ex",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/39.jpg",
+    "englishImage": "images/sets/nw/en/39.jpg"
+  },
+  {
+    "id": "nw-40",
+    "japaneseName": "ゲノセクト",
+    "englishName": "Genesect",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/40.jpg",
+    "englishImage": "images/sets/nw/en/40.jpg"
+  },
+  {
+    "id": "nw-41",
+    "japaneseName": "ゾウドウ",
+    "englishName": "Cufant",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/41.jpg",
+    "englishImage": "images/sets/nw/en/41.jpg"
+  },
+  {
+    "id": "nw-42",
+    "japaneseName": "ダイオウドウ",
+    "englishName": "Copperajah",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/42.jpg",
+    "englishImage": "images/sets/nw/en/42.jpg"
+  },
+  {
+    "id": "nw-43",
+    "japaneseName": "ブロロン",
+    "englishName": "Varoom",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/43.jpg",
+    "englishImage": "images/sets/nw/en/43.jpg"
+  },
+  {
+    "id": "nw-44",
+    "japaneseName": "キバゴ",
+    "englishName": "Axew",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/44.jpg",
+    "englishImage": "images/sets/nw/en/44.jpg"
+  },
+  {
+    "id": "nw-45",
+    "japaneseName": "オノンド",
+    "englishName": "Fraxure",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/45.jpg",
+    "englishImage": "images/sets/nw/en/45.jpg"
+  },
+  {
+    "id": "nw-46",
+    "japaneseName": "オノノクス",
+    "englishName": "Haxorus",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/46.jpg",
+    "englishImage": "images/sets/nw/en/46.jpg"
+  },
+  {
+    "id": "nw-47",
+    "japaneseName": "キュレム",
+    "englishName": "Kyurem",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/47.jpg",
+    "englishImage": "images/sets/nw/en/47.jpg"
+  },
+  {
+    "id": "nw-48",
+    "japaneseName": "ニャース",
+    "englishName": "Meowth",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/48.jpg",
+    "englishImage": "images/sets/nw/en/48.jpg"
+  },
+  {
+    "id": "nw-49",
+    "japaneseName": "ペルシアン",
+    "englishName": "Persian",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/49.jpg",
+    "englishImage": "images/sets/nw/en/49.jpg"
+  },
+  {
+    "id": "nw-50",
+    "japaneseName": "イーブイ",
+    "englishName": "Eevee",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/50.jpg",
+    "englishImage": "images/sets/nw/en/50.jpg"
+  },
+  {
+    "id": "nw-51",
+    "japaneseName": "トリミアン",
+    "englishName": "Furfrou",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/51.jpg",
+    "englishImage": "images/sets/nw/en/51.jpg"
+  },
+  {
+    "id": "nw-52",
+    "japaneseName": "ヌイコグマ",
+    "englishName": "Stufful",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/52.jpg",
+    "englishImage": "images/sets/nw/en/52.jpg"
+  },
+  {
+    "id": "nw-53",
+    "japaneseName": "キテルグマ",
+    "englishName": "Bewear",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/53.jpg",
+    "englishImage": "images/sets/nw/en/53.jpg"
+  },
+  {
+    "id": "nw-54",
+    "japaneseName": "デンジャラス光線",
+    "englishName": "Dangerous Laser",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/54.jpg",
+    "englishImage": "images/sets/nw/en/54.jpg"
+  },
+  {
+    "id": "nw-55",
+    "japaneseName": "ポケバイタルA",
+    "englishName": "PokeVital A",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/55.jpg",
+    "englishImage": "images/sets/nw/en/55.jpg"
+  },
+  {
+    "id": "nw-56",
+    "japaneseName": "夜のタンカ",
+    "englishName": "Night Stretcher",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/56.jpg",
+    "englishImage": "images/sets/nw/en/56.jpg"
+  },
+  {
+    "id": "nw-57",
+    "japaneseName": "くさりもち",
+    "englishName": "Binding Mochi",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/57.jpg",
+    "englishImage": "images/sets/nw/en/57.jpg"
+  },
+  {
+    "id": "nw-58",
+    "japaneseName": "力の砂時計",
+    "englishName": "Powerglass",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/58.jpg",
+    "englishImage": "images/sets/nw/en/58.jpg"
+  },
+  {
+    "id": "nw-59",
+    "japaneseName": "アクロマの執念",
+    "englishName": "Colress's Tenacity",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/59.jpg",
+    "englishImage": "images/sets/nw/en/59.jpg"
+  },
+  {
+    "id": "nw-60",
+    "japaneseName": "アンズの秘技",
+    "englishName": "Janine's Secret Art",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/60.jpg",
+    "englishImage": "images/sets/nw/en/60.jpg"
+  },
+  {
+    "id": "nw-61",
+    "japaneseName": "カシオペア",
+    "englishName": "Cassiopeia",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/61.jpg",
+    "englishImage": "images/sets/nw/en/61.jpg"
+  },
+  {
+    "id": "nw-62",
+    "japaneseName": "クセロシキのたくらみ",
+    "englishName": "Xerosic's Machinations",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/62.jpg",
+    "englishImage": "images/sets/nw/en/62.jpg"
+  },
+  {
+    "id": "nw-63",
+    "japaneseName": "ニュートラルセンター",
+    "englishName": "Neutralization Zone",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/63.jpg",
+    "englishImage": "images/sets/nw/en/63.jpg"
+  },
+  {
+    "id": "nw-64",
+    "japaneseName": "夜のアカデミー",
+    "englishName": "Academy at Night",
+    "japaneseSetName": "ナイトワンダラー",
+    "japaneseSetReleaseDate": "6-7-2024",
+    "japaneseImage": "images/sets/nw/jp/64.jpg",
+    "englishImage": "images/sets/nw/en/64.jpg"
+  }
+  ]
+  
