@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ポケカ検索</title>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .search-container {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .search-container input {
+        margin-right: 10px;
+        padding: 8px;
+      }
+
+      .search-container button, .search-container select {
+        padding: 8px 16px;
+        margin-left: 10px;
+      }
+
+      .card-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; /* Space between the images */
+        margin: 10px 0; /* Optional, space between card results */
+        max-width: 90%; /* Prevent images from being too wide on large screens */
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .card-images-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 500px; /* Set a max-width to make sure it's not too wide */
+      }
+
+      .card-images-container img {
+        width: 48%; /* Ensures the images take up equal space in the container */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensures the images are not stretched */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+
+      .card-images-container img:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+      }
+
+      .center-text {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+        color: #333; /* Optional: Adjust text color */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About Me</h4>
+              <p class="text-white">Hi, I'm Nick, also known as SuicuneGS. I'm originally from the US, now living in Japan, and am an avid Pokémon card player.
+                I created this site to help English-speaking players navigate Japanese tournaments, Japanese players compete abroad, and to encourage international play!
+                <br><br>
+                Thanks for stopping by; I hope you find the website helpful!
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/SuicuneGS" class="text-white">Follow on Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UCK4LrVdU3ey_nkRitr0WlYA" class="text-white">Subscribe on YouTube</a></li>
+                <li><a href="mailto:SuicuneGoldSilver@gmail.com" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            
+            <strong>SuicuneGS</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="" />
+        <select id="set-select">
+          <option value="">セット選択</option>
+          <!--<option value="bp">バトルパートナーズ</option>-->
+          <option value="tfex">テラスタルフェス</option>
+          <option value="seb">超電ブレイカー</option>
+          <option value="pd">楽園ドラゴーナ</option>
+          <option value="sm">ステラミラクル</option>
+          <option value="nw">ナイトワンダラー</option>
+          <!-- Add more options for more sets -->
+        </select>
+        <button onclick="searchCards()">検索</button>
+      </div>
+      
+      <div id="search-results">
+        <!-- Results will appear here -->
+      </div>
+    </main>
+
+    <script>
+     const allSets = ["tfex", "seb", "pd", "sm", "nw"]; // List of all available sets
+
+    // Load cards from a specific set
+    function loadSetData(setName) {
+      return fetch(`data/${setName}.json`)
+        .then(response => response.json())
+        .catch(error => {
+          console.error(`読み込みエラー：`, error);
+          return [];
+        });
+    }
+
+    // Load cards from all sets
+    function loadAllSetsData() {
+      const setPromises = allSets.map(setName => {
+        return fetch(`data/${setName}.json`)
+          .then(response => response.json())
+          .catch(error => {
+            console.error(`読み込みエラー：`, error);
+            return [];
+          });
+      });
+
+      return Promise.all(setPromises).then(allCards => {
+        return allCards.flat(); // Flatten the array of arrays into a single array
+      });
+    }
+
+    // Search function to search across all sets if no set is selected
+    function searchCards() {
+      const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+      const setName = document.getElementById('set-select').value;
+      const resultsContainer = document.getElementById('search-results');
+      resultsContainer.innerHTML = ''; // Clear previous results
+
+      // If the search term is empty and a set is selected, show all cards from the set
+      if (searchTerm === '' && setName) {
+        cardsPromise = loadSetData(setName); // Load only the selected set
+      } else {
+        // Otherwise, load the selected set or all sets if none selected
+        cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
+      }
+
+      // After loading the data, filter and display cards
+      cardsPromise.then(cards => {
+        const filteredCards = cards.filter(card =>
+          card.japaneseName.toLowerCase().includes(searchTerm) ||
+          card.englishName.toLowerCase().includes(searchTerm)
+        );
+
+        if (filteredCards.length === 0) {
+          const message = document.createElement('p');
+          message.classList.add('center-text');
+          message.innerText = '見つかりませんでした。';
+          resultsContainer.appendChild(message);
+          return;
+        }
+
+        displayCards(filteredCards, resultsContainer);
+      });
+    }
+
+    // Function to display the filtered cards
+    function displayCards(cards, container) {
+      cards.forEach(card => {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card-item');
+        cardElement.innerHTML = `
+          <div class="card-images-container">
+            <img src="${card.japaneseImage}" alt="${card.japaneseName}">
+            <img src="${card.englishImage}" alt="${card.englishName}">
+          </div>
+        `;
+        container.appendChild(cardElement);
+      });
+    }
+
+    </script>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
