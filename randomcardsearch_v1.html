@@ -9,22 +9,18 @@
       body {
         background-color: #f8f9fa;
       }
-
       .search-container {
         text-align: center;
         margin-top: 20px;
       }
-
-      .search-container input {
-        width: 250px;
-        padding: 10px;
+      .search-container select {
+        border: 1px solid;
+        padding: 10px 16px;
         font-size: 1rem;
-        border: 2px solid #212529;
         border-radius: 8px;
-        outline: none;
+        cursor: pointer;
         transition: 0.3s;
       }
-
       .search-container button {
         background-color: #212529;
         color: white;
@@ -35,21 +31,9 @@
         cursor: pointer;
         transition: 0.3s;
       }
-
-      .search-container button, .search-container select {
-        border: 1px solid;
-        padding: 10px 16px;
-        font-size: 1rem;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.3s;
+      .search-container button:hover {
+        background-color: #343a40;
       }
-
-
-      .search-container input:focus {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      }
-
       .card-item {
         display: flex;
         justify-content: center;
@@ -60,7 +44,6 @@
         margin-left: auto;
         margin-right: auto;
       }
-
       .card-images-container {
         display: flex;
         justify-content: space-between;
@@ -68,7 +51,6 @@
         width: 100%;
         max-width: 500px;
       }
-
       .card-images-container img {
         width: 48%;
         height: auto;
@@ -78,11 +60,9 @@
         cursor: pointer;
         transition: transform 0.3s;
       }
-
       .card-images-container img:hover {
         transform: scale(1.05);
       }
-
       .center-text {
         text-align: center;
         font-size: 1.2em;
@@ -130,7 +110,6 @@
 
     <main>
       <div class="search-container">
-        <input type="text" id="search-input" placeholder="" />
         <select id="set-select">
           <option value="">セット選択</option>
           <option value="tfex">テラスタルフェス</option>
@@ -139,25 +118,12 @@
           <option value="sm">ステラミラクル</option>
           <option value="nw">ナイトワンダラー</option>
         </select>
-        <button onclick="searchCards()">検索</button>
-        <!--<button onclick="getRandomCard()">ランダム</button>-->
+        <button onclick="getRandomCard()">ランダム</button>
       </div>
-      
-      <div id="search-results">
-        <!-- Results will appear here -->
-      </div>
+      <div id="search-results"></div>
     </main>
-
     <script>
-      const allSets = ["tfex", "seb", "pd", "sm", "nw"]; // List of all available sets
-
-      // Add event listener to trigger search on Enter key press
-      document.getElementById('search-input').addEventListener('keypress', function(event) {
-        if (event.key === 'Enter') { // Check if Enter key is pressed
-          event.preventDefault(); // Prevent form submission or any default behavior
-          searchCards(); // Call the search function
-        }
-      });
+      const allSets = ["tfex", "seb", "pd", "sm", "nw"];
 
       function loadSetData(setName) {
         return fetch(`data/${setName}.json`)
@@ -169,20 +135,11 @@
       }
 
       function loadAllSetsData() {
-        const setPromises = allSets.map(setName => {
-          return fetch(`data/${setName}.json`)
-            .then(response => response.json())
-            .catch(error => {
-              console.error(`読み込みエラー：`, error);
-              return [];
-            });
-        });
-
+        const setPromises = allSets.map(setName => loadSetData(setName));
         return Promise.all(setPromises).then(allCards => allCards.flat());
       }
 
-      function searchCards() {
-        const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+      function getRandomCard() {
         const setName = document.getElementById('set-select').value;
         const resultsContainer = document.getElementById('search-results');
         resultsContainer.innerHTML = '';
@@ -190,53 +147,26 @@
         const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
 
         cardsPromise.then(cards => {
-          const filteredCards = cards.filter(card =>
-            card.japaneseName.toLowerCase().includes(searchTerm) ||
-            card.englishName.toLowerCase().includes(searchTerm)
-          );
-
-          if (filteredCards.length === 0) {
-            const message = document.createElement('p');
-            message.classList.add('center-text');
-            message.innerText = '見つかりませんでした。';
-            resultsContainer.appendChild(message);
-            return;
-          }
-
-          displayCards(filteredCards, resultsContainer);
-        });
-      }
-
-      function getRandomCard() {
-        const resultsContainer = document.getElementById('search-results');
-        resultsContainer.innerHTML = ''; 
-
-        loadAllSetsData().then(cards => {
           if (cards.length === 0) {
-            const message = document.createElement('p');
-            message.classList.add('center-text');
-            message.innerText = 'カードが見つかりませんでした。';
-            resultsContainer.appendChild(message);
+            resultsContainer.innerHTML = '<p class="center-text">カードが見つかりませんでした。</p>';
             return;
           }
 
           const randomCard = cards[Math.floor(Math.random() * cards.length)];
-          displayCards([randomCard], resultsContainer);
+          displayCard(randomCard, resultsContainer);
         });
       }
 
-      function displayCards(cards, container) {
-        cards.forEach(card => {
-          const cardElement = document.createElement('div');
-          cardElement.classList.add('card-item');
-          cardElement.innerHTML = `
-            <div class="card-images-container">
-              <img src="${card.japaneseImage}" alt="${card.japaneseName}" loading="lazy">
-              <img src="${card.englishImage}" alt="${card.englishName}" loading="lazy">
-            </div>
-          `;
-          container.appendChild(cardElement);
-        });
+      function displayCard(card, container) {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card-item');
+        cardElement.innerHTML = `
+          <div class="card-images-container">
+            <img src="${card.japaneseImage}" alt="${card.japaneseName}" loading="lazy">
+            <img src="${card.englishImage}" alt="${card.englishName}" loading="lazy">
+          </div>
+        `;
+        container.appendChild(cardElement);
       }
     </script>
 
@@ -251,7 +181,5 @@
         </p>
       </div>
     </footer>
-
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
