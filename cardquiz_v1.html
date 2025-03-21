@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ポケモンカードクイズ</title>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+      .card-images-container {
+        width: 475px;
+        height: 665px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .card-images-container img {
+        max-width: 90%;
+        max-height: 80%;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .lives-container {
+        margin-top: 10px;
+        font-size: 24px;
+        color: red;
+      }
+      .game-over {
+        font-size: 24px;
+        color: red;
+        margin-top: 20px;
+      }
+      .score {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      input, button {
+        margin-top: 10px;
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #next-button {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <strong>SuicuneGS</strong>
+        </a>
+      </div>
+    </header>
+    
+    <div class="container" id="game-container">
+      <div class="card-images-container">
+        <img id="card-image" src="" alt="Japanese Card">
+      </div>
+      <input type="text" id="guess" placeholder="Enter English Name">
+      <button id="submit-button" onclick="checkGuess()">Submit</button>
+      <button id="next-button" onclick="nextCard()">Next</button>
+      <div class="lives-container" id="lives">Lives: ❤️❤️❤️</div>
+      <div class="score" id="score">Score: 0</div>
+    </div>
+    <div id="game-over" class="game-over" style="display: none;">
+      Game Over! Final Score: <span id="final-score"></span>
+      <br>
+      <button onclick="startGame()">Play Again</button>
+    </div>
+    
+    <footer class="text-muted py-5 text-center">
+      <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <p class="mb-1" style="text-align: center;">&copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved.</p>
+        <p class="mb-1" style="text-align: center; margin-top: 10px;">Pokémon and All Respective Names are Trademark & © of Nintendo 1996-2025</p>
+      </div>
+    </footer>
+    
+    <script>
+      const allSets = ["tfex", "seb", "pd", "sm", "nw", "mc"];
+      let cards = [];
+      let currentCard = null;
+      let score = 0;
+      let lives = 3;
+
+      function loadSetData(setName) {
+        return fetch(`data/${setName}.json`)
+          .then(response => response.json())
+          .catch(error => {
+            console.error("Error loading set data:", error);
+            return [];
+          });
+      }
+
+      function loadAllSetsData() {
+        const setPromises = allSets.map(set => loadSetData(set));
+        return Promise.all(setPromises).then(allCards => allCards.flat());
+      }
+
+      function startGame() {
+        score = 0;
+        lives = 3;
+        document.getElementById('score').textContent = "Score: 0";
+        updateLivesDisplay();
+        document.getElementById('game-over').style.display = 'none';
+        document.getElementById('game-container').style.display = 'flex';
+        document.getElementById('next-button').style.display = 'none';
+        document.getElementById('submit-button').style.display = 'inline';
+        document.getElementById('guess').style.display = 'inline';
+
+        loadAllSetsData().then(data => {
+          cards = data;
+          nextCard();
+        });
+      }
+
+      function nextCard() {
+        if (cards.length === 0) return;
+        currentCard = cards[Math.floor(Math.random() * cards.length)];
+        document.getElementById('card-image').src = currentCard.japaneseImage;
+        document.getElementById('guess').value = '';
+        document.getElementById('next-button').style.display = 'none';
+        document.getElementById('submit-button').style.display = 'inline';
+        document.getElementById('guess').style.display = 'inline';
+      }
+
+      function checkGuess() {
+        const userGuess = document.getElementById('guess').value.trim().toLowerCase();
+        if (userGuess === currentCard.englishName.toLowerCase()) {
+          score++;
+          document.getElementById('score').textContent = `Score: ${score}`;
+        } else {
+          lives--;
+          updateLivesDisplay();
+        }
+
+        document.getElementById('card-image').src = currentCard.englishImage;
+        document.getElementById('submit-button').style.display = 'none';
+        document.getElementById('guess').style.display = 'none';
+        document.getElementById('next-button').style.display = 'inline';
+
+        if (lives <= 0) {
+          setTimeout(endGame, 500);
+        }
+      }
+
+      function updateLivesDisplay() {
+        const hearts = "❤️".repeat(lives);
+        document.getElementById('lives').textContent = `Lives: ${hearts}`;
+      }
+
+      function endGame() {
+        document.getElementById('final-score').textContent = score;
+        document.getElementById('game-over').style.display = 'block';
+        document.getElementById('game-container').style.display = 'none';
+      }
+
+      window.onload = startGame;
+    </script>
+  </body>
+</html>
