@@ -213,18 +213,27 @@
       }
 
       function openModal(card) {
-        currentCard = card;
-        showingJapanese = true;
-        const modal = document.getElementById('card-modal');
-        const img = document.getElementById('modal-image');
-        img.style.opacity = 0;
-        setTimeout(() => {
-          img.src = card.japaneseImage;
-          img.alt = card.japaneseName;
-          img.style.opacity = 1;
-        }, 100);
-        modal.style.display = 'flex';
-      }
+  currentCard = card;
+  showingJapanese = true;
+
+  const modal = document.getElementById('card-modal');
+  const img = document.getElementById('modal-image');
+
+  // Preload the English image in the background
+  const preloadImg = new Image();
+  preloadImg.src = card.englishImage;
+
+  // Show the Japanese card in the modal
+  img.style.opacity = 0;
+  setTimeout(() => {
+    img.src = card.japaneseImage;
+    img.alt = card.japaneseName;
+    img.style.opacity = 1;
+  }, 100);
+
+  modal.style.display = 'flex';
+}
+
 
       const modal = document.getElementById('card-modal');
       modal.addEventListener('click', (event) => {
