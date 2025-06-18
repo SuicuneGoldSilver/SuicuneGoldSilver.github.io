@@ -1,0 +1,570 @@
+[
+    {
+        "id": "haa-1",
+        "japaneseName": "ヒビキのカイロス",
+        "englishName": "Ethan's Pinsir",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/1.jpg",
+        "englishImage": "images/sets/haa/en/1.jpg"
+    },
+    {
+        "id": "haa-2",
+        "japaneseName": "ヤンヤンマ",
+        "englishName": "Yanma",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/2.jpg",
+        "englishImage": "images/sets/haa/en/2.jpg"
+    },
+    {
+        "id": "haa-3",
+        "japaneseName": "メガヤンマex",
+        "englishName": "Yanmega ex",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/3.jpg",
+        "englishImage": "images/sets/haa/en/3.jpg"
+    },
+    {
+        "id": "haa-4",
+        "japaneseName": "シロナのロゼリア",
+        "englishName": "Cynthia's Roselia",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/4.jpg",
+        "englishImage": "images/sets/haa/en/4.jpg"
+    },
+    {
+        "id": "haa-5",
+        "japaneseName": "シロナのロズレイド",
+        "englishName": "Cynthia's Roserade",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/5.jpg",
+        "englishImage": "images/sets/haa/en/5.jpg"
+    },
+    {
+        "id": "haa-6",
+        "japaneseName": "シェイミ",
+        "englishName": "Shaymin",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/6.jpg",
+        "englishImage": "images/sets/haa/en/6.jpg"
+    },
+    {
+        "id": "haa-7",
+        "japaneseName": "イシズマイ",
+        "englishName": "Dwebble",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/7.jpg",
+        "englishImage": "images/sets/haa/en/7.jpg"
+    },
+    {
+        "id": "haa-8",
+        "japaneseName": "イワパレス",
+        "englishName": "Crustle",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/8.jpg",
+        "englishImage": "images/sets/haa/en/8.jpg"
+    },
+    {
+        "id": "haa-9",
+        "japaneseName": "カジッチュ",
+        "englishName": "Applin",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/9.jpg",
+        "englishImage": "images/sets/haa/en/9.jpg"
+    },
+    {
+        "id": "haa-10",
+        "japaneseName": "カミッチュ",
+        "englishName": "Dipplin",
+        "japaneseSetName": "熱風のアリーナ",
+        "japaneseSetReleaseDate": "3-14-2025",
+        "japaneseImage": "images/sets/haa/jp/10.jpg",
+        "englishImage": "images/sets/haa/en/10.jpg"
+    },
+    {
+      "id": "haa-11",
+      "japaneseName": "カミツオロチ",
+      "englishName": "Hydrapple",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/11.jpg",
+      "englishImage": "images/sets/haa/en/11.jpg"
+  },
+  {
+      "id": "haa-12",
+      "japaneseName": "オーガポンみどりのめん",
+      "englishName": "Teal Mask Ogerpon",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/12.jpg",
+      "englishImage": "images/sets/haa/en/12.jpg"
+  },
+  {
+      "id": "haa-13",
+      "japaneseName": "ポニータ",
+      "englishName": "Ponyta",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/13.jpg",
+      "englishImage": "images/sets/haa/en/13.jpg"
+  },
+  {
+      "id": "haa-14",
+      "japaneseName": "ギャロップ",
+      "englishName": "Rapidash",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/14.jpg",
+      "englishImage": "images/sets/haa/en/14.jpg"
+  },
+  {
+      "id": "haa-15",
+      "japaneseName": "ヒビキのヒノアラシ",
+      "englishName": "Ethan's Cyndaquil",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/15.jpg",
+      "englishImage": "images/sets/haa/en/15.jpg"
+  },
+  {
+      "id": "haa-16",
+      "japaneseName": "ヒビキのマグマラシ",
+      "englishName": "Ethan's Quilava",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/16.jpg",
+      "englishImage": "images/sets/haa/en/16.jpg"
+  },
+  {
+      "id": "haa-17",
+      "japaneseName": "ヒビキのバクフーン",
+      "englishName": "Ethan's Typhlosion",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/17.jpg",
+      "englishImage": "images/sets/haa/en/17.jpg"
+  },
+  {
+      "id": "haa-18",
+      "japaneseName": "ヒビキのマグマッグ",
+      "englishName": "Ethan's Slugma",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/18.jpg",
+      "englishImage": "images/sets/haa/en/18.jpg"
+  },
+  {
+      "id": "haa-19",
+      "japaneseName": "ヒビキのマグカルゴ",
+      "englishName": "Ethan's Magcargo",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/19.jpg",
+      "englishImage": "images/sets/haa/en/19.jpg"
+  },
+  {
+      "id": "haa-20",
+      "japaneseName": "ヒビキのホウオウex",
+      "englishName": "Ethan's Ho-Oh ex",
+      "japaneseSetName": "熱風のアリーナ",
+      "japaneseSetReleaseDate": "3-14-2025",
+      "japaneseImage": "images/sets/haa/jp/20.jpg",
+      "englishImage": "images/sets/haa/en/20.jpg"
+  },
+  {
+    "id": "haa-21",
+    "japaneseName": "オーガポンかまどのめん",
+    "englishName": "Hearthflame Mask Ogerpon",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/21.jpg",
+    "englishImage": "images/sets/haa/en/21.jpg"
+  },
+  {
+    "id": "haa-22",
+    "japaneseName": "カスミのコダック",
+    "englishName": "Misty's Psyduck",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/22.jpg",
+    "englishImage": "images/sets/haa/en/22.jpg"
+  },
+  {
+    "id": "haa-23",
+    "japaneseName": "カスミのヒトデマン",
+    "englishName": "Misty's Staryu",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/23.jpg",
+    "englishImage": "images/sets/haa/en/23.jpg"
+  },
+  {
+    "id": "haa-24",
+    "japaneseName": "カスミのスターミー",
+    "englishName": "Misty's Starmie",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/24.jpg",
+    "englishImage": "images/sets/haa/en/24.jpg"
+  },
+  {
+    "id": "haa-25",
+    "japaneseName": "カスミのコイキング",
+    "englishName": "Misty's Magikarp",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/25.jpg",
+    "englishImage": "images/sets/haa/en/25.jpg"
+  },
+  {
+    "id": "haa-26",
+    "japaneseName": "カスミのギャラドス",
+    "englishName": "Misty's Gyarados",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/26.jpg",
+    "englishImage": "images/sets/haa/en/26.jpg"
+  },
+  {
+    "id": "haa-27",
+    "japaneseName": "カスミのラプラス",
+    "englishName": "Misty's Lapras",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/27.jpg",
+    "englishImage": "images/sets/haa/en/27.jpg"
+  },
+  {
+    "id": "haa-28",
+    "japaneseName": "シロナのヒンバス",
+    "englishName": "Cynthia's Feebas",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/28.jpg",
+    "englishImage": "images/sets/haa/en/28.jpg"
+  },
+  {
+    "id": "haa-29",
+    "japaneseName": "シロナのミロカロス",
+    "englishName": "Cynthia's Milotic",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/29.jpg",
+    "englishImage": "images/sets/haa/en/29.jpg"
+  },
+  {
+    "id": "haa-30",
+    "japaneseName": "ブイゼル",
+    "englishName": "Buizel",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/30.jpg",
+    "englishImage": "images/sets/haa/en/30.jpg"
+  },
+  {
+    "id": "haa-31",
+    "japaneseName": "フローゼル",
+    "englishName": "Floatzel",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/31.jpg",
+    "englishImage": "images/sets/haa/en/31.jpg"
+  },
+  {
+    "id": "haa-32",
+    "japaneseName": "ヘイラッシャex",
+    "englishName": "Dondozo ex",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/32.jpg",
+    "englishImage": "images/sets/haa/en/32.jpg"
+  },
+  {
+    "id": "haa-33",
+    "japaneseName": "オーガポンいどのめん",
+    "englishName": "Wellspring Mask Ogerpon",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/33.jpg",
+    "englishImage": "images/sets/haa/en/33.jpg"
+  },
+  {
+    "id": "haa-34",
+    "japaneseName": "エレブー",
+    "englishName": "Electabuzz",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/34.jpg",
+    "englishImage": "images/sets/haa/en/34.jpg"
+  },
+  {
+    "id": "haa-35",
+    "japaneseName": "エレキブルex",
+    "englishName": "Electivire ex",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/35.jpg",
+    "englishImage": "images/sets/haa/en/35.jpg"
+  },
+  {
+    "id": "haa-36",
+    "japaneseName": "ヒビキのピチュー",
+    "englishName": "Ethan's Pichu",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/36.jpg",
+    "englishImage": "images/sets/haa/en/36.jpg"
+  },
+  {
+    "id": "haa-37",
+    "japaneseName": "ラクライ",
+    "englishName": "Electrike",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/37.jpg",
+    "englishImage": "images/sets/haa/en/37.jpg"
+  },
+  {
+    "id": "haa-38",
+    "japaneseName": "ライボルト",
+    "englishName": "Manectric",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/38.jpg",
+    "englishImage": "images/sets/haa/en/38.jpg"
+  },
+  {
+    "id": "haa-39",
+    "japaneseName": "ロトム",
+    "englishName": "Rotom",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/39.jpg",
+    "englishImage": "images/sets/haa/en/39.jpg"
+  },
+  {
+    "id": "haa-40",
+    "japaneseName": "ゼラオラ",
+    "englishName": "Zeraora",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/40.jpg",
+    "englishImage": "images/sets/haa/en/40.jpg"
+  },
+  {
+    "id": "haa-41",
+    "japaneseName": "ヒビキのウソッキー",
+    "englishName": "Ethan's Sudowoodo",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/41.jpg",
+    "englishImage": "images/sets/haa/en/41.jpg"
+  },
+  {
+    "id": "haa-42",
+    "japaneseName": "シロナのフカマル",
+    "englishName": "Cynthia's Gible",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/42.jpg",
+    "englishImage": "images/sets/haa/en/42.jpg"
+  },
+  {
+    "id": "haa-43",
+    "japaneseName": "シロナのガバイト",
+    "englishName": "Cynthia's Gabite",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/43.jpg",
+    "englishImage": "images/sets/haa/en/43.jpg"
+  },
+  {
+    "id": "haa-44",
+    "japaneseName": "シロナのガブリアス",
+    "englishName": "Cynthia's Garachomp",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/44.jpg",
+    "englishImage": "images/sets/haa/en/44.jpg"
+  },
+  {
+    "id": "haa-45",
+    "japaneseName": "ドロバンコ",
+    "englishName": "Mudbray",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/45.jpg",
+    "englishImage": "images/sets/haa/en/45.jpg"
+  },
+  {
+    "id": "haa-46",
+    "japaneseName": "バンバドロ",
+    "englishName": "Mudsdale",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/46.jpg",
+    "englishImage": "images/sets/haa/en/46.jpg"
+  },
+  {
+    "id": "haa-47",
+    "japaneseName": "ペパーのノノクラゲ",
+    "englishName": "Arven's Toedscool",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/47.jpg",
+    "englishImage": "images/sets/haa/en/47.jpg"
+  },
+  {
+    "id": "haa-48",
+    "japaneseName": "ペパーのリククラゲ",
+    "englishName": "Arven's Toedscruel",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/48.jpg",
+    "englishImage": "images/sets/haa/en/48.jpg"
+  },
+  {
+    "id": "haa-49",
+    "japaneseName": "オーガポンいしずえのめん",
+    "englishName": "Cornerstone Mask Ogerpon",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/49.jpg",
+    "englishImage": "images/sets/haa/en/49.jpg"
+  },
+  {
+    "id": "haa-50",
+    "japaneseName": "シロナのミカルゲ",
+    "englishName": "Cynthia's Spiritomb",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/50.jpg",
+    "englishImage": "images/sets/haa/en/50.jpg"
+  },
+  {
+    "id": "haa-51",
+    "japaneseName": "ペパーのオラチフ",
+    "englishName": "Arven's Maschiff",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/51.jpg",
+    "englishImage": "images/sets/haa/en/51.jpg"
+  },
+  {
+    "id": "haa-52",
+    "japaneseName": "ペパーのマフィティフex",
+    "englishName": "Arven's Mabosstiff ex",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/52.jpg",
+    "englishImage": "images/sets/haa/en/52.jpg"
+  },
+  {
+    "id": "haa-53",
+    "japaneseName": "ケンタロス",
+    "englishName": "Tauros",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/53.jpg",
+    "englishImage": "images/sets/haa/en/53.jpg"
+  },
+  {
+    "id": "haa-54",
+    "japaneseName": "ペパーのホシガリス",
+    "englishName": "Arven's Skwovet",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/54.jpg",
+    "englishImage": "images/sets/haa/en/54.jpg"
+  },
+  {
+    "id": "haa-55",
+    "japaneseName": "ペパーのヨクバリス",
+    "englishName": "Arven's Greedent",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/55.jpg",
+    "englishImage": "images/sets/haa/en/55.jpg"
+  },
+  {
+    "id": "haa-56",
+    "japaneseName": "せいなるはい",
+    "englishName": "Sacred Ash",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/56.jpg",
+    "englishImage": "images/sets/haa/en/56.jpg"
+  },
+  {
+    "id": "haa-57",
+    "japaneseName": "ペパーのサンドウィッチ",
+    "englishName": "Arven's Sandwich",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/57.jpg",
+    "englishImage": "images/sets/haa/en/57.jpg"
+  },
+  {
+    "id": "haa-58",
+    "japaneseName": "ポケモンいれかえ",
+    "englishName": "Switch",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/58.jpg",
+    "englishImage": "images/sets/haa/en/58.jpg"
+  },
+  {
+    "id": "haa-59",
+    "japaneseName": "Pokémon Catcher",
+    "englishName": "ポケモンキャッチャー",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/59.jpg",
+    "englishImage": "images/sets/haa/en/59.jpg"
+  },
+  {
+    "id": "haa-60",
+    "japaneseName": "シロナのパワーウエイト",
+    "englishName": "Cynthia's Power Weight",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/60.jpg",
+    "englishImage": "images/sets/haa/en/60.jpg"
+  },
+  {
+    "id": "haa-61",
+    "japaneseName": "MCの盛り上げ",
+    "englishName": "Emcee's Hype",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/61.jpg",
+    "englishImage": "images/sets/haa/en/61.jpg"
+  },
+  {
+    "id": "haa-62",
+    "japaneseName": "ジャッジマン",
+    "englishName": "Judge",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/62.jpg",
+    "englishImage": "images/sets/haa/en/62.jpg"
+  },
+  {
+    "id": "haa-63",
+    "japaneseName": "ヒビキの冒険",
+    "englishName": "Ethan's Adventure",
+    "japaneseSetName": "熱風のアリーナ",
+    "japaneseSetReleaseDate": "3-14-2025",
+    "japaneseImage": "images/sets/haa/jp/63.jpg",
+    "englishImage": "images/sets/haa/en/63.jpg"
+  }
+  ]
+  

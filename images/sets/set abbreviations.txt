@@ -9,4 +9,5 @@ sm = stellar miracle
 stex = shiny treasure ex *dont include?
 tfex = terastal fest ex
 wf = wild force
-
+haa = hot air arena
+gotr = glory of team rocket
