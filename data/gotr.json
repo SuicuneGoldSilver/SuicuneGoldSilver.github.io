@@ -1,8 +1,8 @@
 [
     {
         "id": "gotr-1",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "クヌギダマ",
+        "englishName": "Pineco",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/1.jpg",
@@ -10,8 +10,8 @@
     },
     {
         "id": "gotr-2",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "キノココ",
+        "englishName": "Shroomish",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/2.jpg",
@@ -19,8 +19,8 @@
     },
     {
         "id": "gotr-3",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "キノガッサ",
+        "englishName": "Breloom",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/3.jpg",
@@ -28,8 +28,8 @@
     },
     {
         "id": "gotr-4",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "カットロトム",
+        "englishName": "Mow Rotom",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/4.jpg",
@@ -37,8 +37,8 @@
     },
     {
         "id": "gotr-5",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "カリキリ",
+        "englishName": "Fomantis",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/5.jpg",
@@ -46,8 +46,8 @@
     },
     {
         "id": "gotr-6",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "ラランテス",
+        "englishName": "Lurantis",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/6.jpg",
@@ -55,8 +55,8 @@
     },
     {
         "id": "gotr-7",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "ロケット団のサッチムシ",
+        "englishName": "Team Rocket's Blipbug",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/7.jpg",
@@ -64,8 +64,8 @@
     },
     {
         "id": "gotr-8",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "ロケット団のタマンチュラ",
+        "englishName": "Team Rocket's Tarountula",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/8.jpg",
@@ -73,8 +73,8 @@
     },
     {
         "id": "gotr-9",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "ロケット団のワナイダー",
+        "englishName": "Team Rocket's Spidops",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/9.jpg",
@@ -82,8 +82,8 @@
     },
     {
         "id": "gotr-10",
-        "japaneseName": "",
-        "englishName": "",
+        "japaneseName": "ミニーブ",
+        "englishName": "Smoliv",
         "japaneseSetName": "ロケット団の栄光",
         "japaneseSetReleaseDate": "4-18-2025",
         "japaneseImage": "images/sets/gotr/jp/10.jpg",
@@ -91,8 +91,8 @@
     },
     {
       "id": "gotr-11",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "オリーニョ",
+      "englishName": "Dolliv",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/11.jpg",
@@ -100,8 +100,8 @@
   },
   {
       "id": "gotr-12",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "オリーブァex",
+      "englishName": "Arboliva ex",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/12.jpg",
@@ -109,8 +109,8 @@
   },
   {
       "id": "gotr-13",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "ガーディ",
+      "englishName": "Growlithe",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/13.jpg",
@@ -118,8 +118,8 @@
   },
   {
       "id": "gotr-14",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "ウインディ",
+      "englishName": "Arcanine",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/14.jpg",
@@ -127,8 +127,8 @@
   },
   {
       "id": "gotr-15",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "ロケット団のファイヤーex",
+      "englishName": "Team Rocket's Moltres ex",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/15.jpg",
@@ -136,8 +136,8 @@
   },
   {
       "id": "gotr-16",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "ロケット団のデルビル",
+      "englishName": "Team Rocket's Houndour",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/16.jpg",
@@ -145,8 +145,8 @@
   },
   {
       "id": "gotr-17",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "ロケット団のヘルアー",
+      "englishName": "Team Rocket's Houndoom",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/17.jpg",
@@ -154,8 +154,8 @@
   },
   {
       "id": "gotr-18",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "アチャモ",
+      "englishName": "Torchic",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/18.jpg",
@@ -163,8 +163,8 @@
   },
   {
       "id": "gotr-19",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "ワカシャモ",
+      "englishName": "Combusken",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/19.jpg",
@@ -172,8 +172,8 @@
   },
   {
       "id": "gotr-20",
-      "japaneseName": "",
-      "englishName": "",
+      "japaneseName": "バシャーモ",
+      "englishName": "Blaziken",
       "japaneseSetName": "ロケット団の栄光",
       "japaneseSetReleaseDate": "4-18-2025",
       "japaneseImage": "images/sets/gotr/jp/20.jpg",
@@ -181,8 +181,8 @@
   },
   {
     "id": "gotr-21",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ヒートロトム",
+    "englishName": "Heat Rotom",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/21.jpg",
@@ -190,8 +190,8 @@
   },
   {
     "id": "gotr-22",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のフリーザー",
+    "englishName": "Team Rocket's Articuno",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/22.jpg",
@@ -199,8 +199,8 @@
   },
   {
     "id": "gotr-23",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "パールル",
+    "englishName": "Clamperl",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/23.jpg",
@@ -208,8 +208,8 @@
   },
   {
     "id": "gotr-24",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ハンテール",
+    "englishName": "Huntail",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/24.jpg",
@@ -217,8 +217,8 @@
   },
   {
     "id": "gotr-25",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "サクラビス",
+    "englishName": "Gorebyss",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/25.jpg",
@@ -226,8 +226,8 @@
   },
   {
     "id": "gotr-26",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ユキカブリ",
+    "englishName": "Snover",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/26.jpg",
@@ -235,8 +235,8 @@
   },
   {
     "id": "gotr-27",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ユキノオー",
+    "englishName": "Abomasnow",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/27.jpg",
@@ -244,8 +244,8 @@
   },
   {
     "id": "gotr-28",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ウォッシュロトム",
+    "englishName": "Wash Rotom",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/28.jpg",
@@ -253,8 +253,8 @@
   },
   {
     "id": "gotr-29",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "サシカマス",
+    "englishName": "Arrokuda",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/29.jpg",
@@ -262,8 +262,8 @@
   },
   {
     "id": "gotr-30",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "カマスジョー",
+    "englishName": "Barraskewda",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/30.jpg",
@@ -271,8 +271,8 @@
   },
   {
     "id": "gotr-31",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "アルクジラ",
+    "englishName": "Cetoddle",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/31.jpg",
@@ -280,8 +280,8 @@
   },
   {
     "id": "gotr-32",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ハルクジラex",
+    "englishName": "Cetitan ex",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/32.jpg",
@@ -289,8 +289,8 @@
   },
   {
     "id": "gotr-33",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のサンダー",
+    "englishName": "Team Rocket's Zapdos",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/33.jpg",
@@ -298,8 +298,8 @@
   },
   {
     "id": "gotr-34",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のメリープ",
+    "englishName": "Team Rocket's Mareep",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/34.jpg",
@@ -307,8 +307,8 @@
   },
   {
     "id": "gotr-35",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のモココ",
+    "englishName": "Team Rocket's Flaaffy",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/35.jpg",
@@ -316,8 +316,8 @@
   },
   {
     "id": "gotr-36",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のデンリュウ",
+    "englishName": "Team Rocket's Ampharos",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/36.jpg",
@@ -325,8 +325,8 @@
   },
   {
     "id": "gotr-37",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のスリープ",
+    "englishName": "Team Rocket's Drowzee",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/37.jpg",
@@ -334,8 +334,8 @@
   },
   {
     "id": "gotr-38",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のスリーパー",
+    "englishName": "Team Rocket's Hypno",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/38.jpg",
@@ -343,8 +343,8 @@
   },
   {
     "id": "gotr-39",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のミュウツーex",
+    "englishName": "Team Rocket's Mewtwo ex",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/39.jpg",
@@ -352,8 +352,8 @@
   },
   {
     "id": "gotr-40",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のソーナンス",
+    "englishName": "Team Rocket's Wobbuffet",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/40.jpg",
@@ -361,8 +361,8 @@
   },
   {
     "id": "gotr-41",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のリーシャン",
+    "englishName": "Team Rocket's Chingling",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/41.jpg",
@@ -370,8 +370,8 @@
   },
   {
     "id": "gotr-42",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のミミッキュ",
+    "englishName": "Team Rocket's Mimikyu",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/42.jpg",
@@ -379,8 +379,8 @@
   },
   {
     "id": "gotr-43",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のレドームシ",
+    "englishName": "Team Rocket's Dottler",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/43.jpg",
@@ -388,8 +388,8 @@
   },
   {
     "id": "gotr-44",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のイオルブ",
+    "englishName": "Team Rocket's Orbeetle",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/44.jpg",
@@ -397,8 +397,8 @@
   },
   {
     "id": "gotr-45",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "マンキー",
+    "englishName": "Mankey",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/45.jpg",
@@ -406,8 +406,8 @@
   },
   {
     "id": "gotr-46",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "オコリザル",
+    "englishName": "Primeape",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/46.jpg",
@@ -415,8 +415,8 @@
   },
   {
     "id": "gotr-47",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "コノヨザル",
+    "englishName": "Annihilape",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/47.jpg",
@@ -424,8 +424,8 @@
   },
   {
     "id": "gotr-48",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のヨーギラス",
+    "englishName": "Team Rocket's Larvitar",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/48.jpg",
@@ -433,8 +433,8 @@
   },
   {
     "id": "gotr-49",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のサナギラス",
+    "englishName": "Team Rocket's Pupitar",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/49.jpg",
@@ -442,8 +442,8 @@
   },
   {
     "id": "gotr-50",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のバンギラス",
+    "englishName": "Team Rocket's Tyranitar",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/50.jpg",
@@ -451,8 +451,8 @@
   },
   {
     "id": "gotr-51",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ノズパス",
+    "englishName": "Nosepass",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/51.jpg",
@@ -460,8 +460,8 @@
   },
   {
     "id": "gotr-52",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ダイノーズ",
+    "englishName": "Probopass",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/52.jpg",
@@ -469,8 +469,8 @@
   },
   {
     "id": "gotr-53",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "アサナン",
+    "englishName": "Meditite",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/53.jpg",
@@ -478,8 +478,8 @@
   },
   {
     "id": "gotr-54",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "チャーレム",
+    "englishName": "Medicham",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/54.jpg",
@@ -487,8 +487,8 @@
   },
   {
     "id": "gotr-55",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "レジロックex",
+    "englishName": "Regirock ex",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/55.jpg",
@@ -496,8 +496,8 @@
   },
   {
     "id": "gotr-56",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のアーボ",
+    "englishName": "Team Rocket's Ekans",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/56.jpg",
@@ -505,8 +505,8 @@
   },
   {
     "id": "gotr-57",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のアーボック",
+    "englishName": "Team Rocket's Arbok",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/57.jpg",
@@ -514,8 +514,8 @@
   },
   {
     "id": "gotr-58",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニドラン♀",
+    "englishName": "Team Rocket's Nidoran♀",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/58.jpg",
@@ -523,8 +523,8 @@
   },
   {
     "id": "gotr-59",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニドリーナ",
+    "englishName": "Team Rocket's Nidorina",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/59.jpg",
@@ -532,8 +532,8 @@
   },
   {
     "id": "gotr-60",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニドクイン",
+    "englishName": "Team Rocket's Nidoqueen",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/60.jpg",
@@ -541,8 +541,8 @@
   },
   {
     "id": "gotr-61",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニドラン♂",
+    "englishName": "Team Rocket's Nidoran♂",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/61.jpg",
@@ -550,8 +550,8 @@
   },
   {
     "id": "gotr-62",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニドリーノ",
+    "englishName": "Team Rocket's Nidorino",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/62.jpg",
@@ -559,8 +559,8 @@
   },
   {
     "id": "gotr-63",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニドキング",
+    "englishName": "Team Rocket's Nidoking ex",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/63.jpg",
@@ -568,8 +568,8 @@
   },
   {
     "id": "gotr-64",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のズバット",
+    "englishName": "Team Rocket's Zubat",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/64.jpg",
@@ -577,8 +577,8 @@
   },
   {
     "id": "gotr-65",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のゴルバット",
+    "englishName": "Team Rocket's Golbat",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/65.jpg",
@@ -586,8 +586,8 @@
   },
   {
     "id": "gotr-66",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のクロバットex",
+    "englishName": "Team Rocket's Crobat ex",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/66.jpg",
@@ -595,8 +595,8 @@
   },
   {
     "id": "gotr-67",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のベトベター",
+    "englishName": "Team Rocket's Grimer",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/67.jpg",
@@ -604,8 +604,8 @@
   },
   {
     "id": "gotr-68",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のベトベトン",
+    "englishName": "Team Rocket's Muk",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/68.jpg",
@@ -613,8 +613,8 @@
   },
   {
     "id": "gotr-69",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のドガース",
+    "englishName": "Team Rocket's Koffing",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/69.jpg",
@@ -622,8 +622,8 @@
   },
   {
     "id": "gotr-70",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のマタドガス",
+    "englishName": "Team Rocket's Weezing",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/70.jpg",
@@ -631,8 +631,8 @@
   },
   {
     "id": "gotr-71",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のヤミカラス",
+    "englishName": "Team Rocket's Murkrow",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/71.jpg",
@@ -640,8 +640,8 @@
   },
   {
     "id": "gotr-72",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニューラ",
+    "englishName": "Team Rocket's Sneasel",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/72.jpg",
@@ -649,8 +649,8 @@
   },
   {
     "id": "gotr-73",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "フォレトス",
+    "englishName": "Forretress",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/73.jpg",
@@ -658,8 +658,8 @@
   },
   {
     "id": "gotr-74",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "エアームド",
+    "englishName": "Skarmory",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/74.jpg",
@@ -667,8 +667,8 @@
   },
   {
     "id": "gotr-75",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ザマゼンタ",
+    "englishName": "Zamazenta",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/75.jpg",
@@ -676,8 +676,8 @@
   },
   {
     "id": "gotr-76",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のコラッタ",
+    "englishName": "Team Rocket's Rattata",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/76.jpg",
@@ -685,8 +685,8 @@
   },
   {
     "id": "gotr-77",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のラッタ",
+    "englishName": "Team Rocket's Raticate",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/77.jpg",
@@ -694,8 +694,8 @@
   },
   {
     "id": "gotr-78",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のニャース",
+    "englishName": "Team Rocket's Meowth",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/78.jpg",
@@ -703,8 +703,8 @@
   },
   {
     "id": "gotr-79",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のペルシアンex",
+    "englishName": "Team Rocket's Persian ex",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/79.jpg",
@@ -712,8 +712,8 @@
   },
   {
     "id": "gotr-80",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ガルーラ",
+    "englishName": "Kangaskhan",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/80.jpg",
@@ -721,8 +721,8 @@
   },
   {
     "id": "gotr-81",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のポリゴン",
+    "englishName": "Team Rocket's Porygon",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/81.jpg",
@@ -730,8 +730,8 @@
   },
   {
     "id": "gotr-82",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のポリゴン2",
+    "englishName": "Team Rocket's Porygon2",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/82.jpg",
@@ -739,8 +739,8 @@
   },
   {
     "id": "gotr-83",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のポリゴンZ",
+    "englishName": "Team Rocket's Porygon-Z",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/83.jpg",
@@ -748,8 +748,8 @@
   },
   {
     "id": "gotr-84",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "スバメ",
+    "englishName": "Taillow",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/84.jpg",
@@ -757,8 +757,8 @@
   },
   {
     "id": "gotr-85",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "オオスバメ",
+    "englishName": "Swellow",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/85.jpg",
@@ -766,8 +766,8 @@
   },
   {
     "id": "gotr-86",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "イキリンコ",
+    "englishName": "Squawkabilly",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/86.jpg",
@@ -775,8 +775,8 @@
   },
   {
     "id": "gotr-87",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のおじゃまロボ",
+    "englishName": "Team Rocket's Pester-Bot",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/87.jpg",
@@ -784,8 +784,8 @@
   },
   {
     "id": "gotr-88",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のスーパーボール",
+    "englishName": "Team Rocket's Poke Ball",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/88.jpg",
@@ -793,8 +793,8 @@
   },
   {
     "id": "gotr-89",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のびっくりボム",
+    "englishName": "Team Rocket's Venture Bomb",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/9.jpg",
@@ -802,8 +802,8 @@
   },
   {
     "id": "gotr-90",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のレシーバー",
+    "englishName": "Team Rocket's Receiver",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/90.jpg",
@@ -811,8 +811,8 @@
   },
   {
     "id": "gotr-91",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のアテナ",
+    "englishName": "Team Rocket's Ariana",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/91.jpg",
@@ -820,8 +820,8 @@
   },
   {
     "id": "gotr-92",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のアポロ",
+    "englishName": "Team Rocket's Archer",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/92.jpg",
@@ -829,8 +829,8 @@
   },
   {
     "id": "gotr-93",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のサカキ",
+    "englishName": "Team Rocket's Giovanni",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/93.jpg",
@@ -838,8 +838,8 @@
   },
   {
     "id": "gotr-94",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のラムダ",
+    "englishName": "Team Rocket's Petrel",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/94.jpg",
@@ -847,8 +847,8 @@
   },
   {
     "id": "gotr-95",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のランス",
+    "englishName": "Team Rocket's Proton",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/95.jpg",
@@ -856,8 +856,8 @@
   },
   {
     "id": "gotr-96",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団の監視塔",
+    "englishName": "Team Rocket's Watchtower",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/96.jpg",
@@ -865,8 +865,8 @@
   },
   {
     "id": "gotr-97",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団のファクトリー",
+    "englishName": "Team Rocket's Factory",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/97.jpg",
@@ -874,930 +874,12 @@
   },
   {
     "id": "gotr-98",
-    "japaneseName": "",
-    "englishName": "",
+    "japaneseName": "ロケット団エネルギー",
+    "englishName": "Team Rocket Energy",
     "japaneseSetName": "ロケット団の栄光",
     "japaneseSetReleaseDate": "4-18-2025",
     "japaneseImage": "images/sets/gotr/jp/98.jpg",
     "englishImage": "images/sets/gotr/en/98.jpg"
-  },
-  {
-    "id": "gotr-99",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/99.jpg",
-    "englishImage": "images/sets/gotr/en/99.jpg"
-  },
-  {
-    "id": "gotr-100",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/100.jpg",
-    "englishImage": "images/sets/gotr/en/100.jpg"
-  },
-  {
-    "id": "gotr-101",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/101.jpg",
-    "englishImage": "images/sets/gotr/en/101.jpg"
-  },
-  {
-    "id": "gotr-102",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/102.jpg",
-    "englishImage": "images/sets/gotr/en/102.jpg"
-  },
-  {
-    "id": "gotr-103",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/103.jpg",
-    "englishImage": "images/sets/gotr/en/103.jpg"
-  },
-  {
-    "id": "gotr-104",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/104.jpg",
-    "englishImage": "images/sets/gotr/en/104.jpg"
-  },
-  {
-    "id": "gotr-105",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/105.jpg",
-    "englishImage": "images/sets/gotr/en/105.jpg"
-  },
-  {
-    "id": "gotr-106",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/106.jpg",
-    "englishImage": "images/sets/gotr/en/106.jpg"
-  },
-  {
-    "id": "gotr-107",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/107.jpg",
-    "englishImage": "images/sets/gotr/en/107.jpg"
-  },
-  {
-    "id": "gotr-108",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/108.jpg",
-    "englishImage": "images/sets/gotr/en/108.jpg"
-  },
-  {
-    "id": "gotr-109",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/109.jpg",
-    "englishImage": "images/sets/gotr/en/109.jpg"
-  },
-  {
-    "id": "gotr-110",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/110.jpg",
-    "englishImage": "images/sets/gotr/en/110.jpg"
-  },
-  {
-    "id": "gotr-111",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/111.jpg",
-    "englishImage": "images/sets/gotr/en/111.jpg"
-  },
-  {
-    "id": "gotr-112",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/112.jpg",
-    "englishImage": "images/sets/gotr/en/112.jpg"
-  },
-  {
-    "id": "gotr-113",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/113.jpg",
-    "englishImage": "images/sets/gotr/en/113.jpg"
-  },
-  {
-    "id": "gotr-114",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/114.jpg",
-    "englishImage": "images/sets/gotr/en/114.jpg"
-  },
-  {
-    "id": "gotr-115",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/115.jpg",
-    "englishImage": "images/sets/gotr/en/115.jpg"
-  },
-  {
-    "id": "gotr-116",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/116.jpg",
-    "englishImage": "images/sets/gotr/en/116.jpg"
-  },
-  {
-    "id": "gotr-117",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/117.jpg",
-    "englishImage": "images/sets/gotr/en/117.jpg"
-  },
-  {
-    "id": "gotr-118",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/118.jpg",
-    "englishImage": "images/sets/gotr/en/118.jpg"
-  },
-  {
-    "id": "gotr-119",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/119.jpg",
-    "englishImage": "images/sets/gotr/en/119.jpg"
-  },
-  {
-    "id": "gotr-120",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/120.jpg",
-    "englishImage": "images/sets/gotr/en/120.jpg"
-  },
-  {
-    "id": "gotr-121",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/121.jpg",
-    "englishImage": "images/sets/gotr/en/121.jpg"
-  },
-  {
-    "id": "gotr-122",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/122.jpg",
-    "englishImage": "images/sets/gotr/en/122.jpg"
-  },
-  {
-    "id": "gotr-123",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/123.jpg",
-    "englishImage": "images/sets/gotr/en/123.jpg"
-  },
-  {
-    "id": "gotr-124",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/124.jpg",
-    "englishImage": "images/sets/gotr/en/124.jpg"
-  },
-  {
-    "id": "gotr-125",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/125.jpg",
-    "englishImage": "images/sets/gotr/en/125.jpg"
-  },
-  {
-    "id": "gotr-126",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/126.jpg",
-    "englishImage": "images/sets/gotr/en/126.jpg"
-  },
-  {
-    "id": "gotr-127",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/127.jpg",
-    "englishImage": "images/sets/gotr/en/127.jpg"
-  },
-  {
-    "id": "gotr-128",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/128.jpg",
-    "englishImage": "images/sets/gotr/en/128.jpg"
-  },
-  {
-    "id": "gotr-129",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/129.jpg",
-    "englishImage": "images/sets/gotr/en/129.jpg"
-  },
-  {
-    "id": "gotr-130",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/130.jpg",
-    "englishImage": "images/sets/gotr/en/130.jpg"
-  },
-  {
-    "id": "gotr-131",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/131.jpg",
-    "englishImage": "images/sets/gotr/en/131.jpg"
-  },
-  {
-    "id": "gotr-132",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/132.jpg",
-    "englishImage": "images/sets/gotr/en/132.jpg"
-  },
-  {
-    "id": "gotr-133",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/133.jpg",
-    "englishImage": "images/sets/gotr/en/133.jpg"
-  },
-  {
-    "id": "gotr-134",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/134.jpg",
-    "englishImage": "images/sets/gotr/en/134.jpg"
-  },
-  {
-    "id": "gotr-135",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/135.jpg",
-    "englishImage": "images/sets/gotr/en/135.jpg"
-  },
-  {
-    "id": "gotr-136",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/136.jpg",
-    "englishImage": "images/sets/gotr/en/136.jpg"
-  },
-  {
-    "id": "gotr-137",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/137.jpg",
-    "englishImage": "images/sets/gotr/en/137.jpg"
-  },
-  {
-    "id": "gotr-138",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/138.jpg",
-    "englishImage": "images/sets/gotr/en/138.jpg"
-  },
-  {
-    "id": "gotr-139",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/139.jpg",
-    "englishImage": "images/sets/gotr/en/139.jpg"
-  },
-  {
-    "id": "gotr-140",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/140.jpg",
-    "englishImage": "images/sets/gotr/en/140.jpg"
-  },
-  {
-    "id": "gotr-141",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/141.jpg",
-    "englishImage": "images/sets/gotr/en/141.jpg"
-  },
-  {
-    "id": "gotr-142",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/142.jpg",
-    "englishImage": "images/sets/gotr/en/142.jpg"
-  },
-  {
-    "id": "gotr-143",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/143.jpg",
-    "englishImage": "images/sets/gotr/en/143.jpg"
-  },
-  {
-    "id": "gotr-144",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/144.jpg",
-    "englishImage": "images/sets/gotr/en/144.jpg"
-  },
-  {
-    "id": "gotr-145",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/145.jpg",
-    "englishImage": "images/sets/gotr/en/145.jpg"
-  },
-  {
-    "id": "gotr-146",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/146.jpg",
-    "englishImage": "images/sets/gotr/en/146.jpg"
-  },
-  {
-    "id": "gotr-147",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/147.jpg",
-    "englishImage": "images/sets/gotr/en/147.jpg"
-  },
-  {
-    "id": "gotr-148",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/148.jpg",
-    "englishImage": "images/sets/gotr/en/148.jpg"
-  },
-  {
-    "id": "gotr-149",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/149.jpg",
-    "englishImage": "images/sets/gotr/en/149.jpg"
-  },
-  {
-    "id": "gotr-150",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/150.jpg",
-    "englishImage": "images/sets/gotr/en/150.jpg"
-  },
-  {
-    "id": "gotr-151",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/151.jpg",
-    "englishImage": "images/sets/gotr/en/151.jpg"
-  },
-  {
-    "id": "gotr-152",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/152.jpg",
-    "englishImage": "images/sets/gotr/en/152.jpg"
-  },
-  {
-    "id": "gotr-153",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/153.jpg",
-    "englishImage": "images/sets/gotr/en/153.jpg"
-  },
-  {
-    "id": "gotr-154",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/154.jpg",
-    "englishImage": "images/sets/gotr/en/154.jpg"
-  },
-  {
-    "id": "gotr-155",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/155.jpg",
-    "englishImage": "images/sets/gotr/en/155.jpg"
-  },
-  {
-    "id": "gotr-156",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/156.jpg",
-    "englishImage": "images/sets/gotr/en/156.jpg"
-  },
-  {
-    "id": "gotr-157",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/157.jpg",
-    "englishImage": "images/sets/gotr/en/157.jpg"
-  },
-  {
-    "id": "gotr-158",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/158.jpg",
-    "englishImage": "images/sets/gotr/en/158.jpg"
-  },
-  {
-    "id": "gotr-159",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/159.jpg",
-    "englishImage": "images/sets/gotr/en/159.jpg"
-  },
-  {
-    "id": "gotr-160",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/160.jpg",
-    "englishImage": "images/sets/gotr/en/160.jpg"
-  },
-  {
-    "id": "gotr-161",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/161.jpg",
-    "englishImage": "images/sets/gotr/en/161.jpg"
-  },
-  {
-    "id": "gotr-2",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/162.jpg",
-    "englishImage": "images/sets/gotr/en/162.jpg"
-  },
-  {
-    "id": "gotr-163",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/163.jpg",
-    "englishImage": "images/sets/gotr/en/163.jpg"
-  },
-  {
-    "id": "gotr-164",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/164.jpg",
-    "englishImage": "images/sets/gotr/en/164.jpg"
-  },
-  {
-    "id": "gotr-165",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/165.jpg",
-    "englishImage": "images/sets/gotr/en/165.jpg"
-  },
-  {
-    "id": "gotr-166",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/166.jpg",
-    "englishImage": "images/sets/gotr/en/166.jpg"
-  },
-  {
-    "id": "gotr-167",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/167.jpg",
-    "englishImage": "images/sets/gotr/en/167.jpg"
-  },
-  {
-    "id": "gotr-168",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/168.jpg",
-    "englishImage": "images/sets/gotr/en/168.jpg"
-  },
-  {
-    "id": "gotr-169",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/169.jpg",
-    "englishImage": "images/sets/gotr/en/169.jpg"
-  },
-  {
-    "id": "gotr-170",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/170.jpg",
-    "englishImage": "images/sets/gotr/en/170.jpg"
-  },
-  {
-    "id": "gotr-171",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/171.jpg",
-    "englishImage": "images/sets/gotr/en/171.jpg"
-  },
-  {
-    "id": "gotr-172",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/172.jpg",
-    "englishImage": "images/sets/gotr/en/172.jpg"
-  },
-  {
-    "id": "gotr-173",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/173.jpg",
-    "englishImage": "images/sets/gotr/en/173.jpg"
-  },
-  {
-    "id": "gotr-174",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/174.jpg",
-    "englishImage": "images/sets/gotr/en/174.jpg"
-  },
-  {
-    "id": "gotr-175",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/175.jpg",
-    "englishImage": "images/sets/gotr/en/175.jpg"
-  },
-  {
-    "id": "gotr-176",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/176.jpg",
-    "englishImage": "images/sets/gotr/en/176.jpg"
-  },
-  {
-    "id": "gotr-177",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/177.jpg",
-    "englishImage": "images/sets/gotr/en/177.jpg"
-  },
-  {
-    "id": "gotr-178",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/178.jpg",
-    "englishImage": "images/sets/gotr/en/178.jpg"
-  },
-  {
-    "id": "gotr-179",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/179.jpg",
-    "englishImage": "images/sets/gotr/en/179.jpg"
-  },
-  {
-    "id": "gotr-180",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/180.jpg",
-    "englishImage": "images/sets/gotr/en/180.jpg"
-  },
-  {
-    "id": "gotr-181",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/181.jpg",
-    "englishImage": "images/sets/gotr/en/181.jpg"
-  },
-  {
-    "id": "gotr-182",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/182.jpg",
-    "englishImage": "images/sets/gotr/en/182.jpg"
-  },
-  {
-    "id": "gotr-183",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/183.jpg",
-    "englishImage": "images/sets/gotr/en/183.jpg"
-  },
-  {
-    "id": "gotr-184",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/184.jpg",
-    "englishImage": "images/sets/gotr/en/184.jpg"
-  },
-  {
-    "id": "gotr-185",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/185.jpg",
-    "englishImage": "images/sets/gotr/en/185.jpg"
-  },
-  {
-    "id": "gotr-186",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/186.jpg",
-    "englishImage": "images/sets/gotr/en/186.jpg"
-  },
-  {
-    "id": "gotr-187",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/187.jpg",
-    "englishImage": "images/sets/gotr/en/187.jpg"
-  },
-  {
-    "id": "gotr-188",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/188.jpg",
-    "englishImage": "images/sets/gotr/en/188.jpg"
-  },
-  {
-    "id": "gotr-189",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/189.jpg",
-    "englishImage": "images/sets/gotr/en/189.jpg"
-  },
-  {
-    "id": "gotr-190",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/190.jpg",
-    "englishImage": "images/sets/gotr/en/190.jpg"
-  },
-  {
-    "id": "gotr-191",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/191.jpg",
-    "englishImage": "images/sets/gotr/en/191.jpg"
-  },
-  {
-    "id": "gotr-192",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/192.jpg",
-    "englishImage": "images/sets/gotr/en/192.jpg"
-  },
-  {
-    "id": "gotr-193",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/193.jpg",
-    "englishImage": "images/sets/gotr/en/193.jpg"
-  },
-  {
-    "id": "gotr-194",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/194.jpg",
-    "englishImage": "images/sets/gotr/en/194.jpg"
-  },
-  {
-    "id": "gotr-195",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/195.jpg",
-    "englishImage": "images/sets/gotr/en/195.jpg"
-  },
-  {
-    "id": "gotr-196",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/196.jpg",
-    "englishImage": "images/sets/gotr/en/196.jpg"
-  },
-  {
-    "id": "gotr-197",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/197.jpg",
-    "englishImage": "images/sets/gotr/en/197.jpg"
-  },
-  {
-    "id": "gotr-198",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/198.jpg",
-    "englishImage": "images/sets/gotr/en/198.jpg"
-  },
-  {
-    "id": "gotr-199",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/199.jpg",
-    "englishImage": "images/sets/gotr/en/199.jpg"
-  },
-  {
-    "id": "gotr-200",
-    "japaneseName": "",
-    "englishName": "",
-    "japaneseSetName": "ロケット団の栄光",
-    "japaneseSetReleaseDate": "4-18-2025",
-    "japaneseImage": "images/sets/gotr/jp/200.jpg",
-    "englishImage": "images/sets/gotr/en/200.jpg"
   }
   ]
   

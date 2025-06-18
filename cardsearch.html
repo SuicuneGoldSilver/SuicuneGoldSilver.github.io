@@ -133,6 +133,7 @@
         <input type="text" id="search-input" placeholder="" />
         <select id="set-select">
           <option value="">セット選択</option>
+          <option value="gotr">ロケット団の栄光</option>
           <option value="haa">熱風のアリーナ</option>
           <option value="bp">バトルパートナーズ</option>
           <option value="tfex">テラスタルフェス</option>
@@ -152,7 +153,7 @@
     </main>
 
     <script>
-      const allSets = ["haa", "bp", "tfex", "seb", "pd", "sm", "nw", "mc"]; // List of all available sets
+      const allSets = ["gotr", "haa", "bp", "tfex", "seb", "pd", "sm", "nw", "mc"]; // List of all available sets
 
       // Add event listener to trigger search on Enter key press
       document.getElementById('search-input').addEventListener('keypress', function(event) {
