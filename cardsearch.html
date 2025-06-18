@@ -127,137 +127,231 @@
     </footer>
 
     <script>
-      const allSets = ["gotr", "haa", "bp", "tfex", "seb", "pd", "sm", "nw", "mc"];
-      let currentCard = null;
-      let showingJapanese = true;
+  const allSets = ["gotr", "haa", "bp", "tfex", "seb", "pd", "sm", "nw", "mc"];
+  let currentCard = null;
+  let showingJapanese = true;
 
-      document.getElementById('search-input').addEventListener('keypress', function(event) {
-        if (event.key === 'Enter') {
-          event.preventDefault();
-          searchCards();
-        }
+  // New globals for navigation
+  let currentCards = [];
+  let currentIndex = -1;
+
+  document.getElementById('search-input').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      searchCards();
+    }
+  });
+
+  function loadSetData(setName) {
+    return fetch(`data/${setName}.json`)
+      .then(response => response.json())
+      .catch(error => {
+        console.error(`読み込みエラー：`, error);
+        return [];
+      });
+  }
+
+  function loadAllSetsData() {
+    const setPromises = allSets.map(setName => {
+      return fetch(`data/${setName}.json`)
+        .then(response => response.json())
+        .catch(error => {
+          console.error(`読み込みエラー：`, error);
+          return [];
+        });
+    });
+
+    return Promise.all(setPromises).then(allCards => {
+      const flatCards = allCards.flat();
+
+      // Preload all English images
+      flatCards.forEach(card => {
+        const img = new Image();
+        img.src = card.englishImage;
       });
 
-      function loadSetData(setName) {
-        return fetch(`data/${setName}.json`)
-          .then(response => response.json())
-          .catch(error => {
-            console.error(`読み込みエラー：`, error);
-            return [];
-          });
+      return flatCards;
+    });
+  }
+
+  function searchCards() {
+    const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+    const setName = document.getElementById('set-select').value;
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+
+    const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
+
+    cardsPromise.then(cards => {
+      const filteredCards = cards.filter(card =>
+        card.japaneseName.toLowerCase().includes(searchTerm) ||
+        card.englishName.toLowerCase().includes(searchTerm)
+      );
+
+      // Preload English images for filtered cards if you want (optional)
+      filteredCards.forEach(card => {
+        const img = new Image();
+        img.src = card.englishImage;
+      });
+
+      if (filteredCards.length === 0) {
+        const message = document.createElement('p');
+        message.classList.add('center-text');
+        message.innerText = '見つかりませんでした。';
+        resultsContainer.appendChild(message);
+        return;
       }
 
-      function loadAllSetsData() {
-        const setPromises = allSets.map(setName => {
-          return fetch(`data/${setName}.json`)
-            .then(response => response.json())
-            .catch(error => {
-              console.error(`読み込みエラー：`, error);
-              return [];
-            });
-        });
+      displayCards(filteredCards, resultsContainer);
+    });
+  }
 
-        return Promise.all(setPromises).then(allCards => allCards.flat());
-      }
+  function displayCards(cards, container) {
+    const grid = document.createElement('div');
+    grid.style.display = 'grid';
+    grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(100px, 1fr))';
+    grid.style.gap = '16px';
+    grid.style.justifyItems = 'center';
+    grid.style.padding = '20px';
 
-      function searchCards() {
-        const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
-        const setName = document.getElementById('set-select').value;
-        const resultsContainer = document.getElementById('search-results');
-        resultsContainer.innerHTML = '';
+    cards.forEach((card, i) => {
+      const img = document.createElement('img');
+      img.src = card.japaneseImage;
+      img.alt = card.japaneseName;
+      img.style.width = '100%';
+      img.style.maxWidth = '200px';
+      img.style.borderRadius = '8px';
+      img.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+      img.style.cursor = 'pointer';
 
-        const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
+      img.addEventListener('click', () => openModal(card, i, cards));
 
-        cardsPromise.then(cards => {
-          const filteredCards = cards.filter(card =>
-            card.japaneseName.toLowerCase().includes(searchTerm) ||
-            card.englishName.toLowerCase().includes(searchTerm)
-          );
+      grid.appendChild(img);
+    });
 
-          if (filteredCards.length === 0) {
-            const message = document.createElement('p');
-            message.classList.add('center-text');
-            message.innerText = '見つかりませんでした。';
-            resultsContainer.appendChild(message);
-            return;
-          }
+    container.appendChild(grid);
+  }
 
-          displayCards(filteredCards, resultsContainer);
-        });
-      }
+  // Updated openModal to receive index and cards array
+  function openModal(card, index, cardsArray) {
+    currentCard = card;
+    showingJapanese = true;
+    currentIndex = index;
+    currentCards = cardsArray;
 
-      function displayCards(cards, container) {
-        const grid = document.createElement('div');
-        grid.style.display = 'grid';
-        grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(200px, 1fr))';
-        grid.style.gap = '16px';
-        grid.style.justifyItems = 'center';
-        grid.style.padding = '20px';
+    const modal = document.getElementById('card-modal');
+    const img = document.getElementById('modal-image');
 
-        cards.forEach(card => {
-          const img = document.createElement('img');
-          img.src = card.japaneseImage;
-          img.alt = card.japaneseName;
-          img.style.width = '100%';
-          img.style.maxWidth = '200px';
-          img.style.borderRadius = '8px';
-          img.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
-          img.style.cursor = 'pointer';
+    // Preload the English image in the background
+    const preloadImg = new Image();
+    preloadImg.src = card.englishImage;
 
-          img.addEventListener('click', () => openModal(card));
+    // Show the Japanese card in the modal
+    img.style.opacity = 0;
+    setTimeout(() => {
+      img.src = card.japaneseImage;
+      img.alt = card.japaneseName;
+      img.style.opacity = 1;
+    }, 100);
 
-          grid.appendChild(img);
-        });
+    modal.style.display = 'flex';
+  }
 
-        container.appendChild(grid);
-      }
+  function showCardByIndex(newIndex) {
+    if (newIndex < 0 || newIndex >= currentCards.length) return; // boundary check
 
-      function openModal(card) {
-  currentCard = card;
-  showingJapanese = true;
+    currentIndex = newIndex;
+    currentCard = currentCards[currentIndex];
+    showingJapanese = true;
+
+    const img = document.getElementById('modal-image');
+    img.style.opacity = 0;
+    setTimeout(() => {
+      img.src = currentCard.japaneseImage;
+      img.alt = currentCard.japaneseName;
+      img.style.opacity = 1;
+    }, 100);
+  }
+
+  function showNextCard() {
+    showCardByIndex(currentIndex + 1);
+  }
+
+  function showPrevCard() {
+    showCardByIndex(currentIndex - 1);
+  }
 
   const modal = document.getElementById('card-modal');
-  const img = document.getElementById('modal-image');
+  const modalImage = document.getElementById('modal-image');
 
-  // Preload the English image in the background
-  const preloadImg = new Image();
-  preloadImg.src = card.englishImage;
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    } else {
+      if (currentCard) {
+        showingJapanese = !showingJapanese;
+        modalImage.style.opacity = 0;
+        setTimeout(() => {
+          modalImage.src = showingJapanese ? currentCard.japaneseImage : currentCard.englishImage;
+          modalImage.alt = showingJapanese ? currentCard.japaneseName : currentCard.englishName;
+          modalImage.style.opacity = 1;
+        }, 100);
+      }
+    }
+  });
 
-  // Show the Japanese card in the modal
-  img.style.opacity = 0;
-  setTimeout(() => {
-    img.src = card.japaneseImage;
-    img.alt = card.japaneseName;
-    img.style.opacity = 1;
-  }, 100);
+  document.getElementById('close-modal').addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
 
-  modal.style.display = 'flex';
-}
+  document.addEventListener('keydown', (event) => {
+  if (modal.style.display !== 'flex') return;
 
-
-      const modal = document.getElementById('card-modal');
-      modal.addEventListener('click', (event) => {
-        const img = document.getElementById('modal-image');
-        if (event.target === modal) {
-          modal.style.display = 'none';
-        } else {
-          if (currentCard) {
-            showingJapanese = !showingJapanese;
-            img.style.opacity = 0;
-            setTimeout(() => {
-              img.src = showingJapanese ? currentCard.japaneseImage : currentCard.englishImage;
-              img.alt = showingJapanese ? currentCard.japaneseName : currentCard.englishName;
-              img.style.opacity = 1;
-            }, 100);
-          }
-        }
-      });
-
-      document.getElementById('close-modal').addEventListener('click', () => {
-  document.getElementById('card-modal').style.display = 'none';
+  if (event.key === 'ArrowRight') {
+    showNextCard();
+  } else if (event.key === 'ArrowLeft') {
+    showPrevCard();
+  } else if (event.key === 'Escape') {
+    modal.style.display = 'none';
+  } else if (event.key === ' ' || event.key === 'Spacebar') {
+    // Prevent page from scrolling when space is pressed
+    event.preventDefault();
+    if (currentCard) {
+      showingJapanese = !showingJapanese;
+      modalImage.style.opacity = 0;
+      setTimeout(() => {
+        modalImage.src = showingJapanese ? currentCard.japaneseImage : currentCard.englishImage;
+        modalImage.alt = showingJapanese ? currentCard.japaneseName : currentCard.englishName;
+        modalImage.style.opacity = 1;
+      }, 100);
+    }
+  }
 });
 
-    </script>
+
+  // Swipe support for modal image
+  let touchStartX = null;
+
+  modalImage.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  modalImage.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const touchEndX = e.changedTouches[0].screenX;
+    const diffX = touchEndX - touchStartX;
+
+    if (Math.abs(diffX) > 50) { // swipe threshold
+      if (diffX > 0) {
+        showPrevCard();
+      } else {
+        showNextCard();
+      }
+    }
+    touchStartX = null;
+  });
+</script>
+
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
