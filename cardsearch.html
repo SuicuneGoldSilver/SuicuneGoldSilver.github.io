@@ -15,72 +15,21 @@
         margin-top: 20px;
       }
 
-      .search-container input {
-        width: 250px;
-        padding: 10px;
-        font-size: 1rem;
-        border: 2px solid #212529;
-        border-radius: 8px;
-        outline: none;
-        transition: 0.3s;
-      }
-
+      .search-container input,
+      .search-container select,
       .search-container button {
-        background-color: #212529;
-        color: white;
-        border: none;
+        margin: 5px;
         padding: 10px 16px;
         font-size: 1rem;
         border-radius: 8px;
+        border: 2px solid #212529;
         cursor: pointer;
         transition: 0.3s;
       }
-
-      .search-container button, .search-container select {
-        border: 1px solid;
-        padding: 10px 16px;
-        font-size: 1rem;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.3s;
-      }
-
 
       .search-container input:focus {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      }
-
-      .card-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        margin: 10px 0;
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .card-images-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        max-width: 500px;
-      }
-
-      .card-images-container img {
-        width: 48%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
-        transition: transform 0.3s;
-      }
-
-      .card-images-container img:hover {
-        transform: scale(1.05);
+        outline: none;
       }
 
       .center-text {
@@ -89,41 +38,53 @@
         margin-top: 20px;
         color: #333;
       }
+
+      #card-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      #modal-image {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 12px;
+        box-shadow: 0 0 20px #fff;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      #close-modal {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 10000;
+  transition: 0.2s ease;
+}
+#close-modal:hover {
+  color: #ccc;
+}
+
     </style>
   </head>
   <body>
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About Me</h4>
-              <p class="text-white">
-                Hi, I'm Nick, also known as SuicuneGS. I'm originally from the US, now living in Japan, and am an avid Pokémon card player.
-                I created this site to help players compete abroad and encourage international play!
-                <br><br>
-                Thanks for stopping by; I hope you find the website helpful!
-              </p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
-              <ul class="list-unstyled">
-                <li><a href="https://twitter.com/SuicuneGS" class="text-white">Follow on Twitter</a></li>
-                <li><a href="https://www.youtube.com/channel/UCK4LrVdU3ey_nkRitr0WlYA" class="text-white">Subscribe on YouTube</a></li>
-                <li><a href="mailto:SuicuneGoldSilver@gmail.com" class="text-white">Email me</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
           <a href="index.html" class="navbar-brand d-flex align-items-center">
             <strong>SuicuneGS</strong>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
         </div>
       </div>
     </header>
@@ -144,22 +105,36 @@
           <option value="mc">変幻の仮面</option>
         </select>
         <button onclick="searchCards()">検索</button>
-        <!--<button onclick="getRandomCard()">ランダム</button>-->
       </div>
-      
-      <div id="search-results">
-        <!-- Results will appear here -->
-      </div>
+
+      <div id="search-results"></div>
     </main>
 
-    <script>
-      const allSets = ["gotr", "haa", "bp", "tfex", "seb", "pd", "sm", "nw", "mc"]; // List of all available sets
+    <div id="card-modal">
+  <span id="close-modal">&times;</span>
+  <img id="modal-image" src="" alt="" />
+</div>
 
-      // Add event listener to trigger search on Enter key press
+    <footer class="text-muted py-5">
+      <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <p class="mb-1" style="text-align: center;">
+          &copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved.
+        </p>
+        <p class="mb-1" style="text-align: center; margin-top: 10px;">
+          Pokémon and All Respective Names are Trademark & © of Nintendo 1996-2025
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const allSets = ["gotr", "haa", "bp", "tfex", "seb", "pd", "sm", "nw", "mc"];
+      let currentCard = null;
+      let showingJapanese = true;
+
       document.getElementById('search-input').addEventListener('keypress', function(event) {
-        if (event.key === 'Enter') { // Check if Enter key is pressed
-          event.preventDefault(); // Prevent form submission or any default behavior
-          searchCards(); // Call the search function
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          searchCards();
         }
       });
 
@@ -211,50 +186,69 @@
         });
       }
 
-      function getRandomCard() {
-        const resultsContainer = document.getElementById('search-results');
-        resultsContainer.innerHTML = ''; 
-
-        loadAllSetsData().then(cards => {
-          if (cards.length === 0) {
-            const message = document.createElement('p');
-            message.classList.add('center-text');
-            message.innerText = 'カードが見つかりませんでした。';
-            resultsContainer.appendChild(message);
-            return;
-          }
-
-          const randomCard = cards[Math.floor(Math.random() * cards.length)];
-          displayCards([randomCard], resultsContainer);
-        });
-      }
-
       function displayCards(cards, container) {
-        cards.forEach(card => {
-          const cardElement = document.createElement('div');
-          cardElement.classList.add('card-item');
-          cardElement.innerHTML = `
-            <div class="card-images-container">
-              <img src="${card.japaneseImage}" alt="${card.japaneseName}" loading="lazy">
-              <img src="${card.englishImage}" alt="${card.englishName}" loading="lazy">
-            </div>
-          `;
-          container.appendChild(cardElement);
-        });
-      }
-    </script>
+        const grid = document.createElement('div');
+        grid.style.display = 'grid';
+        grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(200px, 1fr))';
+        grid.style.gap = '16px';
+        grid.style.justifyItems = 'center';
+        grid.style.padding = '20px';
 
-    <footer class="text-muted py-5">
-      <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <p class="mb-1" style="text-align: center;">
-          &copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved.
-        </p>
-        
-        <p class="mb-1" style="text-align: center; margin-top: 10px;">
-          Pokémon and All Respective Names are Trademark & © of Nintendo 1996-2025
-        </p>
-      </div>
-    </footer>
+        cards.forEach(card => {
+          const img = document.createElement('img');
+          img.src = card.japaneseImage;
+          img.alt = card.japaneseName;
+          img.style.width = '100%';
+          img.style.maxWidth = '200px';
+          img.style.borderRadius = '8px';
+          img.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+          img.style.cursor = 'pointer';
+
+          img.addEventListener('click', () => openModal(card));
+
+          grid.appendChild(img);
+        });
+
+        container.appendChild(grid);
+      }
+
+      function openModal(card) {
+        currentCard = card;
+        showingJapanese = true;
+        const modal = document.getElementById('card-modal');
+        const img = document.getElementById('modal-image');
+        img.style.opacity = 0;
+        setTimeout(() => {
+          img.src = card.japaneseImage;
+          img.alt = card.japaneseName;
+          img.style.opacity = 1;
+        }, 100);
+        modal.style.display = 'flex';
+      }
+
+      const modal = document.getElementById('card-modal');
+      modal.addEventListener('click', (event) => {
+        const img = document.getElementById('modal-image');
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        } else {
+          if (currentCard) {
+            showingJapanese = !showingJapanese;
+            img.style.opacity = 0;
+            setTimeout(() => {
+              img.src = showingJapanese ? currentCard.japaneseImage : currentCard.englishImage;
+              img.alt = showingJapanese ? currentCard.japaneseName : currentCard.englishName;
+              img.style.opacity = 1;
+            }, 100);
+          }
+        }
+      });
+
+      document.getElementById('close-modal').addEventListener('click', () => {
+  document.getElementById('card-modal').style.display = 'none';
+});
+
+    </script>
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
