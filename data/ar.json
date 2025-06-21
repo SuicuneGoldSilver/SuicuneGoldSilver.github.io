@@ -1,0 +1,597 @@
+[
+    {
+        "id": "ar-1",
+        "japaneseName": "ヤナップ",
+        "englishName": "Pansage",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/1.jpg",
+        "englishImage": "images/sets/ar/en/1.jpg"
+    },
+    {
+        "id": "ar-2",
+        "japaneseName": "ヤナッキー",
+        "englishName": "Simisage",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/2.jpg",
+        "englishImage": "images/sets/ar/en/2.jpg"
+    },
+    {
+        "id": "ar-3",
+        "japaneseName": "マラカッチ",
+        "englishName": "Maractus",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/3.jpg",
+        "englishImage": "images/sets/ar/en/3.jpg"
+    },
+    {
+        "id": "ar-4",
+        "japaneseName": "イシズマイ",
+        "englishName": "Dwebble",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/4.jpg",
+        "englishImage": "images/sets/ar/en/4.jpg"
+    },
+    {
+        "id": "ar-5",
+        "japaneseName": "イワパレス",
+        "englishName": "Crustle",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/5.jpg",
+        "englishImage": "images/sets/ar/en/5.jpg"
+    },
+    {
+        "id": "ar-6",
+        "japaneseName": "アマカジ",
+        "englishName": "Bounsweet",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/6.jpg",
+        "englishImage": "images/sets/ar/en/6.jpg"
+    },
+    {
+        "id": "ar-7",
+        "japaneseName": "アママイコ",
+        "englishName": "Steenee",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/7.jpg",
+        "englishImage": "images/sets/ar/en/7.jpg"
+    },
+    {
+        "id": "ar-8",
+        "japaneseName": "マメバッタ",
+        "englishName": "Nymble",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/8.jpg",
+        "englishImage": "images/sets/ar/en/8.jpg"
+    },
+    {
+        "id": "ar-9",
+        "japaneseName": "マメバッタ",
+        "englishName": "Nymble",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/9.jpg",
+        "englishImage": "images/sets/ar/en/9.jpg"
+    },
+    {
+        "id": "ar-10",
+        "japaneseName": "ブビィ",
+        "englishName": "Magby",
+        "japaneseSetName": "古代の咆哮",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ar/jp/10.jpg",
+        "englishImage": "images/sets/ar/en/10.jpg"
+    },
+    {
+      "id": "ar-11",
+      "japaneseName": "ドンメル",
+      "englishName": "Numel",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/11.jpg",
+      "englishImage": "images/sets/ar/en/11.jpg"
+  },
+  {
+      "id": "ar-12",
+      "japaneseName": "バクーダ",
+      "englishName": "Camerupt",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/12.jpg",
+      "englishImage": "images/sets/ar/en/12.jpg"
+  },
+  {
+      "id": "ar-13",
+      "japaneseName": "カルボウ",
+      "englishName": "Charcadet",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/13.jpg",
+      "englishImage": "images/sets/ar/en/13.jpg"
+  },
+  {
+      "id": "ar-14",
+      "japaneseName": "カルボウ",
+      "englishName": "Charcadet",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/14.jpg",
+      "englishImage": "images/sets/ar/en/14.jpg"
+  },
+  {
+      "id": "ar-15",
+      "japaneseName": "グレンアルマex",
+      "englishName": "Armarouge ex",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/15.jpg",
+      "englishImage": "images/sets/ar/en/15.jpg"
+  },
+  {
+      "id": "ar-16",
+      "japaneseName": "イーユイ",
+      "englishName": "Chi-Yu",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/16.jpg",
+      "englishImage": "images/sets/ar/en/16.jpg"
+  },
+  {
+      "id": "ar-17",
+      "japaneseName": "タッツー",
+      "englishName": "Horsea",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/17.jpg",
+      "englishImage": "images/sets/ar/en/17.jpg"
+  },
+  {
+      "id": "ar-18",
+      "japaneseName": "シードラ",
+      "englishName": "Seadra",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/18.jpg",
+      "englishImage": "images/sets/ar/en/18.jpg"
+  },
+  {
+      "id": "ar-19",
+      "japaneseName": "キングドラ",
+      "englishName": "Kingdra",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/19.jpg",
+      "englishImage": "images/sets/ar/en/19.jpg"
+  },
+  {
+      "id": "ar-20",
+      "japaneseName": "アマージョex",
+      "englishName": "Tsareena ex",
+      "japaneseSetName": "古代の咆哮",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ar/jp/20.jpg",
+      "englishImage": "images/sets/ar/en/20.jpg"
+  },
+  {
+    "id": "ar-21",
+    "japaneseName": "コソクムシ",
+    "englishName": "Wimpod",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/21.jpg",
+    "englishImage": "images/sets/ar/en/21.jpg"
+  },
+  {
+    "id": "ar-22",
+    "japaneseName": "グソクムシャex",
+    "englishName": "Golisopod ex",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/22.jpg",
+    "englishImage": "images/sets/ar/en/22.jpg"
+  },
+  {
+    "id": "ar-23",
+    "japaneseName": "ウミディグダ",
+    "englishName": "Wiglett",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/23.jpg",
+    "englishImage": "images/sets/ar/en/23.jpg"
+  },
+  {
+    "id": "ar-24",
+    "japaneseName": "ウミディグダ",
+    "englishName": "Wiglett",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/24.jpg",
+    "englishImage": "images/sets/ar/en/24.jpg"
+  },
+  {
+    "id": "ar-25",
+    "japaneseName": "ウミトリオ",
+    "englishName": "Wugtrio",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/25.jpg",
+    "englishImage": "images/sets/ar/en/25.jpg"
+  },
+  {
+    "id": "ar-26",
+    "japaneseName": "ミガルーサ",
+    "englishName": "Veluza",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/26.jpg",
+    "englishImage": "images/sets/ar/en/26.jpg"
+  },
+  {
+    "id": "ar-27",
+    "japaneseName": "ラティオス",
+    "englishName": "Latios",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/27.jpg",
+    "englishImage": "images/sets/ar/en/27.jpg"
+  },
+  {
+    "id": "ar-28",
+    "japaneseName": "コロモリ",
+    "englishName": "Woobat",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/28.jpg",
+    "englishImage": "images/sets/ar/en/28.jpg"
+  },
+  {
+    "id": "ar-29",
+    "japaneseName": "ココロモリ",
+    "englishName": "Swoobat",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/29.jpg",
+    "englishImage": "images/sets/ar/en/29.jpg"
+  },
+  {
+    "id": "ar-30",
+    "japaneseName": "デスマス",
+    "englishName": "Yamask",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/30.jpg",
+    "englishImage": "images/sets/ar/en/30.jpg"
+  },
+  {
+    "id": "ar-31",
+    "japaneseName": "デスカーンex",
+    "englishName": "Cofagrigus ex",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/31.jpg",
+    "englishImage": "images/sets/ar/en/31.jpg"
+  },
+  {
+    "id": "ar-32",
+    "japaneseName": "サケブシッポ",
+    "englishName": "Scream Tail",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/32.jpg",
+    "englishImage": "images/sets/ar/en/32.jpg"
+  },
+  {
+    "id": "ar-33",
+    "japaneseName": "コジョフー",
+    "englishName": "Mienfoo",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/33.jpg",
+    "englishImage": "images/sets/ar/en/33.jpg"
+  },
+  {
+    "id": "ar-34",
+    "japaneseName": "コジョンド",
+    "englishName": "Mienshao",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/34.jpg",
+    "englishImage": "images/sets/ar/en/34.jpg"
+  },
+  {
+    "id": "ar-35",
+    "japaneseName": "タタッコ",
+    "englishName": "Clobbopus",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/35.jpg",
+    "englishImage": "images/sets/ar/en/35.jpg"
+  },
+  {
+    "id": "ar-36",
+    "japaneseName": "オトスパス",
+    "englishName": "Grapploct",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/36.jpg",
+    "englishImage": "images/sets/ar/en/36.jpg"
+  },
+  {
+    "id": "ar-37",
+    "japaneseName": "コジオ",
+    "englishName": "Nacli",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/37.jpg",
+    "englishImage": "images/sets/ar/en/37.jpg"
+  },
+  {
+    "id": "ar-38",
+    "japaneseName": "コジオ",
+    "englishName": "Nacli",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/38.jpg",
+    "englishImage": "images/sets/ar/en/38.jpg"
+  },
+  {
+    "id": "ar-39",
+    "japaneseName": "ジオヅム",
+    "englishName": "Naclstack",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/39.jpg",
+    "englishImage": "images/sets/ar/en/39.jpg"
+  },
+  {
+    "id": "ar-40",
+    "japaneseName": "キョジオーン",
+    "englishName": "Garganacl",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/40.jpg",
+    "englishImage": "images/sets/ar/en/40.jpg"
+  },
+  {
+    "id": "ar-41",
+    "japaneseName": "チヲハウハネ",
+    "englishName": "Slither Wing",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/41.jpg",
+    "englishImage": "images/sets/ar/en/41.jpg"
+  },
+  {
+    "id": "ar-42",
+    "japaneseName": "スナノケガワex",
+    "englishName": "Sandy Shocks ex",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/42.jpg",
+    "englishImage": "images/sets/ar/en/42.jpg"
+  },
+  {
+    "id": "ar-43",
+    "japaneseName": "ディンルー",
+    "englishName": "Ting-Lu",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/43.jpg",
+    "englishImage": "images/sets/ar/en/43.jpg"
+  },
+  {
+    "id": "ar-44",
+    "japaneseName": "ズバット",
+    "englishName": "Zubat",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/44.jpg",
+    "englishImage": "images/sets/ar/en/44.jpg"
+  },
+  {
+    "id": "ar-45",
+    "japaneseName": "ゴルバット",
+    "englishName": "Golbat",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/45.jpg",
+    "englishImage": "images/sets/ar/en/45.jpg"
+  },
+  {
+    "id": "ar-46",
+    "japaneseName": "クロバット",
+    "englishName": "Crobat",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/46.jpg",
+    "englishImage": "images/sets/ar/en/46.jpg"
+  },
+  {
+    "id": "ar-47",
+    "japaneseName": "チョロネコ",
+    "englishName": "Purrloin",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/47.jpg",
+    "englishImage": "images/sets/ar/en/47.jpg"
+  },
+  {
+    "id": "ar-48",
+    "japaneseName": "レパルダス",
+    "englishName": "Liepard",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/48.jpg",
+    "englishImage": "images/sets/ar/en/48.jpg"
+  },
+  {
+    "id": "ar-49",
+    "japaneseName": "ヤブクロン",
+    "englishName": "Trubbish",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/49.jpg",
+    "englishImage": "images/sets/ar/en/49.jpg"
+  },
+  {
+    "id": "ar-50",
+    "japaneseName": "ダストダス",
+    "englishName": "Garbodor",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/50.jpg",
+    "englishImage": "images/sets/ar/en/50.jpg"
+  },
+  {
+    "id": "ar-51",
+    "japaneseName": "モルペコ",
+    "englishName": "Morpeko",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/51.jpg",
+    "englishImage": "images/sets/ar/en/51.jpg"
+  },
+  {
+    "id": "ar-52",
+    "japaneseName": "エクスレッグ",
+    "englishName": "Lokix",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/52.jpg",
+    "englishImage": "images/sets/ar/en/52.jpg"
+  },
+  {
+    "id": "ar-53",
+    "japaneseName": "アラブルタケ",
+    "englishName": "Brute Bonnet",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/53.jpg",
+    "englishImage": "images/sets/ar/en/53.jpg"
+  },
+  {
+    "id": "ar-54",
+    "japaneseName": "トドロクツキex",
+    "englishName": "Roaring Moon ex",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/54.jpg",
+    "englishImage": "images/sets/ar/en/54.jpg"
+  },
+  {
+    "id": "ar-55",
+    "japaneseName": "ゴニョニョ",
+    "englishName": "Whismur",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/55.jpg",
+    "englishImage": "images/sets/ar/en/55.jpg"
+  },
+  {
+    "id": "ar-56",
+    "japaneseName": "ドゴーム",
+    "englishName": "Loudred",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/56.jpg",
+    "englishImage": "images/sets/ar/en/56.jpg"
+  },
+  {
+    "id": "ar-57",
+    "japaneseName": "バクオング",
+    "englishName": "Exploud",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/57.jpg",
+    "englishImage": "images/sets/ar/en/57.jpg"
+  },
+  {
+    "id": "ar-58",
+    "japaneseName": "バッチール",
+    "englishName": "Spinda",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/58.jpg",
+    "englishImage": "images/sets/ar/en/58.jpg"
+  },
+  {
+    "id": "ar-59",
+    "japaneseName": "カビゴンドール",
+    "englishName": "Snorlax Doll",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/59.jpg",
+    "englishImage": "images/sets/ar/en/59.jpg"
+  },
+  {
+    "id": "ar-60",
+    "japaneseName": "大地の器",
+    "englishName": "Earthen Vessel",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/60.jpg",
+    "englishImage": "images/sets/ar/en/60.jpg"
+  },
+  {
+    "id": "ar-61",
+    "japaneseName": "ブーストエナジー古代",
+    "englishName": "Ancient Booster Energy Capsule",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/61.jpg",
+    "englishImage": "images/sets/ar/en/61.jpg"
+  },
+  {
+    "id": "ar-62",
+    "japaneseName": "まけんきチョッキ",
+    "englishName": "Defiance Vest",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/62.jpg",
+    "englishImage": "images/sets/ar/en/62.jpg"
+  },
+  {
+    "id": "ar-63",
+    "japaneseName": "ワザマシンデヴォリューション",
+    "englishName": "Technical Machine: Devolution",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/63.jpg",
+    "englishImage": "images/sets/ar/en/63.jpg"
+  },
+  {
+    "id": "ar-64",
+    "japaneseName": "オリーム博士の気迫",
+    "englishName": "Professor Sada's Vitality",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/64.jpg",
+    "englishImage": "images/sets/ar/en/64.jpg"
+  },
+  {
+    "id": "ar-65",
+    "japaneseName": "センリ",
+    "englishName": "Norman",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/65.jpg",
+    "englishImage": "images/sets/ar/en/65.jpg"
+  },
+  {
+    "id": "ar-66",
+    "japaneseName": "メロコ",
+    "englishName": "Mela",
+    "japaneseSetName": "古代の咆哮",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ar/jp/66.jpg",
+    "englishImage": "images/sets/ar/en/66.jpg"
+  }
+  ]
+  

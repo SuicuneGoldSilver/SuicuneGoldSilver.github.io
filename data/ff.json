@@ -1,0 +1,597 @@
+[
+    {
+        "id": "ff-1",
+        "japaneseName": "アメタマ",
+        "englishName": "Surskit",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/1.jpg",
+        "englishImage": "images/sets/ff/en/1.jpg"
+    },
+    {
+        "id": "ff-2",
+        "japaneseName": "アメモース",
+        "englishName": "Masquerain",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/2.jpg",
+        "englishImage": "images/sets/ff/en/2.jpg"
+    },
+    {
+        "id": "ff-3",
+        "japaneseName": "サッチムシ",
+        "englishName": "Blipbug",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/3.jpg",
+        "englishImage": "images/sets/ff/en/3.jpg"
+    },
+    {
+        "id": "ff-4",
+        "japaneseName": "レドームシ",
+        "englishName": "Dottler",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/4.jpg",
+        "englishImage": "images/sets/ff/en/4.jpg"
+    },
+    {
+        "id": "ff-5",
+        "japaneseName": "イオルブ",
+        "englishName": "Orbeetle",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/5.jpg",
+        "englishImage": "images/sets/ff/en/5.jpg"
+    },
+    {
+        "id": "ff-6",
+        "japaneseName": "ノノクラゲ",
+        "englishName": "Toedscool",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/6.jpg",
+        "englishImage": "images/sets/ff/en/6.jpg"
+    },
+    {
+        "id": "ff-7",
+        "japaneseName": "ノノクラゲ",
+        "englishName": "Toedscool",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/7.jpg",
+        "englishImage": "images/sets/ff/en/7.jpg"
+    },
+    {
+        "id": "ff-8",
+        "japaneseName": "リククラゲ",
+        "englishName": "Toedscruel",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/8.jpg",
+        "englishImage": "images/sets/ff/en/8.jpg"
+    },
+    {
+        "id": "ff-9",
+        "japaneseName": "チオンジェン",
+        "englishName": "Wo-Chien",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/9.jpg",
+        "englishImage": "images/sets/ff/en/9.jpg"
+    },
+    {
+        "id": "ff-10",
+        "japaneseName": "バオップ",
+        "englishName": "Pansear",
+        "japaneseSetName": "未来の一閃",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ff/jp/10.jpg",
+        "englishImage": "images/sets/ff/en/10.jpg"
+    },
+    {
+      "id": "ff-11",
+      "japaneseName": "バオッキー",
+      "englishName": "Simisear",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/11.jpg",
+      "englishImage": "images/sets/ff/en/11.jpg"
+  },
+  {
+      "id": "ff-12",
+      "japaneseName": "テツノドクガ",
+      "englishName": "Iron Moth",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/12.jpg",
+      "englishImage": "images/sets/ff/en/12.jpg"
+  },
+  {
+      "id": "ff-13",
+      "japaneseName": "ヒンバス",
+      "englishName": "Feebas",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/13.jpg",
+      "englishImage": "images/sets/ff/en/13.jpg"
+  },
+  {
+      "id": "ff-14",
+      "japaneseName": "ミロカロス",
+      "englishName": "Milotic",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/14.jpg",
+      "englishImage": "images/sets/ff/en/14.jpg"
+  },
+  {
+      "id": "ff-15",
+      "japaneseName": "ヒヤップ",
+      "englishName": "Panpour",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/15.jpg",
+      "englishImage": "images/sets/ff/en/15.jpg"
+  },
+  {
+      "id": "ff-16",
+      "japaneseName": "ヒヤッキー",
+      "englishName": "Simipour",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/16.jpg",
+      "englishImage": "images/sets/ff/en/16.jpg"
+  },
+  {
+      "id": "ff-17",
+      "japaneseName": "バニプッチ",
+      "englishName": "Vanillite",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/17.jpg",
+      "englishImage": "images/sets/ff/en/17.jpg"
+  },
+  {
+      "id": "ff-18",
+      "japaneseName": "バニリッチ",
+      "englishName": "Vanillish",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/18.jpg",
+      "englishImage": "images/sets/ff/en/18.jpg"
+  },
+  {
+      "id": "ff-19",
+      "japaneseName": "バイバニラ",
+      "englishName": "Vanilluxe",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/19.jpg",
+      "englishImage": "images/sets/ff/en/19.jpg"
+  },
+  {
+      "id": "ff-20",
+      "japaneseName": "テツノツツミ",
+      "englishName": "Iron Bundle",
+      "japaneseSetName": "未来の一閃",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ff/jp/20.jpg",
+      "englishImage": "images/sets/ff/en/20.jpg"
+  },
+  {
+    "id": "ff-21",
+    "japaneseName": "パオジアン",
+    "englishName": "Chien-Pao",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/21.jpg",
+    "englishImage": "images/sets/ff/en/21.jpg"
+  },
+  {
+    "id": "ff-22",
+    "japaneseName": "エレキッド",
+    "englishName": "Elekid",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/22.jpg",
+    "englishImage": "images/sets/ff/en/22.jpg"
+  },
+  {
+    "id": "ff-23",
+    "japaneseName": "シママ",
+    "englishName": "Blitzle",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/23.jpg",
+    "englishImage": "images/sets/ff/en/23.jpg"
+  },
+  {
+    "id": "ff-24",
+    "japaneseName": "ゼブライカ",
+    "englishName": "Zebstrika",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/24.jpg",
+    "englishImage": "images/sets/ff/en/24.jpg"
+  },
+  {
+    "id": "ff-25",
+    "japaneseName": "オドリドリ",
+    "englishName": "Oricoro",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/25.jpg",
+    "englishImage": "images/sets/ff/en/25.jpg"
+  },
+  {
+    "id": "ff-26",
+    "japaneseName": "エレズン",
+    "englishName": "Toxel",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/26.jpg",
+    "englishImage": "images/sets/ff/en/26.jpg"
+  },
+  {
+    "id": "ff-27",
+    "japaneseName": "テツノカイナex",
+    "englishName": "Iron Hands ex",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/27.jpg",
+    "englishImage": "images/sets/ff/en/27.jpg"
+  },
+  {
+    "id": "ff-28",
+    "japaneseName": "チリーン",
+    "englishName": "Chimecho",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/28.jpg",
+    "englishImage": "images/sets/ff/en/28.jpg"
+  },
+  {
+    "id": "ff-29",
+    "japaneseName": "バケッチャ",
+    "englishName": "Pumpkaboo",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/29.jpg",
+    "englishImage": "images/sets/ff/en/29.jpg"
+  },
+  {
+    "id": "ff-30",
+    "japaneseName": "パンプジン",
+    "englishName": "Gourgeist",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/30.jpg",
+    "englishImage": "images/sets/ff/en/30.jpg"
+  },
+  {
+    "id": "ff-31",
+    "japaneseName": "ヒラヒナ",
+    "englishName": "Flittle",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/31.jpg",
+    "englishImage": "images/sets/ff/en/31.jpg"
+  },
+  {
+    "id": "ff-32",
+    "japaneseName": "ヒラヒナ",
+    "englishName": "Flittle",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/32.jpg",
+    "englishImage": "images/sets/ff/en/32.jpg"
+  },
+  {
+    "id": "ff-33",
+    "japaneseName": "クエスパトラ",
+    "englishName": "Espathra",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/33.jpg",
+    "englishImage": "images/sets/ff/en/33.jpg"
+  },
+  {
+    "id": "ff-34",
+    "japaneseName": "カヌチャン",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/34.jpg",
+    "englishImage": "images/sets/ff/en/34.jpg"
+  },
+  {
+    "id": "ff-35",
+    "japaneseName": "カヌチャン",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/35.jpg",
+    "englishImage": "images/sets/ff/en/35.jpg"
+  },
+  {
+    "id": "ff-36",
+    "japaneseName": "ナカヌチャン",
+    "englishName": "Tinkatuff",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/36.jpg",
+    "englishImage": "images/sets/ff/en/36.jpg"
+  },
+  {
+    "id": "ff-37",
+    "japaneseName": "デカヌチャン",
+    "englishName": "Tinkaton",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/37.jpg",
+    "englishImage": "images/sets/ff/en/37.jpg"
+  },
+  {
+    "id": "ff-38",
+    "japaneseName": "テツノブジンex",
+    "englishName": "Iron Valiant ex",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/38.jpg",
+    "englishImage": "images/sets/ff/en/38.jpg"
+  },
+  {
+    "id": "ff-39",
+    "japaneseName": "イワーク",
+    "englishName": "Onix",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/39.jpg",
+    "englishImage": "images/sets/ff/en/39.jpg"
+  },
+  {
+    "id": "ff-40",
+    "japaneseName": "ストリンダーex",
+    "englishName": "Toxtricity ex",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/40.jpg",
+    "englishImage": "images/sets/ff/en/40.jpg"
+  },
+  {
+    "id": "ff-41",
+    "japaneseName": "ハガネール",
+    "englishName": "Steelix",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/41.jpg",
+    "englishImage": "images/sets/ff/en/41.jpg"
+  },
+  {
+    "id": "ff-42",
+    "japaneseName": "アイアント",
+    "englishName": "Durant",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/42.jpg",
+    "englishImage": "images/sets/ff/en/42.jpg"
+  },
+  {
+    "id": "ff-43",
+    "japaneseName": "ヒトツキ",
+    "englishName": "Honedge",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/43.jpg",
+    "englishImage": "images/sets/ff/en/43.jpg"
+  },
+  {
+    "id": "ff-44",
+    "japaneseName": "ニダンギル",
+    "englishName": "Doublade",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/44.jpg",
+    "englishImage": "images/sets/ff/en/44.jpg"
+  },
+  {
+    "id": "ff-45",
+    "japaneseName": "ギルガルドex",
+    "englishName": "Aegislash ex",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/45.jpg",
+    "englishImage": "images/sets/ff/en/45.jpg"
+  },
+  {
+    "id": "ff-46",
+    "japaneseName": "チルタリスex",
+    "englishName": "Altaria ex",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/46.jpg",
+    "englishImage": "images/sets/ff/en/46.jpg"
+  },
+  {
+    "id": "ff-47",
+    "japaneseName": "シャリタツ",
+    "englishName": "Tatsugiri",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/47.jpg",
+    "englishImage": "images/sets/ff/en/47.jpg"
+  },
+  {
+    "id": "ff-48",
+    "japaneseName": "ポリゴン",
+    "englishName": "Porygon",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/48.jpg",
+    "englishImage": "images/sets/ff/en/48.jpg"
+  },
+  {
+    "id": "ff-49",
+    "japaneseName": "ポリゴン2",
+    "englishName": "Porygon2",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/49.jpg",
+    "englishImage": "images/sets/ff/en/49.jpg"
+  },
+  {
+    "id": "ff-50",
+    "japaneseName": "ポリゴンZ",
+    "englishName": "Porygon-Z",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/50.jpg",
+    "englishImage": "images/sets/ff/en/50.jpg"
+  },
+  {
+    "id": "ff-51",
+    "japaneseName": "エイパム",
+    "englishName": "Aipom",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/51.jpg",
+    "englishImage": "images/sets/ff/en/51.jpg"
+  },
+  {
+    "id": "ff-52",
+    "japaneseName": "エテボース",
+    "englishName": "Ambipom",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/52.jpg",
+    "englishImage": "images/sets/ff/en/52.jpg"
+  },
+  {
+    "id": "ff-53",
+    "japaneseName": "ミルタンク",
+    "englishName": "Miltank",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/53.jpg",
+    "englishImage": "images/sets/ff/en/53.jpg"
+  },
+  {
+    "id": "ff-54",
+    "japaneseName": "チルット",
+    "englishName": "Swablu",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/54.jpg",
+    "englishImage": "images/sets/ff/en/54.jpg"
+  },
+  {
+    "id": "ff-55",
+    "japaneseName": "ワッカネズミ",
+    "englishName": "Tandemaus",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/55.jpg",
+    "englishImage": "images/sets/ff/en/55.jpg"
+  },
+  {
+    "id": "ff-56",
+    "japaneseName": "ワッカネズミ",
+    "englishName": "Tandemaus",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/56.jpg",
+    "englishImage": "images/sets/ff/en/56.jpg"
+  },
+  {
+    "id": "ff-57",
+    "japaneseName": "イッカネズミex",
+    "englishName": "Maushold ex",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/57.jpg",
+    "englishImage": "images/sets/ff/en/57.jpg"
+  },
+  {
+    "id": "ff-58",
+    "japaneseName": "テツノコウベ",
+    "englishName": "Iron Jugulis",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/58.jpg",
+    "englishImage": "images/sets/ff/en/58.jpg"
+  },
+  {
+    "id": "ff-59",
+    "japaneseName": "カウンターキャッチャー",
+    "englishName": "Counter Catcher",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/59.jpg",
+    "englishImage": "images/sets/ff/en/59.jpg"
+  },
+  {
+    "id": "ff-60",
+    "japaneseName": "テクノレーダー",
+    "englishName": "Techno Radar",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/60.jpg",
+    "englishImage": "images/sets/ff/en/60.jpg"
+  },
+  {
+    "id": "ff-61",
+    "japaneseName": "のろいのはたき",
+    "englishName": "Cursed Duster",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/61.jpg",
+    "englishImage": "images/sets/ff/en/61.jpg"
+  },
+  {
+    "id": "ff-62",
+    "japaneseName": "ブーストエナジー未来",
+    "englishName": "Future Booster Energy Capsule",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/62.jpg",
+    "englishImage": "images/sets/ff/en/62.jpg"
+  },
+  {
+    "id": "ff-63",
+    "japaneseName": "ワザマシンエヴォリューション",
+    "englishName": "Technical Machine: Evolution",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/63.jpg",
+    "englishImage": "images/sets/ff/en/63.jpg"
+  },
+  {
+    "id": "ff-64",
+    "japaneseName": "ヒョウタ",
+    "englishName": "Roark",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/64.jpg",
+    "englishImage": "images/sets/ff/en/64.jpg"
+  },
+  {
+    "id": "ff-65",
+    "japaneseName": "フトゥー博士のシナリオ",
+    "englishName": "Professor Turo's Scenario",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/65.jpg",
+    "englishImage": "images/sets/ff/en/65.jpg"
+  },
+  {
+    "id": "ff-66",
+    "japaneseName": "リップ",
+    "englishName": "Tulip",
+    "japaneseSetName": "未来の一閃",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ff/jp/66.jpg",
+    "englishImage": "images/sets/ff/en/66.jpg"
+  }
+  ]
+  
