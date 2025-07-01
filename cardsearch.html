@@ -162,34 +162,43 @@
       return Promise.all(allSets.map(loadSetData)).then(all => all.flat());
     }
 
-    function searchCards() {
-      const term = document.getElementById('search-input').value.trim().toLowerCase();
-      const setName = document.getElementById('set-select').value;
-      const container = document.getElementById('search-results');
-      container.innerHTML = '';
-      loadedCount = 0;
-      filteredCardsGlobal = [];
-      document.getElementById('load-more-btn').style.display = 'none';
+    function hiraganaToKatakana(str) {
+  return str.replace(/[\u3041-\u3096]/g, ch =>
+    String.fromCharCode(ch.charCodeAt(0) + 0x60)
+  );
+}
 
-      const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
+function searchCards() {
+  const term = document.getElementById('search-input').value.trim().toLowerCase();
+  const kanaTerm = hiraganaToKatakana(term);
+  const setName = document.getElementById('set-select').value;
+  const container = document.getElementById('search-results');
+  container.innerHTML = '';
+  loadedCount = 0;
+  filteredCardsGlobal = [];
+  document.getElementById('load-more-btn').style.display = 'none';
 
-      cardsPromise.then(cards => {
-        filteredCardsGlobal = cards.filter(c =>
-          c.japaneseName.toLowerCase().includes(term) ||
-          c.englishName.toLowerCase().includes(term)
-        );
+  const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
 
-        if (filteredCardsGlobal.length === 0) {
-          const msg = document.createElement('p');
-          msg.className = 'center-text';
-          msg.innerText = '見つかりませんでした。';
-          container.appendChild(msg);
-          return;
-        }
+  cardsPromise.then(cards => {
+    filteredCardsGlobal = cards.filter(c =>
+      c.japaneseName.toLowerCase().includes(term) ||
+      c.japaneseName.toLowerCase().includes(kanaTerm) ||
+      c.englishName.toLowerCase().includes(term)
+    );
 
-        displayNextBatch();
-      });
+    if (filteredCardsGlobal.length === 0) {
+      const msg = document.createElement('p');
+      msg.className = 'center-text';
+      msg.innerText = '見つかりませんでした。';
+      container.appendChild(msg);
+      return;
     }
+
+    displayNextBatch();
+  });
+}
+
 
     function displayNextBatch() {
       const container = document.getElementById('search-results');
