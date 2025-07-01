@@ -1,0 +1,561 @@
+[
+    {
+        "id": "rs-1",
+        "japaneseName": "",
+        "englishName": "Froslass ex",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/1.jpg",
+        "englishImage": "images/sets/rs/en/1.jpg"
+    },
+    {
+        "id": "rs-2",
+        "japaneseName": "",
+        "englishName": "Lapras",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/2.jpg",
+        "englishImage": "images/sets/rs/en/2.jpg"
+    },
+    {
+        "id": "rs-3",
+        "japaneseName": "",
+        "englishName": "Remoraid",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/3.jpg",
+        "englishImage": "images/sets/rs/en/3.jpg"
+    },
+    {
+        "id": "rs-4",
+        "japaneseName": "",
+        "englishName": "Octillery",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/4.jpg",
+        "englishImage": "images/sets/rs/en/4.jpg"
+    },
+    {
+        "id": "rs-5",
+        "japaneseName": "",
+        "englishName": "Snorunt",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/5.jpg",
+        "englishImage": "images/sets/rs/en/5.jpg"
+    },
+    {
+        "id": "rs-6",
+        "japaneseName": "",
+        "englishName": "Garchomp ex",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/6.jpg",
+        "englishImage": "images/sets/rs/en/6.jpg"
+    },
+    {
+        "id": "rs-7",
+        "japaneseName": "",
+        "englishName": "Mantyke",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/7.jpg",
+        "englishImage": "images/sets/rs/en/7.jpg"
+    },
+    {
+        "id": "rs-8",
+        "japaneseName": "",
+        "englishName": "Palkia",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/8.jpg",
+        "englishImage": "images/sets/rs/en/8.jpg"
+    },
+    {
+        "id": "rs-9",
+        "japaneseName": "",
+        "englishName": "Wimpod",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/9.jpg",
+        "englishImage": "images/sets/rs/en/9.jpg"
+    },
+    {
+        "id": "rs-10",
+        "japaneseName": "",
+        "englishName": "Golisopod",
+        "japaneseSetName": "レイジングサーフ",
+        "japaneseSetReleaseDate": "9-22-2023",
+        "japaneseImage": "images/sets/rs/jp/10.jpg",
+        "englishImage": "images/sets/rs/en/10.jpg"
+    },
+    {
+      "id": "rs-11",
+      "japaneseName": "",
+      "englishName": "Dondozo",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/11.jpg",
+      "englishImage": "images/sets/rs/en/11.jpg"
+  },
+  {
+      "id": "rs-12",
+      "japaneseName": "",
+      "englishName": "Chinchou",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/12.jpg",
+      "englishImage": "images/sets/rs/en/12.jpg"
+  },
+  {
+      "id": "rs-13",
+      "japaneseName": "",
+      "englishName": "Lanturn",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/13.jpg",
+      "englishImage": "images/sets/rs/en/13.jpg"
+  },
+  {
+      "id": "rs-14",
+      "japaneseName": "",
+      "englishName": "Plusle",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/14.jpg",
+      "englishImage": "images/sets/rs/en/14.jpg"
+  },
+  {
+      "id": "rs-15",
+      "japaneseName": "",
+      "englishName": "Minun",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/15.jpg",
+      "englishImage": "images/sets/rs/en/15.jpg"
+  },
+  {
+      "id": "rs-16",
+      "japaneseName": "",
+      "englishName": "Joltik",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/16.jpg",
+      "englishImage": "images/sets/rs/en/16.jpg"
+  },
+  {
+      "id": "rs-17",
+      "japaneseName": "",
+      "englishName": "Galvantula",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/17.jpg",
+      "englishImage": "images/sets/rs/en/17.jpg"
+  },
+  {
+      "id": "rs-18",
+      "japaneseName": "",
+      "englishName": "Zekrom",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/18.jpg",
+      "englishImage": "images/sets/rs/en/18.jpg"
+  },
+  {
+      "id": "rs-19",
+      "japaneseName": "",
+      "englishName": "Tapu Koko ex",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/19.jpg",
+      "englishImage": "images/sets/rs/en/19.jpg"
+  },
+  {
+      "id": "rs-20",
+      "japaneseName": "",
+      "englishName": "Gimmighoul",
+      "japaneseSetName": "レイジングサーフ",
+      "japaneseSetReleaseDate": "9-22-2023",
+      "japaneseImage": "images/sets/rs/jp/20.jpg",
+      "englishImage": "images/sets/rs/en/20.jpg"
+  },
+  {
+    "id": "rs-21",
+    "japaneseName": "",
+    "englishName": "Gimmighoul",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/21.jpg",
+    "englishImage": "images/sets/rs/en/21.jpg"
+  },
+  {
+    "id": "rs-22",
+    "japaneseName": "",
+    "englishName": "Gligar",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/22.jpg",
+    "englishImage": "images/sets/rs/en/22.jpg"
+  },
+  {
+    "id": "rs-23",
+    "japaneseName": "",
+    "englishName": "Gliscor",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/23.jpg",
+    "englishImage": "images/sets/rs/en/23.jpg"
+  },
+  {
+    "id": "rs-24",
+    "japaneseName": "",
+    "englishName": "Phanpy",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/24.jpg",
+    "englishImage": "images/sets/rs/en/24.jpg"
+  },
+  {
+    "id": "rs-25",
+    "japaneseName": "",
+    "englishName": "Donphan",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/25.jpg",
+    "englishImage": "images/sets/rs/en/25.jpg"
+  },
+  {
+    "id": "rs-26",
+    "japaneseName": "",
+    "englishName": "Groudon",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/26.jpg",
+    "englishImage": "images/sets/rs/en/26.jpg"
+  },
+  {
+    "id": "rs-27",
+    "japaneseName": "",
+    "englishName": "Gible",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/27.jpg",
+    "englishImage": "images/sets/rs/en/27.jpg"
+  },
+  {
+    "id": "rs-28",
+    "japaneseName": "",
+    "englishName": "Gabite",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/28.jpg",
+    "englishImage": "images/sets/rs/en/28.jpg"
+  },
+  {
+    "id": "rs-29",
+    "japaneseName": "",
+    "englishName": "Hoopa ex",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/29.jpg",
+    "englishImage": "images/sets/rs/en/29.jpg"
+  },
+  {
+    "id": "rs-30",
+    "japaneseName": "",
+    "englishName": "Minior",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/30.jpg",
+    "englishImage": "images/sets/rs/en/30.jpg"
+  },
+  {
+    "id": "rs-31",
+    "japaneseName": "",
+    "englishName": "Klawf",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/31.jpg",
+    "englishImage": "images/sets/rs/en/31.jpg"
+  },
+  {
+    "id": "rs-32",
+    "japaneseName": "",
+    "englishName": "Flamigo",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/32.jpg",
+    "englishImage": "images/sets/rs/en/32.jpg"
+  },
+  {
+    "id": "rs-33",
+    "japaneseName": "",
+    "englishName": "Gastly",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/33.jpg",
+    "englishImage": "images/sets/rs/en/33.jpg"
+  },
+  {
+    "id": "rs-34",
+    "japaneseName": "",
+    "englishName": "Haunter",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/34.jpg",
+    "englishImage": "images/sets/rs/en/34.jpg"
+  },
+  {
+    "id": "rs-35",
+    "japaneseName": "",
+    "englishName": "Gengar",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/35.jpg",
+    "englishImage": "images/sets/rs/en/35.jpg"
+  },
+  {
+    "id": "rs-36",
+    "japaneseName": "",
+    "englishName": "Absol",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/36.jpg",
+    "englishImage": "images/sets/rs/en/36.jpg"
+  },
+  {
+    "id": "rs-37",
+    "japaneseName": "",
+    "englishName": "Scraggy",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/37.jpg",
+    "englishImage": "images/sets/rs/en/37.jpg"
+  },
+  {
+    "id": "rs-38",
+    "japaneseName": "",
+    "englishName": "Scrafty",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/38.jpg",
+    "englishImage": "images/sets/rs/en/38.jpg"
+  },
+  {
+    "id": "rs-39",
+    "japaneseName": "",
+    "englishName": "Yveltal",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/39.jpg",
+    "englishImage": "images/sets/rs/en/39.jpg"
+  },
+  {
+    "id": "rs-40",
+    "japaneseName": "",
+    "englishName": "Nickit",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/40.jpg",
+    "englishImage": "images/sets/rs/en/40.jpg"
+  },
+  {
+    "id": "rs-41",
+    "japaneseName": "",
+    "englishName": "Thievul",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/41.jpg",
+    "englishImage": "images/sets/rs/en/41.jpg"
+  },
+  {
+    "id": "rs-42",
+    "japaneseName": "",
+    "englishName": "Jirachi",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/42.jpg",
+    "englishImage": "images/sets/rs/en/42.jpg"
+  },
+  {
+    "id": "rs-43",
+    "japaneseName": "",
+    "englishName": "Ferroseed",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/43.jpg",
+    "englishImage": "images/sets/rs/en/43.jpg"
+  },
+  {
+    "id": "rs-44",
+    "japaneseName": "",
+    "englishName": "Ferrothorn",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/44.jpg",
+    "englishImage": "images/sets/rs/en/44.jpg"
+  },
+  {
+    "id": "rs-45",
+    "japaneseName": "",
+    "englishName": "Honedge",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/45.jpg",
+    "englishImage": "images/sets/rs/en/45.jpg"
+  },
+  {
+    "id": "rs-46",
+    "japaneseName": "",
+    "englishName": "Doublade",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/46.jpg",
+    "englishImage": "images/sets/rs/en/46.jpg"
+  },
+  {
+    "id": "rs-47",
+    "japaneseName": "",
+    "englishName": "Aegislash",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/47.jpg",
+    "englishImage": "images/sets/rs/en/47.jpg"
+  },
+  {
+    "id": "rs-48",
+    "japaneseName": "",
+    "englishName": "Zacian",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/48.jpg",
+    "englishImage": "images/sets/rs/en/48.jpg"
+  },
+  {
+    "id": "rs-49",
+    "japaneseName": "",
+    "englishName": "Orthworm",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/49.jpg",
+    "englishImage": "images/sets/rs/en/49.jpg"
+  },
+  {
+    "id": "rs-50",
+    "japaneseName": "",
+    "englishName": "Gholdengo ex",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/50.jpg",
+    "englishImage": "images/sets/rs/en/50.jpg"
+  },
+  {
+    "id": "rs-51",
+    "japaneseName": "",
+    "englishName": "Bombirdier ex",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/51.jpg",
+    "englishImage": "images/sets/rs/en/51.jpg"
+  },
+  {
+    "id": "rs-52",
+    "japaneseName": "",
+    "englishName": "Cyclizar",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/52.jpg",
+    "englishImage": "images/sets/rs/en/52.jpg"
+  },
+  {
+    "id": "rs-53",
+    "japaneseName": "",
+    "englishName": "Rare Candy",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/53.jpg",
+    "englishImage": "images/sets/rs/en/53.jpg"
+  },
+  {
+    "id": "rs-54",
+    "japaneseName": "",
+    "englishName": "Switch",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/54.jpg",
+    "englishImage": "images/sets/rs/en/54.jpg"
+  },
+  {
+    "id": "rs-55",
+    "japaneseName": "",
+    "englishName": "Luxury Cape",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/55.jpg",
+    "englishImage": "images/sets/rs/en/55.jpg"
+  },
+  {
+    "id": "rs-56",
+    "japaneseName": "",
+    "englishName": "TM Turbo Energize",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/56.jpg",
+    "englishImage": "images/sets/rs/en/56.jpg"
+  },
+  {
+    "id": "rs-57",
+    "japaneseName": "",
+    "englishName": "TM Blindside",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/57.jpg",
+    "englishImage": "images/sets/rs/en/57.jpg"
+  },
+  {
+    "id": "rs-58",
+    "japaneseName": "",
+    "englishName": "Larry",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/58.jpg",
+    "englishImage": "images/sets/rs/en/58.jpg"
+  },
+  {
+    "id": "rs-59",
+    "japaneseName": "",
+    "englishName": "Shauntal",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/59.jpg",
+    "englishImage": "images/sets/rs/en/59.jpg"
+  },
+  {
+    "id": "rs-60",
+    "japaneseName": "",
+    "englishName": "Rika",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/60.jpg",
+    "englishImage": "images/sets/rs/en/60.jpg"
+  },
+  {
+    "id": "rs-61",
+    "japaneseName": "",
+    "englishName": "Parasal Lady",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/61.jpg",
+    "englishImage": "images/sets/rs/en/61.jpg"
+  },
+  {
+    "id": "rs-62",
+    "japaneseName": "",
+    "englishName": "Medical Energy",
+    "japaneseSetName": "レイジングサーフ",
+    "japaneseSetReleaseDate": "9-22-2023",
+    "japaneseImage": "images/sets/rs/jp/62.jpg",
+    "englishImage": "images/sets/rs/en/62.jpg"
+  }
+  ]
+  

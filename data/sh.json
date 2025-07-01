@@ -1,0 +1,642 @@
+[
+    {
+        "id": "sh-1",
+        "japaneseName": "",
+        "englishName": "Surskit",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/1.jpg",
+        "englishImage": "images/sets/sh/en/1.jpg"
+    },
+    {
+        "id": "sh-2",
+        "japaneseName": "",
+        "englishName": "Masquerain",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/2.jpg",
+        "englishImage": "images/sets/sh/en/2.jpg"
+    },
+    {
+        "id": "sh-3",
+        "japaneseName": "",
+        "englishName": "Combee",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/3.jpg",
+        "englishImage": "images/sets/sh/en/3.jpg"
+    },
+    {
+        "id": "sh-4",
+        "japaneseName": "",
+        "englishName": "Vespiquen",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/4.jpg",
+        "englishImage": "images/sets/sh/en/4.jpg"
+    },
+    {
+        "id": "sh-5",
+        "japaneseName": "",
+        "englishName": "Snover",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/5.jpg",
+        "englishImage": "images/sets/sh/en/5.jpg"
+    },
+    {
+        "id": "sh-6",
+        "japaneseName": "",
+        "englishName": "Abomasnow",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/6.jpg",
+        "englishImage": "images/sets/sh/en/6.jpg"
+    },
+    {
+        "id": "sh-7",
+        "japaneseName": "",
+        "englishName": "Bounsweet",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/7.jpg",
+        "englishImage": "images/sets/sh/en/7.jpg"
+    },
+    {
+        "id": "sh-8",
+        "japaneseName": "",
+        "englishName": "Steenee",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/8.jpg",
+        "englishImage": "images/sets/sh/en/8.jpg"
+    },
+    {
+        "id": "sh-9",
+        "japaneseName": "",
+        "englishName": "Tsareena",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/9.jpg",
+        "englishImage": "images/sets/sh/en/9.jpg"
+    },
+    {
+        "id": "sh-10",
+        "japaneseName": "",
+        "englishName": "Bramblin",
+        "japaneseSetName": "スノーハザード",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/sh/jp/10.jpg",
+        "englishImage": "images/sets/sh/en/10.jpg"
+    },
+    {
+      "id": "sh-11",
+      "japaneseName": "",
+      "englishName": "Bramblin",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/11.jpg",
+      "englishImage": "images/sets/sh/en/11.jpg"
+  },
+  {
+      "id": "sh-12",
+      "japaneseName": "",
+      "englishName": "Brambleghast",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/12.jpg",
+      "englishImage": "images/sets/sh/en/12.jpg"
+  },
+  {
+      "id": "sh-13",
+      "japaneseName": "",
+      "englishName": "Rellor",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/13.jpg",
+      "englishImage": "images/sets/sh/en/13.jpg"
+  },
+  {
+      "id": "sh-14",
+      "japaneseName": "",
+      "englishName": "Rellor",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/14.jpg",
+      "englishImage": "images/sets/sh/en/14.jpg"
+  },
+  {
+      "id": "sh-15",
+      "japaneseName": "",
+      "englishName": "Wo-Chien ex",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/15.jpg",
+      "englishImage": "images/sets/sh/en/15.jpg"
+  },
+  {
+      "id": "sh-16",
+      "japaneseName": "",
+      "englishName": "Marill",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/16.jpg",
+      "englishImage": "images/sets/sh/en/16.jpg"
+  },
+  {
+      "id": "sh-17",
+      "japaneseName": "",
+      "englishName": "Azumarill",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/17.jpg",
+      "englishImage": "images/sets/sh/en/17.jpg"
+  },
+  {
+      "id": "sh-18",
+      "japaneseName": "",
+      "englishName": "Luvdisc",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/18.jpg",
+      "englishImage": "images/sets/sh/en/18.jpg"
+  },
+  {
+      "id": "sh-19",
+      "japaneseName": "",
+      "englishName": "Eiscue",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/19.jpg",
+      "englishImage": "images/sets/sh/en/19.jpg"
+  },
+  {
+      "id": "sh-20",
+      "japaneseName": "",
+      "englishName": "Cetoddle",
+      "japaneseSetName": "スノーハザード",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/sh/jp/20.jpg",
+      "englishImage": "images/sets/sh/en/20.jpg"
+  },
+  {
+    "id": "sh-21",
+    "japaneseName": "",
+    "englishName": "Cetoddle",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/21.jpg",
+    "englishImage": "images/sets/sh/en/21.jpg"
+  },
+  {
+    "id": "sh-22",
+    "japaneseName": "",
+    "englishName": "Cetitan",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/22.jpg",
+    "englishImage": "images/sets/sh/en/22.jpg"
+  },
+  {
+    "id": "sh-23",
+    "japaneseName": "",
+    "englishName": "Veluza",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/23.jpg",
+    "englishImage": "images/sets/sh/en/23.jpg"
+  },
+  {
+    "id": "sh-24",
+    "japaneseName": "",
+    "englishName": "Frigibax",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/24.jpg",
+    "englishImage": "images/sets/sh/en/24.jpg"
+  },
+  {
+    "id": "sh-25",
+    "japaneseName": "",
+    "englishName": "Frigibax",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/25.jpg",
+    "englishImage": "images/sets/sh/en/25.jpg"
+  },
+  {
+    "id": "sh-26",
+    "japaneseName": "",
+    "englishName": "Arctibax",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/26.jpg",
+    "englishImage": "images/sets/sh/en/26.jpg"
+  },
+  {
+    "id": "sh-27",
+    "japaneseName": "",
+    "englishName": "Baxcalibur",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/27.jpg",
+    "englishImage": "images/sets/sh/en/27.jpg"
+  },
+  {
+    "id": "sh-28",
+    "japaneseName": "",
+    "englishName": "Chien-Pao ex",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/28.jpg",
+    "englishImage": "images/sets/sh/en/28.jpg"
+  },
+  {
+    "id": "sh-29",
+    "japaneseName": "",
+    "englishName": "Slowpoke",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/29.jpg",
+    "englishImage": "images/sets/sh/en/29.jpg"
+  },
+  {
+    "id": "sh-30",
+    "japaneseName": "",
+    "englishName": "Slowking ex",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/30.jpg",
+    "englishImage": "images/sets/sh/en/30.jpg"
+  },
+  {
+    "id": "sh-31",
+    "japaneseName": "",
+    "englishName": "Gothita",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/31.jpg",
+    "englishImage": "images/sets/sh/en/31.jpg"
+  },
+  {
+    "id": "sh-32",
+    "japaneseName": "",
+    "englishName": "Gothorita",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/32.jpg",
+    "englishImage": "images/sets/sh/en/32.jpg"
+  },
+  {
+    "id": "sh-33",
+    "japaneseName": "",
+    "englishName": "Gothitelle",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/33.jpg",
+    "englishImage": "images/sets/sh/en/33.jpg"
+  },
+  {
+    "id": "sh-34",
+    "japaneseName": "",
+    "englishName": "Mimikyu",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/34.jpg",
+    "englishImage": "images/sets/sh/en/34.jpg"
+  },
+  {
+    "id": "sh-35",
+    "japaneseName": "",
+    "englishName": "Sinistea",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/35.jpg",
+    "englishImage": "images/sets/sh/en/35.jpg"
+  },
+  {
+    "id": "sh-36",
+    "japaneseName": "",
+    "englishName": "Polteageist",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/36.jpg",
+    "englishImage": "images/sets/sh/en/36.jpg"
+  },
+  {
+    "id": "sh-37",
+    "japaneseName": "",
+    "englishName": "Rabsca",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/37.jpg",
+    "englishImage": "images/sets/sh/en/37.jpg"
+  },
+  {
+    "id": "sh-38",
+    "japaneseName": "",
+    "englishName": "Mankey",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/38.jpg",
+    "englishImage": "images/sets/sh/en/38.jpg"
+  },
+  {
+    "id": "sh-39",
+    "japaneseName": "",
+    "englishName": "Primeape",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/39.jpg",
+    "englishImage": "images/sets/sh/en/39.jpg"
+  },
+  {
+    "id": "sh-40",
+    "japaneseName": "",
+    "englishName": "Annihilape ex",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/40.jpg",
+    "englishImage": "images/sets/sh/en/40.jpg"
+  },
+  {
+    "id": "sh-41",
+    "japaneseName": "",
+    "englishName": "Sudowoodo",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/41.jpg",
+    "englishImage": "images/sets/sh/en/41.jpg"
+  },
+  {
+    "id": "sh-42",
+    "japaneseName": "",
+    "englishName": "Glimmet",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/42.jpg",
+    "englishImage": "images/sets/sh/en/42.jpg"
+  },
+  {
+    "id": "sh-43",
+    "japaneseName": "",
+    "englishName": "Glimmet",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/43.jpg",
+    "englishImage": "images/sets/sh/en/43.jpg"
+  },
+  {
+    "id": "sh-44",
+    "japaneseName": "",
+    "englishName": "Glimmora",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/44.jpg",
+    "englishImage": "images/sets/sh/en/44.jpg"
+  },
+  {
+    "id": "sh-45",
+    "japaneseName": "",
+    "englishName": "Murkrow",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/45.jpg",
+    "englishImage": "images/sets/sh/en/45.jpg"
+  },
+  {
+    "id": "sh-46",
+    "japaneseName": "",
+    "englishName": "Honchkrow",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/46.jpg",
+    "englishImage": "images/sets/sh/en/46.jpg"
+  },
+  {
+    "id": "sh-47",
+    "japaneseName": "",
+    "englishName": "Maschiff",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/47.jpg",
+    "englishImage": "images/sets/sh/en/47.jpg"
+  },
+  {
+    "id": "sh-48",
+    "japaneseName": "",
+    "englishName": "Maschiff",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/48.jpg",
+    "englishImage": "images/sets/sh/en/48.jpg"
+  },
+  {
+    "id": "sh-49",
+    "japaneseName": "",
+    "englishName": "Mabosstiff",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/49.jpg",
+    "englishImage": "images/sets/sh/en/49.jpg"
+  },
+  {
+    "id": "sh-50",
+    "japaneseName": "",
+    "englishName": "Bronzor",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/50.jpg",
+    "englishImage": "images/sets/sh/en/50.jpg"
+  },
+  {
+    "id": "sh-51",
+    "japaneseName": "",
+    "englishName": "Bronzong",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/51.jpg",
+    "englishImage": "images/sets/sh/en/51.jpg"
+  },
+  {
+    "id": "sh-52",
+    "japaneseName": "",
+    "englishName": "Corviknight",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/52.jpg",
+    "englishImage": "images/sets/sh/en/52.jpg"
+  },
+  {
+    "id": "sh-53",
+    "japaneseName": "",
+    "englishName": "Cufant",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/53.jpg",
+    "englishImage": "images/sets/sh/en/53.jpg"
+  },
+  {
+    "id": "sh-54",
+    "japaneseName": "",
+    "englishName": "Copperajah ex",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/54.jpg",
+    "englishImage": "images/sets/sh/en/54.jpg"
+  },
+  {
+    "id": "sh-55",
+    "japaneseName": "",
+    "englishName": "Orthworm",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/55.jpg",
+    "englishImage": "images/sets/sh/en/55.jpg"
+  },
+  {
+    "id": "sh-56",
+    "japaneseName": "",
+    "englishName": "Dunsparce",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/56.jpg",
+    "englishImage": "images/sets/sh/en/56.jpg"
+  },
+  {
+    "id": "sh-57",
+    "japaneseName": "",
+    "englishName": "Dudunsparce",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/57.jpg",
+    "englishImage": "images/sets/sh/en/57.jpg"
+  },
+  {
+    "id": "sh-58",
+    "japaneseName": "",
+    "englishName": "Wingull",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/58.jpg",
+    "englishImage": "images/sets/sh/en/58.jpg"
+  },
+  {
+    "id": "sh-59",
+    "japaneseName": "",
+    "englishName": "Pelipper",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/59.jpg",
+    "englishImage": "images/sets/sh/en/59.jpg"
+  },
+  {
+    "id": "sh-60",
+    "japaneseName": "",
+    "englishName": "Slakoth",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/60.jpg",
+    "englishImage": "images/sets/sh/en/60.jpg"
+  },
+  {
+    "id": "sh-61",
+    "japaneseName": "",
+    "englishName": "Vigoroth",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/61.jpg",
+    "englishImage": "images/sets/sh/en/61.jpg"
+  },
+  {
+    "id": "sh-62",
+    "japaneseName": "",
+    "englishName": "Slaking",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/62.jpg",
+    "englishImage": "images/sets/sh/en/62.jpg"
+  },
+  {
+    "id": "sh-63",
+    "japaneseName": "",
+    "englishName": "Rookidee",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/63.jpg",
+    "englishImage": "images/sets/sh/en/63.jpg"
+  },
+  {
+    "id": "sh-64",
+    "japaneseName": "",
+    "englishName": "Corvisquire",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/64.jpg",
+    "englishImage": "images/sets/sh/en/64.jpg"
+  },
+  {
+    "id": "sh-65",
+    "japaneseName": "",
+    "englishName": "Squawkabilly ex",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/65.jpg",
+    "englishImage": "images/sets/sh/en/65.jpg"
+  },
+  {
+    "id": "sh-66",
+    "japaneseName": "",
+    "englishName": "Super Rod",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/66.jpg",
+    "englishImage": "images/sets/sh/en/66.jpg"
+  },
+  {
+    "id": "sh-67",
+    "japaneseName": "",
+    "englishName": "Motivational Lemonade",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/67.jpg",
+    "englishImage": "images/sets/sh/en/67.jpg"
+  },
+  {
+    "id": "sh-68",
+    "japaneseName": "",
+    "englishName": "Grusha",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/68.jpg",
+    "englishImage": "images/sets/sh/en/68.jpg"
+  },
+  {
+    "id": "sh-69",
+    "japaneseName": "",
+    "englishName": "Giacomo",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/69.jpg",
+    "englishImage": "images/sets/sh/en/69.jpg"
+  },
+  {
+    "id": "sh-70",
+    "japaneseName": "",
+    "englishName": "Ruinous Snowy Mountain",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/70.jpg",
+    "englishImage": "images/sets/sh/en/70.jpg"
+  },
+  {
+    "id": "sh-71",
+    "japaneseName": "",
+    "englishName": "Reversal Energy",
+    "japaneseSetName": "スノーハザード",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/sh/jp/71.jpg",
+    "englishImage": "images/sets/sh/en/71.jpg"
+  }
+  ]
+  

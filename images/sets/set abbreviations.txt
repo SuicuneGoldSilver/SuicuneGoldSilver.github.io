@@ -11,3 +11,13 @@ tfex = terastal fest ex
 wf = wild force
 haa = hot air arena
 gotr = glory of team rocket
+ff future flash
+ar ancient roar
+rs Raging Surf
+rotbf Ruler of the Black Flame
+p151
+cb clay burst
+sh snow hazard
+tb triplet beat
+vex violet ex
+sex scarlet ex

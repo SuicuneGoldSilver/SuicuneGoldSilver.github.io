@@ -1,0 +1,642 @@
+[
+    {
+        "id": "cb-1",
+        "japaneseName": "",
+        "englishName": "Hoppip",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/1.jpg",
+        "englishImage": "images/sets/cb/en/1.jpg"
+    },
+    {
+        "id": "cb-2",
+        "japaneseName": "",
+        "englishName": "Skiploom",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/2.jpg",
+        "englishImage": "images/sets/cb/en/2.jpg"
+    },
+    {
+        "id": "cb-3",
+        "japaneseName": "",
+        "englishName": "Jumpluff",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/3.jpg",
+        "englishImage": "images/sets/cb/en/3.jpg"
+    },
+    {
+        "id": "cb-4",
+        "japaneseName": "",
+        "englishName": "Pineco",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/4.jpg",
+        "englishImage": "images/sets/cb/en/4.jpg"
+    },
+    {
+        "id": "cb-5",
+        "japaneseName": "",
+        "englishName": "Forretress ex",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/5.jpg",
+        "englishImage": "images/sets/cb/en/5.jpg"
+    },
+    {
+        "id": "cb-6",
+        "japaneseName": "",
+        "englishName": "Heracross",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/6.jpg",
+        "englishImage": "images/sets/cb/en/6.jpg"
+    },
+    {
+        "id": "cb-7",
+        "japaneseName": "",
+        "englishName": "Tarountula",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/7.jpg",
+        "englishImage": "images/sets/cb/en/7.jpg"
+    },
+    {
+        "id": "cb-8",
+        "japaneseName": "",
+        "englishName": "Tarountula",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/8.jpg",
+        "englishImage": "images/sets/cb/en/8.jpg"
+    },
+    {
+        "id": "cb-9",
+        "japaneseName": "",
+        "englishName": "Spidops",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/9.jpg",
+        "englishImage": "images/sets/cb/en/9.jpg"
+    },
+    {
+        "id": "cb-10",
+        "japaneseName": "",
+        "englishName": "Numel",
+        "japaneseSetName": "クレイバースト",
+        "japaneseSetReleaseDate": "4-14-2023",
+        "japaneseImage": "images/sets/cb/jp/10.jpg",
+        "englishImage": "images/sets/cb/en/10.jpg"
+    },
+    {
+      "id": "cb-11",
+      "japaneseName": "",
+      "englishName": "Camerupt",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/11.jpg",
+      "englishImage": "images/sets/cb/en/11.jpg"
+  },
+  {
+      "id": "cb-12",
+      "japaneseName": "",
+      "englishName": "Fletchinder",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/12.jpg",
+      "englishImage": "images/sets/cb/en/12.jpg"
+  },
+  {
+      "id": "cb-13",
+      "japaneseName": "",
+      "englishName": "Talonflame",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/13.jpg",
+      "englishImage": "images/sets/cb/en/13.jpg"
+  },
+  {
+      "id": "cb-14",
+      "japaneseName": "",
+      "englishName": "Charcadet",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/14.jpg",
+      "englishImage": "images/sets/cb/en/14.jpg"
+  },
+  {
+      "id": "cb-15",
+      "japaneseName": "",
+      "englishName": "Charcadet",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/15.jpg",
+      "englishImage": "images/sets/cb/en/15.jpg"
+  },
+  {
+      "id": "cb-16",
+      "japaneseName": "",
+      "englishName": "Chi-Yu ex",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/16.jpg",
+      "englishImage": "images/sets/cb/en/16.jpg"
+  },
+  {
+      "id": "cb-17",
+      "japaneseName": "",
+      "englishName": "Pikachu",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/17.jpg",
+      "englishImage": "images/sets/cb/en/17.jpg"
+  },
+  {
+      "id": "cb-18",
+      "japaneseName": "",
+      "englishName": "Raichu",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/18.jpg",
+      "englishImage": "images/sets/cb/en/18.jpg"
+  },
+  {
+      "id": "cb-19",
+      "japaneseName": "",
+      "englishName": "Shinx",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/19.jpg",
+      "englishImage": "images/sets/cb/en/19.jpg"
+  },
+  {
+      "id": "cb-20",
+      "japaneseName": "",
+      "englishName": "Luxio",
+      "japaneseSetName": "クレイバースト",
+      "japaneseSetReleaseDate": "4-14-2023",
+      "japaneseImage": "images/sets/cb/jp/20.jpg",
+      "englishImage": "images/sets/cb/en/20.jpg"
+  },
+  {
+    "id": "cb-21",
+    "japaneseName": "",
+    "englishName": "Luxray",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/21.jpg",
+    "englishImage": "images/sets/cb/en/21.jpg"
+  },
+  {
+    "id": "cb-22",
+    "japaneseName": "",
+    "englishName": "Pincurchin",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/22.jpg",
+    "englishImage": "images/sets/cb/en/22.jpg"
+  },
+  {
+    "id": "cb-23",
+    "japaneseName": "",
+    "englishName": "Tadbulb",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/23.jpg",
+    "englishImage": "images/sets/cb/en/23.jpg"
+  },
+  {
+    "id": "cb-24",
+    "japaneseName": "",
+    "englishName": "Tadbulb",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/24.jpg",
+    "englishImage": "images/sets/cb/en/24.jpg"
+  },
+  {
+    "id": "cb-25",
+    "japaneseName": "",
+    "englishName": "Bellibolt ex",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/25.jpg",
+    "englishImage": "images/sets/cb/en/25.jpg"
+  },
+  {
+    "id": "cb-26",
+    "japaneseName": "",
+    "englishName": "Jigglypuff",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/26.jpg",
+    "englishImage": "images/sets/cb/en/26.jpg"
+  },
+  {
+    "id": "cb-27",
+    "japaneseName": "",
+    "englishName": "Wigglytuff",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/27.jpg",
+    "englishImage": "images/sets/cb/en/27.jpg"
+  },
+  {
+    "id": "cb-28",
+    "japaneseName": "",
+    "englishName": "Spiritomb",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/28.jpg",
+    "englishImage": "images/sets/cb/en/28.jpg"
+  },
+  {
+    "id": "cb-29",
+    "japaneseName": "",
+    "englishName": "Sandygast",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/29.jpg",
+    "englishImage": "images/sets/cb/en/29.jpg"
+  },
+  {
+    "id": "cb-30",
+    "japaneseName": "",
+    "englishName": "Palossand",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/30.jpg",
+    "englishImage": "images/sets/cb/en/30.jpg"
+  },
+  {
+    "id": "cb-31",
+    "japaneseName": "",
+    "englishName": "Ceruledge",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/31.jpg",
+    "englishImage": "images/sets/cb/en/31.jpg"
+  },
+  {
+    "id": "cb-32",
+    "japaneseName": "",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/32.jpg",
+    "englishImage": "images/sets/cb/en/32.jpg"
+  },
+  {
+    "id": "cb-33",
+    "japaneseName": "",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/33.jpg",
+    "englishImage": "images/sets/cb/en/33.jpg"
+  },
+  {
+    "id": "cb-34",
+    "japaneseName": "",
+    "englishName": "Tinkatuff",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/34.jpg",
+    "englishImage": "images/sets/cb/en/34.jpg"
+  },
+  {
+    "id": "cb-35",
+    "japaneseName": "",
+    "englishName": "Tinkaton ex",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/35.jpg",
+    "englishImage": "images/sets/cb/en/35.jpg"
+  },
+  {
+    "id": "cb-36",
+    "japaneseName": "",
+    "englishName": "Larvitar",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/36.jpg",
+    "englishImage": "images/sets/cb/en/36.jpg"
+  },
+  {
+    "id": "cb-37",
+    "japaneseName": "",
+    "englishName": "Pupitar",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/37.jpg",
+    "englishImage": "images/sets/cb/en/37.jpg"
+  },
+  {
+    "id": "cb-38",
+    "japaneseName": "",
+    "englishName": "Barboach",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/38.jpg",
+    "englishImage": "images/sets/cb/en/38.jpg"
+  },
+  {
+    "id": "cb-39",
+    "japaneseName": "",
+    "englishName": "Whiscash",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/39.jpg",
+    "englishImage": "images/sets/cb/en/39.jpg"
+  },
+  {
+    "id": "cb-40",
+    "japaneseName": "",
+    "englishName": "Croagunk",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/40.jpg",
+    "englishImage": "images/sets/cb/en/40.jpg"
+  },
+  {
+    "id": "cb-41",
+    "japaneseName": "",
+    "englishName": "Toxicroak",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/41.jpg",
+    "englishImage": "images/sets/cb/en/41.jpg"
+  },
+  {
+    "id": "cb-42",
+    "japaneseName": "",
+    "englishName": "Crabrawler",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/42.jpg",
+    "englishImage": "images/sets/cb/en/42.jpg"
+  },
+  {
+    "id": "cb-43",
+    "japaneseName": "",
+    "englishName": "Crabominable",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/43.jpg",
+    "englishImage": "images/sets/cb/en/43.jpg"
+  },
+  {
+    "id": "cb-44",
+    "japaneseName": "",
+    "englishName": "Passimian",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/44.jpg",
+    "englishImage": "images/sets/cb/en/44.jpg"
+  },
+  {
+    "id": "cb-45",
+    "japaneseName": "",
+    "englishName": "Nacli",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/45.jpg",
+    "englishImage": "images/sets/cb/en/45.jpg"
+  },
+  {
+    "id": "cb-46",
+    "japaneseName": "",
+    "englishName": "Nacli",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/46.jpg",
+    "englishImage": "images/sets/cb/en/46.jpg"
+  },
+  {
+    "id": "cb-47",
+    "japaneseName": "",
+    "englishName": "Naclstack",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/47.jpg",
+    "englishImage": "images/sets/cb/en/47.jpg"
+  },
+  {
+    "id": "cb-48",
+    "japaneseName": "",
+    "englishName": "Garganacl",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/48.jpg",
+    "englishImage": "images/sets/cb/en/48.jpg"
+  },
+  {
+    "id": "cb-49",
+    "japaneseName": "",
+    "englishName": "Ting-Lu ex",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/49.jpg",
+    "englishImage": "images/sets/cb/en/49.jpg"
+  },
+  {
+    "id": "cb-50",
+    "japaneseName": "",
+    "englishName": "Sneasel",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/50.jpg",
+    "englishImage": "images/sets/cb/en/50.jpg"
+  },
+  {
+    "id": "cb-51",
+    "japaneseName": "",
+    "englishName": "Weavile",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/51.jpg",
+    "englishImage": "images/sets/cb/en/51.jpg"
+  },
+  {
+    "id": "cb-52",
+    "japaneseName": "",
+    "englishName": "Tyranitar",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/52.jpg",
+    "englishImage": "images/sets/cb/en/52.jpg"
+  },
+  {
+    "id": "cb-53",
+    "japaneseName": "",
+    "englishName": "Shroodle",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/53.jpg",
+    "englishImage": "images/sets/cb/en/53.jpg"
+  },
+  {
+    "id": "cb-54",
+    "japaneseName": "",
+    "englishName": "Shroodle",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/54.jpg",
+    "englishImage": "images/sets/cb/en/54.jpg"
+  },
+  {
+    "id": "cb-55",
+    "japaneseName": "",
+    "englishName": "Grafaiai",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/55.jpg",
+    "englishImage": "images/sets/cb/en/55.jpg"
+  },
+  {
+    "id": "cb-56",
+    "japaneseName": "",
+    "englishName": "Bombirdier",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/56.jpg",
+    "englishImage": "images/sets/cb/en/56.jpg"
+  },
+  {
+    "id": "cb-57",
+    "japaneseName": "",
+    "englishName": "Noibat",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/57.jpg",
+    "englishImage": "images/sets/cb/en/57.jpg"
+  },
+  {
+    "id": "cb-58",
+    "japaneseName": "",
+    "englishName": "Noivern ex",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/58.jpg",
+    "englishImage": "images/sets/cb/en/58.jpg"
+  },
+  {
+    "id": "cb-59",
+    "japaneseName": "",
+    "englishName": "Girafarig",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/59.jpg",
+    "englishImage": "images/sets/cb/en/59.jpg"
+  },
+  {
+    "id": "cb-60",
+    "japaneseName": "",
+    "englishName": "Farigiraf",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/60.jpg",
+    "englishImage": "images/sets/cb/en/60.jpg"
+  },
+  {
+    "id": "cb-61",
+    "japaneseName": "",
+    "englishName": "Fletchling",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/61.jpg",
+    "englishImage": "images/sets/cb/en/61.jpg"
+  },
+  {
+    "id": "cb-62",
+    "japaneseName": "",
+    "englishName": "Tandemaus",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/62.jpg",
+    "englishImage": "images/sets/cb/en/62.jpg"
+  },
+  {
+    "id": "cb-63",
+    "japaneseName": "",
+    "englishName": "Tandemaus",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/63.jpg",
+    "englishImage": "images/sets/cb/en/63.jpg"
+  },
+  {
+    "id": "cb-64",
+    "japaneseName": "",
+    "englishName": "Maushold",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/64.jpg",
+    "englishImage": "images/sets/cb/en/64.jpg"
+  },
+  {
+    "id": "cb-65",
+    "japaneseName": "",
+    "englishName": "Flamigo",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/65.jpg",
+    "englishImage": "images/sets/cb/en/65.jpg"
+  },
+  {
+    "id": "cb-66",
+    "japaneseName": "",
+    "englishName": "Delivery Drone",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/66.jpg",
+    "englishImage": "images/sets/cb/en/66.jpg"
+  },
+  {
+    "id": "cb-67",
+    "japaneseName": "",
+    "englishName": "Brave Amulet",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/67.jpg",
+    "englishImage": "images/sets/cb/en/67.jpg"
+  },
+  {
+    "id": "cb-68",
+    "japaneseName": "",
+    "englishName": "Saguaro",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/68.jpg",
+    "englishImage": "images/sets/cb/en/68.jpg"
+  },
+  {
+    "id": "cb-69",
+    "japaneseName": "",
+    "englishName": "Iono",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/69.jpg",
+    "englishImage": "images/sets/cb/en/69.jpg"
+  },
+  {
+    "id": "cb-70",
+    "japaneseName": "",
+    "englishName": "Ruinous Desert",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/70.jpg",
+    "englishImage": "images/sets/cb/en/70.jpg"
+  },
+  {
+    "id": "cb-71",
+    "japaneseName": "",
+    "englishName": "Therapy Energy",
+    "japaneseSetName": "クレイバースト",
+    "japaneseSetReleaseDate": "4-14-2023",
+    "japaneseImage": "images/sets/cb/jp/71.jpg",
+    "englishImage": "images/sets/cb/en/71.jpg"
+  }
+  ]
+  
