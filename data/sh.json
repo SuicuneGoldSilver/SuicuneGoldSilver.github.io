@@ -1,7 +1,7 @@
 [
     {
         "id": "sh-1",
-        "japaneseName": "",
+        "japaneseName": "アメタマ",
         "englishName": "Surskit",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -10,7 +10,7 @@
     },
     {
         "id": "sh-2",
-        "japaneseName": "",
+        "japaneseName": "アメモース",
         "englishName": "Masquerain",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -19,7 +19,7 @@
     },
     {
         "id": "sh-3",
-        "japaneseName": "",
+        "japaneseName": "ミツハニー",
         "englishName": "Combee",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -28,7 +28,7 @@
     },
     {
         "id": "sh-4",
-        "japaneseName": "",
+        "japaneseName": "ビークイン",
         "englishName": "Vespiquen",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -37,7 +37,7 @@
     },
     {
         "id": "sh-5",
-        "japaneseName": "",
+        "japaneseName": "ユキカブリ",
         "englishName": "Snover",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -46,7 +46,7 @@
     },
     {
         "id": "sh-6",
-        "japaneseName": "",
+        "japaneseName": "ユキノオー",
         "englishName": "Abomasnow",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -55,7 +55,7 @@
     },
     {
         "id": "sh-7",
-        "japaneseName": "",
+        "japaneseName": "アマカジ",
         "englishName": "Bounsweet",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -64,7 +64,7 @@
     },
     {
         "id": "sh-8",
-        "japaneseName": "",
+        "japaneseName": "アママイコ",
         "englishName": "Steenee",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -73,7 +73,7 @@
     },
     {
         "id": "sh-9",
-        "japaneseName": "",
+        "japaneseName": "アマージョ",
         "englishName": "Tsareena",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -82,7 +82,7 @@
     },
     {
         "id": "sh-10",
-        "japaneseName": "",
+        "japaneseName": "アノクサ",
         "englishName": "Bramblin",
         "japaneseSetName": "スノーハザード",
         "japaneseSetReleaseDate": "4-14-2023",
@@ -91,7 +91,7 @@
     },
     {
       "id": "sh-11",
-      "japaneseName": "",
+      "japaneseName": "アノクサ",
       "englishName": "Bramblin",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -100,7 +100,7 @@
   },
   {
       "id": "sh-12",
-      "japaneseName": "",
+      "japaneseName": "アノホラグサ",
       "englishName": "Brambleghast",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -109,7 +109,7 @@
   },
   {
       "id": "sh-13",
-      "japaneseName": "",
+      "japaneseName": "シガロコ",
       "englishName": "Rellor",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -118,7 +118,7 @@
   },
   {
       "id": "sh-14",
-      "japaneseName": "",
+      "japaneseName": "シガロコ",
       "englishName": "Rellor",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -127,7 +127,7 @@
   },
   {
       "id": "sh-15",
-      "japaneseName": "",
+      "japaneseName": "チオンジェンex",
       "englishName": "Wo-Chien ex",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -136,7 +136,7 @@
   },
   {
       "id": "sh-16",
-      "japaneseName": "",
+      "japaneseName": "マリル",
       "englishName": "Marill",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -145,7 +145,7 @@
   },
   {
       "id": "sh-17",
-      "japaneseName": "",
+      "japaneseName": "マリルリ",
       "englishName": "Azumarill",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -154,7 +154,7 @@
   },
   {
       "id": "sh-18",
-      "japaneseName": "",
+      "japaneseName": "ラブカス",
       "englishName": "Luvdisc",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -163,7 +163,7 @@
   },
   {
       "id": "sh-19",
-      "japaneseName": "",
+      "japaneseName": "コオリッポ",
       "englishName": "Eiscue",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -172,7 +172,7 @@
   },
   {
       "id": "sh-20",
-      "japaneseName": "",
+      "japaneseName": "アルクジラ",
       "englishName": "Cetoddle",
       "japaneseSetName": "スノーハザード",
       "japaneseSetReleaseDate": "4-14-2023",
@@ -181,7 +181,7 @@
   },
   {
     "id": "sh-21",
-    "japaneseName": "",
+    "japaneseName": "アルクジラ",
     "englishName": "Cetoddle",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -190,7 +190,7 @@
   },
   {
     "id": "sh-22",
-    "japaneseName": "",
+    "japaneseName": "ハルクジラ",
     "englishName": "Cetitan",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -199,7 +199,7 @@
   },
   {
     "id": "sh-23",
-    "japaneseName": "",
+    "japaneseName": "ミガルーサ",
     "englishName": "Veluza",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -208,7 +208,7 @@
   },
   {
     "id": "sh-24",
-    "japaneseName": "",
+    "japaneseName": "セビエ",
     "englishName": "Frigibax",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -217,7 +217,7 @@
   },
   {
     "id": "sh-25",
-    "japaneseName": "",
+    "japaneseName": "セビエ",
     "englishName": "Frigibax",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -226,7 +226,7 @@
   },
   {
     "id": "sh-26",
-    "japaneseName": "",
+    "japaneseName": "セゴール",
     "englishName": "Arctibax",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -235,7 +235,7 @@
   },
   {
     "id": "sh-27",
-    "japaneseName": "",
+    "japaneseName": "セグレイブ",
     "englishName": "Baxcalibur",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -244,7 +244,7 @@
   },
   {
     "id": "sh-28",
-    "japaneseName": "",
+    "japaneseName": "パオジアンex",
     "englishName": "Chien-Pao ex",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -253,7 +253,7 @@
   },
   {
     "id": "sh-29",
-    "japaneseName": "",
+    "japaneseName": "ヤドン",
     "englishName": "Slowpoke",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -262,7 +262,7 @@
   },
   {
     "id": "sh-30",
-    "japaneseName": "",
+    "japaneseName": "ヤドキングex",
     "englishName": "Slowking ex",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -271,7 +271,7 @@
   },
   {
     "id": "sh-31",
-    "japaneseName": "",
+    "japaneseName": "ゴチム",
     "englishName": "Gothita",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -280,7 +280,7 @@
   },
   {
     "id": "sh-32",
-    "japaneseName": "",
+    "japaneseName": "ゴチミル",
     "englishName": "Gothorita",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -289,7 +289,7 @@
   },
   {
     "id": "sh-33",
-    "japaneseName": "",
+    "japaneseName": "ゴチルゼル",
     "englishName": "Gothitelle",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -298,7 +298,7 @@
   },
   {
     "id": "sh-34",
-    "japaneseName": "",
+    "japaneseName": "ミミッキュ",
     "englishName": "Mimikyu",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -307,7 +307,7 @@
   },
   {
     "id": "sh-35",
-    "japaneseName": "",
+    "japaneseName": "ヤバチャ",
     "englishName": "Sinistea",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -316,7 +316,7 @@
   },
   {
     "id": "sh-36",
-    "japaneseName": "",
+    "japaneseName": "ポットデス",
     "englishName": "Polteageist",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -325,7 +325,7 @@
   },
   {
     "id": "sh-37",
-    "japaneseName": "",
+    "japaneseName": "ベラカス",
     "englishName": "Rabsca",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -334,7 +334,7 @@
   },
   {
     "id": "sh-38",
-    "japaneseName": "",
+    "japaneseName": "マンキー",
     "englishName": "Mankey",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -343,7 +343,7 @@
   },
   {
     "id": "sh-39",
-    "japaneseName": "",
+    "japaneseName": "オコリザル",
     "englishName": "Primeape",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -352,7 +352,7 @@
   },
   {
     "id": "sh-40",
-    "japaneseName": "",
+    "japaneseName": "コノヨザルex",
     "englishName": "Annihilape ex",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -361,7 +361,7 @@
   },
   {
     "id": "sh-41",
-    "japaneseName": "",
+    "japaneseName": "ウソッキー",
     "englishName": "Sudowoodo",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -370,7 +370,7 @@
   },
   {
     "id": "sh-42",
-    "japaneseName": "",
+    "japaneseName": "キラーメ",
     "englishName": "Glimmet",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -379,7 +379,7 @@
   },
   {
     "id": "sh-43",
-    "japaneseName": "",
+    "japaneseName": "キラーメ",
     "englishName": "Glimmet",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -388,7 +388,7 @@
   },
   {
     "id": "sh-44",
-    "japaneseName": "",
+    "japaneseName": "キラフロル",
     "englishName": "Glimmora",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -397,7 +397,7 @@
   },
   {
     "id": "sh-45",
-    "japaneseName": "",
+    "japaneseName": "ヤミカラス",
     "englishName": "Murkrow",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -406,7 +406,7 @@
   },
   {
     "id": "sh-46",
-    "japaneseName": "",
+    "japaneseName": "ドンカラス",
     "englishName": "Honchkrow",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -415,7 +415,7 @@
   },
   {
     "id": "sh-47",
-    "japaneseName": "",
+    "japaneseName": "オラチフ",
     "englishName": "Maschiff",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -424,7 +424,7 @@
   },
   {
     "id": "sh-48",
-    "japaneseName": "",
+    "japaneseName": "オラチフ",
     "englishName": "Maschiff",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -433,7 +433,7 @@
   },
   {
     "id": "sh-49",
-    "japaneseName": "",
+    "japaneseName": "マフィティフ",
     "englishName": "Mabosstiff",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -442,7 +442,7 @@
   },
   {
     "id": "sh-50",
-    "japaneseName": "",
+    "japaneseName": "ドーミラー",
     "englishName": "Bronzor",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -451,7 +451,7 @@
   },
   {
     "id": "sh-51",
-    "japaneseName": "",
+    "japaneseName": "ドータクン",
     "englishName": "Bronzong",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -460,7 +460,7 @@
   },
   {
     "id": "sh-52",
-    "japaneseName": "",
+    "japaneseName": "アーマーガア",
     "englishName": "Corviknight",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -469,7 +469,7 @@
   },
   {
     "id": "sh-53",
-    "japaneseName": "",
+    "japaneseName": "ゾウドウ",
     "englishName": "Cufant",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -478,7 +478,7 @@
   },
   {
     "id": "sh-54",
-    "japaneseName": "",
+    "japaneseName": "ダイオウドウex",
     "englishName": "Copperajah ex",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -487,7 +487,7 @@
   },
   {
     "id": "sh-55",
-    "japaneseName": "",
+    "japaneseName": "ミミズズ",
     "englishName": "Orthworm",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -496,7 +496,7 @@
   },
   {
     "id": "sh-56",
-    "japaneseName": "",
+    "japaneseName": "ノコッチ",
     "englishName": "Dunsparce",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -505,7 +505,7 @@
   },
   {
     "id": "sh-57",
-    "japaneseName": "",
+    "japaneseName": "ノココッチ",
     "englishName": "Dudunsparce",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -514,7 +514,7 @@
   },
   {
     "id": "sh-58",
-    "japaneseName": "",
+    "japaneseName": "キャモメ",
     "englishName": "Wingull",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -523,7 +523,7 @@
   },
   {
     "id": "sh-59",
-    "japaneseName": "",
+    "japaneseName": "ペリッパー",
     "englishName": "Pelipper",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -532,7 +532,7 @@
   },
   {
     "id": "sh-60",
-    "japaneseName": "",
+    "japaneseName": "ナマケロ",
     "englishName": "Slakoth",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -541,7 +541,7 @@
   },
   {
     "id": "sh-61",
-    "japaneseName": "",
+    "japaneseName": "ヤルキモノ",
     "englishName": "Vigoroth",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -550,7 +550,7 @@
   },
   {
     "id": "sh-62",
-    "japaneseName": "",
+    "japaneseName": "ケッキング",
     "englishName": "Slaking",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -559,7 +559,7 @@
   },
   {
     "id": "sh-63",
-    "japaneseName": "",
+    "japaneseName": "ココガラ",
     "englishName": "Rookidee",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -568,7 +568,7 @@
   },
   {
     "id": "sh-64",
-    "japaneseName": "",
+    "japaneseName": "アオガラス",
     "englishName": "Corvisquire",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -577,7 +577,7 @@
   },
   {
     "id": "sh-65",
-    "japaneseName": "",
+    "japaneseName": "イキリンコex",
     "englishName": "Squawkabilly ex",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -586,7 +586,7 @@
   },
   {
     "id": "sh-66",
-    "japaneseName": "",
+    "japaneseName": "すごいつりざお",
     "englishName": "Super Rod",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -595,7 +595,7 @@
   },
   {
     "id": "sh-67",
-    "japaneseName": "",
+    "japaneseName": "ファイトオレ",
     "englishName": "Motivational Lemonade",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -604,7 +604,7 @@
   },
   {
     "id": "sh-68",
-    "japaneseName": "",
+    "japaneseName": "グルーシャ",
     "englishName": "Grusha",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -613,7 +613,7 @@
   },
   {
     "id": "sh-69",
-    "japaneseName": "",
+    "japaneseName": "ピーニャ",
     "englishName": "Giacomo",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -622,7 +622,7 @@
   },
   {
     "id": "sh-70",
-    "japaneseName": "",
+    "japaneseName": "災いの雪山",
     "englishName": "Ruinous Snowy Mountain",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
@@ -631,7 +631,7 @@
   },
   {
     "id": "sh-71",
-    "japaneseName": "",
+    "japaneseName": "リバーサルエネルギー",
     "englishName": "Reversal Energy",
     "japaneseSetName": "スノーハザード",
     "japaneseSetReleaseDate": "4-14-2023",
