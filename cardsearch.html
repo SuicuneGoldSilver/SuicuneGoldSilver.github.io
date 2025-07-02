@@ -132,7 +132,7 @@
         &copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved.
       </p>
       <p class="mb-1" style="text-align: center; margin-top: 10px;">
-        Pokémon and All Respective Names are Trademark & © of Nintendo 1996-2025
+        Pokémon and All Respective Names are Trademark & © of Nintendo 1996–2025
       </p>
     </div>
   </footer>
@@ -144,6 +144,7 @@
     let currentCards = [];
     let currentIndex = -1;
     let filteredCardsGlobal = [];
+    let displayedCards = [];
     let loadedCount = 0;
     const BATCH_SIZE = 30;
 
@@ -163,42 +164,42 @@
     }
 
     function hiraganaToKatakana(str) {
-  return str.replace(/[\u3041-\u3096]/g, ch =>
-    String.fromCharCode(ch.charCodeAt(0) + 0x60)
-  );
-}
-
-function searchCards() {
-  const term = document.getElementById('search-input').value.trim().toLowerCase();
-  const kanaTerm = hiraganaToKatakana(term);
-  const setName = document.getElementById('set-select').value;
-  const container = document.getElementById('search-results');
-  container.innerHTML = '';
-  loadedCount = 0;
-  filteredCardsGlobal = [];
-  document.getElementById('load-more-btn').style.display = 'none';
-
-  const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
-
-  cardsPromise.then(cards => {
-    filteredCardsGlobal = cards.filter(c =>
-      c.japaneseName.toLowerCase().includes(term) ||
-      c.japaneseName.toLowerCase().includes(kanaTerm) ||
-      c.englishName.toLowerCase().includes(term)
-    );
-
-    if (filteredCardsGlobal.length === 0) {
-      const msg = document.createElement('p');
-      msg.className = 'center-text';
-      msg.innerText = '見つかりませんでした。';
-      container.appendChild(msg);
-      return;
+      return str.replace(/[\u3041-\u3096]/g, ch =>
+        String.fromCharCode(ch.charCodeAt(0) + 0x60)
+      );
     }
 
-    displayNextBatch();
-  });
-}
+    function searchCards() {
+      const term = document.getElementById('search-input').value.trim().toLowerCase();
+      const kanaTerm = hiraganaToKatakana(term);
+      const setName = document.getElementById('set-select').value;
+      const container = document.getElementById('search-results');
+      container.innerHTML = '';
+      loadedCount = 0;
+      filteredCardsGlobal = [];
+      displayedCards = [];
+      document.getElementById('load-more-btn').style.display = 'none';
 
+      const cardsPromise = setName ? loadSetData(setName) : loadAllSetsData();
+
+      cardsPromise.then(cards => {
+        filteredCardsGlobal = cards.filter(c =>
+          c.japaneseName.toLowerCase().includes(term) ||
+          c.japaneseName.toLowerCase().includes(kanaTerm) ||
+          c.englishName.toLowerCase().includes(term)
+        );
+
+        if (filteredCardsGlobal.length === 0) {
+          const msg = document.createElement('p');
+          msg.className = 'center-text';
+          msg.innerText = '見つかりませんでした。';
+          container.appendChild(msg);
+          return;
+        }
+
+        displayNextBatch();
+      });
+    }
 
     function displayNextBatch() {
       const container = document.getElementById('search-results');
@@ -225,27 +226,25 @@ function searchCards() {
         img.style.borderRadius = '8px';
         img.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
         img.style.cursor = 'pointer';
-        img.addEventListener('click', () => openModal(card, loadedCount + i, filteredCardsGlobal));
+        const index = displayedCards.length;
+        img.addEventListener('click', () => openModal(card, index));
         grid.appendChild(img);
-        console.log("Displaying:", card.id, card.japaneseName, "Index:", loadedCount + i);
-
+        displayedCards.push(card);
       });
 
       loadedCount += nextBatch.length;
-
-      const loadMoreBtn = document.getElementById('load-more-btn');
-      loadMoreBtn.style.display = loadedCount < filteredCardsGlobal.length ? 'inline-block' : 'none';
+      document.getElementById('load-more-btn').style.display = loadedCount < filteredCardsGlobal.length ? 'inline-block' : 'none';
     }
 
     document.getElementById('load-more-btn').addEventListener('click', () => {
       displayNextBatch();
     });
 
-    function openModal(card, index, cardsArray) {
+    function openModal(card, index) {
       currentCard = card;
       showingJapanese = true;
       currentIndex = index;
-      currentCards = cardsArray;
+      currentCards = displayedCards;
       const modal = document.getElementById('card-modal');
       const img = document.getElementById('modal-image');
       const preloadImg = new Image();
@@ -320,6 +319,7 @@ function searchCards() {
     modalImage.addEventListener('touchstart', (e) => {
       touchStartX = e.changedTouches[0].screenX;
     });
+
     modalImage.addEventListener('touchend', (e) => {
       if (touchStartX === null) return;
       const diffX = e.changedTouches[0].screenX - touchStartX;
