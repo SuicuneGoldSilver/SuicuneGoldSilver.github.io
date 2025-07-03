@@ -1,0 +1,705 @@
+[
+    {
+        "id": "vex-1",
+        "japaneseName": "クヌギダマ",
+        "englishName": "Pineco",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/1.jpg",
+        "englishImage": "images/sets/vex/en/1.jpg"
+    },
+    {
+        "id": "vex-2",
+        "japaneseName": "ヘラクロス",
+        "englishName": "Heracross",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/2.jpg",
+        "englishImage": "images/sets/vex/en/2.jpg"
+    },
+    {
+        "id": "vex-3",
+        "japaneseName": "コフキムシ",
+        "englishName": "Scatterbug",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/3.jpg",
+        "englishImage": "images/sets/vex/en/3.jpg"
+    },
+    {
+        "id": "vex-4",
+        "japaneseName": "コフーライ",
+        "englishName": "Spewpa",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/4.jpg",
+        "englishImage": "images/sets/vex/en/4.jpg"
+    },
+    {
+        "id": "vex-5",
+        "japaneseName": "ビビヨン",
+        "englishName": "Vivillon",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/5.jpg",
+        "englishImage": "images/sets/vex/en/5.jpg"
+    },
+    {
+        "id": "vex-6",
+        "japaneseName": "タマンチュラ",
+        "englishName": "Tarountula",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/6.jpg",
+        "englishImage": "images/sets/vex/en/6.jpg"
+    },
+    {
+        "id": "vex-7",
+        "japaneseName": "タマンチュラ",
+        "englishName": "Tarountula",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/7.jpg",
+        "englishImage": "images/sets/vex/en/7.jpg"
+    },
+    {
+        "id": "vex-8",
+        "japaneseName": "ワナイダーex",
+        "englishName": "Spidops ex",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/8.jpg",
+        "englishImage": "images/sets/vex/en/8.jpg"
+    },
+    {
+        "id": "vex-9",
+        "japaneseName": "ノノクラゲ",
+        "englishName": "Toedscool",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/9.jpg",
+        "englishImage": "images/sets/vex/en/9.jpg"
+    },
+    {
+        "id": "vex-10",
+        "japaneseName": "ノノクラゲ",
+        "englishName": "Toedscool",
+        "japaneseSetName": "バイオレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/vex/jp/10.jpg",
+        "englishImage": "images/sets/vex/en/10.jpg"
+    },
+    {
+      "id": "vex-11",
+      "japaneseName": "リククラゲ",
+      "englishName": "Toedscruel",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/11.jpg",
+      "englishImage": "images/sets/vex/en/11.jpg"
+  },
+  {
+      "id": "vex-12",
+      "japaneseName": "カプサイジ",
+      "englishName": "Capsakid",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/12.jpg",
+      "englishImage": "images/sets/vex/en/12.jpg"
+  },
+  {
+      "id": "vex-13",
+      "japaneseName": "カプサイジ",
+      "englishName": "Capsakid",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/13.jpg",
+      "englishImage": "images/sets/vex/en/13.jpg"
+  },
+  {
+      "id": "vex-14",
+      "japaneseName": "スコヴィラン",
+      "englishName": "Scovillain",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/14.jpg",
+      "englishImage": "images/sets/vex/en/14.jpg"
+  },
+  {
+      "id": "vex-15",
+      "japaneseName": "ガーディ",
+      "englishName": "Growlithe",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/15.jpg",
+      "englishImage": "images/sets/vex/en/15.jpg"
+  },
+  {
+      "id": "vex-16",
+      "japaneseName": "ウインディex",
+      "englishName": "Arcanine ex",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/16.jpg",
+      "englishImage": "images/sets/vex/en/16.jpg"
+  },
+  {
+      "id": "vex-17",
+      "japaneseName": "デルビル",
+      "englishName": "Houndour",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/17.jpg",
+      "englishImage": "images/sets/vex/en/17.jpg"
+  },
+  {
+      "id": "vex-18",
+      "japaneseName": "ヘルガー",
+      "englishName": "Houndoom",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/18.jpg",
+      "englishImage": "images/sets/vex/en/18.jpg"
+  },
+  {
+      "id": "vex-19",
+      "japaneseName": "ヤドン",
+      "englishName": "Slowpoke",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/19.jpg",
+      "englishImage": "images/sets/vex/en/19.jpg"
+  },
+  {
+      "id": "vex-20",
+      "japaneseName": "ヤドラン",
+      "englishName": "Slowbro",
+      "japaneseSetName": "バイオレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/vex/jp/20.jpg",
+      "englishImage": "images/sets/vex/en/20.jpg"
+  },
+  {
+    "id": "vex-21",
+    "japaneseName": "ウデッポウ",
+    "englishName": "Clauncher",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/21.jpg",
+    "englishImage": "images/sets/vex/en/21.jpg"
+  },
+  {
+    "id": "vex-22",
+    "japaneseName": "ブロスター",
+    "englishName": "Clawitzer",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/22.jpg",
+    "englishImage": "images/sets/vex/en/22.jpg"
+  },
+  {
+    "id": "vex-23",
+    "japaneseName": "アルクジラ",
+    "englishName": "Cetoddle",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/23.jpg",
+    "englishImage": "images/sets/vex/en/23.jpg"
+  },
+  {
+    "id": "vex-24",
+    "japaneseName": "アルクジラ",
+    "englishName": "Cetoddle",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/24.jpg",
+    "englishImage": "images/sets/vex/en/24.jpg"
+  },
+  {
+    "id": "vex-25",
+    "japaneseName": "ハルクジラ",
+    "englishName": "Cetitan",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/25.jpg",
+    "englishImage": "images/sets/vex/en/25.jpg"
+  },
+  {
+    "id": "vex-26",
+    "japaneseName": "コイル",
+    "englishName": "Magnemite",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/26.jpg",
+    "englishImage": "images/sets/vex/en/26.jpg"
+  },
+  {
+    "id": "vex-27",
+    "japaneseName": "レアコイル",
+    "englishName": "Magneton",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/27.jpg",
+    "englishImage": "images/sets/vex/en/27.jpg"
+  },
+  {
+    "id": "vex-28",
+    "japaneseName": "ジバコイルex",
+    "englishName": "Magnezone ex",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/28.jpg",
+    "englishImage": "images/sets/vex/en/28.jpg"
+  },
+  {
+    "id": "vex-29",
+    "japaneseName": "パチリス",
+    "englishName": "Pachirisu",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/29.jpg",
+    "englishImage": "images/sets/vex/en/29.jpg"
+  },
+  {
+    "id": "vex-30",
+    "japaneseName": "ロトム",
+    "englishName": "Rotom",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/30.jpg",
+    "englishImage": "images/sets/vex/en/30.jpg"
+  },
+  {
+    "id": "vex-31",
+    "japaneseName": "エレズン",
+    "englishName": "Toxel",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/31.jpg",
+    "englishImage": "images/sets/vex/en/31.jpg"
+  },
+  {
+    "id": "vex-32",
+    "japaneseName": "ストリンダー",
+    "englishName": "Toxtricity",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/32.jpg",
+    "englishImage": "images/sets/vex/en/32.jpg"
+  },
+  {
+    "id": "vex-33",
+    "japaneseName": "パモ",
+    "englishName": "Pawmi",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/33.jpg",
+    "englishImage": "images/sets/vex/en/33.jpg"
+  },
+  {
+    "id": "vex-34",
+    "japaneseName": "パモ",
+    "englishName": "Pawmi",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/34.jpg",
+    "englishImage": "images/sets/vex/en/34.jpg"
+  },
+  {
+    "id": "vex-35",
+    "japaneseName": "パモット",
+    "englishName": "Pawmo",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/35.jpg",
+    "englishImage": "images/sets/vex/en/35.jpg"
+  },
+  {
+    "id": "vex-36",
+    "japaneseName": "パーモット",
+    "englishName": "Pawmot",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/36.jpg",
+    "englishImage": "images/sets/vex/en/36.jpg"
+  },
+  {
+    "id": "vex-37",
+    "japaneseName": "ミライドンex",
+    "englishName": "Miraidon ex",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/37.jpg",
+    "englishImage": "images/sets/vex/en/37.jpg"
+  },
+  {
+    "id": "vex-38",
+    "japaneseName": "スリープ",
+    "englishName": "Drowzee",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/38.jpg",
+    "englishImage": "images/sets/vex/en/38.jpg"
+  },
+  {
+    "id": "vex-39",
+    "japaneseName": "スリーパー",
+    "englishName": "Hypno",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/39.jpg",
+    "englishImage": "images/sets/vex/en/39.jpg"
+  },
+  {
+    "id": "vex-40",
+    "japaneseName": "カゲボウズ",
+    "englishName": "Shuppet",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/40.jpg",
+    "englishImage": "images/sets/vex/en/40.jpg"
+  },
+  {
+    "id": "vex-41",
+    "japaneseName": "ジュペッタex",
+    "englishName": "Banette ex",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/41.jpg",
+    "englishImage": "images/sets/vex/en/41.jpg"
+  },
+  {
+    "id": "vex-42",
+    "japaneseName": "フラベベ",
+    "englishName": "Flabébé",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/42.jpg",
+    "englishImage": "images/sets/vex/en/42.jpg"
+  },
+  {
+    "id": "vex-43",
+    "japaneseName": "フラエッテ",
+    "englishName": "Floette",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/43.jpg",
+    "englishImage": "images/sets/vex/en/43.jpg"
+  },
+  {
+    "id": "vex-44",
+    "japaneseName": "フラージェス",
+    "englishName": "Florges",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/44.jpg",
+    "englishImage": "images/sets/vex/en/44.jpg"
+  },
+  {
+    "id": "vex-45",
+    "japaneseName": "クレッフィ",
+    "englishName": "Klefki",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/45.jpg",
+    "englishImage": "images/sets/vex/en/45.jpg"
+  },
+  {
+    "id": "vex-46",
+    "japaneseName": "ボチ",
+    "englishName": "Greavard",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/46.jpg",
+    "englishImage": "images/sets/vex/en/46.jpg"
+  },
+  {
+    "id": "vex-47",
+    "japaneseName": "ボチ",
+    "englishName": "Greavard",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/47.jpg",
+    "englishImage": "images/sets/vex/en/47.jpg"
+  },
+  {
+    "id": "vex-48",
+    "japaneseName": "ハカドッグ",
+    "englishName": "Houndstone",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/48.jpg",
+    "englishImage": "images/sets/vex/en/48.jpg"
+  },
+  {
+    "id": "vex-49",
+    "japaneseName": "マンキー",
+    "englishName": "Mankey",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/49.jpg",
+    "englishImage": "images/sets/vex/en/49.jpg"
+  },
+  {
+    "id": "vex-50",
+    "japaneseName": "オコリザル",
+    "englishName": "Primeape",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/50.jpg",
+    "englishImage": "images/sets/vex/en/50.jpg"
+  },
+  {
+    "id": "vex-51",
+    "japaneseName": "コノヨザル",
+    "englishName": "Annihilape",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/51.jpg",
+    "englishImage": "images/sets/vex/en/51.jpg"
+  },
+  {
+    "id": "vex-52",
+    "japaneseName": "ミカルゲ",
+    "englishName": "Spiritomb",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/52.jpg",
+    "englishImage": "images/sets/vex/en/52.jpg"
+  },
+  {
+    "id": "vex-53",
+    "japaneseName": "オラチフ",
+    "englishName": "Maschiff",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/53.jpg",
+    "englishImage": "images/sets/vex/en/53.jpg"
+  },
+  {
+    "id": "vex-54",
+    "japaneseName": "オラチフ",
+    "englishName": "Maschiff",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/54.jpg",
+    "englishImage": "images/sets/vex/en/54.jpg"
+  },
+  {
+    "id": "vex-55",
+    "japaneseName": "マフィティフ",
+    "englishName": "Mabosstiff",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/55.jpg",
+    "englishImage": "images/sets/vex/en/55.jpg"
+  },
+  {
+    "id": "vex-56",
+    "japaneseName": "オトシドリ",
+    "englishName": "Bombirdier",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/56.jpg",
+    "englishImage": "images/sets/vex/en/56.jpg"
+  },
+  {
+    "id": "vex-57",
+    "japaneseName": "フォレトス",
+    "englishName": "Forretress",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/57.jpg",
+    "englishImage": "images/sets/vex/en/57.jpg"
+  },
+  {
+    "id": "vex-58",
+    "japaneseName": "テツノワダチex",
+    "englishName": "Iron Treads ex",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/58.jpg",
+    "englishImage": "images/sets/vex/en/58.jpg"
+  },
+  {
+    "id": "vex-59",
+    "japaneseName": "ラッキー",
+    "englishName": "Chansey",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/59.jpg",
+    "englishImage": "images/sets/vex/en/59.jpg"
+  },
+  {
+    "id": "vex-60",
+    "japaneseName": "ハピナス",
+    "englishName": "Blissey",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/60.jpg",
+    "englishImage": "images/sets/vex/en/60.jpg"
+  },
+  {
+    "id": "vex-61",
+    "japaneseName": "ホシガリス",
+    "englishName": "Skwovet",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/61.jpg",
+    "englishImage": "images/sets/vex/en/61.jpg"
+  },
+  {
+    "id": "vex-62",
+    "japaneseName": "ヨクバリス",
+    "englishName": "Greedent",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/62.jpg",
+    "englishImage": "images/sets/vex/en/62.jpg"
+  },
+  {
+    "id": "vex-63",
+    "japaneseName": "イエッサン",
+    "englishName": "Indeedee",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/63.jpg",
+    "englishImage": "images/sets/vex/en/63.jpg"
+  },
+  {
+    "id": "vex-64",
+    "japaneseName": "ワッカネズミ",
+    "englishName": "Tandemaus",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/64.jpg",
+    "englishImage": "images/sets/vex/en/64.jpg"
+  },
+  {
+    "id": "vex-65",
+    "japaneseName": "ワッカネズミ",
+    "englishName": "Tandemaus",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/65.jpg",
+    "englishImage": "images/sets/vex/en/65.jpg"
+  },
+  {
+    "id": "vex-66",
+    "japaneseName": "イッカネズミ",
+    "englishName": "Maushold",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/66.jpg",
+    "englishImage": "images/sets/vex/en/66.jpg"
+  },
+  {
+    "id": "vex-67",
+    "japaneseName": "イキリンコ",
+    "englishName": "Squawkabilly",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/67.jpg",
+    "englishImage": "images/sets/vex/en/67.jpg"
+  },
+  {
+    "id": "vex-68",
+    "japaneseName": "モトトカゲ",
+    "englishName": "Cyclizar",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/68.jpg",
+    "englishImage": "images/sets/vex/en/68.jpg"
+  },
+  {
+    "id": "vex-69",
+    "japaneseName": "エレキジェネレーター",
+    "englishName": "Electro Generator",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/69.jpg",
+    "englishImage": "images/sets/vex/en/69.jpg"
+  },
+  {
+    "id": "vex-70",
+    "japaneseName": "ハイパーボール",
+    "englishName": "Ultra Ball",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/70.jpg",
+    "englishImage": "images/sets/vex/en/70.jpg"
+  },
+  {
+    "id": "vex-71",
+    "japaneseName": "ピクニックバスケット",
+    "englishName": "Picnic Basket",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/71.jpg",
+    "englishImage": "images/sets/vex/en/71.jpg"
+  },
+  {
+    "id": "vex-72",
+    "japaneseName": "ふしぎなアメ",
+    "englishName": "Rare Candy",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/72.jpg",
+    "englishImage": "images/sets/vex/en/72.jpg"
+  },
+  {
+    "id": "vex-73",
+    "japaneseName": "ゴツゴツメット",
+    "englishName": "Rocky Helmet",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/73.jpg",
+    "englishImage": "images/sets/vex/en/73.jpg"
+  },
+  {
+    "id": "vex-74",
+    "japaneseName": "カエデ",
+    "englishName": "Katy",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/74.jpg",
+    "englishImage": "images/sets/vex/en/74.jpg"
+  },
+  {
+    "id": "vex-75",
+    "japaneseName": "博士の研究",
+    "englishName": "Professor's Research",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/75.jpg",
+    "englishImage": "images/sets/vex/en/75.jpg"
+  },
+  {
+    "id": "vex-76",
+    "japaneseName": "ペパー",
+    "englishName": "Arven",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/76.jpg",
+    "englishImage": "images/sets/vex/en/76.jpg"
+  },
+  {
+    "id": "vex-77",
+    "japaneseName": "ミモザ",
+    "englishName": "Miriam",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/77.jpg",
+    "englishImage": "images/sets/vex/en/77.jpg"
+  },
+  {
+    "id": "vex-78",
+    "japaneseName": "テーブルシティ",
+    "englishName": "Mesagoza",
+    "japaneseSetName": "バイオレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/vex/jp/78.jpg",
+    "englishImage": "images/sets/vex/en/78.jpg"
+  }
+  ]
+  

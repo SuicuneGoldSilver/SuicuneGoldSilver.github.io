@@ -1,0 +1,705 @@
+[
+    {
+        "id": "sex-1",
+        "japaneseName": "サボネア",
+        "englishName": "Cacnea",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/1.jpg",
+        "englishImage": "images/sets/sex/en/1.jpg"
+    },
+    {
+        "id": "sex-2",
+        "japaneseName": "ノクタス",
+        "englishName": "Cacturne",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/2.jpg",
+        "englishImage": "images/sets/sex/en/2.jpg"
+    },
+    {
+        "id": "sex-3",
+        "japaneseName": "メェークル",
+        "englishName": "Skiddo",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/3.jpg",
+        "englishImage": "images/sets/sex/en/3.jpg"
+    },
+    {
+        "id": "sex-4",
+        "japaneseName": "ゴーゴート",
+        "englishName": "Gogoat",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/4.jpg",
+        "englishImage": "images/sets/sex/en/4.jpg"
+    },
+    {
+        "id": "sex-5",
+        "japaneseName": "ミニーブ",
+        "englishName": "Smoliv",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/5.jpg",
+        "englishImage": "images/sets/sex/en/5.jpg"
+    },
+    {
+        "id": "sex-6",
+        "japaneseName": "ミニーブ",
+        "englishName": "Smoliv",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/6.jpg",
+        "englishImage": "images/sets/sex/en/6.jpg"
+    },
+    {
+        "id": "sex-7",
+        "japaneseName": "オリーニョ",
+        "englishName": "Dolliv",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/7.jpg",
+        "englishImage": "images/sets/sex/en/7.jpg"
+    },
+    {
+        "id": "sex-8",
+        "japaneseName": "オリーヴァ",
+        "englishName": "Arboliva",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/8.jpg",
+        "englishImage": "images/sets/sex/en/8.jpg"
+    },
+    {
+        "id": "sex-9",
+        "japaneseName": "コータス",
+        "englishName": "Torkoal",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/9.jpg",
+        "englishImage": "images/sets/sex/en/9.jpg"
+    },
+    {
+        "id": "sex-10",
+        "japaneseName": "カルボウ",
+        "englishName": "Charcadet",
+        "japaneseSetName": "スカーレットex",
+        "japaneseSetReleaseDate": "1-20-2023",
+        "japaneseImage": "images/sets/sex/jp/10.jpg",
+        "englishImage": "images/sets/sex/en/10.jpg"
+    },
+    {
+      "id": "sex-11",
+      "japaneseName": "カルボウ",
+      "englishName": "Charcadet",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/11.jpg",
+      "englishImage": "images/sets/sex/en/11.jpg"
+  },
+  {
+      "id": "sex-12",
+      "japaneseName": "グレンアルマ",
+      "englishName": "Armarouge",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/12.jpg",
+      "englishImage": "images/sets/sex/en/12.jpg"
+  },
+  {
+      "id": "sex-13",
+      "japaneseName": "コイキング",
+      "englishName": "Magikarp",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/13.jpg",
+      "englishImage": "images/sets/sex/en/13.jpg"
+  },
+  {
+      "id": "sex-14",
+      "japaneseName": "ギャラドスex",
+      "englishName": "Gyarados ex",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/14.jpg",
+      "englishImage": "images/sets/sex/en/14.jpg"
+  },
+  {
+      "id": "sex-15",
+      "japaneseName": "ブイゼル",
+      "englishName": "Buizel",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/15.jpg",
+      "englishImage": "images/sets/sex/en/15.jpg"
+  },
+  {
+      "id": "sex-16",
+      "japaneseName": "フローゼル",
+      "englishName": "Floatzel",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/16.jpg",
+      "englishImage": "images/sets/sex/en/16.jpg"
+  },
+  {
+      "id": "sex-17",
+      "japaneseName": "ハギギシリ",
+      "englishName": "Bruxish",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/17.jpg",
+      "englishImage": "images/sets/sex/en/17.jpg"
+  },
+  {
+      "id": "sex-18",
+      "japaneseName": "ウミディグダ",
+      "englishName": "Wiglett",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/18.jpg",
+      "englishImage": "images/sets/sex/en/18.jpg"
+  },
+  {
+      "id": "sex-19",
+      "japaneseName": "ウミディグダ",
+      "englishName": "Wiglett",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/19.jpg",
+      "englishImage": "images/sets/sex/en/19.jpg"
+  },
+  {
+      "id": "sex-20",
+      "japaneseName": "ウミトリオ",
+      "englishName": "Wugtrio",
+      "japaneseSetName": "スカーレットex",
+      "japaneseSetReleaseDate": "1-20-2023",
+      "japaneseImage": "images/sets/sex/jp/20.jpg",
+      "englishImage": "images/sets/sex/en/20.jpg"
+  },
+  {
+    "id": "sex-21",
+    "japaneseName": "ヘイラッシャ",
+    "englishName": "Dondozo",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/21.jpg",
+    "englishImage": "images/sets/sex/en/21.jpg"
+  },
+  {
+    "id": "sex-22",
+    "japaneseName": "シャリタツ",
+    "englishName": "Tatsugiri",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/22.jpg",
+    "englishImage": "images/sets/sex/en/22.jpg"
+  },
+  {
+    "id": "sex-23",
+    "japaneseName": "カイデン",
+    "englishName": "Wattrel",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/23.jpg",
+    "englishImage": "images/sets/sex/en/23.jpg"
+  },
+  {
+    "id": "sex-24",
+    "japaneseName": "カイデン",
+    "englishName": "Wattrel",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/24.jpg",
+    "englishImage": "images/sets/sex/en/24.jpg"
+  },
+  {
+    "id": "sex-25",
+    "japaneseName": "タイカイデン",
+    "englishName": "Kilowattrel",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/25.jpg",
+    "englishImage": "images/sets/sex/en/25.jpg"
+  },
+  {
+    "id": "sex-26",
+    "japaneseName": "ラルトス",
+    "englishName": "Ralts",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/26.jpg",
+    "englishImage": "images/sets/sex/en/26.jpg"
+  },
+  {
+    "id": "sex-27",
+    "japaneseName": "キルリア",
+    "englishName": "Kirlia",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/27.jpg",
+    "englishImage": "images/sets/sex/en/27.jpg"
+  },
+  {
+    "id": "sex-28",
+    "japaneseName": "サーナイトex",
+    "englishName": "Gardevoir ex",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/28.jpg",
+    "englishImage": "images/sets/sex/en/28.jpg"
+  },
+  {
+    "id": "sex-29",
+    "japaneseName": "フワンテ",
+    "englishName": "Drifloon",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/29.jpg",
+    "englishImage": "images/sets/sex/en/29.jpg"
+  },
+  {
+    "id": "sex-30",
+    "japaneseName": "フワライド",
+    "englishName": "Drifblim",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/30.jpg",
+    "englishImage": "images/sets/sex/en/30.jpg"
+  },
+  {
+    "id": "sex-31",
+    "japaneseName": "デデンネ",
+    "englishName": "Dedenne",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/31.jpg",
+    "englishImage": "images/sets/sex/en/31.jpg"
+  },
+  {
+    "id": "sex-32",
+    "japaneseName": "パピモッチ",
+    "englishName": "Fidough",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/32.jpg",
+    "englishImage": "images/sets/sex/en/32.jpg"
+  },
+  {
+    "id": "sex-33",
+    "japaneseName": "パピモッチ",
+    "englishName": "Fidough",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/33.jpg",
+    "englishImage": "images/sets/sex/en/33.jpg"
+  },
+  {
+    "id": "sex-34",
+    "japaneseName": "バウッツェル",
+    "englishName": "Dachsbun",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/34.jpg",
+    "englishImage": "images/sets/sex/en/34.jpg"
+  },
+  {
+    "id": "sex-35",
+    "japaneseName": "ヒラヒナ",
+    "englishName": "Flittle",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/35.jpg",
+    "englishImage": "images/sets/sex/en/35.jpg"
+  },
+  {
+    "id": "sex-36",
+    "japaneseName": "ヒラヒナ",
+    "englishName": "Flittle",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/36.jpg",
+    "englishImage": "images/sets/sex/en/36.jpg"
+  },
+  {
+    "id": "sex-37",
+    "japaneseName": "クエスパトラ",
+    "englishName": "Espathra",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/37.jpg",
+    "englishImage": "images/sets/sex/en/37.jpg"
+  },
+  {
+    "id": "sex-38",
+    "japaneseName": "アサナン",
+    "englishName": "Meditite",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/38.jpg",
+    "englishImage": "images/sets/sex/en/38.jpg"
+  },
+  {
+    "id": "sex-39",
+    "japaneseName": "チャーレム",
+    "englishName": "Medicham",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/39.jpg",
+    "englishImage": "images/sets/sex/en/39.jpg"
+  },
+  {
+    "id": "sex-40",
+    "japaneseName": "リオル",
+    "englishName": "Riolu",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/40.jpg",
+    "englishImage": "images/sets/sex/en/40.jpg"
+  },
+  {
+    "id": "sex-41",
+    "japaneseName": "ルカリオ",
+    "englishName": "Lucario",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/41.jpg",
+    "englishImage": "images/sets/sex/en/41.jpg"
+  },
+  {
+    "id": "sex-42",
+    "japaneseName": "メグロコ",
+    "englishName": "Sandile",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/42.jpg",
+    "englishImage": "images/sets/sex/en/42.jpg"
+  },
+  {
+    "id": "sex-43",
+    "japaneseName": "ワルビル",
+    "englishName": "Krokorok",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/43.jpg",
+    "englishImage": "images/sets/sex/en/43.jpg"
+  },
+  {
+    "id": "sex-44",
+    "japaneseName": "ワルビアル",
+    "englishName": "Krookodile",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/44.jpg",
+    "englishImage": "images/sets/sex/en/44.jpg"
+  },
+  {
+    "id": "sex-45",
+    "japaneseName": "ルチャブル",
+    "englishName": "Hawlucha",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/45.jpg",
+    "englishImage": "images/sets/sex/en/45.jpg"
+  },
+  {
+    "id": "sex-46",
+    "japaneseName": "スナヘビ",
+    "englishName": "Silicobra",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/46.jpg",
+    "englishImage": "images/sets/sex/en/46.jpg"
+  },
+  {
+    "id": "sex-47",
+    "japaneseName": "サダイジャ",
+    "englishName": "Sandaconda",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/47.jpg",
+    "englishImage": "images/sets/sex/en/47.jpg"
+  },
+  {
+    "id": "sex-48",
+    "japaneseName": "ガケガニ",
+    "englishName": "Klawf",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/48.jpg",
+    "englishImage": "images/sets/sex/en/48.jpg"
+  },
+  {
+    "id": "sex-49",
+    "japaneseName": "イダイナキバex",
+    "englishName": "Great Tusk ex",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/49.jpg",
+    "englishImage": "images/sets/sex/en/49.jpg"
+  },
+  {
+    "id": "sex-50",
+    "japaneseName": "コライドンex",
+    "englishName": "Koraidon ex",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/50.jpg",
+    "englishImage": "images/sets/sex/en/50.jpg"
+  },
+  {
+    "id": "sex-51",
+    "japaneseName": "ベトベター",
+    "englishName": "Grimer",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/51.jpg",
+    "englishImage": "images/sets/sex/en/51.jpg"
+  },
+  {
+    "id": "sex-52",
+    "japaneseName": "ベトベトン",
+    "englishName": "Muk",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/52.jpg",
+    "englishImage": "images/sets/sex/en/52.jpg"
+  },
+  {
+    "id": "sex-53",
+    "japaneseName": "ハブネーク",
+    "englishName": "Seviper",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/53.jpg",
+    "englishImage": "images/sets/sex/en/53.jpg"
+  },
+  {
+    "id": "sex-54",
+    "japaneseName": "グレッグル",
+    "englishName": "Croagunk",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/54.jpg",
+    "englishImage": "images/sets/sex/en/54.jpg"
+  },
+  {
+    "id": "sex-55",
+    "japaneseName": "ドクロッグex",
+    "englishName": "Toxicroak ex",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/55.jpg",
+    "englishImage": "images/sets/sex/en/55.jpg"
+  },
+  {
+    "id": "sex-56",
+    "japaneseName": "コマタナ",
+    "englishName": "Pawniard",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/56.jpg",
+    "englishImage": "images/sets/sex/en/56.jpg"
+  },
+  {
+    "id": "sex-57",
+    "japaneseName": "キリキザン",
+    "englishName": "Bisharp",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/57.jpg",
+    "englishImage": "images/sets/sex/en/57.jpg"
+  },
+  {
+    "id": "sex-58",
+    "japaneseName": "ドドゲザン",
+    "englishName": "Kingambit",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/58.jpg",
+    "englishImage": "images/sets/sex/en/58.jpg"
+  },
+  {
+    "id": "sex-59",
+    "japaneseName": "ブロロン",
+    "englishName": "Varoom",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/59.jpg",
+    "englishImage": "images/sets/sex/en/59.jpg"
+  },
+  {
+    "id": "sex-60",
+    "japaneseName": "ブロロン",
+    "englishName": "Varoom",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/60.jpg",
+    "englishImage": "images/sets/sex/en/60.jpg"
+  },
+  {
+    "id": "sex-61",
+    "japaneseName": "ブロロローム",
+    "englishName": "Revavroom",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/61.jpg",
+    "englishImage": "images/sets/sex/en/61.jpg"
+  },
+  {
+    "id": "sex-62",
+    "japaneseName": "ザングース",
+    "englishName": "Zangoose",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/62.jpg",
+    "englishImage": "images/sets/sex/en/62.jpg"
+  },
+  {
+    "id": "sex-63",
+    "japaneseName": "ムックル",
+    "englishName": "Starly",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/63.jpg",
+    "englishImage": "images/sets/sex/en/63.jpg"
+  },
+  {
+    "id": "sex-64",
+    "japaneseName": "ムクバード",
+    "englishName": "Staravia",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/64.jpg",
+    "englishImage": "images/sets/sex/en/64.jpg"
+  },
+  {
+    "id": "sex-65",
+    "japaneseName": "ムクホーク",
+    "englishName": "Staraptor",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/65.jpg",
+    "englishImage": "images/sets/sex/en/65.jpg"
+  },
+  {
+    "id": "sex-66",
+    "japaneseName": "グルトン",
+    "englishName": "Lechonk",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/66.jpg",
+    "englishImage": "images/sets/sex/en/66.jpg"
+  },
+  {
+    "id": "sex-67",
+    "japaneseName": "グルトン",
+    "englishName": "Lechonk",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/67.jpg",
+    "englishImage": "images/sets/sex/en/67.jpg"
+  },
+  {
+    "id": "sex-68",
+    "japaneseName": "パフュートンex",
+    "englishName": "Oinkologne ex",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/68.jpg",
+    "englishImage": "images/sets/sex/en/68.jpg"
+  },
+  {
+    "id": "sex-69",
+    "japaneseName": "ともだちてちょう",
+    "englishName": "Pal Pad",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/69.jpg",
+    "englishImage": "images/sets/sex/en/69.jpg"
+  },
+  {
+    "id": "sex-70",
+    "japaneseName": "ネストボール",
+    "englishName": "Nest Ball",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/70.jpg",
+    "englishImage": "images/sets/sex/en/70.jpg"
+  },
+  {
+    "id": "sex-71",
+    "japaneseName": "岩のむねあて",
+    "englishName": "Rock Chestplate",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/71.jpg",
+    "englishImage": "images/sets/sex/en/71.jpg"
+  },
+  {
+    "id": "sex-72",
+    "japaneseName": "学習装置",
+    "englishName": "Exp. Share",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/72.jpg",
+    "englishImage": "images/sets/sex/en/72.jpg"
+  },
+  {
+    "id": "sex-73",
+    "japaneseName": "まけんきハチマキ",
+    "englishName": "Defiance Band",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/73.jpg",
+    "englishImage": "images/sets/sex/en/73.jpg"
+  },
+  {
+    "id": "sex-74",
+    "japaneseName": "ジニア",
+    "englishName": "Jacq",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/74.jpg",
+    "englishImage": "images/sets/sex/en/74.jpg"
+  },
+  {
+    "id": "sex-75",
+    "japaneseName": "スター団のしたっぱ",
+    "englishName": "Team Star Grunt",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/75.jpg",
+    "englishImage": "images/sets/sex/en/75.jpg"
+  },
+  {
+    "id": "sex-76",
+    "japaneseName": "博士の研究",
+    "englishName": "Professor's Research",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/76.jpg",
+    "englishImage": "images/sets/sex/en/76.jpg"
+  },
+  {
+    "id": "sex-77",
+    "japaneseName": "ボタン",
+    "englishName": "Penny",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/77.jpg",
+    "englishImage": "images/sets/sex/en/77.jpg"
+  },
+  {
+    "id": "sex-78",
+    "japaneseName": "ビーチコート",
+    "englishName": "Beach Court",
+    "japaneseSetName": "スカーレットex",
+    "japaneseSetReleaseDate": "1-20-2023",
+    "japaneseImage": "images/sets/sex/jp/78.jpg",
+    "englishImage": "images/sets/sex/en/78.jpg"
+  }
+  ]
+  

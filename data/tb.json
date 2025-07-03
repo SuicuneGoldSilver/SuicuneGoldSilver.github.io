@@ -1,0 +1,660 @@
+[
+    {
+        "id": "tb-1",
+        "japaneseName": "トロピウス",
+        "englishName": "Tropius",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/1.jpg",
+        "englishImage": "images/sets/tb/en/1.jpg"
+    },
+    {
+        "id": "tb-2",
+        "japaneseName": "タマゲタケ",
+        "englishName": "Foongus",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/2.jpg",
+        "englishImage": "images/sets/tb/en/2.jpg"
+    },
+    {
+        "id": "tb-3",
+        "japaneseName": "モロバレル",
+        "englishName": "Amoonguss",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/3.jpg",
+        "englishImage": "images/sets/tb/en/3.jpg"
+    },
+    {
+        "id": "tb-4",
+        "japaneseName": "ニャオハ",
+        "englishName": "Sprigatito",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/4.jpg",
+        "englishImage": "images/sets/tb/en/4.jpg"
+    },
+    {
+        "id": "tb-5",
+        "japaneseName": "ニャオハ",
+        "englishName": "Sprigatito",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/5.jpg",
+        "englishImage": "images/sets/tb/en/5.jpg"
+    },
+    {
+        "id": "tb-6",
+        "japaneseName": "ニャローテ",
+        "englishName": "Floragato",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/6.jpg",
+        "englishImage": "images/sets/tb/en/6.jpg"
+    },
+    {
+        "id": "tb-7",
+        "japaneseName": "マスカーニャex",
+        "englishName": "Meowscarada ex",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/7.jpg",
+        "englishImage": "images/sets/tb/en/7.jpg"
+    },
+    {
+        "id": "tb-8",
+        "japaneseName": "マメバッタ",
+        "englishName": "Nymble",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/8.jpg",
+        "englishImage": "images/sets/tb/en/8.jpg"
+    },
+    {
+        "id": "tb-9",
+        "japaneseName": "マメバッタ",
+        "englishName": "Nymble",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/9.jpg",
+        "englishImage": "images/sets/tb/en/9.jpg"
+    },
+    {
+        "id": "tb-10",
+        "japaneseName": "エクスレッグ",
+        "englishName": "Lokix",
+        "japaneseSetName": "トリプレットビート",
+        "japaneseSetReleaseDate": "3-10-2023",
+        "japaneseImage": "images/sets/tb/jp/10.jpg",
+        "englishImage": "images/sets/tb/en/10.jpg"
+    },
+    {
+      "id": "tb-11",
+      "japaneseName": "パルデアケンタロス",
+      "englishName": "Paldean Tauros",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/11.jpg",
+      "englishImage": "images/sets/tb/en/11.jpg"
+  },
+  {
+      "id": "tb-12",
+      "japaneseName": "メラルバ",
+      "englishName": "Larvesta",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/12.jpg",
+      "englishImage": "images/sets/tb/en/12.jpg"
+  },
+  {
+      "id": "tb-13",
+      "japaneseName": "ウルガモス",
+      "englishName": "Volcarona",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/13.jpg",
+      "englishImage": "images/sets/tb/en/13.jpg"
+  },
+  {
+      "id": "tb-14",
+      "japaneseName": "シシコ",
+      "englishName": "Litleo",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/14.jpg",
+      "englishImage": "images/sets/tb/en/14.jpg"
+  },
+  {
+      "id": "tb-15",
+      "japaneseName": "カエンジシ",
+      "englishName": "Pyroar",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/15.jpg",
+      "englishImage": "images/sets/tb/en/15.jpg"
+  },
+  {
+      "id": "tb-16",
+      "japaneseName": "オドリドリ",
+      "englishName": "Oricorio",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/16.jpg",
+      "englishImage": "images/sets/tb/en/16.jpg"
+  },
+  {
+      "id": "tb-17",
+      "japaneseName": "ホゲータ",
+      "englishName": "Fuecoco",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/17.jpg",
+      "englishImage": "images/sets/tb/en/17.jpg"
+  },
+  {
+      "id": "tb-18",
+      "japaneseName": "ホゲータ",
+      "englishName": "Fuecoco",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/18.jpg",
+      "englishImage": "images/sets/tb/en/18.jpg"
+  },
+  {
+      "id": "tb-19",
+      "japaneseName": "アチゲータ",
+      "englishName": "Crocalor",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/19.jpg",
+      "englishImage": "images/sets/tb/en/19.jpg"
+  },
+  {
+      "id": "tb-20",
+      "japaneseName": "ラウドボーンex",
+      "englishName": "Skeledirge ex",
+      "japaneseSetName": "トリプレットビート",
+      "japaneseSetReleaseDate": "3-10-2023",
+      "japaneseImage": "images/sets/tb/jp/20.jpg",
+      "englishImage": "images/sets/tb/en/20.jpg"
+  },
+  {
+    "id": "tb-21",
+    "japaneseName": "パルデアケンタロス",
+    "englishName": "Paldean Tauros",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/21.jpg",
+    "englishImage": "images/sets/tb/en/21.jpg"
+  },
+  {
+    "id": "tb-22",
+    "japaneseName": "コイキング",
+    "englishName": "Magikarp",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/22.jpg",
+    "englishImage": "images/sets/tb/en/22.jpg"
+  },
+  {
+    "id": "tb-23",
+    "japaneseName": "ギャラドス",
+    "englishName": "Gyarados",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/23.jpg",
+    "englishImage": "images/sets/tb/en/23.jpg"
+  },
+  {
+    "id": "tb-24",
+    "japaneseName": "デリバード",
+    "englishName": "Delibird",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/24.jpg",
+    "englishImage": "images/sets/tb/en/24.jpg"
+  },
+  {
+    "id": "tb-25",
+    "japaneseName": "ブイゼル",
+    "englishName": "Buizel",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/25.jpg",
+    "englishImage": "images/sets/tb/en/25.jpg"
+  },
+  {
+    "id": "tb-26",
+    "japaneseName": "フローゼル",
+    "englishName": "Floatzel",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/26.jpg",
+    "englishImage": "images/sets/tb/en/26.jpg"
+  },
+  {
+    "id": "tb-27",
+    "japaneseName": "クワッス",
+    "englishName": "Quaxly",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/27.jpg",
+    "englishImage": "images/sets/tb/en/27.jpg"
+  },
+  {
+    "id": "tb-28",
+    "japaneseName": "クワッス",
+    "englishName": "Quaxly",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/28.jpg",
+    "englishImage": "images/sets/tb/en/28.jpg"
+  },
+  {
+    "id": "tb-29",
+    "japaneseName": "ウェルカモ",
+    "englishName": "Quaxwell",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/29.jpg",
+    "englishImage": "images/sets/tb/en/29.jpg"
+  },
+  {
+    "id": "tb-30",
+    "japaneseName": "ウェーニバルex",
+    "englishName": "Quaquaval ex",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/30.jpg",
+    "englishImage": "images/sets/tb/en/30.jpg"
+  },
+  {
+    "id": "tb-31",
+    "japaneseName": "カイデン",
+    "englishName": "Wattrel",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/31.jpg",
+    "englishImage": "images/sets/tb/en/31.jpg"
+  },
+  {
+    "id": "tb-32",
+    "japaneseName": "カイデン",
+    "englishName": "Wattrel",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/32.jpg",
+    "englishImage": "images/sets/tb/en/32.jpg"
+  },
+  {
+    "id": "tb-33",
+    "japaneseName": "タイカイデン",
+    "englishName": "Kilowattrel",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/33.jpg",
+    "englishImage": "images/sets/tb/en/33.jpg"
+  },
+  {
+    "id": "tb-34",
+    "japaneseName": "ムウマ",
+    "englishName": "Misdreavus",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/34.jpg",
+    "englishImage": "images/sets/tb/en/34.jpg"
+  },
+  {
+    "id": "tb-35",
+    "japaneseName": "ムウマージ",
+    "englishName": "Mismagius",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/35.jpg",
+    "englishImage": "images/sets/tb/en/35.jpg"
+  },
+  {
+    "id": "tb-36",
+    "japaneseName": "バネブー",
+    "englishName": "Spoink",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/36.jpg",
+    "englishImage": "images/sets/tb/en/36.jpg"
+  },
+  {
+    "id": "tb-37",
+    "japaneseName": "ブーピッグ",
+    "englishName": "Grumpig",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/37.jpg",
+    "englishImage": "images/sets/tb/en/37.jpg"
+  },
+  {
+    "id": "tb-38",
+    "japaneseName": "デデンネex",
+    "englishName": "Dedenne ex",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/38.jpg",
+    "englishImage": "images/sets/tb/en/38.jpg"
+  },
+  {
+    "id": "tb-39",
+    "japaneseName": "ヤレユータン",
+    "englishName": "Oranguru",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/39.jpg",
+    "englishImage": "images/sets/tb/en/39.jpg"
+  },
+  {
+    "id": "tb-40",
+    "japaneseName": "カヌチャン",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/40.jpg",
+    "englishImage": "images/sets/tb/en/40.jpg"
+  },
+  {
+    "id": "tb-41",
+    "japaneseName": "カヌチャン",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/41.jpg",
+    "englishImage": "images/sets/tb/en/41.jpg"
+  },
+  {
+    "id": "tb-42",
+    "japaneseName": "ナカヌチャン",
+    "englishName": "Tinkatuff",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/42.jpg",
+    "englishImage": "images/sets/tb/en/42.jpg"
+  },
+  {
+    "id": "tb-43",
+    "japaneseName": "デカヌチャン",
+    "englishName": "Tinkaton",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/43.jpg",
+    "englishImage": "images/sets/tb/en/43.jpg"
+  },
+  {
+    "id": "tb-44",
+    "japaneseName": "ディグダ",
+    "englishName": "Diglett",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/44.jpg",
+    "englishImage": "images/sets/tb/en/44.jpg"
+  },
+  {
+    "id": "tb-45",
+    "japaneseName": "ダグトリオ",
+    "englishName": "Dugtrio",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/45.jpg",
+    "englishImage": "images/sets/tb/en/45.jpg"
+  },
+  {
+    "id": "tb-46",
+    "japaneseName": "パルデアケンタロス",
+    "englishName": "Paldean Tauros",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/46.jpg",
+    "englishImage": "images/sets/tb/en/46.jpg"
+  },
+  {
+    "id": "tb-47",
+    "japaneseName": "マクノシタ",
+    "englishName": "Makuhita",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/47.jpg",
+    "englishImage": "images/sets/tb/en/47.jpg"
+  },
+  {
+    "id": "tb-48",
+    "japaneseName": "ハリテヤマ",
+    "englishName": "Hariyama",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/48.jpg",
+    "englishImage": "images/sets/tb/en/48.jpg"
+  },
+  {
+    "id": "tb-49",
+    "japaneseName": "イワンコ",
+    "englishName": "Rockruff",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/49.jpg",
+    "englishImage": "images/sets/tb/en/49.jpg"
+  },
+  {
+    "id": "tb-50",
+    "japaneseName": "ルガルガンex",
+    "englishName": "Lycanroc ex",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/50.jpg",
+    "englishImage": "images/sets/tb/en/50.jpg"
+  },
+  {
+    "id": "tb-51",
+    "japaneseName": "タイレーツ",
+    "englishName": "Falinks",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/51.jpg",
+    "englishImage": "images/sets/tb/en/51.jpg"
+  },
+  {
+    "id": "tb-52",
+    "japaneseName": "パルデアウパー",
+    "englishName": "Paldean Wooper",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/52.jpg",
+    "englishImage": "images/sets/tb/en/52.jpg"
+  },
+  {
+    "id": "tb-53",
+    "japaneseName": "パルデアウパー",
+    "englishName": "Paldean Wooper",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/53.jpg",
+    "englishImage": "images/sets/tb/en/53.jpg"
+  },
+  {
+    "id": "tb-54",
+    "japaneseName": "パルデアドオーex",
+    "englishName": "Paldean Clodsire ex",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/54.jpg",
+    "englishImage": "images/sets/tb/en/54.jpg"
+  },
+  {
+    "id": "tb-55",
+    "japaneseName": "ヤミラミ",
+    "englishName": "Sableye",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/55.jpg",
+    "englishImage": "images/sets/tb/en/55.jpg"
+  },
+  {
+    "id": "tb-56",
+    "japaneseName": "ハブネーク",
+    "englishName": "Seviper",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/56.jpg",
+    "englishImage": "images/sets/tb/en/56.jpg"
+  },
+  {
+    "id": "tb-57",
+    "japaneseName": "モノズ",
+    "englishName": "Deino",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/57.jpg",
+    "englishImage": "images/sets/tb/en/57.jpg"
+  },
+  {
+    "id": "tb-58",
+    "japaneseName": "ジヘッド",
+    "englishName": "Zweilous",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/58.jpg",
+    "englishImage": "images/sets/tb/en/58.jpg"
+  },
+  {
+    "id": "tb-59",
+    "japaneseName": "サザンドラ",
+    "englishName": "Hydreigon",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/59.jpg",
+    "englishImage": "images/sets/tb/en/59.jpg"
+  },
+  {
+    "id": "tb-60",
+    "japaneseName": "ヤトウモリ",
+    "englishName": "Salandit",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/60.jpg",
+    "englishImage": "images/sets/tb/en/60.jpg"
+  },
+  {
+    "id": "tb-61",
+    "japaneseName": "エンニュート",
+    "englishName": "Salazzle",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/61.jpg",
+    "englishImage": "images/sets/tb/en/61.jpg"
+  },
+  {
+    "id": "tb-62",
+    "japaneseName": "ヤングース",
+    "englishName": "Yungoos",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/62.jpg",
+    "englishImage": "images/sets/tb/en/62.jpg"
+  },
+  {
+    "id": "tb-63",
+    "japaneseName": "デカグース",
+    "englishName": "Gumshoos",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/63.jpg",
+    "englishImage": "images/sets/tb/en/63.jpg"
+  },
+  {
+    "id": "tb-64",
+    "japaneseName": "スーパーエネルギー回収",
+    "englishName": "Superior Energy Retrieval",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/64.jpg",
+    "englishImage": "images/sets/tb/en/64.jpg"
+  },
+  {
+    "id": "tb-65",
+    "japaneseName": "スーパーボール",
+    "englishName": "Great Ball",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/65.jpg",
+    "englishImage": "images/sets/tb/en/65.jpg"
+  },
+  {
+    "id": "tb-66",
+    "japaneseName": "キハダ",
+    "englishName": "Dendra",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/66.jpg",
+    "englishImage": "images/sets/tb/en/66.jpg"
+  },
+  {
+    "id": "tb-67",
+    "japaneseName": "クラベル",
+    "englishName": "Clavell",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/67.jpg",
+    "englishImage": "images/sets/tb/en/67.jpg"
+  },
+  {
+    "id": "tb-68",
+    "japaneseName": "ハヤト",
+    "englishName": "Falkner",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/68.jpg",
+    "englishImage": "images/sets/tb/en/68.jpg"
+  },
+  {
+    "id": "tb-69",
+    "japaneseName": "ボスの指令",
+    "englishName": "Boss's Orders",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/69.jpg",
+    "englishImage": "images/sets/tb/en/69.jpg"
+  },
+  {
+    "id": "tb-70",
+    "japaneseName": "ボウルタウン",
+    "englishName": "Artazon",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/70.jpg",
+    "englishImage": "images/sets/tb/en/70.jpg"
+  },
+  {
+    "id": "tb-71",
+    "japaneseName": "レッスンスタジオ",
+    "englishName": "Lesson Studio",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/71.jpg",
+    "englishImage": "images/sets/tb/en/71.jpg"
+  },
+  {
+    "id": "tb-72",
+    "japaneseName": "ジェットエネルギー",
+    "englishName": "Jet Energy",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/72.jpg",
+    "englishImage": "images/sets/tb/en/72.jpg"
+  },
+  {
+    "id": "tb-73",
+    "japaneseName": "ルミナスエネルギー",
+    "englishName": "Luminous Energy",
+    "japaneseSetName": "トリプレットビート",
+    "japaneseSetReleaseDate": "3-10-2023",
+    "japaneseImage": "images/sets/tb/jp/73.jpg",
+    "englishImage": "images/sets/tb/en/73.jpg"
+  }
+  ]
+  
