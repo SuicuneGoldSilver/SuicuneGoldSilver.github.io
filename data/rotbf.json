@@ -1,0 +1,947 @@
+[
+    {
+        "id": "rotbf-1",
+        "japaneseName": "ナゾノクサ",
+        "englishName": "Oddish",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/1.jpg",
+        "englishImage": "images/sets/rotbf/en/1.jpg"
+    },
+    {
+        "id": "rotbf-2",
+        "japaneseName": "クサイハナ",
+        "englishName": "Gloom",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/2.jpg",
+        "englishImage": "images/sets/rotbf/en/2.jpg"
+    },
+    {
+        "id": "rotbf-3",
+        "japaneseName": "キレイハナ",
+        "englishName": "Bellossom",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/3.jpg",
+        "englishImage": "images/sets/rotbf/en/3.jpg"
+    },
+    {
+        "id": "rotbf-4",
+        "japaneseName": "ストライク",
+        "englishName": "Scyther",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/4.jpg",
+        "englishImage": "images/sets/rotbf/en/4.jpg"
+    },
+    {
+        "id": "rotbf-5",
+        "japaneseName": "ツボツボ",
+        "englishName": "Shuckle",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/5.jpg",
+        "englishImage": "images/sets/rotbf/en/5.jpg"
+    },
+    {
+        "id": "rotbf-6",
+        "japaneseName": "ミツハニー",
+        "englishName": "Combee",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/6.jpg",
+        "englishImage": "images/sets/rotbf/en/6.jpg"
+    },
+    {
+        "id": "rotbf-7",
+        "japaneseName": "ボクレー",
+        "englishName": "Phantump",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/7.jpg",
+        "englishImage": "images/sets/rotbf/en/7.jpg"
+    },
+    {
+        "id": "rotbf-8",
+        "japaneseName": "オーロット",
+        "englishName": "Trevenant",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/8.jpg",
+        "englishImage": "images/sets/rotbf/en/8.jpg"
+    },
+    {
+        "id": "rotbf-9",
+        "japaneseName": "カプサイジ",
+        "englishName": "Capsakid",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/9.jpg",
+        "englishImage": "images/sets/rotbf/en/9.jpg"
+    },
+    {
+        "id": "rotbf-10",
+        "japaneseName": "カプサイジ",
+        "englishName": "Capsakid",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/10.jpg",
+        "englishImage": "images/sets/rotbf/en/10.jpg"
+    },
+    {
+        "id": "rotbf-11",
+        "japaneseName": "スコヴィラン",
+        "englishName": "Scovillain",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/11.jpg",
+        "englishImage": "images/sets/rotbf/en/11.jpg"
+    },
+    {
+        "id": "rotbf-12",
+        "japaneseName": "ヒトカゲ",
+        "englishName": "Charmander",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/12.jpg",
+        "englishImage": "images/sets/rotbf/en/12.jpg"
+    },
+    {
+        "id": "rotbf-13",
+        "japaneseName": "リザード",
+        "englishName": "Charmeleon",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/13.jpg",
+        "englishImage": "images/sets/rotbf/en/13.jpg"
+    },
+    {
+        "id": "rotbf-14",
+        "japaneseName": "ロコン",
+        "englishName": "Vulpix",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/14.jpg",
+        "englishImage": "images/sets/rotbf/en/14.jpg"
+    },
+    {
+        "id": "rotbf-15",
+        "japaneseName": "キュウコン",
+        "englishName": "Ninetales",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/15.jpg",
+        "englishImage": "images/sets/rotbf/en/15.jpg"
+    },
+    {
+        "id": "rotbf-16",
+        "japaneseName": "エンテイ",
+        "englishName": "Entei",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/16.jpg",
+        "englishImage": "images/sets/rotbf/en/16.jpg"
+    },
+    {
+        "id": "rotbf-17",
+        "japaneseName": "ダルマッカ",
+        "englishName": "Darumaka",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/17.jpg",
+        "englishImage": "images/sets/rotbf/en/17.jpg"
+    },
+    {
+        "id": "rotbf-18",
+        "japaneseName": "ヒヒダルマ",
+        "englishName": "Darmanitan",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/18.jpg",
+        "englishImage": "images/sets/rotbf/en/18.jpg"
+    },
+    {
+        "id": "rotbf-19",
+        "japaneseName": "クイタラン",
+        "englishName": "Heatmor",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/19.jpg",
+        "englishImage": "images/sets/rotbf/en/19.jpg"
+    },
+    {
+        "id": "rotbf-20",
+        "japaneseName": "コオリッポex",
+        "englishName": "Eiscue ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/20.jpg",
+        "englishImage": "images/sets/rotbf/en/20.jpg"
+    },
+    {
+        "id": "rotbf-21",
+        "japaneseName": "キバニア",
+        "englishName": "Carvanha",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/21.jpg",
+        "englishImage": "images/sets/rotbf/en/21.jpg"
+    },
+    {
+        "id": "rotbf-22",
+        "japaneseName": "サメハダー",
+        "englishName": "Sharpedo",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/22.jpg",
+        "englishImage": "images/sets/rotbf/en/22.jpg"
+    },
+    {
+        "id": "rotbf-23",
+        "japaneseName": "オタマロ",
+        "englishName": "Tympole",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/23.jpg",
+        "englishImage": "images/sets/rotbf/en/23.jpg"
+    },
+    {
+        "id": "rotbf-24",
+        "japaneseName": "ガマガル",
+        "englishName": "Palpitoad",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/24.jpg",
+        "englishImage": "images/sets/rotbf/en/24.jpg"
+    },
+    {
+        "id": "rotbf-25",
+        "japaneseName": "ガマゲロゲ",
+        "englishName": "Seismitoad",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/25.jpg",
+        "englishImage": "images/sets/rotbf/en/25.jpg"
+    },
+    {
+        "id": "rotbf-26",
+        "japaneseName": "クマシュン",
+        "englishName": "Cubchoo",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/26.jpg",
+        "englishImage": "images/sets/rotbf/en/26.jpg"
+    },
+    {
+        "id": "rotbf-27",
+        "japaneseName": "ツンベアー",
+        "englishName": "Beartic",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/27.jpg",
+        "englishImage": "images/sets/rotbf/en/27.jpg"
+    },
+    {
+        "id": "rotbf-28",
+        "japaneseName": "フリージオ",
+        "englishName": "Cryogonal",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/28.jpg",
+        "englishImage": "images/sets/rotbf/en/28.jpg"
+    },
+    {
+        "id": "rotbf-29",
+        "japaneseName": "ナミイルカ",
+        "englishName": "Finizen",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/29.jpg",
+        "englishImage": "images/sets/rotbf/en/29.jpg"
+    },
+    {
+        "id": "rotbf-30",
+        "japaneseName": "ナミイルカ",
+        "englishName": "Finizen",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/30.jpg",
+        "englishImage": "images/sets/rotbf/en/30.jpg"
+    },
+    {
+        "id": "rotbf-31",
+        "japaneseName": "イルカマン",
+        "englishName": "Palafin",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/31.jpg",
+        "englishImage": "images/sets/rotbf/en/31.jpg"
+    },
+    {
+        "id": "rotbf-32",
+        "japaneseName": "バンギラスex",
+        "englishName": "Tyranitar ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/32.jpg",
+        "englishImage": "images/sets/rotbf/en/32.jpg"
+    },
+    {
+        "id": "rotbf-33",
+        "japaneseName": "シビシラス",
+        "englishName": "Tynamo",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/33.jpg",
+        "englishImage": "images/sets/rotbf/en/33.jpg"
+    },
+    {
+        "id": "rotbf-34",
+        "japaneseName": "シビビール",
+        "englishName": "Eelektrik",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/34.jpg",
+        "englishImage": "images/sets/rotbf/en/34.jpg"
+    },
+    {
+        "id": "rotbf-35",
+        "japaneseName": "シビルドン",
+        "englishName": "Eelektross",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/35.jpg",
+        "englishImage": "images/sets/rotbf/en/35.jpg"
+    },
+    {
+        "id": "rotbf-36",
+        "japaneseName": "ボルトロス",
+        "englishName": "Thundurus",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/36.jpg",
+        "englishImage": "images/sets/rotbf/en/36.jpg"
+    },
+    {
+        "id": "rotbf-37",
+        "japaneseName": "エレズン",
+        "englishName": "Toxel",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/37.jpg",
+        "englishImage": "images/sets/rotbf/en/37.jpg"
+    },
+    {
+        "id": "rotbf-38",
+        "japaneseName": "ストリンダー",
+        "englishName": "Toxtricity",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/38.jpg",
+        "englishImage": "images/sets/rotbf/en/38.jpg"
+    },
+    {
+        "id": "rotbf-39",
+        "japaneseName": "ズピカ",
+        "englishName": "Tadbulb",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/39.jpg",
+        "englishImage": "images/sets/rotbf/en/39.jpg"
+    },
+    {
+        "id": "rotbf-40",
+        "japaneseName": "ズピカ",
+        "englishName": "Tadbulb",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/40.jpg",
+        "englishImage": "images/sets/rotbf/en/40.jpg"
+    },
+    {
+        "id": "rotbf-41",
+        "japaneseName": "ハラバリー",
+        "englishName": "Bellibolt",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/41.jpg",
+        "englishImage": "images/sets/rotbf/en/41.jpg"
+    },
+    {
+        "id": "rotbf-42",
+        "japaneseName": "ピィ",
+        "englishName": "Cleffa",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/42.jpg",
+        "englishImage": "images/sets/rotbf/en/42.jpg"
+    },
+    {
+        "id": "rotbf-43",
+        "japaneseName": "トゲピー",
+        "englishName": "Togepi",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/43.jpg",
+        "englishImage": "images/sets/rotbf/en/43.jpg"
+    },
+    {
+        "id": "rotbf-44",
+        "japaneseName": "トゲチック",
+        "englishName": "Togetic",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/44.jpg",
+        "englishImage": "images/sets/rotbf/en/44.jpg"
+    },
+    {
+        "id": "rotbf-45",
+        "japaneseName": "トゲキッス",
+        "englishName": "Togekiss",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/45.jpg",
+        "englishImage": "images/sets/rotbf/en/45.jpg"
+    },
+    {
+        "id": "rotbf-46",
+        "japaneseName": "エーフィ",
+        "englishName": "Espeon",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/46.jpg",
+        "englishImage": "images/sets/rotbf/en/46.jpg"
+    },
+    {
+        "id": "rotbf-47",
+        "japaneseName": "ルナトーン",
+        "englishName": "Lunatone",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/47.jpg",
+        "englishImage": "images/sets/rotbf/en/47.jpg"
+    },
+    {
+        "id": "rotbf-48",
+        "japaneseName": "ソルロック",
+        "englishName": "Solrock",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/48.jpg",
+        "englishImage": "images/sets/rotbf/en/48.jpg"
+    },
+    {
+        "id": "rotbf-49",
+        "japaneseName": "ヤジロン",
+        "englishName": "Baltoy",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/49.jpg",
+        "englishImage": "images/sets/rotbf/en/49.jpg"
+    },
+    {
+        "id": "rotbf-50",
+        "japaneseName": "ネンドール",
+        "englishName": "Claydol",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/50.jpg",
+        "englishImage": "images/sets/rotbf/en/50.jpg"
+    },
+    {
+        "id": "rotbf-51",
+        "japaneseName": "ビークインex",
+        "englishName": "Vespiquen ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/51.jpg",
+        "englishImage": "images/sets/rotbf/en/51.jpg"
+    },
+    {
+        "id": "rotbf-52",
+        "japaneseName": "ボチ",
+        "englishName": "Greavard",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/52.jpg",
+        "englishImage": "images/sets/rotbf/en/52.jpg"
+    },
+    {
+        "id": "rotbf-53",
+        "japaneseName": "ボチ",
+        "englishName": "Greavard",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/53.jpg",
+        "englishImage": "images/sets/rotbf/en/53.jpg"
+    },
+    {
+        "id": "rotbf-54",
+        "japaneseName": "ハカドッグ",
+        "englishName": "Houndstone",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/54.jpg",
+        "englishImage": "images/sets/rotbf/en/54.jpg"
+    },
+    {
+        "id": "rotbf-55",
+        "japaneseName": "ヨーギラス",
+        "englishName": "Larvitar",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/55.jpg",
+        "englishImage": "images/sets/rotbf/en/55.jpg"
+    },
+    {
+        "id": "rotbf-56",
+        "japaneseName": "サナギラス",
+        "englishName": "Pupitar",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/56.jpg",
+        "englishImage": "images/sets/rotbf/en/56.jpg"
+    },
+    {
+        "id": "rotbf-57",
+        "japaneseName": "ノズパス",
+        "englishName": "Nosepass",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/57.jpg",
+        "englishImage": "images/sets/rotbf/en/57.jpg"
+    },
+    {
+        "id": "rotbf-58",
+        "japaneseName": "ウソハチ",
+        "englishName": "Bonsly",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/58.jpg",
+        "englishImage": "images/sets/rotbf/en/58.jpg"
+    },
+    {
+        "id": "rotbf-59",
+        "japaneseName": "マッギョ",
+        "englishName": "Stunfisk",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/59.jpg",
+        "englishImage": "images/sets/rotbf/en/59.jpg"
+    },
+    {
+        "id": "rotbf-60",
+        "japaneseName": "ホルード",
+        "englishName": "Diggersby",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/60.jpg",
+        "englishImage": "images/sets/rotbf/en/60.jpg"
+    },
+    {
+        "id": "rotbf-61",
+        "japaneseName": "イワンコ",
+        "englishName": "Rockruff",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/61.jpg",
+        "englishImage": "images/sets/rotbf/en/61.jpg"
+    },
+    {
+        "id": "rotbf-62",
+        "japaneseName": "ルガルガン",
+        "englishName": "Lycanroc",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/62.jpg",
+        "englishImage": "images/sets/rotbf/en/62.jpg"
+    },
+    {
+        "id": "rotbf-63",
+        "japaneseName": "キラーメ",
+        "englishName": "Glimmet",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/63.jpg",
+        "englishImage": "images/sets/rotbf/en/63.jpg"
+    },
+    {
+        "id": "rotbf-64",
+        "japaneseName": "キラーメ",
+        "englishName": "Glimmet",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/64.jpg",
+        "englishImage": "images/sets/rotbf/en/64.jpg"
+    },
+    {
+        "id": "rotbf-65",
+        "japaneseName": "キラフロルex",
+        "englishName": "Glimmora ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/65.jpg",
+        "englishImage": "images/sets/rotbf/en/65.jpg"
+    },
+    {
+        "id": "rotbf-66",
+        "japaneseName": "リザードンex",
+        "englishName": "Charizard ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/66.jpg",
+        "englishImage": "images/sets/rotbf/en/66.jpg"
+    },
+    {
+        "id": "rotbf-67",
+        "japaneseName": "パルデアウパー",
+        "englishName": "Paldean Wooper",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/67.jpg",
+        "englishImage": "images/sets/rotbf/en/67.jpg"
+    },
+    {
+        "id": "rotbf-68",
+        "japaneseName": "パルデアウパー",
+        "englishName": "Paldean Wooper",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/68.jpg",
+        "englishImage": "images/sets/rotbf/en/68.jpg"
+    },
+    {
+        "id": "rotbf-69",
+        "japaneseName": "パルデアドオー",
+        "englishName": "Paldean Clodsire",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/69.jpg",
+        "englishImage": "images/sets/rotbf/en/69.jpg"
+    },
+    {
+        "id": "rotbf-70",
+        "japaneseName": "ブラッキー",
+        "englishName": "Umbreon",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/70.jpg",
+        "englishImage": "images/sets/rotbf/en/70.jpg"
+    },
+    {
+        "id": "rotbf-71",
+        "japaneseName": "デルビル",
+        "englishName": "Houndour",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/71.jpg",
+        "englishImage": "images/sets/rotbf/en/71.jpg"
+    },
+    {
+        "id": "rotbf-72",
+        "japaneseName": "ヘルガー",
+        "englishName": "Houndoom",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/72.jpg",
+        "englishImage": "images/sets/rotbf/en/72.jpg"
+    },
+    {
+        "id": "rotbf-73",
+        "japaneseName": "アブソルex",
+        "englishName": "Absol ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/73.jpg",
+        "englishImage": "images/sets/rotbf/en/73.jpg"
+    },
+    {
+        "id": "rotbf-74",
+        "japaneseName": "ダークライ",
+        "englishName": "Darkrai",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/74.jpg",
+        "englishImage": "images/sets/rotbf/en/74.jpg"
+    },
+    {
+        "id": "rotbf-75",
+        "japaneseName": "マーイーカ",
+        "englishName": "Inkay",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/75.jpg",
+        "englishImage": "images/sets/rotbf/en/75.jpg"
+    },
+    {
+        "id": "rotbf-76",
+        "japaneseName": "カラマネロ",
+        "englishName": "Malamar",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/76.jpg",
+        "englishImage": "images/sets/rotbf/en/76.jpg"
+    },
+    {
+        "id": "rotbf-77",
+        "japaneseName": "ハッサム",
+        "englishName": "Scizor",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/77.jpg",
+        "englishImage": "images/sets/rotbf/en/77.jpg"
+    },
+    {
+        "id": "rotbf-78",
+        "japaneseName": "クチート",
+        "englishName": "Mawile",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/78.jpg",
+        "englishImage": "images/sets/rotbf/en/78.jpg"
+    },
+    {
+        "id": "rotbf-79",
+        "japaneseName": "ダイノーズ",
+        "englishName": "Probopass",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/79.jpg",
+        "englishImage": "images/sets/rotbf/en/79.jpg"
+    },
+    {
+        "id": "rotbf-80",
+        "japaneseName": "コマタナ",
+        "englishName": "Pawniard",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/80.jpg",
+        "englishImage": "images/sets/rotbf/en/80.jpg"
+    },
+    {
+        "id": "rotbf-81",
+        "japaneseName": "キリキザン",
+        "englishName": "Bisharp",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/81.jpg",
+        "englishImage": "images/sets/rotbf/en/81.jpg"
+    },
+    {
+        "id": "rotbf-82",
+        "japaneseName": "ドドゲザン",
+        "englishName": "Kingambit",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/82.jpg",
+        "englishImage": "images/sets/rotbf/en/82.jpg"
+    },
+    {
+        "id": "rotbf-83",
+        "japaneseName": "ブロロン",
+        "englishName": "Varoom",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/83.jpg",
+        "englishImage": "images/sets/rotbf/en/83.jpg"
+    },
+    {
+        "id": "rotbf-84",
+        "japaneseName": "ブロロン",
+        "englishName": "Varoom",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/84.jpg",
+        "englishImage": "images/sets/rotbf/en/84.jpg"
+    },
+    {
+        "id": "rotbf-85",
+        "japaneseName": "ブロロロームex",
+        "englishName": "Revavroom ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/85.jpg",
+        "englishImage": "images/sets/rotbf/en/85.jpg"
+    },
+    {
+        "id": "rotbf-86",
+        "japaneseName": "チルタリス",
+        "englishName": "Altaria",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/86.jpg",
+        "englishImage": "images/sets/rotbf/en/86.jpg"
+    },
+    {
+        "id": "rotbf-87",
+        "japaneseName": "ポッポ",
+        "englishName": "Pidgey",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/87.jpg",
+        "englishImage": "images/sets/rotbf/en/87.jpg"
+    },
+    {
+        "id": "rotbf-88",
+        "japaneseName": "ピジョン",
+        "englishName": "Pidgeotto",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/88.jpg",
+        "englishImage": "images/sets/rotbf/en/88.jpg"
+    },
+    {
+        "id": "rotbf-89",
+        "japaneseName": "ピジョットex",
+        "englishName": "Pidgeot ex",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/89.jpg",
+        "englishImage": "images/sets/rotbf/en/89.jpg"
+    },
+    {
+        "id": "rotbf-90",
+        "japaneseName": "ガルーラ",
+        "englishName": "Kangaskhan",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/90.jpg",
+        "englishImage": "images/sets/rotbf/en/90.jpg"
+    },
+    {
+        "id": "rotbf-91",
+        "japaneseName": "イーブイ",
+        "englishName": "Eevee",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/91.jpg",
+        "englishImage": "images/sets/rotbf/en/91.jpg"
+    },
+    {
+        "id": "rotbf-92",
+        "japaneseName": "ジグザグマ",
+        "englishName": "Zigzagoon",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/92.jpg",
+        "englishImage": "images/sets/rotbf/en/92.jpg"
+    },
+    {
+        "id": "rotbf-93",
+        "japaneseName": "マッスグマ",
+        "englishName": "Linoone",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/93.jpg",
+        "englishImage": "images/sets/rotbf/en/93.jpg"
+    },
+    {
+        "id": "rotbf-94",
+        "japaneseName": "チルット",
+        "englishName": "Swablu",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/94.jpg",
+        "englishImage": "images/sets/rotbf/en/94.jpg"
+    },
+    {
+        "id": "rotbf-95",
+        "japaneseName": "ホルビー",
+        "englishName": "Bunnelby",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/95.jpg",
+        "englishImage": "images/sets/rotbf/en/95.jpg"
+    },
+    {
+        "id": "rotbf-96",
+        "japaneseName": "グルトン",
+        "englishName": "Lechonk",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/96.jpg",
+        "englishImage": "images/sets/rotbf/en/96.jpg"
+    },
+    {
+        "id": "rotbf-97",
+        "japaneseName": "グルトン",
+        "englishName": "Lechonk",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/97.jpg",
+        "englishImage": "images/sets/rotbf/en/97.jpg"
+    },
+    {
+        "id": "rotbf-98",
+        "japaneseName": "パフュートン",
+        "englishName": "Oinkologne",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/98.jpg",
+        "englishImage": "images/sets/rotbf/en/98.jpg"
+    },
+    {
+        "id": "rotbf-99",
+        "japaneseName": "カラミンゴ",
+        "englishName": "Flamigo",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/99.jpg",
+        "englishImage": "images/sets/rotbf/en/99.jpg"
+    },
+    {
+        "id": "rotbf-100",
+        "japaneseName": "はげましのてがみ",
+        "englishName": "Letter of Encouragement",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/100.jpg",
+        "englishImage": "images/sets/rotbf/en/100.jpg"
+    },
+    {
+        "id": "rotbf-101",
+        "japaneseName": "パトロールキャップ",
+        "englishName": "Patrol Cap",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/101.jpg",
+        "englishImage": "images/sets/rotbf/en/101.jpg"
+    },
+    {
+        "id": "rotbf-102",
+        "japaneseName": "リベンジパンチ",
+        "englishName": "Revenge Punch",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/102.jpg",
+        "englishImage": "images/sets/rotbf/en/102.jpg"
+    },
+    {
+        "id": "rotbf-103",
+        "japaneseName": "オモダカ",
+        "englishName": "Geeta",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/103.jpg",
+        "englishImage": "images/sets/rotbf/en/103.jpg"
+    },
+    {
+        "id": "rotbf-104",
+        "japaneseName": "オルティガ",
+        "englishName": "Ortega",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/104.jpg",
+        "englishImage": "images/sets/rotbf/en/104.jpg"
+    },
+    {
+        "id": "rotbf-105",
+        "japaneseName": "ポピー",
+        "englishName": "Poppy",
+        "japaneseSetName": "黒炎の支配者",
+        "japaneseSetReleaseDate": "7-28-2023",
+        "japaneseImage": "images/sets/rotbf/jp/105.jpg",
+        "englishImage": "images/sets/rotbf/en/105.jpg"
+    }
+]

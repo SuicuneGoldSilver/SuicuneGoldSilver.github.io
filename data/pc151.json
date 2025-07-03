@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "pc151-1",
+    "japaneseName": "フシギダネ",
+    "englishName": "Bulbasaur",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/1.jpg",
+    "englishImage": "images/sets/pc151/en/1.jpg"
+  },
+  {
+    "id": "pc151-2",
+    "japaneseName": "フシギソウ",
+    "englishName": "Ivysaur",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/2.jpg",
+    "englishImage": "images/sets/pc151/en/2.jpg"
+  },
+  {
+    "id": "pc151-3",
+    "japaneseName": "フシギバナ",
+    "englishName": "Venusaur",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/3.jpg",
+    "englishImage": "images/sets/pc151/en/3.jpg"
+  },
+  {
+    "id": "pc151-4",
+    "japaneseName": "ヒトカゲ",
+    "englishName": "Charmander",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/4.jpg",
+    "englishImage": "images/sets/pc151/en/4.jpg"
+  },
+  {
+    "id": "pc151-5",
+    "japaneseName": "リザード",
+    "englishName": "Charmeleon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/5.jpg",
+    "englishImage": "images/sets/pc151/en/5.jpg"
+  },
+  {
+    "id": "pc151-6",
+    "japaneseName": "リザードン",
+    "englishName": "Charizard",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/6.jpg",
+    "englishImage": "images/sets/pc151/en/6.jpg"
+  },
+  {
+    "id": "pc151-7",
+    "japaneseName": "ゼニガメ",
+    "englishName": "Squirtle",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/7.jpg",
+    "englishImage": "images/sets/pc151/en/7.jpg"
+  },
+  {
+    "id": "pc151-8",
+    "japaneseName": "カメール",
+    "englishName": "Wartortle",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/8.jpg",
+    "englishImage": "images/sets/pc151/en/8.jpg"
+  },
+  {
+    "id": "pc151-9",
+    "japaneseName": "カメックス",
+    "englishName": "Blastoise",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/9.jpg",
+    "englishImage": "images/sets/pc151/en/9.jpg"
+  },
+  {
+    "id": "pc151-10",
+    "japaneseName": "キャタピー",
+    "englishName": "Caterpie",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/10.jpg",
+    "englishImage": "images/sets/pc151/en/10.jpg"
+  },
+  {
+    "id": "pc151-11",
+    "japaneseName": "トランセル",
+    "englishName": "Metapod",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/11.jpg",
+    "englishImage": "images/sets/pc151/en/11.jpg"
+  },
+  {
+    "id": "pc151-12",
+    "japaneseName": "バタフリー",
+    "englishName": "Butterfree",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/12.jpg",
+    "englishImage": "images/sets/pc151/en/12.jpg"
+  },
+  {
+    "id": "pc151-13",
+    "japaneseName": "ビードル",
+    "englishName": "Weedle",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/13.jpg",
+    "englishImage": "images/sets/pc151/en/13.jpg"
+  },
+  {
+    "id": "pc151-14",
+    "japaneseName": "コクーン",
+    "englishName": "Kakuna",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/14.jpg",
+    "englishImage": "images/sets/pc151/en/14.jpg"
+  },
+  {
+    "id": "pc151-15",
+    "japaneseName": "スピアー",
+    "englishName": "Beedrill",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/15.jpg",
+    "englishImage": "images/sets/pc151/en/15.jpg"
+  },
+  {
+    "id": "pc151-16",
+    "japaneseName": "ポッポ",
+    "englishName": "Pidgey",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/16.jpg",
+    "englishImage": "images/sets/pc151/en/16.jpg"
+  },
+  {
+    "id": "pc151-17",
+    "japaneseName": "ピジョン",
+    "englishName": "Pidgeotto",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/17.jpg",
+    "englishImage": "images/sets/pc151/en/17.jpg"
+  },
+  {
+    "id": "pc151-18",
+    "japaneseName": "ピジョット",
+    "englishName": "Pidgeot",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/18.jpg",
+    "englishImage": "images/sets/pc151/en/18.jpg"
+  },
+  {
+    "id": "pc151-19",
+    "japaneseName": "コラッタ",
+    "englishName": "Rattata",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/19.jpg",
+    "englishImage": "images/sets/pc151/en/19.jpg"
+  },
+  {
+    "id": "pc151-20",
+    "japaneseName": "ラッタ",
+    "englishName": "Raticate",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/20.jpg",
+    "englishImage": "images/sets/pc151/en/20.jpg"
+  },
+  {
+    "id": "pc151-21",
+    "japaneseName": "オニスズメ",
+    "englishName": "Spearow",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/21.jpg",
+    "englishImage": "images/sets/pc151/en/21.jpg"
+  },
+  {
+    "id": "pc151-22",
+    "japaneseName": "オニドリル",
+    "englishName": "Fearow",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/22.jpg",
+    "englishImage": "images/sets/pc151/en/22.jpg"
+  },
+  {
+    "id": "pc151-23",
+    "japaneseName": "アーボ",
+    "englishName": "Ekans",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/23.jpg",
+    "englishImage": "images/sets/pc151/en/23.jpg"
+  },
+  {
+    "id": "pc151-24",
+    "japaneseName": "アーボック",
+    "englishName": "Arbok",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/24.jpg",
+    "englishImage": "images/sets/pc151/en/24.jpg"
+  },
+  {
+    "id": "pc151-25",
+    "japaneseName": "ピカチュウ",
+    "englishName": "Pikachu",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/25.jpg",
+    "englishImage": "images/sets/pc151/en/25.jpg"
+  },
+  {
+    "id": "pc151-26",
+    "japaneseName": "ライチュウ",
+    "englishName": "Raichu",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/26.jpg",
+    "englishImage": "images/sets/pc151/en/26.jpg"
+  },
+  {
+    "id": "pc151-27",
+    "japaneseName": "サンド",
+    "englishName": "Sandshrew",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/27.jpg",
+    "englishImage": "images/sets/pc151/en/27.jpg"
+  },
+  {
+    "id": "pc151-28",
+    "japaneseName": "サンドパン",
+    "englishName": "Sandslash",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/28.jpg",
+    "englishImage": "images/sets/pc151/en/28.jpg"
+  },
+  {
+    "id": "pc151-29",
+    "japaneseName": "ニドラン♀",
+    "englishName": "Nidoran♀",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/29.jpg",
+    "englishImage": "images/sets/pc151/en/29.jpg"
+  },
+  {
+    "id": "pc151-30",
+    "japaneseName": "ニドリーナ",
+    "englishName": "Nidorina",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/30.jpg",
+    "englishImage": "images/sets/pc151/en/30.jpg"
+  },
+  {
+    "id": "pc151-31",
+    "japaneseName": "ニドクイン",
+    "englishName": "Nidoqueen",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/31.jpg",
+    "englishImage": "images/sets/pc151/en/31.jpg"
+  },
+  {
+    "id": "pc151-32",
+    "japaneseName": "ニドラン♂",
+    "englishName": "Nidoran♂",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/32.jpg",
+    "englishImage": "images/sets/pc151/en/32.jpg"
+  },
+  {
+    "id": "pc151-33",
+    "japaneseName": "ニドリーノ",
+    "englishName": "Nidorino",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/33.jpg",
+    "englishImage": "images/sets/pc151/en/33.jpg"
+  },
+  {
+    "id": "pc151-34",
+    "japaneseName": "ニドキング",
+    "englishName": "Nidoking",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/34.jpg",
+    "englishImage": "images/sets/pc151/en/34.jpg"
+  },
+  {
+    "id": "pc151-35",
+    "japaneseName": "ピッピ",
+    "englishName": "Clefairy",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/35.jpg",
+    "englishImage": "images/sets/pc151/en/35.jpg"
+  },
+  {
+    "id": "pc151-36",
+    "japaneseName": "ピクシー",
+    "englishName": "Clefable",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/36.jpg",
+    "englishImage": "images/sets/pc151/en/36.jpg"
+  },
+  {
+    "id": "pc151-37",
+    "japaneseName": "ロコン",
+    "englishName": "Vulpix",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/37.jpg",
+    "englishImage": "images/sets/pc151/en/37.jpg"
+  },
+  {
+    "id": "pc151-38",
+    "japaneseName": "キュウコン",
+    "englishName": "Ninetales",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/38.jpg",
+    "englishImage": "images/sets/pc151/en/38.jpg"
+  },
+  {
+    "id": "pc151-39",
+    "japaneseName": "プリン",
+    "englishName": "Jigglypuff",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/39.jpg",
+    "englishImage": "images/sets/pc151/en/39.jpg"
+  },
+  {
+    "id": "pc151-40",
+    "japaneseName": "プクリン",
+    "englishName": "Wigglytuff",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/40.jpg",
+    "englishImage": "images/sets/pc151/en/40.jpg"
+  },
+  {
+    "id": "pc151-41",
+    "japaneseName": "ズバット",
+    "englishName": "Zubat",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/41.jpg",
+    "englishImage": "images/sets/pc151/en/41.jpg"
+  },
+  {
+    "id": "pc151-42",
+    "japaneseName": "ゴルバット",
+    "englishName": "Golbat",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/42.jpg",
+    "englishImage": "images/sets/pc151/en/42.jpg"
+  },
+  {
+    "id": "pc151-43",
+    "japaneseName": "ナゾノクサ",
+    "englishName": "Oddish",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/43.jpg",
+    "englishImage": "images/sets/pc151/en/43.jpg"
+  },
+  {
+    "id": "pc151-44",
+    "japaneseName": "クサイハナ",
+    "englishName": "Gloom",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/44.jpg",
+    "englishImage": "images/sets/pc151/en/44.jpg"
+  },
+  {
+    "id": "pc151-45",
+    "japaneseName": "ラフレシア",
+    "englishName": "Vileplume",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/45.jpg",
+    "englishImage": "images/sets/pc151/en/45.jpg"
+  },
+  {
+    "id": "pc151-46",
+    "japaneseName": "パラス",
+    "englishName": "Paras",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/46.jpg",
+    "englishImage": "images/sets/pc151/en/46.jpg"
+  },
+  {
+    "id": "pc151-47",
+    "japaneseName": "パラセクト",
+    "englishName": "Parasect",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/47.jpg",
+    "englishImage": "images/sets/pc151/en/47.jpg"
+  },
+  {
+    "id": "pc151-48",
+    "japaneseName": "コンパン",
+    "englishName": "Venonat",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/48.jpg",
+    "englishImage": "images/sets/pc151/en/48.jpg"
+  },
+  {
+    "id": "pc151-49",
+    "japaneseName": "モルフォン",
+    "englishName": "Venomoth",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/49.jpg",
+    "englishImage": "images/sets/pc151/en/49.jpg"
+  },
+  {
+    "id": "pc151-50",
+    "japaneseName": "ディグダ",
+    "englishName": "Diglett",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/50.jpg",
+    "englishImage": "images/sets/pc151/en/50.jpg"
+  },
+  {
+    "id": "pc151-51",
+    "japaneseName": "ダグトリオ",
+    "englishName": "Dugtrio",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/51.jpg",
+    "englishImage": "images/sets/pc151/en/51.jpg"
+  },
+  {
+    "id": "pc151-52",
+    "japaneseName": "ニャース",
+    "englishName": "Meowth",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/52.jpg",
+    "englishImage": "images/sets/pc151/en/52.jpg"
+  },
+  {
+    "id": "pc151-53",
+    "japaneseName": "ペルシアン",
+    "englishName": "Persian",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/53.jpg",
+    "englishImage": "images/sets/pc151/en/53.jpg"
+  },
+  {
+    "id": "pc151-54",
+    "japaneseName": "コダック",
+    "englishName": "Psyduck",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/54.jpg",
+    "englishImage": "images/sets/pc151/en/54.jpg"
+  },
+  {
+    "id": "pc151-55",
+    "japaneseName": "ゴルダック",
+    "englishName": "Golduck",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/55.jpg",
+    "englishImage": "images/sets/pc151/en/55.jpg"
+  },
+  {
+    "id": "pc151-56",
+    "japaneseName": "マンキー",
+    "englishName": "Mankey",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/56.jpg",
+    "englishImage": "images/sets/pc151/en/56.jpg"
+  },
+  {
+    "id": "pc151-57",
+    "japaneseName": "オコリザル",
+    "englishName": "Primeape",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/57.jpg",
+    "englishImage": "images/sets/pc151/en/57.jpg"
+  },
+  {
+    "id": "pc151-58",
+    "japaneseName": "ガーディ",
+    "englishName": "Growlithe",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/58.jpg",
+    "englishImage": "images/sets/pc151/en/58.jpg"
+  },
+  {
+    "id": "pc151-59",
+    "japaneseName": "ウインディ",
+    "englishName": "Arcanine",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/59.jpg",
+    "englishImage": "images/sets/pc151/en/59.jpg"
+  },
+  {
+    "id": "pc151-60",
+    "japaneseName": "ニョロモ",
+    "englishName": "Poliwag",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/60.jpg",
+    "englishImage": "images/sets/pc151/en/60.jpg"
+  },
+  {
+    "id": "pc151-61",
+    "japaneseName": "ニョロゾ",
+    "englishName": "Poliwhirl",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/61.jpg",
+    "englishImage": "images/sets/pc151/en/61.jpg"
+  },
+  {
+    "id": "pc151-62",
+    "japaneseName": "ニョロボン",
+    "englishName": "Poliwrath",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/62.jpg",
+    "englishImage": "images/sets/pc151/en/62.jpg"
+  },
+  {
+    "id": "pc151-63",
+    "japaneseName": "ケーシィ",
+    "englishName": "Abra",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/63.jpg",
+    "englishImage": "images/sets/pc151/en/63.jpg"
+  },
+  {
+    "id": "pc151-64",
+    "japaneseName": "ユンゲラー",
+    "englishName": "Kadabra",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/64.jpg",
+    "englishImage": "images/sets/pc151/en/64.jpg"
+  },
+  {
+    "id": "pc151-65",
+    "japaneseName": "フーディン",
+    "englishName": "Alakazam",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/65.jpg",
+    "englishImage": "images/sets/pc151/en/65.jpg"
+  },
+  {
+    "id": "pc151-66",
+    "japaneseName": "ワンリキー",
+    "englishName": "Machop",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/66.jpg",
+    "englishImage": "images/sets/pc151/en/66.jpg"
+  },
+  {
+    "id": "pc151-67",
+    "japaneseName": "ゴーリキー",
+    "englishName": "Machoke",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/67.jpg",
+    "englishImage": "images/sets/pc151/en/67.jpg"
+  },
+  {
+    "id": "pc151-68",
+    "japaneseName": "カイリキー",
+    "englishName": "Machamp",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/68.jpg",
+    "englishImage": "images/sets/pc151/en/68.jpg"
+  },
+  {
+    "id": "pc151-69",
+    "japaneseName": "マダツボミ",
+    "englishName": "Bellsprout",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/69.jpg",
+    "englishImage": "images/sets/pc151/en/69.jpg"
+  },
+  {
+    "id": "pc151-70",
+    "japaneseName": "ウツドン",
+    "englishName": "Weepinbell",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/70.jpg",
+    "englishImage": "images/sets/pc151/en/70.jpg"
+  },
+  {
+    "id": "pc151-71",
+    "japaneseName": "ウツボット",
+    "englishName": "Victreebel",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/71.jpg",
+    "englishImage": "images/sets/pc151/en/71.jpg"
+  },
+  {
+    "id": "pc151-72",
+    "japaneseName": "メノクラゲ",
+    "englishName": "Tentacool",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/72.jpg",
+    "englishImage": "images/sets/pc151/en/72.jpg"
+  },
+  {
+    "id": "pc151-73",
+    "japaneseName": "ドククラゲ",
+    "englishName": "Tentacruel",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/73.jpg",
+    "englishImage": "images/sets/pc151/en/73.jpg"
+  },
+  {
+    "id": "pc151-74",
+    "japaneseName": "イシツブテ",
+    "englishName": "Geodude",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/74.jpg",
+    "englishImage": "images/sets/pc151/en/74.jpg"
+  },
+  {
+    "id": "pc151-75",
+    "japaneseName": "ゴローン",
+    "englishName": "Graveler",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/75.jpg",
+    "englishImage": "images/sets/pc151/en/75.jpg"
+  },
+  {
+    "id": "pc151-76",
+    "japaneseName": "ゴローニャ",
+    "englishName": "Golem",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/76.jpg",
+    "englishImage": "images/sets/pc151/en/76.jpg"
+  },
+  {
+    "id": "pc151-77",
+    "japaneseName": "ポニータ",
+    "englishName": "Ponyta",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/77.jpg",
+    "englishImage": "images/sets/pc151/en/77.jpg"
+  },
+  {
+    "id": "pc151-78",
+    "japaneseName": "ギャロップ",
+    "englishName": "Rapidash",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/78.jpg",
+    "englishImage": "images/sets/pc151/en/78.jpg"
+  },
+  {
+    "id": "pc151-79",
+    "japaneseName": "ヤドン",
+    "englishName": "Slowpoke",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/79.jpg",
+    "englishImage": "images/sets/pc151/en/79.jpg"
+  },
+  {
+    "id": "pc151-80",
+    "japaneseName": "ヤドラン",
+    "englishName": "Slowbro",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/80.jpg",
+    "englishImage": "images/sets/pc151/en/80.jpg"
+  },
+  {
+    "id": "pc151-81",
+    "japaneseName": "コイル",
+    "englishName": "Magnemite",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/81.jpg",
+    "englishImage": "images/sets/pc151/en/81.jpg"
+  },
+  {
+    "id": "pc151-82",
+    "japaneseName": "レアコイル",
+    "englishName": "Magneton",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/82.jpg",
+    "englishImage": "images/sets/pc151/en/82.jpg"
+  },
+  {
+    "id": "pc151-83",
+    "japaneseName": "カモネギ",
+    "englishName": "Farfetch’d",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/83.jpg",
+    "englishImage": "images/sets/pc151/en/83.jpg"
+  },
+  {
+    "id": "pc151-84",
+    "japaneseName": "ドードー",
+    "englishName": "Doduo",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/84.jpg",
+    "englishImage": "images/sets/pc151/en/84.jpg"
+  },
+  {
+    "id": "pc151-85",
+    "japaneseName": "ドードリオ",
+    "englishName": "Dodrio",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/85.jpg",
+    "englishImage": "images/sets/pc151/en/85.jpg"
+  },
+  {
+    "id": "pc151-86",
+    "japaneseName": "パウワウ",
+    "englishName": "Seel",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/86.jpg",
+    "englishImage": "images/sets/pc151/en/86.jpg"
+  },
+  {
+    "id": "pc151-87",
+    "japaneseName": "ジュゴン",
+    "englishName": "Dewgong",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/87.jpg",
+    "englishImage": "images/sets/pc151/en/87.jpg"
+  },
+  {
+    "id": "pc151-88",
+    "japaneseName": "ベトベター",
+    "englishName": "Grimer",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/88.jpg",
+    "englishImage": "images/sets/pc151/en/88.jpg"
+  },
+  {
+    "id": "pc151-89",
+    "japaneseName": "ベトベトン",
+    "englishName": "Muk",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/89.jpg",
+    "englishImage": "images/sets/pc151/en/89.jpg"
+  },
+  {
+    "id": "pc151-90",
+    "japaneseName": "シェルダー",
+    "englishName": "Shellder",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/90.jpg",
+    "englishImage": "images/sets/pc151/en/90.jpg"
+  },
+  {
+    "id": "pc151-91",
+    "japaneseName": "パルシェン",
+    "englishName": "Cloyster",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/91.jpg",
+    "englishImage": "images/sets/pc151/en/91.jpg"
+  },
+  {
+    "id": "pc151-92",
+    "japaneseName": "ゴース",
+    "englishName": "Gastly",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/92.jpg",
+    "englishImage": "images/sets/pc151/en/92.jpg"
+  },
+  {
+    "id": "pc151-93",
+    "japaneseName": "ゴースト",
+    "englishName": "Haunter",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/93.jpg",
+    "englishImage": "images/sets/pc151/en/93.jpg"
+  },
+  {
+    "id": "pc151-94",
+    "japaneseName": "ゲンガー",
+    "englishName": "Gengar",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/94.jpg",
+    "englishImage": "images/sets/pc151/en/94.jpg"
+  },
+  {
+    "id": "pc151-95",
+    "japaneseName": "イワーク",
+    "englishName": "Onix",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/95.jpg",
+    "englishImage": "images/sets/pc151/en/95.jpg"
+  },
+  {
+    "id": "pc151-96",
+    "japaneseName": "スリープ",
+    "englishName": "Drowzee",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/96.jpg",
+    "englishImage": "images/sets/pc151/en/96.jpg"
+  },
+  {
+    "id": "pc151-97",
+    "japaneseName": "スリーパー",
+    "englishName": "Hypno",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/97.jpg",
+    "englishImage": "images/sets/pc151/en/97.jpg"
+  },
+  {
+    "id": "pc151-98",
+    "japaneseName": "クラブ",
+    "englishName": "Krabby",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/98.jpg",
+    "englishImage": "images/sets/pc151/en/98.jpg"
+  },
+  {
+    "id": "pc151-99",
+    "japaneseName": "キングラー",
+    "englishName": "Kingler",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/99.jpg",
+    "englishImage": "images/sets/pc151/en/99.jpg"
+  },
+  {
+    "id": "pc151-100",
+    "japaneseName": "ビリリダマ",
+    "englishName": "Voltorb",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/100.jpg",
+    "englishImage": "images/sets/pc151/en/100.jpg"
+  },
+  {
+    "id": "pc151-101",
+    "japaneseName": "マルマイン",
+    "englishName": "Electrode",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/101.jpg",
+    "englishImage": "images/sets/pc151/en/101.jpg"
+  },
+  {
+    "id": "pc151-102",
+    "japaneseName": "タマタマ",
+    "englishName": "Exeggcute",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/102.jpg",
+    "englishImage": "images/sets/pc151/en/102.jpg"
+  },
+  {
+    "id": "pc151-103",
+    "japaneseName": "ナッシー",
+    "englishName": "Exeggutor",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/103.jpg",
+    "englishImage": "images/sets/pc151/en/103.jpg"
+  },
+  {
+    "id": "pc151-104",
+    "japaneseName": "カラカラ",
+    "englishName": "Cubone",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/104.jpg",
+    "englishImage": "images/sets/pc151/en/104.jpg"
+  },
+  {
+    "id": "pc151-105",
+    "japaneseName": "ガラガラ",
+    "englishName": "Marowak",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/105.jpg",
+    "englishImage": "images/sets/pc151/en/105.jpg"
+  },
+  {
+    "id": "pc151-106",
+    "japaneseName": "サワムラー",
+    "englishName": "Hitmonlee",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/106.jpg",
+    "englishImage": "images/sets/pc151/en/106.jpg"
+  },
+  {
+    "id": "pc151-107",
+    "japaneseName": "エビワラー",
+    "englishName": "Hitmonchan",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/107.jpg",
+    "englishImage": "images/sets/pc151/en/107.jpg"
+  },
+  {
+    "id": "pc151-108",
+    "japaneseName": "ベロリンガ",
+    "englishName": "Lickitung",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/108.jpg",
+    "englishImage": "images/sets/pc151/en/108.jpg"
+  },
+  {
+    "id": "pc151-109",
+    "japaneseName": "ドガース",
+    "englishName": "Koffing",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/109.jpg",
+    "englishImage": "images/sets/pc151/en/109.jpg"
+  },
+  {
+    "id": "pc151-110",
+    "japaneseName": "マタドガス",
+    "englishName": "Weezing",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/110.jpg",
+    "englishImage": "images/sets/pc151/en/110.jpg"
+  },
+  {
+    "id": "pc151-111",
+    "japaneseName": "サイホーン",
+    "englishName": "Rhyhorn",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/111.jpg",
+    "englishImage": "images/sets/pc151/en/111.jpg"
+  },
+  {
+    "id": "pc151-112",
+    "japaneseName": "サイドン",
+    "englishName": "Rhydon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/112.jpg",
+    "englishImage": "images/sets/pc151/en/112.jpg"
+  },
+  {
+    "id": "pc151-113",
+    "japaneseName": "ラッキー",
+    "englishName": "Chansey",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/113.jpg",
+    "englishImage": "images/sets/pc151/en/113.jpg"
+  },
+  {
+    "id": "pc151-114",
+    "japaneseName": "モンジャラ",
+    "englishName": "Tangela",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/114.jpg",
+    "englishImage": "images/sets/pc151/en/114.jpg"
+  },
+  {
+    "id": "pc151-115",
+    "japaneseName": "ガルーラ",
+    "englishName": "Kangaskhan",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/115.jpg",
+    "englishImage": "images/sets/pc151/en/115.jpg"
+  },
+  {
+    "id": "pc151-116",
+    "japaneseName": "タッツー",
+    "englishName": "Horsea",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/116.jpg",
+    "englishImage": "images/sets/pc151/en/116.jpg"
+  },
+  {
+    "id": "pc151-117",
+    "japaneseName": "シードラ",
+    "englishName": "Seadra",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/117.jpg",
+    "englishImage": "images/sets/pc151/en/117.jpg"
+  },
+  {
+    "id": "pc151-118",
+    "japaneseName": "トサキント",
+    "englishName": "Goldeen",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/118.jpg",
+    "englishImage": "images/sets/pc151/en/118.jpg"
+  },
+  {
+    "id": "pc151-119",
+    "japaneseName": "アズマオウ",
+    "englishName": "Seaking",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/119.jpg",
+    "englishImage": "images/sets/pc151/en/119.jpg"
+  },
+  {
+    "id": "pc151-120",
+    "japaneseName": "ヒトデマン",
+    "englishName": "Staryu",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/120.jpg",
+    "englishImage": "images/sets/pc151/en/120.jpg"
+  },
+  {
+    "id": "pc151-121",
+    "japaneseName": "スターミー",
+    "englishName": "Starmie",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/121.jpg",
+    "englishImage": "images/sets/pc151/en/121.jpg"
+  },
+  {
+    "id": "pc151-122",
+    "japaneseName": "バリヤード",
+    "englishName": "Mr. Mime",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/122.jpg",
+    "englishImage": "images/sets/pc151/en/122.jpg"
+  },
+  {
+    "id": "pc151-123",
+    "japaneseName": "ストライク",
+    "englishName": "Scyther",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/123.jpg",
+    "englishImage": "images/sets/pc151/en/123.jpg"
+  },
+  {
+    "id": "pc151-124",
+    "japaneseName": "ルージュラ",
+    "englishName": "Jynx",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/124.jpg",
+    "englishImage": "images/sets/pc151/en/124.jpg"
+  },
+  {
+    "id": "pc151-125",
+    "japaneseName": "エレブー",
+    "englishName": "Electabuzz",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/125.jpg",
+    "englishImage": "images/sets/pc151/en/125.jpg"
+  },
+  {
+    "id": "pc151-126",
+    "japaneseName": "ブーバー",
+    "englishName": "Magmar",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/126.jpg",
+    "englishImage": "images/sets/pc151/en/126.jpg"
+  },
+  {
+    "id": "pc151-127",
+    "japaneseName": "カイロス",
+    "englishName": "Pinsir",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/127.jpg",
+    "englishImage": "images/sets/pc151/en/127.jpg"
+  },
+  {
+    "id": "pc151-128",
+    "japaneseName": "ケンタロス",
+    "englishName": "Tauros",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/128.jpg",
+    "englishImage": "images/sets/pc151/en/128.jpg"
+  },
+  {
+    "id": "pc151-129",
+    "japaneseName": "コイキング",
+    "englishName": "Magikarp",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/129.jpg",
+    "englishImage": "images/sets/pc151/en/129.jpg"
+  },
+  {
+    "id": "pc151-130",
+    "japaneseName": "ギャラドス",
+    "englishName": "Gyarados",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/130.jpg",
+    "englishImage": "images/sets/pc151/en/130.jpg"
+  },
+  {
+    "id": "pc151-131",
+    "japaneseName": "ラプラス",
+    "englishName": "Lapras",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/131.jpg",
+    "englishImage": "images/sets/pc151/en/131.jpg"
+  },
+  {
+    "id": "pc151-132",
+    "japaneseName": "メタモン",
+    "englishName": "Ditto",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/132.jpg",
+    "englishImage": "images/sets/pc151/en/132.jpg"
+  },
+  {
+    "id": "pc151-133",
+    "japaneseName": "イーブイ",
+    "englishName": "Eevee",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/133.jpg",
+    "englishImage": "images/sets/pc151/en/133.jpg"
+  },
+  {
+    "id": "pc151-134",
+    "japaneseName": "シャワーズ",
+    "englishName": "Vaporeon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/134.jpg",
+    "englishImage": "images/sets/pc151/en/134.jpg"
+  },
+  {
+    "id": "pc151-135",
+    "japaneseName": "サンダース",
+    "englishName": "Jolteon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/135.jpg",
+    "englishImage": "images/sets/pc151/en/135.jpg"
+  },
+  {
+    "id": "pc151-136",
+    "japaneseName": "ブースター",
+    "englishName": "Flareon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/136.jpg",
+    "englishImage": "images/sets/pc151/en/136.jpg"
+  },
+  {
+    "id": "pc151-137",
+    "japaneseName": "ポリゴン",
+    "englishName": "Porygon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/137.jpg",
+    "englishImage": "images/sets/pc151/en/137.jpg"
+  },
+  {
+    "id": "pc151-138",
+    "japaneseName": "オムナイト",
+    "englishName": "Omanyte",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/138.jpg",
+    "englishImage": "images/sets/pc151/en/138.jpg"
+  },
+  {
+    "id": "pc151-139",
+    "japaneseName": "オムスター",
+    "englishName": "Omastar",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/139.jpg",
+    "englishImage": "images/sets/pc151/en/139.jpg"
+  },
+  {
+    "id": "pc151-140",
+    "japaneseName": "カブト",
+    "englishName": "Kabuto",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/140.jpg",
+    "englishImage": "images/sets/pc151/en/140.jpg"
+  },
+  {
+    "id": "pc151-141",
+    "japaneseName": "カブトプス",
+    "englishName": "Kabutops",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/141.jpg",
+    "englishImage": "images/sets/pc151/en/141.jpg"
+  },
+  {
+    "id": "pc151-142",
+    "japaneseName": "プテラ",
+    "englishName": "Aerodactyl",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/142.jpg",
+    "englishImage": "images/sets/pc151/en/142.jpg"
+  },
+  {
+    "id": "pc151-143",
+    "japaneseName": "カビゴン",
+    "englishName": "Snorlax",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/143.jpg",
+    "englishImage": "images/sets/pc151/en/143.jpg"
+  },
+  {
+    "id": "pc151-144",
+    "japaneseName": "フリーザー",
+    "englishName": "Articuno",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/144.jpg",
+    "englishImage": "images/sets/pc151/en/144.jpg"
+  },
+  {
+    "id": "pc151-145",
+    "japaneseName": "サンダー",
+    "englishName": "Zapdos",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/145.jpg",
+    "englishImage": "images/sets/pc151/en/145.jpg"
+  },
+  {
+    "id": "pc151-146",
+    "japaneseName": "ファイヤー",
+    "englishName": "Moltres",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/146.jpg",
+    "englishImage": "images/sets/pc151/en/146.jpg"
+  },
+  {
+    "id": "pc151-147",
+    "japaneseName": "ミニリュウ",
+    "englishName": "Dratini",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/147.jpg",
+    "englishImage": "images/sets/pc151/en/147.jpg"
+  },
+  {
+    "id": "pc151-148",
+    "japaneseName": "ハクリュー",
+    "englishName": "Dragonair",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/148.jpg",
+    "englishImage": "images/sets/pc151/en/148.jpg"
+  },
+  {
+    "id": "pc151-149",
+    "japaneseName": "カイリュー",
+    "englishName": "Dragonite",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/149.jpg",
+    "englishImage": "images/sets/pc151/en/149.jpg"
+  },
+  {
+    "id": "pc151-150",
+    "japaneseName": "ミュウツー",
+    "englishName": "Mewtwo",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/150.jpg",
+    "englishImage": "images/sets/pc151/en/150.jpg"
+  },
+  {
+    "id": "pc151-151",
+    "japaneseName": "ミュウ",
+    "englishName": "Mew",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/151.jpg",
+    "englishImage": "images/sets/pc151/en/151.jpg"
+  },
+  {
+    "id": "pc151-152",
+    "japaneseName": "エネルギーシール",
+    "englishName": "Energy Sticker",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/152.jpg",
+    "englishImage": "images/sets/pc151/en/152.jpg"
+  },
+  {
+    "id": "pc151-153",
+    "japaneseName": "スナッチアーム",
+    "englishName": "Grabber",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/153.jpg",
+    "englishImage": "images/sets/pc151/en/153.jpg"
+  },
+  {
+    "id": "pc151-154",
+    "japaneseName": "古びたかいの化石",
+    "englishName": "Antique Helix Fossil",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/154.jpg",
+    "englishImage": "images/sets/pc151/en/154.jpg"
+  },
+  {
+    "id": "pc151-155",
+    "japaneseName": "古びたこうらの化石",
+    "englishName": "Antique Dome Fossil",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/155.jpg",
+    "englishImage": "images/sets/pc151/en/155.jpg"
+  },
+  {
+    "id": "pc151-156",
+    "japaneseName": "古びたひみつのコハク",
+    "englishName": "Antique Old Amber",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/156.jpg",
+    "englishImage": "images/sets/pc151/en/156.jpg"
+  },
+  {
+    "id": "pc151-157",
+    "japaneseName": "安全ゴーグル",
+    "englishName": "Protective Goggles",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/157.jpg",
+    "englishImage": "images/sets/pc151/en/157.jpg"
+  },
+  {
+    "id": "pc151-158",
+    "japaneseName": "大きなふうせん",
+    "englishName": "Big Air Balloon",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/158.jpg",
+    "englishImage": "images/sets/pc151/en/158.jpg"
+  },
+  {
+    "id": "pc151-159",
+    "japaneseName": "ガチガチバンド",
+    "englishName": "Rigid Band",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/159.jpg",
+    "englishImage": "images/sets/pc151/en/159.jpg"
+  },
+  {
+    "id": "pc151-160",
+    "japaneseName": "たべのこし",
+    "englishName": "Leftovers",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/160.jpg",
+    "englishImage": "images/sets/pc151/en/160.jpg"
+  },
+  {
+    "id": "pc151-161",
+    "japaneseName": "エリカの招待",
+    "englishName": "Erika's Invitation",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/161.jpg",
+    "englishImage": "images/sets/pc151/en/161.jpg"
+  },
+  {
+    "id": "pc151-162",
+    "japaneseName": "サカキのカリスマ",
+    "englishName": "Giovanni's Charisma",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/162.jpg",
+    "englishImage": "images/sets/pc151/en/162.jpg"
+  },
+  {
+    "id": "pc151-163",
+    "japaneseName": "ナナミの手助け",
+    "englishName": "Daisy's Help",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/163.jpg",
+    "englishImage": "images/sets/pc151/en/163.jpg"
+  },
+  {
+    "id": "pc151-164",
+    "japaneseName": "マサキの転送",
+    "englishName": "Bill's Transfer",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/164.jpg",
+    "englishImage": "images/sets/pc151/en/164.jpg"
+  },
+  {
+    "id": "pc151-165",
+    "japaneseName": "サイクリングロード",
+    "englishName": "Cycling Road",
+    "japaneseSetName": "ポケモンカード151",
+    "japaneseSetReleaseDate": "6-16-2023",
+    "japaneseImage": "images/sets/pc151/jp/165.jpg",
+    "englishImage": "images/sets/pc151/en/165.jpg"
+  }
+]
