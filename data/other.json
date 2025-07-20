@@ -1,0 +1,1803 @@
+[
+    {
+        "id": "other-1",
+        "japaneseName": "カルボウ",
+        "englishName": "Charcadet",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/1.jpg",
+        "englishImage": "images/sets/other/en/1.jpg"
+    },
+    {
+        "id": "other-2",
+        "japaneseName": "ソウブレイズex",
+        "englishName": "Ceruledge ex",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/2.jpg",
+        "englishImage": "images/sets/other/en/2.jpg"
+    },
+    {
+        "id": "other-3",
+        "japaneseName": "パーフェクトミキサー",
+        "englishName": "Brilliant Blender",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/3.jpg",
+        "englishImage": "images/sets/other/en/3.jpg"
+    },
+    {
+        "id": "other-4",
+        "japaneseName": "プレシャスキャリー",
+        "englishName": "Precious Trolley",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/4.jpg",
+        "englishImage": "images/sets/other/en/4.jpg"
+    },
+    {
+        "id": "other-5",
+        "japaneseName": "マリィのチョロネコ",
+        "englishName": "Marnie's Purrloin",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/5.jpg",
+        "englishImage": "images/sets/other/en/5.jpg"
+    },
+    {
+        "id": "other-6",
+        "japaneseName": "マリィのレパルダス",
+        "englishName": "Marnie's Liepard",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/6.jpg",
+        "englishImage": "images/sets/other/en/6.jpg"
+    },
+    {
+        "id": "other-7",
+        "japaneseName": "マリィのズルッグ",
+        "englishName": "Marnie's Scraggy",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/7.jpg",
+        "englishImage": "images/sets/other/en/7.jpg"
+    },
+    {
+        "id": "other-8",
+        "japaneseName": "マリィのズルズキン",
+        "englishName": "Marnie's Scrafty",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/8.jpg",
+        "englishImage": "images/sets/other/en/8.jpg"
+    },
+    {
+        "id": "other-9",
+        "japaneseName": "マリィのモルペコ",
+        "englishName": "Marnie's Morpeko",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/9.jpg",
+        "englishImage": "images/sets/other/en/9.jpg"
+    },
+    {
+        "id": "other-10",
+        "japaneseName": "マリィのベロバー",
+        "englishName": "Marnie's Impidimp",
+        "japaneseSetName": "other",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/other/jp/10.jpg",
+        "englishImage": "images/sets/other/en/10.jpg"
+    },
+    {
+      "id": "other-11",
+      "japaneseName": "マリィのギモー",
+      "englishName": "Marnie's Morgrem",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/11.jpg",
+      "englishImage": "images/sets/other/en/11.jpg"
+  },
+  {
+      "id": "other-12",
+      "japaneseName": "マリィのオーロンゲex",
+      "englishName": "Marnie's Grimmsnarl ex",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/12.jpg",
+      "englishImage": "images/sets/other/en/12.jpg"
+  },
+  {
+      "id": "other-13",
+      "japaneseName": "スパイクタウンジム",
+      "englishName": "Spikemuth Gym",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/13.jpg",
+      "englishImage": "images/sets/other/en/13.jpg"
+  },
+  {
+      "id": "other-14",
+      "japaneseName": "ダイゴのヤジロン",
+      "englishName": "Steven's Baltoy",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/14.jpg",
+      "englishImage": "images/sets/other/en/14.jpg"
+  },
+  {
+      "id": "other-15",
+      "japaneseName": "ダイゴのネンドール",
+      "englishName": "Steven's Claydol",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/15.jpg",
+      "englishImage": "images/sets/other/en/15.jpg"
+  },
+  {
+      "id": "other-16",
+      "japaneseName": "ダイゴのメレシー",
+      "englishName": "Steven's Carbink",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/16.jpg",
+      "englishImage": "images/sets/other/en/16.jpg"
+  },
+  {
+      "id": "other-17",
+      "japaneseName": "ダイゴのエアームド",
+      "englishName": "Steven's Skarmory",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/17.jpg",
+      "englishImage": "images/sets/other/en/17.jpg"
+  },
+  {
+      "id": "other-18",
+      "japaneseName": "ダイゴのダンバル",
+      "englishName": "Steven's Beldum",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/18.jpg",
+      "englishImage": "images/sets/other/en/18.jpg"
+  },
+  {
+      "id": "other-19",
+      "japaneseName": "ダイゴのメタング",
+      "englishName": "Steven's Metang",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/19.jpg",
+      "englishImage": "images/sets/other/en/19.jpg"
+  },
+  {
+      "id": "other-20",
+      "japaneseName": "ダイゴのメタグロスex",
+      "englishName": "Steven's Metagross ex",
+      "japaneseSetName": "other",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/other/jp/20.jpg",
+      "englishImage": "images/sets/other/en/20.jpg"
+  },
+  {
+    "id": "other-21",
+    "japaneseName": "いしのどうくつ",
+    "englishName": "Granite Cave",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/21.jpg",
+    "englishImage": "images/sets/other/en/21.jpg"
+  },
+  {
+    "id": "other-22",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/22.jpg",
+    "englishImage": "images/sets/other/en/22.jpg"
+  },
+  {
+    "id": "other-23",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/23.jpg",
+    "englishImage": "images/sets/other/en/23.jpg"
+  },
+  {
+    "id": "other-24",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/24.jpg",
+    "englishImage": "images/sets/other/en/24.jpg"
+  },
+  {
+    "id": "other-25",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/25.jpg",
+    "englishImage": "images/sets/other/en/25.jpg"
+  },
+  {
+    "id": "other-26",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/26.jpg",
+    "englishImage": "images/sets/other/en/26.jpg"
+  },
+  {
+    "id": "other-27",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/27.jpg",
+    "englishImage": "images/sets/other/en/27.jpg"
+  },
+  {
+    "id": "other-28",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/28.jpg",
+    "englishImage": "images/sets/other/en/28.jpg"
+  },
+  {
+    "id": "other-29",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/29.jpg",
+    "englishImage": "images/sets/other/en/29.jpg"
+  },
+  {
+    "id": "other-30",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/30.jpg",
+    "englishImage": "images/sets/other/en/30.jpg"
+  },
+  {
+    "id": "other-31",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/31.jpg",
+    "englishImage": "images/sets/other/en/31.jpg"
+  },
+  {
+    "id": "other-32",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/32.jpg",
+    "englishImage": "images/sets/other/en/32.jpg"
+  },
+  {
+    "id": "other-33",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/33.jpg",
+    "englishImage": "images/sets/other/en/33.jpg"
+  },
+  {
+    "id": "other-34",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/34.jpg",
+    "englishImage": "images/sets/other/en/34.jpg"
+  },
+  {
+    "id": "other-35",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/35.jpg",
+    "englishImage": "images/sets/other/en/35.jpg"
+  },
+  {
+    "id": "other-36",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/36.jpg",
+    "englishImage": "images/sets/other/en/36.jpg"
+  },
+  {
+    "id": "other-37",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/37.jpg",
+    "englishImage": "images/sets/other/en/37.jpg"
+  },
+  {
+    "id": "other-38",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/38.jpg",
+    "englishImage": "images/sets/other/en/38.jpg"
+  },
+  {
+    "id": "other-39",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/39.jpg",
+    "englishImage": "images/sets/other/en/39.jpg"
+  },
+  {
+    "id": "other-40",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/40.jpg",
+    "englishImage": "images/sets/other/en/40.jpg"
+  },
+  {
+    "id": "other-41",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/41.jpg",
+    "englishImage": "images/sets/other/en/41.jpg"
+  },
+  {
+    "id": "other-42",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/42.jpg",
+    "englishImage": "images/sets/other/en/42.jpg"
+  },
+  {
+    "id": "other-43",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/43.jpg",
+    "englishImage": "images/sets/other/en/43.jpg"
+  },
+  {
+    "id": "other-44",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/44.jpg",
+    "englishImage": "images/sets/other/en/44.jpg"
+  },
+  {
+    "id": "other-45",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/45.jpg",
+    "englishImage": "images/sets/other/en/45.jpg"
+  },
+  {
+    "id": "other-46",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/46.jpg",
+    "englishImage": "images/sets/other/en/46.jpg"
+  },
+  {
+    "id": "other-47",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/47.jpg",
+    "englishImage": "images/sets/other/en/47.jpg"
+  },
+  {
+    "id": "other-48",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/48.jpg",
+    "englishImage": "images/sets/other/en/48.jpg"
+  },
+  {
+    "id": "other-49",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/49.jpg",
+    "englishImage": "images/sets/other/en/49.jpg"
+  },
+  {
+    "id": "other-50",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/50.jpg",
+    "englishImage": "images/sets/other/en/50.jpg"
+  },
+  {
+    "id": "other-51",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/51.jpg",
+    "englishImage": "images/sets/other/en/51.jpg"
+  },
+  {
+    "id": "other-52",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/52.jpg",
+    "englishImage": "images/sets/other/en/52.jpg"
+  },
+  {
+    "id": "other-53",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/53.jpg",
+    "englishImage": "images/sets/other/en/53.jpg"
+  },
+  {
+    "id": "other-54",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/54.jpg",
+    "englishImage": "images/sets/other/en/54.jpg"
+  },
+  {
+    "id": "other-55",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/55.jpg",
+    "englishImage": "images/sets/other/en/55.jpg"
+  },
+  {
+    "id": "other-56",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/56.jpg",
+    "englishImage": "images/sets/other/en/56.jpg"
+  },
+  {
+    "id": "other-57",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/57.jpg",
+    "englishImage": "images/sets/other/en/57.jpg"
+  },
+  {
+    "id": "other-58",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/58.jpg",
+    "englishImage": "images/sets/other/en/58.jpg"
+  },
+  {
+    "id": "other-59",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/59.jpg",
+    "englishImage": "images/sets/other/en/59.jpg"
+  },
+  {
+    "id": "other-60",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/60.jpg",
+    "englishImage": "images/sets/other/en/60.jpg"
+  },
+  {
+    "id": "other-61",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/61.jpg",
+    "englishImage": "images/sets/other/en/61.jpg"
+  },
+  {
+    "id": "other-62",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/62.jpg",
+    "englishImage": "images/sets/other/en/62.jpg"
+  },
+  {
+    "id": "other-63",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/63.jpg",
+    "englishImage": "images/sets/other/en/63.jpg"
+  },
+  {
+    "id": "other-64",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/64.jpg",
+    "englishImage": "images/sets/other/en/64.jpg"
+  },
+  {
+    "id": "other-65",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/65.jpg",
+    "englishImage": "images/sets/other/en/65.jpg"
+  },
+  {
+    "id": "other-66",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/66.jpg",
+    "englishImage": "images/sets/other/en/66.jpg"
+  },
+  {
+    "id": "other-67",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/67.jpg",
+    "englishImage": "images/sets/other/en/67.jpg"
+  },
+  {
+    "id": "other-68",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/68.jpg",
+    "englishImage": "images/sets/other/en/68.jpg"
+  },
+  {
+    "id": "other-69",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/69.jpg",
+    "englishImage": "images/sets/other/en/69.jpg"
+  },
+  {
+    "id": "other-70",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/70.jpg",
+    "englishImage": "images/sets/other/en/70.jpg"
+  },
+  {
+    "id": "other-71",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/71.jpg",
+    "englishImage": "images/sets/other/en/71.jpg"
+  },
+  {
+    "id": "other-72",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/72.jpg",
+    "englishImage": "images/sets/other/en/72.jpg"
+  },
+  {
+    "id": "other-73",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/73.jpg",
+    "englishImage": "images/sets/other/en/73.jpg"
+  },
+  {
+    "id": "other-74",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/74.jpg",
+    "englishImage": "images/sets/other/en/74.jpg"
+  },
+  {
+    "id": "other-75",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/75.jpg",
+    "englishImage": "images/sets/other/en/75.jpg"
+  },
+  {
+    "id": "other-76",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/76.jpg",
+    "englishImage": "images/sets/other/en/76.jpg"
+  },
+  {
+    "id": "other-77",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/77.jpg",
+    "englishImage": "images/sets/other/en/77.jpg"
+  },
+  {
+    "id": "other-78",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/78.jpg",
+    "englishImage": "images/sets/other/en/78.jpg"
+  },
+  {
+    "id": "other-79",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/79.jpg",
+    "englishImage": "images/sets/other/en/79.jpg"
+  },
+  {
+    "id": "other-80",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/80.jpg",
+    "englishImage": "images/sets/other/en/80.jpg"
+  },
+  {
+    "id": "other-81",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/81.jpg",
+    "englishImage": "images/sets/other/en/81.jpg"
+  },
+  {
+    "id": "other-82",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/82.jpg",
+    "englishImage": "images/sets/other/en/82.jpg"
+  },
+  {
+    "id": "other-83",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/83.jpg",
+    "englishImage": "images/sets/other/en/83.jpg"
+  },
+  {
+    "id": "other-84",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/84.jpg",
+    "englishImage": "images/sets/other/en/84.jpg"
+  },
+  {
+    "id": "other-85",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/85.jpg",
+    "englishImage": "images/sets/other/en/85.jpg"
+  },
+  {
+    "id": "other-86",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/86.jpg",
+    "englishImage": "images/sets/other/en/86.jpg"
+  },
+  {
+    "id": "other-87",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/87.jpg",
+    "englishImage": "images/sets/other/en/87.jpg"
+  },
+  {
+    "id": "other-88",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/88.jpg",
+    "englishImage": "images/sets/other/en/88.jpg"
+  },
+  {
+    "id": "other-89",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/89.jpg",
+    "englishImage": "images/sets/other/en/89.jpg"
+  },
+  {
+    "id": "other-90",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/90.jpg",
+    "englishImage": "images/sets/other/en/90.jpg"
+  },
+  {
+    "id": "other-91",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/91.jpg",
+    "englishImage": "images/sets/other/en/91.jpg"
+  },
+  {
+    "id": "other-92",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/92.jpg",
+    "englishImage": "images/sets/other/en/92.jpg"
+  },
+  {
+    "id": "other-93",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/93.jpg",
+    "englishImage": "images/sets/other/en/93.jpg"
+  },
+  {
+    "id": "other-94",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/94.jpg",
+    "englishImage": "images/sets/other/en/94.jpg"
+  },
+  {
+    "id": "other-95",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/95.jpg",
+    "englishImage": "images/sets/other/en/95.jpg"
+  },
+  {
+    "id": "other-96",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/96.jpg",
+    "englishImage": "images/sets/other/en/96.jpg"
+  },
+  {
+    "id": "other-97",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/97.jpg",
+    "englishImage": "images/sets/other/en/97.jpg"
+  },
+  {
+    "id": "other-98",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/98.jpg",
+    "englishImage": "images/sets/other/en/98.jpg"
+  },
+  {
+    "id": "other-99",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/99.jpg",
+    "englishImage": "images/sets/other/en/99.jpg"
+  },
+  {
+    "id": "other-100",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/100.jpg",
+    "englishImage": "images/sets/other/en/100.jpg"
+  },
+  {
+    "id": "other-101",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/101.jpg",
+    "englishImage": "images/sets/other/en/101.jpg"
+  },
+  {
+    "id": "other-102",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/102.jpg",
+    "englishImage": "images/sets/other/en/102.jpg"
+  },
+  {
+    "id": "other-103",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/103.jpg",
+    "englishImage": "images/sets/other/en/103.jpg"
+  },
+  {
+    "id": "other-104",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/104.jpg",
+    "englishImage": "images/sets/other/en/104.jpg"
+  },
+  {
+    "id": "other-105",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/105.jpg",
+    "englishImage": "images/sets/other/en/105.jpg"
+  },
+  {
+    "id": "other-106",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/106.jpg",
+    "englishImage": "images/sets/other/en/106.jpg"
+  },
+  {
+    "id": "other-107",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/107.jpg",
+    "englishImage": "images/sets/other/en/107.jpg"
+  },
+  {
+    "id": "other-108",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/108.jpg",
+    "englishImage": "images/sets/other/en/108.jpg"
+  },
+  {
+    "id": "other-109",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/109.jpg",
+    "englishImage": "images/sets/other/en/109.jpg"
+  },
+  {
+    "id": "other-110",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/110.jpg",
+    "englishImage": "images/sets/other/en/110.jpg"
+  },
+  {
+    "id": "other-111",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/111.jpg",
+    "englishImage": "images/sets/other/en/111.jpg"
+  },
+  {
+    "id": "other-112",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/112.jpg",
+    "englishImage": "images/sets/other/en/112.jpg"
+  },
+  {
+    "id": "other-113",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/113.jpg",
+    "englishImage": "images/sets/other/en/113.jpg"
+  },
+  {
+    "id": "other-114",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/114.jpg",
+    "englishImage": "images/sets/other/en/114.jpg"
+  },
+  {
+    "id": "other-115",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/115.jpg",
+    "englishImage": "images/sets/other/en/115.jpg"
+  },
+  {
+    "id": "other-116",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/116.jpg",
+    "englishImage": "images/sets/other/en/116.jpg"
+  },
+  {
+    "id": "other-117",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/117.jpg",
+    "englishImage": "images/sets/other/en/117.jpg"
+  },
+  {
+    "id": "other-118",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/118.jpg",
+    "englishImage": "images/sets/other/en/118.jpg"
+  },
+  {
+    "id": "other-119",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/119.jpg",
+    "englishImage": "images/sets/other/en/119.jpg"
+  },
+  {
+    "id": "other-120",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/120.jpg",
+    "englishImage": "images/sets/other/en/120.jpg"
+  },
+  {
+    "id": "other-121",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/121.jpg",
+    "englishImage": "images/sets/other/en/121.jpg"
+  },
+  {
+    "id": "other-122",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/122.jpg",
+    "englishImage": "images/sets/other/en/122.jpg"
+  },
+  {
+    "id": "other-123",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/123.jpg",
+    "englishImage": "images/sets/other/en/123.jpg"
+  },
+  {
+    "id": "other-124",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/124.jpg",
+    "englishImage": "images/sets/other/en/124.jpg"
+  },
+  {
+    "id": "other-125",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/125.jpg",
+    "englishImage": "images/sets/other/en/125.jpg"
+  },
+  {
+    "id": "other-126",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/126.jpg",
+    "englishImage": "images/sets/other/en/126.jpg"
+  },
+  {
+    "id": "other-127",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/127.jpg",
+    "englishImage": "images/sets/other/en/127.jpg"
+  },
+  {
+    "id": "other-128",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/128.jpg",
+    "englishImage": "images/sets/other/en/128.jpg"
+  },
+  {
+    "id": "other-129",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/129.jpg",
+    "englishImage": "images/sets/other/en/129.jpg"
+  },
+  {
+    "id": "other-130",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/130.jpg",
+    "englishImage": "images/sets/other/en/130.jpg"
+  },
+  {
+    "id": "other-131",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/131.jpg",
+    "englishImage": "images/sets/other/en/131.jpg"
+  },
+  {
+    "id": "other-132",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/132.jpg",
+    "englishImage": "images/sets/other/en/132.jpg"
+  },
+  {
+    "id": "other-133",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/133.jpg",
+    "englishImage": "images/sets/other/en/133.jpg"
+  },
+  {
+    "id": "other-134",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/134.jpg",
+    "englishImage": "images/sets/other/en/134.jpg"
+  },
+  {
+    "id": "other-135",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/135.jpg",
+    "englishImage": "images/sets/other/en/135.jpg"
+  },
+  {
+    "id": "other-136",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/136.jpg",
+    "englishImage": "images/sets/other/en/136.jpg"
+  },
+  {
+    "id": "other-137",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/137.jpg",
+    "englishImage": "images/sets/other/en/137.jpg"
+  },
+  {
+    "id": "other-138",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/138.jpg",
+    "englishImage": "images/sets/other/en/138.jpg"
+  },
+  {
+    "id": "other-139",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/139.jpg",
+    "englishImage": "images/sets/other/en/139.jpg"
+  },
+  {
+    "id": "other-140",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/140.jpg",
+    "englishImage": "images/sets/other/en/140.jpg"
+  },
+  {
+    "id": "other-141",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/141.jpg",
+    "englishImage": "images/sets/other/en/141.jpg"
+  },
+  {
+    "id": "other-142",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/142.jpg",
+    "englishImage": "images/sets/other/en/142.jpg"
+  },
+  {
+    "id": "other-143",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/143.jpg",
+    "englishImage": "images/sets/other/en/143.jpg"
+  },
+  {
+    "id": "other-144",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/144.jpg",
+    "englishImage": "images/sets/other/en/144.jpg"
+  },
+  {
+    "id": "other-145",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/145.jpg",
+    "englishImage": "images/sets/other/en/145.jpg"
+  },
+  {
+    "id": "other-146",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/146.jpg",
+    "englishImage": "images/sets/other/en/146.jpg"
+  },
+  {
+    "id": "other-147",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/147.jpg",
+    "englishImage": "images/sets/other/en/147.jpg"
+  },
+  {
+    "id": "other-148",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/148.jpg",
+    "englishImage": "images/sets/other/en/148.jpg"
+  },
+  {
+    "id": "other-149",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/149.jpg",
+    "englishImage": "images/sets/other/en/149.jpg"
+  },
+  {
+    "id": "other-150",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/150.jpg",
+    "englishImage": "images/sets/other/en/150.jpg"
+  },
+  {
+    "id": "other-151",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/151.jpg",
+    "englishImage": "images/sets/other/en/151.jpg"
+  },
+  {
+    "id": "other-152",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/152.jpg",
+    "englishImage": "images/sets/other/en/152.jpg"
+  },
+  {
+    "id": "other-153",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/153.jpg",
+    "englishImage": "images/sets/other/en/153.jpg"
+  },
+  {
+    "id": "other-154",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/154.jpg",
+    "englishImage": "images/sets/other/en/154.jpg"
+  },
+  {
+    "id": "other-155",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/155.jpg",
+    "englishImage": "images/sets/other/en/155.jpg"
+  },
+  {
+    "id": "other-156",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/156.jpg",
+    "englishImage": "images/sets/other/en/156.jpg"
+  },
+  {
+    "id": "other-157",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/157.jpg",
+    "englishImage": "images/sets/other/en/157.jpg"
+  },
+  {
+    "id": "other-158",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/158.jpg",
+    "englishImage": "images/sets/other/en/158.jpg"
+  },
+  {
+    "id": "other-159",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/159.jpg",
+    "englishImage": "images/sets/other/en/159.jpg"
+  },
+  {
+    "id": "other-160",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/160.jpg",
+    "englishImage": "images/sets/other/en/160.jpg"
+  },
+  {
+    "id": "other-161",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/161.jpg",
+    "englishImage": "images/sets/other/en/161.jpg"
+  },
+  {
+    "id": "other-2",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/162.jpg",
+    "englishImage": "images/sets/other/en/162.jpg"
+  },
+  {
+    "id": "other-163",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/163.jpg",
+    "englishImage": "images/sets/other/en/163.jpg"
+  },
+  {
+    "id": "other-164",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/164.jpg",
+    "englishImage": "images/sets/other/en/164.jpg"
+  },
+  {
+    "id": "other-165",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/165.jpg",
+    "englishImage": "images/sets/other/en/165.jpg"
+  },
+  {
+    "id": "other-166",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/166.jpg",
+    "englishImage": "images/sets/other/en/166.jpg"
+  },
+  {
+    "id": "other-167",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/167.jpg",
+    "englishImage": "images/sets/other/en/167.jpg"
+  },
+  {
+    "id": "other-168",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/168.jpg",
+    "englishImage": "images/sets/other/en/168.jpg"
+  },
+  {
+    "id": "other-169",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/169.jpg",
+    "englishImage": "images/sets/other/en/169.jpg"
+  },
+  {
+    "id": "other-170",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/170.jpg",
+    "englishImage": "images/sets/other/en/170.jpg"
+  },
+  {
+    "id": "other-171",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/171.jpg",
+    "englishImage": "images/sets/other/en/171.jpg"
+  },
+  {
+    "id": "other-172",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/172.jpg",
+    "englishImage": "images/sets/other/en/172.jpg"
+  },
+  {
+    "id": "other-173",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/173.jpg",
+    "englishImage": "images/sets/other/en/173.jpg"
+  },
+  {
+    "id": "other-174",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/174.jpg",
+    "englishImage": "images/sets/other/en/174.jpg"
+  },
+  {
+    "id": "other-175",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/175.jpg",
+    "englishImage": "images/sets/other/en/175.jpg"
+  },
+  {
+    "id": "other-176",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/176.jpg",
+    "englishImage": "images/sets/other/en/176.jpg"
+  },
+  {
+    "id": "other-177",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/177.jpg",
+    "englishImage": "images/sets/other/en/177.jpg"
+  },
+  {
+    "id": "other-178",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/178.jpg",
+    "englishImage": "images/sets/other/en/178.jpg"
+  },
+  {
+    "id": "other-179",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/179.jpg",
+    "englishImage": "images/sets/other/en/179.jpg"
+  },
+  {
+    "id": "other-180",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/180.jpg",
+    "englishImage": "images/sets/other/en/180.jpg"
+  },
+  {
+    "id": "other-181",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/181.jpg",
+    "englishImage": "images/sets/other/en/181.jpg"
+  },
+  {
+    "id": "other-182",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/182.jpg",
+    "englishImage": "images/sets/other/en/182.jpg"
+  },
+  {
+    "id": "other-183",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/183.jpg",
+    "englishImage": "images/sets/other/en/183.jpg"
+  },
+  {
+    "id": "other-184",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/184.jpg",
+    "englishImage": "images/sets/other/en/184.jpg"
+  },
+  {
+    "id": "other-185",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/185.jpg",
+    "englishImage": "images/sets/other/en/185.jpg"
+  },
+  {
+    "id": "other-186",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/186.jpg",
+    "englishImage": "images/sets/other/en/186.jpg"
+  },
+  {
+    "id": "other-187",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/187.jpg",
+    "englishImage": "images/sets/other/en/187.jpg"
+  },
+  {
+    "id": "other-188",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/188.jpg",
+    "englishImage": "images/sets/other/en/188.jpg"
+  },
+  {
+    "id": "other-189",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/189.jpg",
+    "englishImage": "images/sets/other/en/189.jpg"
+  },
+  {
+    "id": "other-190",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/190.jpg",
+    "englishImage": "images/sets/other/en/190.jpg"
+  },
+  {
+    "id": "other-191",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/191.jpg",
+    "englishImage": "images/sets/other/en/191.jpg"
+  },
+  {
+    "id": "other-192",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/192.jpg",
+    "englishImage": "images/sets/other/en/192.jpg"
+  },
+  {
+    "id": "other-193",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/193.jpg",
+    "englishImage": "images/sets/other/en/193.jpg"
+  },
+  {
+    "id": "other-194",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/194.jpg",
+    "englishImage": "images/sets/other/en/194.jpg"
+  },
+  {
+    "id": "other-195",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/195.jpg",
+    "englishImage": "images/sets/other/en/195.jpg"
+  },
+  {
+    "id": "other-196",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/196.jpg",
+    "englishImage": "images/sets/other/en/196.jpg"
+  },
+  {
+    "id": "other-197",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/197.jpg",
+    "englishImage": "images/sets/other/en/197.jpg"
+  },
+  {
+    "id": "other-198",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/198.jpg",
+    "englishImage": "images/sets/other/en/198.jpg"
+  },
+  {
+    "id": "other-199",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/199.jpg",
+    "englishImage": "images/sets/other/en/199.jpg"
+  },
+  {
+    "id": "other-200",
+    "japaneseName": "",
+    "englishName": "",
+    "japaneseSetName": "other",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/other/jp/200.jpg",
+    "englishImage": "images/sets/other/en/200.jpg"
+  }
+  ]
+  
