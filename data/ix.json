@@ -1,0 +1,723 @@
+[
+    {
+        "id": "ix-1",
+        "japaneseName": "ナゾノクサ",
+        "englishName": "Oddish",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/1.jpg",
+        "englishImage": "images/sets/ix/en/1.jpg"
+    },
+    {
+        "id": "ix-2",
+        "japaneseName": "クサイハナ",
+        "englishName": "Gloom",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/2.jpg",
+        "englishImage": "images/sets/ix/en/2.jpg"
+    },
+    {
+        "id": "ix-3",
+        "japaneseName": "ラフレシア",
+        "englishName": "Vileplume",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/3.jpg",
+        "englishImage": "images/sets/ix/en/3.jpg"
+    },
+    {
+        "id": "ix-4",
+        "japaneseName": "メガヘラクロスex",
+        "englishName": "Mega Heracross ex",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/4.jpg",
+        "englishImage": "images/sets/ix/en/4.jpg"
+    },
+    {
+        "id": "ix-5",
+        "japaneseName": "ハスボー",
+        "englishName": "Lotad",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/5.jpg",
+        "englishImage": "images/sets/ix/en/5.jpg"
+    },
+    {
+        "id": "ix-6",
+        "japaneseName": "ハスブレロ",
+        "englishName": "Lombre",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/6.jpg",
+        "englishImage": "images/sets/ix/en/6.jpg"
+    },
+    {
+        "id": "ix-7",
+        "japaneseName": "ルンパッパ",
+        "englishName": "Ludicolo",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/7.jpg",
+        "englishImage": "images/sets/ix/en/7.jpg"
+    },
+    {
+        "id": "ix-8",
+        "japaneseName": "ゲノセクト",
+        "englishName": "Genesect",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/8.jpg",
+        "englishImage": "images/sets/ix/en/8.jpg"
+    },
+    {
+        "id": "ix-9",
+        "japaneseName": "マメバッタ",
+        "englishName": "Nymble",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/9.jpg",
+        "englishImage": "images/sets/ix/en/9.jpg"
+    },
+    {
+        "id": "ix-10",
+        "japaneseName": "エクスレッグ",
+        "englishName": "Lokix",
+        "japaneseSetName": "インフェルノX",
+        "japaneseSetReleaseDate": "12-2-2024",
+        "japaneseImage": "images/sets/ix/jp/10.jpg",
+        "englishImage": "images/sets/ix/en/10.jpg"
+    },
+    {
+      "id": "ix-11",
+      "japaneseName": "ヒトカゲ",
+      "englishName": "Charmander",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/11.jpg",
+      "englishImage": "images/sets/ix/en/11.jpg"
+  },
+  {
+      "id": "ix-12",
+      "japaneseName": "リザード",
+      "englishName": "Charmeleon",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/12.jpg",
+      "englishImage": "images/sets/ix/en/12.jpg"
+  },
+  {
+      "id": "ix-13",
+      "japaneseName": "メガリザードンXex",
+      "englishName": "Mega Charizard X ex",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/13.jpg",
+      "englishImage": "images/sets/ix/en/13.jpg"
+  },
+  {
+      "id": "ix-14",
+      "japaneseName": "ファイヤー",
+      "englishName": "Moltres",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/14.jpg",
+      "englishImage": "images/sets/ix/en/14.jpg"
+  },
+  {
+      "id": "ix-15",
+      "japaneseName": "ダルマッカ",
+      "englishName": "Darumaka",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/15.jpg",
+      "englishImage": "images/sets/ix/en/15.jpg"
+  },
+  {
+      "id": "ix-16",
+      "japaneseName": "ヒヒダルマ",
+      "englishName": "Darmanitan",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/16.jpg",
+      "englishImage": "images/sets/ix/en/16.jpg"
+  },
+  {
+      "id": "ix-17",
+      "japaneseName": "レシラム",
+      "englishName": "Reshiram",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/17.jpg",
+      "englishImage": "images/sets/ix/en/17.jpg"
+  },
+  {
+      "id": "ix-18",
+      "japaneseName": "オドリドリex",
+      "englishName": "Oricorio ex",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/18.jpg",
+      "englishImage": "images/sets/ix/en/18.jpg"
+  },
+  {
+      "id": "ix-19",
+      "japaneseName": "カルボウ",
+      "englishName": "Charcadet",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/19.jpg",
+      "englishImage": "images/sets/ix/en/19.jpg"
+  },
+  {
+      "id": "ix-20",
+      "japaneseName": "ソウブレイズ",
+      "englishName": "Ceruledge",
+      "japaneseSetName": "インフェルノX",
+      "japaneseSetReleaseDate": "12-2-2024",
+      "japaneseImage": "images/sets/ix/jp/20.jpg",
+      "englishImage": "images/sets/ix/en/20.jpg"
+  },
+  {
+    "id": "ix-21",
+    "japaneseName": "パウワウ",
+    "englishName": "Seel",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/21.jpg",
+    "englishImage": "images/sets/ix/en/21.jpg"
+  },
+  {
+    "id": "ix-22",
+    "japaneseName": "ジュゴン",
+    "englishName": "Dewgong",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/22.jpg",
+    "englishImage": "images/sets/ix/en/22.jpg"
+  },
+  {
+    "id": "ix-23",
+    "japaneseName": "ウリムー",
+    "englishName": "Swinub",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/23.jpg",
+    "englishImage": "images/sets/ix/en/23.jpg"
+  },
+  {
+    "id": "ix-24",
+    "japaneseName": "イノムー",
+    "englishName": "Piloswine",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/24.jpg",
+    "englishImage": "images/sets/ix/en/24.jpg"
+  },
+  {
+    "id": "ix-25",
+    "japaneseName": "マンムー",
+    "englishName": "Mamoswine",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/25.jpg",
+    "englishImage": "images/sets/ix/en/25.jpg"
+  },
+  {
+    "id": "ix-26",
+    "japaneseName": "スイクン",
+    "englishName": "Suicune",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/26.jpg",
+    "englishImage": "images/sets/ix/en/26.jpg"
+  },
+  {
+    "id": "ix-27",
+    "japaneseName": "ポッチャマ",
+    "englishName": "Piplup",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/27.jpg",
+    "englishImage": "images/sets/ix/en/27.jpg"
+  },
+  {
+    "id": "ix-28",
+    "japaneseName": "ポッタイシ",
+    "englishName": "Prinplup",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/28.jpg",
+    "englishImage": "images/sets/ix/en/28.jpg"
+  },
+  {
+    "id": "ix-29",
+    "japaneseName": "ロトムex",
+    "englishName": "Rotom ex",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/29.jpg",
+    "englishImage": "images/sets/ix/en/29.jpg"
+  },
+  {
+    "id": "ix-30",
+    "japaneseName": "ワンパチ",
+    "englishName": "Yamper",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/30.jpg",
+    "englishImage": "images/sets/ix/en/30.jpg"
+  },
+  {
+    "id": "ix-31",
+    "japaneseName": "パルスワン",
+    "englishName": "Boltund",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/31.jpg",
+    "englishImage": "images/sets/ix/en/31.jpg"
+  },
+  {
+    "id": "ix-32",
+    "japaneseName": "パモ",
+    "englishName": "Pawmi",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/32.jpg",
+    "englishImage": "images/sets/ix/en/32.jpg"
+  },
+  {
+    "id": "ix-33",
+    "japaneseName": "パモット",
+    "englishName": "Pawmo",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/33.jpg",
+    "englishImage": "images/sets/ix/en/33.jpg"
+  },
+  {
+    "id": "ix-34",
+    "japaneseName": "パーモット",
+    "englishName": "Pawmot",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/34.jpg",
+    "englishImage": "images/sets/ix/en/34.jpg"
+  },
+  {
+    "id": "ix-35",
+    "japaneseName": "ムウマ",
+    "englishName": "Misdreavus",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/35.jpg",
+    "englishImage": "images/sets/ix/en/35.jpg"
+  },
+  {
+    "id": "ix-36",
+    "japaneseName": "ムウマージex",
+    "englishName": "Mismagius ex",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/36.jpg",
+    "englishImage": "images/sets/ix/en/36.jpg"
+  },
+  {
+    "id": "ix-37",
+    "japaneseName": "モンメン",
+    "englishName": "Cottonee",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/37.jpg",
+    "englishImage": "images/sets/ix/en/37.jpg"
+  },
+  {
+    "id": "ix-38",
+    "japaneseName": "エルフーン",
+    "englishName": "Whimsicott",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/38.jpg",
+    "englishImage": "images/sets/ix/en/38.jpg"
+  },
+  {
+    "id": "ix-39",
+    "japaneseName": "ザシアン",
+    "englishName": "Zacian",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/39.jpg",
+    "englishImage": "images/sets/ix/en/39.jpg"
+  },
+  {
+    "id": "ix-40",
+    "japaneseName": "アノクサ",
+    "englishName": "Bramblin",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/40.jpg",
+    "englishImage": "images/sets/ix/en/40.jpg"
+  },
+  {
+    "id": "ix-41",
+    "japaneseName": "アノクサ",
+    "englishName": "Brambleghast",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/41.jpg",
+    "englishImage": "images/sets/ix/en/41.jpg"
+  },
+  {
+    "id": "ix-42",
+    "japaneseName": "パルデア ケンタロス",
+    "englishName": "Paldean Tauros",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/42.jpg",
+    "englishImage": "images/sets/ix/en/42.jpg"
+  },
+  {
+    "id": "ix-43",
+    "japaneseName": "グライガー",
+    "englishName": "Gligar",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/43.jpg",
+    "englishImage": "images/sets/ix/en/43.jpg"
+  },
+  {
+    "id": "ix-44",
+    "japaneseName": "グライオン",
+    "englishName": "Gliscor",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/44.jpg",
+    "englishImage": "images/sets/ix/en/44.jpg"
+  },
+  {
+    "id": "ix-45",
+    "japaneseName": "ナックラー",
+    "englishName": "Trapinch",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/45.jpg",
+    "englishImage": "images/sets/ix/en/45.jpg"
+  },
+  {
+    "id": "ix-46",
+    "japaneseName": "ビブラーバ",
+    "englishName": "Vibrava",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/46.jpg",
+    "englishImage": "images/sets/ix/en/46.jpg"
+  },
+  {
+    "id": "ix-47",
+    "japaneseName": "フライゴン",
+    "englishName": "Flygon",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/47.jpg",
+    "englishImage": "images/sets/ix/en/47.jpg"
+  },
+  {
+    "id": "ix-48",
+    "japaneseName": "ニューラ",
+    "englishName": "Sneasel",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/48.jpg",
+    "englishImage": "images/sets/ix/en/48.jpg"
+  },
+  {
+    "id": "ix-49",
+    "japaneseName": "マニューラ",
+    "englishName": "Weavile",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/49.jpg",
+    "englishImage": "images/sets/ix/en/49.jpg"
+  },
+  {
+    "id": "ix-50",
+    "japaneseName": "キバニア",
+    "englishName": "Carvanha",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/50.jpg",
+    "englishImage": "images/sets/ix/en/50.jpg"
+  },
+  {
+    "id": "ix-51",
+    "japaneseName": "メガサメハダーex",
+    "englishName": "Mega Sharpedo ex",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/51.jpg",
+    "englishImage": "images/sets/ix/en/51.jpg"
+  },
+  {
+    "id": "ix-52",
+    "japaneseName": "ハブネーク",
+    "englishName": "Seviper",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/52.jpg",
+    "englishImage": "images/sets/ix/en/52.jpg"
+  },
+  {
+    "id": "ix-53",
+    "japaneseName": "メグロコ",
+    "englishName": "Sandile",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/53.jpg",
+    "englishImage": "images/sets/ix/en/53.jpg"
+  },
+  {
+    "id": "ix-54",
+    "japaneseName": "ワルビル",
+    "englishName": "Krokorok",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/54.jpg",
+    "englishImage": "images/sets/ix/en/54.jpg"
+  },
+  {
+    "id": "ix-55",
+    "japaneseName": "ワルビアル",
+    "englishName": "Krookodile",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/55.jpg",
+    "englishImage": "images/sets/ix/en/55.jpg"
+  },
+  {
+    "id": "ix-56",
+    "japaneseName": "エレズン",
+    "englishName": "Toxel",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/56.jpg",
+    "englishImage": "images/sets/ix/en/56.jpg"
+  },
+  {
+    "id": "ix-57",
+    "japaneseName": "ストリンダー",
+    "englishName": "Toxtricity",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/57.jpg",
+    "englishImage": "images/sets/ix/en/57.jpg"
+  },
+  {
+    "id": "ix-58",
+    "japaneseName": "エンペルトex",
+    "englishName": "Empoleon ex",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/58.jpg",
+    "englishImage": "images/sets/ix/en/58.jpg"
+  },
+  {
+    "id": "ix-59",
+    "japaneseName": "ドーミラー",
+    "englishName": "Bronzor",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/59.jpg",
+    "englishImage": "images/sets/ix/en/59.jpg"
+  },
+  {
+    "id": "ix-60",
+    "japaneseName": "ドータクン",
+    "englishName": "Bronzong",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/60.jpg",
+    "englishImage": "images/sets/ix/en/60.jpg"
+  },
+  {
+    "id": "ix-61",
+    "japaneseName": "トゲデマル",
+    "englishName": "Togedemaru",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/61.jpg",
+    "englishImage": "images/sets/ix/en/61.jpg"
+  },
+  {
+    "id": "ix-62",
+    "japaneseName": "ジュラルドン",
+    "englishName": "Duraludon",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/62.jpg",
+    "englishImage": "images/sets/ix/en/62.jpg"
+  },
+  {
+    "id": "ix-63",
+    "japaneseName": "ブリジュラス",
+    "englishName": "Archaludon",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/63.jpg",
+    "englishImage": "images/sets/ix/en/63.jpg"
+  },
+  {
+    "id": "ix-64",
+    "japaneseName": "プリン",
+    "englishName": "Jigglypuff",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/64.jpg",
+    "englishImage": "images/sets/ix/en/64.jpg"
+  },
+  {
+    "id": "ix-65",
+    "japaneseName": "プクリン",
+    "englishName": "Wigglytuff",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/65.jpg",
+    "englishImage": "images/sets/ix/en/65.jpg"
+  },
+  {
+    "id": "ix-66",
+    "japaneseName": "エイパム",
+    "englishName": "Aipom",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/66.jpg",
+    "englishImage": "images/sets/ix/en/66.jpg"
+  },
+  {
+    "id": "ix-67",
+    "japaneseName": "エテボース",
+    "englishName": "Ambipom",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/67.jpg",
+    "englishImage": "images/sets/ix/en/67.jpg"
+  },
+  {
+    "id": "ix-68",
+    "japaneseName": "ドーブル",
+    "englishName": "Smeargle",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/68.jpg",
+    "englishImage": "images/sets/ix/en/68.jpg"
+  },
+  {
+    "id": "ix-69",
+    "japaneseName": "ジグザグマ",
+    "englishName": "Zigzagoon",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/69.jpg",
+    "englishImage": "images/sets/ix/en/69.jpg"
+  },
+  {
+    "id": "ix-70",
+    "japaneseName": "マッスグマ",
+    "englishName": "Linoone",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/70.jpg",
+    "englishImage": "images/sets/ix/en/70.jpg"
+  },
+  {
+    "id": "ix-71",
+    "japaneseName": "ミミロル",
+    "englishName": "Buneary",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/71.jpg",
+    "englishImage": "images/sets/ix/en/71.jpg"
+  },
+  {
+    "id": "ix-72",
+    "japaneseName": "メガミミロップex",
+    "englishName": "Mega Lopunny ex",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/72.jpg",
+    "englishImage": "images/sets/ix/en/72.jpg"
+  },
+  {
+    "id": "ix-73",
+    "japaneseName": "ジャンボアイス",
+    "englishName": "Jumbo Ice Cream",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/73.jpg",
+    "englishImage": "images/sets/ix/en/73.jpg"
+  },
+  {
+    "id": "ix-74",
+    "japaneseName": "ヒートバーナー",
+    "englishName": "Heat Burner",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/74.jpg",
+    "englishImage": "images/sets/ix/en/74.jpg"
+  },
+  {
+    "id": "ix-75",
+    "japaneseName": "せいなるおまもり",
+    "englishName": "Sacred Charm",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/75.jpg",
+    "englishImage": "images/sets/ix/en/75.jpg"
+  },
+  {
+    "id": "ix-76",
+    "japaneseName": "ギーマの一手",
+    "englishName": "Grimsley's Move",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/76.jpg",
+    "englishImage": "images/sets/ix/en/76.jpg"
+  },
+  {
+    "id": "ix-77",
+    "japaneseName": "ヒカリ",
+    "englishName": "Dawn",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/77.jpg",
+    "englishImage": "images/sets/ix/en/77.jpg"
+  },
+  {
+    "id": "ix-78",
+    "japaneseName": "ひふきやろう",
+    "englishName": "Firebreather",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/78.jpg",
+    "englishImage": "images/sets/ix/en/78.jpg"
+  },
+  {
+    "id": "ix-79",
+    "japaneseName": "バトルコロシアム",
+    "englishName": "Battle Colosseum",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/79.jpg",
+    "englishImage": "images/sets/ix/en/79.jpg"
+  },
+  {
+    "id": "ix-80",
+    "japaneseName": "めまいの谷",
+    "englishName": "Dizzy Valley",
+    "japaneseSetName": "インフェルノX",
+    "japaneseSetReleaseDate": "12-2-2024",
+    "japaneseImage": "images/sets/ix/jp/80.jpg",
+    "englishImage": "images/sets/ix/en/80.jpg"
+  }
+  ]
+  

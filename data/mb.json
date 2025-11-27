@@ -1,0 +1,570 @@
+[
+    {
+        "id": "mb-1",
+        "japaneseName": "フシギダネ",
+        "englishName": "Bulbasaur",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/1.jpg",
+        "englishImage": "images/sets/mb/en/1.jpg"
+    },
+    {
+        "id": "mb-2",
+        "japaneseName": "フシギソウ",
+        "englishName": "Ivysaur",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/2.jpg",
+        "englishImage": "images/sets/mb/en/2.jpg"
+    },
+    {
+        "id": "mb-3",
+        "japaneseName": "メガフシギバナex",
+        "englishName": "Mega Venusaur ex",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/3.jpg",
+        "englishImage": "images/sets/mb/en/3.jpg"
+    },
+    {
+        "id": "mb-4",
+        "japaneseName": "タマタマ",
+        "englishName": "Exeggcute",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/4.jpg",
+        "englishImage": "images/sets/mb/en/4.jpg"
+    },
+    {
+        "id": "mb-5",
+        "japaneseName": "ナッシー",
+        "englishName": "Exeggutor",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/5.jpg",
+        "englishImage": "images/sets/mb/en/5.jpg"
+    },
+    {
+        "id": "mb-6",
+        "japaneseName": "セレビィ",
+        "englishName": "Celebi",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/6.jpg",
+        "englishImage": "images/sets/mb/en/6.jpg"
+    },
+    {
+        "id": "mb-7",
+        "japaneseName": "タネボー",
+        "englishName": "Seedot",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/7.jpg",
+        "englishImage": "images/sets/mb/en/7.jpg"
+    },
+    {
+        "id": "mb-8",
+        "japaneseName": "コノハナ",
+        "englishName": "Nuzleaf",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/8.jpg",
+        "englishImage": "images/sets/mb/en/8.jpg"
+    },
+    {
+        "id": "mb-9",
+        "japaneseName": "ダーテング",
+        "englishName": "Shiftry",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/9.jpg",
+        "englishImage": "images/sets/mb/en/9.jpg"
+    },
+    {
+        "id": "mb-10",
+        "japaneseName": "ロコン",
+        "englishName": "Vulpix",
+        "japaneseSetName": "メガブレイブ",
+        "japaneseSetReleaseDate": "8-1-2025",
+        "japaneseImage": "images/sets/mb/jp/10.jpg",
+        "englishImage": "images/sets/mb/en/10.jpg"
+    },
+    {
+      "id": "mb-11",
+      "japaneseName": "キュウコン",
+      "englishName": "Ninetales",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/11.jpg",
+      "englishImage": "images/sets/mb/en/11.jpg"
+  },
+  {
+      "id": "mb-12",
+      "japaneseName": "ドンメル",
+      "englishName": "Numel",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/12.jpg",
+      "englishImage": "images/sets/mb/en/12.jpg"
+  },
+  {
+      "id": "mb-13",
+      "japaneseName": "メガバクーダex",
+      "englishName": "Mega Camerupt ex",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/13.jpg",
+      "englishImage": "images/sets/mb/en/13.jpg"
+  },
+  {
+      "id": "mb-14",
+      "japaneseName": "ボルケニオン",
+      "englishName": "Volcanion",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/14.jpg",
+      "englishImage": "images/sets/mb/en/14.jpg"
+  },
+  {
+      "id": "mb-15",
+      "japaneseName": "ヒバニー",
+      "englishName": "Scorbunny",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/15.jpg",
+      "englishImage": "images/sets/mb/en/15.jpg"
+  },
+  {
+      "id": "mb-16",
+      "japaneseName": "ラビフット",
+      "englishName": "Raboot",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/16.jpg",
+      "englishImage": "images/sets/mb/en/16.jpg"
+  },
+  {
+      "id": "mb-17",
+      "japaneseName": "エースバーン",
+      "englishName": "Cinderace",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/17.jpg",
+      "englishImage": "images/sets/mb/en/17.jpg"
+  },
+  {
+      "id": "mb-18",
+      "japaneseName": "ヘイガニ",
+      "englishName": "Corphish",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/18.jpg",
+      "englishImage": "images/sets/mb/en/18.jpg"
+  },
+  {
+      "id": "mb-19",
+      "japaneseName": "コレクレー",
+      "englishName": "Gimmighoul",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/19.jpg",
+      "englishImage": "images/sets/mb/en/19.jpg"
+  },
+  {
+      "id": "mb-20",
+      "japaneseName": "サンド",
+      "englishName": "Sandshrew",
+      "japaneseSetName": "メガブレイブ",
+      "japaneseSetReleaseDate": "8-1-2025",
+      "japaneseImage": "images/sets/mb/jp/20.jpg",
+      "englishImage": "images/sets/mb/en/20.jpg"
+  },
+  {
+    "id": "mb-21",
+    "japaneseName": "サンドパン",
+    "englishName": "Sandslash",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/21.jpg",
+    "englishImage": "images/sets/mb/en/21.jpg"
+  },
+  {
+    "id": "mb-22",
+    "japaneseName": "イワーク",
+    "englishName": "Onix",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/22.jpg",
+    "englishImage": "images/sets/mb/en/22.jpg"
+  },
+  {
+    "id": "mb-23",
+    "japaneseName": "バルキー",
+    "englishName": "Tyrogue",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/23.jpg",
+    "englishImage": "images/sets/mb/en/23.jpg"
+  },
+  {
+    "id": "mb-24",
+    "japaneseName": "マクノシタ",
+    "englishName": "Makuhita",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/24.jpg",
+    "englishImage": "images/sets/mb/en/24.jpg"
+  },
+  {
+    "id": "mb-25",
+    "japaneseName": "ハリテヤマ",
+    "englishName": "Hariyama",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/25.jpg",
+    "englishImage": "images/sets/mb/en/25.jpg"
+  },
+  {
+    "id": "mb-26",
+    "japaneseName": "ルナトーン",
+    "englishName": "Lunatone",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/26.jpg",
+    "englishImage": "images/sets/mb/en/26.jpg"
+  },
+  {
+    "id": "mb-27",
+    "japaneseName": "ソルロック",
+    "englishName": "Solrock",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/27.jpg",
+    "englishImage": "images/sets/mb/en/27.jpg"
+  },
+  {
+    "id": "mb-28",
+    "japaneseName": "リオル",
+    "englishName": "Riolu",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/28.jpg",
+    "englishImage": "images/sets/mb/en/28.jpg"
+  },
+  {
+    "id": "mb-29",
+    "japaneseName": "メガルカリオex",
+    "englishName": "Mega Lucario ex",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/29.jpg",
+    "englishImage": "images/sets/mb/en/29.jpg"
+  },
+  {
+    "id": "mb-30",
+    "japaneseName": "グレッグル",
+    "englishName": "Croagunk",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/30.jpg",
+    "englishImage": "images/sets/mb/en/30.jpg"
+  },
+  {
+    "id": "mb-31",
+    "japaneseName": "ドクロッグ",
+    "englishName": "Toxicroak",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/31.jpg",
+    "englishImage": "images/sets/mb/en/31.jpg"
+  },
+  {
+    "id": "mb-32",
+    "japaneseName": "マーシャドー",
+    "englishName": "Marshadow",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/32.jpg",
+    "englishImage": "images/sets/mb/en/32.jpg"
+  },
+  {
+    "id": "mb-33",
+    "japaneseName": "イシヘンジン",
+    "englishName": "Stonjourner",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/33.jpg",
+    "englishImage": "images/sets/mb/en/33.jpg"
+  },
+  {
+    "id": "mb-34",
+    "japaneseName": "コジオ",
+    "englishName": "Nacli",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/34.jpg",
+    "englishImage": "images/sets/mb/en/34.jpg"
+  },
+  {
+    "id": "mb-35",
+    "japaneseName": "ジオヅム",
+    "englishName": "Naclstack",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/35.jpg",
+    "englishImage": "images/sets/mb/en/35.jpg"
+  },
+  {
+    "id": "mb-36",
+    "japaneseName": "キョジオーン",
+    "englishName": "Garganacl",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/36.jpg",
+    "englishImage": "images/sets/mb/en/36.jpg"
+  },
+  {
+    "id": "mb-37",
+    "japaneseName": "シザリガー",
+    "englishName": "Crawdaunt",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/37.jpg",
+    "englishImage": "images/sets/mb/en/37.jpg"
+  },
+  {
+    "id": "mb-38",
+    "japaneseName": "メガアブソルex",
+    "englishName": "Mega Absol ex",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/38.jpg",
+    "englishImage": "images/sets/mb/en/38.jpg"
+  },
+  {
+    "id": "mb-39",
+    "japaneseName": "ミカルゲ",
+    "englishName": "Spiritomb",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/39.jpg",
+    "englishImage": "images/sets/mb/en/39.jpg"
+  },
+  {
+    "id": "mb-40",
+    "japaneseName": "イベルタル",
+    "englishName": "Yveltal",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/40.jpg",
+    "englishImage": "images/sets/mb/en/40.jpg"
+  },
+  {
+    "id": "mb-41",
+    "japaneseName": "クスネ",
+    "englishName": "Nickit",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/41.jpg",
+    "englishImage": "images/sets/mb/en/41.jpg"
+  },
+  {
+    "id": "mb-42",
+    "japaneseName": "フォクスライ",
+    "englishName": "Thievul",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/42.jpg",
+    "englishImage": "images/sets/mb/en/42.jpg"
+  },
+  {
+    "id": "mb-43",
+    "japaneseName": "シルシュルー",
+    "englishName": "Shroodle",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/43.jpg",
+    "englishImage": "images/sets/mb/en/43.jpg"
+  },
+  {
+    "id": "mb-44",
+    "japaneseName": "タギングル",
+    "englishName": "Grafaiai",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/44.jpg",
+    "englishImage": "images/sets/mb/en/44.jpg"
+  },
+  {
+    "id": "mb-45",
+    "japaneseName": "ハガネール",
+    "englishName": "Steelix",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/45.jpg",
+    "englishImage": "images/sets/mb/en/45.jpg"
+  },
+  {
+    "id": "mb-46",
+    "japaneseName": "メガクチートex",
+    "englishName": "Mega Mawile ex",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/46.jpg",
+    "englishImage": "images/sets/mb/en/46.jpg"
+  },
+  {
+    "id": "mb-47",
+    "japaneseName": "ディアルガ",
+    "englishName": "Dialga",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/47.jpg",
+    "englishImage": "images/sets/mb/en/47.jpg"
+  },
+  {
+    "id": "mb-48",
+    "japaneseName": "カヌチャン",
+    "englishName": "Tinkatink",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/48.jpg",
+    "englishImage": "images/sets/mb/en/48.jpg"
+  },
+  {
+    "id": "mb-49",
+    "japaneseName": "ナカヌチャン",
+    "englishName": "Tinkatuff",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/49.jpg",
+    "englishImage": "images/sets/mb/en/49.jpg"
+  },
+  {
+    "id": "mb-50",
+    "japaneseName": "デカヌチャン",
+    "englishName": "Tinkaton",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/50.jpg",
+    "englishImage": "images/sets/mb/en/50.jpg"
+  },
+  {
+    "id": "mb-51",
+    "japaneseName": "サーフゴー",
+    "englishName": "Gholdengo",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/51.jpg",
+    "englishImage": "images/sets/mb/en/51.jpg"
+  },
+  {
+    "id": "mb-52",
+    "japaneseName": "オニスズメ",
+    "englishName": "Spearow",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/52.jpg",
+    "englishImage": "images/sets/mb/en/52.jpg"
+  },
+  {
+    "id": "mb-53",
+    "japaneseName": "オニドリル",
+    "englishName": "Fearow",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/53.jpg",
+    "englishImage": "images/sets/mb/en/53.jpg"
+  },
+  {
+    "id": "mb-54",
+    "japaneseName": "ミルタンク",
+    "englishName": "Miltank",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/54.jpg",
+    "englishImage": "images/sets/mb/en/54.jpg"
+  },
+  {
+    "id": "mb-55",
+    "japaneseName": "ヤングース",
+    "englishName": "Yungoos",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/55.jpg",
+    "englishImage": "images/sets/mb/en/55.jpg"
+  },
+  {
+    "id": "mb-56",
+    "japaneseName": "デカグース",
+    "englishName": "Gumshoos",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/56.jpg",
+    "englishImage": "images/sets/mb/en/56.jpg"
+  },
+  {
+    "id": "mb-57",
+    "japaneseName": "アイアンディフェンダー",
+    "englishName": "Iron Defender",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/57.jpg",
+    "englishImage": "images/sets/mb/en/57.jpg"
+  },
+  {
+    "id": "mb-58",
+    "japaneseName": "パワープロテイン",
+    "englishName": "Premium Power Pro",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/58.jpg",
+    "englishImage": "images/sets/mb/en/58.jpg"
+  },
+  {
+    "id": "mb-59",
+    "japaneseName": "ファイトゴング",
+    "englishName": "Fight Gong",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/59.jpg",
+    "englishImage": "images/sets/mb/en/59.jpg"
+  },
+  {
+    "id": "mb-60",
+    "japaneseName": "むしよけスプレー",
+    "englishName": "Repel",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/60.jpg",
+    "englishImage": "images/sets/mb/en/60.jpg"
+  },
+  {
+    "id": "mb-61",
+    "japaneseName": "マチスの取引",
+    "englishName": "Lt. Surge's Deal",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/61.jpg",
+    "englishImage": "images/sets/mb/en/61.jpg"
+  },
+  {
+    "id": "mb-62",
+    "japaneseName": "リーリエの決心",
+    "englishName": "Lillie's Determination",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/62.jpg",
+    "englishImage": "images/sets/mb/en/62.jpg"
+  },
+  {
+    "id": "mb-63",
+    "japaneseName": "危ない廃墟",
+    "englishName": "Dangerous Abandoned Building",
+    "japaneseSetName": "メガブレイブ",
+    "japaneseSetReleaseDate": "8-1-2025",
+    "japaneseImage": "images/sets/mb/jp/63.jpg",
+    "englishImage": "images/sets/mb/en/63.jpg"
+  }
+  ]
+  
