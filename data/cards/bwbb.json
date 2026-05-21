@@ -1,0 +1,5185 @@
+﻿[
+    {
+        "id":  "bwbb-1",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "001/086",
+        "numberEn":  "001/086",
+        "nameJa":  "ãƒ„ã‚¿ãƒ¼ã‚¸ãƒ£",
+        "nameEn":  "Snivy",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãŸã„ã‚ãŸã‚Š",
+                            "nameEn":  "Tackle",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ã¤ã‚‹ã®ãƒ ãƒ",
+                            "nameEn":  "Vine Whip",
+                            "cost":  [
+                                         "Grass",
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Susumu Maeya",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/1.jpg",
+        "imageEn":  "images/sets/bwbb/en/1.jpg"
+    },
+    {
+        "id":  "bwbb-2",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "002/086",
+        "numberEn":  "002/086",
+        "nameJa":  "ã‚¸ãƒ£ãƒŽãƒ“ãƒ¼",
+        "nameEn":  "Servine",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒ„ã‚¿ãƒ¼ã‚¸ãƒ£",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¾ãã¤ã",
+                            "nameEn":  "Wrap",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚ªãƒ¢ãƒ†ãªã‚‰ã€ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ãƒžãƒ’ã«ã™ã‚‹ã€‚",
+                            "textEn":  "Flip a coin. If heads, your opponent\u0027s Active PokÃ©mon is now Paralyzed."
+                        },
+                        {
+                            "nameJa":  "ã¤ã‚‹ã®ãƒ ãƒ",
+                            "nameEn":  "Vine Whip",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Susumu Maeya",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/2.jpg",
+        "imageEn":  "images/sets/bwbb/en/2.jpg"
+    },
+    {
+        "id":  "bwbb-3",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "003/086",
+        "numberEn":  "003/086",
+        "nameJa":  "ã‚¸ãƒ£ãƒ­ãƒ¼ãƒ€ex",
+        "nameEn":  "Serperior ex",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2",
+                         "ex"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  320,
+        "evolvesFrom":  "ã‚¸ãƒ£ãƒŽãƒ“ãƒ¼",
+        "abilities":  [
+                          {
+                              "nameJa":  "ãƒ­ã‚¤ãƒ¤ãƒ«ã‚¨ãƒ¼ãƒ«",
+                              "nameEn":  "Royal Cheer",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ãŒã„ã‚‹ã‹ãŽã‚Šã€è‡ªåˆ†ã®ãƒã‚±ãƒ¢ãƒ³ãŒä½¿ã†ãƒ¯ã‚¶ã®ã€ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã¸ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯ã€Œ+20ã€ã•ã‚Œã‚‹ã€‚",
+                              "textEn":  "As long as this PokÃ©mon is in play, your PokÃ©mon\u0027s attacks do 20 more damage to your opponent\u0027s Active PokÃ©mon."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚°ãƒ©ã‚¹ã‚ªãƒ¼ãƒ€ãƒ¼",
+                            "nameEn":  "Grass Order",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "150",
+                            "textJa":  "ã®ãžã‚€ãªã‚‰ã€è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰å¥½ããªã‚«ãƒ¼ãƒ‰ã‚’3æžšã¾ã§é¸ã³ã€æ‰‹æœ­ã«åŠ ãˆã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "If you like, search your deck for up to 3 cards, put them into your hand, and shuffle your deck."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "PLANETA Igarashi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/3.jpg",
+        "imageEn":  "images/sets/bwbb/en/3.jpg"
+    },
+    {
+        "id":  "bwbb-4",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "004/086",
+        "numberEn":  "004/086",
+        "nameJa":  "ãƒ¤ãƒŠãƒƒãƒ—",
+        "nameEn":  "Pansage",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚‚ã£ã¦ãã‚‹",
+                            "nameEn":  "Fetch",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‚’1æžšå¼•ãã€‚",
+                            "textEn":  "Draw a card."
+                        },
+                        {
+                            "nameJa":  "ã²ã£ã‹ã",
+                            "nameEn":  "Scratch",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "kurumitsu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/4.jpg",
+        "imageEn":  "images/sets/bwbb/en/4.jpg"
+    },
+    {
+        "id":  "bwbb-5",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "005/086",
+        "numberEn":  "005/086",
+        "nameJa":  "ãƒ¤ãƒŠãƒƒã‚­ãƒ¼",
+        "nameEn":  "Simisage",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒ¤ãƒŠãƒƒãƒ—",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã²ã£ã±ãŸã",
+                            "nameEn":  "Slap",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "70",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "kurumitsu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/5.jpg",
+        "imageEn":  "images/sets/bwbb/en/5.jpg"
+    },
+    {
+        "id":  "bwbb-6",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "006/086",
+        "numberEn":  "006/086",
+        "nameJa":  "ãƒãƒ¥ãƒªãƒ",
+        "nameEn":  "Cottonee",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‹ãã‚Œã‚‹",
+                            "nameEn":  "Camouflage",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚ªãƒ¢ãƒ†ãªã‚‰ã€æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚„åŠ¹æžœã‚’å—ã‘ãªã„ã€‚",
+                            "textEn":  "Flip a coin. If heads, during your opponent\u0027s next turn, this PokÃ©mon takes no damage from attacks and has no effects of attacks done to it."
+                        },
+                        {
+                            "nameJa":  "ã“ã®ã¯",
+                            "nameEn":  "Razor Leaf",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "mele",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/6.jpg",
+        "imageEn":  "images/sets/bwbb/en/6.jpg"
+    },
+    {
+        "id":  "bwbb-7",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "007/086",
+        "numberEn":  "007/086",
+        "nameJa":  "ãƒ‰ãƒ¬ãƒ‡ã‚£ã‚¢",
+        "nameEn":  "Lilligant",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒãƒ¥ãƒªãƒ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã’ã‚“ã‚ãã‚¢ãƒ­ãƒž",
+                            "nameEn":  "Alluring Aroma",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚ªãƒ¢ãƒ†ãªã‚‰ã€ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã©ãã¨ãƒžãƒ’ã«ã™ã‚‹ã€‚ã‚¦ãƒ©ãªã‚‰ã€ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã“ã‚“ã‚‰ã‚“ã«ã™ã‚‹ã€‚",
+                            "textEn":  "Flip a coin. If heads, your opponent\u0027s Active PokÃ©mon is now Poisoned and Paralyzed. If tails, it is now Confused."
+                        },
+                        {
+                            "nameJa":  "ã„ã‚ã„ãŽã‚Š",
+                            "nameEn":  "Cut",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "70",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "mele",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/7.jpg",
+        "imageEn":  "images/sets/bwbb/en/7.jpg"
+    },
+    {
+        "id":  "bwbb-8",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "008/086",
+        "numberEn":  "008/086",
+        "nameJa":  "ãƒžãƒ©ã‚«ãƒƒãƒ",
+        "nameEn":  "Maractus",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¯ã¤ã‚‰ã¤ãƒ‹ãƒ¼ãƒ‰ãƒ«",
+                            "nameEn":  "Pep-Up Needle",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20+",
+                            "textJa":  "ã“ã®ç•ªã«ã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®HPã‚’å›žå¾©ã—ã¦ã„ãŸãªã‚‰ã€100ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If you healed damage from this PokÃ©mon during this turn, this attack does 100 more damage."
+                        },
+                        {
+                            "nameJa":  "ã¤ãã•ã™",
+                            "nameEn":  "Pin Missile",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "mingo",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/8.jpg",
+        "imageEn":  "images/sets/bwbb/en/8.jpg"
+    },
+    {
+        "id":  "bwbb-9",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "009/086",
+        "numberEn":  "009/086",
+        "nameJa":  "ã‚«ãƒ–ãƒ«ãƒ¢",
+        "nameEn":  "Karrablast",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+                          {
+                              "nameJa":  "ã—ã’ãã—ã‚“ã‹",
+                              "nameEn":  "Quick Evolution",
+                              "textJa":  "è‡ªåˆ†ã®å ´ã«ã€Œãƒãƒ§ãƒœãƒžã‚­ã€ãŒã„ã‚‹ãªã‚‰ã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ã€æœ€åˆã®è‡ªåˆ†ã®ç•ªã‚„ã€å‡ºã—ãŸã°ã‹ã‚Šã®ç•ªã§ã‚‚é€²åŒ–ã§ãã‚‹ã€‚",
+                              "textEn":  "If you have a Shelmet on your Bench, this PokÃ©mon can evolve the first turn it comes into play, or the first turn you play it."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¤ã®ã§ã¤ã",
+                            "nameEn":  "Horn Jab",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "DOM",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/9.jpg",
+        "imageEn":  "images/sets/bwbb/en/9.jpg"
+    },
+    {
+        "id":  "bwbb-10",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "010/086",
+        "numberEn":  "010/086",
+        "nameJa":  "ã‚¿ãƒžã‚²ã‚¿ã‚±",
+        "nameEn":  "Foongus",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  50,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã©ãã®ã»ã†ã—",
+                            "nameEn":  "Poison Spore",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã©ãã«ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent\u0027s Active PokÃ©mon is now Poisoned."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Kurata So",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/10.jpg",
+        "imageEn":  "images/sets/bwbb/en/10.jpg"
+    },
+    {
+        "id":  "bwbb-11",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "011/086",
+        "numberEn":  "011/086",
+        "nameJa":  "ãƒ¢ãƒ­ãƒãƒ¬ãƒ«",
+        "nameEn":  "Amoonguss",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "ã‚¿ãƒžã‚²ã‚¿ã‚±",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚ã¶ãªã„ã¯ã‚“ã®ã†",
+                            "nameEn":  "Dangerous Reaction",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30+",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ãŒç‰¹æ®ŠçŠ¶æ…‹ãªã‚‰ã€120ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If your opponent\u0027s Active PokÃ©mon is affected by a Special Condition, this attack does 120 more damage."
+                        },
+                        {
+                            "nameJa":  "ã‚¿ãƒã°ãã ã‚“",
+                            "nameEn":  "Seed Bomb",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Kurata So",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/11.jpg",
+        "imageEn":  "images/sets/bwbb/en/11.jpg"
+    },
+    {
+        "id":  "bwbb-12",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "012/086",
+        "numberEn":  "012/086",
+        "nameJa":  "ãƒ“ã‚¯ãƒ†ã‚£ãƒ‹",
+        "nameEn":  "Victini",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "Vãƒ•ã‚©ãƒ¼ã‚¹",
+                            "nameEn":  "V Force",
+                            "cost":  [
+                                         "Fire",
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "120",
+                            "textJa":  "è‡ªåˆ†ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³ãŒ4åŒ¹ä»¥ä¸‹ãªã‚‰ã€ã“ã®ãƒ¯ã‚¶ã¯å¤±æ•—ã€‚",
+                            "textEn":  "If you have 4 or fewer Benched PokÃ©mon, this attack fails."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Natsumi Yoshida",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/12.jpg",
+        "imageEn":  "images/sets/bwbb/en/12.jpg"
+    },
+    {
+        "id":  "bwbb-13",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "013/086",
+        "numberEn":  "013/086",
+        "nameJa":  "ãƒ€ãƒ«ãƒžãƒƒã‚«",
+        "nameEn":  "Darumaka",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãŠã«ã³",
+                            "nameEn":  "Will-O-Wisp",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "svlt",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/13.jpg",
+        "imageEn":  "images/sets/bwbb/en/13.jpg"
+    },
+    {
+        "id":  "bwbb-14",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "014/086",
+        "numberEn":  "014/086",
+        "nameJa":  "ãƒ’ãƒ’ãƒ€ãƒ«ãƒž",
+        "nameEn":  "Darmanitan",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  140,
+        "evolvesFrom":  "ãƒ€ãƒ«ãƒžãƒƒã‚«",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚„ãã“ãŒã™",
+                            "nameEn":  "Incinerate",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã‚„ã‘ã©ã«ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent\u0027s Active PokÃ©mon is now Burned."
+                        },
+                        {
+                            "nameJa":  "ã‚¹ãƒžãƒƒã‚·ãƒ¥ãƒ˜ãƒƒãƒ‰",
+                            "nameEn":  "Smash Head",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "180",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’2å€‹é¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Discard 2 Energy from this PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "svlt",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/14.jpg",
+        "imageEn":  "images/sets/bwbb/en/14.jpg"
+    },
+    {
+        "id":  "bwbb-15",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "015/086",
+        "numberEn":  "015/086",
+        "nameJa":  "ãƒ’ãƒˆãƒ¢ã‚·",
+        "nameEn":  "Litwick",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¦ã‚‰ã—ã¦ã‚‚ã‚„ã™",
+                            "nameEn":  "Light and Burn",
+                            "cost":  [
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‚’ä¸Šã‹ã‚‰1æžšè¦‹ã¦ã€ã‚‚ã¨ã«ã‚‚ã©ã™ã€‚ã®ãžã‚€ãªã‚‰ã€ãã®ã‚«ãƒ¼ãƒ‰ã‚’ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Look at the top card of your deck. You may discard that card."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "mashu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/15.jpg",
+        "imageEn":  "images/sets/bwbb/en/15.jpg"
+    },
+    {
+        "id":  "bwbb-16",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "016/086",
+        "numberEn":  "016/086",
+        "nameJa":  "ãƒ©ãƒ³ãƒ—ãƒ©ãƒ¼",
+        "nameEn":  "Lampent",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  "ãƒ’ãƒˆãƒ¢ã‚·",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã ã„ã‚‚ã‚“ã˜",
+                            "nameEn":  "Flamethrower",
+                            "cost":  [
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "50",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’1å€‹é¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Discard an Energy from this PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "mashu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/16.jpg",
+        "imageEn":  "images/sets/bwbb/en/16.jpg"
+    },
+    {
+        "id":  "bwbb-17",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "017/086",
+        "numberEn":  "017/086",
+        "nameJa":  "ã‚·ãƒ£ãƒ³ãƒ‡ãƒ©",
+        "nameEn":  "Chandelure",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  150,
+        "evolvesFrom":  "ãƒ©ãƒ³ãƒ—ãƒ©ãƒ¼",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¯ã˜ã‘ã‚‹ã²ã°ã—ã‚‰",
+                            "nameEn":  "Spreading Flames",
+                            "cost":  [
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "50+",
+                            "textJa":  "è‡ªåˆ†ã®ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã«ã€ŒåŸºæœ¬ðŸ”¥ã‚¨ãƒãƒ«ã‚®ãƒ¼ã€ãŒ10æžšä»¥ä¸Šã‚ã‚‹ãªã‚‰ã€100ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If you have 10 or more Basic Fire Energy cards in your discard pile, this attack does 100 more damage."
+                        },
+                        {
+                            "nameJa":  "ã‚‚ãˆã¤ãã™",
+                            "nameEn":  "Flame Out",
+                            "cost":  [
+                                         "Fire",
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "180",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’ã€ã™ã¹ã¦ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Discard all Energy from this PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Makura Tami",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/17.jpg",
+        "imageEn":  "images/sets/bwbb/en/17.jpg"
+    },
+    {
+        "id":  "bwbb-18",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "018/086",
+        "numberEn":  "018/086",
+        "nameJa":  "ãƒ¡ãƒ©ãƒ«ãƒ",
+        "nameEn":  "Larvesta",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¤ã¤ããŠã¨ã™",
+                            "nameEn":  "Knock Off",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’ä¸Žãˆã‚‹å‰ã«ã€ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã€Œãƒã‚±ãƒ¢ãƒ³ã®ã©ã†ãã€ã‚’ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Before doing damage, discard a PokÃ©mon Tool attached to your opponent\u0027s Active PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Makura Tami",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/18.jpg",
+        "imageEn":  "images/sets/bwbb/en/18.jpg"
+    },
+    {
+        "id":  "bwbb-19",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "019/086",
+        "numberEn":  "019/086",
+        "nameJa":  "ã‚¦ãƒ«ã‚¬ãƒ¢ã‚¹",
+        "nameEn":  "Volcarona",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "ãƒ¡ãƒ©ãƒ«ãƒ",
+        "abilities":  [
+                          {
+                              "nameJa":  "ã­ã£ã±ã‚Šã‚“ã·ã‚“",
+                              "nameEn":  "Heat Scales",
+                              "textJa":  "è‡ªåˆ†ã®ç•ªã«ã€è‡ªåˆ†ã®æ‰‹æœ­ã‹ã‚‰ã€ŒåŸºæœ¬ðŸ”¥ã‚¨ãƒãƒ«ã‚®ãƒ¼ã€ã‚’1æžšãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ãªã‚‰ã€1å›žä½¿ãˆã‚‹ã€‚ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã‚„ã‘ã©ã«ã™ã‚‹ã€‚",
+                              "textEn":  "Once during your turn, if you discard a Basic Fire Energy from your hand, you may use this Ability. Your opponent\u0027s Active PokÃ©mon is now Burned."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã»ã®ãŠã®ã¤ã°ã•",
+                            "nameEn":  "Fire Wing",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "70",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Yukihiro Tada",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/19.jpg",
+        "imageEn":  "images/sets/bwbb/en/19.jpg"
+    },
+    {
+        "id":  "bwbb-20",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "020/086",
+        "numberEn":  "020/086",
+        "nameJa":  "ãƒ’ãƒ¤ãƒƒãƒ—",
+        "nameEn":  "Panpour",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚‚ã£ã¦ãã‚‹",
+                            "nameEn":  "Fetch",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‚’1æžšå¼•ãã€‚",
+                            "textEn":  "Draw a card."
+                        },
+                        {
+                            "nameJa":  "ã²ã£ã‹ã",
+                            "nameEn":  "Scratch",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Yukihiro Tada",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/20.jpg",
+        "imageEn":  "images/sets/bwbb/en/20.jpg"
+    },
+    {
+        "id":  "bwbb-21",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "021/086",
+        "numberEn":  "021/086",
+        "nameJa":  "ãƒ’ãƒ¤ãƒƒã‚­ãƒ¼",
+        "nameEn":  "Simipour",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒ’ãƒ¤ãƒƒãƒ—",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã²ã£ã±ãŸã",
+                            "nameEn":  "Slap",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "70",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Yukihiro Tada",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/21.jpg",
+        "imageEn":  "images/sets/bwbb/en/21.jpg"
+    },
+    {
+        "id":  "bwbb-22",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "022/086",
+        "numberEn":  "022/086",
+        "nameJa":  "ã‚ªã‚¿ãƒžãƒ­",
+        "nameEn":  "Tympole",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚Šã‚“ã—ã‚‡ã†",
+                            "nameEn":  "Round",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20Ã—",
+                            "textJa":  "è‡ªåˆ†ã®å ´ã®ã€ãƒ¯ã‚¶ã€Œã‚Šã‚“ã—ã‚‡ã†ã€ã‚’æŒã¤ãƒã‚±ãƒ¢ãƒ³ã®æ•°Ã—20ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This attack does 20 damage for each of your PokÃ©mon that has the Round attack."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Gemi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/22.jpg",
+        "imageEn":  "images/sets/bwbb/en/22.jpg"
+    },
+    {
+        "id":  "bwbb-23",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "023/086",
+        "numberEn":  "023/086",
+        "nameJa":  "ã‚¬ãƒžã‚¬ãƒ«",
+        "nameEn":  "Palpitoad",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  "ã‚ªã‚¿ãƒžãƒ­",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚Šã‚“ã—ã‚‡ã†",
+                            "nameEn":  "Round",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "40Ã—",
+                            "textJa":  "è‡ªåˆ†ã®å ´ã®ã€ãƒ¯ã‚¶ã€Œã‚Šã‚“ã—ã‚‡ã†ã€ã‚’æŒã¤ãƒã‚±ãƒ¢ãƒ³ã®æ•°Ã—40ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This attack does 40 damage for each of your PokÃ©mon that has the Round attack."
+                        },
+                        {
+                            "nameJa":  "ã‚¹ãƒ—ãƒ©ãƒƒã‚·ãƒ¥",
+                            "nameEn":  "Splash",
+                            "cost":  [
+                                         "Water",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Gemi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/23.jpg",
+        "imageEn":  "images/sets/bwbb/en/23.jpg"
+    },
+    {
+        "id":  "bwbb-24",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "024/086",
+        "numberEn":  "024/086",
+        "nameJa":  "ã‚¬ãƒžã‚²ãƒ­ã‚²",
+        "nameEn":  "Seismitoad",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  170,
+        "evolvesFrom":  "ã‚¬ãƒžã‚¬ãƒ«",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚Šã‚“ã—ã‚‡ã†",
+                            "nameEn":  "Round",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "70Ã—",
+                            "textJa":  "è‡ªåˆ†ã®å ´ã®ã€ãƒ¯ã‚¶ã€Œã‚Šã‚“ã—ã‚‡ã†ã€ã‚’æŒã¤ãƒã‚±ãƒ¢ãƒ³ã®æ•°Ã—70ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This attack does 70 damage for each of your PokÃ©mon that has the Round attack."
+                        },
+                        {
+                            "nameJa":  "ãƒã‚¤ãƒ‘ãƒ¼ãƒœã‚¤ã‚¹",
+                            "nameEn":  "Hyper Voice",
+                            "cost":  [
+                                         "Water",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "160",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Tika Matsuno",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/24.jpg",
+        "imageEn":  "images/sets/bwbb/en/24.jpg"
+    },
+    {
+        "id":  "bwbb-25",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "025/086",
+        "numberEn":  "025/086",
+        "nameJa":  "ãƒ—ãƒ­ãƒˆãƒ¼ã‚¬",
+        "nameEn":  "Tirtouga",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "å¤ã³ãŸãµãŸã®åŒ–çŸ³",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãŸã„ã“ã®ã‚‚ããš",
+                            "nameEn":  "Drum Roll",
+                            "cost":  [
+                                         "Water"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30Ã—",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã«ã‚ã‚‹ã‚°ãƒƒã‚ºã®æžšæ•°Ã—30ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This attack does 30 damage for each Item card in your opponent\u0027s discard pile."
+                        },
+                        {
+                            "nameJa":  "ãªã¿ã®ã‚Š",
+                            "nameEn":  "Surf",
+                            "cost":  [
+                                         "Water",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "80",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "OOYAMA",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/25.jpg",
+        "imageEn":  "images/sets/bwbb/en/25.jpg"
+    },
+    {
+        "id":  "bwbb-26",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "026/086",
+        "numberEn":  "026/086",
+        "nameJa":  "ã‚¢ãƒã‚´ãƒ¼ãƒ©",
+        "nameEn":  "Carracosta",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  180,
+        "evolvesFrom":  "ãƒ—ãƒ­ãƒˆãƒ¼ã‚¬",
+        "abilities":  [
+                          {
+                              "nameJa":  "ãƒžã‚¤ãƒ†ã‚£ã‚·ã‚§ãƒ«",
+                              "nameEn":  "Mighty Shell",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ã€ç‰¹æ®Šã‚¨ãƒãƒ«ã‚®ãƒ¼ãŒã¤ã„ã¦ã„ã‚‹ç›¸æ‰‹ã®ãƒã‚±ãƒ¢ãƒ³ã‹ã‚‰ã€ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚„åŠ¹æžœã‚’å—ã‘ãªã„ã€‚",
+                              "textEn":  "This PokÃ©mon takes no damage from attacks used by your opponent\u0027s PokÃ©mon that have Special Energy attached to them."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‹ã˜ã‚Šã¤ã",
+                            "nameEn":  "Crunch",
+                            "cost":  [
+                                         "Water",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "150",
+                            "textJa":  "æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒ¯ã‚¶ã‚’å—ã‘ãŸãƒã‚±ãƒ¢ãƒ³ã¯ã€ã«ã’ã‚‰ã‚Œãªã„ã€‚",
+                            "textEn":  "During your opponent\u0027s next turn, the Defending PokÃ©mon can\u0027t retreat."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "OOYAMA",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/26.jpg",
+        "imageEn":  "images/sets/bwbb/en/26.jpg"
+    },
+    {
+        "id":  "bwbb-27",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "027/086",
+        "numberEn":  "027/086",
+        "nameJa":  "ãƒžãƒžãƒ³ãƒœã‚¦",
+        "nameEn":  "Alomomola",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  null,
+        "abilities":  [
+                          {
+                              "nameJa":  "ã‚„ã•ã—ã„ãƒ’ãƒ¬",
+                              "nameEn":  "Caring Fins",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ãŒãƒãƒˆãƒ«å ´ã«ã„ã‚‹ãªã‚‰ã€è‡ªåˆ†ã®ç•ªã«1å›žä½¿ãˆã‚‹ã€‚è‡ªåˆ†ã®ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã‹ã‚‰ã€HPãŒã€Œ70ã€ä»¥ä¸‹ã®ãŸã­ãƒã‚±ãƒ¢ãƒ³ã‚’1æžšé¸ã³ã€ãƒ™ãƒ³ãƒã«å‡ºã™ã€‚",
+                              "textEn":  "Once during your turn, if this PokÃ©mon is your Active PokÃ©mon, you may put a Basic PokÃ©mon with 70 HP or less from your discard pile onto your Bench."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãŸãã®ã¼ã‚Š",
+                            "nameEn":  "Waterfall",
+                            "cost":  [
+                                         "Water",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "70",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Kyoko Umemoto",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/27.jpg",
+        "imageEn":  "images/sets/bwbb/en/27.jpg"
+    },
+    {
+        "id":  "bwbb-28",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "028/086",
+        "numberEn":  "028/086",
+        "nameJa":  "ã‚¯ãƒžã‚·ãƒ¥ãƒ³",
+        "nameEn":  "Cubchoo",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¯ãªã¿ãšã¾ã¿ã‚Œ",
+                            "nameEn":  "Snotty Splash",
+                            "cost":  [
+                                         "Water"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒ¯ã‚¶ã‚’å—ã‘ãŸãƒã‚±ãƒ¢ãƒ³ã¯ã€ãƒ¯ã‚¶ãŒä½¿ãˆãªã„ã€‚",
+                            "textEn":  "During your opponent\u0027s next turn, the Defending PokÃ©mon can\u0027t use any attacks."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Metal",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "N-DESIGN Inc.",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/28.jpg",
+        "imageEn":  "images/sets/bwbb/en/28.jpg"
+    },
+    {
+        "id":  "bwbb-29",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "029/086",
+        "numberEn":  "029/086",
+        "nameJa":  "ãƒ„ãƒ³ãƒ™ã‚¢ãƒ¼",
+        "nameEn":  "Beartic",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  150,
+        "evolvesFrom":  "ã‚¯ãƒžã‚·ãƒ¥ãƒ³",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚Œã‚“ãžããšã¤ã",
+                            "nameEn":  "Continuous Headbutt",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "50Ã—",
+                            "textJa":  "ã‚¦ãƒ©ãŒå‡ºã‚‹ã¾ã§ã‚³ã‚¤ãƒ³ã‚’æŠ•ã’ã€ã‚ªãƒ¢ãƒ†ã®æ•°Ã—50ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "Flip coins until you get tails. This attack does 50 damage for each heads."
+                        },
+                        {
+                            "nameJa":  "ãœã£ãŸã„ã‚Œã„ã©",
+                            "nameEn":  "Absolute Zero",
+                            "cost":  [
+                                         "Water",
+                                         "Water",
+                                         "Water",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "150",
+                            "textJa":  "æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒ¯ã‚¶ã‚’å—ã‘ãŸãƒã‚±ãƒ¢ãƒ³ã¯ã€ãƒ¯ã‚¶ãŒä½¿ãˆãªã„ã€‚",
+                            "textEn":  "During your opponent\u0027s next turn, the Defending PokÃ©mon can\u0027t use any attacks."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Metal",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Tomowaka",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/29.jpg",
+        "imageEn":  "images/sets/bwbb/en/29.jpg"
+    },
+    {
+        "id":  "bwbb-30",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "030/086",
+        "numberEn":  "030/086",
+        "nameJa":  "ãƒ•ãƒªãƒ¼ã‚¸ã‚ª",
+        "nameEn":  "Cryogonal",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã²ããšã‚Šã ã™",
+                            "nameEn":  "Drag Off",
+                            "cost":  [
+                                         "Water"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³ã‚’1åŒ¹é¸ã³ã€ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã¨å…¥ã‚Œæ›¿ãˆã‚‹ã€‚ãã®å¾Œã€æ–°ã—ãå‡ºã¦ããŸãƒã‚±ãƒ¢ãƒ³ã«20ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "Switch 1 of your opponent\u0027s Benched PokÃ©mon with their Active PokÃ©mon. Then, this attack does 20 damage to the new Active PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ã¤ã‚‰ã‚‰",
+                            "nameEn":  "Icicle",
+                            "cost":  [
+                                         "Water"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Metal",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Jerky",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/30.jpg",
+        "imageEn":  "images/sets/bwbb/en/30.jpg"
+    },
+    {
+        "id":  "bwbb-31",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "031/086",
+        "numberEn":  "031/086",
+        "nameJa":  "ã‚­ãƒ¥ãƒ¬ãƒ ex",
+        "nameEn":  "Kyurem ex",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic",
+                         "ex"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  230,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãã‚Šã•ã",
+                            "nameEn":  "Slash",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰ãƒãƒ¼ã‚¹ãƒˆ",
+                            "nameEn":  "Blizzard Burst",
+                            "cost":  [
+                                         "Water",
+                                         "Water",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "130",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³å…¨å“¡ã«ã‚‚ã€ãã‚Œãžã‚Œã€ç›¸æ‰‹ãŒã™ã§ã«ã¨ã£ãŸã‚µã‚¤ãƒ‰ã®æžšæ•°Ã—10ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚ã€”ãƒ™ãƒ³ãƒã¯å¼±ç‚¹ãƒ»æŠµæŠ—åŠ›ã‚’è¨ˆç®—ã—ãªã„ã€‚ã€•",
+                            "textEn":  "This attack also does damage to each of your opponent\u0027s Benched PokÃ©mon equal to the number of Prize cards your opponent has taken Ã—10. (Don\u0027t apply Weakness and Resistance to Benched PokÃ©mon.)"
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Metal",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "Jerky",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/31.jpg",
+        "imageEn":  "images/sets/bwbb/en/31.jpg"
+    },
+    {
+        "id":  "bwbb-32",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "032/086",
+        "numberEn":  "032/086",
+        "nameJa":  "ã‚¨ãƒ¢ãƒ³ã‚¬",
+        "nameEn":  "Emolga",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Lightning"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãªã‹ã¾ã‚’ã‚ˆã¶",
+                            "nameEn":  "Call for Family",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰ãŸã­ãƒã‚±ãƒ¢ãƒ³ã‚’2æžšã¾ã§é¸ã³ã€ãƒ™ãƒ³ãƒã«å‡ºã™ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "Search your deck for up to 2 Basic PokÃ©mon and put them onto your Bench. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ãƒãƒãƒãƒ",
+                            "nameEn":  "Static Shock",
+                            "cost":  [
+                                         "Lightning"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Jerky",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/32.jpg",
+        "imageEn":  "images/sets/bwbb/en/32.jpg"
+    },
+    {
+        "id":  "bwbb-33",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "033/086",
+        "numberEn":  "033/086",
+        "nameJa":  "ã‚·ãƒ“ã‚·ãƒ©ã‚¹",
+        "nameEn":  "Tynamo",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Lightning"
+                  ],
+        "hp":  40,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã˜ã£ã¨ã™ã‚‹",
+                            "nameEn":  "Stay Still",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®HPã‚’ã€Œ10ã€å›žå¾©ã™ã‚‹ã€‚",
+                            "textEn":  "Heal 10 damage from this PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "hncl",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/33.jpg",
+        "imageEn":  "images/sets/bwbb/en/33.jpg"
+    },
+    {
+        "id":  "bwbb-34",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "034/086",
+        "numberEn":  "034/086",
+        "nameJa":  "ã‚·ãƒ“ãƒ“ãƒ¼ãƒ«",
+        "nameEn":  "Eelektrik",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Lightning"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  "ã‚·ãƒ“ã‚·ãƒ©ã‚¹",
+        "abilities":  [
+                          {
+                              "nameJa":  "ã‚¨ãƒ¬ã‚­ãƒ€ã‚¤ãƒŠãƒ¢",
+                              "nameEn":  "Electro Dynamo",
+                              "textJa":  "è‡ªåˆ†ã®ç•ªã«1å›žä½¿ãˆã‚‹ã€‚è‡ªåˆ†ã®ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã‹ã‚‰ã€ŒåŸºæœ¬âš¡ã‚¨ãƒãƒ«ã‚®ãƒ¼ã€ã‚’1æžšé¸ã³ã€ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³ã«ã¤ã‘ã‚‹ã€‚",
+                              "textEn":  "Once during your turn, you may attach a Basic Lightning Energy from your discard pile to 1 of your Benched PokÃ©mon."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒœãƒ¼ãƒ«",
+                            "nameEn":  "Lightning Ball",
+                            "cost":  [
+                                         "Lightning",
+                                         "Lightning",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "takuyoa",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/34.jpg",
+        "imageEn":  "images/sets/bwbb/en/34.jpg"
+    },
+    {
+        "id":  "bwbb-35",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "035/086",
+        "numberEn":  "035/086",
+        "nameJa":  "ã‚·ãƒ“ãƒ«ãƒ‰ãƒ³",
+        "nameEn":  "Eelektross",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Lightning"
+                  ],
+        "hp":  160,
+        "evolvesFrom":  "ã‚·ãƒ“ãƒ“ãƒ¼ãƒ«",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‹ã¿ãªã‚Šã®ã‚­ãƒ",
+                            "nameEn":  "Thunder Fang",
+                            "cost":  [
+                                         "Lightning"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "60",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚ªãƒ¢ãƒ†ãªã‚‰ã€ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ãƒžãƒ’ã«ã™ã‚‹ã€‚",
+                            "textEn":  "Flip a coin. If heads, your opponent\u0027s Active PokÃ©mon is now Paralyzed."
+                        },
+                        {
+                            "nameJa":  "ãƒãƒªãƒãƒªã‹ã„ã¦ã‚“",
+                            "nameEn":  "Rolling Thunderbolt",
+                            "cost":  [
+                                         "Lightning",
+                                         "Lightning",
+                                         "Lightning",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "100Ã—",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’4å›žæŠ•ã’ã€ã‚ªãƒ¢ãƒ†ã®æ•°Ã—100ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "Flip 4 coins. This attack does 100 damage for each heads."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Eri Kamei",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/35.jpg",
+        "imageEn":  "images/sets/bwbb/en/35.jpg"
+    },
+    {
+        "id":  "bwbb-36",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "036/086",
+        "numberEn":  "036/086",
+        "nameJa":  "ãƒœãƒ«ãƒˆãƒ­ã‚¹",
+        "nameEn":  "Thundurus",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Lightning"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã˜ã‚…ã†ã§ã‚“",
+                            "nameEn":  "Charge",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰ã€ŒåŸºæœ¬âš¡ã‚¨ãƒãƒ«ã‚®ãƒ¼ã€ã‚’1æžšé¸ã³ã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã‘ã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "Search your deck for a Basic Lightning Energy and attach it to this PokÃ©mon. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ãƒ‡ã‚£ã‚¶ã‚¹ã‚¿ãƒ¼ãƒœãƒ«ãƒˆ",
+                            "nameEn":  "Disaster Volt",
+                            "cost":  [
+                                         "Lightning",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "110",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’1å€‹é¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Discard an Energy from this PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Eri Kamei",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/36.jpg",
+        "imageEn":  "images/sets/bwbb/en/36.jpg"
+    },
+    {
+        "id":  "bwbb-37",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "037/086",
+        "numberEn":  "037/086",
+        "nameJa":  "ã‚¼ã‚¯ãƒ­ãƒ ex",
+        "nameEn":  "Zekrom ex",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic",
+                         "ex"
+                     ],
+        "types":  [
+                      "Lightning"
+                  ],
+        "hp":  230,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãã‚Šã•ã",
+                            "nameEn":  "Slash",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ãƒœãƒ«ãƒ†ãƒ¼ã‚¸ãƒãƒ¼ã‚¹ãƒˆ",
+                            "nameEn":  "Voltage Burst",
+                            "cost":  [
+                                         "Lightning",
+                                         "Lightning",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "130+",
+                            "textJa":  "ç›¸æ‰‹ãŒã™ã§ã«ã¨ã£ãŸã‚µã‚¤ãƒ‰ã®æžšæ•°Ã—50ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã‚‚30ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This attack does 50 more damage for each Prize card your opponent has taken. This PokÃ©mon also does 30 damage to itself."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "LINNE",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/37.jpg",
+        "imageEn":  "images/sets/bwbb/en/37.jpg"
+    },
+    {
+        "id":  "bwbb-38",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "038/086",
+        "numberEn":  "038/086",
+        "nameJa":  "ãƒ ãƒ³ãƒŠ",
+        "nameEn":  "Munna",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã­ã‚€ã‚‹",
+                            "nameEn":  "Sleep",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã‚’ã­ã‚€ã‚Šã«ã™ã‚‹ã€‚ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®HPã‚’ã€Œ30ã€å›žå¾©ã™ã‚‹ã€‚",
+                            "textEn":  "This PokÃ©mon is now Asleep. Heal 30 damage from this PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ã¤ã¶ã‚„ã",
+                            "nameEn":  "Mumble",
+                            "cost":  [
+                                         "Psychic"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "LINNE",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/38.jpg",
+        "imageEn":  "images/sets/bwbb/en/38.jpg"
+    },
+    {
+        "id":  "bwbb-39",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "039/086",
+        "numberEn":  "039/086",
+        "nameJa":  "ãƒ ã‚·ãƒ£ãƒ¼ãƒŠ",
+        "nameEn":  "Musharna",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "ãƒ ãƒ³ãƒŠ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ‰ãƒªãƒ¼ãƒ ã‚³ãƒ¼ãƒ«",
+                            "nameEn":  "Dream Call",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰ã€Œãƒžã‚³ãƒ¢ã€ã‚’å¥½ããªã ã‘é¸ã³ã€ç›¸æ‰‹ã«è¦‹ã›ã¦ã€æ‰‹æœ­ã«åŠ ãˆã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "Search your deck for as many Fennel cards as you like, reveal them, and put them into your hand. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ã­ã‚€ã‚Šã®ã¯ã©ã†",
+                            "nameEn":  "Sleep Wave",
+                            "cost":  [
+                                         "Psychic"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "50",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã­ã‚€ã‚Šã«ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent\u0027s Active PokÃ©mon is now Asleep."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "LINNE",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/39.jpg",
+        "imageEn":  "images/sets/bwbb/en/39.jpg"
+    },
+    {
+        "id":  "bwbb-40",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "040/086",
+        "numberEn":  "040/086",
+        "nameJa":  "ãƒ¦ãƒ‹ãƒ©ãƒ³",
+        "nameEn":  "Solosis",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  40,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã“ã‚ãŒã‚‹",
+                            "nameEn":  "Roll",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Apios",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/40.jpg",
+        "imageEn":  "images/sets/bwbb/en/40.jpg"
+    },
+    {
+        "id":  "bwbb-41",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "041/086",
+        "numberEn":  "041/086",
+        "nameJa":  "ãƒ€ãƒ–ãƒ©ãƒ³",
+        "nameEn":  "Duosion",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  "ãƒ¦ãƒ‹ãƒ©ãƒ³",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã•ã„ã¼ã†ã—ã‚“ã‹",
+                            "nameEn":  "Cell Divide",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å ´ã®ãƒã‚±ãƒ¢ãƒ³1åŒ¹ã‹ã‚‰é€²åŒ–ã™ã‚‹ã‚«ãƒ¼ãƒ‰ã‚’ã€è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰1æžšé¸ã³ã€ãã®ãƒã‚±ãƒ¢ãƒ³ã«ã®ã›ã¦é€²åŒ–ã•ã›ã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "Search your deck for a card that evolves from 1 of your PokÃ©mon and put it on that PokÃ©mon to evolve it. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ã—ã‚‹ã‚’ã¨ã°ã™",
+                            "nameEn":  "Acid Spray",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Apios",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/41.jpg",
+        "imageEn":  "images/sets/bwbb/en/41.jpg"
+    },
+    {
+        "id":  "bwbb-42",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "042/086",
+        "numberEn":  "042/086",
+        "nameJa":  "ãƒ©ãƒ³ã‚¯ãƒ«ã‚¹",
+        "nameEn":  "Reuniclus",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  140,
+        "evolvesFrom":  "ãƒ€ãƒ–ãƒ©ãƒ³",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã•ã„ã¼ã†ã‹ãã›ã„",
+                            "nameEn":  "Cell Proliferation",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³å…¨å“¡ã‹ã‚‰ãã‚Œãžã‚Œé€²åŒ–ã™ã‚‹ã‚«ãƒ¼ãƒ‰ã‚’ã€è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰1æžšãšã¤é¸ã³ã€ãã‚Œãžã‚Œã«ã®ã›ã¦é€²åŒ–ã•ã›ã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "Search your deck for cards that evolve from each of your Benched PokÃ©mon and put them on those PokÃ©mon to evolve them. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ã‚¨ãƒœãƒ«ãƒ©ãƒªã‚¢ãƒƒãƒˆ",
+                            "nameEn":  "Evollasso",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "40+",
+                            "textJa":  "è‡ªåˆ†ã®å ´ã®é€²åŒ–ãƒã‚±ãƒ¢ãƒ³ã®æ•°Ã—40ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "This attack does 40 more damage for each Evolution PokÃ©mon you have in play."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Uta",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/42.jpg",
+        "imageEn":  "images/sets/bwbb/en/42.jpg"
+    },
+    {
+        "id":  "bwbb-43",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "043/086",
+        "numberEn":  "043/086",
+        "nameJa":  "ãƒªã‚°ãƒ¬ãƒ¼",
+        "nameEn":  "Elgyem",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¡ã‚‡ã£ã¨ãšã‚‰ã™",
+                            "nameEn":  "Energy Move",
+                            "cost":  [
+                                         "Psychic"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ç›¸æ‰‹ã®å ´ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’1å€‹é¸ã³ã€ç›¸æ‰‹ã®åˆ¥ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã‘æ›¿ãˆã‚‹ã€‚",
+                            "textEn":  "Move an Energy from 1 of your opponent\u0027s PokÃ©mon to another of your opponent\u0027s PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ãƒ“ãƒ¼ãƒ ",
+                            "nameEn":  "Beam",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "40",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Uta",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/43.jpg",
+        "imageEn":  "images/sets/bwbb/en/43.jpg"
+    },
+    {
+        "id":  "bwbb-44",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "044/086",
+        "numberEn":  "044/086",
+        "nameJa":  "ã‚ªãƒ¼ãƒ™ãƒ ",
+        "nameEn":  "Beheeyem",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  "ãƒªã‚°ãƒ¬ãƒ¼",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚ã„ãã†",
+                            "nameEn":  "Meditation",
+                            "cost":  [
+                                         "Psychic"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®HPã‚’ã€Œ40ã€å›žå¾©ã™ã‚‹ã€‚",
+                            "textEn":  "Heal 40 damage from this PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ã‚µã‚¤ã‚³ã‚­ãƒã‚·ã‚¹",
+                            "nameEn":  "Psychokinesis",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "80+",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã®æ•°Ã—30ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "This attack does 30 more damage for each Energy attached to your opponent\u0027s Active PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "5ban Graphics",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/44.jpg",
+        "imageEn":  "images/sets/bwbb/en/44.jpg"
+    },
+    {
+        "id":  "bwbb-45",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "045/086",
+        "numberEn":  "045/086",
+        "nameJa":  "ã‚´ãƒ“ãƒƒãƒˆ",
+        "nameEn":  "Golett",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãœã‚“ã‚Šã‚‡ããƒ‘ãƒ³ãƒ",
+                            "nameEn":  "All-Out Punch",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚¦ãƒ©ãªã‚‰ã€ã“ã®ãƒ¯ã‚¶ã¯å¤±æ•—ã€‚",
+                            "textEn":  "Flip a coin. If tails, this attack fails."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "OKACHEKE",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/45.jpg",
+        "imageEn":  "images/sets/bwbb/en/45.jpg"
+    },
+    {
+        "id":  "bwbb-46",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "046/086",
+        "numberEn":  "046/086",
+        "nameJa":  "ã‚´ãƒ«ãƒ¼ã‚°",
+        "nameEn":  "Golurk",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  160,
+        "evolvesFrom":  "ã‚´ãƒ“ãƒƒãƒˆ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ€ãƒ–ãƒ«ã‚¹ãƒžãƒƒã‚·ãƒ¥",
+                            "nameEn":  "Double Smash",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "80Ã—",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’2å›žæŠ•ã’ã€ã‚ªãƒ¢ãƒ†ã®æ•°Ã—80ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "Flip 2 coins. This attack does 80 damage for each heads."
+                        },
+                        {
+                            "nameJa":  "ã‚´ãƒ«ãƒ¼ã‚°ãƒãƒ³ãƒžãƒ¼",
+                            "nameEn":  "Golurk Hammer",
+                            "cost":  [
+                                         "Psychic",
+                                         "Psychic",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  5,
+                            "damage":  "200",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "N-DESIGN Inc.",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/46.jpg",
+        "imageEn":  "images/sets/bwbb/en/46.jpg"
+    },
+    {
+        "id":  "bwbb-47",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "047/086",
+        "numberEn":  "047/086",
+        "nameJa":  "ãƒ¡ãƒ­ã‚¨ãƒƒã‚¿ex",
+        "nameEn":  "Meloetta ex",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic",
+                         "ex"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  200,
+        "evolvesFrom":  null,
+        "abilities":  [
+                          {
+                              "nameJa":  "ãƒ‡ãƒ“ãƒ¥ãƒ¼ãƒ©ã‚¤ãƒ–",
+                              "nameEn":  "Debut Live",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ã€å…ˆæ”»ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®æœ€åˆã®ç•ªã§ã‚‚ã€ãƒ¯ã‚¶ãŒä½¿ãˆã‚‹ã€‚",
+                              "textEn":  "This PokÃ©mon may attack during the first turn of the game, even if you go first."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚¨ã‚³ãƒ¼ãƒœã‚¤ã‚¹",
+                            "nameEn":  "Echoed Voice",
+                            "cost":  [
+                                         "Psychic"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "æ¬¡ã®è‡ªåˆ†ã®ç•ªã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®ã€Œã‚¨ã‚³ãƒ¼ãƒœã‚¤ã‚¹ã€ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯ã€Œ+80ã€ã•ã‚Œã‚‹ã€‚",
+                            "textEn":  "During your next turn, this PokÃ©mon\u0027s Echoed Voice attack does 80 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "Shinya Mizuno",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/47.jpg",
+        "imageEn":  "images/sets/bwbb/en/47.jpg"
+    },
+    {
+        "id":  "bwbb-48",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "048/086",
+        "numberEn":  "048/086",
+        "nameJa":  "ãƒ¢ã‚°ãƒªãƒ¥ãƒ¼",
+        "nameEn":  "Drilbur",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã©ã‚ã‹ã‘",
+                            "nameEn":  "Mud-Slap",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ã©ã¤ã",
+                            "nameEn":  "Body Slam",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Shinya Mizuno",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/48.jpg",
+        "imageEn":  "images/sets/bwbb/en/48.jpg"
+    },
+    {
+        "id":  "bwbb-49",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "049/086",
+        "numberEn":  "049/086",
+        "nameJa":  "ãƒ‰ãƒªãƒ¥ã‚¦ã‚ºex",
+        "nameEn":  "Excadrill ex",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1",
+                         "ex"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  270,
+        "evolvesFrom":  "ãƒ¢ã‚°ãƒªãƒ¥ãƒ¼",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‹ã‚“ã¤ã†ãƒ‰ãƒªãƒ«",
+                            "nameEn":  "Drill Blast",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "ãƒ€ãƒ¡ã‚«ãƒ³ãŒã®ã£ã¦ã„ã‚‹ç›¸æ‰‹ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³1åŒ¹ã«ã‚‚ã€60ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚ã€”ãƒ™ãƒ³ãƒã¯å¼±ç‚¹ãƒ»æŠµæŠ—åŠ›ã‚’è¨ˆç®—ã—ãªã„ã€‚ã€•",
+                            "textEn":  "This attack also does 60 damage to 1 of your opponent\u0027s Benched PokÃ©mon that has any damage counters on it. (Don\u0027t apply Weakness and Resistance to Benched PokÃ©mon.)"
+                        },
+                        {
+                            "nameJa":  "ãŒã‚“ã›ããŠã¨ã—",
+                            "nameEn":  "Rock Fall",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "200",
+                            "textJa":  "ã“ã®ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯æŠµæŠ—åŠ›ã‚’è¨ˆç®—ã—ãªã„ã€‚",
+                            "textEn":  "This attack\u0027s damage isn\u0027t affected by Resistance."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "Shinya Mizuno",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/49.jpg",
+        "imageEn":  "images/sets/bwbb/en/49.jpg"
+    },
+    {
+        "id":  "bwbb-50",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "050/086",
+        "numberEn":  "050/086",
+        "nameJa":  "ãƒ‰ãƒƒã‚³ãƒ©ãƒ¼",
+        "nameEn":  "Timburr",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‘ãŸãã‚Š",
+                            "nameEn":  "Low Kick",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ã‹ã„ã‚Šã",
+                            "nameEn":  "Strength",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Shin Nagasawa",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/50.jpg",
+        "imageEn":  "images/sets/bwbb/en/50.jpg"
+    },
+    {
+        "id":  "bwbb-51",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "051/086",
+        "numberEn":  "051/086",
+        "nameJa":  "ãƒ‰ãƒ†ãƒƒã‚³ãƒ„",
+        "nameEn":  "Gurdurr",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒ‰ãƒƒã‚³ãƒ©ãƒ¼",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‘ãŸãã‚Š",
+                            "nameEn":  "Low Kick",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ã‚¢ãƒ¼ãƒ ãƒãƒ³ãƒžãƒ¼",
+                            "nameEn":  "Arm Hammer",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "60",
+                            "textJa":  "ç›¸æ‰‹ã®å±±æœ­ã‚’ä¸Šã‹ã‚‰1æžšãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Discard the top card of your opponent\u0027s deck."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Tetsu Kayama",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/51.jpg",
+        "imageEn":  "images/sets/bwbb/en/51.jpg"
+    },
+    {
+        "id":  "bwbb-52",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "052/086",
+        "numberEn":  "052/086",
+        "nameJa":  "ãƒ­ãƒ¼ãƒ–ã‚·ãƒ³",
+        "nameEn":  "Conkeldurr",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  140,
+        "evolvesFrom":  "ãƒ‰ãƒ†ãƒƒã‚³ãƒ„",
+        "abilities":  [
+                          {
+                              "nameJa":  "ãƒžã‚¹ã‚¿ãƒ¼ã‚¢ãƒ¼ãƒ„",
+                              "nameEn":  "Master Arts",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹é—˜ã‚¨ãƒãƒ«ã‚®ãƒ¼1å€‹ã«ã¤ãã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®æœ€å¤§HPã¯ã€Œ+40ã€ã•ã‚Œã‚‹ã€‚",
+                              "textEn":  "For each Fighting Energy attached to this PokÃ©mon, this PokÃ©mon\u0027s maximum HP is 40 more."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãµã‚Šã¾ã‚ã™",
+                            "nameEn":  "Swing Around",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "100+",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’2å›žæŠ•ã’ã€ã‚ªãƒ¢ãƒ†ã®æ•°Ã—50ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "Flip 2 coins. This attack does 50 more damage for each heads."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Tetsu Kayama",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/52.jpg",
+        "imageEn":  "images/sets/bwbb/en/52.jpg"
+    },
+    {
+        "id":  "bwbb-53",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "053/086",
+        "numberEn":  "053/086",
+        "nameJa":  "ãƒŠã‚²ã‚­",
+        "nameEn":  "Throh",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã›ãŠã„ãªã’",
+                            "nameEn":  "Seismic Toss",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "120-",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã®ã«ã’ã‚‹ãŸã‚ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼ã®æ•°Ã—30ãƒ€ãƒ¡ãƒ¼ã‚¸ã¶ã‚“ã€ã“ã®ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯å°ã•ããªã‚‹ã€‚",
+                            "textEn":  "This attack does 30 less damage for each Energy in your opponent\u0027s Active PokÃ©mon\u0027s Retreat Cost."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Kazumasa Yasukuni",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/53.jpg",
+        "imageEn":  "images/sets/bwbb/en/53.jpg"
+    },
+    {
+        "id":  "bwbb-54",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "054/086",
+        "numberEn":  "054/086",
+        "nameJa":  "ã‚¤ã‚·ã‚ºãƒžã‚¤",
+        "nameEn":  "Dwebble",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã˜ãŸã°ãŸ",
+                            "nameEn":  "Flail",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10Ã—",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã®ã£ã¦ã„ã‚‹ãƒ€ãƒ¡ã‚«ãƒ³ã®æ•°Ã—10ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This attack does 10 damage for each damage counter on this PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ãƒ„ãƒ¡ã‚’ãŸã¦ã‚‹",
+                            "nameEn":  "Slash",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "okayamatakatoshi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/54.jpg",
+        "imageEn":  "images/sets/bwbb/en/54.jpg"
+    },
+    {
+        "id":  "bwbb-55",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "055/086",
+        "numberEn":  "055/086",
+        "nameJa":  "ã‚¤ãƒ¯ãƒ‘ãƒ¬ã‚¹",
+        "nameEn":  "Crustle",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  150,
+        "evolvesFrom":  "ã‚¤ã‚·ã‚ºãƒžã‚¤",
+        "abilities":  [
+                          {
+                              "nameJa":  "ãŒã‚“ã˜ã‚‡ã†",
+                              "nameEn":  "Sturdy",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã®HPãŒã¾ã‚“ãŸã‚“ã®çŠ¶æ…‹ã§ã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ãŒãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’å—ã‘ã¦ããœã¤ã™ã‚‹ã¨ãã€ããœã¤ã›ãšã€æ®‹ã‚ŠHPãŒã€Œ10ã€ã®çŠ¶æ…‹ã§å ´ã«æ®‹ã‚‹ã€‚",
+                              "textEn":  "If this PokÃ©mon would be Knocked Out by damage from an attack while it has full HP, it is not Knocked Out, and its remaining HP becomes 10."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚¹ãƒˆãƒ¼ãƒ³ã‚¨ãƒƒã‚¸",
+                            "nameEn":  "Stone Edge",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "80+",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚ªãƒ¢ãƒ†ãªã‚‰ã€60ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "Flip a coin. If heads, this attack does 60 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "okayamatakatoshi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/55.jpg",
+        "imageEn":  "images/sets/bwbb/en/55.jpg"
+    },
+    {
+        "id":  "bwbb-56",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "056/086",
+        "numberEn":  "056/086",
+        "nameJa":  "ãƒ©ãƒ³ãƒ‰ãƒ­ã‚¹",
+        "nameEn":  "Landorus",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã»ã†ã•ã",
+                            "nameEn":  "Bountiful Harvest",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã‹ã‚‰ã€ŒåŸºæœ¬é—˜ã‚¨ãƒãƒ«ã‚®ãƒ¼ã€ã‚’1æžšé¸ã³ã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã‘ã‚‹ã€‚",
+                            "textEn":  "Attach a Basic Fighting Energy from your discard pile to this PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ã˜ã—ã‚“",
+                            "nameEn":  "Earthquake",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "110",
+                            "textJa":  "è‡ªåˆ†ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³å…¨å“¡ã«ã‚‚ã€ãã‚Œãžã‚Œ10ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚ã€”ãƒ™ãƒ³ãƒã¯å¼±ç‚¹ãƒ»æŠµæŠ—åŠ›ã‚’è¨ˆç®—ã—ãªã„ã€‚ã€•",
+                            "textEn":  "This attack also does 10 damage to each of your Benched PokÃ©mon. (Don\u0027t apply Weakness and Resistance to Benched PokÃ©mon.)"
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "okayamatakatoshi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/56.jpg",
+        "imageEn":  "images/sets/bwbb/en/56.jpg"
+    },
+    {
+        "id":  "bwbb-57",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "057/086",
+        "numberEn":  "057/086",
+        "nameJa":  "ãƒ•ã‚·ãƒ‡",
+        "nameEn":  "Venipede",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã©ãã‚’ã¨ã°ã™",
+                            "nameEn":  "Poison Fang",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã‚’ã©ãã«ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent\u0027s Active PokÃ©mon is now Poisoned."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Gapao",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/57.jpg",
+        "imageEn":  "images/sets/bwbb/en/57.jpg"
+    },
+    {
+        "id":  "bwbb-58",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "058/086",
+        "numberEn":  "058/086",
+        "nameJa":  "ãƒ›ã‚¤ãƒ¼ã‚¬",
+        "nameEn":  "Whirlipede",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒ•ã‚·ãƒ‡",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ™ãƒŽãƒ ã‚·ãƒ§ãƒƒã‚¯",
+                            "nameEn":  "Venom Shock",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30+",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ãŒã©ããªã‚‰ã€60ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If your opponent\u0027s Active PokÃ©mon is Poisoned, this attack does 60 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Gapao",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/58.jpg",
+        "imageEn":  "images/sets/bwbb/en/58.jpg"
+    },
+    {
+        "id":  "bwbb-59",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "059/086",
+        "numberEn":  "059/086",
+        "nameJa":  "ãƒšãƒ³ãƒ‰ãƒ©ãƒ¼",
+        "nameEn":  "Scolipede",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  160,
+        "evolvesFrom":  "ãƒ›ã‚¤ãƒ¼ã‚¬",
+        "abilities":  [
+                          {
+                              "nameJa":  "ã©ãã®ãƒˆã‚²",
+                              "nameEn":  "Poison Spikes",
+                              "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ãŒã€ãƒãƒˆãƒ«å ´ã§ç›¸æ‰‹ã®ãƒã‚±ãƒ¢ãƒ³ã‹ã‚‰ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’å—ã‘ãŸã¨ãã€ãƒ¯ã‚¶ã‚’ä½¿ã£ãŸãƒã‚±ãƒ¢ãƒ³ã‚’ã©ãã«ã™ã‚‹ã€‚",
+                              "textEn":  "When this PokÃ©mon is damaged by an attack from your opponent\u0027s PokÃ©mon, the attacking PokÃ©mon is now Poisoned."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ™ãƒŽãƒ ã‚·ãƒ§ãƒƒã‚¯",
+                            "nameEn":  "Venom Shock",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "90+",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ãŒã©ããªã‚‰ã€90ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If your opponent\u0027s Active PokÃ©mon is Poisoned, this attack does 90 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Gapao",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/59.jpg",
+        "imageEn":  "images/sets/bwbb/en/59.jpg"
+    },
+    {
+        "id":  "bwbb-60",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "060/086",
+        "numberEn":  "060/086",
+        "nameJa":  "ãƒ¡ã‚°ãƒ­ã‚³",
+        "nameEn":  "Sandile",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚·ãƒ¡ã‚‹",
+                            "nameEn":  "Stranglehold",
+                            "cost":  [
+                                         "Darkness"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "ç›¸æ‰‹ã¯ç›¸æ‰‹è‡ªèº«ã®æ‰‹æœ­ã‚’1æžšé¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent discards a card from their hand."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "DOM",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/60.jpg",
+        "imageEn":  "images/sets/bwbb/en/60.jpg"
+    },
+    {
+        "id":  "bwbb-61",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "061/086",
+        "numberEn":  "061/086",
+        "nameJa":  "ãƒ¯ãƒ«ãƒ“ãƒ«",
+        "nameEn":  "Krokorok",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒ¡ã‚°ãƒ­ã‚³",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚·ãƒ¡ã‚‹",
+                            "nameEn":  "Stranglehold",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "40",
+                            "textJa":  "ç›¸æ‰‹ã¯ç›¸æ‰‹è‡ªèº«ã®æ‰‹æœ­ã‚’2æžšé¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent discards 2 cards from their hand."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Amelicart",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/61.jpg",
+        "imageEn":  "images/sets/bwbb/en/61.jpg"
+    },
+    {
+        "id":  "bwbb-62",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "062/086",
+        "numberEn":  "062/086",
+        "nameJa":  "ãƒ¯ãƒ«ãƒ“ã‚¢ãƒ«",
+        "nameEn":  "Krookodile",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  170,
+        "evolvesFrom":  "ãƒ¯ãƒ«ãƒ“ãƒ«",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚·ãƒ¡ã‚‹",
+                            "nameEn":  "Stranglehold",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "ç›¸æ‰‹ã¯ç›¸æ‰‹è‡ªèº«ã®æ‰‹æœ­ã‚’2æžšé¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Your opponent discards 2 cards from their hand."
+                        },
+                        {
+                            "nameJa":  "ã‚«ãƒ¼ã‚¹ãƒ‰ã‚¹ãƒ©ãƒƒã‚°",
+                            "nameEn":  "Cursed Slug",
+                            "cost":  [
+                                         "Darkness",
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "120+",
+                            "textJa":  "ç›¸æ‰‹ã®æ‰‹æœ­ãŒ3æžšä»¥ä¸‹ãªã‚‰ã€120ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If your opponent has 3 or fewer cards in their hand, this attack does 120 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Amelicart",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/62.jpg",
+        "imageEn":  "images/sets/bwbb/en/62.jpg"
+    },
+    {
+        "id":  "bwbb-63",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "063/086",
+        "numberEn":  "063/086",
+        "nameJa":  "ãƒãƒ«ãƒãƒ£ã‚¤",
+        "nameEn":  "Rufflet",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚„ã‚“ã¡ã‚ƒã’ã‚Š",
+                            "nameEn":  "Naughty Kick",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Amelicart",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/63.jpg",
+        "imageEn":  "images/sets/bwbb/en/63.jpg"
+    },
+    {
+        "id":  "bwbb-64",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "064/086",
+        "numberEn":  "064/086",
+        "nameJa":  "ãƒãƒ«ã‚¸ãƒ¼ãƒŠ",
+        "nameEn":  "Braviary",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  "ãƒãƒ«ãƒãƒ£ã‚¤",
+        "abilities":  [
+                          {
+                              "nameJa":  "ãˆã‚‚ã®ã‚’ã­ã‚‰ã†",
+                              "nameEn":  "Prey Hunting",
+                              "textJa":  "è‡ªåˆ†ã®ç•ªã«1å›žä½¿ãˆã‚‹ã€‚ç›¸æ‰‹ã®æ‰‹æœ­ã‚’è¦‹ã¦ã€ãã®ä¸­ã‹ã‚‰ã€HPãŒã€Œ70ã€ä»¥ä¸‹ã®ãŸã­ãƒã‚±ãƒ¢ãƒ³ã‚’1æžšé¸ã³ã€ç›¸æ‰‹ã®ãƒ™ãƒ³ãƒã«å‡ºã™ã€‚",
+                              "textEn":  "Once during your turn, look at your opponent\u0027s hand. You may put a Basic PokÃ©mon with 70 HP or less from there onto your opponent\u0027s Bench."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚«ãƒƒã‚¿ãƒ¼ã‚¦ã‚¤ãƒ³ãƒ‰",
+                            "nameEn":  "Cutter Wind",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "90",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Oku",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/64.jpg",
+        "imageEn":  "images/sets/bwbb/en/64.jpg"
+    },
+    {
+        "id":  "bwbb-65",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "065/086",
+        "numberEn":  "065/086",
+        "nameJa":  "ã‚·ãƒ¥ãƒãƒ«ã‚´",
+        "nameEn":  "Escavalier",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  "ã‚«ãƒ–ãƒ«ãƒ¢",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ¯ã‚¤ãƒ«ãƒ‰ãƒ©ãƒ³ã‚¹",
+                            "nameEn":  "Wild Lance",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "90",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã‚‚30ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "This PokÃ©mon also does 30 damage to itself."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Oku",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/65.jpg",
+        "imageEn":  "images/sets/bwbb/en/65.jpg"
+    },
+    {
+        "id":  "bwbb-66",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "066/086",
+        "numberEn":  "066/086",
+        "nameJa":  "ã‚³ãƒžã‚¿ãƒŠ",
+        "nameEn":  "Pawniard",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãŠã„ã¤ã‚ã‚‹",
+                            "nameEn":  "Corner",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒ¯ã‚¶ã‚’å—ã‘ãŸãƒã‚±ãƒ¢ãƒ³ã¯ã€ã«ã’ã‚‰ã‚Œãªã„ã€‚",
+                            "textEn":  "During your opponent\u0027s next turn, the Defending PokÃ©mon can\u0027t retreat."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "HICO KIM",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/66.jpg",
+        "imageEn":  "images/sets/bwbb/en/66.jpg"
+    },
+    {
+        "id":  "bwbb-67",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "067/086",
+        "numberEn":  "067/086",
+        "nameJa":  "ã‚­ãƒªã‚­ã‚¶ãƒ³",
+        "nameEn":  "Bisharp",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "ã‚³ãƒžã‚¿ãƒŠ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãã‚‹",
+                            "nameEn":  "Cut",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "40",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ã¨ã©ã‚ã‚’ã•ã™",
+                            "nameEn":  "Finishing Blow",
+                            "cost":  [
+                                         "Metal",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60+",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã«ãƒ€ãƒ¡ã‚«ãƒ³ãŒã®ã£ã¦ã„ã‚‹ãªã‚‰ã€60ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If your opponent\u0027s Active PokÃ©mon has any damage counters on it, this attack does 60 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "5ban Graphics",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/67.jpg",
+        "imageEn":  "images/sets/bwbb/en/67.jpg"
+    },
+    {
+        "id":  "bwbb-68",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "068/086",
+        "numberEn":  "068/086",
+        "nameJa":  "ã‚³ãƒãƒ«ã‚ªãƒ³",
+        "nameEn":  "Cobalion",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ›ãƒ¼ãƒªãƒ¼ã‚¨ãƒƒã‚¸",
+                            "nameEn":  "Sacred Edge",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ç‰¹æ®Šã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’1å€‹é¸ã³ã€ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹ã€‚",
+                            "textEn":  "Discard a Special Energy from your opponent\u0027s Active PokÃ©mon."
+                        },
+                        {
+                            "nameJa":  "ãƒ¡ã‚¿ãƒ«ã‚¢ãƒ¼ãƒ ã‚º",
+                            "nameEn":  "Metal Arms",
+                            "cost":  [
+                                         "Metal",
+                                         "Metal",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "80+",
+                            "textJa":  "ã“ã®ãƒã‚±ãƒ¢ãƒ³ã«ã€Œãƒã‚±ãƒ¢ãƒ³ã®ã©ã†ãã€ãŒã¤ã„ã¦ã„ã‚‹ãªã‚‰ã€40ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If this PokÃ©mon has a PokÃ©mon Tool attached to it, this attack does 40 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Taiga Kasai",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/68.jpg",
+        "imageEn":  "images/sets/bwbb/en/68.jpg"
+    },
+    {
+        "id":  "bwbb-69",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "069/086",
+        "numberEn":  "069/086",
+        "nameJa":  "ã‚²ãƒŽã‚»ã‚¯ãƒˆex",
+        "nameEn":  "Genesect ex",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic",
+                         "ex"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  220,
+        "evolvesFrom":  null,
+        "abilities":  [
+                          {
+                              "nameJa":  "ãƒ¡ã‚¿ãƒ«ã‚·ã‚°ãƒŠãƒ«",
+                              "nameEn":  "Metal Signal",
+                              "textJa":  "è‡ªåˆ†ã®ç•ªã«1å›žä½¿ãˆã‚‹ã€‚è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰é‹¼ã‚¿ã‚¤ãƒ—ã®é€²åŒ–ãƒã‚±ãƒ¢ãƒ³ã‚’2æžšã¾ã§é¸ã³ã€ç›¸æ‰‹ã«è¦‹ã›ã¦ã€æ‰‹æœ­ã«åŠ ãˆã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                              "textEn":  "Once during your turn, you may search your deck for up to 2 Metal-type Evolution PokÃ©mon, reveal them, and put them into your hand. Then, shuffle your deck."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãƒ—ãƒ­ãƒ†ã‚¯ãƒˆãƒãƒ£ãƒ¼ã‚¸",
+                            "nameEn":  "Protect Charge",
+                            "cost":  [
+                                         "Metal",
+                                         "Metal",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "150",
+                            "textJa":  "æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ãŒå—ã‘ã‚‹ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯ã€Œ-30ã€ã•ã‚Œã‚‹ã€‚",
+                            "textEn":  "During your opponent\u0027s next turn, this PokÃ©mon takes 30 less damage from attacks."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "Taiga Kasai",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/69.jpg",
+        "imageEn":  "images/sets/bwbb/en/69.jpg"
+    },
+    {
+        "id":  "bwbb-70",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "070/086",
+        "numberEn":  "070/086",
+        "nameJa":  "ã‚­ãƒã‚´",
+        "nameEn":  "Axew",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Dragon"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¡ã‹ã‚‰ã‚’ã‚ã¤ã‚ã‚‹",
+                            "nameEn":  "Gather Strength",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰åŸºæœ¬ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’2æžšã¾ã§é¸ã³ã€ç›¸æ‰‹ã«è¦‹ã›ã¦ã€æ‰‹æœ­ã«åŠ ãˆã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+                            "textEn":  "Search your deck for up to 2 Basic Energy, reveal them, and put them into your hand. Then, shuffle your deck."
+                        }
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Taiga Kasai",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/70.jpg",
+        "imageEn":  "images/sets/bwbb/en/70.jpg"
+    },
+    {
+        "id":  "bwbb-71",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "071/086",
+        "numberEn":  "071/086",
+        "nameJa":  "ã‚ªãƒŽãƒ³ãƒ‰",
+        "nameEn":  "Fraxure",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Dragon"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ã‚­ãƒã‚´",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‹ã¿ã¤ã",
+                            "nameEn":  "Bite",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "ãã“ã˜ã‹ã‚‰",
+                            "nameEn":  "Power From Depths",
+                            "cost":  [
+                                         "Fighting",
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "90",
+                            "textJa":  "æ¬¡ã®è‡ªåˆ†ã®ç•ªã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ãƒ¯ã‚¶ãŒä½¿ãˆãªã„ã€‚",
+                            "textEn":  "During your next turn, this PokÃ©mon can\u0027t attack."
+                        }
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Tomomi Ozaki",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/71.jpg",
+        "imageEn":  "images/sets/bwbb/en/71.jpg"
+    },
+    {
+        "id":  "bwbb-72",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "072/086",
+        "numberEn":  "072/086",
+        "nameJa":  "ã‚ªãƒŽãƒŽã‚¯ã‚¹",
+        "nameEn":  "Haxorus",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Dragon"
+                  ],
+        "hp":  170,
+        "evolvesFrom":  "ã‚ªãƒŽãƒ³ãƒ‰",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãµã‚ŠãŠã‚ã™",
+                            "nameEn":  "Axe Down",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "80+",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ãŒé€²åŒ–ãƒã‚±ãƒ¢ãƒ³ãªã‚‰ã€80ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "If your opponent\u0027s Active PokÃ©mon is an Evolution PokÃ©mon, this attack does 80 more damage."
+                        },
+                        {
+                            "nameJa":  "ã‚¢ãƒƒã‚¯ã‚¹ãƒœãƒ³ãƒãƒ¼",
+                            "nameEn":  "Axe Bomber",
+                            "cost":  [
+                                         "Fighting",
+                                         "Metal",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "",
+                            "textJa":  "ç›¸æ‰‹ã®ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ãŒãŸã­ãƒã‚±ãƒ¢ãƒ³ãªã‚‰ã€ãã®ãƒã‚±ãƒ¢ãƒ³ã‚’ããœã¤ã•ã›ã‚‹ã€‚",
+                            "textEn":  "If your opponent\u0027s Active PokÃ©mon is a Basic PokÃ©mon, it is Knocked Out."
+                        }
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Tomomi Ozaki",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/72.jpg",
+        "imageEn":  "images/sets/bwbb/en/72.jpg"
+    },
+    {
+        "id":  "bwbb-73",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "073/086",
+        "numberEn":  "073/086",
+        "nameJa":  "ãƒžãƒ¡ãƒ‘ãƒˆ",
+        "nameEn":  "Pidove",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã•ãã‚‹",
+                            "nameEn":  "Investigate",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ç›¸æ‰‹ã®æ‰‹æœ­ã‚’è¦‹ã‚‹ã€‚",
+                            "textEn":  "Look at your opponent\u0027s hand."
+                        },
+                        {
+                            "nameJa":  "ãµã‚€",
+                            "nameEn":  "Peck",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Tomomi Ozaki",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/73.jpg",
+        "imageEn":  "images/sets/bwbb/en/73.jpg"
+    },
+    {
+        "id":  "bwbb-74",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "074/086",
+        "numberEn":  "074/086",
+        "nameJa":  "ãƒãƒˆãƒ¼ãƒœãƒ¼",
+        "nameEn":  "Tranquill",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  "ãƒžãƒ¡ãƒ‘ãƒˆ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãã‚‰ã‚’ã¨ã¶",
+                            "nameEn":  "Fly",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "40",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚¦ãƒ©ãªã‚‰ã€ã“ã®ãƒ¯ã‚¶ã¯å¤±æ•—ã€‚ã‚ªãƒ¢ãƒ†ãªã‚‰ã€æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚„åŠ¹æžœã‚’å—ã‘ãªã„ã€‚",
+                            "textEn":  "Flip a coin. If tails, this attack fails. If heads, during your opponent\u0027s next turn, this PokÃ©mon takes no damage from attacks and has no effects of attacks done to it."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Saya Tsuruta",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/74.jpg",
+        "imageEn":  "images/sets/bwbb/en/74.jpg"
+    },
+    {
+        "id":  "bwbb-75",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "075/086",
+        "numberEn":  "075/086",
+        "nameJa":  "ã‚±ãƒ³ãƒ›ãƒ­ã‚¦",
+        "nameEn":  "Unfezant",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  150,
+        "evolvesFrom":  "ãƒãƒˆãƒ¼ãƒœãƒ¼",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãã‚ãˆã‚‹",
+                            "nameEn":  "Grab",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‚’4æžšå¼•ãã€‚",
+                            "textEn":  "Draw 4 cards."
+                        },
+                        {
+                            "nameJa":  "ã“ã†ãããƒ•ãƒ©ã‚¤ãƒˆ",
+                            "nameEn":  "Fast Flight",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "120",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’1å›žæŠ•ã’ã‚ªãƒ¢ãƒ†ãªã‚‰ã€æ¬¡ã®ç›¸æ‰‹ã®ç•ªã€ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ãƒ¯ã‚¶ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚„åŠ¹æžœã‚’å—ã‘ãªã„ã€‚",
+                            "textEn":  "Flip a coin. If heads, during your opponent\u0027s next turn, this PokÃ©mon takes no damage from attacks and has no effects of attacks done to it."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Ayako Ozaki",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/75.jpg",
+        "imageEn":  "images/sets/bwbb/en/75.jpg"
+    },
+    {
+        "id":  "bwbb-76",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "076/086",
+        "numberEn":  "076/086",
+        "nameJa":  "ã‚¿ãƒ–ãƒ³ãƒ",
+        "nameEn":  "Audino",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ãŠã‚“ãŒãˆã—",
+                            "nameEn":  "Return",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "ã®ãžã‚€ãªã‚‰ã€è‡ªåˆ†ã®æ‰‹æœ­ãŒ6æžšã«ãªã‚‹ã‚ˆã†ã«ã€å±±æœ­ã‚’å¼•ãã€‚",
+                            "textEn":  "If you like, draw cards until you have 6 cards in your hand."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Ayako Ozaki",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/76.jpg",
+        "imageEn":  "images/sets/bwbb/en/76.jpg"
+    },
+    {
+        "id":  "bwbb-77",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "077/086",
+        "numberEn":  "077/086",
+        "nameJa":  "ãƒãƒ©ãƒ¼ãƒŸã‚£",
+        "nameEn":  "Minccino",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã‚¹ã‚¤ãƒ¼ãƒ—ãƒ“ãƒ³ã‚¿",
+                            "nameEn":  "Sweep Slap",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20Ã—",
+                            "textJa":  "ã‚³ã‚¤ãƒ³ã‚’2å›žæŠ•ã’ã€ã‚ªãƒ¢ãƒ†ã®æ•°Ã—20ãƒ€ãƒ¡ãƒ¼ã‚¸ã€‚",
+                            "textEn":  "Flip 2 coins. This attack does 20 damage for each heads."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Kedamahadaitai Yawarakai",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/77.jpg",
+        "imageEn":  "images/sets/bwbb/en/77.jpg"
+    },
+    {
+        "id":  "bwbb-78",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "078/086",
+        "numberEn":  "078/086",
+        "nameJa":  "ãƒãƒ©ãƒãƒ¼ãƒŽ",
+        "nameEn":  "Cinccino",
+        "supertype":  "PokÃ©mon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ãƒãƒ©ãƒ¼ãƒŸã‚£",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ã¨ã‚‚ã ã¡ã®ã‚",
+                            "nameEn":  "Circle of Friends",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20+",
+                            "textJa":  "è‡ªåˆ†ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³ã®æ•°Ã—20ãƒ€ãƒ¡ãƒ¼ã‚¸è¿½åŠ ã€‚",
+                            "textEn":  "This attack does 20 more damage for each of your Benched PokÃ©mon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "Ã—2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Kedamahadaitai Yawarakai",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/78.jpg",
+        "imageEn":  "images/sets/bwbb/en/78.jpg"
+    },
+    {
+        "id":  "bwbb-79",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "079/086",
+        "numberEn":  "081/086",
+        "nameJa":  "ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚³ã‚¤ãƒ³",
+        "nameEn":  "Energy Coin",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Toyste Beach",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/79.jpg",
+        "imageEn":  "images/sets/bwbb/en/79.jpg",
+        "textJa":  "ã‚³ã‚¤ãƒ³ã‚’2å›žæŠ•ã’ã€ã™ã¹ã¦ã‚ªãƒ¢ãƒ†ãªã‚‰ã€è‡ªåˆ†ã®å±±æœ­ã‹ã‚‰åŸºæœ¬ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’1æžšé¸ã³ã€è‡ªåˆ†ã®ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã‘ã‚‹ã€‚ãã—ã¦å±±æœ­ã‚’åˆ‡ã‚‹ã€‚",
+        "textEn":  "Flip 2 coins. If both are heads, search your deck for a Basic Energy card and attach it to 1 of your PokÃ©mon. Then, shuffle your deck."
+    },
+    {
+        "id":  "bwbb-80",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "080/086",
+        "numberEn":  "080/086",
+        "nameJa":  "å¤ã³ãŸãµãŸã®åŒ–çŸ³",
+        "nameEn":  "Antique Cover Fossil",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "DOM",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/80.jpg",
+        "imageEn":  "images/sets/bwbb/en/80.jpg",
+        "textJa":  "ã“ã®ã‚«ãƒ¼ãƒ‰ã¯ã€HP60ã®â˜…ã‚¿ã‚¤ãƒ—ã®ãŸã­ãƒã‚±ãƒ¢ãƒ³ã¨ã—ã¦ã€å ´ã«å‡ºã›ã‚‹ã€‚ã“ã®ã‚«ãƒ¼ãƒ‰ã¯ã€ç‰¹æ®ŠçŠ¶æ…‹ã«ãªã‚‰ãšã€ã«ã’ã‚‰ã‚Œãªã„ã€‚è‡ªåˆ†ã®ç•ªã®ä¸­ã§ãªã‚‰ã€å ´ã«å‡ºã¦ã„ã‚‹ã“ã®ã‚«ãƒ¼ãƒ‰ã‚’ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã§ãã‚‹ã€‚ç‰¹æ€§ï¼šãµãŸã®ã¾ã‚‚ã‚Š â€” ã“ã®ãƒã‚±ãƒ¢ãƒ³ã¯ã€ç›¸æ‰‹ã®ãƒã‚±ãƒ¢ãƒ³ãŒä½¿ã†ãƒ¯ã‚¶ã®åŠ¹æžœã‚’å—ã‘ãªã„ã€‚",
+        "textEn":  "Play this card as if it were a 60-HP Basic â˜… PokÃ©mon. This card can\u0027t be affected by any Special Conditions and can\u0027t retreat. At any time during your turn, you may discard this card from play. Ability: Protective Cover â€” Prevent all effects of attacks used by your opponent\u0027s PokÃ©mon done to this PokÃ©mon."
+    },
+    {
+        "id":  "bwbb-81",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "081/086",
+        "numberEn":  "084/086",
+        "nameJa":  "ãƒã‚±ã‚®ã‚¢3.0",
+        "nameEn":  "PokÃ©gear 3.0",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Toyste Beach",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/81.jpg",
+        "imageEn":  "images/sets/bwbb/en/81.jpg",
+        "textJa":  "è‡ªåˆ†ã®å±±æœ­ã‚’ä¸Šã‹ã‚‰7æžšè¦‹ã¦ã€ãã®ä¸­ã‹ã‚‰ã‚µãƒãƒ¼ãƒˆã‚’1æžšé¸ã³ã€ç›¸æ‰‹ã«è¦‹ã›ã¦ã€æ‰‹æœ­ã«åŠ ãˆã‚‹ã€‚æ®‹ã‚Šã®ã‚«ãƒ¼ãƒ‰ã¯å±±æœ­ã«ã‚‚ã©ã—ã¦åˆ‡ã‚‹ã€‚",
+        "textEn":  "Look at the top 7 cards of your deck. You may reveal a Supporter you find there and put it into your hand. Shuffle the other cards back into your deck."
+    },
+    {
+        "id":  "bwbb-82",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "082/086",
+        "numberEn":  "079/086",
+        "nameJa":  "ãµã†ã›ã‚“",
+        "nameEn":  "Air Balloon",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "PokÃ©mon Tool"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Studio Bora Inc.",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/82.jpg",
+        "imageEn":  "images/sets/bwbb/en/82.jpg",
+        "textJa":  "ã“ã®ã‚«ãƒ¼ãƒ‰ã‚’ã¤ã‘ã¦ã„ã‚‹ãƒã‚±ãƒ¢ãƒ³ã¯ã€ã«ã’ã‚‹ãŸã‚ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼ãŒ2å€‹ã¶ã‚“å°‘ãªããªã‚‹ã€‚",
+        "textEn":  "The Retreat Cost of the PokÃ©mon this card is attached to is â˜…â˜… less."
+    },
+    {
+        "id":  "bwbb-83",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "083/086",
+        "numberEn":  "083/086",
+        "nameJa":  "Nã®ç­‹æ›¸ã",
+        "nameEn":  "N\u0027s Plan",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Supporter"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "hncl",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/83.jpg",
+        "imageEn":  "images/sets/bwbb/en/83.jpg",
+        "textJa":  "è‡ªåˆ†ã®ãƒ™ãƒ³ãƒãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’2å€‹ã¾ã§é¸ã³ã€ãƒãƒˆãƒ«ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã‘æ›¿ãˆã‚‹ã€‚",
+        "textEn":  "Move up to 2 Energy from your Benched PokÃ©mon to your Active PokÃ©mon."
+    },
+    {
+        "id":  "bwbb-84",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "084/086",
+        "numberEn":  "085/086",
+        "nameJa":  "åšå£«ã®ç ”ç©¶ï¼ˆã‚¢ãƒ©ãƒ©ã‚®åšå£«ï¼‰",
+        "nameEn":  "Professor\u0027s Research (Professor Juniper)",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Supporter"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Taira Akitsu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/84.jpg",
+        "imageEn":  "images/sets/bwbb/en/84.jpg",
+        "textJa":  "è‡ªåˆ†ã®æ‰‹æœ­ã‚’ã™ã¹ã¦ãƒˆãƒ©ãƒƒã‚·ãƒ¥ã—ã€å±±æœ­ã‚’7æžšå¼•ãã€‚",
+        "textEn":  "Discard your hand and draw 7 cards."
+    },
+    {
+        "id":  "bwbb-85",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "085/086",
+        "numberEn":  "082/086",
+        "nameJa":  "ãƒžã‚³ãƒ¢",
+        "nameEn":  "Fennel",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Supporter"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Yuu Nishida",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/85.jpg",
+        "imageEn":  "images/sets/bwbb/en/85.jpg",
+        "textJa":  "è‡ªåˆ†ã®ãƒã‚±ãƒ¢ãƒ³å…¨å“¡ã®HPã‚’ã€ãã‚Œãžã‚Œã€Œ40ã€å›žå¾©ã™ã‚‹ã€‚",
+        "textEn":  "Heal 40 damage from each of your PokÃ©mon."
+    },
+    {
+        "id":  "bwbb-86",
+        "setIdJa":  "bwbb",
+        "setIdEn":  "blk",
+        "numberJa":  "086/086",
+        "numberEn":  "086/086",
+        "nameJa":  "ãƒ—ãƒªã‚ºãƒ ã‚¨ãƒãƒ«ã‚®ãƒ¼",
+        "nameEn":  "Prism Energy",
+        "supertype":  "Energy",
+        "subtypes":  [
+                         "Special Energy"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  null,
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/bwbb/jp/86.jpg",
+        "imageEn":  "images/sets/bwbb/en/86.jpg",
+        "textJa":  "ã“ã®ã‚«ãƒ¼ãƒ‰ã¯ã€ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ã‹ãŽã‚Šã€â˜…ã‚¨ãƒãƒ«ã‚®ãƒ¼1å€‹ã¶ã‚“ã¨ã—ã¦ã¯ãŸã‚‰ãã€‚ãŸã­ãƒã‚±ãƒ¢ãƒ³ã«ã¤ã„ã¦ã„ã‚‹ãªã‚‰ã€ã™ã¹ã¦ã®ã‚¿ã‚¤ãƒ—ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼1å€‹ã¶ã‚“ã¨ã—ã¦ã¯ãŸã‚‰ãã€‚",
+        "textEn":  "As long as this card is attached to a PokÃ©mon, it provides â˜… Energy. If this card is attached to a Basic PokÃ©mon, this card provides every type of Energy but provides only 1 Energy at a time."
+    }
+]

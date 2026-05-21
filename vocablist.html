@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポケカ日英単語リスト — SuicuneGS</title>
+  <meta name="description" content="ポケモンカードゲームで使う日英単語・フレーズのリストです。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --bg:          #0f1117;
+      --surface:     #1a1d27;
+      --border:      #2a2d3a;
+      --text:        #f0f0f5;
+      --text-muted:  #8b8fa8;
+      --accent:      #a8d4e8;
+      --font-display: "Bebas Neue", Impact, sans-serif;
+      --font-body:    "DM Sans", "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Nav ─────────────────────────────────────────── */
+    nav {
+      padding: 20px 48px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(168, 212, 232, 0.04) 0%, transparent 100%);
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      position: relative;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav-link {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .nav-link:hover { color: var(--text); }
+    .nav-link--active { color: var(--accent); cursor: default; }
+
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .nav-logo:hover { opacity: 0.8; }
+
+    /* ── Hamburger ───────────────────────────────────── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: transform 0.22s ease, opacity 0.22s ease;
+    }
+    .nav-hamburger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.is-open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .nav-mobile {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-direction: column;
+      z-index: 200;
+      animation: navSlideDown 0.18s ease;
+    }
+    @keyframes navSlideDown {
+      from { opacity: 0; transform: translateY(-6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .nav-mobile-link {
+      padding: 14px 24px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.15s, background 0.15s;
+    }
+    .nav-mobile-link:last-child { border-bottom: none; }
+    .nav-mobile-link:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+    .nav-mobile-link--active { color: var(--accent); cursor: default; }
+
+    /* ── Page header ─────────────────────────────────── */
+    .page-header {
+      padding: 52px 48px 36px;
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .page-eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 12px;
+    }
+
+    .page-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 6vw, 3.4rem);
+      letter-spacing: 0.05em;
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+
+    .page-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin: 0;
+      max-width: 560px;
+    }
+
+    /* ── Main content ────────────────────────────────── */
+    main {
+      flex: 1;
+      padding: 0 48px 80px;
+      max-width: 860px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* ── Section ─────────────────────────────────────── */
+    .vocab-section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Table ───────────────────────────────────────── */
+    .vocab-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    .vocab-table thead th {
+      text-align: left;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .vocab-table tbody tr {
+      border-bottom: 1px solid rgba(42, 45, 58, 0.6);
+      transition: background 0.1s;
+    }
+
+    .vocab-table tbody tr:hover {
+      background: rgba(168, 212, 232, 0.04);
+    }
+
+    .vocab-table tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    .vocab-table td {
+      padding: 10px 12px;
+      vertical-align: middle;
+    }
+
+    .vocab-table td:first-child {
+      color: var(--text);
+      font-weight: 500;
+      width: 48%;
+    }
+
+    .vocab-table td:last-child {
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ── Audio button ────────────────────────────────── */
+    .audio-btn {
+      display: inline-flex;
+      align-items: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 2px;
+      line-height: 0;
+      flex-shrink: 0;
+      opacity: 0.5;
+      transition: opacity 0.15s, color 0.15s;
+    }
+    .audio-btn:hover {
+      opacity: 1;
+      color: var(--accent);
+    }
+
+    /* ── Footer ──────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 22px 48px;
+      text-align: center;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Mobile ──────────────────────────────────────── */
+    @media (max-width: 700px) {
+      nav              { padding: 16px 24px; }
+      .nav-links       { display: none; }
+      .nav-hamburger   { display: flex; }
+      .page-header     { padding: 36px 24px 24px; }
+      main             { padding: 0 24px 56px; }
+      footer           { padding: 20px 24px; }
+      .vocab-table td:last-child { display: table-cell; }
+    }
+  </style>
+  <script>
+    function playAudio(word) {
+      new Audio('/audio/' + word + '.mp3').play();
+    }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">SuicuneGS</a>
+    <div class="nav-links">
+      <a href="/cardsearch.html" class="nav-link">カード検索</a>
+      <a href="/study.html" class="nav-link">カード勉強</a>
+      <a href="/favorites.html" class="nav-link">気に入りカード</a>
+      <span class="nav-link nav-link--active">日英単語リスト</span>
+    </div>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="メニュー" aria-expanded="false" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-mobile" id="nav-mobile" style="display:none">
+      <a href="/cardsearch.html" class="nav-mobile-link">カード検索</a>
+      <a href="/study.html" class="nav-mobile-link">カード勉強</a>
+      <a href="/favorites.html" class="nav-mobile-link">気に入りカード</a>
+      <span class="nav-mobile-link nav-mobile-link--active">日英単語リスト</span>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <p class="page-eyebrow">ポケモンカードゲーム 日英対応</p>
+    <h1 class="page-title">日英単語リスト</h1>
+    <p class="page-desc">海外の大会で使える日英フレーズ・単語をまとめました。スピーカーアイコンで発音を確認できます。</p>
+  </div>
+
+  <main>
+
+    <!-- 1. カードの種類 -->
+    <div class="vocab-section">
+      <h2 class="section-title">カードの種類</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>ポケモン</td><td>Pokémon <button class="audio-btn" onclick="playAudio('pokemon')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>たね</td><td>Basic <button class="audio-btn" onclick="playAudio('basic')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>１進化</td><td>Stage 1 <button class="audio-btn" onclick="playAudio('stage 1')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>２進化</td><td>Stage 2 <button class="audio-btn" onclick="playAudio('stage 2')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>エネルギー</td><td>Energy <button class="audio-btn" onclick="playAudio('energy')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>基本エネルギー</td><td>Basic Energy <button class="audio-btn" onclick="playAudio('basic energy')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>特殊エネルギー</td><td>Special Energy <button class="audio-btn" onclick="playAudio('special energy')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>トレーナーズ</td><td>Trainers <button class="audio-btn" onclick="playAudio('trainers')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>グッズ</td><td>Item <button class="audio-btn" onclick="playAudio('item')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>どうぐ</td><td>Tool <button class="audio-btn" onclick="playAudio('tool')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>サポート</td><td>Supporter <button class="audio-btn" onclick="playAudio('supporter')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>スタジアム</td><td>Stadium <button class="audio-btn" onclick="playAudio('stadium')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 2. 特殊状態 -->
+    <div class="vocab-section">
+      <h2 class="section-title">特殊状態</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>ねむり</td><td>Asleep <button class="audio-btn" onclick="playAudio('asleep')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>やけど</td><td>Burned <button class="audio-btn" onclick="playAudio('burned')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>こんらん</td><td>Confused <button class="audio-btn" onclick="playAudio('confused')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>まひ</td><td>Paralyzed <button class="audio-btn" onclick="playAudio('paralyzed')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>どく</td><td>Poisoned <button class="audio-btn" onclick="playAudio('poisoned')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 3. ポケモンのタイプ -->
+    <div class="vocab-section">
+      <h2 class="section-title">ポケモンのタイプ</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>くさ</td><td>Grass <button class="audio-btn" onclick="playAudio('grass')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ほのお</td><td>Fire <button class="audio-btn" onclick="playAudio('fire')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>みず</td><td>Water <button class="audio-btn" onclick="playAudio('water')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>かみなり</td><td>Lightning <button class="audio-btn" onclick="playAudio('lightning')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>エスパー</td><td>Psychic <button class="audio-btn" onclick="playAudio('psychic')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>かくとう</td><td>Fighting <button class="audio-btn" onclick="playAudio('fighting')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>あく</td><td>Darkness <button class="audio-btn" onclick="playAudio('darkness')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>はがね</td><td>Metal <button class="audio-btn" onclick="playAudio('metal')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>フェアリー</td><td>Fairy <button class="audio-btn" onclick="playAudio('fairy')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ドラゴン</td><td>Dragon <button class="audio-btn" onclick="playAudio('dragon')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ノーマル</td><td>Normal <button class="audio-btn" onclick="playAudio('normal')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 4. 対戦に使うもの -->
+    <div class="vocab-section">
+      <h2 class="section-title">対戦に使うもの</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>デッキ</td><td>Deck <button class="audio-btn" onclick="playAudio('deck')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>コイン</td><td>Coin <button class="audio-btn" onclick="playAudio('coin')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ダメカン</td><td>Damage counter <button class="audio-btn" onclick="playAudio('damage counter')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>スリーブ</td><td>Sleeves <button class="audio-btn" onclick="playAudio('sleeves')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>プレーマット</td><td>Playmat <button class="audio-btn" onclick="playAudio('playmat')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>どくマーカー</td><td>Poison marker <button class="audio-btn" onclick="playAudio('poison marker')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>やけどマーカー</td><td>Burn marker <button class="audio-btn" onclick="playAudio('burn marker')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>VSTARマーカー</td><td>VSTAR marker <button class="audio-btn" onclick="playAudio('vstar marker')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 5. 場所の名前 -->
+    <div class="vocab-section">
+      <h2 class="section-title">場所の名前</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>山札</td><td>Deck <button class="audio-btn" onclick="playAudio('deck')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>トラッシュ</td><td>Discard Pile <button class="audio-btn" onclick="playAudio('discard pile')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>バトル場</td><td>Active Spot <button class="audio-btn" onclick="playAudio('active spot')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ベンチ</td><td>Bench <button class="audio-btn" onclick="playAudio('bench')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>サイド</td><td>Prize Cards <button class="audio-btn" onclick="playAudio('prize cards')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 6. 対戦が始まる前 -->
+    <div class="vocab-section">
+      <h2 class="section-title">対戦が始まる前</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>私の名前は「名前」</td><td>My name is "Name" <button class="audio-btn" onclick="playAudio('before battle 1')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>名前はなんですか？</td><td>What is your name? <button class="audio-btn" onclick="playAudio('before battle 2')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>試合中にサイコロは使ってもいいですか？</td><td>Can I use dice during the match? <button class="audio-btn" onclick="playAudio('before battle 3')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>私がコインを投げていいですか？</td><td>Is it okay if I flip the coin? <button class="audio-btn" onclick="playAudio('before battle 4')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>私がサイコロを振っていいですか？</td><td>Is it okay if I roll the die? <button class="audio-btn" onclick="playAudio('before battle 5')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>いい試合にしましょう</td><td>Let's have a good match <button class="audio-btn" onclick="playAudio('before battle 6')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>頑張ってください</td><td>Good luck <button class="audio-btn" onclick="playAudio('before battle 7')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 7. コインを投げること -->
+    <div class="vocab-section">
+      <h2 class="section-title">コインを投げること</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>コインを投げる</td><td>Flip a coin <button class="audio-btn" onclick="playAudio('flip a coin')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>おもて</td><td>Heads <button class="audio-btn" onclick="playAudio('heads')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>うら</td><td>Tails <button class="audio-btn" onclick="playAudio('tails')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>サイコロ</td><td>Dice <button class="audio-btn" onclick="playAudio('dice')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>サイコロを振る</td><td>Roll a die <button class="audio-btn" onclick="playAudio('roll a dice')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>奇数</td><td>Odd; Odd number <button class="audio-btn" onclick="playAudio('odd')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>偶数</td><td>Even; Even number <button class="audio-btn" onclick="playAudio('even')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>先行</td><td>First <button class="audio-btn" onclick="playAudio('first')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>後攻</td><td>Second <button class="audio-btn" onclick="playAudio('second')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 8. 対戦でよく使う表現 -->
+    <div class="vocab-section">
+      <h2 class="section-title">対戦でよく使う表現</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>番を始めます</td><td>I start my turn <button class="audio-btn" onclick="playAudio('often used phrase 1')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>番は終了です</td><td>I end my turn <button class="audio-btn" onclick="playAudio('often used phrase 2')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>引きます</td><td>I draw <button class="audio-btn" onclick="playAudio('often used phrase 3')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「x枚」を引きます</td><td>I draw "x" cards <button class="audio-btn" onclick="playAudio('often used phrase 4')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「トレーナーズカード」を使います</td><td>I use "trainer card" <button class="audio-btn" onclick="playAudio('often used phrase 5')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「グッズ」を使います</td><td>I use "item card" <button class="audio-btn" onclick="playAudio('often used phrase 6')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「どうぐ」を付けます</td><td>I attach "tool card" <button class="audio-btn" onclick="playAudio('often used phrase 7')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「どうぐ」を「ポケモン」に付ける</td><td>I attach "tool card" to "Pokémon" <button class="audio-btn" onclick="playAudio('often used phrase 8')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>エネルギーを手張る</td><td>I attach an energy <button class="audio-btn" onclick="playAudio('often used phrase 9')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>エネルギーを「ポケモン」に手張る</td><td>I attach an energy to "Pokémon" <button class="audio-btn" onclick="playAudio('often used phrase 10')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「ポケモン」をベンチに出す</td><td>I put "Pokémon" on my bench <button class="audio-btn" onclick="playAudio('often used phrase 11')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「ポケモン」を進化させる</td><td>I evolve "Pokémon" <button class="audio-btn" onclick="playAudio('often used phrase 12')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「ポケモン」を「ポケモン」に進化させる</td><td>I evolve "Pokémon" into "Pokémon" <button class="audio-btn" onclick="playAudio('often used phrase 13')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>特性を使います</td><td>I use "ability" <button class="audio-btn" onclick="playAudio('often used phrase 14')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「ポケモン」の特性を使います</td><td>I use "Pokémon's" ability <button class="audio-btn" onclick="playAudio('often used phrase 15')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「カード」の効果を使います</td><td>I use the effect of "card" <button class="audio-btn" onclick="playAudio('often used phrase 16')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>トラッシュを見せてください</td><td>Can I check your discard pile? <button class="audio-btn" onclick="playAudio('often used phrase 17')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>手札の枚数は何ですか？</td><td>How many cards do you have in hand? <button class="audio-btn" onclick="playAudio('often used phrase 18')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「わざ」を使います</td><td>I use "attack" <button class="audio-btn" onclick="playAudio('often used phrase 19')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「わざ」を使って「ｘダメージ」を与えます</td><td>I use "attack" and do "x" damage <button class="audio-btn" onclick="playAudio('often used phrase 20')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>逃げます</td><td>I retreat <button class="audio-btn" onclick="playAudio('often used phrase 21')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「カード」をトラッシュします</td><td>I discard "card" <button class="audio-btn" onclick="playAudio('often used phrase 22')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「ポケモン」のHPは何ですか？</td><td>How much HP does "Pokémon" have? <button class="audio-btn" onclick="playAudio('often used phrase 23')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>山札を触ります</td><td>I search my deck for "card" <button class="audio-btn" onclick="playAudio('often used phrase 24')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>「カード」を手札に加えます</td><td>I add "card" to my hand <button class="audio-btn" onclick="playAudio('often used phrase 25')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>対象なし</td><td>No target <button class="audio-btn" onclick="playAudio('often used phrase 26')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>山札をまた触ります</td><td>I will search my deck again <button class="audio-btn" onclick="playAudio('often used phrase 27')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>あなたのポケモンを気絶させます</td><td>I knockout your Pokémon <button class="audio-btn" onclick="playAudio('often used phrase 28')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>サイド「x枚」をとります</td><td>I take "x prize card(s)" <button class="audio-btn" onclick="playAudio('often used phrase 29')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>次の試合に入りましょう（Bo3の場合）</td><td>Let's move on to the next match <button class="audio-btn" onclick="playAudio('often used phrase 32')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>投了します</td><td>I forfeit <button class="audio-btn" onclick="playAudio('often used phrase 30')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>降参します</td><td>I surrender <button class="audio-btn" onclick="playAudio('often used phrase 31')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 9. 相手の間違いを指摘すること -->
+    <div class="vocab-section">
+      <h2 class="section-title">相手の間違いを指摘すること</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>もうサポートを使いました</td><td>You already used a supporter this turn <button class="audio-btn" onclick="playAudio('correcting opponent 1')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>もうてばりました</td><td>You already attached an energy card <button class="audio-btn" onclick="playAudio('correcting opponent 2')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>もうスターパワーを使いました</td><td>You already used your star power <button class="audio-btn" onclick="playAudio('correcting opponent 3')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>もうその特性を使いました</td><td>You already used that ability <button class="audio-btn" onclick="playAudio('correcting opponent 4')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>もうその効果を使いました</td><td>You already used that effect <button class="audio-btn" onclick="playAudio('correcting opponent 5')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>この番に進化できません</td><td>You can't evolve this turn <button class="audio-btn" onclick="playAudio('correcting opponent 6')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ごめんなさい、もうわざを宣言しました</td><td>Sorry, you already declared your attack <button class="audio-btn" onclick="playAudio('correcting opponent 7')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ごめんなさい、もう番の終了を宣言しました</td><td>Sorry, you already ended your turn <button class="audio-btn" onclick="playAudio('already ended your turn')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>まだシャッフルしていません</td><td>You still haven't shuffled <button class="audio-btn" onclick="playAudio('correcting opponent 8')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>山札を切ってください</td><td>Please shuffle your deck <button class="audio-btn" onclick="playAudio('correcting opponent 9')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>急いでもらえませんか？</td><td>Can you hurry up? <button class="audio-btn" onclick="playAudio('correcting opponent 10')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>急いでもらえませんか？</td><td>Can you play faster? <button class="audio-btn" onclick="playAudio('correcting opponent 11')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>急ぎましょう</td><td>Let's play faster <button class="audio-btn" onclick="playAudio('lets play faster')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>時間がなくなっています</td><td>We are running out of time <button class="audio-btn" onclick="playAudio('correcting opponent 12')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>時間がきついです</td><td>There's not much time left <button class="audio-btn" onclick="playAudio('correcting opponent 13')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>サイコロを振り直してください</td><td>Please roll the die again <button class="audio-btn" onclick="playAudio('correcting opponent 14')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>コインをやり直してください</td><td>Please flip the coin again <button class="audio-btn" onclick="playAudio('correcting opponent 15')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ジャッジを呼びます</td><td>I will call a judge <button class="audio-btn" onclick="playAudio('correcting opponent 16')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>ジャッジを呼びましょう</td><td>Let's call a judge <button class="audio-btn" onclick="playAudio('correcting opponent 17')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 10. 試合の後 -->
+    <div class="vocab-section">
+      <h2 class="section-title">試合の後</h2>
+      <table class="vocab-table">
+        <thead><tr><th>日本語</th><th>English</th></tr></thead>
+        <tbody>
+          <tr><td>いい試合だった</td><td>Good game <button class="audio-btn" onclick="playAudio('after battle 1')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>惜しかった</td><td>It was a close match <button class="audio-btn" onclick="playAudio('after battle 2')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>いいデッキを持っている</td><td>You have a good deck <button class="audio-btn" onclick="playAudio('after battle 3')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>xは全部サイド落ちだった</td><td>All my x were prized <button class="audio-btn" onclick="playAudio('after battle 4')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>私の初手は強かった</td><td>My opening hand was strong <button class="audio-btn" onclick="playAudio('after battle 5')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>事故らなくてよかった</td><td>I'm glad I didn't brick <button class="audio-btn" onclick="playAudio('after battle 6')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+          <tr><td>対戦してくれてありがとうございます</td><td>Thank you for playing <button class="audio-btn" onclick="playAudio('after battle 7')" aria-label="再生"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 SuicuneGS &nbsp;·&nbsp; 任天堂・ゲームフリーク・株式会社ポケモンとは無関係です</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      var isOpen = btn.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', isOpen);
+      menu.style.display = isOpen ? 'flex' : 'none';
+    }
+    document.addEventListener('click', function(e) {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      if (!document.querySelector('nav').contains(e.target) && btn.classList.contains('is-open')) {
+        btn.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

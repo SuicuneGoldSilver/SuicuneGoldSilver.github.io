@@ -1,0 +1,3809 @@
+﻿[
+    {
+        "id":  "mb-1",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "001/063",
+        "numberEn":  "001/132",
+        "nameJa":  "フシギダネ",
+        "nameEn":  "Bulbasaur",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "しばりつける",
+                            "nameEn":  "Bind Down",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "次の相手の番、このワザを受けたポケモンは、にげられない。",
+                            "textEn":  "During your opponent\u0027s next turn, the Defending Pokémon can\u0027t retreat."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "HYOGONOSUKE",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/1.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/1_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-2",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "002/063",
+        "numberEn":  "002/132",
+        "nameJa":  "フシギソウ",
+        "nameEn":  "Ivysaur",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  "フシギダネ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "はっぱカッター",
+                            "nameEn":  "Razor Leaf",
+                            "cost":  [
+                                         "Grass",
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Takumi Wada",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/2.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/2_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-3",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "003/063",
+        "numberEn":  "003/132",
+        "nameJa":  "メガフシギバナex",
+        "nameEn":  "Mega Venusaur ex",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 2",
+                         "ex"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  380,
+        "evolvesFrom":  "フシギソウ",
+        "abilities":  [
+                          {
+                              "nameJa":  "ソーラートランス",
+                              "nameEn":  "Solar Transfer",
+                              "textJa":  "自分の番に何回でも使える。自分の場のポケモンについている「基本草エネルギー」を1個選び、自分の別のポケモンにつけ替える。",
+                              "textEn":  "As often as you like during your turn, you may use this Ability. Move a Basic Grass Energy from 1 of your Pokémon to another of your Pokémon."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ジャングルダンプ",
+                            "nameEn":  "Jungle Dump",
+                            "cost":  [
+                                         "Grass",
+                                         "Grass",
+                                         "Grass",
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "240",
+                            "textJa":  "このポケモンのHPを「30」回復する。",
+                            "textEn":  "Heal 30 damage from this Pokémon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "5ban Graphics",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/3.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/3_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-4",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "004/063",
+        "numberEn":  "004/132",
+        "nameJa":  "タマタマ",
+        "nameEn":  "Exeggcute",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "みがつまる",
+                            "nameEn":  "Jam-Packed",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "自分の山札から「基本草エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+                            "textEn":  "Search your deck for a Basic Grass Energy card and attach it to this Pokémon. Then, shuffle your deck."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "aspara",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/4.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/4_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-5",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "005/063",
+        "numberEn":  "005/132",
+        "nameJa":  "ナッシー",
+        "nameEn":  "Exeggutor",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  140,
+        "evolvesFrom":  "タマタマ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ガードプレス",
+                            "nameEn":  "Guard Press",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+                            "textEn":  "During your opponent\u0027s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+                        },
+                        {
+                            "nameJa":  "ウッドスタンプ",
+                            "nameEn":  "Stomping Wood",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "60+",
+                            "textJa":  "このポケモンについている草エネルギーの数×30ダメージ追加。",
+                            "textEn":  "This attack does 30 more damage for each Grass Energy attached to this Pokémon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Kazumasa Yasukuni",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/5.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/5_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-6",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "006/063",
+        "numberEn":  "012/132",
+        "nameJa":  "セレビィ",
+        "nameEn":  "Celebi",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ときをめぐる",
+                            "nameEn":  "Traverse Time",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "自分の山札から草ポケモンとスタジアムを合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+                            "textEn":  "Search your deck for up to 3 in any combination of Grass Pokémon and Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ソーラーカッター",
+                            "nameEn":  "Solar Cutter",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Naoki Saito",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/6.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/12_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-7",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "007/063",
+        "numberEn":  "013/132",
+        "nameJa":  "タネボー",
+        "nameEn":  "Seedot",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ひとやすみ",
+                            "nameEn":  "Nap",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "このポケモンのHPを「20」回復する。",
+                            "textEn":  "Heal 20 damage from this Pokémon."
+                        },
+                        {
+                            "nameJa":  "タネばくだん",
+                            "nameEn":  "Seed Bomb",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Miki Tanaka",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/7.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/13_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-8",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "008/063",
+        "numberEn":  "014/132",
+        "nameJa":  "コノハナ",
+        "nameEn":  "Nuzleaf",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "タネボー",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "はたく",
+                            "nameEn":  "Pound",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "けたぐり",
+                            "nameEn":  "Low Kick",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "takashi shiraishi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/8.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/14_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-9",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "009/063",
+        "numberEn":  "015/132",
+        "nameJa":  "ダーテング",
+        "nameEn":  "Shiftry",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Grass"
+                  ],
+        "hp":  160,
+        "evolvesFrom":  "コノハナ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "とっぷうがえし",
+                            "nameEn":  "Reversing Gust",
+                            "cost":  [
+                                         "Grass"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "コインを1回投げオモテなら、相手のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、相手の山札にもどして切る。",
+                            "textEn":  "Flip a coin. If heads, choose 1 of your opponent\u0027s Pokémon. Shuffle that Pokémon and all attached cards into their deck."
+                        },
+                        {
+                            "nameJa":  "まどわす",
+                            "nameEn":  "Perplex",
+                            "cost":  [
+                                         "Grass",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "100",
+                            "textJa":  "相手のバトルポケモンをこんらんにする。",
+                            "textEn":  "Your opponent\u0027s Active Pokémon is now Confused."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Uninori",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/9.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/15_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-10",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "010/063",
+        "numberEn":  "019/132",
+        "nameJa":  "ロコン",
+        "nameEn":  "Vulpix",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ふむ",
+                            "nameEn":  "Stampede",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "かえん",
+                            "nameEn":  "Combustion",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Naoyo Kimura",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/10.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/19_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-11",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "011/063",
+        "numberEn":  "020/132",
+        "nameJa":  "キュウコン",
+        "nameEn":  "Ninetales",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "ロコン",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "あやかしへんげ",
+                            "nameEn":  "Supernatural Shapeshifter",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "自分の山札を上から1枚トラッシュし、そのカードがサポートなら、その効果を、このワザの効果として使う。",
+                            "textEn":  "Discard the top card of your deck, and if that card is a Supporter card, use the effect of that card as the effect of this attack."
+                        },
+                        {
+                            "nameJa":  "かえん",
+                            "nameEn":  "Combustion",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "satoma",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/11.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/20_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-12",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "012/063",
+        "numberEn":  "021/132",
+        "nameJa":  "ドンメル",
+        "nameEn":  "Numel",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "なかまをよぶ",
+                            "nameEn":  "Call for Family",
+                            "cost":  [
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+                            "textEn":  "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "ほのお",
+                            "nameEn":  "Flare",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Wintr Wandr",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/12.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/21_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-13",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "013/063",
+        "numberEn":  "022/132",
+        "nameJa":  "メガバクーダex",
+        "nameEn":  "Mega Camerupt ex",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1",
+                         "ex"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  340,
+        "evolvesFrom":  "ドンメル",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "あぶりやき",
+                            "nameEn":  "Roasting Heat",
+                            "cost":  [
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "80+",
+                            "textJa":  "相手のバトルポケモンがやけどなら、160ダメージ追加。",
+                            "textEn":  "If your opponent\u0027s Active Pokémon is Burned, this attack does 160 more damage."
+                        },
+                        {
+                            "nameJa":  "ボルケーノメテオ",
+                            "nameEn":  "Volcanic Meteor",
+                            "cost":  [
+                                         "Fire",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "280",
+                            "textJa":  "このポケモンについているエネルギーを2個選び、トラッシュする。",
+                            "textEn":  "Discard 2 Energy from this Pokémon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "5ban Graphics",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/13.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/22_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-14",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "014/063",
+        "numberEn":  "025/132",
+        "nameJa":  "ボルケニオン",
+        "nameEn":  "Volcanion",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "こがす",
+                            "nameEn":  "Singe",
+                            "cost":  [
+                                         "Fire"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "相手のバトルポケモンをやけどにする。",
+                            "textEn":  "Your opponent\u0027s Active Pokémon is now Burned."
+                        },
+                        {
+                            "nameJa":  "バックファイヤー",
+                            "nameEn":  "Backfire",
+                            "cost":  [
+                                         "Fire",
+                                         "Fire",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "130",
+                            "textJa":  "このポケモンについている炎エネルギーを2個選び、手札にもどす。",
+                            "textEn":  "Put 2 Fire Energy attached to this Pokémon into your hand."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "GIDORA",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/14.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/25_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-15",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "015/063",
+        "numberEn":  "026/132",
+        "nameJa":  "ヒバニー",
+        "nameEn":  "Scorbunny",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "けりつける",
+                            "nameEn":  "Wild Kick",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "コインを1回投げウラなら、このワザは失敗。",
+                            "textEn":  "Flip a coin. If tails, this attack does nothing."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "svlt",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/15.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/26_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-16",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "016/063",
+        "numberEn":  "027/132",
+        "nameJa":  "ラビフット",
+        "nameEn":  "Raboot",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ヒバニー",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ジャンプキック",
+                            "nameEn":  "Jumping Kick",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "40",
+                            "textJa":  "相手のポケモン1匹に、40ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+                            "textEn":  "This attack does 40 damage to 1 of your opponent\u0027s Pokémon. (Don\u0027t apply Weakness and Resistance for Benched Pokémon.)"
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Narumi Sato",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/16.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/27_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-17",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "017/063",
+        "numberEn":  "028/132",
+        "nameJa":  "エースバーン",
+        "nameEn":  "Cinderace",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Fire"
+                  ],
+        "hp":  160,
+        "evolvesFrom":  "ラビフット",
+        "abilities":  [
+                          {
+                              "nameJa":  "しゅんぱつりょく",
+                              "nameEn":  "Explosiveness",
+                              "textJa":  "対戦準備でポケモンをバトル場に出すとき、このカードが手札にあるなら、ウラにしてバトル場に出してよい。",
+                              "textEn":  "If this Pokémon is in your hand when you are setting up to play, you may put it face down in the Active Spot."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "フレアターボ",
+                            "nameEn":  "Turbo Flare",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "50",
+                            "textJa":  "自分の山札から基本エネルギーを3枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+                            "textEn":  "Search your deck for up to 3 Basic Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Water",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "REND",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/17.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/28_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-18",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "018/063",
+        "numberEn":  "033/132",
+        "nameJa":  "ヘイガニ",
+        "nameEn":  "Corphish",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Water"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "はさむ",
+                            "nameEn":  "Vise Grip",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "とっしん",
+                            "nameEn":  "Take Down",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "このポケモンにも10ダメージ。",
+                            "textEn":  "This Pokémon also does 10 damage to itself."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Sanosuke Sakuma",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/18.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/33_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-19",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "019/063",
+        "numberEn":  "067/132",
+        "nameJa":  "コレクレー",
+        "nameEn":  "Gimmighoul",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Psychic"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ビンタ",
+                            "nameEn":  "Slap",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Darkness",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Takeshi Nakamura",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/19.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/67_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-20",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "020/063",
+        "numberEn":  "068/132",
+        "nameJa":  "サンド",
+        "nameEn":  "Sandshrew",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ツメをたてる",
+                            "nameEn":  "Dig Claws",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "どろかけ",
+                            "nameEn":  "Mud-Slap",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Shinji Kanda",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/20.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/68_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-21",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "021/063",
+        "numberEn":  "069/132",
+        "nameJa":  "サンドパン",
+        "nameEn":  "Sandslash",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "サンド",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "すなかけ",
+                            "nameEn":  "Sand Attack",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+                            "textEn":  "During your opponent\u0027s next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn\u0027t happen."
+                        },
+                        {
+                            "nameJa":  "マッドショット",
+                            "nameEn":  "Mud Shot",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "100",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "imoniii",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/21.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/69_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-22",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "022/063",
+        "numberEn":  "070/132",
+        "nameJa":  "イワーク",
+        "nameEn":  "Onix",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "しめつける",
+                            "nameEn":  "Bind",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+                            "textEn":  "Flip a coin. If heads, your opponent\u0027s Active Pokémon is now Paralyzed."
+                        },
+                        {
+                            "nameJa":  "かいりき",
+                            "nameEn":  "Strength",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "100",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Uta",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/22.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/70_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-23",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "023/063",
+        "numberEn":  "071/132",
+        "nameJa":  "バルキー",
+        "nameEn":  "Tyrogue",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  30,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ボカボカなぐる",
+                            "nameEn":  "Pow-Pow Punching",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10+",
+                            "textJa":  "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
+                            "textEn":  "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "OKUBO",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/23.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/71_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-24",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "024/063",
+        "numberEn":  "072/132",
+        "nameJa":  "マクノシタ",
+        "nameEn":  "Makuhita",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "どつく",
+                            "nameEn":  "Corkscrew Punch",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "がちんこ",
+                            "nameEn":  "Confront",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Jerky",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/24.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/72_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-25",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "025/063",
+        "numberEn":  "073/132",
+        "nameJa":  "ハリテヤマ",
+        "nameEn":  "Hariyama",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  150,
+        "evolvesFrom":  "マクノシタ",
+        "abilities":  [
+                          {
+                              "nameJa":  "どすこいキャッチャー",
+                              "nameEn":  "Heave-Ho Catcher",
+                              "textJa":  "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+                              "textEn":  "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Switch in 1 of your opponent\u0027s Benched Pokémon to the Active Spot."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ワイルドプレス",
+                            "nameEn":  "Wild Press",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "210",
+                            "textJa":  "このポケモンにも70ダメージ。",
+                            "textEn":  "This Pokémon also does 70 damage to itself."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "GOSSAN",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/25.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/73_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-26",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "026/063",
+        "numberEn":  "074/132",
+        "nameJa":  "ルナトーン",
+        "nameEn":  "Lunatone",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  null,
+        "abilities":  [
+                          {
+                              "nameJa":  "ルナサイクル",
+                              "nameEn":  "Lunar Cycle",
+                              "textJa":  "自分の場に「ソルロック」がいて、自分の番に、自分の手札から基本闘エネルギーを1枚トラッシュするなら、1回使える。自分の山札を3枚引く。この特性は別の「ルナサイクル」を使った番は使えない。",
+                              "textEn":  "Once during your turn, if you have Solrock in play, you may discard a Basic Fighting Energy card from your hand in order to use this Ability. Draw 3 cards. You can\u0027t use more than 1 Lunar Cycle Ability each turn."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "パワージェム",
+                            "nameEn":  "Power Gem",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Whisker",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/26.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/74_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-27",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "027/063",
+        "numberEn":  "075/132",
+        "nameJa":  "ソルロック",
+        "nameEn":  "Solrock",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "コスモビーム",
+                            "nameEn":  "Cosmic Beam",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "70",
+                            "textJa":  "自分のベンチに「ルナトーン」がいないなら、このワザは失敗。このワザのダメージは弱点・抵抗力を計算しない。",
+                            "textEn":  "If you don\u0027t have Lunatone on your Bench, this attack does nothing. This attack\u0027s damage isn\u0027t affected by Weakness or Resistance."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Whisker",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/27.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/75_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-28",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "028/063",
+        "numberEn":  "076/132",
+        "nameJa":  "リオル",
+        "nameEn":  "Riolu",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "かそくづき",
+                            "nameEn":  "Accelerating Stab",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "次の自分の番、このポケモンは「かそくづき」が使えない。",
+                            "textEn":  "During your next turn, this Pokémon can\u0027t use Accelerating Stab."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "hncl",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/28.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/76_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-29",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "029/063",
+        "numberEn":  "077/132",
+        "nameJa":  "メガルカリオex",
+        "nameEn":  "Mega Lucario ex",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1",
+                         "ex"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  340,
+        "evolvesFrom":  "リオル",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "はどうづき",
+                            "nameEn":  "Aura Jab",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "130",
+                            "textJa":  "自分のトラッシュから「基本闘エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。",
+                            "textEn":  "Attach up to 3 Basic Fighting Energy cards from your discard pile to your Benched Pokémon in any way you like."
+                        },
+                        {
+                            "nameJa":  "メガブレイブ",
+                            "nameEn":  "Mega Brave",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "270",
+                            "textJa":  "次の自分の番、このポケモンは「メガブレイブ」が使えない。",
+                            "textEn":  "During your next turn, this Pokémon can\u0027t use Mega Brave."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "5ban Graphics",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/29.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/77_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-30",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "030/063",
+        "numberEn":  "078/132",
+        "nameJa":  "グレッグル",
+        "nameEn":  "Croagunk",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ひらてうち",
+                            "nameEn":  "Smack",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "matazo",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/30.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/78_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-31",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "031/063",
+        "numberEn":  "079/132",
+        "nameJa":  "ドクロッグ",
+        "nameEn":  "Toxicroak",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  "グレッグル",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "とつげき",
+                            "nameEn":  "Reckless Charge",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "70",
+                            "textJa":  "このポケモンにも20ダメージ。",
+                            "textEn":  "This Pokémon also does 20 damage to itself."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Hasuno",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/31.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/79_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-32",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "032/063",
+        "numberEn":  "080/132",
+        "nameJa":  "マーシャドー",
+        "nameEn":  "Marshadow",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "シャドーソバット",
+                            "nameEn":  "Shadowy Side Kick",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "このワザのダメージで、相手のポケモンがきぜつしたなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+                            "textEn":  "If your opponent\u0027s Pokémon is Knocked Out by damage from this attack, during your opponent\u0027s next turn, prevent all damage from and effects of attacks done to this Pokémon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Psychic",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Tomomi Ozaki",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/32.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/80_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-33",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "033/063",
+        "numberEn":  "081/132",
+        "nameJa":  "イシヘンジン",
+        "nameEn":  "Stonjourner",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ストーンキック",
+                            "nameEn":  "Stony Kick",
+                            "cost":  [
+                                         "Fighting"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "相手のベンチポケモン1匹にも、20ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+                            "textEn":  "This attack also does 20 damage to 1 of your opponent\u0027s Benched Pokémon. (Don\u0027t apply Weakness and Resistance for Benched Pokémon.)"
+                        },
+                        {
+                            "nameJa":  "そこちから",
+                            "nameEn":  "Boundless Power",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "140",
+                            "textJa":  "次の自分の番、このポケモンはワザが使えない。",
+                            "textEn":  "During your next turn, this Pokémon can\u0027t use attacks."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Hitoshi Ariga",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/33.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/81_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-34",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "034/063",
+        "numberEn":  "082/132",
+        "nameJa":  "コジオ",
+        "nameEn":  "Nacli",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ぶつかる",
+                            "nameEn":  "Ram",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "sowsow",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/34.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/82_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-35",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "035/063",
+        "numberEn":  "083/132",
+        "nameJa":  "ジオヅム",
+        "nameEn":  "Naclstack",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  "コジオ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "いわとばし",
+                            "nameEn":  "Rock Hurl",
+                            "cost":  [
+                                         "Fighting",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "このワザのダメージは抵抗力を計算しない。",
+                            "textEn":  "This attack\u0027s damage isn\u0027t affected by Resistance."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "kodama",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/35.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/83_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-36",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "036/063",
+        "numberEn":  "084/132",
+        "nameJa":  "キョジオーン",
+        "nameEn":  "Garganacl",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Fighting"
+                  ],
+        "hp":  180,
+        "evolvesFrom":  "ジオヅム",
+        "abilities":  [
+                          {
+                              "nameJa":  "ちからのしお",
+                              "nameEn":  "Powerful a-Salt",
+                              "textJa":  "このポケモンがいるかぎり、自分の闘ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+                              "textEn":  "Attacks used by your Fighting Pokémon do 30 more damage to your opponent\u0027s Active Pokémon (before applying Weakness and Resistance)."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ぶちかます",
+                            "nameEn":  "Hammer In",
+                            "cost":  [
+                                         "Fighting",
+                                         "Fighting",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "130",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "danciao",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/36.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/84_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-37",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "037/063",
+        "numberEn":  "085/132",
+        "nameJa":  "シザリガー",
+        "nameEn":  "Crawdaunt",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  "ヘイガニ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "はさむ",
+                            "nameEn":  "Vise Grip",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "やりかえしシザー",
+                            "nameEn":  "Cutting Riposte",
+                            "cost":  [
+                                         "Darkness",
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "130",
+                            "textJa":  "このワザは、このポケモンにダメカンがのっているなら、悪エネルギー1個で使える。",
+                            "textEn":  "If this Pokémon has any damage counters on it, this attack can be used for one Darkness Energy."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "kawayoo",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/37.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/85_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-38",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "038/063",
+        "numberEn":  "086/132",
+        "nameJa":  "メガアブソルex",
+        "nameEn":  "Mega Absol ex",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic",
+                         "ex"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  280,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "デスピリオド",
+                            "nameEn":  "Terminal Period",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "",
+                            "textJa":  "相手のバトルポケモンにのっているダメカンが6個なら、そのポケモンをきぜつさせる。",
+                            "textEn":  "If your opponent\u0027s Active Pokémon has exactly 6 damage counters on it, that Pokémon is Knocked Out."
+                        },
+                        {
+                            "nameJa":  "あくのかぎづめ",
+                            "nameEn":  "Claw of Darkness",
+                            "cost":  [
+                                         "Darkness",
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "200",
+                            "textJa":  "相手の手札を見て、その中からカードを1枚選び、トラッシュする。",
+                            "textEn":  "Your opponent reveals their hand, and you discard a card you find there."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "aky CG Works",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/38.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/86_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-39",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "039/063",
+        "numberEn":  "087/132",
+        "nameJa":  "ミカルゲ",
+        "nameEn":  "Spiritomb",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  80,
+        "evolvesFrom":  null,
+        "abilities":  [
+                          {
+                              "nameJa":  "うらみのうず",
+                              "nameEn":  "Spiteful Swirl",
+                              "textJa":  "このポケモンがいるかぎり、自分のバトル場の悪ポケモンが、相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを1個のせる。",
+                              "textEn":  "If your Active Darkness Pokémon is damaged by an attack from your opponent\u0027s Pokémon (even if your Active Darkness Pokémon is Knocked Out), place 1 damage counter on the Attacking Pokémon."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "やまくずし",
+                            "nameEn":  "Mountain Breaker",
+                            "cost":  [
+                                         "Darkness"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "相手の山札を上から1枚トラッシュする。",
+                            "textEn":  "Discard the top card of your opponent\u0027s deck."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "mingo",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/39.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/87_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-40",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "040/063",
+        "numberEn":  "088/132",
+        "nameJa":  "イベルタル",
+        "nameEn":  "Yveltal",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  110,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "わしづかみ",
+                            "nameEn":  "Clutch",
+                            "cost":  [
+                                         "Darkness"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "次の相手の番、このワザを受けたポケモンは、にげられない。",
+                            "textEn":  "During your opponent\u0027s next turn, the Defending Pokémon can\u0027t retreat."
+                        },
+                        {
+                            "nameJa":  "ダークフェザー",
+                            "nameEn":  "Dark Feather",
+                            "cost":  [
+                                         "Darkness",
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "110",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "akagi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/40.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/88_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-41",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "041/063",
+        "numberEn":  "089/132",
+        "nameJa":  "クスネ",
+        "nameEn":  "Nickit",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "やみのキバ",
+                            "nameEn":  "Darkness Fang",
+                            "cost":  [
+                                         "Darkness"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Souichirou Gunjima",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/41.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/89_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-42",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "042/063",
+        "numberEn":  "090/132",
+        "nameJa":  "フォクスライ",
+        "nameEn":  "Thievul",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  "クスネ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "よくばりハント",
+                            "nameEn":  "Greedy Hunt",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+                            "textEn":  "You may draw cards until you have 6 cards in your hand."
+                        },
+                        {
+                            "nameJa":  "しっこくのキバ",
+                            "nameEn":  "Pitch-Black Fangs",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Grass",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "ryoma uratsuka",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/42.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/90_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-43",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "043/063",
+        "numberEn":  "091/132",
+        "nameJa":  "シルシュルー",
+        "nameEn":  "Shroodle",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "どくづき",
+                            "nameEn":  "Poison Jab",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20",
+                            "textJa":  "相手のバトルポケモンをどくにする。",
+                            "textEn":  "Your opponent\u0027s Active Pokémon is now Poisoned."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "osare",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/43.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/91_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-44",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "044/063",
+        "numberEn":  "092/132",
+        "nameJa":  "タギングル",
+        "nameEn":  "Grafaiai",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Darkness"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "シルシュルー",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ミラクルペイント",
+                            "nameEn":  "Miraculous Paint",
+                            "cost":  [
+                                         "Darkness",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "90",
+                            "textJa":  "コインを1回投げオモテなら、特殊状態の中から1つ選び、相手のバトルポケモンをその状態にする。",
+                            "textEn":  "Flip a coin. If heads, choose a Special Condition. Your opponent\u0027s Active Pokémon is now affected by that Special Condition."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Dsuke",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/44.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/92_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-45",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "045/063",
+        "numberEn":  "093/132",
+        "nameJa":  "ハガネール",
+        "nameEn":  "Steelix",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  200,
+        "evolvesFrom":  "イワーク",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ウェルカムテール",
+                            "nameEn":  "Welcoming Tail",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "40+",
+                            "textJa":  "自分のサイドの残り枚数が6枚なら、200ダメージ追加。",
+                            "textEn":  "If you have exactly 6 Prize cards remaining, this attack does 200 more damage."
+                        },
+                        {
+                            "nameJa":  "ロケットずつき",
+                            "nameEn":  "Skull Bash",
+                            "cost":  [
+                                         "Metal",
+                                         "Metal",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  4,
+                            "damage":  "140",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless",
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Anesaki Dynamic",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/45.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/93_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-46",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "046/063",
+        "numberEn":  "094/132",
+        "nameJa":  "メガクチートex",
+        "nameEn":  "Mega Mawile ex",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic",
+                         "ex"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  270,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "がっつく",
+                            "nameEn":  "Gobble Down",
+                            "cost":  [
+                                         "Metal",
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "80×",
+                            "textJa":  "自分がすでにとったサイドの枚数×80ダメージ。",
+                            "textEn":  "This attack does 80 damage for each Prize card you have taken."
+                        },
+                        {
+                            "nameJa":  "ビッグバイト",
+                            "nameEn":  "Huge Bite",
+                            "cost":  [
+                                         "Metal",
+                                         "Metal",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "260",
+                            "textJa":  "相手のバトルポケモンにダメカンがのっているなら、このワザのダメージは「30」になる。",
+                            "textEn":  "If your opponent\u0027s Active Pokémon already has any damage counters on it, this attack\u0027s base damage is 30."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Double Rare",
+        "rarityJa":  "RR",
+        "artist":  "aky CG Works",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/46.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/94_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-47",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "047/063",
+        "numberEn":  "095/132",
+        "nameJa":  "ディアルガ",
+        "nameEn":  "Dialga",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  140,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ビーム",
+                            "nameEn":  "Beam",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        },
+                        {
+                            "nameJa":  "クロノバースト",
+                            "nameEn":  "Chrono Burst",
+                            "cost":  [
+                                         "Metal",
+                                         "Metal",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "80+",
+                            "textJa":  "のぞむなら、このポケモンについているエネルギーをすべて山札にもどして切り、80ダメージ追加。",
+                            "textEn":  "You may shuffle all Energy attached to this Pokémon into your deck and have this attack do 80 more damage."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Rare",
+        "rarityJa":  "R",
+        "artist":  "Teeziro",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/47.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/95_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-48",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "048/063",
+        "numberEn":  "096/132",
+        "nameJa":  "カヌチャン",
+        "nameEn":  "Tinkatink",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "たたく",
+                            "nameEn":  "Beat",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "You Iribi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/48.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/96_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-49",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "049/063",
+        "numberEn":  "097/132",
+        "nameJa":  "ナカヌチャン",
+        "nameEn":  "Tinkatuff",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  90,
+        "evolvesFrom":  "カヌチャン",
+        "abilities":  [
+                          {
+                              "nameJa":  "でたとこハンマー",
+                              "nameEn":  "Haphazard Hammer",
+                              "textJa":  "自分の番に、このカードを手札から出して進化させたとき、1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+                              "textEn":  "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent\u0027s Active Pokémon."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "なぐる",
+                            "nameEn":  "Light Punch",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "KEIICHIRO ITO",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/49.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/97_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-50",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "050/063",
+        "numberEn":  "098/132",
+        "nameJa":  "デカヌチャン",
+        "nameEn":  "Tinkaton",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 2"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  160,
+        "evolvesFrom":  "ナカヌチャン",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "おおぶりスイング",
+                            "nameEn":  "Windup Swing",
+                            "cost":  [
+                                         "Metal"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "240-",
+                            "textJa":  "相手のバトルポケモンについているエネルギーの数×60ダメージぶん、このワザのダメージは小さくなる。",
+                            "textEn":  "This attack does 60 less damage for each Energy attached to your opponent\u0027s Active Pokémon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "toriyufu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/50.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/98_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-51",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "051/063",
+        "numberEn":  "099/132",
+        "nameJa":  "サーフゴー",
+        "nameEn":  "Gholdengo",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Metal"
+                  ],
+        "hp":  130,
+        "evolvesFrom":  "コレクレー",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "つかみほうだい",
+                            "nameEn":  "All-You-Can-Grab",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "ウラが出るまでコインを投げ、オモテの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
+                            "textEn":  "Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck."
+                        },
+                        {
+                            "nameJa":  "スピードアタック",
+                            "nameEn":  "Speed Attack",
+                            "cost":  [
+                                         "Metal",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "100",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fire",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Grass",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Yukihiro Tada",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/51.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/99_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-52",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "052/063",
+        "numberEn":  "102/132",
+        "nameJa":  "オニスズメ",
+        "nameEn":  "Spearow",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  60,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "ついばむ",
+                            "nameEn":  "Pluck",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "10",
+                            "textJa":  "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+                            "textEn":  "Before doing damage, discard all Pokémon Tools from your opponent\u0027s Active Pokémon."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Scav",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/52.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/102_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-53",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "053/063",
+        "numberEn":  "103/132",
+        "nameJa":  "オニドリル",
+        "nameEn":  "Fearow",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "オニスズメ",
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "マシンガンドリル",
+                            "nameEn":  "Repeating Drill",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "30×",
+                            "textJa":  "コインを5回投げ、オモテの数×30ダメージ。",
+                            "textEn":  "Flip 5 coins. This attack does 30 damage for each heads."
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Lightning",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+                            {
+                                "type":  "Fighting",
+                                "value":  "-30"
+                            }
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Saboteri",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/53.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/103_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-54",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "054/063",
+        "numberEn":  "106/132",
+        "nameJa":  "ミルタンク",
+        "nameEn":  "Miltank",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  120,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "まんぷくミルク",
+                            "nameEn":  "Bellyful of Milk",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "",
+                            "textJa":  "コインを2回投げ、すべてオモテなら、自分のポケモン1匹のHPを、すべて回復する。",
+                            "textEn":  "Flip 2 coins. If both of them are heads, heal all damage from 1 of your Pokémon."
+                        },
+                        {
+                            "nameJa":  "たいあたり",
+                            "nameEn":  "Tackle",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  3,
+                            "damage":  "60",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless",
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Kouki Saitou",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/54.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/106_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-55",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "055/063",
+        "numberEn":  "109/132",
+        "nameJa":  "ヤングース",
+        "nameEn":  "Yungoos",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Basic"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  70,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "もってくる",
+                            "nameEn":  "Collect",
+                            "cost":  [
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  1,
+                            "damage":  "",
+                            "textJa":  "自分の山札を1枚引く。",
+                            "textEn":  "Draw a card."
+                        },
+                        {
+                            "nameJa":  "かじる",
+                            "nameEn":  "Gnaw",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "20",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Common",
+        "rarityJa":  "C",
+        "artist":  "Mékayu",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/55.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/109_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-56",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "056/063",
+        "numberEn":  "110/132",
+        "nameJa":  "デカグース",
+        "nameEn":  "Gumshoos",
+        "supertype":  "Pokémon",
+        "subtypes":  [
+                         "Stage 1"
+                     ],
+        "types":  [
+                      "Colorless"
+                  ],
+        "hp":  100,
+        "evolvesFrom":  "ヤングース",
+        "abilities":  [
+                          {
+                              "nameJa":  "しょうこあつめ",
+                              "nameEn":  "Evidence Gathering",
+                              "textJa":  "自分の番に1回使える。自分の手札を1枚選び、山札の上のカードと入れ替える。",
+                              "textEn":  "Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck."
+                          }
+                      ],
+        "attacks":  [
+                        {
+                            "nameJa":  "かみつく",
+                            "nameEn":  "Bite",
+                            "cost":  [
+                                         "Colorless",
+                                         "Colorless"
+                                     ],
+                            "convertedEnergyCost":  2,
+                            "damage":  "50",
+                            "textJa":  "",
+                            "textEn":  ""
+                        }
+                    ],
+        "weaknesses":  [
+                           {
+                               "type":  "Fighting",
+                               "value":  "×2"
+                           }
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+                            "Colorless"
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Shigenori Negishi",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/56.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/110_hires.png",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-57",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "057/063",
+        "numberEn":  "118/132",
+        "nameJa":  "アイアンディフェンダー",
+        "nameEn":  "Iron Defender",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Studio Bora Inc.",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/57.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/118_hires.png",
+        "textJa":  "次の相手の番、自分の鋼ポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。（新しく場に出したポケモンもふくむ。）",
+        "textEn":  "During your opponent\u0027s next turn, all of your Metal Pokémon take 30 less damage from attacks from your opponent\u0027s Pokémon (after applying Weakness and Resistance). (This includes new Pokémon that come into play.)",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-58",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "058/063",
+        "numberEn":  "124/132",
+        "nameJa":  "パワープロテイン",
+        "nameEn":  "Premium Power Pro",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Toyste Beach",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/58.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/124_hires.png",
+        "textJa":  "この番、自分の闘ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+        "textEn":  "During this turn, attacks used by your Fighting Pokémon do 30 more damage to your opponent\u0027s Active Pokémon (before applying Weakness and Resistance).",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-59",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "059/063",
+        "numberEn":  "116/132",
+        "nameJa":  "ファイトゴング",
+        "nameEn":  "Fighting Gong",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Toyste Beach",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/59.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/116_hires.png",
+        "textJa":  "自分の山札から闘タイプのたねポケモンまたは「基本闘エネルギー」を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+        "textEn":  "Search your deck for a Basic Fighting Energy card or a Basic Fighting Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-60",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "060/063",
+        "numberEn":  "126/132",
+        "nameJa":  "むしよけスプレー",
+        "nameEn":  "Repel",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Item"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Studio Bora Inc.",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/60.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/126_hires.png",
+        "textJa":  "相手のバトルポケモンをベンチポケモンと入れ替える。[バトル場に出すポケモンは相手が選ぶ。]",
+        "textEn":  "Switch out your opponent\u0027s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-61",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "061/063",
+        "numberEn":  "120/132",
+        "nameJa":  "マチスの取引",
+        "nameEn":  "Lt. Surge\u0027s Bargain",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Supporter"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Hideki Ishikawa",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/61.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/120_hires.png",
+        "textJa":  "「おたがいのプレイヤーは、それぞれサイドを1枚とる。」をのぞむか、相手にたずねる。相手がのぞむなら、おたがいのプレイヤーは、それぞれサイドを1枚とる。のぞまないなら、自分は山札を4枚引く。",
+        "textEn":  "Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards.",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-62",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "062/063",
+        "numberEn":  "119/132",
+        "nameJa":  "リーリエの決心",
+        "nameEn":  "Lillie\u0027s Determination",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Supporter"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "Atsushi Furusawa",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/62.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/119_hires.png",
+        "textJa":  "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。自分のサイドの残り枚数が6枚なら、引く枚数は8枚になる。",
+        "textEn":  "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.",
+        "enAvailable":  true
+    },
+    {
+        "id":  "mb-63",
+        "setIdJa":  "mb",
+        "setIdEn":  "meg",
+        "numberJa":  "063/063",
+        "numberEn":  "127/132",
+        "nameJa":  "危ない廃墟",
+        "nameEn":  "Risky Ruins",
+        "supertype":  "Trainer",
+        "subtypes":  [
+                         "Stadium"
+                     ],
+        "types":  [
+
+                  ],
+        "hp":  null,
+        "evolvesFrom":  null,
+        "abilities":  [
+
+                      ],
+        "attacks":  [
+
+                    ],
+        "weaknesses":  [
+
+                       ],
+        "resistances":  [
+
+                        ],
+        "retreatCost":  [
+
+                        ],
+        "regulationMark":  null,
+        "rarity":  "Uncommon",
+        "rarityJa":  "U",
+        "artist":  "imoniii",
+        "nationalPokedexNumber":  null,
+        "imageJa":  "images/sets/mb/jp/63.jpg",
+        "imageEn":  "https://images.pokemontcg.io/me1/127_hires.png",
+        "textJa":  "おたがいのプレイヤーは、それぞれ、自分の番に、たねポケモン（悪ポケモンをのぞく）をベンチに出すたび、そのポケモンにダメカンを2個のせる。",
+        "textEn":  "Whenever any player puts a Basic non-Darkness Pokémon onto their Bench during their turn, place 2 damage counters on that Pokémon.",
+        "enAvailable":  true
+    }
+]

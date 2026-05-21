@@ -1,73 +1,554 @@
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>SuicuneGS.com</title>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuicuneGS — ポケモンカード 日英対応検索</title>
+  <meta name="description" content="日本語版ポケモンカードを検索して、英語版の内容を確認できるサービスです。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+    :root {
+      --bg:          #0f1117;
+      --surface:     #1a1d27;
+      --border:      #2a2d3a;
+      --text:        #f0f0f5;
+      --text-muted:  #8b8fa8;
+      --accent:      #a8d4e8;
+      --font-display: "Bebas Neue", Impact, sans-serif;
+      --font-body:    "DM Sans", "Segoe UI", sans-serif;
+    }
 
-    
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-    <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
+    /* ── Nav ─────────────────────────────────────────── */
+    nav {
+      padding: 20px 48px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(168, 212, 232, 0.04) 0%, transparent 100%);
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      position: relative;
+    }
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .nav-logo:hover { opacity: 0.8; }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
 
-    
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <!--<h3 class="float-md-start mb-0">SuicuneGS.com</h3>-->
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <!--<a class="nav-link active" aria-current="page" href="#">Home</a>-->
-        <!--<a class="nav-link" href="guides.html">Guides</a>-->
-        <!--<a class="nav-link" href="resources.html">Resources</a>-->
-      </nav>
+    .nav-link {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .nav-link:hover { color: var(--text); }
+
+    /* ── Hamburger ───────────────────────────────────── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: transform 0.22s ease, opacity 0.22s ease;
+    }
+    .nav-hamburger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.is-open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .nav-mobile {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-direction: column;
+      z-index: 200;
+      animation: navSlideDown 0.18s ease;
+    }
+    @keyframes navSlideDown {
+      from { opacity: 0; transform: translateY(-6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .nav-mobile-link {
+      padding: 14px 24px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.15s, background 0.15s;
+    }
+    .nav-mobile-link:last-child { border-bottom: none; }
+    .nav-mobile-link:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+
+    /* ── Hero ────────────────────────────────────────── */
+    .hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 96px 48px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 500px;
+      background: radial-gradient(ellipse, rgba(168, 212, 232, 0.07) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 20px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(4.5rem, 12vw, 8rem);
+      letter-spacing: 0.05em;
+      margin: 0;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .hero-subtitle {
+      font-family: var(--font-display);
+      font-size: clamp(1.1rem, 3vw, 1.6rem);
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      margin: 10px 0 36px;
+    }
+
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      max-width: 480px;
+      margin: 0 auto 36px;
+    }
+
+    .hero-search {
+      display: flex;
+      width: 100%;
+      max-width: 460px;
+      position: relative;
+      margin-bottom: 14px;
+    }
+    .hero-search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    .hero-search-input {
+      flex: 1;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-right: none;
+      border-radius: 10px 0 0 10px;
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      padding: 13px 16px 13px 42px;
+      outline: none;
+      transition: border-color 0.15s;
+      min-width: 0;
+    }
+    .hero-search-input:focus { border-color: var(--accent); }
+    .hero-search-input::placeholder { color: var(--text-muted); }
+    .hero-search-btn {
+      background: var(--accent);
+      border: none;
+      border-radius: 0 10px 10px 0;
+      color: #0f1117;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 700;
+      padding: 13px 22px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: opacity 0.15s;
+    }
+    .hero-search-btn:hover { opacity: 0.85; }
+    .hero-browse {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .hero-browse:hover { color: var(--text); }
+
+    /* ── Card showcase ──────────────────────────────── */
+    .card-showcase {
+      margin: 36px 0 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .card-scene {
+      perspective: 700px;
+      width: 160px;
+      height: 224px;
+      animation: card-float 3.5s ease-in-out infinite;
+      cursor: grab;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .card-scene:active { cursor: grabbing; }
+    @keyframes card-float {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-10px); }
+    }
+    .card-spinner {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+    }
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.55), 0 0 0 1px rgba(168,212,232,0.12);
+    }
+    .card-face::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 10px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.07) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    .card-face img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .card-face-back { transform: rotateY(180deg); }
+    .card-showcase-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
+
+    /* ── Features ────────────────────────────────────── */
+    .features {
+      padding: 0 48px 96px;
+      max-width: 1040px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+    }
+
+    .feature-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.18s, transform 0.18s;
+    }
+    .feature-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .feature-icon {
+      width: 40px;
+      height: 40px;
+      background: rgba(168, 212, 232, 0.1);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .feature-title {
+      font-weight: 700;
+      font-size: 0.98rem;
+      margin: 0;
+      color: var(--text);
+    }
+
+    .feature-desc {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* ── Footer ──────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 22px 48px;
+      text-align: center;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Mobile ──────────────────────────────────────── */
+    @media (max-width: 700px) {
+      nav              { padding: 16px 24px; gap: 20px; }
+      .nav-links       { display: none; }
+      .nav-hamburger   { display: flex; }
+      .hero            { padding: 64px 24px 56px; }
+      .features        { padding: 0 24px 64px; }
+      footer           { padding: 20px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">SuicuneGS</a>
+    <div class="nav-links">
+      <a href="/cardsearch.html" class="nav-link">カード検索</a>
+      <a href="/study.html" class="nav-link">カード勉強</a>
+      <a href="/favorites.html" class="nav-link">気に入りカード</a>
+      <a href="/vocablist.html" class="nav-link">日英単語リスト</a>
     </div>
-  </header>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="メニュー" aria-expanded="false" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-mobile" id="nav-mobile" style="display:none">
+      <a href="/cardsearch.html" class="nav-mobile-link">カード検索</a>
+      <a href="/study.html" class="nav-mobile-link">カード勉強</a>
+      <a href="/favorites.html" class="nav-mobile-link">気に入りカード</a>
+      <a href="/vocablist.html" class="nav-mobile-link">日英単語リスト</a>
+    </div>
+  </nav>
 
-  <main class="px-3">
-    <!--<h1>Welcome to SuicuneGS.com!</h1>
-    <p class="lead">Thanks for stopping by! Take a look at my guides and resources made for new players coming to Japan and Japanese players wanting to play abroad!</p>
-    <p class="lead">
-      <a href="guides.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Continue to Website</a>
-    </p>-->
-    <h1>SuicuneGS.comへようこそ!</h1>
-    <p class="lead">国際的なプレイを促進するためのサイトです！日英ポケカ勉強資料やカード検索ツールがありますので興味があればぜひご覧ください。</p>
-    <p class="lead">
-      <a href="guides.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">つづく</a>
-    </p>
+  <main>
+    <section class="hero">
+      <p class="hero-eyebrow">ポケモンカードゲーム 日英対応</p>
+      <h1 class="hero-title">SuicuneGS</h1>
+      <p class="hero-subtitle">日英ポケカ検索</p>
+
+      <div class="card-showcase">
+        <div class="card-scene">
+          <div class="card-spinner">
+            <div class="card-face card-face-front">
+              <img src="/images/sets/ix/jp/26.jpg" alt="スイクン" draggable="false">
+            </div>
+            <div class="card-face card-face-back">
+              <img src="/images/sets/ix/en/26.jpg" alt="Suicune" draggable="false">
+            </div>
+          </div>
+        </div>
+        <p class="card-showcase-label">スイクン · Suicune</p>
+      </div>
+
+      <p class="hero-desc">
+        「このカード、英語でなんて書いてあるの？」<br>
+        そんなときに使える日英ポケカ検索ツールです。
+      </p>
+      <form class="hero-search" onsubmit="doSearch(event)">
+        <svg class="hero-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input class="hero-search-input" type="search" id="hero-q" placeholder="カード名を検索… (JP or EN)" autocomplete="off">
+        <button class="hero-search-btn" type="submit">検索</button>
+      </form>
+      <a href="/cardsearch.html" class="hero-browse">全カードを見る →</a>
+    </section>
+
+    <section class="features">
+      <a href="/cardsearch.html" class="feature-card">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">カード検索</h3>
+        <p class="feature-desc">日本語・英語どちらのカード名でも検索。タイプや種類でのフィルター、日英テキストの切り替えができます。</p>
+      </a>
+
+      <a href="/study.html" class="feature-card">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">カード勉強</h3>
+        <p class="feature-desc">フラッシュカードで日英カード名を暗記。シャッフル、お気に入りフィルター、スワイプ操作に対応。</p>
+      </a>
+
+      <a href="/favorites.html" class="feature-card">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">気に入りカード</h3>
+        <p class="feature-desc">ハートボタンでカードをお気に入り登録。まとめて確認したり、勉強モードで復習できます。</p>
+      </a>
+
+      <a href="/vocablist.html" class="feature-card">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">日英単語リスト</h3>
+        <p class="feature-desc">対戦で使う日英フレーズ・用語をまとめた一覧。スピーカーアイコンで発音確認もできます。</p>
+      </a>
+    </section>
   </main>
 
-  <footer class="mt-auto text-white-50">
-    <p class="mb-1">&copy; Copyright <strong><span>SuicuneGS</span></strong>. All Rights Reserved</p>  </div>  </footer>
-  </div>
+  <footer>
+    <p>© 2026 SuicuneGS &nbsp;·&nbsp; 任天堂・ゲームフリーク・株式会社ポケモンとは無関係です</p>
+  </footer>
 
+  <script>
+    function doSearch(e) {
+      e.preventDefault();
+      var q = document.getElementById('hero-q').value.trim();
+      window.location.href = '/cardsearch.html' + (q ? '?q=' + encodeURIComponent(q) : '');
+    }
 
-    
-  </body>
+    function toggleMenu() {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      var isOpen = btn.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', isOpen);
+      menu.style.display = isOpen ? 'flex' : 'none';
+    }
+    document.addEventListener('click', function(e) {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      if (!document.querySelector('nav').contains(e.target) && btn.classList.contains('is-open')) {
+        btn.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.style.display = 'none';
+      }
+    });
+
+    // ── Interactive card spin ──────────────────────────
+    (function () {
+      var scene   = document.querySelector('.card-scene');
+      var spinner = document.querySelector('.card-spinner');
+      if (!scene || !spinner) return;
+
+      var rotY      = 0;
+      var ROT_X     = 6;
+      var AUTO_DEG  = 40;   // degrees per second when idle
+      var phase     = 'auto'; // 'auto' | 'drag' | 'momentum'
+      var momentum  = 0;
+      var lastX     = 0;
+      var lastT     = null;
+
+      function tick(now) {
+        var dt = lastT !== null ? Math.min((now - lastT) / 1000, 0.1) : 0;
+        lastT = now;
+
+        if (phase === 'auto') {
+          rotY += AUTO_DEG * dt;
+        } else if (phase === 'momentum') {
+          rotY     += momentum;
+          momentum *= 0.88;
+          if (Math.abs(momentum) < 0.05) { momentum = 0; phase = 'auto'; }
+        }
+
+        spinner.style.transform = 'rotateX(' + ROT_X + 'deg) rotateY(' + rotY + 'deg)';
+        requestAnimationFrame(tick);
+      }
+
+      function onStart(clientX) {
+        phase    = 'drag';
+        lastX    = clientX;
+        momentum = 0;
+      }
+
+      function onMove(clientX) {
+        if (phase !== 'drag') return;
+        var dx = clientX - lastX;
+        rotY    += dx * 0.5;
+        momentum = dx * 0.45;
+        lastX    = clientX;
+      }
+
+      function onEnd() {
+        phase = Math.abs(momentum) > 0.1 ? 'momentum' : 'auto';
+      }
+
+      scene.addEventListener('mousedown',  function (e) { onStart(e.clientX); e.preventDefault(); });
+      document.addEventListener('mousemove', function (e) { onMove(e.clientX); });
+      document.addEventListener('mouseup',   onEnd);
+
+      scene.addEventListener('touchstart', function (e) { onStart(e.touches[0].clientX); e.preventDefault(); }, { passive: false });
+      document.addEventListener('touchmove', function (e) { if (phase === 'drag') { onMove(e.touches[0].clientX); e.preventDefault(); } }, { passive: false });
+      document.addEventListener('touchend',  onEnd);
+
+      requestAnimationFrame(tick);
+    }());
+  </script>
+</body>
 </html>

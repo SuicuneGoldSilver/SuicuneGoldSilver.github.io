@@ -1,16 +1,16 @@
-bp = battle partners
-ch = crimson haze
-cj = cyber judge
-mc = mask of change
-nw = night wanderer
-pd = paradise dragona
-seb = super electric breaker
-sm = stellar miracle
-stex = shiny treasure ex *dont include?
-tfex = terastal fest ex
-wf = wild force
-haa = hot air arena
-gotr = glory of team rocket
+bp Battle Partners
+ch Crimson Haze
+cj Cyber Judge
+mc Mask of Change
+nw night wanderer
+pd paradise dragona
+seb super electric breaker
+sm stellar miracle
+stex shiny treasure ex *dont include?
+tfex terastal fest ex
+wf wild force
+haa hot air arena
+gotr glory of team rocket
 ff future flash
 ar ancient roar
 rs Raging Surf
@@ -25,3 +25,4 @@ me mega evolution
 mb mega brave
 ms mega symphonia
 ix inferno x
+seb super electric breaker
