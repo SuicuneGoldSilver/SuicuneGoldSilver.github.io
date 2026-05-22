@@ -1,0 +1,230 @@
+CARD JSON SCHEMA REFERENCE
+==========================
+
+Use this file to validate any new set's JSON before it goes live.
+All card JSON files live at: public/data/cards/{setIdJa}.json
+
+
+FIELD ORDER (follow this order for consistency)
+------------------------------------------------
+id, setIdJa, setIdEn, numberJa, numberEn,
+nameJa, nameEn, supertype, subtypes,
+[types, hp]           ← Pokémon only
+[evolvesFrom]         ← Pokémon only, include only if card evolves
+abilities, attacks    ← Pokémon only
+weaknesses, resistances, retreatCost  ← Pokémon only
+[textJa, textEn]      ← Trainer/Energy only
+regulationMark, rarity, rarityJa, artist,
+nationalPokedexNumber ← Pokémon only
+imageJa, imageEn
+
+
+POKÉMON CARD — full example
+----------------------------
+{
+    "id": "seb-33",
+    "setIdJa": "seb",
+    "setIdEn": "sv8",
+    "numberJa": "033/106",
+    "numberEn": "57",
+    "nameJa": "ピカチュウex",
+    "nameEn": "Pikachu ex",
+    "supertype": "Pokémon",
+    "subtypes": ["Basic"],
+    "types": ["Lightning"],
+    "hp": 200,
+    "evolvesFrom": null,
+    "abilities": [
+        {
+            "nameJa": "がんばりハート",
+            "nameEn": "Resolute Heart",
+            "textJa": "...",
+            "textEn": "..."
+        }
+    ],
+    "attacks": [
+        {
+            "nameJa": "トパーズボルト",
+            "nameEn": "Topaz Bolt",
+            "cost": ["Grass", "Lightning", "Fighting"],
+            "convertedEnergyCost": 3,
+            "damage": "300",
+            "textJa": "...",
+            "textEn": "..."
+        }
+    ],
+    "weaknesses": [{"type": "Fighting", "value": "×2"}],
+    "resistances": [{"type": "Metal", "value": "-30"}],
+    "retreatCost": ["Colorless"],
+    "regulationMark": "H",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "aky CG Works",
+    "nationalPokedexNumber": 25,
+    "imageJa": "images/sets/seb/jp/33.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/57_hires.png"
+}
+
+
+TRAINER CARD — full example
+-----------------------------
+{
+    "id": "seb-94",
+    "setIdJa": "seb",
+    "setIdEn": "sv8",
+    "numberJa": "094/106",
+    "numberEn": "171",
+    "nameJa": "推理セット",
+    "nameEn": "Deduction Kit",
+    "supertype": "Trainer",
+    "subtypes": ["Item"],
+    "textJa": "...",
+    "textEn": "...",
+    "regulationMark": "H",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "AYUMI ODASHIMA",
+    "imageJa": "images/sets/seb/jp/94.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/171_hires.png"
+}
+
+
+ENERGY CARD — full example
+----------------------------
+{
+    "id": "seb-105",
+    "setIdJa": "seb",
+    "setIdEn": "sv8",
+    "numberJa": "105/106",
+    "numberEn": "189",
+    "nameJa": "基本草エネルギー",
+    "nameEn": "Basic Grass Energy",
+    "supertype": "Energy",
+    "subtypes": ["Basic Energy"],
+    "types": ["Grass"],
+    "textJa": null,
+    "textEn": null,
+    "regulationMark": null,
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Ryo Ueda",
+    "imageJa": "images/sets/seb/jp/105.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/189_hires.png"
+}
+
+
+FIELD REFERENCE
+---------------
+
+id
+  Format: "{setIdJa}-{n}" where n is the card's position (no zero-padding)
+  Example: "seb-1", "tfex-137"
+
+setIdJa
+  The JP set identifier. Must match the folder name and the sets.json entry.
+  WRONG: "setId"   RIGHT: "setIdJa"
+
+setIdEn
+  The EN set identifier (e.g. "sv8"). null if no EN release.
+
+numberJa
+  Zero-padded JP card number. Format: "001/106"
+
+numberEn
+  EN card number as a plain string, no padding. null if no EN release.
+  Example: "57"  (not "057")
+
+nameJa / nameEn
+  nameEn is null if no EN release.
+
+supertype  ← REQUIRED, never omit
+  "Pokémon" | "Trainer" | "Energy"
+  Omitting this field causes the modal to show a blank details panel.
+
+subtypes
+  Always an array, never a string.
+  Pokémon:  ["Basic"] ["Stage 1"] ["Stage 2"] ["Basic", "ex"] ["Stage 1", "ex"] etc.
+  Trainer:  ["Item"] ["Supporter"] ["Stadium"] ["Pokémon Tool"] ["Item", "ACE SPEC"]
+  Energy:   ["Basic Energy"] ["Special Energy"]
+
+types  (Pokémon and Basic Energy only)
+  Always an array of EnergyType, never a plain string.
+  Valid types: Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Dragon, Colorless
+  WRONG: "types": "Grass"   RIGHT: "types": ["Grass"]
+
+hp  (Pokémon only)
+  Integer. Omit entirely on Trainer/Energy cards (do not include as null).
+
+evolvesFrom  (Pokémon only, optional)
+  String name of the pre-evolution, or omit the field if not applicable.
+
+abilities  (Pokémon only)
+  Always an array. Use [] if the card has no ability — never omit the field.
+  Each ability: { nameJa, nameEn, textJa, textEn }
+
+attacks  (Pokémon only)
+  Always an array. Use [] if no attacks — never omit the field.
+  Each attack: { nameJa, nameEn, cost, convertedEnergyCost, damage, textJa, textEn }
+    cost: array of EnergyType
+    convertedEnergyCost: integer
+    damage: string — "60", "60×", "60+" or "" for no damage
+    textJa/textEn: string or null for no effect text
+
+weaknesses  (Pokémon only)
+  Array of { type: EnergyType, value: "×2" }. Use [] if none.
+
+resistances  (Pokémon only)
+  Array of { type: EnergyType, value: "-30" }. Use [] if none.
+  WRONG: null   RIGHT: []
+
+retreatCost  (Pokémon only)
+  Array of "Colorless" strings — one per retreat energy required.
+  WRONG: 2   RIGHT: ["Colorless", "Colorless"]
+  Free retreat: []
+
+textJa / textEn  (Trainer and Special Energy only)
+  The card effect text. null if EN not yet available.
+  Note: EN API stores trainer text in rules[0], not the text field.
+
+regulationMark
+  "G" | "H" | "I" | null (older sets with no mark)
+
+rarity
+  Full English name — not the short code.
+  Common | Uncommon | Rare | Double Rare | Art Rare | Special Art Rare |
+  Hyper Rare | Illustration Rare | Special Illustration Rare | ACE SPEC
+
+rarityJa
+  Short JP code: C | U | R | RR | AR | SAR | HR | IR | SIR | ACE
+
+artist
+  String. Use the name as printed on the card.
+
+nationalPokedexNumber  (Pokémon only)
+  Integer. Omit entirely on Trainer/Energy cards.
+
+imageJa
+  Relative path: "images/sets/{setIdJa}/jp/{n}.jpg"
+  n is NOT zero-padded: "1.jpg" not "001.jpg"
+
+imageEn
+  Full URL from pokemontcg.io: "https://images.pokemontcg.io/{setIdEn}/{numberEn}_hires.png"
+  Or relative path if EN images are stored locally: "images/sets/{setIdEn}/en/{n}.jpg"
+  null if no EN release.
+
+
+VALIDATION CHECKLIST
+---------------------
+Before saving a new set JSON, confirm every card has:
+
+[ ] "setIdJa" (not "setId")
+[ ] "supertype" present and set to "Pokémon", "Trainer", or "Energy"
+[ ] "types" is an array (not a string)
+[ ] "retreatCost" is an array of "Colorless" strings (not a number)
+[ ] "resistances" is an array (not null)
+[ ] "abilities" and "attacks" are arrays (not missing) on Pokémon cards
+[ ] "rarity" is the full English name (not a short code like "C" or "RR")
+[ ] "rarityJa" is the short code
+[ ] "imageJa" path uses the un-padded card number (1.jpg not 001.jpg)
+[ ] Trainer/Energy cards do NOT include hp, types, abilities, attacks,
+    weaknesses, resistances, retreatCost, nationalPokedexNumber

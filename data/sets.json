@@ -1,13 +1,83 @@
 [
   {
+    "id": "ns",
+    "language": "ja",
+    "name": "ニンジャスピナー",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2026-03-13",
+    "printedTotal": 83,
+    "regulationMark": "J",
+    "logo": "images/sets/ns/logo.png"
+  },
+  {
+    "id": "nz",
+    "language": "ja",
+    "name": "ニヒルゼロ",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2026-01-23",
+    "printedTotal": 80,
+    "regulationMark": "J",
+    "logo": "images/sets/nz/logo.png"
+  },
+  {
+    "id": "md",
+    "language": "ja",
+    "name": "メガドリームex",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025-11-28",
+    "printedTotal": 193,
+    "regulationMark": "I",
+    "logo": "images/sets/md/logo.png"
+  },
+  {
     "id": "ix",
     "language": "ja",
     "name": "インフェルノX",
     "series": "Scarlet & Violet",
-    "releaseDate": "2024-12-02",
+    "releaseDate": "2025-09-26",
     "printedTotal": 80,
     "regulationMark": "I",
     "logo": "images/sets/ix/logo.png"
+  },
+  {
+    "id": "ms",
+    "language": "ja",
+    "name": "メガシンフォニア",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025-08-01",
+    "printedTotal": 63,
+    "regulationMark": "I",
+    "logo": "images/sets/ms/logo.png"
+  },
+  {
+    "id": "mb",
+    "language": "ja",
+    "name": "メガブレイブ",
+    "series": "XY",
+    "releaseDate": "2025-08-01",
+    "printedTotal": 63,
+    "regulationMark": null,
+    "logo": "images/sets/mb/logo.png"
+  },
+  {
+    "id": "dri",
+    "language": "en",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025-05-30",
+    "printedTotal": 182,
+    "regulationMark": "I",
+    "logo": "images/sets/dri/logo.png"
+  },
+  {
+    "id": "gotr",
+    "language": "ja",
+    "name": "ロケット団の栄光",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025-04-18",
+    "printedTotal": 98,
+    "regulationMark": "I",
+    "logo": "images/sets/gotr/logo.png"
   },
   {
     "id": "pfl",
@@ -20,94 +90,14 @@
     "logo": "images/sets/pfl/logo.png"
   },
   {
-    "id": "ms",
-    "language": "ja",
-    "name": "メガシンフォニア",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2025-01-01",
-    "printedTotal": 63,
-    "regulationMark": "I",
-    "logo": "images/sets/ms/logo.png"
-  },
-  {
-    "id": "meg",
+    "id": "jt",
     "language": "en",
-    "name": "Mega Evolution",
+    "name": "Journey Together",
     "series": "Scarlet & Violet",
-    "releaseDate": "2025-01-01",
-    "printedTotal": 132,
+    "releaseDate": "2025-03-28",
+    "printedTotal": 190,
     "regulationMark": "I",
-    "logo": "images/sets/meg/logo.png"
-  },
-  {
-    "id": "mb",
-    "language": "ja",
-    "name": "メガブレイブ",
-    "series": "XY",
-    "releaseDate": "2014-01-01",
-    "printedTotal": 63,
-    "regulationMark": null,
-    "logo": "images/sets/mb/logo.png"
-  },
-  {
-    "id": "bwbb",
-    "language": "ja",
-    "name": "ブラックボルト",
-    "series": "Black & White",
-    "releaseDate": "2011-09-16",
-    "printedTotal": 86,
-    "regulationMark": null,
-    "logo": "images/sets/bwbb/logo.png"
-  },
-  {
-    "id": "bwwf",
-    "language": "ja",
-    "name": "ホワイトフレア",
-    "series": "Black & White",
-    "releaseDate": "2011-09-16",
-    "printedTotal": 86,
-    "regulationMark": null,
-    "logo": "images/sets/bwwf/logo.png"
-  },
-  {
-    "id": "blk",
-    "language": "en",
-    "name": "Black Bolt",
-    "series": "Black & White",
-    "releaseDate": "2012-04-06",
-    "printedTotal": 86,
-    "regulationMark": null,
-    "logo": "images/sets/blk/logo.png"
-  },
-  {
-    "id": "wht",
-    "language": "en",
-    "name": "White Flare",
-    "series": "Black & White",
-    "releaseDate": "2012-04-06",
-    "printedTotal": 86,
-    "regulationMark": null,
-    "logo": "images/sets/wht/logo.png"
-  },
-  {
-    "id": "gotr",
-    "language": "ja",
-    "name": "ロケット団の栄光",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2025-04-04",
-    "printedTotal": 98,
-    "regulationMark": "I",
-    "logo": "images/sets/gotr/logo.png"
-  },
-  {
-    "id": "dri",
-    "language": "en",
-    "name": "Destined Rivals",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2025-05-30",
-    "printedTotal": 182,
-    "regulationMark": "I",
-    "logo": "images/sets/dri/logo.png"
+    "logo": "images/sets/jt/logo.png"
   },
   {
     "id": "haa",
@@ -130,34 +120,24 @@
     "logo": "images/sets/bp/logo.png"
   },
   {
-    "id": "jt",
+    "id": "meg",
     "language": "en",
-    "name": "Journey Together",
+    "name": "Mega Evolution",
     "series": "Scarlet & Violet",
-    "releaseDate": "2025-03-28",
-    "printedTotal": 190,
+    "releaseDate": "2025-01-01",
+    "printedTotal": 132,
     "regulationMark": "I",
-    "logo": "images/sets/jt/logo.png"
+    "logo": "images/sets/meg/logo.png"
   },
   {
     "id": "tfex",
     "language": "ja",
     "name": "テラスタルフェス",
     "series": "Scarlet & Violet",
-    "releaseDate": "2024-10-25",
+    "releaseDate": "2024-12-06",
     "printedTotal": 187,
     "regulationMark": "H",
     "logo": "images/sets/tfex/logo.png"
-  },
-  {
-    "id": "seb",
-    "language": "ja",
-    "name": "超電ブレイカー",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2024-11-01",
-    "printedTotal": 106,
-    "regulationMark": "H",
-    "logo": "images/sets/seb/logo.png"
   },
   {
     "id": "sv8",
@@ -170,44 +150,24 @@
     "logo": "images/sets/sv8/logo.png"
   },
   {
-    "id": "pal",
-    "language": "en",
-    "name": "Paldea Evolved",
+    "id": "seb",
+    "language": "ja",
+    "name": "超電ブレイカー",
     "series": "Scarlet & Violet",
-    "releaseDate": "2023-06-09",
-    "printedTotal": 193,
-    "regulationMark": "G",
-    "logo": "images/sets/pal/logo.png"
+    "releaseDate": "2024-10-18",
+    "printedTotal": 106,
+    "regulationMark": "H",
+    "logo": "images/sets/seb/logo.png"
   },
   {
     "id": "pd",
     "language": "ja",
     "name": "楽園ドラゴーナ",
     "series": "Scarlet & Violet",
-    "releaseDate": "2024-11-01",
+    "releaseDate": "2024-09-13",
     "printedTotal": 64,
     "regulationMark": "H",
     "logo": "images/sets/pd/logo.png"
-  },
-  {
-    "id": "sm",
-    "language": "ja",
-    "name": "ステラミラクル",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2024-08-02",
-    "printedTotal": 102,
-    "regulationMark": "H",
-    "logo": "images/sets/sm/logo.png"
-  },
-  {
-    "id": "nw",
-    "language": "ja",
-    "name": "ナイトワンダラー",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2024-07-19",
-    "printedTotal": 64,
-    "regulationMark": "H",
-    "logo": "images/sets/nw/logo.png"
   },
   {
     "id": "sf",
@@ -220,14 +180,24 @@
     "logo": "images/sets/sf/logo.png"
   },
   {
-    "id": "mc",
+    "id": "sm",
     "language": "ja",
-    "name": "変幻の仮面",
+    "name": "ステラミラクル",
     "series": "Scarlet & Violet",
-    "releaseDate": "2024-04-26",
-    "printedTotal": 101,
+    "releaseDate": "2024-07-19",
+    "printedTotal": 102,
     "regulationMark": "H",
-    "logo": "images/sets/mc/logo.png"
+    "logo": "images/sets/sm/logo.png"
+  },
+  {
+    "id": "nw",
+    "language": "ja",
+    "name": "ナイトワンダラー",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024-06-07",
+    "printedTotal": 64,
+    "regulationMark": "H",
+    "logo": "images/sets/nw/logo.png"
   },
   {
     "id": "tm",
@@ -238,6 +208,16 @@
     "printedTotal": 167,
     "regulationMark": "H",
     "logo": "images/sets/tm/logo.png"
+  },
+  {
+    "id": "mc",
+    "language": "ja",
+    "name": "変幻の仮面",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2024-04-26",
+    "printedTotal": 101,
+    "regulationMark": "H",
+    "logo": "images/sets/mc/logo.png"
   },
   {
     "id": "ch",
@@ -278,5 +258,55 @@
     "printedTotal": 71,
     "regulationMark": "H",
     "logo": "images/sets/cj/logo.png"
+  },
+  {
+    "id": "pal",
+    "language": "en",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2023-06-09",
+    "printedTotal": 193,
+    "regulationMark": "G",
+    "logo": "images/sets/pal/logo.png"
+  },
+  {
+    "id": "blk",
+    "language": "en",
+    "name": "Black Bolt",
+    "series": "Black & White",
+    "releaseDate": "2012-04-06",
+    "printedTotal": 86,
+    "regulationMark": null,
+    "logo": "images/sets/blk/logo.png"
+  },
+  {
+    "id": "wht",
+    "language": "en",
+    "name": "White Flare",
+    "series": "Black & White",
+    "releaseDate": "2012-04-06",
+    "printedTotal": 86,
+    "regulationMark": null,
+    "logo": "images/sets/wht/logo.png"
+  },
+  {
+    "id": "bwbb",
+    "language": "ja",
+    "name": "ブラックボルト",
+    "series": "Black & White",
+    "releaseDate": "2011-09-16",
+    "printedTotal": 86,
+    "regulationMark": null,
+    "logo": "images/sets/bwbb/logo.png"
+  },
+  {
+    "id": "bwwf",
+    "language": "ja",
+    "name": "ホワイトフレア",
+    "series": "Black & White",
+    "releaseDate": "2011-09-16",
+    "printedTotal": 86,
+    "regulationMark": null,
+    "logo": "images/sets/bwwf/logo.png"
   }
 ]

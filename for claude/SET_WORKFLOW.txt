@@ -1,0 +1,76 @@
+SET POPULATION WORKFLOW
+=======================
+
+When adding a new set, always follow this two-phase order:
+
+PHASE 1 — Japanese images (do this first)
+------------------------------------------
+- Read all JP card images from: public/images/sets/{setId}/
+- Fill in every JP field from the images:
+    nameJa, hp, types, subtypes, weaknesses, resistances,
+    retreatCost, rarity, regulationMark, artist, numberJa,
+    attacks[].nameJa, attacks[].textJa,
+    abilities[].nameJa, abilities[].textJa,
+    textJa (for Trainer/Energy cards)
+- Process and update the JSON 20 cards at a time. This way you wont run out of tokens mid task and lose all your progress.
+
+PHASE 2 — English info via API (do this second)
+-------------------------------------------------
+- Use the Pokémon TCG API to pull EN data:
+    https://api.pokemontcg.io/v2/cards?q=set.id:{enSetId}
+- Fetch and save the full EN card list to a temp file (e.g. sv8_en_cards.json) at the
+  START of Phase 2 — before processing any cards. Delete the temp file when Phase 2 is done.
+- Fill in EN fields from the API response:
+    nameEn, numberEn, imageEn, setIdEn,
+    attacks[].nameEn, attacks[].textEn,
+    abilities[].nameEn, abilities[].textEn,
+    textEn (for Trainer/Energy cards)
+- If there is no EN info available, read the EN card image public/images/sets/{setId}/
+- Fill in every EN field from the images
+- Process and update the JSON 20 cards at a time. This way you wont run out of tokens mid task and lose all your progress.
+
+JP↔EN CARD MATCHING (for sets where JP and EN numbers don't align)
+-------------------------------------------------------------------
+EN sets often combine multiple JP sets so card numbers don't match directly.
+Match Pokémon cards by nationalPokedexNumber + HP (unique within the main set range).
+
+Edge cases:
+- Multi-form Pokémon with the same Dex# and HP (e.g. Paldean Tauros, all HP 130):
+  disambiguate by card type (Fire / Water / Fighting).
+- Some JP cards have no EN equivalent (e.g. Pecharunt / モモワロウ is not in EN sv8).
+  Leave EN fields empty and set enAvailable: false.
+- Trainer cards have no Dex# — match by manually mapping JP name → EN name.
+- EN API trainer cards store their main effect in rules[0], not text. Use rules[0] for textEn.
+
+POWERSHELL PS5.1 QUIRKS (Windows — avoid re-discovering these)
+--------------------------------------------------------------
+- Always use -Encoding UTF8 on Get-Content, otherwise Japanese / accented characters corrupt.
+- Wrap all Where-Object calls in @() — a single-result pipe returns a plain object with no .Count.
+- Do NOT use ConvertTo-Json for building index.json entries — it flattens single-element arrays
+  (["Grass"] becomes "Grass"). Build index entries as raw JSON strings and concatenate manually.
+- Join-String is not available in PS5.1. Use the -join operator instead.
+
+
+PHASE 2.5 — Validate schema before moving on
+---------------------------------------------
+Before writing Phase 3, open CARD_SCHEMA.txt and run through the validation
+checklist for a sample of cards (first, last, one Pokémon, one Trainer, one Energy).
+Common things that break the modal silently:
+  - "setId" instead of "setIdJa"
+  - Missing "supertype" field (attacks/abilities never render)
+  - retreatCost stored as a number instead of ["Colorless", ...]
+  - resistances stored as null instead of []
+  - rarity stored as a short code ("C") instead of full name ("Common")
+
+PHASE 3 — Add to index.json (do this last)
+-------------------------------------------
+- Append one entry per card to public/data/index.json
+- Each entry needs: id, setIdJa, nameJa, nameEn, types, imageJa, imageEn, enAvailable
+- Also add the set to public/data/sets.json if not already there
+- Without this step the set tab shows no cards in the UI
+
+NOTES
+-----
+- JP images are always available first (app targets JP card buyers)
+- EN API data is clean and structured — faster than reading EN images
+- Process and update the JSON 20 cards at a time. This way you wont run out of tokens mid task and lose all your progress.

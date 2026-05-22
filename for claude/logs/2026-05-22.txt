@@ -1,0 +1,292 @@
+Session Log — 2026-05-22
+========================
+
+CONTEXT
+-------
+Continuation from 2026-05-21. Phase 1 (JP images → JSON) for md was done in the
+previous session (160 cards written). This session continued Phase 1 from card 161,
+then completed Phases 2 and 3.
+
+WHAT WAS DONE TODAY
+--------------------
+
+1. PHASE 1 COMPLETION (continued from previous session)
+   - Cards 161-193 were written in the previous session (per summary)
+   - md.json confirmed at 193 cards at session start
+
+2. PHASE 2 — EN DATA FILL
+
+   a. Fixed 2 wrong nationalPokedexNumbers in md.json:
+      - md-36: 362 (Glalie) → 478 (Froslass) — ユキメノコ is Froslass, not Glalie
+      - md-114: 989 → 1016 (Fezandipiti) — confused with a different dex number
+
+   b. Investigated 9 unmatched cards from Phase 2 matching attempt:
+      - md-17  (Teal Mask Ogerpon ex): dex missing in TM API data → override to sv6-25
+      - md-24  (Tepig): JP hp=70 vs EN hp=80 → override to me2pt5-29
+      - md-36  (Mega Froslass ex): dex was wrong → fixed dex + override to me2pt5-47
+      - md-45  (Magnemite): JP hp=60 vs EN hp=70 → override to me1-45
+      - md-46  (Magneton): JP hp=100 vs EN hp=90 → override to me1-46
+      - md-59  (Iono's Kilowattrel): API has dex=940 instead of 941 → override me2pt5-72
+      - md-98  (Okidogi): dex missing in API → override to me2pt5-122
+      - md-114 (Fezandipiti ex): dex was wrong → fixed dex + override to me2pt5-142
+      - md-140 (Bouffalant): JP hp=100 vs EN hp=130 → override to sv8-151
+
+   c. Built complete trainer JP→EN name mapping (48 cards, md 146-193)
+      All 11 EN sets' trainer cards inspected and matched.
+
+   d. Wrote scripts/phase2_md.js (Node.js):
+      - Loads all 11 EN set JSON files from data/cards/md_en_tmp/
+      - Matches Pokémon by dex+HP, fallback to dex-only
+      - 9 manual overrides for known mismatches
+      - Updates subtypes from EN card data (adds MEGA, Tera markers)
+      - Maps attack/ability nameEn+textEn positionally
+      - For Trainer/Energy: textEn from rules[0]
+      - For Tera ex Pokémon: textEn joins all EN rules
+      - Rebuilds card objects with correct field order (regulationMark before rarity/rarityJa)
+      - Removes Pokémon-only fields from Trainer/Energy cards
+      - Removes enAvailable field (not in schema)
+      - No PS5.1 array-flattening issues (uses Node.js)
+
+   RESULT: 193/193 matched, 0 unmatched
+
+   e. Field ordering fixes (Phase 1 had wrong order):
+      - Before: rarity, rarityJa, regulationMark (wrong)
+      - After:  regulationMark, rarity, rarityJa (correct, per schema)
+
+   f. Deleted data/cards/md_en_tmp/ temp directory
+
+3. PHASE 3 — INDEX.JSON + SETS.JSON
+
+   a. Wrote scripts/phase3_md.js (Node.js):
+      - Adds 193 md card entries to data/index.json
+      - Adds md set entry to data/sets.json
+
+   RESULT:
+      - index.json: 1471 → 1664 cards
+      - sets.json: 28 → 29 sets
+
+   md SET ENTRY:
+      id: md, language: ja
+      name: メガドリームex
+      series: Scarlet & Violet
+      releaseDate: 2025-10-17 (ESTIMATE — verify and update if wrong)
+      printedTotal: 193
+      regulationMark: I
+      logo: images/sets/md/logo.png (logo not yet available)
+
+KEY DISCOVERIES
+---------------
+- ユキメノコ = Froslass (dex=478), NOT Glalie (362). Glalie = ユキワラシ.
+- キチキギス = Fezandipiti (dex=1016), The Loyal Three: 1014/1015/1016.
+- EN API data sometimes has dex missing or wrong for newer Pokémon (Ogerpon, Okidogi,
+  Iono's Kilowattrel). Name-based override required.
+- Mega ex cards in EN have subtypes: ["Stage 1/2", "MEGA", "ex"] — Phase 1 missed "MEGA".
+  Phase 2 corrects this from EN card data.
+- textEn for Trainer cards = rules[0] only (rules[1] is generic subtype reminder).
+- textEn for Tera ex Pokémon = all rules joined (bench protection + ex rule).
+- Node.js (JSON.stringify) avoids PS5.1 single-element array flattening entirely.
+- BOM handling: EN temp JSON files had UTF-8 BOM; Node.js readFileSync needs manual strip.
+
+FILES CHANGED
+-------------
+- data/cards/md.json          — 193 cards, Phase 1+2 complete (new file)
+- data/index.json             — +193 md entries (1471 → 1664 cards)
+- data/sets.json              — +1 md set entry (28 → 29 sets)
+- scripts/phase2_md.js        — new, Phase 2 EN fill script
+- scripts/phase3_md.js        — new, Phase 3 index/sets update script
+- data/cards/md_en_tmp/       — DELETED (temp EN API cache)
+- for claude/logs/2026-05-22.txt — this log
+
+PROJECT STATE (as of end of session 1)
+--------------------------------------
+- 29 sets in sets.json, 1664 cards in index.json
+- md: complete (193 cards, JP+EN images, JSON, indexed)
+- ns, nz: images downloaded (JP+EN), but no card JSON yet
+- Remaining work: build ns.json and nz.json following SET_WORKFLOW.txt
+
+NEXT STEPS (session 1)
+----------------------
+- Build card JSON files for ns and nz
+- Add logo.png for md set (currently missing)
+- Verify md releaseDate: 2025-10-17 is an estimate
+
+================================================================================
+
+Session Log — 2026-05-22 (session 2 — nz set)
+========================
+
+CONTEXT
+-------
+Continuation from session 1 (md complete). Phase 1 for nz was done in a prior
+session (80 cards in nz.json). This session completed Phases 2 and 3 for nz.
+
+WHAT WAS DONE TODAY
+--------------------
+
+1. PHASE 2 — EN DATA FILL
+
+   a. JP-EN offset discovery:
+      - Session context summary had an error: claimed JP1-25→EN1-25 (1:1)
+      - Actual mapping: EN22=Lapras ex is EN-only (no JP equivalent in nz set)
+      - Correct: JP1-21→EN1-21 (1:1), JP22-66→EN23-67 (offset +1)
+      - JP25=Shinx (コリンク, dex 403) maps to EN26=Shinx (NOT EN-only as summary claimed)
+      - EN26 attack: "Double Scratch" [L] 10× "Flip 2 coins. This attack does 10 damage for each heads."
+
+   b. 4 Mega ex cards get textEn = Mega Evolution ex rule:
+      - JP21 Mega Starmie ex → EN21
+      - JP30 Mega Clefable ex → EN31
+      - JP46 Mega Zygarde ex → EN47
+      - JP54 Mega Skarmory ex → EN55
+
+   c. Trainer/Energy section (JP67-80 → non-sequential EN numbers):
+      - JP67→EN73, JP68→EN68, JP69→EN69, JP70→null
+      - JP71→EN78, JP72→EN70, JP73→null, JP74→EN79
+      - JP75→null, JP76→EN75, JP77→EN77
+      - JP78,79,80→null (Special Energies, no EN equivalent in 1-80)
+
+   d. EN data source: read from local images/sets/nz/en/*.jpg (pokemontcg.io API returned 403)
+
+   RESULT: 80/80 cards processed
+
+2. PHASE 3 — INDEX.JSON + SETS.JSON
+
+   RESULT:
+   - index.json: 1664 → 1744 cards
+   - sets.json: 29 → 30 sets
+
+   nz SET ENTRY:
+      id: nz, language: ja
+      name: ニヒルゼロ (ESTIMATE — verify Japanese set name; log says "Nihil Zero")
+      series: Scarlet & Violet
+      releaseDate: 2026-01-24 (ESTIMATE — verify)
+      printedTotal: 80
+      regulationMark: J
+      logo: images/sets/nz/logo.png (not yet available)
+
+KEY DISCOVERIES
+---------------
+- Session context summary had JP numbering wrong for cards 22-25:
+  Summary said "JP22=Lapras ex" but JP22=Amaura; Lapras ex is EN-only at EN22.
+- EN22=Lapras ex and EN26=Shinx are the two insertions... but actually Shinx IS in JP (JP25).
+  Only ONE EN-only insertion: Lapras ex at EN22. The offset is +1 for JP22-66 (not just JP26-66).
+- pokemontcg.io API returned 403 for this project; all EN data read from local images instead.
+
+FILES CHANGED
+-------------
+- data/cards/nz.json          — 80 cards, Phase 2 complete (EN data filled)
+- data/index.json             — +80 nz entries (1664 → 1744 cards)
+- data/sets.json              — +1 nz set entry (29 → 30 sets)
+- scripts/phase2_nz.js        — new, Phase 2 EN fill script (hardcoded EN data table)
+- scripts/phase3_nz.js        — new, Phase 3 index/sets update script
+
+PROJECT STATE (as of end of session 2)
+--------------------------------------
+- 30 sets in sets.json, 1744 cards in index.json
+- md: complete (193 cards, JP+EN images, JSON, indexed)
+- nz: complete (80 cards, JP+EN images, JSON, indexed)
+- ns: images downloaded (JP+EN), but no card JSON yet
+
+NEXT STEPS
+----------
+- Build card JSON for ns set (Phase 1: JP images, Phase 2: EN matching, Phase 3: index)
+  ns → chaosrising (Chaos Rising, 86 EN cards)
+- Add logo.png for md and nz sets (currently missing)
+- Verify md releaseDate (2025-10-17 estimate)
+- Verify nz set name (ニヒルゼロ estimate) and release date (2026-01-24 estimate)
+
+================================================================================
+
+Session Log — 2026-05-22 (session 3 — ns set)
+========================
+
+CONTEXT
+-------
+Continuation from session 2 (nz complete). Phase 1 for ns was done in a prior
+session (83 cards in ns.json, all EN fields null). scripts/phase2_ns.js was
+written during this session but not yet run. This session ran Phase 2 and Phase 3.
+
+WHAT WAS DONE TODAY
+--------------------
+
+1. PHASE 2 — EN DATA FILL
+
+   JP→EN card number mapping (confirmed by reading EN images in prior session):
+     JP1-47  → EN1-47  (1:1)
+     EN48 = Mega Gallade ex (EN-only)
+     JP48-53 → EN49-54 (+1)
+     EN55 = Krookodile ex (EN-only)
+     JP54-71 → EN56-73 (+2)
+     EN74 = Adversary Policy (EN-only — Pokémon Tool Trainer)
+     JP72-80 → EN75-83 (Trainers, reordered in EN)
+     JP81-83 → EN84-86 (Special Energies, images not downloaded)
+
+   3 EN-only insertions: EN48, EN55, EN74 → JP has no equivalent
+
+   Trainer JP→EN number mapping (reordered):
+     JP72 (スペシャルレッドカード) → EN82
+     JP73 (大漁ネット) → EN78
+     JP74 (変化の書) → EN83
+     JP75 (AZの安らぎ) → EN76
+     JP76 (ジプソ) → EN79
+     JP77 (ホミカの演奏) → EN81
+     JP78 (マチエール) → EN77
+     JP79 (アンジュフラエッテ) → EN75
+     JP80 (プリズムタワー) → EN80
+
+   4 Mega ex cards get textEn = Mega Evolution ex rule:
+     ns-15 Mega Pyroar ex (EN15), ns-22 Mega Greninja ex (EN22),
+     ns-35 Mega Floette ex (EN35), ns-63 Mega Dragalge ex (EN65)
+
+   Special Energies JP81-83 → EN84-86: imageEn null, nameEn null (images not downloaded)
+
+   RESULT: 83/83 cards processed. Ran node scripts/phase2_ns.js successfully.
+
+2. PHASE 3 — INDEX.JSON + SETS.JSON
+
+   Wrote scripts/phase3_ns.js and ran it.
+
+   RESULT:
+   - index.json: 1744 → 1827 cards (+83 ns entries)
+   - sets.json: 30 → 31 sets
+
+   ns SET ENTRY:
+      id: ns, language: ja
+      name: ニンジャスピナー (confirmed from 2026-05-21 log: "Ninja Spinner, 83 JP cards")
+      series: Scarlet & Violet
+      releaseDate: 2025-11-21 (ESTIMATE — verify and update if wrong)
+      printedTotal: 83
+      regulationMark: J
+      logo: images/sets/ns/logo.png (not yet available)
+
+KEY DISCOVERIES
+---------------
+- JP set name confirmed: ニンジャスピナー (Ninja Spinner) — named after Mega Greninja ex attack
+  Found in 2026-05-21 log: "ns (Ninja Spinner, 83 JP cards) → EN: chaosrising"
+- "ns" initials: ニ(n) + ス(s) = ns ✓ (same pattern as nz = ニ+ゼ)
+- EN Trainer order is NOT same as JP Trainer order — all 9 Trainers are reordered
+- EN74 = Adversary Policy is a Pokémon Tool Trainer (EN-only), not mapped to any JP card
+- Special Energies (JP81-83) → EN84-86: EN images not downloaded from prior session
+
+FILES CHANGED
+-------------
+- data/cards/ns.json     — 83 cards, Phase 2 complete (EN data filled)
+- data/index.json        — +83 ns entries (1744 → 1827 cards)
+- data/sets.json         — +1 ns set entry (30 → 31 sets)
+- scripts/phase2_ns.js  — new, Phase 2 EN fill script (written in prior session, run now)
+- scripts/phase3_ns.js  — new, Phase 3 index/sets update script
+
+PROJECT STATE (as of end of session 3)
+---------------------------------------
+- 31 sets in sets.json, 1827 cards in index.json
+- md: complete (193 cards, JP+EN images, JSON, indexed)
+- nz: complete (80 cards, JP+EN images, JSON, indexed)
+- ns: complete (83 cards, JP+EN images, JSON, indexed)
+
+NEXT STEPS
+----------
+- Add logo.png for md, nz, ns sets (all currently missing)
+- Verify md releaseDate (2025-10-17 estimate)
+- Verify nz set name (ニヒルゼロ estimate) and releaseDate (2026-01-24 estimate)
+- Verify ns releaseDate (2025-11-21 estimate)
+- Retrieve nameEn for ns JP81-83 Special Energies (need EN84-86 images — not downloaded)
+- Download EN84-86 images for ns Special Energies if desired
