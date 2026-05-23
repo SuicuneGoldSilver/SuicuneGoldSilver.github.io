@@ -27744,11 +27744,11 @@
     "id": "nz-70",
     "setIdJa": "nz",
     "nameJa": "ポケパッド",
-    "nameEn": null,
+    "nameEn": "Poké Pad",
     "types": [],
     "imageJa": "images/sets/nz/jp/70.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/nz/en/81.jpg",
+    "enAvailable": true,
     "supertype": "Trainer",
     "subtypes": [
       "Item"
@@ -27786,11 +27786,11 @@
     "id": "nz-73",
     "setIdJa": "nz",
     "nameJa": "タラゴン",
-    "nameEn": null,
+    "nameEn": "Tarragon",
     "types": [],
     "imageJa": "images/sets/nz/jp/73.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/nz/en/85.jpg",
+    "enAvailable": true,
     "supertype": "Trainer",
     "subtypes": [
       "Supporter"
@@ -27814,11 +27814,11 @@
     "id": "nz-75",
     "setIdJa": "nz",
     "nameJa": "メイのはげまし",
-    "nameEn": null,
+    "nameEn": "Rosa's Encouragement",
     "types": [],
     "imageJa": "images/sets/nz/jp/75.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/nz/en/84.jpg",
+    "enAvailable": true,
     "supertype": "Trainer",
     "subtypes": [
       "Supporter"
@@ -27856,11 +27856,11 @@
     "id": "nz-78",
     "setIdJa": "nz",
     "nameJa": "グロウ草エネルギー",
-    "nameEn": null,
+    "nameEn": "Growing Grass Energy",
     "types": [],
     "imageJa": "images/sets/nz/jp/78.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/nz/en/86.jpg",
+    "enAvailable": true,
     "supertype": "Energy",
     "subtypes": [
       "Special"
@@ -27884,11 +27884,11 @@
     "id": "nz-80",
     "setIdJa": "nz",
     "nameJa": "ロック闘エネルギー",
-    "nameEn": null,
+    "nameEn": "Rocky Fighting Energy",
     "types": [],
     "imageJa": "images/sets/nz/jp/80.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/nz/en/87.jpg",
+    "enAvailable": true,
     "supertype": "Energy",
     "subtypes": [
       "Special"
@@ -29172,11 +29172,11 @@
     "id": "ns-81",
     "setIdJa": "ns",
     "nameJa": "ニトロ炎エネルギー",
-    "nameEn": null,
+    "nameEn": "Nitro Fire Energy",
     "types": [],
     "imageJa": "images/sets/ns/jp/81.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/ns/en/85.jpg",
+    "enAvailable": true,
     "supertype": "Energy",
     "subtypes": [
       "Special"
@@ -29186,11 +29186,11 @@
     "id": "ns-82",
     "setIdJa": "ns",
     "nameJa": "バブル水エネルギー",
-    "nameEn": null,
+    "nameEn": "Bubbly Water Energy",
     "types": [],
     "imageJa": "images/sets/ns/jp/82.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/ns/en/86.jpg",
+    "enAvailable": true,
     "supertype": "Energy",
     "subtypes": [
       "Special"
@@ -29200,11 +29200,11 @@
     "id": "ns-83",
     "setIdJa": "ns",
     "nameJa": "マグネット鋼エネルギー",
-    "nameEn": null,
+    "nameEn": "Magnetic Metal Energy",
     "types": [],
     "imageJa": "images/sets/ns/jp/83.jpg",
-    "imageEn": null,
-    "enAvailable": false,
+    "imageEn": "images/sets/ns/en/84.jpg",
+    "enAvailable": true,
     "supertype": "Energy",
     "subtypes": [
       "Special"

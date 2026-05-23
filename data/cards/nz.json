@@ -3925,21 +3925,21 @@
     "setIdJa": "nz",
     "setIdEn": null,
     "numberJa": "070/080",
-    "numberEn": null,
+    "numberEn": "081/088",
     "nameJa": "ポケパッド",
-    "nameEn": null,
+    "nameEn": "Poké Pad",
     "supertype": "Trainer",
     "subtypes": [
       "Item"
     ],
     "textJa": "自分の山札からポケモン（「ルールを持つポケモン」をのぞく）を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
-    "textEn": null,
+    "textEn": "Search your deck for a Pokémon that doesn't have a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck.",
     "regulationMark": "J",
     "rarity": "Uncommon",
     "rarityJa": "U",
     "artist": "Studio Bora Inc.",
     "imageJa": "images/sets/nz/jp/70.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/nz/en/81.jpg"
   },
   {
     "id": "nz-71",
@@ -3988,21 +3988,21 @@
     "setIdJa": "nz",
     "setIdEn": null,
     "numberJa": "073/080",
-    "numberEn": null,
+    "numberEn": "085/088",
     "nameJa": "タラゴン",
-    "nameEn": null,
+    "nameEn": "Tarragon",
     "supertype": "Trainer",
     "subtypes": [
       "Supporter"
     ],
     "textJa": "自分のトラッシュから闘ポケモンと「基本闘エネルギー」を合計4枚まで選び、相手に見せて、手札に加える。",
-    "textEn": null,
+    "textEn": "Put up to 4 in any combination of Fighting Pokémon and Basic Fighting Energy cards from your discard pile into your hand.",
     "regulationMark": "J",
     "rarity": "Uncommon",
     "rarityJa": "U",
     "artist": "Akira Komayama",
     "imageJa": "images/sets/nz/jp/73.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/nz/en/85.jpg"
   },
   {
     "id": "nz-74",
@@ -4030,21 +4030,21 @@
     "setIdJa": "nz",
     "setIdEn": null,
     "numberJa": "075/080",
-    "numberEn": null,
+    "numberEn": "084/088",
     "nameJa": "メイのはげまし",
-    "nameEn": null,
+    "nameEn": "Rosa's Encouragement",
     "supertype": "Trainer",
     "subtypes": [
       "Supporter"
     ],
     "textJa": "このカードは、自分のサイドの残り枚数が、相手のサイドの残り枚数より多いときにしか使えない。自分のトラッシュから基本エネルギーを2枚まで選び、自分の2進化ポケモン1匹につける。",
-    "textEn": null,
+    "textEn": "You can play this card only if you have more Prize cards remaining than your opponent. Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokémon.",
     "regulationMark": "J",
     "rarity": "Uncommon",
     "rarityJa": "U",
     "artist": "Atsushi Furusawa",
     "imageJa": "images/sets/nz/jp/75.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/nz/en/84.jpg"
   },
   {
     "id": "nz-76",
@@ -4093,21 +4093,21 @@
     "setIdJa": "nz",
     "setIdEn": null,
     "numberJa": "078/080",
-    "numberEn": null,
+    "numberEn": "086/088",
     "nameJa": "グロウ草エネルギー",
-    "nameEn": null,
+    "nameEn": "Growing Grass Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
     ],
     "textJa": "このカードは、ポケモンについているかぎり、草エネルギー1個ぶんとしてはたらく。このカードをつけている草ポケモンは、最大HPが「+20」される。",
-    "textEn": null,
+    "textEn": "As long as this card is attached to a Pokémon, it provides Grass Energy. If this card is attached to a Grass Pokémon, that Pokémon gets +20 HP. This card can't be used as a Basic Energy.",
     "regulationMark": "J",
     "rarity": "Rare",
     "rarityJa": "R",
     "artist": "",
     "imageJa": "images/sets/nz/jp/78.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/nz/en/86.jpg"
   },
   {
     "id": "nz-79",
@@ -4135,20 +4135,20 @@
     "setIdJa": "nz",
     "setIdEn": null,
     "numberJa": "080/080",
-    "numberEn": null,
+    "numberEn": "087/088",
     "nameJa": "ロック闘エネルギー",
-    "nameEn": null,
+    "nameEn": "Rocky Fighting Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
     ],
     "textJa": "このカードは、ポケモンについているかぎり、闘エネルギー1個ぶんとしてはたらく。このカードをつけている闘ポケモンは、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
-    "textEn": null,
+    "textEn": "As long as this card is attached to a Pokémon, it provides Fighting Energy. Prevent all effects of attacks used by your opponent's Pokémon done to the Fighting Pokémon this card is attached to. This card can't be used as a Basic Energy.",
     "regulationMark": "J",
     "rarity": "Rare",
     "rarityJa": "R",
     "artist": "",
     "imageJa": "images/sets/nz/jp/80.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/nz/en/87.jpg"
   }
 ]

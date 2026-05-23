@@ -60,6 +60,26 @@
     "logo": "images/sets/mb/logo.png"
   },
   {
+    "id": "bwbb",
+    "language": "ja",
+    "name": "ブラックボルト",
+    "series": "Black & White",
+    "releaseDate": "2025-06-06",
+    "printedTotal": 86,
+    "regulationMark": null,
+    "logo": "images/sets/bwbb/logo.png"
+  },
+  {
+    "id": "bwwf",
+    "language": "ja",
+    "name": "ホワイトフレア",
+    "series": "Black & White",
+    "releaseDate": "2025-06-06",
+    "printedTotal": 86,
+    "regulationMark": null,
+    "logo": "images/sets/bwwf/logo.png"
+  },
+  {
     "id": "dri",
     "language": "en",
     "name": "Destined Rivals",
@@ -288,25 +308,5 @@
     "printedTotal": 86,
     "regulationMark": null,
     "logo": "images/sets/wht/logo.png"
-  },
-  {
-    "id": "bwbb",
-    "language": "ja",
-    "name": "ブラックボルト",
-    "series": "Black & White",
-    "releaseDate": "2011-09-16",
-    "printedTotal": 86,
-    "regulationMark": null,
-    "logo": "images/sets/bwbb/logo.png"
-  },
-  {
-    "id": "bwwf",
-    "language": "ja",
-    "name": "ホワイトフレア",
-    "series": "Black & White",
-    "releaseDate": "2011-09-16",
-    "printedTotal": 86,
-    "regulationMark": null,
-    "logo": "images/sets/bwwf/logo.png"
   }
 ]

@@ -4317,62 +4317,62 @@
     "setIdJa": "ns",
     "setIdEn": "cri",
     "numberJa": "081/083",
-    "numberEn": "084/086",
+    "numberEn": "085/086",
     "nameJa": "ニトロ炎エネルギー",
-    "nameEn": null,
+    "nameEn": "Nitro Fire Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
     ],
     "textJa": "このカードは、ポケモンについているかぎり、炎エネルギー1個ぶんとしてはたらく。このカードをつけている炎ポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、手札にもどす。",
-    "textEn": null,
+    "textEn": "As long as this card is attached to a Pokémon, it provides Fire Energy. If this card is discarded by an effect of an attack used by the Fire Pokémon this card is attached to, put this card into your hand after applying damage and effects. This card can't be used as a Basic Energy.",
     "regulationMark": "J",
     "rarity": "Rare",
     "rarityJa": "R",
     "artist": "",
     "imageJa": "images/sets/ns/jp/81.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/ns/en/85.jpg"
   },
   {
     "id": "ns-82",
     "setIdJa": "ns",
     "setIdEn": "cri",
     "numberJa": "082/083",
-    "numberEn": "085/086",
+    "numberEn": "086/086",
     "nameJa": "バブル水エネルギー",
-    "nameEn": null,
+    "nameEn": "Bubbly Water Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
     ],
     "textJa": "このカードは、ポケモンについているかぎり、水エネルギー1個ぶんとしてはたらく。このカードをつけている水ポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
-    "textEn": null,
+    "textEn": "As long as this card is attached to a Pokémon, it provides Water Energy. If this card is attached to a Water Pokémon, that Pokémon recovers from all Special Conditions and can't be affected by Special Conditions. This card can't be used as a Basic Energy.",
     "regulationMark": "J",
     "rarity": "Rare",
     "rarityJa": "R",
     "artist": "",
     "imageJa": "images/sets/ns/jp/82.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/ns/en/86.jpg"
   },
   {
     "id": "ns-83",
     "setIdJa": "ns",
     "setIdEn": "cri",
     "numberJa": "083/083",
-    "numberEn": "086/086",
+    "numberEn": "084/086",
     "nameJa": "マグネット鋼エネルギー",
-    "nameEn": null,
+    "nameEn": "Magnetic Metal Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
     ],
     "textJa": "このカードは、ポケモンについているかぎり、鋼エネルギー1個ぶんとしてはたらく。このカードをつけている鋼ポケモンは、にげるためのエネルギーが、すべてなくなる。",
-    "textEn": null,
+    "textEn": "As long as this card is attached to a Pokémon, it provides Metal Energy. The Metal Pokémon this card is attached to has no Retreat Cost. This card can't be used as a Basic Energy.",
     "regulationMark": "J",
     "rarity": "Rare",
     "rarityJa": "R",
     "artist": "",
     "imageJa": "images/sets/ns/jp/83.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/ns/en/84.jpg"
   }
 ]
