@@ -308,5 +308,15 @@
     "printedTotal": 86,
     "regulationMark": null,
     "logo": "images/sets/wht/logo.png"
+  },
+  {
+    "id": "sd100",
+    "language": "ja",
+    "name": "スターターデッキ100バトルコレクション",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025-07-25",
+    "printedTotal": 742,
+    "regulationMark": null,
+    "logo": "images/sets/sd100/logo.png"
   }
 ]
