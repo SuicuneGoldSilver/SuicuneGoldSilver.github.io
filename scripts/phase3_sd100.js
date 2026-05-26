@@ -49,7 +49,7 @@ const setsClean = sets.filter(s => s.id !== 'sd100');
 const sd100SetEntry = {
   id: 'sd100',
   language: 'ja',
-  name: 'スターターデッキ100バトルコレクション',
+  name: 'スターターデッキ100',
   series: 'Scarlet & Violet',
   releaseDate: '2025-07-25',  // verify and update if wrong
   printedTotal: 742,
