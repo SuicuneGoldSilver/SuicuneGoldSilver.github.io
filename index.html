@@ -354,6 +354,57 @@
       color: var(--text-muted);
     }
 
+    /* ── How-to steps ───────────────────────────────── */
+    .how-steps {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 auto 28px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .how-step {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .how-step-num {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(168, 212, 232, 0.5);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.68rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .how-arrow {
+      color: var(--text-muted);
+      opacity: 0.4;
+      font-size: 0.75rem;
+    }
+
+    .hero-browse-btn {
+      display: inline-block;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 18px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .hero-browse-btn:hover { color: var(--text); border-color: var(--accent); }
+
     /* ── Mobile ──────────────────────────────────────── */
     @media (max-width: 700px) {
       nav              { padding: 16px 24px; gap: 20px; }
@@ -410,6 +461,24 @@
         「このカード、英語でなんて書いてあるの？」<br>
         そんなときに使える日英ポケカ検索ツールです。
       </p>
+
+      <div class="how-steps">
+        <div class="how-step">
+          <span class="how-step-num">1</span>
+          <span>カード検索ページへ</span>
+        </div>
+        <span class="how-arrow">→</span>
+        <div class="how-step">
+          <span class="how-step-num">2</span>
+          <span>カードをタップ</span>
+        </div>
+        <span class="how-arrow">→</span>
+        <div class="how-step">
+          <span class="how-step-num">3</span>
+          <span>画像タップで英語表示</span>
+        </div>
+      </div>
+
       <form class="hero-search" onsubmit="doSearch(event)">
         <svg class="hero-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
@@ -417,7 +486,7 @@
         <input class="hero-search-input" type="search" id="hero-q" placeholder="カード名を検索… (JP or EN)" autocomplete="off">
         <button class="hero-search-btn" type="submit">検索</button>
       </form>
-      <a href="/cardsearch.html" class="hero-browse">全カードを見る →</a>
+      <a href="/cardsearch.html" class="hero-browse-btn">全カードを見る →</a>
     </section>
 
     <section class="features">
