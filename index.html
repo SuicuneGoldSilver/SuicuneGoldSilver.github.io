@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SuicuneGS — ポケモンカード 日英対応検索</title>
   <meta name="description" content="日本語版ポケモンカードを検索して、英語版の内容を確認できるサービスです。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -124,12 +125,14 @@
     /* ── Hero ────────────────────────────────────────── */
     .hero {
       flex: 1;
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 56px;
       align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 96px 48px 80px;
+      padding: 80px 72px;
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
       position: relative;
       overflow: hidden;
     }
@@ -146,17 +149,28 @@
       pointer-events: none;
     }
 
-    .hero-eyebrow {
-      font-size: 0.78rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin: 0 0 20px;
+    .hero-col-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .hero-col-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .card-demo-hint {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      opacity: 0.5;
+      margin: 2px 0 0;
+      letter-spacing: 0.06em;
     }
 
     .hero-title {
       font-family: var(--font-display);
-      font-size: clamp(4.5rem, 12vw, 8rem);
+      font-size: clamp(4.5rem, 10vw, 7rem);
       letter-spacing: 0.05em;
       margin: 0;
       line-height: 1;
@@ -165,18 +179,18 @@
 
     .hero-subtitle {
       font-family: var(--font-display);
-      font-size: clamp(1.1rem, 3vw, 1.6rem);
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
       letter-spacing: 0.14em;
       color: var(--accent);
-      margin: 10px 0 36px;
+      margin: 8px 0 20px;
     }
 
     .hero-desc {
-      font-size: 1rem;
+      font-size: 0.95rem;
       color: var(--text-muted);
       line-height: 1.75;
-      max-width: 480px;
-      margin: 0 auto 36px;
+      max-width: 420px;
+      margin: 0 0 24px;
     }
 
     .hero-search {
@@ -232,33 +246,42 @@
     }
     .hero-browse:hover { color: var(--text); }
 
+    /* ── Stats row ───────────────────────────────────── */
+    .stats-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 18px 48px;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+    .stats-sep { opacity: 0.3; }
+
     /* ── Card showcase ──────────────────────────────── */
     .card-showcase {
-      margin: 36px 0 24px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
     }
-    .card-scene {
-      perspective: 700px;
+    .card-demo {
+      position: relative;
       width: 160px;
       height: 224px;
-      animation: card-float 3.5s ease-in-out infinite;
-      cursor: grab;
-      user-select: none;
-      -webkit-user-select: none;
+      perspective: 700px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
     }
-    .card-scene:active { cursor: grabbing; }
-    @keyframes card-float {
-      0%, 100% { transform: translateY(0); }
-      50%      { transform: translateY(-10px); }
-    }
-    .card-spinner {
+    .card-demo-flipper {
       width: 100%;
       height: 100%;
       transform-style: preserve-3d;
+      transition: transform 0.5s cubic-bezier(.4,0,.2,1);
     }
+    .card-demo-flipper.flipped { transform: rotateY(180deg); }
     .card-face {
       position: absolute;
       width: 100%;
@@ -284,12 +307,66 @@
       display: block;
     }
     .card-face-back { transform: rotateY(180deg); }
-    .card-showcase-label {
+
+    .card-demo-tap {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .card-demo-dot {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.9);
+      opacity: 0;
+    }
+    .card-demo-ring {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.75);
+      opacity: 0;
+    }
+    .card-demo-dot.tapping { animation: demo-dot-once 0.5s ease-out forwards; }
+    .card-demo-ring.tapping { animation: demo-ring-once 0.55s ease-out forwards; }
+    @keyframes demo-dot-once {
+      0%   { opacity: 1; transform: scale(1); }
+      50%  { opacity: 0.5; transform: scale(1.2); }
+      100% { opacity: 0; transform: scale(0); }
+    }
+    @keyframes demo-ring-once {
+      0%   { opacity: 0.8; transform: scale(0.9); }
+      100% { opacity: 0; transform: scale(2.8); }
+    }
+
+    .card-demo-labels {
+      position: relative;
+      height: 1.2em;
+      min-width: 80px;
+      text-align: center;
+    }
+    .label-jp,
+    .label-en {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
       font-size: 0.72rem;
       letter-spacing: 0.1em;
       color: var(--text-muted);
       opacity: 0.7;
     }
+    .label-jp,
+    .label-en { transition: opacity 0.35s ease; }
+    .label-jp { opacity: 0.7; }
+    .label-en { opacity: 0; }
+    .card-demo-labels.en .label-jp { opacity: 0; }
+    .card-demo-labels.en .label-en { opacity: 0.7; }
 
     /* ── Features ────────────────────────────────────── */
     .features {
@@ -372,7 +449,10 @@
       nav              { padding: 16px 24px; gap: 20px; }
       .nav-links       { display: none; }
       .nav-hamburger   { display: flex; }
-      .hero            { padding: 64px 24px 56px; }
+      .hero            { grid-template-columns: 1fr; text-align: center; padding: 52px 24px 44px; gap: 28px; }
+      .hero-col-text   { align-items: center; }
+      .hero-desc       { margin: 0 auto 24px; }
+      .stats-row       { padding: 14px 24px; gap: 14px; font-size: 0.76rem; }
       .features        { padding: 0 24px 64px; }
       footer           { padding: 20px 24px; }
     }
@@ -401,38 +481,54 @@
 
   <main>
     <section class="hero">
-      <p class="hero-eyebrow">ポケモンカードゲーム 日英対応</p>
-      <h1 class="hero-title">SuicuneGS</h1>
-      <p class="hero-subtitle">日英ポケカ検索</p>
-
-      <div class="card-showcase">
-        <div class="card-scene">
-          <div class="card-spinner">
-            <div class="card-face card-face-front">
-              <img src="/images/sets/ix/jp/26.jpg" alt="スイクン" draggable="false">
+      <div class="hero-col-card">
+        <div class="card-showcase">
+          <div class="card-demo">
+            <div class="card-demo-flipper">
+              <div class="card-face card-face-front">
+                <img src="/images/sets/ix/jp/26.jpg" alt="スイクン" draggable="false">
+              </div>
+              <div class="card-face card-face-back">
+                <img src="/images/sets/ix/en/26.jpg" alt="Suicune" draggable="false">
+              </div>
             </div>
-            <div class="card-face card-face-back">
-              <img src="/images/sets/ix/en/26.jpg" alt="Suicune" draggable="false">
+            <div class="card-demo-tap">
+              <div class="card-demo-dot"></div>
+              <div class="card-demo-ring"></div>
             </div>
           </div>
+          <div class="card-demo-labels">
+            <span class="label-jp">日本語版</span>
+            <span class="label-en">English</span>
+          </div>
+          <p class="card-demo-hint">タップで切り替え</p>
         </div>
-        <p class="card-showcase-label">スイクン · Suicune</p>
       </div>
-
-      <p class="hero-desc">
-        「このカード、英語でなんて書いてあるの？」<br>
-        そんなときに使える日英ポケカ検索ツールです。
-      </p>
-
-      <form class="hero-search" onsubmit="doSearch(event)">
-        <svg class="hero-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-        </svg>
-        <input class="hero-search-input" type="search" id="hero-q" placeholder="カード名を検索… (JP or EN)" autocomplete="off">
-        <button class="hero-search-btn" type="submit">検索</button>
-      </form>
-      <a href="/cardsearch.html" class="hero-browse-btn">全カードを見る →</a>
+      <div class="hero-col-text">
+        <h1 class="hero-title">SuicuneGS</h1>
+        <p class="hero-subtitle">日英ポケカ検索</p>
+        <p class="hero-desc">
+          「このカード、英語でなんて書いてあるの？」<br>
+          そんなときに使える日英ポケカ検索ツールです。
+        </p>
+        <form class="hero-search" onsubmit="doSearch(event)">
+          <svg class="hero-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input class="hero-search-input" type="search" id="hero-q" placeholder="カード名を検索… (JP or EN)" autocomplete="off">
+          <button class="hero-search-btn" type="submit">検索</button>
+        </form>
+        <a href="/cardsearch.html" class="hero-browse-btn">全カードを見る →</a>
+      </div>
     </section>
+
+    <div class="stats-row">
+      <span>30+ セット</span>
+      <span class="stats-sep">·</span>
+      <span>4,000+ カード</span>
+      <span class="stats-sep">·</span>
+      <span>日英対応</span>
+    </div>
 
     <section class="features">
       <a href="/cardsearch.html" class="feature-card">
@@ -505,63 +601,41 @@
       }
     });
 
-    // ── Interactive card spin ──────────────────────────
+    // ── Interactive card flip demo ─────────────────────
     (function () {
-      var scene   = document.querySelector('.card-scene');
-      var spinner = document.querySelector('.card-spinner');
-      if (!scene || !spinner) return;
+      var demo    = document.querySelector('.card-demo');
+      var flipper = document.querySelector('.card-demo-flipper');
+      var dot     = document.querySelector('.card-demo-dot');
+      var ring    = document.querySelector('.card-demo-ring');
+      var labels  = document.querySelector('.card-demo-labels');
+      if (!demo || !flipper) return;
 
-      var rotY      = 0;
-      var ROT_X     = 6;
-      var AUTO_DEG  = 40;   // degrees per second when idle
-      var phase     = 'auto'; // 'auto' | 'drag' | 'momentum'
-      var momentum  = 0;
-      var lastX     = 0;
-      var lastT     = null;
+      var flipped   = false;
+      var autoTimer = null;
 
-      function tick(now) {
-        var dt = lastT !== null ? Math.min((now - lastT) / 1000, 0.1) : 0;
-        lastT = now;
-
-        if (phase === 'auto') {
-          rotY += AUTO_DEG * dt;
-        } else if (phase === 'momentum') {
-          rotY     += momentum;
-          momentum *= 0.88;
-          if (Math.abs(momentum) < 0.05) { momentum = 0; phase = 'auto'; }
-        }
-
-        spinner.style.transform = 'rotateX(' + ROT_X + 'deg) rotateY(' + rotY + 'deg)';
-        requestAnimationFrame(tick);
+      function triggerIndicator() {
+        dot.classList.remove('tapping');
+        ring.classList.remove('tapping');
+        void dot.offsetWidth;
+        dot.classList.add('tapping');
+        ring.classList.add('tapping');
       }
 
-      function onStart(clientX) {
-        phase    = 'drag';
-        lastX    = clientX;
-        momentum = 0;
+      function doFlip() {
+        flipped = !flipped;
+        flipper.classList.toggle('flipped', flipped);
+        labels.classList.toggle('en', flipped);
+        triggerIndicator();
       }
 
-      function onMove(clientX) {
-        if (phase !== 'drag') return;
-        var dx = clientX - lastX;
-        rotY    += dx * 0.5;
-        momentum = dx * 0.45;
-        lastX    = clientX;
+      function scheduleAuto() {
+        clearTimeout(autoTimer);
+        autoTimer = setTimeout(function () { doFlip(); scheduleAuto(); }, 3000);
       }
 
-      function onEnd() {
-        phase = Math.abs(momentum) > 0.1 ? 'momentum' : 'auto';
-      }
+      demo.addEventListener('click', function () { doFlip(); scheduleAuto(); });
 
-      scene.addEventListener('mousedown',  function (e) { onStart(e.clientX); e.preventDefault(); });
-      document.addEventListener('mousemove', function (e) { onMove(e.clientX); });
-      document.addEventListener('mouseup',   onEnd);
-
-      scene.addEventListener('touchstart', function (e) { onStart(e.touches[0].clientX); e.preventDefault(); }, { passive: false });
-      document.addEventListener('touchmove', function (e) { if (phase === 'drag') { onMove(e.touches[0].clientX); e.preventDefault(); } }, { passive: false });
-      document.addEventListener('touchend',  onEnd);
-
-      requestAnimationFrame(tick);
+      scheduleAuto();
     }());
   </script>
 </body>
