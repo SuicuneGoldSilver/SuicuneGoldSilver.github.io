@@ -472,9 +472,9 @@
   {
     "id": "sd100-9",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "sv8",
     "numberJa": "009/742",
-    "numberEn": "001/131",
+    "numberEn": "001/191",
     "nameJa": "タマタマ",
     "nameEn": "Exeggcute",
     "supertype": "Pokémon",
@@ -490,14 +490,14 @@
     "attacks": [
       {
         "nameJa": "そうじゅくしんか",
-        "nameEn": "Ram",
+        "nameEn": "Precocious Evolution",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "このワザは、先攻プレイヤーの最初の番でも使える。このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
-        "textEn": ""
+        "textEn": "If you go first, you can use this attack during your first turn. Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck."
       }
     ],
     "weaknesses": [
@@ -1513,9 +1513,9 @@
   {
     "id": "sd100-26",
     "setIdJa": "sd100",
-    "setIdEn": "destinedrivals",
+    "setIdEn": "sv5",
     "numberJa": "026/742",
-    "numberEn": "005/182",
+    "numberEn": "006/162",
     "nameJa": "キノココ",
     "nameEn": "Shroomish",
     "supertype": "Pokémon",
@@ -1531,18 +1531,18 @@
     "attacks": [
       {
         "nameJa": "にどずつき",
-        "nameEn": "Rolling Tackle",
+        "nameEn": "Double Headbutt",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "10×",
         "textJa": "コインを2回投げ、オモテの数×10ダメージ。",
-        "textEn": ""
+        "textEn": "Flip 2 coins. This attack does 10 damage for each heads."
       },
       {
         "nameJa": "タネばくだん",
-        "nameEn": null,
+        "nameEn": "Seed Bomb",
         "cost": [
           "Grass",
           "Colorless"
@@ -1550,7 +1550,7 @@
         "convertedEnergyCost": 2,
         "damage": "20",
         "textJa": "",
-        "textEn": null
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -2328,7 +2328,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "039/742",
-    "numberEn": "003/88",
+    "numberEn": "003",
     "nameJa": "シェイミ",
     "nameEn": "Shaymin",
     "supertype": "Pokémon",
@@ -2390,7 +2390,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "040/742",
-    "numberEn": "004/88",
+    "numberEn": "004",
     "nameJa": "ツタージャ",
     "nameEn": "Snivy",
     "supertype": "Pokémon",
@@ -2452,9 +2452,9 @@
   {
     "id": "sd100-41",
     "setIdJa": "sd100",
-    "setIdEn": "perfectorder",
+    "setIdEn": "zsv10pt5",
     "numberJa": "041/742",
-    "numberEn": "005/88",
+    "numberEn": "002/86",
     "nameJa": "ジャノビー",
     "nameEn": "Servine",
     "supertype": "Pokémon",
@@ -2470,18 +2470,18 @@
     "attacks": [
       {
         "nameJa": "まきつく",
-        "nameEn": "Solar Cutter",
+        "nameEn": "Wrap",
         "cost": [
           "Grass"
         ],
         "convertedEnergyCost": 1,
         "damage": "20",
         "textJa": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
-        "textEn": ""
+        "textEn": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
       },
       {
         "nameJa": "つるのムチ",
-        "nameEn": null,
+        "nameEn": "Vine Whip",
         "cost": [
           "Grass",
           "Colorless",
@@ -2490,7 +2490,7 @@
         "convertedEnergyCost": 3,
         "damage": "60",
         "textJa": "",
-        "textEn": null
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -3222,9 +3222,9 @@
   {
     "id": "sd100-54",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "rsv10pt5",
     "numberJa": "054/742",
-    "numberEn": "015/159",
+    "numberEn": "010/86",
     "nameJa": "ビリジオン",
     "nameEn": "Virizion",
     "supertype": "Pokémon",
@@ -3240,18 +3240,18 @@
     "attacks": [
       {
         "nameJa": "ギガドレイン",
-        "nameEn": "Leaf Drain",
+        "nameEn": "Giga Drain",
         "cost": [
           "Grass"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
-        "textEn": "Heal 30 damage from this Pokémon."
+        "textEn": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
       },
       {
         "nameJa": "エメラルドブレード",
-        "nameEn": "Slicing Blade",
+        "nameEn": "Emerald Blade",
         "cost": [
           "Grass",
           "Grass",
@@ -3260,7 +3260,7 @@
         "convertedEnergyCost": 3,
         "damage": "130",
         "textJa": "次の自分の番、このポケモンはワザが使えない。",
-        "textEn": ""
+        "textEn": "During your next turn, this Pokémon can't use attacks."
       }
     ],
     "weaknesses": [
@@ -3287,9 +3287,9 @@
   {
     "id": "sd100-55",
     "setIdJa": "sd100",
-    "setIdEn": "chaosrising",
+    "setIdEn": "sv6",
     "numberJa": "055/742",
-    "numberEn": "038/86",
+    "numberEn": "012/167",
     "nameJa": "ボクレー",
     "nameEn": "Phantump",
     "supertype": "Pokémon",
@@ -3305,7 +3305,7 @@
     "attacks": [
       {
         "nameJa": "やどりぎのタネ",
-        "nameEn": "Mumble",
+        "nameEn": "Leech Seed",
         "cost": [
           "Grass",
           "Colorless"
@@ -3313,7 +3313,7 @@
         "convertedEnergyCost": 2,
         "damage": "20",
         "textJa": "このポケモンのHPを「20」回復する。",
-        "textEn": ""
+        "textEn": "Heal 20 damage from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -3576,9 +3576,9 @@
   {
     "id": "sd100-60",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "sv5",
     "numberJa": "060/742",
-    "numberEn": "070/159",
+    "numberEn": "019/162",
     "nameJa": "ダダリン",
     "nameEn": "Dhelmise",
     "supertype": "Pokémon",
@@ -3594,7 +3594,7 @@
     "attacks": [
       {
         "nameJa": "かいてんアタック",
-        "nameEn": "Bind Down",
+        "nameEn": "Spinning Attack",
         "cost": [
           "Colorless",
           "Colorless"
@@ -3602,11 +3602,11 @@
         "convertedEnergyCost": 2,
         "damage": "30",
         "textJa": "",
-        "textEn": "During your opponent's next turn, the Defending Pokémon can't retreat."
+        "textEn": ""
       },
       {
         "nameJa": "スチールアンカー",
-        "nameEn": "Anchor Smash",
+        "nameEn": "Steel Anchor",
         "cost": [
           "Grass",
           "Grass",
@@ -3615,7 +3615,7 @@
         "convertedEnergyCost": 3,
         "damage": "80+",
         "textJa": "自分のベンチに鋼ポケモンがいるなら、80ダメージ追加。",
-        "textEn": ""
+        "textEn": "If you have any Metal Pokémon on your Bench, this attack does 80 more damage."
       }
     ],
     "weaknesses": [
@@ -4464,9 +4464,9 @@
   {
     "id": "sd100-75",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "sv7",
     "numberJa": "075/742",
-    "numberEn": "089/159",
+    "numberEn": "018/142",
     "nameJa": "リクククラゲ",
     "nameEn": "Toedscruel",
     "supertype": "Pokémon",
@@ -4482,7 +4482,7 @@
     "attacks": [
       {
         "nameJa": "メガドレイン",
-        "nameEn": "Mud Shot",
+        "nameEn": "Mega Drain",
         "cost": [
           "Grass",
           "Colorless"
@@ -4490,11 +4490,11 @@
         "convertedEnergyCost": 2,
         "damage": "30",
         "textJa": "このポケモンのHPを「30」回復する。",
-        "textEn": ""
+        "textEn": "Heal 30 damage from this Pokémon."
       },
       {
         "nameJa": "ウィップスマッシュ",
-        "nameEn": null,
+        "nameEn": "Whip Smash",
         "cost": [
           "Grass",
           "Colorless",
@@ -4503,7 +4503,7 @@
         "convertedEnergyCost": 3,
         "damage": "90",
         "textJa": null,
-        "textEn": null
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -4648,9 +4648,9 @@
   {
     "id": "sd100-78",
     "setIdJa": "sd100",
-    "setIdEn": "twilightmasquerade",
+    "setIdEn": "sv6",
     "numberJa": "078/742",
-    "numberEn": "020/167",
+    "numberEn": "021/167",
     "nameJa": "チャデス",
     "nameEn": "Poltchageist",
     "supertype": "Pokémon",
@@ -4666,25 +4666,25 @@
     "attacks": [
       {
         "nameJa": "おちゃだし",
-        "nameEn": "Hook",
+        "nameEn": "Tea Server",
         "cost": [
           "Grass"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分のトラッシュから「基本草エネルギー」を1枚選び、相手に見せて、手札に加える。",
-        "textEn": ""
+        "textEn": "Put a Basic Grass Energy card from your discard pile into your hand."
       },
       {
         "nameJa": "ふいをつく",
-        "nameEn": null,
+        "nameEn": "Surprise Attack",
         "cost": [
           "Grass"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "コインを1回投げウラなら、このワザは失敗。",
-        "textEn": null
+        "textEn": "Flip a coin. If tails, this attack does nothing."
       }
     ],
     "weaknesses": [
@@ -5307,9 +5307,9 @@
   {
     "id": "sd100-89",
     "setIdJa": "sd100",
-    "setIdEn": "destinedrivals",
+    "setIdEn": "sv7",
     "numberJa": "089/742",
-    "numberEn": "030/182",
+    "numberEn": "020/142",
     "nameJa": "ギャロップ",
     "nameEn": "Rapidash",
     "supertype": "Pokémon",
@@ -5325,7 +5325,7 @@
     "attacks": [
       {
         "nameJa": "バーニンングラン",
-        "nameEn": "Fire Mane",
+        "nameEn": "Burning Run",
         "cost": [
           "Fire",
           "Colorless"
@@ -5333,7 +5333,7 @@
         "convertedEnergyCost": 2,
         "damage": "60+",
         "textJa": "コインを1回投げオモテなら、60ダメージ追加。",
-        "textEn": ""
+        "textEn": "Flip a coin. If heads, this attack does 60 more damage."
       }
     ],
     "weaknesses": [
@@ -5863,9 +5863,9 @@
   {
     "id": "sd100-98",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "sv6pt5",
     "numberJa": "098/742",
-    "numberEn": "063/131",
+    "numberEn": "008/64",
     "nameJa": "ヘルガー",
     "nameEn": "Houndoom",
     "supertype": "Pokémon",
@@ -5881,7 +5881,7 @@
     "attacks": [
       {
         "nameJa": "かみつく",
-        "nameEn": "Call to Muster",
+        "nameEn": "Bite",
         "cost": [
           "Colorless",
           "Colorless"
@@ -5889,11 +5889,11 @@
         "convertedEnergyCost": 2,
         "damage": "50",
         "textJa": null,
-        "textEn": "Search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+        "textEn": ""
       },
       {
         "nameJa": "バークアウト",
-        "nameEn": "Pitch-Black Fangs",
+        "nameEn": "Snarl",
         "cost": [
           "Fire",
           "Colorless",
@@ -5902,7 +5902,7 @@
         "convertedEnergyCost": 3,
         "damage": "100",
         "textJa": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-100」される。",
-        "textEn": ""
+        "textEn": "During your opponent's next turn, attacks used by the Defending Pokémon do 100 less damage (before applying Weakness and Resistance)."
       }
     ],
     "weaknesses": [
@@ -6356,9 +6356,9 @@
   {
     "id": "sd100-106",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "sv5",
     "numberJa": "106/742",
-    "numberEn": "021/191",
+    "numberEn": "030/162",
     "nameJa": "ビクティニ",
     "nameEn": "Victini",
     "supertype": "Pokémon",
@@ -6374,25 +6374,25 @@
     "attacks": [
       {
         "nameJa": "ばたばた",
-        "nameEn": "Flare",
+        "nameEn": "Flippity Flap",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
-        "textEn": ""
+        "textEn": "Shuffle your hand into your deck. Then, draw 6 cards."
       },
       {
         "nameJa": "やきおとす",
-        "nameEn": null,
+        "nameEn": "Singe Off",
         "cost": [
           "Fire"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
-        "textEn": null
+        "textEn": "Discard a Special Energy from your opponent's Active Pokémon."
       }
     ],
     "weaknesses": [
@@ -6419,9 +6419,9 @@
   {
     "id": "sd100-107",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "zsv10pt5",
     "numberJa": "107/742",
-    "numberEn": "021/191",
+    "numberEn": "012/86",
     "nameJa": "ビクティニ",
     "nameEn": "Victini",
     "supertype": "Pokémon",
@@ -6437,7 +6437,7 @@
     "attacks": [
       {
         "nameJa": "Vフォース",
-        "nameEn": "Flare",
+        "nameEn": "V-Force",
         "cost": [
           "Fire",
           "Fire"
@@ -6445,7 +6445,7 @@
         "convertedEnergyCost": 2,
         "damage": "120",
         "textJa": "自分のベンチポケモンが4匹以下なら、このワザは失敗。",
-        "textEn": ""
+        "textEn": "If you have 4 or fewer Benched Pokémon, this attack does nothing."
       }
     ],
     "weaknesses": [
@@ -6993,9 +6993,9 @@
   {
     "id": "sd100-117",
     "setIdJa": "sd100",
-    "setIdEn": "twilightmasquerade",
+    "setIdEn": "zsv10pt5",
     "numberJa": "117/742",
-    "numberEn": "035/167",
+    "numberEn": "014/86",
     "nameJa": "ヒヒダルマ",
     "nameEn": "Darmanitan",
     "supertype": "Pokémon",
@@ -7011,7 +7011,7 @@
     "attacks": [
       {
         "nameJa": "やきこがす",
-        "nameEn": "Rolling Tackle",
+        "nameEn": "Searing Flame",
         "cost": [
           "Fire",
           "Colorless"
@@ -7019,11 +7019,11 @@
         "convertedEnergyCost": 2,
         "damage": "50",
         "textJa": "相手のバトルポケモンをやけどにする。",
-        "textEn": ""
+        "textEn": "Your opponent's Active Pokémon is now Burned."
       },
       {
         "nameJa": "スマッシュヘッド",
-        "nameEn": "Inferno Onrush",
+        "nameEn": "Smashing Headbutt",
         "cost": [
           "Fire",
           "Colorless",
@@ -7033,7 +7033,7 @@
         "convertedEnergyCost": 4,
         "damage": "180",
         "textJa": "このポケモンについているエネルギーを2個選び、トラッシュする。",
-        "textEn": "This Pokémon also does 70 damage to itself."
+        "textEn": "Discard 2 Energy from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -7195,9 +7195,9 @@
   {
     "id": "sd100-120",
     "setIdJa": "sd100",
-    "setIdEn": "temporalforces",
+    "setIdEn": "rsv10pt5",
     "numberJa": "120/742",
-    "numberEn": "031/162",
+    "numberEn": "019/86",
     "nameJa": "クイタラン",
     "nameEn": "Heatmor",
     "supertype": "Pokémon",
@@ -7213,18 +7213,18 @@
     "attacks": [
       {
         "nameJa": "ベロベロキャッチ",
-        "nameEn": "Live Coal",
+        "nameEn": "Licking Catch",
         "cost": [
           "Fire"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分の山札から火ポケモンと「基本火エネルギー」を合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
-        "textEn": ""
+        "textEn": "Search your deck for up to 3 in any combination of Fire Pokémon and Basic Fire Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
       },
       {
         "nameJa": "ほのおのツメ",
-        "nameEn": "Licking Flames",
+        "nameEn": "Fire Claws",
         "cost": [
           "Fire",
           "Fire"
@@ -7232,7 +7232,7 @@
         "convertedEnergyCost": 2,
         "damage": "60",
         "textJa": null,
-        "textEn": "Flip 3 coins. For each tails, discard an Energy from this Pokémon."
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -7325,9 +7325,9 @@
   {
     "id": "sd100-122",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "sv8",
     "numberJa": "122/742",
-    "numberEn": "029/159",
+    "numberEn": "025/191",
     "nameJa": "ウルガモス",
     "nameEn": "Volcarona",
     "supertype": "Pokémon",
@@ -7343,18 +7343,18 @@
     "attacks": [
       {
         "nameJa": "きゅうけつ",
-        "nameEn": "Smoldering Scales",
+        "nameEn": "Leech Life",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
-        "textEn": ""
+        "textEn": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
       },
       {
         "nameJa": "どとうのはばたき",
-        "nameEn": null,
+        "nameEn": "Turbulent Wings",
         "cost": [
           "Fire",
           "Colorless",
@@ -7363,7 +7363,7 @@
         "convertedEnergyCost": 3,
         "damage": "150",
         "textJa": "このポケモンにも50ダメージ。",
-        "textEn": null
+        "textEn": "This Pokémon also does 50 damage to itself."
       }
     ],
     "weaknesses": [
@@ -8009,9 +8009,9 @@
   {
     "id": "sd100-133",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "sv8",
     "numberJa": "133/742",
-    "numberEn": "065/159",
+    "numberEn": "026/191",
     "nameJa": "オドリドリ",
     "nameEn": "Oricorio",
     "supertype": "Pokémon",
@@ -8027,25 +8027,25 @@
     "attacks": [
       {
         "nameJa": "エネアシスト",
-        "nameEn": "Call for Family",
+        "nameEn": "Energy Assist",
         "cost": [
           "Fire"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。",
-        "textEn": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+        "textEn": "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon."
       },
       {
         "nameJa": "ひばな",
-        "nameEn": "Spooky Shot",
+        "nameEn": "Fireworks",
         "cost": [
           "Fire"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。",
-        "textEn": ""
+        "textEn": "Discard an Energy from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -8072,9 +8072,9 @@
   {
     "id": "sd100-134",
     "setIdJa": "sd100",
-    "setIdEn": "perfectorder",
+    "setIdEn": "sv7",
     "numberJa": "134/742",
-    "numberEn": "015/88",
+    "numberEn": "023/142",
     "nameJa": "ヤトウモリ",
     "nameEn": "Salandit",
     "supertype": "Pokémon",
@@ -8090,14 +8090,14 @@
     "attacks": [
       {
         "nameJa": "ひのこ",
-        "nameEn": "Fire Claws",
+        "nameEn": "Ember",
         "cost": [
           "Fire"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。",
-        "textEn": ""
+        "textEn": "Discard an Energy from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -8192,7 +8192,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "136/742",
-    "numberEn": "017/88",
+    "numberEn": "017",
     "nameJa": "バクガメス",
     "nameEn": "Turtonator",
     "supertype": "Pokémon",
@@ -8440,9 +8440,9 @@
   {
     "id": "sd100-140",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "sv5",
     "numberJa": "140/742",
-    "numberEn": "027/191",
+    "numberEn": "036/162",
     "nameJa": "ヤクデ",
     "nameEn": "Sizzlipede",
     "supertype": "Pokémon",
@@ -8458,14 +8458,14 @@
     "attacks": [
       {
         "nameJa": "ヒートダイブ",
-        "nameEn": "Live Coal",
+        "nameEn": "Heat Dive",
         "cost": [
           "Fire"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "このポケモンにも10ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 10 damage to itself."
       }
     ],
     "weaknesses": [
@@ -8785,7 +8785,7 @@
     "setIdJa": "sd100",
     "setIdEn": "paradoxrift",
     "numberJa": "146/742",
-    "numberEn": "027/182",
+    "numberEn": "027",
     "nameJa": "グレンアルマex",
     "nameEn": "Armarouge ex",
     "supertype": "Pokémon",
@@ -10455,9 +10455,9 @@
   {
     "id": "sd100-173",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "me1",
     "numberJa": "173/742",
-    "numberEn": "040/191",
+    "numberEn": "032/132",
     "nameJa": "マンタイン",
     "nameEn": "Mantine",
     "supertype": "Pokémon",
@@ -10473,18 +10473,18 @@
     "attacks": [
       {
         "nameJa": "なかまをよぶ",
-        "nameEn": "Wave Splash",
+        "nameEn": "Call for Family",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
-        "textEn": ""
+        "textEn": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
       },
       {
         "nameJa": "たきのぼり",
-        "nameEn": "Aqua Dive",
+        "nameEn": "Waterfall",
         "cost": [
           "Water",
           "Colorless"
@@ -10492,7 +10492,7 @@
         "convertedEnergyCost": 2,
         "damage": "50",
         "textJa": null,
-        "textEn": "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -11223,9 +11223,9 @@
   {
     "id": "sd100-186",
     "setIdJa": "sd100",
-    "setIdEn": "ascendedheroes",
+    "setIdEn": "sv6",
     "numberJa": "186/742",
-    "numberEn": "046/217",
+    "numberEn": "051/167",
     "nameJa": "ユキワラシ",
     "nameEn": "Snorunt",
     "supertype": "Pokémon",
@@ -11241,7 +11241,7 @@
     "attacks": [
       {
         "nameJa": "おどろかす",
-        "nameEn": "Chilly",
+        "nameEn": "Astonish",
         "cost": [
           "Water",
           "Colorless"
@@ -11249,7 +11249,7 @@
         "convertedEnergyCost": 2,
         "damage": "20",
         "textJa": "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見て、相手の山札にもどして切る。",
-        "textEn": ""
+        "textEn": "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
       }
     ],
     "weaknesses": [
@@ -11980,9 +11980,9 @@
   {
     "id": "sd100-198",
     "setIdJa": "sd100",
-    "setIdEn": "twilightmasquerade",
+    "setIdEn": "rsv10pt5",
     "numberJa": "198/742",
-    "numberEn": "140/167",
+    "numberEn": "026/86",
     "nameJa": "スワンナ",
     "nameEn": "Swanna",
     "supertype": "Pokémon",
@@ -11998,18 +11998,18 @@
     "attacks": [
       {
         "nameJa": "はばたく",
-        "nameEn": "Fighting Wings",
+        "nameEn": "Flap",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": null,
-        "textEn": "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
+        "textEn": ""
       },
       {
         "nameJa": "エアスラッシュ",
-        "nameEn": "Gust",
+        "nameEn": "Air Slash",
         "cost": [
           "Colorless",
           "Colorless",
@@ -12018,7 +12018,7 @@
         "convertedEnergyCost": 3,
         "damage": "120",
         "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。",
-        "textEn": ""
+        "textEn": "Discard an Energy from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -12052,7 +12052,7 @@
     "setIdJa": "sd100",
     "setIdEn": "paradoxrift",
     "numberJa": "199/742",
-    "numberEn": "043/182",
+    "numberEn": "043",
     "nameJa": "バニプッチ",
     "nameEn": "Vanillite",
     "supertype": "Pokémon",
@@ -12116,7 +12116,7 @@
     "setIdJa": "sd100",
     "setIdEn": "paradoxrift",
     "numberJa": "200/742",
-    "numberEn": "044/182",
+    "numberEn": "044",
     "nameJa": "バニリッチ",
     "nameEn": "Vanillish",
     "supertype": "Pokémon",
@@ -12183,7 +12183,7 @@
     "setIdJa": "sd100",
     "setIdEn": "paradoxrift",
     "numberJa": "201/742",
-    "numberEn": "045/182",
+    "numberEn": "045",
     "nameJa": "バイバニラ",
     "nameEn": "Vanilluxe",
     "supertype": "Pokémon",
@@ -13148,9 +13148,9 @@
   {
     "id": "sd100-217",
     "setIdJa": "sd100",
-    "setIdEn": "destinedrivals",
+    "setIdEn": "sv8",
     "numberJa": "217/742",
-    "numberEn": "064/182",
+    "numberEn": "053/191",
     "nameJa": "アルクジラ",
     "nameEn": "Cetoddle",
     "supertype": "Pokémon",
@@ -13166,7 +13166,7 @@
     "attacks": [
       {
         "nameJa": "ドレインフィン",
-        "nameEn": "Gentle Slap",
+        "nameEn": "Draining Fin",
         "cost": [
           "Water",
           "Colorless"
@@ -13174,7 +13174,7 @@
         "convertedEnergyCost": 2,
         "damage": "20",
         "textJa": "このポケモンのHPを「20」回復する。",
-        "textEn": ""
+        "textEn": "Heal 20 damage from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -14840,7 +14840,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "244/742",
-    "numberEn": "026/88",
+    "numberEn": "026",
     "nameJa": "コリンク",
     "nameEn": "Shinx",
     "supertype": "Pokémon",
@@ -14902,9 +14902,9 @@
   {
     "id": "sd100-245",
     "setIdJa": "sd100",
-    "setIdEn": "perfectorder",
+    "setIdEn": "sv6",
     "numberJa": "245/742",
-    "numberEn": "027/88",
+    "numberEn": "067/167",
     "nameJa": "ルクシオ",
     "nameEn": "Luxio",
     "supertype": "Pokémon",
@@ -14920,7 +14920,7 @@
     "attacks": [
       {
         "nameJa": "かじりつく",
-        "nameEn": "Static Shock",
+        "nameEn": "Big Bite",
         "cost": [
           "Lightning",
           "Lightning"
@@ -14928,7 +14928,7 @@
         "convertedEnergyCost": 2,
         "damage": "60",
         "textJa": "次の相手の番、このワザを受けたポケモンは、にげられない。",
-        "textEn": ""
+        "textEn": "During your opponent's next turn, the Defending Pokémon can't retreat."
       }
     ],
     "weaknesses": [
@@ -15329,9 +15329,9 @@
   {
     "id": "sd100-252",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "rsv10pt5",
     "numberJa": "252/742",
-    "numberEn": "063/191",
+    "numberEn": "032/86",
     "nameJa": "ゼブライカ",
     "nameEn": "Zebstrika",
     "supertype": "Pokémon",
@@ -15347,7 +15347,7 @@
     "attacks": [
       {
         "nameJa": "けとばす",
-        "nameEn": "Kick",
+        "nameEn": "Smash Kick",
         "cost": [
           "Colorless"
         ],
@@ -15358,7 +15358,7 @@
       },
       {
         "nameJa": "エレキバレット",
-        "nameEn": "Mach Bolt",
+        "nameEn": "Electrobullet",
         "cost": [
           "Lightning",
           "Lightning",
@@ -15367,7 +15367,7 @@
         "convertedEnergyCost": 3,
         "damage": "100",
         "textJa": "相手のベンチポケモン1匹にも、30ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕",
-        "textEn": ""
+        "textEn": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       }
     ],
     "weaknesses": [
@@ -15820,9 +15820,9 @@
   {
     "id": "sd100-260",
     "setIdJa": "sd100",
-    "setIdEn": "ascendedheroes",
+    "setIdEn": "sv6",
     "numberJa": "260/742",
-    "numberEn": "063/217",
+    "numberEn": "070/167",
     "nameJa": "エリキテル",
     "nameEn": "Helioptile",
     "supertype": "Pokémon",
@@ -15838,25 +15838,25 @@
     "attacks": [
       {
         "nameJa": "もってくる",
-        "nameEn": "Zap Kick",
+        "nameEn": "Collect",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分の山札を1枚引く。",
-        "textEn": ""
+        "textEn": "Draw a card."
       },
       {
         "nameJa": "バチバチ",
-        "nameEn": null,
+        "nameEn": "Static Shock",
         "cost": [
           "Lightning"
         ],
         "convertedEnergyCost": 1,
         "damage": "10",
         "textJa": null,
-        "textEn": null
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -16173,9 +16173,9 @@
   {
     "id": "sd100-266",
     "setIdJa": "sd100",
-    "setIdEn": "destinedrivals",
+    "setIdEn": "sv5",
     "numberJa": "266/742",
-    "numberEn": "078/182",
+    "numberEn": "057/162",
     "nameJa": "ゼラオラ",
     "nameEn": "Zeraora",
     "supertype": "Pokémon",
@@ -16191,18 +16191,18 @@
     "attacks": [
       {
         "nameJa": "ビリビリナックル",
-        "nameEn": "Scratch",
+        "nameEn": "Shocking Knuckle",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "20",
         "textJa": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
-        "textEn": ""
+        "textEn": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
       },
       {
         "nameJa": "ストロングボルト",
-        "nameEn": "Thunder Raid",
+        "nameEn": "Strong Volt",
         "cost": [
           "Lightning",
           "Lightning",
@@ -16211,7 +16211,7 @@
         "convertedEnergyCost": 3,
         "damage": "120",
         "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。",
-        "textEn": "Discard all Energy from this Pokémon, and this attack does 210 damage to 1 of your opponent's Benched Pokémon ex. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        "textEn": "Discard an Energy from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -16238,9 +16238,9 @@
   {
     "id": "sd100-267",
     "setIdJa": "sd100",
-    "setIdEn": "destinedrivals",
+    "setIdEn": "sv7",
     "numberJa": "267/742",
-    "numberEn": "078/182",
+    "numberEn": "055/142",
     "nameJa": "ゼラオラ",
     "nameEn": "Zeraora",
     "supertype": "Pokémon",
@@ -16256,7 +16256,7 @@
     "attacks": [
       {
         "nameJa": "コンバットサンダー",
-        "nameEn": "Scratch",
+        "nameEn": "Combat Thunder",
         "cost": [
           "Lightning",
           "Colorless"
@@ -16264,7 +16264,7 @@
         "convertedEnergyCost": 2,
         "damage": "20+",
         "textJa": "相手のベンチポケモンの数×20ダメージ追加。",
-        "textEn": ""
+        "textEn": "This attack does 20 more damage for each of your opponent's Benched Pokémon."
       }
     ],
     "weaknesses": [
@@ -16761,9 +16761,9 @@
   {
     "id": "sd100-276",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "sv6",
     "numberJa": "276/742",
-    "numberEn": "067/191",
+    "numberEn": "076/167",
     "nameJa": "タイカイデン",
     "nameEn": "Kilowattrel",
     "supertype": "Pokémon",
@@ -16779,18 +16779,18 @@
     "attacks": [
       {
         "nameJa": "ふうりょくチャージ",
-        "nameEn": "Glide",
+        "nameEn": "Wind Power Charge",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "10",
         "textJa": "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
-        "textEn": ""
+        "textEn": "During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
       },
       {
         "nameJa": "ストロングボルト",
-        "nameEn": "Storm Bolt",
+        "nameEn": "Strong Volt",
         "cost": [
           "Lightning",
           "Colorless"
@@ -16798,7 +16798,7 @@
         "convertedEnergyCost": 2,
         "damage": "100",
         "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。",
-        "textEn": "Move all Energy from this Pokémon to your Benched Pokémon in any way you like."
+        "textEn": "Discard an Energy from this Pokémon."
       }
     ],
     "weaknesses": [
@@ -17364,7 +17364,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "285/742",
-    "numberEn": "030/88",
+    "numberEn": "030",
     "nameJa": "ピッピ",
     "nameEn": "Clefairy",
     "supertype": "Pokémon",
@@ -18603,9 +18603,9 @@
   {
     "id": "sd100-305",
     "setIdJa": "sd100",
-    "setIdEn": "obsidianflames",
+    "setIdEn": "me1",
     "numberJa": "305/742",
-    "numberEn": "090/197",
+    "numberEn": "062/132",
     "nameJa": "バネブー",
     "nameEn": "Spoink",
     "supertype": "Pokémon",
@@ -18621,14 +18621,14 @@
     "attacks": [
       {
         "nameJa": "トリプルスピン",
-        "nameEn": "Splash",
+        "nameEn": "Triple Spin",
         "cost": [
           "Psychic"
         ],
         "convertedEnergyCost": 1,
         "damage": "10×",
         "textJa": "コインを3回投げ、オモテの数×10ダメージ。",
-        "textEn": ""
+        "textEn": "Flip 3 coins. This attack does 10 damage for each heads."
       }
     ],
     "weaknesses": [
@@ -19590,9 +19590,9 @@
   {
     "id": "sd100-320",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "rsv10pt5",
     "numberJa": "320/742",
-    "numberEn": "082/191",
+    "numberEn": "039/86",
     "nameJa": "デスマス",
     "nameEn": "Yamask",
     "supertype": "Pokémon",
@@ -19608,7 +19608,7 @@
     "attacks": [
       {
         "nameJa": "ねんじる",
-        "nameEn": "Mumble",
+        "nameEn": "Focused Wish",
         "cost": [
           "Psychic",
           "Colorless"
@@ -19616,7 +19616,7 @@
         "convertedEnergyCost": 2,
         "damage": "20+",
         "textJa": "コインを1回投げオモテなら、20ダメージ追加。",
-        "textEn": ""
+        "textEn": "Flip a coin. If heads, this attack does 20 more damage."
       }
     ],
     "weaknesses": [
@@ -19716,9 +19716,9 @@
   {
     "id": "sd100-322",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "rsv10pt5",
     "numberJa": "322/742",
-    "numberEn": "083/191",
+    "numberEn": "040/86",
     "nameJa": "デスカーン",
     "nameEn": "Cofagrigus",
     "supertype": "Pokémon",
@@ -19734,7 +19734,7 @@
     "attacks": [
       {
         "nameJa": "のびるダメカーン",
-        "nameEn": "Law of the Underworld",
+        "nameEn": "Extended Damagriiigus",
         "cost": [
           "Psychic",
           "Colorless"
@@ -19742,11 +19742,11 @@
         "convertedEnergyCost": 2,
         "damage": "",
         "textJa": "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のポケモン1匹にのせ替える。",
-        "textEn": "Put 6 damage counters on each Pokémon that has an Ability (both yours and your opponent's)."
+        "textEn": "Move all damage counters from 1 of your Benched Pokémon to 1 of your opponent's Pokémon."
       },
       {
         "nameJa": "まどわす",
-        "nameEn": "Spooky Shot",
+        "nameEn": "Perplex",
         "cost": [
           "Psychic",
           "Colorless",
@@ -19755,7 +19755,7 @@
         "convertedEnergyCost": 3,
         "damage": "60",
         "textJa": "相手のバトルポケモンをこんらんにする。",
-        "textEn": ""
+        "textEn": "Your opponent's Active Pokémon is now Confused."
       }
     ],
     "weaknesses": [
@@ -20595,9 +20595,9 @@
   {
     "id": "sd100-336",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "sv8",
     "numberJa": "336/742",
-    "numberEn": "065/159",
+    "numberEn": "089/191",
     "nameJa": "オドリドリ",
     "nameEn": "Oricorio",
     "supertype": "Pokémon",
@@ -20613,18 +20613,18 @@
     "attacks": [
       {
         "nameJa": "エネアシスト",
-        "nameEn": "Call for Family",
+        "nameEn": "Energy Assist",
         "cost": [
           "Psychic"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。",
-        "textEn": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+        "textEn": "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon."
       },
       {
         "nameJa": "げんわくダンス",
-        "nameEn": "Spooky Shot",
+        "nameEn": "Dazzle Dance",
         "cost": [
           "Psychic",
           "Colorless"
@@ -20632,7 +20632,7 @@
         "convertedEnergyCost": 2,
         "damage": "20",
         "textJa": "相手のバトルポケモンをこんらんにする。",
-        "textEn": ""
+        "textEn": "Your opponent's Active Pokémon is now Confused."
       }
     ],
     "weaknesses": [
@@ -21396,9 +21396,9 @@
   {
     "id": "sd100-349",
     "setIdJa": "sd100",
-    "setIdEn": "stellarcrown",
+    "setIdEn": "me1",
     "numberJa": "349/742",
-    "numberEn": "070/142",
+    "numberEn": "065/132",
     "nameJa": "ボチ",
     "nameEn": "Greavard",
     "supertype": "Pokémon",
@@ -21414,7 +21414,7 @@
     "attacks": [
       {
         "nameJa": "ふむ",
-        "nameEn": "Paw Shake Punch",
+        "nameEn": "Stampede",
         "cost": [
           "Psychic"
         ],
@@ -21425,7 +21425,7 @@
       },
       {
         "nameJa": "とっしん",
-        "nameEn": "Bite",
+        "nameEn": "Take Down",
         "cost": [
           "Psychic",
           "Colorless"
@@ -21433,7 +21433,7 @@
         "convertedEnergyCost": 2,
         "damage": "40",
         "textJa": "このポケモンにも10ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 10 damage to itself."
       }
     ],
     "weaknesses": [
@@ -21601,9 +21601,9 @@
   {
     "id": "sd100-352",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "sv5",
     "numberJa": "352/742",
-    "numberEn": "042/131",
+    "numberEn": "077/162",
     "nameJa": "サケブシッポ",
     "nameEn": "Scream Tail",
     "supertype": "Pokémon",
@@ -21620,18 +21620,18 @@
     "attacks": [
       {
         "nameJa": "うたいはげます",
-        "nameEn": "Slap",
+        "nameEn": "Supportive Singing",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分のベンチの「古代」のポケモン1匹のHPを「100」回復する。",
-        "textEn": ""
+        "textEn": "Heal 100 damage from 1 of your Benched Ancient Pokémon."
       },
       {
         "nameJa": "ハイパーボイス",
-        "nameEn": "Roaring Scream",
+        "nameEn": "Hyper Voice",
         "cost": [
           "Colorless",
           "Colorless"
@@ -21639,7 +21639,7 @@
         "convertedEnergyCost": 2,
         "damage": "40",
         "textJa": null,
-        "textEn": "This attack does 20 damage to 1 of your opponent's Pokémon for each damage counter on this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -23622,9 +23622,9 @@
   {
     "id": "sd100-384",
     "setIdJa": "sd100",
-    "setIdEn": "shroudedfable",
+    "setIdEn": "me1",
     "numberJa": "384/742",
-    "numberEn": "024/64",
+    "numberEn": "079/132",
     "nameJa": "ドクロッグ",
     "nameEn": "Toxicroak",
     "supertype": "Pokémon",
@@ -23640,14 +23640,14 @@
     "attacks": [
       {
         "nameJa": "とつげき",
-        "nameEn": "Corkscrew Punch",
+        "nameEn": "Reckless Charge",
         "cost": [
           "Fighting"
         ],
         "convertedEnergyCost": 1,
         "damage": "70",
         "textJa": "このポケモンにも20ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 20 damage to itself."
       }
     ],
     "weaknesses": [
@@ -24430,7 +24430,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "397/742",
-    "numberEn": "041/88",
+    "numberEn": "041",
     "nameJa": "ランドロス",
     "nameEn": "Landorus",
     "supertype": "Pokémon",
@@ -24497,7 +24497,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "398/742",
-    "numberEn": "041/88",
+    "numberEn": "041",
     "nameJa": "ランドロス",
     "nameEn": "Landorus",
     "supertype": "Pokémon",
@@ -24925,9 +24925,9 @@
   {
     "id": "sd100-405",
     "setIdJa": "sd100",
-    "setIdEn": "destinedrivals",
+    "setIdEn": "sv5",
     "numberJa": "405/742",
-    "numberEn": "108/182",
+    "numberEn": "092/162",
     "nameJa": "バンバドロ",
     "nameEn": "Mudsdale",
     "supertype": "Pokémon",
@@ -24943,18 +24943,18 @@
     "attacks": [
       {
         "nameJa": "マッドストック",
-        "nameEn": "Heavy Impact",
+        "nameEn": "Mud Stock",
         "cost": [
           "Fighting"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分のベンチポケモン全員に、トラッシュから「基本闘エネルギー」を1枚ずつつける。",
-        "textEn": ""
+        "textEn": "Attach a Basic Fighting Energy card from your discard pile to each of your Benched Pokémon."
       },
       {
         "nameJa": "10まんばりき",
-        "nameEn": null,
+        "nameEn": "High Horsepower",
         "cost": [
           "Fighting",
           "Colorless",
@@ -24963,7 +24963,7 @@
         "convertedEnergyCost": 3,
         "damage": "140",
         "textJa": "このポケモンにも40ダメージ。",
-        "textEn": null
+        "textEn": "This Pokémon also does 40 damage to itself."
       }
     ],
     "weaknesses": [
@@ -25487,9 +25487,9 @@
   {
     "id": "sd100-414",
     "setIdJa": "sd100",
-    "setIdEn": "scarletviolet",
+    "setIdEn": "me1",
     "numberJa": "414/742",
-    "numberEn": "121/198",
+    "numberEn": "081/132",
     "nameJa": "イシヘンジン",
     "nameEn": "Stonjourner",
     "supertype": "Pokémon",
@@ -25505,18 +25505,18 @@
     "attacks": [
       {
         "nameJa": "ストーンキック",
-        "nameEn": "Mega Kick",
+        "nameEn": "Stony Kick",
         "cost": [
           "Fighting"
         ],
         "convertedEnergyCost": 1,
         "damage": "20",
         "textJa": "相手のベンチポケモン1匹にも、20ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
-        "textEn": ""
+        "textEn": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       },
       {
         "nameJa": "そこぢから",
-        "nameEn": null,
+        "nameEn": "Boundless Power",
         "cost": [
           "Fighting",
           "Fighting",
@@ -25525,7 +25525,7 @@
         "convertedEnergyCost": 3,
         "damage": "140",
         "textJa": "次の自分の番、このポケモンはワザが使えない。",
-        "textEn": null
+        "textEn": "During your next turn, this Pokémon can't use attacks."
       }
     ],
     "weaknesses": [
@@ -25975,9 +25975,9 @@
   {
     "id": "sd100-422",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "sv5",
     "numberJa": "422/742",
-    "numberEn": "055/131",
+    "numberEn": "096/162",
     "nameJa": "イダイナキバ",
     "nameEn": "Great Tusk",
     "supertype": "Pokémon",
@@ -25994,7 +25994,7 @@
     "attacks": [
       {
         "nameJa": "つきたおし",
-        "nameEn": "Land Collapse",
+        "nameEn": "Lunge Out",
         "cost": [
           "Fighting",
           "Colorless"
@@ -26002,11 +26002,11 @@
         "convertedEnergyCost": 2,
         "damage": "30",
         "textJa": null,
-        "textEn": "Discard the top card of your opponent's deck. If you played an Ancient Supporter card from your hand during this turn, discard 3 more cards in this way."
+        "textEn": ""
       },
       {
         "nameJa": "ふんぬとつげき",
-        "nameEn": "Giant Tusk",
+        "nameEn": "Wrathful Charge",
         "cost": [
           "Fighting",
           "Colorless",
@@ -26015,7 +26015,7 @@
         "convertedEnergyCost": 3,
         "damage": "80+",
         "textJa": "自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。",
-        "textEn": ""
+        "textEn": "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage."
       }
     ],
     "weaknesses": [
@@ -27212,7 +27212,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "441/742",
-    "numberEn": "048/88",
+    "numberEn": "048",
     "nameJa": "ゴース",
     "nameEn": "Gastly",
     "supertype": "Pokémon",
@@ -27276,7 +27276,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "442/742",
-    "numberEn": "048/88",
+    "numberEn": "048",
     "nameJa": "ゴース",
     "nameEn": "Gastly",
     "supertype": "Pokémon",
@@ -27328,7 +27328,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "443/742",
-    "numberEn": "049/88",
+    "numberEn": "049",
     "nameJa": "ゴースト",
     "nameEn": "Haunter",
     "supertype": "Pokémon",
@@ -27381,7 +27381,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "444/742",
-    "numberEn": "049/88",
+    "numberEn": "049",
     "nameJa": "ゴースト",
     "nameEn": "Haunter",
     "supertype": "Pokémon",
@@ -28791,9 +28791,9 @@
   {
     "id": "sd100-467",
     "setIdJa": "sd100",
-    "setIdEn": "shroudedfable",
+    "setIdEn": "rsv10pt5",
     "numberJa": "467/742",
-    "numberEn": "031/64",
+    "numberEn": "061/86",
     "nameJa": "ゾロア",
     "nameEn": "Zorua",
     "supertype": "Pokémon",
@@ -28809,14 +28809,14 @@
     "attacks": [
       {
         "nameJa": "とっしん",
-        "nameEn": "Stampede",
+        "nameEn": "Take Down",
         "cost": [
           "Darkness"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "このポケモンにも10ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 10 damage to itself."
       }
     ],
     "weaknesses": [
@@ -28843,9 +28843,9 @@
   {
     "id": "sd100-468",
     "setIdJa": "sd100",
-    "setIdEn": "shroudedfable",
+    "setIdEn": "rsv10pt5",
     "numberJa": "468/742",
-    "numberEn": "032/64",
+    "numberEn": "062/86",
     "nameJa": "ゾロアーク",
     "nameEn": "Zoroark",
     "supertype": "Pokémon",
@@ -28861,18 +28861,18 @@
     "attacks": [
       {
         "nameJa": "マインドジャック",
-        "nameEn": "Illusory Hijacking",
+        "nameEn": "Mind Jack",
         "cost": [
           "Darkness"
         ],
         "convertedEnergyCost": 1,
         "damage": "30×",
         "textJa": "相手のベンチポケモンの数×30ダメージ。",
-        "textEn": "This attack does 60 damage for each of your opponent's Pokémon ex and Pokémon V in play."
+        "textEn": "This attack does 30 damage for each of your opponent's Benched Pokémon."
       },
       {
         "nameJa": "イカサマ",
-        "nameEn": "Claw Slash",
+        "nameEn": "Foul Play",
         "cost": [
           "Colorless",
           "Colorless",
@@ -28881,7 +28881,7 @@
         "convertedEnergyCost": 3,
         "damage": "",
         "textJa": "相手のバトルポケモンが持つワザを1つ選び、このワザとして使う。",
-        "textEn": ""
+        "textEn": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
       }
     ],
     "weaknesses": [
@@ -29525,9 +29525,9 @@
   {
     "id": "sd100-479",
     "setIdJa": "sd100",
-    "setIdEn": "ascendedheroes",
+    "setIdEn": "sv9",
     "numberJa": "479/742",
-    "numberEn": "140/217",
+    "numberEn": "099/159",
     "nameJa": "ゴロンダ",
     "nameEn": "Pangoro",
     "supertype": "Pokémon",
@@ -29543,18 +29543,18 @@
     "attacks": [
       {
         "nameJa": "いちゃもん",
-        "nameEn": "Corkscrew Punch",
+        "nameEn": "Torment",
         "cost": [
           "Darkness"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "相手のバトルポケモンが持つワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザが使えない。",
-        "textEn": ""
+        "textEn": "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack."
       },
       {
         "nameJa": "パワータックル",
-        "nameEn": "Master's Punch",
+        "nameEn": "Power Tackle",
         "cost": [
           "Darkness",
           "Darkness",
@@ -29563,7 +29563,7 @@
         "convertedEnergyCost": 3,
         "damage": "160",
         "textJa": "次の自分の番、このポケモンはワザが使えない。",
-        "textEn": "If any of your Benched Pancham have any damage counters on them, this attack does 120 more damage."
+        "textEn": "During your next turn, this Pokémon can't attack."
       }
     ],
     "weaknesses": [
@@ -29932,9 +29932,9 @@
   {
     "id": "sd100-485",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "sv7",
     "numberJa": "485/742",
-    "numberEn": "101/159",
+    "numberEn": "097/142",
     "nameJa": "オトシドリ",
     "nameEn": "Bombirdier",
     "supertype": "Pokémon",
@@ -29950,7 +29950,7 @@
     "attacks": [
       {
         "nameJa": "とつげき",
-        "nameEn": "Glide",
+        "nameEn": "Reckless Charge",
         "cost": [
           "Darkness",
           "Colorless"
@@ -29958,7 +29958,7 @@
         "convertedEnergyCost": 2,
         "damage": "70",
         "textJa": "このポケモンにも20ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 20 damage to itself."
       }
     ],
     "weaknesses": [
@@ -30576,7 +30576,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "495/742",
-    "numberEn": "032/88",
+    "numberEn": "032",
     "nameJa": "クチート",
     "nameEn": "Mawile",
     "supertype": "Pokémon",
@@ -30644,9 +30644,9 @@
   {
     "id": "sd100-496",
     "setIdJa": "sd100",
-    "setIdEn": "chaosrising",
+    "setIdEn": "sv5",
     "numberJa": "496/742",
-    "numberEn": "059/86",
+    "numberEn": "113/162",
     "nameJa": "ダンバル",
     "nameEn": "Beldum",
     "supertype": "Pokémon",
@@ -30662,7 +30662,7 @@
     "attacks": [
       {
         "nameJa": "ツメをたてる",
-        "nameEn": "Headbutt",
+        "nameEn": "Dig Claws",
         "cost": [
           "Metal"
         ],
@@ -30673,7 +30673,7 @@
       },
       {
         "nameJa": "アイアンタックル",
-        "nameEn": "Beam",
+        "nameEn": "Iron Tackle",
         "cost": [
           "Metal",
           "Colorless",
@@ -30682,7 +30682,7 @@
         "convertedEnergyCost": 3,
         "damage": "50",
         "textJa": "このポケモンにも10ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 10 damage to itself."
       }
     ],
     "weaknesses": [
@@ -30916,9 +30916,9 @@
   {
     "id": "sd100-500",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "sv8",
     "numberJa": "500/742",
-    "numberEn": "066/131",
+    "numberEn": "126/191",
     "nameJa": "ドーミラー",
     "nameEn": "Bronzor",
     "supertype": "Pokémon",
@@ -30934,7 +30934,7 @@
     "attacks": [
       {
         "nameJa": "シールドアタック",
-        "nameEn": "Hammer In",
+        "nameEn": "Shield Attack",
         "cost": [
           "Metal",
           "Colorless"
@@ -30942,7 +30942,7 @@
         "convertedEnergyCost": 2,
         "damage": "20+",
         "textJa": "コインを1回投げオモテなら、20ダメージ追加。",
-        "textEn": ""
+        "textEn": "Flip a coin. If heads, this attack does 20 more damage."
       }
     ],
     "weaknesses": [
@@ -31047,9 +31047,9 @@
   {
     "id": "sd100-502",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "me1",
     "numberJa": "502/742",
-    "numberEn": "135/191",
+    "numberEn": "095/132",
     "nameJa": "ディアルガ",
     "nameEn": "Dialga",
     "supertype": "Pokémon",
@@ -31065,18 +31065,18 @@
     "attacks": [
       {
         "nameJa": "ビーム",
-        "nameEn": "Time Manipulation",
+        "nameEn": "Beam",
         "cost": [
           "Metal"
         ],
         "convertedEnergyCost": 1,
         "damage": "30",
         "textJa": "",
-        "textEn": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order."
+        "textEn": ""
       },
       {
         "nameJa": "クロノバースト",
-        "nameEn": "Buster Tail",
+        "nameEn": "Chrono Burst",
         "cost": [
           "Metal",
           "Metal",
@@ -31085,7 +31085,7 @@
         "convertedEnergyCost": 3,
         "damage": "80+",
         "textJa": "のぞむなら、このポケモンについているエネルギーをすべて山札にもどして切り、80ダメージ追加。",
-        "textEn": ""
+        "textEn": "You may shuffle all Energy attached to this Pokémon into your deck and have this attack do 80 more damage."
       }
     ],
     "weaknesses": [
@@ -31261,9 +31261,9 @@
   {
     "id": "sd100-505",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "zsv10pt5",
     "numberJa": "505/742",
-    "numberEn": "102/159",
+    "numberEn": "060/86",
     "nameJa": "シュバルゴ",
     "nameEn": "Escavalier",
     "supertype": "Pokémon",
@@ -31279,14 +31279,14 @@
     "attacks": [
       {
         "nameJa": "ワイルドランス",
-        "nameEn": "Pierce",
+        "nameEn": "Wild Lances",
         "cost": [
           "Metal"
         ],
         "convertedEnergyCost": 1,
         "damage": "90",
         "textJa": "このポケモンにも30ダメージ。",
-        "textEn": ""
+        "textEn": "This Pokémon also does 30 damage to itself."
       }
     ],
     "weaknesses": [
@@ -31774,7 +31774,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "513/742",
-    "numberEn": "059/88",
+    "numberEn": "059",
     "nameJa": "クレッフィ",
     "nameEn": "Klefki",
     "supertype": "Pokémon",
@@ -33806,9 +33806,9 @@
   {
     "id": "sd100-544",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "rsv10pt5",
     "numberJa": "544/742",
-    "numberEn": "115/159",
+    "numberEn": "071/86",
     "nameJa": "クリムガン",
     "nameEn": "Druddigon",
     "supertype": "Pokémon",
@@ -33823,18 +33823,18 @@
     "attacks": [
       {
         "nameJa": "ひきさく",
-        "nameEn": "Dragon's Fury",
+        "nameEn": "Shred",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "40",
         "textJa": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
-        "textEn": "Attach a Basic Fire Energy card from your discard pile to 1 of your Dragon Pokémon."
+        "textEn": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
       },
       {
         "nameJa": "おそいかかる",
-        "nameEn": "Slashing Claw",
+        "nameEn": "Ambush",
         "cost": [
           "Fire",
           "Water",
@@ -33843,7 +33843,7 @@
         "convertedEnergyCost": 3,
         "damage": "90+",
         "textJa": "コインを1回投げオモテなら、60ダメージ追加。",
-        "textEn": ""
+        "textEn": "Flip a coin. If heads, this attack does 60 more damage."
       }
     ],
     "weaknesses": [],
@@ -34158,9 +34158,9 @@
   {
     "id": "sd100-550",
     "setIdJa": "sd100",
-    "setIdEn": "surgingsparks",
+    "setIdEn": "sv5",
     "numberJa": "550/742",
-    "numberEn": "116/191",
+    "numberEn": "119/162",
     "nameJa": "コライドン",
     "nameEn": "Koraidon",
     "supertype": "Pokémon",
@@ -34176,7 +34176,7 @@
     "attacks": [
       {
         "nameJa": "げんせいらんだ",
-        "nameEn": "Unrelenting Onslaught",
+        "nameEn": "Primordial Beatdown",
         "cost": [
           "Fighting",
           "Colorless"
@@ -34184,11 +34184,11 @@
         "convertedEnergyCost": 2,
         "damage": "30×",
         "textJa": "自分の場の「古代」のポケモンの数×30ダメージ。",
-        "textEn": "If 1 of your other Ancient Pokémon used an attack during your last turn, this attack does 150 more damage."
+        "textEn": "This attack does 30 damage for each of your Ancient Pokémon in play."
       },
       {
         "nameJa": "ひきさく",
-        "nameEn": "Hammer In",
+        "nameEn": "Shred",
         "cost": [
           "Fire",
           "Fighting",
@@ -34197,7 +34197,7 @@
         "convertedEnergyCost": 3,
         "damage": "130",
         "textJa": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
-        "textEn": ""
+        "textEn": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
       }
     ],
     "weaknesses": [],
@@ -34345,9 +34345,9 @@
   {
     "id": "sd100-553",
     "setIdJa": "sd100",
-    "setIdEn": "ascendedheroes",
+    "setIdEn": "sv5",
     "numberJa": "553/742",
-    "numberEn": "073/217",
+    "numberEn": "122/162",
     "nameJa": "ミライドンex",
     "nameEn": "Miraidon ex",
     "supertype": "Pokémon",
@@ -34364,7 +34364,7 @@
     "attacks": [
       {
         "nameJa": "リジェクトボルト",
-        "nameEn": "Slashing Claw",
+        "nameEn": "Repulsion Bolt",
         "cost": [
           "Lightning",
           "Psychic"
@@ -34372,11 +34372,11 @@
         "convertedEnergyCost": 2,
         "damage": "60+",
         "textJa": "相手のバトルポケモンにダメカンがのっているなら、100ダメージ追加。",
-        "textEn": ""
+        "textEn": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage."
       },
       {
         "nameJa": "サイバードライブ",
-        "nameEn": "Hadron Spark",
+        "nameEn": "Cyber Drive",
         "cost": [
           "Lightning",
           "Psychic",
@@ -34385,7 +34385,7 @@
         "convertedEnergyCost": 3,
         "damage": "220",
         "textJa": "次の自分の番、このポケモンは「サイバードライブ」が使えない。",
-        "textEn": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 120 more damage."
+        "textEn": "During your next turn, this Pokémon can't use Cyber Drive."
       }
     ],
     "weaknesses": [],
@@ -34572,9 +34572,9 @@
   {
     "id": "sd100-557",
     "setIdJa": "sd100",
-    "setIdEn": "151",
+    "setIdEn": "me1",
     "numberJa": "557/742",
-    "numberEn": "021/165",
+    "numberEn": "102/132",
     "nameJa": "オニスズメ",
     "nameEn": "Spearow",
     "supertype": "Pokémon",
@@ -34589,14 +34589,14 @@
     "attacks": [
       {
         "nameJa": "ついばむ",
-        "nameEn": "Speed Dive",
+        "nameEn": "Pluck",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "10",
         "textJa": "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
-        "textEn": ""
+        "textEn": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
       }
     ],
     "weaknesses": [
@@ -35199,7 +35199,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "567/742",
-    "numberEn": "063/88",
+    "numberEn": "063",
     "nameJa": "カビゴン",
     "nameEn": "Snorlax",
     "supertype": "Pokémon",
@@ -35268,7 +35268,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "568/742",
-    "numberEn": "063/88",
+    "numberEn": "063",
     "nameJa": "カビゴン",
     "nameEn": "Snorlax",
     "supertype": "Pokémon",
@@ -35501,9 +35501,9 @@
   {
     "id": "sd100-572",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "sv7",
     "numberJa": "572/742",
-    "numberEn": "077/131",
+    "numberEn": "114/142",
     "nameJa": "ホーホー",
     "nameEn": "Hoothoot",
     "supertype": "Pokémon",
@@ -35518,14 +35518,14 @@
     "attacks": [
       {
         "nameJa": "さんどづき",
-        "nameEn": "Tackle",
+        "nameEn": "Triple Stab",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "10×",
         "textJa": "コインを3回投げ、オモテの数×10ダメージ。",
-        "textEn": ""
+        "textEn": "Flip 3 coins. This attack does 10 damage for each heads."
       }
     ],
     "weaknesses": [
@@ -36827,9 +36827,9 @@
   {
     "id": "sd100-594",
     "setIdJa": "sd100",
-    "setIdEn": "prismaticevolutions",
+    "setIdEn": "me1",
     "numberJa": "594/742",
-    "numberEn": "084/131",
+    "numberEn": "108/132",
     "nameJa": "ミミロップ",
     "nameEn": "Lopunny",
     "supertype": "Pokémon",
@@ -36845,18 +36845,18 @@
     "attacks": [
       {
         "nameJa": "とびだしキック",
-        "nameEn": "Rear Kick",
+        "nameEn": "Dashing Kick",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "50",
         "textJa": "相手のベンチポケモン1匹に、50ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
-        "textEn": ""
+        "textEn": "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       },
       {
         "nameJa": "かいてんげり",
-        "nameEn": null,
+        "nameEn": "Spiral Kick",
         "cost": [
           "Colorless",
           "Colorless"
@@ -36864,7 +36864,7 @@
         "convertedEnergyCost": 2,
         "damage": "60",
         "textJa": "",
-        "textEn": null
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -37059,9 +37059,9 @@
   {
     "id": "sd100-598",
     "setIdJa": "sd100",
-    "setIdEn": "temporalforces",
+    "setIdEn": "zsv10pt5",
     "numberJa": "598/742",
-    "numberEn": "133/162",
+    "numberEn": "071/86",
     "nameJa": "マメパト",
     "nameEn": "Pidove",
     "supertype": "Pokémon",
@@ -37076,25 +37076,25 @@
     "attacks": [
       {
         "nameJa": "さぐる",
-        "nameEn": "Gust",
+        "nameEn": "Scout",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "相手の手札を見る。",
-        "textEn": ""
+        "textEn": "Your opponent reveals their hand."
       },
       {
         "nameJa": "ふむ",
-        "nameEn": null,
+        "nameEn": "Stampede",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "10",
         "textJa": "",
-        "textEn": null
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -37126,9 +37126,9 @@
   {
     "id": "sd100-599",
     "setIdJa": "sd100",
-    "setIdEn": "temporalforces",
+    "setIdEn": "zsv10pt5",
     "numberJa": "599/742",
-    "numberEn": "134/162",
+    "numberEn": "072/86",
     "nameJa": "ハトーボー",
     "nameEn": "Tranquill",
     "supertype": "Pokémon",
@@ -37144,14 +37144,14 @@
     "attacks": [
       {
         "nameJa": "そらをとぶ",
-        "nameEn": "Speed Dive",
+        "nameEn": "Fly",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "40",
         "textJa": "コインを1回投げる。ウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
-        "textEn": ""
+        "textEn": "Flip a coin. If tails, this attack does nothing. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
       }
     ],
     "weaknesses": [
@@ -37418,9 +37418,9 @@
   {
     "id": "sd100-604",
     "setIdJa": "sd100",
-    "setIdEn": "journeytogether",
+    "setIdEn": "zsv10pt5",
     "numberJa": "604/742",
-    "numberEn": "126/159",
+    "numberEn": "076/86",
     "nameJa": "チラチーノ",
     "nameEn": "Cinccino",
     "supertype": "Pokémon",
@@ -37436,14 +37436,14 @@
     "attacks": [
       {
         "nameJa": "ともだちのわ",
-        "nameEn": "Tail Smack",
+        "nameEn": "Do the Wave",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "20+",
         "textJa": "自分のベンチポケモンの数×20ダメージ追加。",
-        "textEn": ""
+        "textEn": "This attack does 20 more damage for each of your Benched Pokémon."
       }
     ],
     "weaknesses": [
@@ -37800,9 +37800,9 @@
   {
     "id": "sd100-610",
     "setIdJa": "sd100",
-    "setIdEn": "stellarcrown",
+    "setIdEn": "rsv10pt5",
     "numberJa": "610/742",
-    "numberEn": "120/142",
+    "numberEn": "078/86",
     "nameJa": "トルネロス",
     "nameEn": "Tornadus",
     "supertype": "Pokémon",
@@ -37817,18 +37817,18 @@
     "attacks": [
       {
         "nameJa": "かぜをまとう",
-        "nameEn": "Knuckle Punch",
+        "nameEn": "Wrapped in Wind",
         "cost": [
           "Colorless"
         ],
         "convertedEnergyCost": 1,
         "damage": "",
         "textJa": "自分の手札から基本エネルギーを1枚選び、このポケモンにつける。",
-        "textEn": ""
+        "textEn": "Attach a Basic Energy card from your hand to this Pokémon."
       },
       {
         "nameJa": "ぼうふう",
-        "nameEn": "Storm Barrier",
+        "nameEn": "Hurricane",
         "cost": [
           "Colorless",
           "Colorless",
@@ -37837,7 +37837,7 @@
         "convertedEnergyCost": 3,
         "damage": "100",
         "textJa": "このポケモンについている基本エネルギーを1個選び、ベンチポケモンにつけ替える。",
-        "textEn": "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance)."
+        "textEn": "Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon."
       }
     ],
     "weaknesses": [
@@ -37871,7 +37871,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "611/742",
-    "numberEn": "067/88",
+    "numberEn": "067",
     "nameJa": "トリミアン",
     "nameEn": "Furfrou",
     "supertype": "Pokémon",
@@ -37922,7 +37922,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "612/742",
-    "numberEn": "067/88",
+    "numberEn": "067",
     "nameJa": "トリミアン",
     "nameEn": "Furfrou",
     "supertype": "Pokémon",
@@ -37983,7 +37983,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "613/742",
-    "numberEn": "046/88",
+    "numberEn": "046",
     "nameJa": "ルチャブル",
     "nameEn": "Hawlucha",
     "supertype": "Pokémon",
@@ -39267,7 +39267,7 @@
     "setIdJa": "sd100",
     "setIdEn": "scarletviolet",
     "numberJa": "638/742",
-    "numberEn": "173/198",
+    "numberEn": "173",
     "nameJa": "エネルギーつけかえ",
     "nameEn": "Energy Switch",
     "supertype": "Trainer",
@@ -39289,7 +39289,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "639/742",
-    "numberEn": "072/88",
+    "numberEn": "072",
     "nameJa": "エネルギー転送",
     "nameEn": "Energy Search",
     "supertype": "Trainer",
@@ -39311,7 +39311,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "640/742",
-    "numberEn": "108/88",
+    "numberEn": "108",
     "nameJa": "エネルギーリサイクル",
     "nameEn": "Energy Recycler",
     "supertype": "Trainer",
@@ -39377,7 +39377,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "643/742",
-    "numberEn": "083/88",
+    "numberEn": "083",
     "nameJa": "きずぐすり",
     "nameEn": "Potion",
     "supertype": "Trainer",
@@ -39399,7 +39399,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "644/742",
-    "numberEn": "071/88",
+    "numberEn": "071",
     "nameJa": "クラッシュハンマー",
     "nameEn": "Crushing Hammer",
     "supertype": "Trainer",
@@ -39771,9 +39771,9 @@
     "setIdJa": "sd100",
     "setIdEn": "scarletviolet",
     "numberJa": "660/742",
-    "numberEn": "186/198",
+    "numberEn": "186",
     "nameJa": "ポケギア3.0",
-    "nameEn": "Pokégear 3.0",
+    "nameEn": "Pok&eacute;gear 3.0",
     "supertype": "Trainer",
     "subtypes": [
       "Item"
@@ -39815,9 +39815,9 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "662/742",
-    "numberEn": "081/88",
+    "numberEn": "081",
     "nameJa": "ポケバッジ",
-    "nameEn": "Poké Pad",
+    "nameEn": "Pok&eacute; Pad",
     "supertype": "Trainer",
     "subtypes": [
       "Tool"
@@ -39881,9 +39881,9 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "665/742",
-    "numberEn": "082/88",
+    "numberEn": "082",
     "nameJa": "ポケモンキャッチャー",
-    "nameEn": "Pokémon Catcher",
+    "nameEn": "Pok&eacute;mon Catcher",
     "supertype": "Trainer",
     "subtypes": [
       "Item"
@@ -39969,9 +39969,9 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "669/742",
-    "numberEn": "080/88",
+    "numberEn": "080",
     "nameJa": "モンスターボール",
-    "nameEn": "Poké Ball",
+    "nameEn": "Pok&eacute; Ball",
     "supertype": "Trainer",
     "subtypes": [
       "Item"
@@ -40872,7 +40872,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "711/742",
-    "numberEn": "076/88",
+    "numberEn": "076",
     "nameJa": "ジャッジマン",
     "nameEn": "Judge",
     "supertype": "Trainer",
@@ -41440,6 +41440,28 @@
     "enAvailable": true
   },
   {
+    "id": "sd100-737",
+    "setIdJa": "sd100",
+    "setIdEn": "journeytogether",
+    "numberJa": "737/742",
+    "numberEn": "159/159",
+    "nameJa": "するどいエネルギー",
+    "nameEn": "Spiky Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Special"
+    ],
+    "textJa": "",
+    "textEn": "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+    "regulationMark": "I",
+    "rarity": "MC",
+    "rarityJa": "MC",
+    "artist": null,
+    "imageJa": null,
+    "imageEn": "images/sets/sd100/en/737.jpg",
+    "enAvailable": true
+  },
+  {
     "id": "sd100-738",
     "setIdJa": "sd100",
     "setIdEn": "twilightmasquerade",
@@ -41555,7 +41577,7 @@
     "setIdEn": "ascendedheroes",
     "numberJa": "743/742",
     "numberEn": "007/217",
-    "nameJa": "モンジャラ",
+    "nameJa": "エリカのモンジャラ",
     "nameEn": "Erika's Tangela",
     "supertype": "Pokémon",
     "subtypes": [
@@ -41570,7 +41592,7 @@
         "nameJa": "やっかいっこちゃん",
         "nameEn": "Gathering of Blossoms",
         "type": "Ability",
-        "textJa": "",
+        "textJa": "自分の番に1回使える。自分の山札から「エリカのポケモン」を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
         "textEn": "Once during your turn, you may use this Ability. Search your deck for an Erika's Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
       }
     ],
@@ -41582,7 +41604,7 @@
           "Grass"
         ],
         "damage": "50",
-        "textJa": "",
+        "textJa": "コインを1回投げ、オモテなら、相手のバトルポケモンはマヒになる。",
         "textEn": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
       }
     ],
@@ -41623,18 +41645,10 @@
       "Fire"
     ],
     "hp": "120",
-    "abilities": [
-      {
-        "nameJa": "いきなりあぶる",
-        "nameEn": null,
-        "type": "Ability",
-        "textJa": "",
-        "textEn": null
-      }
-    ],
+    "abilities": [],
     "attacks": [
       {
-        "nameJa": "かえんぼうしゃ",
+        "nameJa": "いきなりあぶる",
         "nameEn": "Sudden Scorching",
         "cost": [
           "Fire",
@@ -41642,7 +41656,7 @@
           "Colorless"
         ],
         "damage": "130",
-        "textJa": "このポケモンについているエネルギーを1個トラッシュし、相手のベンチポケモンにも50ダメージ。",
+        "textJa": "相手は手札を1枚トラッシュする。このポケモンがこの番ヤトウモリから進化しているなら、相手はさらに2枚多くトラッシュする。",
         "textEn": "Your opponent discards a card from their hand. If this Pokémon evolved from Salandit during this turn, your opponent discards 2 more cards."
       }
     ],
@@ -41734,25 +41748,17 @@
       "Darkness"
     ],
     "hp": "100",
-    "abilities": [
-      {
-        "nameJa": "きりさく",
-        "nameEn": null,
-        "type": "Ability",
-        "textJa": "",
-        "textEn": null
-      }
-    ],
+    "abilities": [],
     "attacks": [
       {
-        "nameJa": "ヘイルクロー",
+        "nameJa": "きりさく",
         "nameEn": "Slash",
         "cost": [
           "Darkness",
           "Darkness"
         ],
         "damage": "70",
-        "textJa": "相手のサイドの残り枚数が2枚以下なら、100ダメージ追加。",
+        "textJa": "",
         "textEn": ""
       }
     ],
@@ -41857,25 +41863,17 @@
       "Water"
     ],
     "hp": "70",
-    "abilities": [
-      {
-        "nameJa": "かくれる",
-        "nameEn": null,
-        "type": "Ability",
-        "textJa": "",
-        "textEn": null
-      }
-    ],
+    "abilities": [],
     "attacks": [
       {
-        "nameJa": "はねまわる",
+        "nameJa": "かくれる",
         "nameEn": "Hide",
         "cost": [
           "Water",
           "Colorless"
         ],
         "damage": "20",
-        "textJa": "",
+        "textJa": "コインを1回投げ、オモテなら、次の相手の番、このポケモンはワザのダメージも効果も受けない。",
         "textEn": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
       }
     ],
@@ -41917,25 +41915,17 @@
       "Psychic"
     ],
     "hp": "90",
-    "abilities": [
-      {
-        "nameJa": "のろいのごほうし",
-        "nameEn": null,
-        "type": "Ability",
-        "textJa": "",
-        "textEn": null
-      }
-    ],
+    "abilities": [],
     "attacks": [
       {
-        "nameJa": "ホロウショット",
+        "nameJa": "のろいのことば",
         "nameEn": "Cursed Words",
         "cost": [
           "Psychic",
           "Colorless"
         ],
         "damage": "70",
-        "textJa": "",
+        "textJa": "相手は自分の手札から3枚選び、山札にもどして切る。",
         "textEn": "Your opponent chooses 3 cards from their hand and shuffles those cards into their deck."
       }
     ],
@@ -41982,18 +41972,10 @@
       "Psychic"
     ],
     "hp": "120",
-    "abilities": [
-      {
-        "nameJa": "だいあたり",
-        "nameEn": null,
-        "type": "Ability",
-        "textJa": "",
-        "textEn": null
-      }
-    ],
+    "abilities": [],
     "attacks": [
       {
-        "nameJa": "マジカルショット",
+        "nameJa": "たいあたり",
         "nameEn": "Tackle",
         "cost": [
           "Psychic",
@@ -42045,20 +42027,24 @@
     "attacks": [
       {
         "nameJa": "スピンドロー",
+        "nameEn": "Spin and Draw",
         "cost": [
           "Colorless"
         ],
         "damage": "",
-        "textJa": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。"
+        "textJa": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+        "textEn": "Shuffle your hand into your deck. Then, draw 6 cards."
       },
       {
         "nameJa": "けたぐり",
+        "nameEn": "Low Kick",
         "cost": [
           "Fighting",
           "Colorless"
         ],
         "damage": "50",
-        "textJa": ""
+        "textJa": "",
+        "textEn": ""
       }
     ],
     "weaknesses": [
@@ -42103,7 +42089,7 @@
         "nameJa": "ダブルタイプ",
         "nameEn": "Double Type",
         "type": "Ability",
-        "textJa": "",
+        "textJa": "このポケモンは場にいるかぎり、闘タイプと超タイプの両方になる。",
         "textEn": "As long as this Pokémon is in play, it is Fighting and Psychic type."
       }
     ],
@@ -42211,7 +42197,7 @@
     "setIdJa": "sd100",
     "setIdEn": "perfectorder",
     "numberJa": "754/742",
-    "numberEn": "032/88",
+    "numberEn": "032",
     "nameJa": "クチート",
     "nameEn": "Mawile",
     "supertype": "Pokémon",
@@ -42222,18 +42208,10 @@
       "Psychic"
     ],
     "hp": "90",
-    "abilities": [
-      {
-        "nameJa": "なかまをよぶ",
-        "nameEn": null,
-        "type": "Ability",
-        "textJa": "",
-        "textEn": null
-      }
-    ],
+    "abilities": [],
     "attacks": [
       {
-        "nameJa": "かみつく",
+        "nameJa": "ダブルイーター",
         "nameEn": "Double Eater",
         "cost": [
           "Psychic",
@@ -42241,7 +42219,7 @@
           "Colorless"
         ],
         "damage": "90",
-        "textJa": "",
+        "textJa": "自分の手札からエネルギーカードを2枚まで選んでトラッシュする。トラッシュしたカード1枚につき、このワザのダメージは60追加。",
         "textEn": "Discard up to 2 Energy cards from your hand, and this attack does 60 damage for each card you discarded in this way."
       }
     ],
@@ -42292,7 +42270,7 @@
         "nameJa": "ブーストしんか",
         "nameEn": "Boosted Evolution",
         "type": "Ability",
-        "textJa": "",
+        "textJa": "このポケモンがバトル場にいるかぎり、このポケモンは最初の番や、出したばかりの番でも進化できる。",
         "textEn": "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
       }
     ],
@@ -42625,7 +42603,7 @@
     "abilities": [],
     "attacks": [
       {
-        "nameJa": "",
+        "nameJa": "ジャイアントブーケ",
         "nameEn": "Giant Bouquet",
         "cost": [
           "Colorless",
@@ -42633,7 +42611,7 @@
           "Colorless"
         ],
         "damage": "70+",
-        "textJa": "",
+        "textJa": "このポケモンについている草エネルギー1個につき、50ダメージ追加。",
         "textEn": "This attack does 50 more damage for each Grass Energy attached to this Pokémon."
       }
     ],
@@ -42833,7 +42811,7 @@
         "nameJa": "フェアリーゾーン",
         "nameEn": "Fairy Zone",
         "type": "Ability",
-        "textJa": "",
+        "textJa": "相手の場のすべてのドラゴンのポケモンの弱点を超タイプにする。（弱点のダメージは×2。）",
         "textEn": "The Weakness of each of your opponent's Dragon Pokémon in play is now Psychic. (Apply Weakness as ×2.)"
       }
     ],

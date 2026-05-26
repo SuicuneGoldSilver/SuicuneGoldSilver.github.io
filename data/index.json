@@ -39856,7 +39856,7 @@
     "id": "sd100-660",
     "setIdJa": "sd100",
     "nameJa": "ポケギア3.0",
-    "nameEn": "Pokégear 3.0",
+    "nameEn": "Pok&eacute;gear 3.0",
     "types": [],
     "imageJa": "images/sets/sd100/jp/660.jpg",
     "imageEn": "images/sets/sd100/en/660.jpg",
@@ -39884,7 +39884,7 @@
     "id": "sd100-662",
     "setIdJa": "sd100",
     "nameJa": "ポケバッジ",
-    "nameEn": "Poké Pad",
+    "nameEn": "Pok&eacute; Pad",
     "types": [],
     "imageJa": "images/sets/sd100/jp/662.jpg",
     "imageEn": "images/sets/sd100/en/662.jpg",
@@ -39926,7 +39926,7 @@
     "id": "sd100-665",
     "setIdJa": "sd100",
     "nameJa": "ポケモンキャッチャー",
-    "nameEn": "Pokémon Catcher",
+    "nameEn": "Pok&eacute;mon Catcher",
     "types": [],
     "imageJa": "images/sets/sd100/jp/665.jpg",
     "imageEn": "images/sets/sd100/en/665.jpg",
@@ -39982,7 +39982,7 @@
     "id": "sd100-669",
     "setIdJa": "sd100",
     "nameJa": "モンスターボール",
-    "nameEn": "Poké Ball",
+    "nameEn": "Pok&eacute; Ball",
     "types": [],
     "imageJa": "images/sets/sd100/jp/669.jpg",
     "imageEn": "images/sets/sd100/en/669.jpg",
@@ -40931,6 +40931,20 @@
     ]
   },
   {
+    "id": "sd100-737",
+    "setIdJa": "sd100",
+    "nameJa": "するどいエネルギー",
+    "nameEn": "Spiky Energy",
+    "types": [],
+    "imageJa": null,
+    "imageEn": "images/sets/sd100/en/737.jpg",
+    "enAvailable": true,
+    "supertype": "Energy",
+    "subtypes": [
+      "Special"
+    ]
+  },
+  {
     "id": "sd100-738",
     "setIdJa": "sd100",
     "nameJa": "ブーメランエネルギー",
@@ -41003,7 +41017,7 @@
   {
     "id": "sd100-743",
     "setIdJa": "sd100",
-    "nameJa": "モンジャラ",
+    "nameJa": "エリカのモンジャラ",
     "nameEn": "Erika's Tangela",
     "types": [
       "Grass"
