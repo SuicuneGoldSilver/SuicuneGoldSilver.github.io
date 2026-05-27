@@ -1,0 +1,138 @@
+Session Log — 2026-05-27 (UI / Mobile Polish session)
+========================================================
+
+CONTEXT
+-------
+No card data work this session. Entirely focused on frontend UI polish and mobile UX
+improvements across the site. Work spans two conversation sessions (2026-05-26 ran out
+of context; continued 2026-05-27). All changes are in compiled assets (no source files).
+
+WHAT WAS DONE
+-------------
+
+1. TAP DISCOVERABILITY
+   - Added one-time dismissable tip banner on card search page:
+     "カードをタップして詳細・英語テキストを確認できます"
+     Dismissed via localStorage key 'ctd'. Shows once per device.
+   - Added mobile-only tap hint under modal card image via CSS :has():
+     "タップで日英切り替え" (visible only on max-width: 600px)
+   Files: assets/cardsearch-BHbudvEH.js, assets/cardsearch-pmhE74-z.css,
+          assets/useModal-C3diO1_-.css
+
+2. TAP HIGHLIGHT REMOVAL
+   - Removed blue flash on card thumb tap: -webkit-tap-highlight-color: transparent
+   - Preserved focus-visible ring for keyboard users (outline: 2px solid accent)
+   - Same fix applied to .modal-card-image.clickable
+   File: assets/useModal-C3diO1_-.css
+
+3. CARD IMAGE TRANSITION (JP↔EN flip)
+   - Added opacity + scale transition to modal card image swap:
+     enters at opacity:0, scale(0.96) → transitions to opacity:1, scale(1) over 0.2s
+   File: assets/useModal-C3diO1_-.css
+
+4. CARD NAVIGATION ANIMATION (swipe prev/next)
+   - Replaced full 100% translate slide with subtle 28px fade+slide
+   - Exit: 0.18s cubic-bezier(.4,0,1,1) (fast ease-out)
+   - Enter: 0.24s cubic-bezier(0,0,.2,1) (ease-in-out)
+   - Keyframes: slideExitLeft, slideExitRight, slideEnterRight, slideEnterLeft
+   File: assets/useModal-C3diO1_-.css
+
+5. BACK BUTTON MODAL CLOSE ANIMATION
+   - Back button was calling c.close() immediately (no animation)
+   - Fix: popstate handler adds .closing class to .modal-panel and .modal-backdrop,
+     then calls c.close() after 420ms — matches existing close animation
+   - Done via direct DOM class manipulation to avoid editing 144KB compiled bundle
+   File: assets/cardsearch-BHbudvEH.js
+
+6. SET SELECTOR SCROLL FADE (mobile)
+   - Added mask-image gradient fade on the right edge of the set selector
+     so it's visually clear more options exist off-screen
+   - Fade: black 0→(100%-48px), transparent at 100%
+   File: assets/cardsearch-pmhE74-z.css
+
+7. LANDING PAGE HERO — INTERACTIVE CARD FLIP DEMO
+   - Replaced spinning card animation with interactive JP↔EN flip demo
+   - Shows a Pikachu card flipping between JP and EN faces
+   - Auto-flips every 3 seconds; user tap resets the timer
+   - Tap indicator: dot + ring ripple animation (one-shot, restarts on each tap)
+   - JP/EN label fades in/out to match current face
+   - "タップで切り替え" hint below card
+   - JS approach: class toggle (.flipped on .card-demo-flipper) + CSS transition
+     rotateY(180deg), 0.5s cubic-bezier(.4,0,.2,1)
+   File: index.html
+
+8. LANDING PAGE — TWO-COLUMN HERO LAYOUT
+   - Restructured hero into CSS Grid: grid-template-columns: auto 1fr
+   - Left col (.hero-col-card): card flip demo
+   - Right col (.hero-col-text): title, subtitle, search bar, CTA
+   - Gap: 56px; max-width: 1000px; padding: 80px 72px
+   - Mobile: single column, 52px 24px padding, 28px gap
+   - Removed eyebrow text "ポケモンカードゲーム 日英対応"
+   File: index.html
+
+9. MOBILE HERO ORDER
+   - On mobile, card demo was showing above the text
+   - Fixed: .hero-col-text { order: 1 }, .hero-col-card { order: 2 }
+   - Result: title + search bar appear first on mobile, card flip below
+   File: index.html
+
+10. STATS ROW
+    - Added stat row between hero and features:
+      "30+ セット · 4,000+ カード · 日英対応"
+    - Styled with border-top separator, muted text, 0.8rem font
+    File: index.html
+
+11. FAVICON
+    - Created favicon.svg: bold "S" in #a8d4e8 on #0f1117 dark rounded square
+    - Added <link rel="icon"> to all 5 HTML pages
+    Files: favicon.svg, index.html, cardsearch.html, study.html,
+           favorites.html, vocablist.html
+
+12. PWA / MOBILE HOME SCREEN ICONS
+    - Generated apple-touch-icon.png (180×180) — iOS "Add to Home Screen"
+    - Generated icon-192.png (192×192) — Android/Chrome manifest icon
+    - Generated icon-512.png (512×512) — Android/Chrome large icon
+    - Created manifest.json with name, start_url, theme_color (#0f1117), icons
+    - Added to all 5 HTML pages:
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="theme-color" content="#0f1117">
+    Files: apple-touch-icon.png, icon-192.png, icon-512.png, manifest.json,
+           index.html, cardsearch.html, study.html, favorites.html, vocablist.html
+
+FILES CHANGED
+-------------
+index.html                          — hero redesign, favicon, manifest, mobile order
+favicon.svg                         — new SVG favicon
+apple-touch-icon.png                — new 180×180 PNG for iOS
+icon-192.png                        — new 192×192 PNG for Android
+icon-512.png                        — new 512×512 PNG for Android
+manifest.json                       — new PWA manifest
+cardsearch.html                     — favicon, manifest tags
+study.html                          — favicon, manifest tags
+favorites.html                      — favicon, manifest tags
+vocablist.html                      — favicon, manifest tags
+assets/cardsearch-BHbudvEH.js       — tap tip banner, back button close animation
+assets/cardsearch-pmhE74-z.css      — tap tip styles, set selector scroll fade
+assets/useModal-C3diO1_-.css        — image transition, nav animation, tap highlights,
+                                      mobile tap hint
+
+PROJECT STATE (as of end of session)
+-------------------------------------
+- 31 sets in sets.json, 1827 cards in index.json (unchanged — no card data work)
+- UI: mobile-polished, PWA-ready, new landing page hero
+- Pending card work: logo.png for md, nz, ns sets still missing
+- Pending card work: verify release dates for md, nz, ns (all estimates)
+- Pending card work: ns Special Energies (JP81-83) EN images not downloaded
+
+SUGGESTIONS DISCUSSED (not yet implemented)
+--------------------------------------------
+- Copy EN text button in card modal
+- Share card link (copies ?card= URL)
+- Sticky set filter bar on mobile
+- Card count on set selector buttons
+- Cycling search placeholder in hero
+- Feature card accent borders
+- Study mode progress bar
+- Scroll-reveal on feature cards
+- Service worker / offline support

@@ -60,6 +60,16 @@
     "logo": "images/sets/mb/logo.png"
   },
   {
+    "id": "sd100",
+    "language": "ja",
+    "name": "スターターデッキ100",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2025-07-25",
+    "printedTotal": 742,
+    "regulationMark": null,
+    "logo": "images/sets/sd100/logo.png"
+  },
+  {
     "id": "bwbb",
     "language": "ja",
     "name": "ブラックボルト",
@@ -308,15 +318,5 @@
     "printedTotal": 86,
     "regulationMark": null,
     "logo": "images/sets/wht/logo.png"
-  },
-  {
-    "id": "sd100",
-    "language": "ja",
-    "name": "スターターデッキ100",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2025-07-25",
-    "printedTotal": 742,
-    "regulationMark": null,
-    "logo": "images/sets/sd100/logo.png"
   }
 ]

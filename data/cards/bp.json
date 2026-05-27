@@ -1,10 +1,10 @@
-﻿[
+[
   {
     "id": "bp-1",
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "001/100",
-    "numberEn": "001/190",
+    "numberEn": "001/159",
     "nameJa": "キャタピー",
     "nameEn": "Caterpie",
     "supertype": "Pokémon",
@@ -55,7 +55,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "002/100",
-    "numberEn": "002/190",
+    "numberEn": "002/159",
     "nameJa": "トランセル",
     "nameEn": "Metapod",
     "supertype": "Pokémon",
@@ -108,7 +108,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "003/100",
-    "numberEn": "003/190",
+    "numberEn": "003/159",
     "nameJa": "バタフリー",
     "nameEn": "Butterfree",
     "supertype": "Pokémon",
@@ -159,7 +159,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "004/100",
-    "numberEn": "004/190",
+    "numberEn": "004/159",
     "nameJa": "パラス",
     "nameEn": "Paras",
     "supertype": "Pokémon",
@@ -210,7 +210,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "005/100",
-    "numberEn": "005/190",
+    "numberEn": "005/159",
     "nameJa": "パラセクト",
     "nameEn": "Parasect",
     "supertype": "Pokémon",
@@ -274,7 +274,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "006/100",
-    "numberEn": "008/190",
+    "numberEn": "008/159",
     "nameJa": "マラカッチ",
     "nameEn": "Maractus",
     "supertype": "Pokémon",
@@ -333,7 +333,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "007/100",
-    "numberEn": "009/190",
+    "numberEn": "009/159",
     "nameJa": "カブルモ",
     "nameEn": "Karrablast",
     "supertype": "Pokémon",
@@ -384,7 +384,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "008/100",
-    "numberEn": "012/190",
+    "numberEn": "012/159",
     "nameJa": "チョボマキ",
     "nameEn": "Shelmet",
     "supertype": "Pokémon",
@@ -438,7 +438,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "009/100",
-    "numberEn": "013/190",
+    "numberEn": "013/159",
     "nameJa": "アギルダー",
     "nameEn": "Accelgor",
     "supertype": "Pokémon",
@@ -490,7 +490,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "010/100",
-    "numberEn": "016/190",
+    "numberEn": "016/159",
     "nameJa": "ニャオハ",
     "nameEn": "Sprigatito",
     "supertype": "Pokémon",
@@ -541,7 +541,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "011/100",
-    "numberEn": "017/190",
+    "numberEn": "017/159",
     "nameJa": "ニャローテ",
     "nameEn": "Floragato",
     "supertype": "Pokémon",
@@ -593,7 +593,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "012/100",
-    "numberEn": "018/190",
+    "numberEn": "018/159",
     "nameJa": "マスカーニャ",
     "nameEn": "Meowscarada",
     "supertype": "Pokémon",
@@ -652,7 +652,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "013/100",
-    "numberEn": "020/190",
+    "numberEn": "020/159",
     "nameJa": "ブーバー",
     "nameEn": "Magmar",
     "supertype": "Pokémon",
@@ -705,7 +705,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "014/100",
-    "numberEn": "021/190",
+    "numberEn": "021/159",
     "nameJa": "ブーバーン",
     "nameEn": "Magmortar",
     "supertype": "Pokémon",
@@ -766,7 +766,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "015/100",
-    "numberEn": "026/190",
+    "numberEn": "026/159",
     "nameJa": "Nのダルマッカ",
     "nameEn": "N's Darumaka",
     "supertype": "Pokémon",
@@ -832,7 +832,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "016/100",
-    "numberEn": "027/190",
+    "numberEn": "027/159",
     "nameJa": "Nのヒヒダルマ",
     "nameEn": "N's Darmanitan",
     "supertype": "Pokémon",
@@ -898,7 +898,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "017/100",
-    "numberEn": "031/190",
+    "numberEn": "031/159",
     "nameJa": "ボルケニオンex",
     "nameEn": "Volcanion ex",
     "supertype": "Pokémon",
@@ -961,7 +961,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "018/100",
-    "numberEn": "032/190",
+    "numberEn": "032/159",
     "nameJa": "フリーザー",
     "nameEn": "Articuno",
     "supertype": "Pokémon",
@@ -1030,7 +1030,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "019/100",
-    "numberEn": "033/190",
+    "numberEn": "033/159",
     "nameJa": "テッポウオ",
     "nameEn": "Remoraid",
     "supertype": "Pokémon",
@@ -1093,7 +1093,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "020/100",
-    "numberEn": "034/190",
+    "numberEn": "034/159",
     "nameJa": "オクタン",
     "nameEn": "Octillery",
     "supertype": "Pokémon",
@@ -1158,7 +1158,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "021/100",
-    "numberEn": "035/190",
+    "numberEn": "035/159",
     "nameJa": "ハスボー",
     "nameEn": "Lotad",
     "supertype": "Pokémon",
@@ -1209,7 +1209,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "022/100",
-    "numberEn": "036/190",
+    "numberEn": "036/159",
     "nameJa": "ハスブレロ",
     "nameEn": "Lombre",
     "supertype": "Pokémon",
@@ -1261,7 +1261,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "023/100",
-    "numberEn": "037/190",
+    "numberEn": "037/159",
     "nameJa": "ルンパッパ",
     "nameEn": "Ludicolo",
     "supertype": "Pokémon",
@@ -1322,7 +1322,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "024/100",
-    "numberEn": "040/190",
+    "numberEn": "040/159",
     "nameJa": "ホエルコ",
     "nameEn": "Wailmer",
     "supertype": "Pokémon",
@@ -1377,7 +1377,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "025/100",
-    "numberEn": "041/190",
+    "numberEn": "041/159",
     "nameJa": "ホエルオー",
     "nameEn": "Wailord",
     "supertype": "Pokémon",
@@ -1434,7 +1434,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "026/100",
-    "numberEn": "047/190",
+    "numberEn": "047/159",
     "nameJa": "ナンジャモのビリリダマ",
     "nameEn": "Iono's Voltorb",
     "supertype": "Pokémon",
@@ -1486,7 +1486,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "027/100",
-    "numberEn": "048/190",
+    "numberEn": "048/159",
     "nameJa": "ナンジャモのマルマイン",
     "nameEn": "Iono's Electrode",
     "supertype": "Pokémon",
@@ -1549,7 +1549,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "028/100",
-    "numberEn": "049/190",
+    "numberEn": "049/159",
     "nameJa": "Nのバチュル",
     "nameEn": "N's Joltik",
     "supertype": "Pokémon",
@@ -1599,7 +1599,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "029/100",
-    "numberEn": "052/190",
+    "numberEn": "052/159",
     "nameJa": "ナンジャモのズピカ",
     "nameEn": "Iono's Tadbulb",
     "supertype": "Pokémon",
@@ -1652,7 +1652,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "030/100",
-    "numberEn": "053/190",
+    "numberEn": "053/159",
     "nameJa": "ナンジャモのハラバリーex",
     "nameEn": "Iono's Bellibolt ex",
     "supertype": "Pokémon",
@@ -1715,7 +1715,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "031/100",
-    "numberEn": "054/190",
+    "numberEn": "054/159",
     "nameJa": "ナンジャモのカイデン",
     "nameEn": "Iono's Wattrel",
     "supertype": "Pokémon",
@@ -1771,7 +1771,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "032/100",
-    "numberEn": "055/190",
+    "numberEn": "055/159",
     "nameJa": "ナンジャモのタイカイデン",
     "nameEn": "Iono's Kilowattrel",
     "supertype": "Pokémon",
@@ -1836,7 +1836,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "033/100",
-    "numberEn": "056/190",
+    "numberEn": "056/159",
     "nameJa": "リーリエのピッピex",
     "nameEn": "Lillie's Clefairy ex",
     "supertype": "Pokémon",
@@ -1896,7 +1896,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "034/100",
-    "numberEn": "058/190",
+    "numberEn": "058/159",
     "nameJa": "バリヤード",
     "nameEn": "Mr. Mime",
     "supertype": "Pokémon",
@@ -1964,7 +1964,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "035/100",
-    "numberEn": "059/190",
+    "numberEn": "059/159",
     "nameJa": "カゲボウズ",
     "nameEn": "Shuppet",
     "supertype": "Pokémon",
@@ -2020,7 +2020,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "036/100",
-    "numberEn": "060/190",
+    "numberEn": "060/159",
     "nameJa": "ジュペッタ",
     "nameEn": "Banette",
     "supertype": "Pokémon",
@@ -2088,7 +2088,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "037/100",
-    "numberEn": "061/190",
+    "numberEn": "061/159",
     "nameJa": "ダンバル",
     "nameEn": "Beldum",
     "supertype": "Pokémon",
@@ -2156,7 +2156,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "038/100",
-    "numberEn": "062/190",
+    "numberEn": "062/159",
     "nameJa": "メタング",
     "nameEn": "Metang",
     "supertype": "Pokémon",
@@ -2225,7 +2225,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "039/100",
-    "numberEn": "063/190",
+    "numberEn": "063/159",
     "nameJa": "メタグロス",
     "nameEn": "Metagross",
     "supertype": "Pokémon",
@@ -2295,7 +2295,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "040/100",
-    "numberEn": "064/190",
+    "numberEn": "064/159",
     "nameJa": "Ｎのシンボラー",
     "nameEn": "N's Sigilyph",
     "supertype": "Pokémon",
@@ -2364,7 +2364,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "041/100",
-    "numberEn": "066/190",
+    "numberEn": "066/159",
     "nameJa": "リーリエのアブリー",
     "nameEn": "Lillie's Cutiefly",
     "supertype": "Pokémon",
@@ -2413,7 +2413,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "042/100",
-    "numberEn": "067/190",
+    "numberEn": "067/159",
     "nameJa": "リーリエのアブリボン",
     "nameEn": "Lillie's Ribombee",
     "supertype": "Pokémon",
@@ -2469,7 +2469,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "043/100",
-    "numberEn": "068/190",
+    "numberEn": "068/159",
     "nameJa": "リーリエのキュワワー",
     "nameEn": "Lillie's Comfey",
     "supertype": "Pokémon",
@@ -2531,7 +2531,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "044/100",
-    "numberEn": "077/190",
+    "numberEn": "077/159",
     "nameJa": "ウリムー",
     "nameEn": "Swinub",
     "supertype": "Pokémon",
@@ -2594,7 +2594,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "045/100",
-    "numberEn": "078/190",
+    "numberEn": "078/159",
     "nameJa": "イノムー",
     "nameEn": "Piloswine",
     "supertype": "Pokémon",
@@ -2659,7 +2659,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "046/100",
-    "numberEn": "079/190",
+    "numberEn": "079/159",
     "nameJa": "マンムーex",
     "nameEn": "Mamoswine ex",
     "supertype": "Pokémon",
@@ -2722,7 +2722,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "047/100",
-    "numberEn": "080/190",
+    "numberEn": "080/159",
     "nameJa": "ヨーギラス",
     "nameEn": "Larvitar",
     "supertype": "Pokémon",
@@ -2774,7 +2774,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "048/100",
-    "numberEn": "081/190",
+    "numberEn": "081/159",
     "nameJa": "サナギラス",
     "nameEn": "Pupitar",
     "supertype": "Pokémon",
@@ -2826,7 +2826,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "049/100",
-    "numberEn": "082/190",
+    "numberEn": "082/159",
     "nameJa": "レジロック",
     "nameEn": "Regirock",
     "supertype": "Pokémon",
@@ -2888,7 +2888,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "050/100",
-    "numberEn": "083/190",
+    "numberEn": "083/159",
     "nameJa": "ヤンチャム",
     "nameEn": "Pancham",
     "supertype": "Pokémon",
@@ -2952,7 +2952,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "051/100",
-    "numberEn": "084/190",
+    "numberEn": "084/159",
     "nameJa": "イワンコ",
     "nameEn": "Rockruff",
     "supertype": "Pokémon",
@@ -3015,7 +3015,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "052/100",
-    "numberEn": "085/190",
+    "numberEn": "085/159",
     "nameJa": "ルガルガン",
     "nameEn": "Lycanroc",
     "supertype": "Pokémon",
@@ -3076,7 +3076,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "053/100",
-    "numberEn": "086/190",
+    "numberEn": "086/159",
     "nameJa": "ホップのスナヘビ",
     "nameEn": "Hop's Silicobra",
     "supertype": "Pokémon",
@@ -3140,7 +3140,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "054/100",
-    "numberEn": "087/190",
+    "numberEn": "087/159",
     "nameJa": "ホップのサダイジャ",
     "nameEn": "Hop's Sandaconda",
     "supertype": "Pokémon",
@@ -3207,7 +3207,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "055/100",
-    "numberEn": "090/190",
+    "numberEn": "090/159",
     "nameJa": "ガケガニ",
     "nameEn": "Klawf",
     "supertype": "Pokémon",
@@ -3274,7 +3274,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "056/100",
-    "numberEn": "091/190",
+    "numberEn": "091/159",
     "nameJa": "ドガース",
     "nameEn": "Koffing",
     "supertype": "Pokémon",
@@ -3337,7 +3337,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "057/100",
-    "numberEn": "092/190",
+    "numberEn": "092/159",
     "nameJa": "マタドガス",
     "nameEn": "Weezing",
     "supertype": "Pokémon",
@@ -3401,7 +3401,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "058/100",
-    "numberEn": "095/190",
+    "numberEn": "095/159",
     "nameJa": "バンギラス",
     "nameEn": "Tyranitar",
     "supertype": "Pokémon",
@@ -3462,7 +3462,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "059/100",
-    "numberEn": "096/190",
+    "numberEn": "096/159",
     "nameJa": "Ｎのチョロネコ",
     "nameEn": "N's Purrloin",
     "supertype": "Pokémon",
@@ -3514,7 +3514,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "060/100",
-    "numberEn": "097/190",
+    "numberEn": "097/159",
     "nameJa": "Ｎのゾロア",
     "nameEn": "N's Zorua",
     "supertype": "Pokémon",
@@ -3565,7 +3565,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "061/100",
-    "numberEn": "098/190",
+    "numberEn": "098/159",
     "nameJa": "Ｎのゾロアークex",
     "nameEn": "N's Zoroark ex",
     "supertype": "Pokémon",
@@ -3626,7 +3626,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "062/100",
-    "numberEn": "099/190",
+    "numberEn": "099/159",
     "nameJa": "ゴロンダ",
     "nameEn": "Pangoro",
     "supertype": "Pokémon",
@@ -3692,7 +3692,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "063/100",
-    "numberEn": "102/190",
+    "numberEn": "102/159",
     "nameJa": "シュバルゴ",
     "nameEn": "Escavalier",
     "supertype": "Pokémon",
@@ -3761,7 +3761,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "064/100",
-    "numberEn": "103/190",
+    "numberEn": "103/159",
     "nameJa": "Ｎのギアル",
     "nameEn": "N's Klink",
     "supertype": "Pokémon",
@@ -3817,7 +3817,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "065/100",
-    "numberEn": "104/190",
+    "numberEn": "104/159",
     "nameJa": "Ｎのギギアル",
     "nameEn": "N's Klang",
     "supertype": "Pokémon",
@@ -3887,7 +3887,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "066/100",
-    "numberEn": "105/190",
+    "numberEn": "105/159",
     "nameJa": "Ｎのギギギアル",
     "nameEn": "N's Klinklang",
     "supertype": "Pokémon",
@@ -3958,7 +3958,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "067/100",
-    "numberEn": "107/190",
+    "numberEn": "107/159",
     "nameJa": "マギアナ",
     "nameEn": "Magearna",
     "supertype": "Pokémon",
@@ -4021,7 +4021,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "068/100",
-    "numberEn": "108/190",
+    "numberEn": "108/159",
     "nameJa": "ホップのアーマーガア",
     "nameEn": "Hop's Corviknight",
     "supertype": "Pokémon",
@@ -4091,7 +4091,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "069/100",
-    "numberEn": "111/190",
+    "numberEn": "111/159",
     "nameJa": "ホップのザシアンex",
     "nameEn": "Hop's Zacian ex",
     "supertype": "Pokémon",
@@ -4163,7 +4163,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "070/100",
-    "numberEn": "112/190",
+    "numberEn": "112/159",
     "nameJa": "タツベイ",
     "nameEn": "Bagon",
     "supertype": "Pokémon",
@@ -4222,7 +4222,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "071/100",
-    "numberEn": "113/190",
+    "numberEn": "113/159",
     "nameJa": "コモルー",
     "nameEn": "Shelgon",
     "supertype": "Pokémon",
@@ -4283,7 +4283,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "072/100",
-    "numberEn": "114/190",
+    "numberEn": "114/159",
     "nameJa": "ボーマンダex",
     "nameEn": "Salamence ex",
     "supertype": "Pokémon",
@@ -4347,7 +4347,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "073/100",
-    "numberEn": "115/190",
+    "numberEn": "115/159",
     "nameJa": "クリムガン",
     "nameEn": "Druddigon",
     "supertype": "Pokémon",
@@ -4407,7 +4407,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "074/100",
-    "numberEn": "116/190",
+    "numberEn": "116/159",
     "nameJa": "Nのレシラム",
     "nameEn": "N's Reshiram",
     "supertype": "Pokémon",
@@ -4469,7 +4469,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "075/100",
-    "numberEn": "117/190",
+    "numberEn": "117/159",
     "nameJa": "ホップのカビゴン",
     "nameEn": "Hop's Snorlax",
     "supertype": "Pokémon",
@@ -4532,7 +4532,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "076/100",
-    "numberEn": "118/190",
+    "numberEn": "118/159",
     "nameJa": "オタチ",
     "nameEn": "Sentret",
     "supertype": "Pokémon",
@@ -4583,7 +4583,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "077/100",
-    "numberEn": "119/190",
+    "numberEn": "119/159",
     "nameJa": "オオタチ",
     "nameEn": "Furret",
     "supertype": "Pokémon",
@@ -4646,7 +4646,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "078/100",
-    "numberEn": "120/190",
+    "numberEn": "120/159",
     "nameJa": "ノコッチ",
     "nameEn": "Dunsparce",
     "supertype": "Pokémon",
@@ -4709,7 +4709,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "079/100",
-    "numberEn": "121/190",
+    "numberEn": "121/159",
     "nameJa": "ノココッチex",
     "nameEn": "Dudunsparce ex",
     "supertype": "Pokémon",
@@ -4775,7 +4775,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "080/100",
-    "numberEn": "127/190",
+    "numberEn": "127/159",
     "nameJa": "オンバット",
     "nameEn": "Noibat",
     "supertype": "Pokémon",
@@ -4831,7 +4831,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "081/100",
-    "numberEn": "128/190",
+    "numberEn": "128/159",
     "nameJa": "オンバーン",
     "nameEn": "Noivern",
     "supertype": "Pokémon",
@@ -4894,7 +4894,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "082/100",
-    "numberEn": "129/190",
+    "numberEn": "129/159",
     "nameJa": "ネッコアラ",
     "nameEn": "Komala",
     "supertype": "Pokémon",
@@ -4946,7 +4946,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "083/100",
-    "numberEn": "133/190",
+    "numberEn": "133/159",
     "nameJa": "ホップのココガラ",
     "nameEn": "Hop's Rookidee",
     "supertype": "Pokémon",
@@ -5014,7 +5014,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "084/100",
-    "numberEn": "134/190",
+    "numberEn": "134/159",
     "nameJa": "ホップのアオガラス",
     "nameEn": "Hop's Corvisquire",
     "supertype": "Pokémon",
@@ -5083,7 +5083,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "085/100",
-    "numberEn": "135/190",
+    "numberEn": "135/159",
     "nameJa": "ホップのウールー",
     "nameEn": "Hop's Wooloo",
     "supertype": "Pokémon",
@@ -5136,7 +5136,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "086/100",
-    "numberEn": "136/190",
+    "numberEn": "136/159",
     "nameJa": "ホップのバイウールー",
     "nameEn": "Hop's Dubwool",
     "supertype": "Pokémon",
@@ -5197,7 +5197,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "087/100",
-    "numberEn": "138/190",
+    "numberEn": "138/159",
     "nameJa": "ホップのウッウ",
     "nameEn": "Hop's Cramorant",
     "supertype": "Pokémon",
@@ -5251,7 +5251,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "088/100",
-    "numberEn": "158/190",
+    "numberEn": "158/159",
     "nameJa": "いいきずぐすり",
     "nameEn": "Super Potion",
     "supertype": "Trainer",
@@ -5281,7 +5281,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "089/100",
-    "numberEn": "153/190",
+    "numberEn": "153/159",
     "nameJa": "Nのポイントアップ",
     "nameEn": "N's PP Up",
     "supertype": "Trainer",
@@ -5311,7 +5311,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "090/100",
-    "numberEn": "156/190",
+    "numberEn": "156/159",
     "nameJa": "とりかえチケット",
     "nameEn": "Redeemable Ticket",
     "supertype": "Trainer",
@@ -5341,7 +5341,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "091/100",
-    "numberEn": "147/190",
+    "numberEn": "147/159",
     "nameJa": "ホップのバッグ",
     "nameEn": "Hop's Bag",
     "supertype": "Trainer",
@@ -5371,7 +5371,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "092/100",
-    "numberEn": "148/190",
+    "numberEn": "148/159",
     "nameJa": "ホップのこだわりハチマキ",
     "nameEn": "Hop's Choice Band",
     "supertype": "Trainer",
@@ -5401,7 +5401,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "093/100",
-    "numberEn": "151/190",
+    "numberEn": "151/159",
     "nameJa": "リーリエのしんじゅ",
     "nameEn": "Lillie's Pearl",
     "supertype": "Trainer",
@@ -5431,7 +5431,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "094/100",
-    "numberEn": "149/190",
+    "numberEn": "149/159",
     "nameJa": "アイリスの闘志",
     "nameEn": "Iris's Fighting Spirit",
     "supertype": "Trainer",
@@ -5461,7 +5461,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "095/100",
-    "numberEn": "157/190",
+    "numberEn": "157/159",
     "nameJa": "怖いお兄さん",
     "nameEn": "Ruffian",
     "supertype": "Trainer",
@@ -5491,7 +5491,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "096/100",
-    "numberEn": "146/190",
+    "numberEn": "146/159",
     "nameJa": "タケシのスカウト",
     "nameEn": "Brock's Scouting",
     "supertype": "Trainer",
@@ -5521,7 +5521,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "097/100",
-    "numberEn": "152/190",
+    "numberEn": "152/159",
     "nameJa": "Nの城",
     "nameEn": "N's Castle",
     "supertype": "Trainer",
@@ -5551,7 +5551,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "098/100",
-    "numberEn": "150/190",
+    "numberEn": "150/159",
     "nameJa": "ハッコウシティ",
     "nameEn": "Levincia",
     "supertype": "Trainer",
@@ -5581,7 +5581,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "099/100",
-    "numberEn": "154/190",
+    "numberEn": "154/159",
     "nameJa": "ハロンタウン",
     "nameEn": "Postwick",
     "supertype": "Trainer",
@@ -5611,7 +5611,7 @@
     "setIdJa": "bp",
     "setIdEn": "jt",
     "numberJa": "100/100",
-    "numberEn": "159/190",
+    "numberEn": "159/159",
     "nameJa": "スパイクエネルギー",
     "nameEn": "Spiky Energy",
     "supertype": "Energy",
@@ -5633,6 +5633,1860 @@
     "nationalPokedexNumber": null,
     "imageJa": "images/sets/bp/jp/100.jpg",
     "imageEn": "images/sets/bp/en/100.jpg",
+    "textJa": "このカードは、ポケモンについているかぎり、★エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。",
+    "textEn": "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon."
+  },
+  {
+    "id": "bp-101",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "101/100",
+    "numberEn": "160/159",
+    "nameJa": "マラカッチ",
+    "nameEn": "Maractus",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 110,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "さくれつばり",
+        "nameEn": "Exploding Needles",
+        "textJa": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。",
+        "textEn": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, put 6 damage counters on the Attacking Pokémon."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "おいつめる",
+        "nameEn": "Corner",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "20",
+        "textJa": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+        "textEn": "During your opponent's next turn, the Defending Pokémon can't retreat."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Ounishi",
+    "nationalPokedexNumber": 556,
+    "imageJa": "images/sets/bp/jp/101.jpg",
+    "imageEn": "images/sets/bp/en/101.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-102",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "102/100",
+    "numberEn": "161/159",
+    "nameJa": "フリーザー",
+    "nameEn": "Articuno",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 110,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "つめたいはばたき",
+        "nameEn": "Frigid Fluttering",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "",
+        "textJa": "自分の山札から「基本◆エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
+        "textEn": "Search your deck for up to 2 Basic Water Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+      },
+      {
+        "nameJa": "アイスブラスト",
+        "nameEn": "Ice Blast",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "110",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Kuroimori",
+    "nationalPokedexNumber": 144,
+    "imageJa": "images/sets/bp/jp/102.jpg",
+    "imageEn": "images/sets/bp/en/102.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-103",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "103/100",
+    "numberEn": "162/159",
+    "nameJa": "ホエルオー",
+    "nameEn": "Wailord",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 240,
+    "evolvesFrom": "ホエルコ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ハイドロポンプ",
+        "nameEn": "Hydro Pump",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "10+",
+        "textJa": "このポケモンについている◆エネルギーの数×50ダメージ追加。",
+        "textEn": "This attack does 50 more damage for each Water Energy attached to this Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Katsunori Sato",
+    "nationalPokedexNumber": 321,
+    "imageJa": "images/sets/bp/jp/103.jpg",
+    "imageEn": "images/sets/bp/en/103.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-104",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "104/100",
+    "numberEn": "163/159",
+    "nameJa": "ナンジャモのタイカイデン",
+    "nameEn": "Iono's Kilowattrel",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 120,
+    "evolvesFrom": "ナンジャモのカイデン",
+    "abilities": [
+      {
+        "nameJa": "フラッシュドロー",
+        "nameEn": "Flashing Draw",
+        "textJa": "自分の番に、このポケモンについている「基本◆エネルギー」を1個トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。",
+        "textEn": "You must discard a Basic Lightning Energy from this Pokémon in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "マッハボルト",
+        "nameEn": "Mach Bolt",
+        "cost": [
+          "Lightning",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "70",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Terada Tera",
+    "nationalPokedexNumber": 941,
+    "imageJa": "images/sets/bp/jp/104.jpg",
+    "imageEn": "images/sets/bp/en/104.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-105",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "105/100",
+    "numberEn": "164/159",
+    "nameJa": "リーリエのアブリボン",
+    "nameEn": "Lillie's Ribombee",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 70,
+    "evolvesFrom": "リーリエのアブリー",
+    "abilities": [
+      {
+        "nameJa": "おさそいウインク",
+        "nameEn": "Inviting Wink",
+        "textJa": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札を見て、その中からたねポケモンを好きなだけ選び、相手のベンチに出す。",
+        "textEn": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have your opponent reveal their hand and you put any number of Basic Pokémon you find there onto their Bench."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "マジカルショット",
+        "nameEn": "Magical Shot",
+        "cost": [
+          "Psychic"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "50",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "saino misaki",
+    "nationalPokedexNumber": 743,
+    "imageJa": "images/sets/bp/jp/105.jpg",
+    "imageEn": "images/sets/bp/en/105.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-106",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "106/100",
+    "numberEn": "165/159",
+    "nameJa": "ウリムー",
+    "nameEn": "Swinub",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "なかまをよぶ",
+        "nameEn": "Call for Family",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "",
+        "textJa": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+        "textEn": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+      },
+      {
+        "nameJa": "つきたおし",
+        "nameEn": "Lunge Out",
+        "cost": [
+          "Fighting"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "10",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Nakamura Ippan",
+    "nationalPokedexNumber": 220,
+    "imageJa": "images/sets/bp/jp/106.jpg",
+    "imageEn": "images/sets/bp/en/106.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-107",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "107/100",
+    "numberEn": "166/159",
+    "nameJa": "ルガルガン",
+    "nameEn": "Lycanroc",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 120,
+    "evolvesFrom": "イワンコ",
+    "abilities": [
+      {
+        "nameJa": "とげをまとう",
+        "nameEn": "Spike-Clad",
+        "textJa": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「スパイクエネルギー」を2枚まで選び、このポケモンにつける。",
+        "textEn": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Spiky Energy cards from your discard pile to this Pokémon."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "クラッチファング",
+        "nameEn": "Clamping Fangs",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "40+",
+        "textJa": "相手のバトルポケモンにのっているダメカンの数×40ダメージ追加。",
+        "textEn": "This attack does 40 more damage for each damage counter on your opponent's Active Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "GIDORA",
+    "nationalPokedexNumber": 745,
+    "imageJa": "images/sets/bp/jp/107.jpg",
+    "imageEn": "images/sets/bp/en/107.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-108",
+    "setIdJa": "bp",
+    "setIdEn": null,
+    "numberJa": "108/100",
+    "numberEn": null,
+    "nameJa": "Ｎのゾロア",
+    "nameEn": "N's Zorua",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ひっかく",
+        "nameEn": "Scratch",
+        "cost": [
+          "Darkness"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "20",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Megumi Mizutani",
+    "nationalPokedexNumber": 570,
+    "imageJa": "images/sets/bp/jp/108.jpg",
+    "imageEn": null,
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-109",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "109/100",
+    "numberEn": "167/159",
+    "nameJa": "Nのレシラム",
+    "nameEn": "N's Reshiram",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "hp": 130,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "パワーレイジ",
+        "nameEn": "Powerful Rage",
+        "cost": [
+          "Fire",
+          "Lightning"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "20×",
+        "textJa": "このポケモンについているダメカンの数×20ダメージ。",
+        "textEn": "This attack does 20 damage for each damage counter on this Pokémon."
+      },
+      {
+        "nameJa": "イノセントフレイム",
+        "nameEn": "Virtuous Flame",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Lightning",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "170",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "Bun Toujo",
+    "nationalPokedexNumber": 643,
+    "imageJa": "images/sets/bp/jp/109.jpg",
+    "imageEn": "images/sets/bp/en/109.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-110",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "110/100",
+    "numberEn": "168/159",
+    "nameJa": "オオタチ",
+    "nameEn": "Furret",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 120,
+    "evolvesFrom": "オタチ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ひっかく",
+        "nameEn": "Scratch",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "40",
+        "textJa": "",
+        "textEn": ""
+      },
+      {
+        "nameJa": "ジェットヘッド",
+        "nameEn": "Jet Headbutt",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "70",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "REND",
+    "nationalPokedexNumber": 162,
+    "imageJa": "images/sets/bp/jp/110.jpg",
+    "imageEn": "images/sets/bp/en/110.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-111",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "111/100",
+    "numberEn": "169/159",
+    "nameJa": "オンバット",
+    "nameEn": "Noibat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "hp": 60,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "クイックドロー",
+        "nameEn": "Rapid Draw",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "10",
+        "textJa": "自分の山札を1枚引く。",
+        "textEn": "Draw a card."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "sowsow",
+    "nationalPokedexNumber": 714,
+    "imageJa": "images/sets/bp/jp/111.jpg",
+    "imageEn": "images/sets/bp/en/111.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-112",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "112/100",
+    "numberEn": "170/159",
+    "nameJa": "ホップのウールー",
+    "nameEn": "Hop's Wooloo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "けとばす",
+        "nameEn": "Smash Kick",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "50",
+        "textJa": "",
+        "textEn": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Illustration Rare",
+    "rarityJa": "AR",
+    "artist": "MINAMINAMI Take",
+    "nationalPokedexNumber": 831,
+    "imageJa": "images/sets/bp/jp/112.jpg",
+    "imageEn": "images/sets/bp/en/112.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-113",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "113/100",
+    "numberEn": "171/159",
+    "nameJa": "ボルケニオンex",
+    "nameEn": "Volcanion ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 220,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "やけつくじょうき",
+        "nameEn": "Scalding Steam",
+        "textJa": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをやけどにする。",
+        "textEn": "Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Burned."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ヒートサイクロン",
+        "nameEn": "Scorching Cyclone",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "160",
+        "textJa": "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+        "textEn": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 721,
+    "imageJa": "images/sets/bp/jp/113.jpg",
+    "imageEn": "images/sets/bp/en/113.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-114",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "114/100",
+    "numberEn": "172/159",
+    "nameJa": "ナンジャモのハラバリーex",
+    "nameEn": "Iono's Bellibolt ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 280,
+    "evolvesFrom": "ナンジャモのズピカ",
+    "abilities": [
+      {
+        "nameJa": "エレキストリーマー",
+        "nameEn": "Electric Streamer",
+        "textJa": "自分の番に何回でも使える。自分の手札から基本◆エネルギーを1枚選び、自分の「ナンジャモのポケモン」につける。",
+        "textEn": "As often as you like during your turn, you may attach a Basic Lightning Energy card from your hand to 1 of your Iono's Pokémon."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "サンダーボルト",
+        "nameEn": "Thunderous Bolt",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "230",
+        "textJa": "次の自分の番、このポケモンはワザが使えない。",
+        "textEn": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics & DOM",
+    "nationalPokedexNumber": 939,
+    "imageJa": "images/sets/bp/jp/114.jpg",
+    "imageEn": "images/sets/bp/en/114.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-115",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "115/100",
+    "numberEn": "173/159",
+    "nameJa": "リーリエのピッピex",
+    "nameEn": "Lillie's Clefairy ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 190,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "フェアリーゾーン",
+        "nameEn": "Fairy Zone",
+        "textJa": "このポケモンがいるかぎり、相手の場のドラゴンポケモン全員の弱点は、すべて超タイプになる。[弱点は「×2」で計算する。]",
+        "textEn": "The Weakness of each of your opponent's Dragon Pokémon in play is now Psychic. (Apply Weakness as ×2.)"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "フルムーンロンド",
+        "nameEn": "Full Moon Rondo",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "20+",
+        "textJa": "おたがいのベンチポケモンの数×20ダメージ追加。",
+        "textEn": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's)."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics & DOM",
+    "nationalPokedexNumber": 35,
+    "imageJa": "images/sets/bp/jp/115.jpg",
+    "imageEn": "images/sets/bp/en/115.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-116",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "116/100",
+    "numberEn": "174/159",
+    "nameJa": "マンムーex",
+    "nameEn": "Mamoswine ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 340,
+    "evolvesFrom": "イノムー",
+    "abilities": [
+      {
+        "nameJa": "マンモスキャリー",
+        "nameEn": "Mammoth Hauler",
+        "textJa": "自分の番に1回使える。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+        "textEn": "Once during your turn, you may search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "とどろくこうしん",
+        "nameEn": "Rumbling March",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "180+",
+        "textJa": "自分のベンチの2進化ポケモンの数×40ダメージ追加。",
+        "textEn": "This attack does 40 more damage for each Stage 2 Pokémon on your Bench."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "N-DESIGN Inc.",
+    "nationalPokedexNumber": 473,
+    "imageJa": "images/sets/bp/jp/116.jpg",
+    "imageEn": "images/sets/bp/en/116.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-117",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "117/100",
+    "numberEn": "175/159",
+    "nameJa": "Ｎのゾロアークex",
+    "nameEn": "N's Zoroark ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": "Ｎのゾロア",
+    "abilities": [
+      {
+        "nameJa": "とりひき",
+        "nameEn": "Trade",
+        "textJa": "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
+        "textEn": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ナイトジョーカー",
+        "nameEn": "Night Joker",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "",
+        "textJa": "自分のベンチの「Nのポケモン」が持つワザを1つ選び、このワザとして使う。",
+        "textEn": "Choose 1 of your Benched N's Pokémon's attacks and use it as this attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "takuyoa & DOM",
+    "nationalPokedexNumber": 571,
+    "imageJa": "images/sets/bp/jp/117.jpg",
+    "imageEn": "images/sets/bp/en/117.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-118",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "118/100",
+    "numberEn": "176/159",
+    "nameJa": "ホップのザシアンex",
+    "nameEn": "Hop's Zacian ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 230,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "せつなぎり",
+        "nameEn": "Insta-Strike",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "30",
+        "textJa": "相手のベンチポケモン1匹にも、30ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕",
+        "textEn": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "nameJa": "ブレイブスラッシュ",
+        "nameEn": "Brave Slash",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "240",
+        "textJa": "次の自分の番、このポケモンは「ブレイブスラッシュ」が使えない。",
+        "textEn": "During your next turn, this Pokémon can't use Brave Slash."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Darkness",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "aky CG Works & DOM",
+    "nationalPokedexNumber": 888,
+    "imageJa": "images/sets/bp/jp/118.jpg",
+    "imageEn": "images/sets/bp/en/118.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-119",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "119/100",
+    "numberEn": "177/159",
+    "nameJa": "ボーマンダex",
+    "nameEn": "Salamence ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "hp": 320,
+    "evolvesFrom": "コモルー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ワイドブラスト",
+        "nameEn": "Wide Blast",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "",
+        "textJa": "相手のベンチポケモン全員に、それぞれ50ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕",
+        "textEn": "This attack does 50 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "nameJa": "ドラゴンインパクト",
+        "nameEn": "Dragon Impact",
+        "cost": [
+          "Fire",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "300",
+        "textJa": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+        "textEn": "Discard 2 Energy from this Pokémon."
+      }
+    ],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 373,
+    "imageJa": "images/sets/bp/jp/119.jpg",
+    "imageEn": "images/sets/bp/en/119.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-120",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "120/100",
+    "numberEn": "178/159",
+    "nameJa": "ノココッチex",
+    "nameEn": "Dudunsparce ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 270,
+    "evolvesFrom": "ノコッチ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ぎゃっきょうテール",
+        "nameEn": "Tenacious Tail",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "60×",
+        "textJa": "相手の場の「ポケモンex」の数×60ダメージ。",
+        "textEn": "This attack does 60 damage for each of your opponent's Pokémon ex in play."
+      },
+      {
+        "nameJa": "ドリルブレイク",
+        "nameEn": "Destructive Drill",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "150",
+        "textJa": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+        "textEn": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 982,
+    "imageJa": "images/sets/bp/jp/120.jpg",
+    "imageEn": "images/sets/bp/en/120.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-121",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "121/100",
+    "numberEn": "180/159",
+    "nameJa": "アイリスの闘志",
+    "nameEn": "Iris's Fighting Spirit",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "types": [],
+    "hp": null,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "yuu",
+    "nationalPokedexNumber": null,
+    "imageJa": "images/sets/bp/jp/121.jpg",
+    "imageEn": "images/sets/bp/en/121.jpg",
+    "textJa": "このカードは、自分の手札を1枚トラッシュしなければ使えない。自分の手札が6枚になるように、山札を引く。",
+    "textEn": "You can use this card only if you discard another card from your hand.  Draw cards until you have 6 cards in your hand. You may play only 1 Supporter card during your turn."
+  },
+  {
+    "id": "bp-122",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "122/100",
+    "numberEn": "181/159",
+    "nameJa": "怖いお兄さん",
+    "nameEn": "Ruffian",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "types": [],
+    "hp": null,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Hideki Ishikawa",
+    "nationalPokedexNumber": null,
+    "imageJa": "images/sets/bp/jp/122.jpg",
+    "imageEn": "images/sets/bp/en/122.jpg",
+    "textJa": "相手のポケモンを1匹選び、そのポケモンについている「ポケモンのどうぐ」と「特殊エネルギー」を1枚ずつトラッシュする。",
+    "textEn": "Discard a Pokémon Tool and a Special Energy from 1 of your opponent's Pokémon. You may play only 1 Supporter card during your turn."
+  },
+  {
+    "id": "bp-123",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "123/100",
+    "numberEn": "179/159",
+    "nameJa": "タケシのスカウト",
+    "nameEn": "Brock's Scouting",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "types": [],
+    "hp": null,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Teeziro",
+    "nationalPokedexNumber": null,
+    "imageJa": "images/sets/bp/jp/123.jpg",
+    "imageEn": "images/sets/bp/en/123.jpg",
+    "textJa": "自分の山札からたねポケモンを2枚まで、または進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+    "textEn": "Search your deck for up to 2 Basic Pokémon or 1 Evolution Pokémon, reveal them, and put them into your hand. Then, shuffle your deck. You may play only 1 Supporter card during your turn."
+  },
+  {
+    "id": "bp-124",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "124/100",
+    "numberEn": "182/159",
+    "nameJa": "ボルケニオンex",
+    "nameEn": "Volcanion ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 220,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "やけつくじょうき",
+        "nameEn": "Scalding Steam",
+        "textJa": "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをやけどにする。",
+        "textEn": "Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Burned."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ヒートサイクロン",
+        "nameEn": "Scorching Cyclone",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "160",
+        "textJa": "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+        "textEn": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "akagi",
+    "nationalPokedexNumber": 721,
+    "imageJa": "images/sets/bp/jp/124.jpg",
+    "imageEn": "images/sets/bp/en/124.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-125",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "125/100",
+    "numberEn": "183/159",
+    "nameJa": "ナンジャモのハラバリーex",
+    "nameEn": "Iono's Bellibolt ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 280,
+    "evolvesFrom": "ナンジャモのズピカ",
+    "abilities": [
+      {
+        "nameJa": "エレキストリーマー",
+        "nameEn": "Electric Streamer",
+        "textJa": "自分の番に何回でも使える。自分の手札から基本◆エネルギーを1枚選び、自分の「ナンジャモのポケモン」につける。",
+        "textEn": "As often as you like during your turn, you may attach a Basic Lightning Energy card from your hand to 1 of your Iono's Pokémon."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "サンダーボルト",
+        "nameEn": "Thunderous Bolt",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "230",
+        "textJa": "次の自分の番、このポケモンはワザが使えない。",
+        "textEn": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "Yuu Nishida",
+    "nationalPokedexNumber": 939,
+    "imageJa": "images/sets/bp/jp/125.jpg",
+    "imageEn": "images/sets/bp/en/125.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-126",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "126/100",
+    "numberEn": "184/159",
+    "nameJa": "リーリエのピッピex",
+    "nameEn": "Lillie's Clefairy ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 190,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "フェアリーゾーン",
+        "nameEn": "Fairy Zone",
+        "textJa": "このポケモンがいるかぎり、相手の場のドラゴンポケモン全員の弱点は、すべて超タイプになる。[弱点は「×2」で計算する。]",
+        "textEn": "The Weakness of each of your opponent's Dragon Pokémon in play is now Psychic. (Apply Weakness as ×2.)"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "フルムーンロンド",
+        "nameEn": "Full Moon Rondo",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "20+",
+        "textJa": "おたがいのベンチポケモンの数×20ダメージ追加。",
+        "textEn": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's)."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "Susumu Maeya",
+    "nationalPokedexNumber": 35,
+    "imageJa": "images/sets/bp/jp/126.jpg",
+    "imageEn": "images/sets/bp/en/126.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-127",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "127/100",
+    "numberEn": "185/159",
+    "nameJa": "Ｎのゾロアークex",
+    "nameEn": "N's Zoroark ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": "Ｎのゾロア",
+    "abilities": [
+      {
+        "nameJa": "とりひき",
+        "nameEn": "Trade",
+        "textJa": "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
+        "textEn": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ナイトジョーカー",
+        "nameEn": "Night Joker",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "",
+        "textJa": "自分のベンチの「Nのポケモン」が持つワザを1つ選び、このワザとして使う。",
+        "textEn": "Choose 1 of your Benched N's Pokémon's attacks and use it as this attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "Megumi Mizutani",
+    "nationalPokedexNumber": 571,
+    "imageJa": "images/sets/bp/jp/127.jpg",
+    "imageEn": "images/sets/bp/en/127.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-128",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "128/100",
+    "numberEn": "186/159",
+    "nameJa": "ホップのザシアンex",
+    "nameEn": "Hop's Zacian ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 230,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "せつなぎり",
+        "nameEn": "Insta-Strike",
+        "cost": [
+          "Colorless"
+        ],
+        "convertedEnergyCost": 1,
+        "damage": "30",
+        "textJa": "相手のベンチポケモン1匹にも、30ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕",
+        "textEn": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "nameJa": "ブレイブスラッシュ",
+        "nameEn": "Brave Slash",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "240",
+        "textJa": "次の自分の番、このポケモンは「ブレイブスラッシュ」が使えない。",
+        "textEn": "During your next turn, this Pokémon can't use Brave Slash."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Darkness",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "DOM",
+    "nationalPokedexNumber": 888,
+    "imageJa": "images/sets/bp/jp/128.jpg",
+    "imageEn": "images/sets/bp/en/128.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-129",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "129/100",
+    "numberEn": "187/159",
+    "nameJa": "ボーマンダex",
+    "nameEn": "Salamence ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "hp": 320,
+    "evolvesFrom": "コモルー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ワイドブラスト",
+        "nameEn": "Wide Blast",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 3,
+        "damage": "",
+        "textJa": "相手のベンチポケモン全員に、それぞれ50ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕",
+        "textEn": "This attack does 50 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "nameJa": "ドラゴンインパクト",
+        "nameEn": "Dragon Impact",
+        "cost": [
+          "Fire",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "300",
+        "textJa": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+        "textEn": "Discard 2 Energy from this Pokémon."
+      }
+    ],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "Tsuyoshi Nagano",
+    "nationalPokedexNumber": 373,
+    "imageJa": "images/sets/bp/jp/129.jpg",
+    "imageEn": "images/sets/bp/en/129.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-130",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "130/100",
+    "numberEn": "188/159",
+    "nameJa": "ナンジャモのハラバリーex",
+    "nameEn": "Iono's Bellibolt ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 280,
+    "evolvesFrom": "ナンジャモのズピカ",
+    "abilities": [
+      {
+        "nameJa": "エレキストリーマー",
+        "nameEn": "Electric Streamer",
+        "textJa": "自分の番に何回でも使える。自分の手札から基本◆エネルギーを1枚選び、自分の「ナンジャモのポケモン」につける。",
+        "textEn": "As often as you like during your turn, you may attach a Basic Lightning Energy card from your hand to 1 of your Iono's Pokémon."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "サンダーボルト",
+        "nameEn": "Thunderous Bolt",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "convertedEnergyCost": 4,
+        "damage": "230",
+        "textJa": "次の自分の番、このポケモンはワザが使えない。",
+        "textEn": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Hyper Rare",
+    "rarityJa": "MUR",
+    "artist": "5ban Graphics & DOM",
+    "nationalPokedexNumber": 939,
+    "imageJa": "images/sets/bp/jp/130.jpg",
+    "imageEn": "images/sets/bp/en/130.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-131",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "131/100",
+    "numberEn": "189/159",
+    "nameJa": "Ｎのゾロアークex",
+    "nameEn": "N's Zoroark ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": "Ｎのゾロア",
+    "abilities": [
+      {
+        "nameJa": "とりひき",
+        "nameEn": "Trade",
+        "textJa": "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
+        "textEn": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ナイトジョーカー",
+        "nameEn": "Night Joker",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "convertedEnergyCost": 2,
+        "damage": "",
+        "textJa": "自分のベンチの「Nのポケモン」が持つワザを1つ選び、このワザとして使う。",
+        "textEn": "Choose 1 of your Benched N's Pokémon's attacks and use it as this attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Hyper Rare",
+    "rarityJa": "MUR",
+    "artist": "takuyoa & DOM",
+    "nationalPokedexNumber": 571,
+    "imageJa": "images/sets/bp/jp/131.jpg",
+    "imageEn": "images/sets/bp/en/131.jpg",
+    "textJa": null,
+    "textEn": null
+  },
+  {
+    "id": "bp-132",
+    "setIdJa": "bp",
+    "setIdEn": "jt",
+    "numberJa": "132/100",
+    "numberEn": "190/159",
+    "nameJa": "スパイクエネルギー",
+    "nameEn": "Spiky Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Special Energy"
+    ],
+    "types": [],
+    "hp": null,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Hyper Rare",
+    "rarityJa": "MUR",
+    "artist": null,
+    "nationalPokedexNumber": null,
+    "imageJa": "images/sets/bp/jp/132.jpg",
+    "imageEn": "images/sets/bp/en/132.jpg",
     "textJa": "このカードは、ポケモンについているかぎり、★エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを2個のせる。",
     "textEn": "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon."
   }
