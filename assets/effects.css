@@ -1,3 +1,35 @@
+/* ── Custom scrollbar ────────────────────────────────────
+   Webkit (Chrome/Edge/Safari): thin accent-tinted thumb.
+   Firefox: scrollbar-width + scrollbar-color.
+   ──────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar              { width: 6px; height: 6px; }
+::-webkit-scrollbar-track        { background: #0f1117; }
+::-webkit-scrollbar-thumb        { background: #2a2d3a; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover  { background: #a8d4e8; }
+
+* { scrollbar-width: thin; scrollbar-color: #2a2d3a #0f1117; }
+
+/* ── Favorite button heart pulse ─────────────────────────
+   Plays on every click (both favorite and unfavorite).
+   Applies to the desktop overlay button and mobile inline.
+   ──────────────────────────────────────────────────────── */
+
+@keyframes heart-pulse {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.4); }
+  60%  { transform: scale(0.88); }
+  100% { transform: scale(1); }
+}
+
+.modal-favorite:active,
+.modal-fav-inline:active {
+  animation: heart-pulse 0.32s ease;
+}
+
+/* ── Hide "Evolves from" in card modal ───────────────── */
+.evolves-from { display: none; }
+
 /* ── Energy type pill glow ───────────────────────────────
    Each pill gets a --tg (type glow) RGB triplet so the
    hover/active glow rules only need to be written once.
