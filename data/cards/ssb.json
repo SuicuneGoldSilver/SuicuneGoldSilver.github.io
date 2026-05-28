@@ -1,0 +1,714 @@
+[
+  {
+    "id": "ssb-1",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "001/018",
+    "numberEn": "083/182",
+    "nameJa": "ダイゴのヤジロン",
+    "nameEn": "Steven's Baltoy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 60,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "しょうしゅうサイン",
+        "nameEn": "Summoning Sign",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分の山札からたねポケモンの「ダイゴのポケモン」を2枚まで選び、ベンチに出す。そして山札を切る。",
+        "textEn": "Search your deck for up to 2 Basic Steven's Pokémon and put them onto your Bench. Then, shuffle your deck."
+      },
+      {
+        "nameJa": "ねんどうだん",
+        "nameEn": "Psychic Sphere",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "20",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Tonji Matsuno",
+    "nationalPokedexNumber": 343,
+    "imageJa": "images/sets/ssb/jp/1.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/83_hires.png"
+  },
+  {
+    "id": "ssb-2",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "002/018",
+    "numberEn": "084/182",
+    "nameJa": "ダイゴのネンドール",
+    "nameEn": "Steven's Claydol",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 120,
+    "evolvesFrom": "ダイゴのヤジロン",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ぶきみなひかり",
+        "nameEn": "Eerie Light",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "20",
+        "textJa": "相手のバトルポケモンをこんらんにする。",
+        "textEn": "Your opponent's Active Pokémon is now Confused."
+      },
+      {
+        "nameJa": "クレイブラスト",
+        "nameEn": "Clay Blast",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "220",
+        "textJa": "このポケモンについているエネルギーを、すべてトラッシュする。",
+        "textEn": "Discard all Energy from this Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "nagimiso",
+    "nationalPokedexNumber": 344,
+    "imageJa": "images/sets/ssb/jp/2.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/84_hires.png"
+  },
+  {
+    "id": "ssb-3",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "003/018",
+    "numberEn": "086/182",
+    "nameJa": "ダイゴのメレシー",
+    "nameEn": "Steven's Carbink",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 80,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "ストーンパレス",
+        "nameEn": "Stone Palace",
+        "textJa": "このポケモンがベンチにいるかぎり、自分の「ダイゴのポケモン」全員が、相手のポケモンから受けるワザのダメージは「-30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+        "textEn": "As long as this Pokémon is on your Bench, all of your Steven's Pokémon take 30 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance). The effect of Stone Palace doesn't stack."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "マジカルショット",
+        "nameEn": "Magical Shot",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "80",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Ligton",
+    "nationalPokedexNumber": 703,
+    "imageJa": "images/sets/ssb/jp/3.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/86_hires.png"
+  },
+  {
+    "id": "ssb-4",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "004/018",
+    "numberEn": "142/182",
+    "nameJa": "ダイゴのエアームド",
+    "nameEn": "Steven's Skarmory",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 120,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "するどいはね",
+        "nameEn": "Razor Wing",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": "",
+        "textEn": null
+      },
+      {
+        "nameJa": "ツインソニック",
+        "nameEn": "Sonic Double",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "相手のポケモン2匹に、それぞれ50ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+        "textEn": "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Nisota Niso",
+    "nationalPokedexNumber": 227,
+    "imageJa": "images/sets/ssb/jp/4.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/142_hires.png"
+  },
+  {
+    "id": "ssb-5",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "005/018",
+    "numberEn": "143/182",
+    "nameJa": "ダイゴのダンバル",
+    "nameEn": "Steven's Beldum",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ぶつかる",
+        "nameEn": "Ram",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Takeshi Nakamura",
+    "nationalPokedexNumber": 374,
+    "imageJa": "images/sets/ssb/jp/5.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/143_hires.png"
+  },
+  {
+    "id": "ssb-6",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "006/018",
+    "numberEn": "144/182",
+    "nameJa": "ダイゴのメタング",
+    "nameEn": "Steven's Metang",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 100,
+    "evolvesFrom": "ダイゴのダンバル",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "メタルスラッシュ",
+        "nameEn": "Metal Slash",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "70",
+        "textJa": "次の自分の番、このポケモンはワザが使えない。",
+        "textEn": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Anesaki Dynamic",
+    "nationalPokedexNumber": 375,
+    "imageJa": "images/sets/ssb/jp/6.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/144_hires.png"
+  },
+  {
+    "id": "ssb-7",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "007/018",
+    "numberEn": "145/182",
+    "nameJa": "ダイゴのメタグロスex",
+    "nameEn": "Steven's Metagross ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 340,
+    "evolvesFrom": "ダイゴのメタング",
+    "abilities": [
+      {
+        "nameJa": "エクスブート",
+        "nameEn": "X-Boot",
+        "textJa": "自分の番に1回使える。自分の山札から「基本超エネルギー」と「基本鋼エネルギー」をそれぞれ1枚まで選び、自分の超または鋼のポケモンに好きなようにつける。そして山札を切る。",
+        "textEn": "Once during your turn, you may search your deck for a Basic Psychic Energy card, a Basic Metal Energy card, or 1 of each and attach them to your Psychic Pokémon and Metal Pokémon in any way you like. Then, shuffle your deck."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "メタルスタンプ",
+        "nameEn": "Metal Stomp",
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "200",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "PLANETA Mochizuki",
+    "nationalPokedexNumber": 376,
+    "imageJa": "images/sets/ssb/jp/7.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/145_hires.png"
+  },
+  {
+    "id": "ssb-8",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "008/018",
+    "numberEn": "164/182",
+    "nameJa": "エネルギーリサイクル",
+    "nameEn": "Energy Recycler",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。",
+    "textEn": "Put up to 5 Basic Energy cards from your discard pile back into your deck. Shuffle your deck afterward.",
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssb/jp/8.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/164_hires.png"
+  },
+  {
+    "id": "ssb-9",
+    "setIdJa": "ssb",
+    "setIdEn": "pal",
+    "numberJa": "009/018",
+    "numberEn": "188/198",
+    "nameJa": "すごいつりざお",
+    "nameEn": "Super Rod",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のトラッシュからポケモンと基本エネルギーを合計3枚まで選び、相手に見せて、山札にもどして切る。",
+    "textEn": "Put up to 3 Pokémon and Basic Energy cards from your discard pile back into your deck in any combination. Shuffle your deck afterward.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssb/jp/9.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/188_hires.png"
+  },
+  {
+    "id": "ssb-10",
+    "setIdJa": "ssb",
+    "setIdEn": "pre",
+    "numberJa": "010/018",
+    "numberEn": "101/131",
+    "nameJa": "なかよしポフィン",
+    "nameEn": "Buddy-Buddy Poffin",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分の山札から、HPが70以下のたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+    "textEn": "Search your deck for up to 2 Basic Pokémon with 70 HP or less, reveal them, and put them onto your Bench. Then, shuffle your deck.",
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssb/jp/10.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv9/101_hires.png"
+  },
+  {
+    "id": "ssb-11",
+    "setIdJa": "ssb",
+    "setIdEn": "svi",
+    "numberJa": "011/018",
+    "numberEn": "196/198",
+    "nameJa": "ハイパーボール",
+    "nameEn": "Ultra Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "手札を2枚トラッシュする。このカードは、手札を2枚トラッシュできない場合、使えない。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+    "textEn": "Discard 2 cards from your hand. If you can't discard 2 cards, you can't play this card. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssb/jp/11.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/196_hires.png"
+  },
+  {
+    "id": "ssb-12",
+    "setIdJa": "ssb",
+    "setIdEn": "svi",
+    "numberJa": "012/018",
+    "numberEn": "191/198",
+    "nameJa": "ふしぎなアメ",
+    "nameEn": "Rare Candy",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のバトル場か自分のベンチの「たね」ポケモンに、自分の手札から、そのポケモンの進化先の「2進化」ポケモンを出して、進化させる。このカードは、自分の最初の番と、そのポケモンがバトル場か自分のベンチに出たばかりの番には使えない。",
+    "textEn": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssb/jp/12.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/191_hires.png"
+  },
+  {
+    "id": "ssb-13",
+    "setIdJa": "ssb",
+    "setIdEn": "svi",
+    "numberJa": "013/018",
+    "numberEn": "194/198",
+    "nameJa": "ポケモンいれかえ",
+    "nameEn": "Switch",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+    "textEn": "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Studio Bora Inc.",
+    "imageJa": "images/sets/ssb/jp/13.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/194_hires.png"
+  },
+  {
+    "id": "ssb-14",
+    "setIdJa": "ssb",
+    "setIdEn": "pal",
+    "numberJa": "014/018",
+    "numberEn": "185/198",
+    "nameJa": "ナンジャモ",
+    "nameEn": "Iono",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分と相手の手札を、それぞれ山札の下にもどす。それぞれのプレイヤーは、自分の残りのサイドの枚数分、山札を引く。",
+    "textEn": "Each player shuffles their hand and puts it on the bottom of their deck. Each player then draws a card for each of their remaining Prize cards.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssb/jp/14.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/185_hires.png"
+  },
+  {
+    "id": "ssb-15",
+    "setIdJa": "ssb",
+    "setIdEn": "svi",
+    "numberJa": "015/018",
+    "numberEn": "180/198",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "手札が6枚になるように山札を引く。",
+    "textEn": "Draw cards until you have 6 cards in your hand.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssb/jp/15.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/180_hires.png"
+  },
+  {
+    "id": "ssb-16",
+    "setIdJa": "ssb",
+    "setIdEn": "svi",
+    "numberJa": "016/018",
+    "numberEn": "189/198",
+    "nameJa": "博士の研究",
+    "nameEn": "Professor's Research",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+    "textEn": "Discard your hand and draw 7 cards.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Hideki Ishikawa",
+    "imageJa": "images/sets/ssb/jp/16.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/189_hires.png"
+  },
+  {
+    "id": "ssb-17",
+    "setIdJa": "ssb",
+    "setIdEn": "pal",
+    "numberJa": "017/018",
+    "numberEn": "172/198",
+    "nameJa": "ボスの指令",
+    "nameEn": "Boss's Orders",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+    "textEn": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssb/jp/17.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/172_hires.png"
+  },
+  {
+    "id": "ssb-18",
+    "setIdJa": "ssb",
+    "setIdEn": "dri",
+    "numberJa": "018/018",
+    "numberEn": "166/182",
+    "nameJa": "いしのどうくつ",
+    "nameEn": "Granite Cave",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Stadium"
+    ],
+    "textJa": "おたがいの「ダイゴのポケモン」全員が、相手のポケモンから受けるワザのダメージは「-30」される。",
+    "textEn": null,
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "AYUMI ODASHIMA",
+    "imageJa": "images/sets/ssb/jp/18.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/166_hires.png"
+  },
+  {
+    "id": "ssb-19",
+    "setIdJa": "ssb",
+    "setIdEn": "svp",
+    "numberJa": "019/018",
+    "numberEn": "207",
+    "nameJa": "ダイゴのダンバル",
+    "nameEn": "Steven's Beldum",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ぶつかる",
+        "nameEn": "Ram",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "hncl",
+    "nationalPokedexNumber": 374,
+    "imageJa": "images/sets/ssb/jp/19.jpg",
+    "imageEn": "https://images.pokemontcg.io/svp/207_hires.png"
+  }
+]

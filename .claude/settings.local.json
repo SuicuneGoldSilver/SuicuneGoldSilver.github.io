@@ -39,7 +39,19 @@
       "WebFetch(domain:bulbapedia.bulbagarden.net)",
       "WebFetch(domain:www.serebii.net)",
       "WebFetch(domain:serebii.net)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:www.pokemon.com)",
+      "WebFetch(domain:pkmncards.com)",
+      "WebFetch(domain:tcg.pokemon.com)",
+      "WebFetch(domain:www.tcgcollector.com)",
+      "WebFetch(domain:www.justinbasil.com)",
+      "WebFetch(domain:www.codedyellow.com)",
+      "WebFetch(domain:tcg-placeholder.com)",
+      "WebFetch(domain:www.thepricedex.com)",
+      "WebFetch(domain:cardgamer.com)",
+      "WebFetch(domain:www.pokellector.com)",
+      "WebFetch(domain:pkmncards.io)",
+      "WebFetch(domain:www.pkmncards.com)"
     ]
   }
 }

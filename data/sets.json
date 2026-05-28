@@ -318,5 +318,15 @@
     "printedTotal": 86,
     "regulationMark": null,
     "logo": "images/sets/wht/logo.png"
+  },
+  {
+    "id": "other",
+    "language": "ja",
+    "name": "その他",
+    "series": null,
+    "releaseDate": null,
+    "printedTotal": 83,
+    "regulationMark": null,
+    "logo": null
   }
 ]

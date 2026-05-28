@@ -1,0 +1,703 @@
+[
+  {
+    "id": "ssmr-1",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "001/019",
+    "numberEn": "130/182",
+    "nameJa": "マリィのチョロネコ",
+    "nameEn": "Marnie's Purrloin",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 60,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "シャープネイル",
+        "nameEn": "Pointy Nails",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "20+",
+        "textJa": "相手のバトルポケモンが「ポケモンex」なら、40ダメージ追加。",
+        "textEn": "If your opponent's Active Pok��mon is a Pokémon ex, this attack does 40 more damage."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "REND",
+    "nationalPokedexNumber": 509,
+    "imageJa": "images/sets/ssmr/jp/1.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/130_hires.png"
+  },
+  {
+    "id": "ssmr-2",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "002/019",
+    "numberEn": "131/182",
+    "nameJa": "マリィのレパルダス",
+    "nameEn": "Marnie's Liepard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 100,
+    "evolvesFrom": "マリィのチョロネコ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "シャープクロー",
+        "nameEn": "Pointy Claws",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "70+",
+        "textJa": "相手のバトルポケモンが「ポケモンex」なら、70ダメージ追加。",
+        "textEn": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Hasuno",
+    "nationalPokedexNumber": 510,
+    "imageJa": "images/sets/ssmr/jp/2.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/131_hires.png"
+  },
+  {
+    "id": "ssmr-3",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "003/019",
+    "numberEn": "132/182",
+    "nameJa": "マリィのズルッグ",
+    "nameEn": "Marnie's Scraggy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "かみくだく",
+        "nameEn": "Crunch",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "50",
+        "textJa": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+        "textEn": "Discard an Energy from your opponent's Active Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Teeziro",
+    "nationalPokedexNumber": 559,
+    "imageJa": "images/sets/ssmr/jp/3.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/132_hires.png"
+  },
+  {
+    "id": "ssmr-4",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "004/019",
+    "numberEn": "133/182",
+    "nameJa": "マリィのズルズキン",
+    "nameEn": "Marnie's Scrafty",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 120,
+    "evolvesFrom": "マリィのズルッグ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "うしろげり",
+        "nameEn": "Rear Kick",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "40",
+        "textJa": "",
+        "textEn": null
+      },
+      {
+        "nameJa": "ワイルドタックル",
+        "nameEn": "Wild Tackle",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "160",
+        "textJa": "このポケモンにも30ダメージ。",
+        "textEn": "This Pokémon also does 30 damage to itself."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Kazumasa Yasukuni",
+    "nationalPokedexNumber": 560,
+    "imageJa": "images/sets/ssmr/jp/4.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/133_hires.png"
+  },
+  {
+    "id": "ssmr-5",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "005/019",
+    "numberEn": "134/182",
+    "nameJa": "マリィのベロバー",
+    "nameEn": "Marnie's Impidimp",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "くすねる",
+        "nameEn": "Filch",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分の山札を1枚引く。",
+        "textEn": "Draw a card."
+      },
+      {
+        "nameJa": "どつく",
+        "nameEn": "Corkscrew Punch",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "KEIICHIRO ITO",
+    "nationalPokedexNumber": 859,
+    "imageJa": "images/sets/ssmr/jp/5.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/134_hires.png"
+  },
+  {
+    "id": "ssmr-6",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "006/019",
+    "numberEn": "135/182",
+    "nameJa": "マリィのギモー",
+    "nameEn": "Marnie's Morgrem",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 100,
+    "evolvesFrom": "マリィのベロバー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "どつく",
+        "nameEn": "Corkscrew Punch",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "60",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "NC Empire",
+    "nationalPokedexNumber": 860,
+    "imageJa": "images/sets/ssmr/jp/6.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/135_hires.png"
+  },
+  {
+    "id": "ssmr-7",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "007/019",
+    "numberEn": "136/182",
+    "nameJa": "マリィのオーロンゲex",
+    "nameEn": "Marnie's Grimmsnarl ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 320,
+    "evolvesFrom": "マリィのギモー",
+    "abilities": [
+      {
+        "nameJa": "パンクアップ",
+        "nameEn": "Punk Up",
+        "textJa": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「基本悪エネルギー」を5枚まで選び、自分の「マリィのポケモン」に好きなようにつける。そして山札を切る。",
+        "textEn": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 5 Basic Darkness Energy cards and attach them to your Marnie's Pokémon in any way you like. Then, shuffle your deck."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "シャドーバレット",
+        "nameEn": "Shadow Bullet",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "180",
+        "textJa": "相手のベンチポケモン1匹にも、30ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+        "textEn": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "PLANETA Mochizuki",
+    "nationalPokedexNumber": 861,
+    "imageJa": "images/sets/ssmr/jp/7.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/136_hires.png"
+  },
+  {
+    "id": "ssmr-8",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "008/019",
+    "numberEn": "137/182",
+    "nameJa": "マリィのモルペコ",
+    "nameEn": "Marnie's Morpeko",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スパイクホイール",
+        "nameEn": "Spiky Wheel",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "textJa": "このポケモンについている悪エネルギーの数×40ダメージ追加。",
+        "textEn": "This attack does 40 more damage for each Darkness Energy attached to this Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Mina Nakai",
+    "nationalPokedexNumber": 877,
+    "imageJa": "images/sets/ssmr/jp/8.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/137_hires.png"
+  },
+  {
+    "id": "ssmr-9",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "009/019",
+    "numberEn": "164/182",
+    "nameJa": "エネルギーリサイクル",
+    "nameEn": "Energy Recycler",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。",
+    "textEn": "Put up to 5 Basic Energy cards from your discard pile back into your deck. Shuffle your deck afterward.",
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssmr/jp/9.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/164_hires.png"
+  },
+  {
+    "id": "ssmr-10",
+    "setIdJa": "ssmr",
+    "setIdEn": "pal",
+    "numberJa": "010/019",
+    "numberEn": "188/198",
+    "nameJa": "すごいつりざお",
+    "nameEn": "Super Rod",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のトラッシュからポケモンと基本エネルギーを合計3枚まで選び、相手に見せて、山札にもどして切る。",
+    "textEn": "Put up to 3 Pokémon and Basic Energy cards from your discard pile back into your deck in any combination. Shuffle your deck afterward.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssmr/jp/10.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/188_hires.png"
+  },
+  {
+    "id": "ssmr-11",
+    "setIdJa": "ssmr",
+    "setIdEn": "pre",
+    "numberJa": "011/019",
+    "numberEn": "101/131",
+    "nameJa": "なかよしポフィン",
+    "nameEn": "Buddy-Buddy Poffin",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分の山札から、HPが70以下のたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+    "textEn": "Search your deck for up to 2 Basic Pokémon with 70 HP or less, reveal them, and put them onto your Bench. Then, shuffle your deck.",
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssmr/jp/11.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv9/101_hires.png"
+  },
+  {
+    "id": "ssmr-12",
+    "setIdJa": "ssmr",
+    "setIdEn": "svi",
+    "numberJa": "012/019",
+    "numberEn": "196/198",
+    "nameJa": "ハイパーボール",
+    "nameEn": "Ultra Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "手札を2枚トラッシュする。このカードは、手札を2枚トラッシュできない場合、使えない。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+    "textEn": "Discard 2 cards from your hand. If you can't discard 2 cards, you can't play this card. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssmr/jp/12.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/196_hires.png"
+  },
+  {
+    "id": "ssmr-13",
+    "setIdJa": "ssmr",
+    "setIdEn": "svi",
+    "numberJa": "013/019",
+    "numberEn": "191/198",
+    "nameJa": "ふしぎなアメ",
+    "nameEn": "Rare Candy",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のバトル場か自分のベンチの「たね」ポケモンに、自分の手札から、そのポケモンの進化先の「2進化」ポケモンを出して、進化させる。このカードは、自分の最初の番と、そのポケモンがバトル場か自分のベンチに出たばかりの番には使えない。",
+    "textEn": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ssmr/jp/13.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/191_hires.png"
+  },
+  {
+    "id": "ssmr-14",
+    "setIdJa": "ssmr",
+    "setIdEn": "svi",
+    "numberJa": "014/019",
+    "numberEn": "194/198",
+    "nameJa": "ポケモンいれかえ",
+    "nameEn": "Switch",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+    "textEn": "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Studio Bora Inc.",
+    "imageJa": "images/sets/ssmr/jp/14.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/194_hires.png"
+  },
+  {
+    "id": "ssmr-15",
+    "setIdJa": "ssmr",
+    "setIdEn": "pal",
+    "numberJa": "015/019",
+    "numberEn": "185/198",
+    "nameJa": "ナンジャモ",
+    "nameEn": "Iono",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分と相手の手札を、それぞれ山札の下にもどす。それぞれのプレイヤーは、自分の残りのサイドの枚数分、山札を引く。",
+    "textEn": "Each player shuffles their hand and puts it on the bottom of their deck. Each player then draws a card for each of their remaining Prize cards.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssmr/jp/15.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/185_hires.png"
+  },
+  {
+    "id": "ssmr-16",
+    "setIdJa": "ssmr",
+    "setIdEn": "svi",
+    "numberJa": "016/019",
+    "numberEn": "180/198",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "手札が6枚になるように山札を引く。",
+    "textEn": "Draw cards until you have 6 cards in your hand.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssmr/jp/16.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/180_hires.png"
+  },
+  {
+    "id": "ssmr-17",
+    "setIdJa": "ssmr",
+    "setIdEn": "svi",
+    "numberJa": "017/019",
+    "numberEn": "189/198",
+    "nameJa": "博士の研究",
+    "nameEn": "Professor's Research",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+    "textEn": "Discard your hand and draw 7 cards.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Taira Akitsu",
+    "imageJa": "images/sets/ssmr/jp/17.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/189_hires.png"
+  },
+  {
+    "id": "ssmr-18",
+    "setIdJa": "ssmr",
+    "setIdEn": "pal",
+    "numberJa": "018/019",
+    "numberEn": "172/198",
+    "nameJa": "ボスの指令",
+    "nameEn": "Boss's Orders",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+    "textEn": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/ssmr/jp/18.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/172_hires.png"
+  },
+  {
+    "id": "ssmr-19",
+    "setIdJa": "ssmr",
+    "setIdEn": "dri",
+    "numberJa": "019/019",
+    "numberEn": "169/182",
+    "nameJa": "スパイクタウンジム",
+    "nameEn": "Spikemuth Gym",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Stadium"
+    ],
+    "textJa": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から「マリィのポケモン」を1枚選び、相手に見せて、手札に加えてよい。そして山札を切る。",
+    "textEn": null,
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "AYUMI ODASHIMA",
+    "imageJa": "images/sets/ssmr/jp/19.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv10/169_hires.png"
+  },
+  {
+    "id": "ssmr-20",
+    "setIdJa": "ssmr",
+    "setIdEn": "svp",
+    "numberJa": "020/019",
+    "numberEn": "206",
+    "nameJa": "マリィのモルペコ",
+    "nameEn": "Marnie's Morpeko",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スパイクホイール",
+        "nameEn": "Spiky Wheel",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "textJa": "このポケモンについている悪エネルギーの数×40ダメージ追加。",
+        "textEn": "This attack does 40 more damage for each Darkness Energy attached to this Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "I",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Susumu Maeva",
+    "nationalPokedexNumber": 877,
+    "imageJa": "images/sets/ssmr/jp/20.jpg",
+    "imageEn": "https://images.pokemontcg.io/svp/206_hires.png"
+  }
+]

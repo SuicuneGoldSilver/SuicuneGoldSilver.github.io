@@ -1,0 +1,853 @@
+[
+  {
+    "id": "sstsy-1",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "001/022",
+    "numberEn": "040/191",
+    "nameJa": "マンタイン",
+    "nameEn": "Mantine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 110,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スプラッシュ",
+        "nameEn": "Wave Splash",
+        "cost": [
+          "Water"
+        ],
+        "damage": "30",
+        "textJa": "",
+        "textEn": null
+      },
+      {
+        "nameJa": "ウォーターダイブ",
+        "nameEn": "Aqua Dive",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "相手のポケモン1匹に、50ダメージ。[ベンチは弱点・抵抗力を計算しない。]",
+        "textEn": "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "satoma",
+    "nationalPokedexNumber": 226,
+    "imageJa": "images/sets/sstsy/jp/1.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/40_hires.png"
+  },
+  {
+    "id": "sstsy-2",
+    "setIdJa": "sstsy",
+    "setIdEn": "twm",
+    "numberJa": "002/022",
+    "numberEn": "065/167",
+    "nameJa": "サンダー",
+    "nameEn": "Zapdos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 110,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ついげきボルト",
+        "nameEn": "Thunder Wave",
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "textJa": "相手のバトルポケモンにのっているダメカンの数×10ダメージ追加。",
+        "textEn": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      {
+        "nameJa": "ドリルくちばし",
+        "nameEn": "Thunderbolt",
+        "cost": [
+          "Lightning",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "80",
+        "textJa": "",
+        "textEn": "Discard all Energy from this Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Nisota Niso",
+    "nationalPokedexNumber": 145,
+    "imageJa": "images/sets/sstsy/jp/2.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv6/65_hires.png"
+  },
+  {
+    "id": "sstsy-3",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "003/022",
+    "numberEn": "073/191",
+    "nameJa": "マリル",
+    "nameEn": "Marill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 60,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ころがりタックル",
+        "nameEn": "Rolling Tackle",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "20",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Shimaris Yukichi",
+    "nationalPokedexNumber": 183,
+    "imageJa": "images/sets/sstsy/jp/3.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/73_hires.png"
+  },
+  {
+    "id": "sstsy-4",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "004/022",
+    "numberEn": "074/191",
+    "nameJa": "マリルリ",
+    "nameEn": "Azumarill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 120,
+    "evolvesFrom": "マリル",
+    "abilities": [
+      {
+        "nameJa": "きらきらシャボン",
+        "nameEn": "Glistening Bubbles",
+        "textJa": "自分の場に「テラスタル」のポケモンがいるなら、このポケモンが「すてみタックル」を使うためのエネルギーは、超エネルギー1個になる。",
+        "textEn": "If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for Psychic."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "すてみタックル",
+        "nameEn": "Double-Edge",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "230",
+        "textJa": "このポケモンにも50ダメージ。",
+        "textEn": "This Pokémon also does 50 damage to itself."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Orca",
+    "nationalPokedexNumber": 184,
+    "imageJa": "images/sets/sstsy/jp/4.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/74_hires.png"
+  },
+  {
+    "id": "sstsy-5",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "005/022",
+    "numberEn": "086/191",
+    "nameJa": "ニンフィアex",
+    "nameEn": "Sylveon ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex",
+      "Tera"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 270,
+    "evolvesFrom": "イーブイ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "マジカルチャーム",
+        "nameEn": "Magical Charm",
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "160",
+        "textJa": "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-100」される。",
+        "textEn": "During your opponent's next turn, attacks used by the Defending Pokémon do 100 less damage (before applying Weakness and Resistance)."
+      },
+      {
+        "nameJa": "エンジェライト",
+        "nameEn": "Angelite",
+        "cost": [
+          "Water",
+          "Lightning",
+          "Psychic"
+        ],
+        "damage": "",
+        "textJa": "相手のベンチポケモンを2匹選び、そのポケモンと、ついているすべてのカードを、山札にもどして切る。前の自分の番に、自分のポケモンが「エンジェライト」を使っていたなら、このワザは使えない。",
+        "textEn": "Choose 2 of your opponent's Benched Pokémon. Shuffle those Pokémon and all attached cards into your opponent's deck. If 1 of your Pokémon used Angelite during your last turn, this attack can't be used."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 700,
+    "imageJa": "images/sets/sstsy/jp/5.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/86_hires.png"
+  },
+  {
+    "id": "sstsy-6",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "006/022",
+    "numberEn": "088/191",
+    "nameJa": "ゼルネアス",
+    "nameEn": "Xerneas",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 130,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "オーロラゲイン",
+        "nameEn": "Aurora Gain",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": "このポケモンのHPを「30」回復する。",
+        "textEn": "Heal 30 damage from this Pokémon."
+      },
+      {
+        "nameJa": "ギガインパクト",
+        "nameEn": "Giga Impact",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "130",
+        "textJa": "次の自分の番、このポケモンはワザが使えない。",
+        "textEn": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Ryuta Fuse",
+    "nationalPokedexNumber": 716,
+    "imageJa": "images/sets/sstsy/jp/6.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/88_hires.png"
+  },
+  {
+    "id": "sstsy-7",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "007/022",
+    "numberEn": "089/191",
+    "nameJa": "オドリドリ",
+    "nameEn": "Oricorio",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 90,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "エネアシスト",
+        "nameEn": "Energy Assist",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "textJa": "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。",
+        "textEn": "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon."
+      },
+      {
+        "nameJa": "げんわくダンス",
+        "nameEn": "Dazzle Dance",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "20",
+        "textJa": "相手のバトルポケモンをこんらんにする。",
+        "textEn": "Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "saino misaki",
+    "nationalPokedexNumber": 741,
+    "imageJa": "images/sets/sstsy/jp/7.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/89_hires.png"
+  },
+  {
+    "id": "sstsy-8",
+    "setIdJa": "sstsy",
+    "setIdEn": "pal",
+    "numberJa": "008/022",
+    "numberEn": "097/198",
+    "nameJa": "ミミッキュ",
+    "nameEn": "Mimikyu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "しんびのまもり",
+        "nameEn": "Safeguard",
+        "textJa": "このポケモンは、相手の「ポケモンex・V」からワザのダメージを受けない。",
+        "textEn": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex and Pokémon V."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ゴーストアイ",
+        "nameEn": "Ghost Eye",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンに、ダメカンを7個のせる。",
+        "textEn": "Put 7 damage counters on your opponent's Active Pokémon."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Kagemaru Himeno",
+    "nationalPokedexNumber": 778,
+    "imageJa": "images/sets/sstsy/jp/8.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/97_hires.png"
+  },
+  {
+    "id": "sstsy-9",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "009/022",
+    "numberEn": "143/191",
+    "nameJa": "イーブイ",
+    "nameEn": "Eevee",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 50,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "ブーストしんか",
+        "nameEn": "Boosted Evolution",
+        "textJa": "このポケモンは、バトル場にいるかぎり、最初の自分の番や、出したばかりの番でも進化できる。",
+        "textEn": "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "とつげき",
+        "nameEn": "Reckless Charge",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": "このポケモンにも10ダメージ。",
+        "textEn": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Naoyo Kimura",
+    "nationalPokedexNumber": 133,
+    "imageJa": "images/sets/sstsy/jp/9.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/143_hires.png"
+  },
+  {
+    "id": "sstsy-10",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "010/022",
+    "numberEn": "144/191",
+    "nameJa": "カビゴン",
+    "nameEn": "Snorlax",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 150,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スパイクドロー",
+        "nameEn": "Spike Draw",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "20",
+        "textJa": "自分の山札を1枚引く。",
+        "textEn": "Draw a card."
+      },
+      {
+        "nameJa": "メガトンパンチ",
+        "nameEn": "Mega Punch",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "100",
+        "textJa": "",
+        "textEn": null
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Ounishi",
+    "nationalPokedexNumber": 143,
+    "imageJa": "images/sets/sstsy/jp/10.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/144_hires.png"
+  },
+  {
+    "id": "sstsy-11",
+    "setIdJa": "sstsy",
+    "setIdEn": "pal",
+    "numberJa": "011/022",
+    "numberEn": "188/198",
+    "nameJa": "すごいつりざお",
+    "nameEn": "Super Rod",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のトラッシュからポケモンと基本エネルギーを合計3枚まで選び、相手に見せて、山札にもどして切る。",
+    "textEn": "Put up to 3 Pokémon and Basic Energy cards from your discard pile back into your deck in any combination. Shuffle your deck afterward.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/sstsy/jp/11.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/188_hires.png"
+  },
+  {
+    "id": "sstsy-12",
+    "setIdJa": "sstsy",
+    "setIdEn": "ssp",
+    "numberJa": "012/022",
+    "numberEn": "189/191",
+    "nameJa": "テラスタルオーブ",
+    "nameEn": "Tera Orb",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分の山札から「テラスタル」のポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+    "textEn": "Search your deck for a Pokémon with \"Tera\" in its name, reveal it, and put it into your hand. Then, shuffle your deck.",
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Ayaka Yoshida",
+    "imageJa": "images/sets/sstsy/jp/12.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv8/189_hires.png"
+  },
+  {
+    "id": "sstsy-13",
+    "setIdJa": "sstsy",
+    "setIdEn": "svi",
+    "numberJa": "013/022",
+    "numberEn": "181/198",
+    "nameJa": "ネストボール",
+    "nameEn": "Nest Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+    "textEn": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/sstsy/jp/13.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/181_hires.png"
+  },
+  {
+    "id": "sstsy-14",
+    "setIdJa": "sstsy",
+    "setIdEn": "svi",
+    "numberJa": "014/022",
+    "numberEn": "196/198",
+    "nameJa": "ハイパーボール",
+    "nameEn": "Ultra Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "手札を2枚トラッシュする。このカードは、手札を2枚トラッシュできない場合、使えない。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+    "textEn": "Discard 2 cards from your hand. If you can't discard 2 cards, you can't play this card. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/sstsy/jp/14.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/196_hires.png"
+  },
+  {
+    "id": "sstsy-15",
+    "setIdJa": "sstsy",
+    "setIdEn": null,
+    "numberJa": "015/022",
+    "numberEn": null,
+    "nameJa": "プレシャスキャリー",
+    "nameEn": "Precious Carrier",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item",
+      "ACE SPEC"
+    ],
+    "textJa": "自分の山札からたねポケモンを好きなだけ選び、ベンチに出す。そして山札を切る。",
+    "textEn": null,
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "inose yukie",
+    "imageJa": "images/sets/sstsy/jp/15.jpg",
+    "imageEn": null
+  },
+  {
+    "id": "sstsy-16",
+    "setIdJa": "sstsy",
+    "setIdEn": "svi",
+    "numberJa": "016/022",
+    "numberEn": "186/198",
+    "nameJa": "ポケギア3.0",
+    "nameEn": "PokéGear 3.0",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分の山札の上から7枚を見て、その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードを山札にもどして切る。",
+    "textEn": "Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/sstsy/jp/16.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/186_hires.png"
+  },
+  {
+    "id": "sstsy-17",
+    "setIdJa": "sstsy",
+    "setIdEn": "svi",
+    "numberJa": "017/022",
+    "numberEn": "194/198",
+    "nameJa": "ポケモンいれかえ",
+    "nameEn": "Switch",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分のバトルポケモンをベンチポケモンと入れ替える。",
+    "textEn": "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "Studio Bora Inc.",
+    "imageJa": "images/sets/sstsy/jp/17.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/194_hires.png"
+  },
+  {
+    "id": "sstsy-18",
+    "setIdJa": "sstsy",
+    "setIdEn": "scr",
+    "numberJa": "018/022",
+    "numberEn": "133/142",
+    "nameJa": "アカマツ",
+    "nameEn": "Crispin",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の山札から、それぞれちがうタイプの基本エネルギーを2枚まで選び、相手に見せて、どちらか1枚を手札に加え、残りのエネルギーを自分のポケモンにつける。そして山札を切る。",
+    "textEn": "Search your deck for up to 2 Basic Energy cards of different types, reveal them, put 1 of them into your hand, and attach the other to 1 of your Pokémon. Then, shuffle your deck.",
+    "regulationMark": "H",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "GIDORA",
+    "imageJa": "images/sets/sstsy/jp/18.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv7/133_hires.png"
+  },
+  {
+    "id": "sstsy-19",
+    "setIdJa": "sstsy",
+    "setIdEn": "pal",
+    "numberJa": "019/022",
+    "numberEn": "185/198",
+    "nameJa": "ナンジャモ",
+    "nameEn": "Iono",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分と相手の手札を、それぞれ山札の下にもどす。それぞれのプレイヤーは、自分の残りのサイドの枚数分、山札を引く。",
+    "textEn": "Each player shuffles their hand and puts it on the bottom of their deck. Each player then draws a card for each of their remaining Prize cards.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/sstsy/jp/19.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/185_hires.png"
+  },
+  {
+    "id": "sstsy-20",
+    "setIdJa": "sstsy",
+    "setIdEn": "svi",
+    "numberJa": "020/022",
+    "numberEn": "180/198",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "手札が6枚になるように山札を引く。",
+    "textEn": "Draw cards until you have 6 cards in your hand.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/sstsy/jp/20.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/180_hires.png"
+  },
+  {
+    "id": "sstsy-21",
+    "setIdJa": "sstsy",
+    "setIdEn": "svi",
+    "numberJa": "021/022",
+    "numberEn": "189/198",
+    "nameJa": "博士の研究",
+    "nameEn": "Professor's Research",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+    "textEn": "Discard your hand and draw 7 cards.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": "kirisAki",
+    "imageJa": "images/sets/sstsy/jp/21.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv1/189_hires.png"
+  },
+  {
+    "id": "sstsy-22",
+    "setIdJa": "sstsy",
+    "setIdEn": "pal",
+    "numberJa": "022/022",
+    "numberEn": "172/198",
+    "nameJa": "ボスの指令",
+    "nameEn": "Boss's Orders",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+    "textEn": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+    "regulationMark": "G",
+    "rarity": "Promo",
+    "rarityJa": "プロモ",
+    "artist": null,
+    "imageJa": "images/sets/sstsy/jp/22.jpg",
+    "imageEn": "https://images.pokemontcg.io/sv2/172_hires.png"
+  }
+]

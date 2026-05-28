@@ -1,0 +1,209 @@
+Session Log — 2026-05-28 (EN card data for starter decks その他 tab)
+=====================================================================
+
+CONTEXT
+-------
+Continued from prior session (session 8) that added 4 starter deck JSON files under the
+"その他" tab. JP images had already been downloaded. This session's goal was to find and
+apply EN card equivalents for all 83 cards across the 4 starter decks.
+
+WHAT WAS DONE
+-------------
+
+1. EN CARD RESEARCH
+   Researched EN set numbers for all 83 cards across 4 decks using Serebii set pages,
+   pkmncards.com, and pokemontcg.io. Key findings:
+
+   ssb/ssmr character Pokémon → DRI (Destined Rivals, sv10, 182 base cards):
+     Steven's Baltoy #083, Claydol #084, Carbink #086
+     Steven's Skarmory #142, Beldum #143, Metang #144, Metagross ex #145
+     Marnie's Purrloin #130, Liepard #131, Scraggy #132, Scrafty #133
+     Marnie's Impidimp #134, Morgrem #135, Grimmsnarl ex #136, Morpeko #137
+     Energy Recycler #164, Granite Cave #166, Spikemuth Gym #169
+
+   Alt art promos → SVP (SV Promos):
+     Steven's Beldum (ssb-19) → SVP #207
+     Marnie's Morpeko (ssmr-20) → SVP #206
+
+   sstce/sstsy Pokémon → SSP (Surging Sparks, sv8, 191 base):
+     Vulpix #016, Ninetales #017, Ho-Oh #019, Oricorio(Fire) #026
+     Charcadet #032, Ceruledge ex #036, Sigilyph #081, Registeel #125
+     Mantine #040, Marill #073, Azumarill #074, Sylveon ex #086
+     Xerneas #088, Oricorio(Psychic) #089, Eevee #143, Snorlax #144
+
+   Additional Pokémon from other SV sets:
+     Hoothoot → SCR (Stellar Crown, sv7, 142 base) #114
+     Noctowl → SCR #115
+     Zapdos → TWM (Twilight Masquerade, sv6, 167 base) #065
+     Mimikyu → PAL (Paldea Evolved, sv2, 198 base) #097
+
+   Standard trainer reprints for all 4 decks:
+     Super Rod → PAL (sv2) #188/198
+     Buddy-Buddy Poffin → PRE (Prismatic Evolutions, sv9, 131 base) #101
+     Ultra Ball → SVI (Scarlet & Violet, sv1, 198 base) #196
+     Rare Candy → SVI #191
+     Iono → PAL #185
+     Nemona → SVI #180
+     Professor's Research → SVI #189
+     Boss's Orders → PAL #172
+     Nest Ball → SVI #181
+     PokéGear 3.0 → SVI #186
+     Switch (いれかえ, classic) → SVI #194
+     Tera Orb → SSP (sv8) #189
+     Crispin → SCR (sv7) #133
+
+   JP-only cards (no EN equivalent found, imageEn=null):
+     Switch Cart (いれかえカート) - ssb-13, ssmr-14 — no SV-era EN main-set printing
+     Perfect Mixer (パーフェクトミキサー) - sstce-14 — JP promo only
+     Precious Carrier (プレシャスキャリー) - sstsy-15 — JP promo only
+
+   Also fixed nameEn for Switch Cart: was "Switch", corrected to "Switch Cart"
+
+2. SCRIPT: scripts/update_starter_decks_en.js
+   Node.js script applying all EN data to 4 JSON files in one pass.
+   Uses pokemontcg.io CDN for imageEn URLs: https://images.pokemontcg.io/{setApiId}/{n}_hires.png
+   Same approach as gotr.json (external URLs, no local downloads needed).
+   Updated all 83 cards; 79/83 have imageEn, 4 are JP-only (imageEn=null, enAvailable=false).
+
+3. REBUILT INDEX
+   node scripts/rebuild_index.js
+   index.json: 3184 entries (unchanged count, but enAvailable updated for 79 cards)
+   index-sets/other.json: 83 entries with correct enAvailable flags
+
+EN CARDS FORMAT REFERENCE
+--------------------------
+- setIdEn: short code (dri, svi, pal, ssp, scr, twm, pre, svp)
+- numberEn: "NNN/TTT" format using printed total denominator
+- imageEn: "https://images.pokemontcg.io/{apiId}/{n}_hires.png"
+  where apiId: sv1=svi, sv2=pal, sv6=twm, sv7=scr, sv8=ssp, sv9=pre, sv10=dri, svp=svp
+
+API DISCOVERIES
+---------------
+- DRI (sv10): 182 base cards, api ID "sv10", short code "dri"
+- SSP (sv8): 191 base cards, api ID "sv8", short code "ssp"
+- SCR (sv7): 142 base cards, api ID "sv7", short code "scr"
+- TWM (sv6): 167 base cards, api ID "sv6", short code "twm"
+- PRE (sv9): 131 base cards, api ID "sv9", short code "pre"
+- SVI (sv1): 198 base cards, api ID "sv1", short code "svi"
+- PAL (sv2): 198 base cards, api ID "sv2", short code "pal"
+- SVP promos: api ID "svp", no denominator in numberEn
+
+TRAINER CARD NOTE
+-----------------
+Recent SV sets (sv4+) only list NEW unique trainer cards in their set; they don't reprint
+standard trainers. The base SVI (sv1) set introduced most common trainers (Ultra Ball,
+Nest Ball, Switch, PokéGear 3.0, Nemona, Prof's Research, Rare Candy).
+PAL (sv2) introduced Iono, Boss's Orders, Super Rod.
+TEF (sv5) introduced Buddy-Buddy Poffin (#144, but PRE #101 also used).
+SCR (sv7) and SSP (sv8) only have unique character/set-specific trainers.
+
+FILES CHANGED
+-------------
+- data/cards/ssb.json — all 19 cards EN-updated
+- data/cards/ssmr.json — all 20 cards EN-updated
+- data/cards/sstce.json — all 22 cards EN-updated
+- data/cards/sstsy.json — all 22 cards EN-updated
+- data/index.json — rebuilt
+- data/index-sets/other.json — rebuilt
+- scripts/update_starter_decks_en.js — new script
+
+SESSION 10 — FILL STARTER DECK DATA (continuation of session 9)
+==================================================================
+
+WHAT WAS DONE
+-------------
+
+Read all 83 JP card images across ssb/ssmr/sstce/sstsy to extract full card data.
+Wrote scripts/fill_starter_deck_data.js — applies complete data to all 83 cards.
+Rebuilt index.json (3184 entries unchanged count) and index-sets/other.json (83 entries).
+
+NAME CORRECTIONS (confirmed from images):
+- All ssb Pokémon: スティーブンの → ダイゴの (Steven's JP name is ダイゴ/Daigo)
+- All ssb numberJa: /019 denominator → /018 (set has 18 base cards, 19th is alt art)
+- ssb-3 types: ["Colorless"] → ["Psychic"] (Carbink is Psychic type; was wrong in session 8)
+- ssb-9 nameJa: スーパーロッド → すごいつりざお (correct SV-era Japanese name)
+- ssb-13 nameJa: いれかえカート → ポケモンいれかえ + nameEn: Switch Cart → Switch
+  + setIdEn: null → svi, numberEn: 194/198, imageEn: sv1/194
+- ssb-18 nameJa: 岩場の洞窟 → いしのどうくつ (Granite Cave correct JP name)
+- ssmr-14: same Switch correction as ssb-13
+- sstce-6 nameJa: ブレイズrexex → ソウブレイズex (Ceruledge ex correct JP name)
+
+SUBTYPE CORRECTIONS:
+- sstce-6 (ソウブレイズex): added "Tera" to subtypes → ["Stage 1", "ex", "Tera"]
+- sstsy-5 (ニンフィアex): added "Tera" to subtypes → ["Stage 1", "ex", "Tera"]
+- sstce-14 (パーフェクトミキサー): subtypes → ["Item", "ACE SPEC"]
+- sstsy-15 (プレシャスキャリー): subtypes → ["Item", "ACE SPEC"]
+
+REGULATION MARK CORRECTIONS:
+Cards in starter decks carry the regulation mark of their SOURCE set, not a uniform mark:
+- sv1 (SVI) reprints: G — Ultra Ball, Nest Ball, Rare Candy, Switch, PokéGear 3.0, Nemona, Prof's Research
+- sv2 (PAL) reprints: G — Super Rod, Iono, Boss's Orders
+- sv7 (SCR) cards: H — Crispin, Hoothoot, Noctowl
+- sv8 (SSP) cards: H — Tera Orb, Ceruledge ex, Sylveon ex line, most sstce/sstsy Pokémon
+- sv9 (PRE): I — Buddy-Buddy Poffin
+- sv10 (DRI): I — Steven's/Marnie's Pokémon, Energy Recycler, Granite Cave, Spikemuth Gym
+- SVP promos: I — alt art Beldum, alt art Morpeko
+- sstsy-8 (Mimikyu from PAL/sv2): G
+
+KEY POKÉMON DATA FILLED:
+
+ssb/ssmr Pokémon (all Psychic/Darkness types from DRI):
+  Baltoy: HP60, Psychic, W:Darkness×2 R:Fighting-30, 1C retreat
+  Claydol: HP120, Psychic, stage 1 from Baltoy, W:Dark×2 R:Fight-30, 2C retreat
+  Carbink: HP80, Psychic, Ability ストーンパレス (-30 to all Daigo's Pokémon), Metal×2 weak, 2C retreat
+  Skarmory: HP120, Metal, W:Lightning×2 R:Fighting-30, 1C retreat
+  Beldum: HP70, Metal, W:Fire×2 R:Grass-30, 1C retreat
+  Metang: HP100, Metal, stage 1 from Beldum, W:Fire×2 R:Grass-30, 2C retreat
+  Metagross ex: HP340, Metal, Ability エクスブート (search Psychic+Metal energy), 200 damage, 3C retreat
+  Purrloin→Liepard: Darkness, W:Grass×2, no resistance
+  Scraggy→Scrafty: Darkness, W:Grass×2, no resistance
+  Impidimp→Morgrem→Grimmsnarl ex: Darkness, Ability パンクアップ (put up to 5 Dark energy on Marnie's Pokémon when evolving)
+  Morpeko (ssmr-8 + alt ssmr-20): HP70, Darkness, free retreat
+
+sstce Pokémon (Fire/Psychic/Metal/Colorless from SSP/SCR):
+  Vulpix: HP70, Fire, W:Water×2, 1C
+  Ninetales: HP120, Fire, W:Water×2, 1C
+  Ho-Oh: HP130, Fire, W:Lightning×2 R:Fighting-30, 2C
+  Oricorio (Fire): HP90, Fire, W:Water×2, 1C
+  Charcadet: HP70, Fire, W:Water×2, 1C
+  Ceruledge ex: HP270, Fire/Tera, W:Water×2, 2C; attacks: しんえんほむら (30+ trash×20), アメジストレイジ (炎超鋼, 280, discard all energy)
+  Sigilyph: HP110, Psychic, W:Lightning×2 R:Fighting-30, 1C
+  Registeel: HP130, Metal, W:Fire×2 R:Grass-30, 3C
+  Hoothoot: HP70, Colorless, W:Lightning×2 R:Fighting-30, 1C
+  Noctowl: HP100, Colorless, Ability ほうせきさがし (search 2 trainers when evolving near Tera), 2C attack, 1C retreat
+
+sstsy Pokémon (Water/Lightning/Psychic/Colorless from SSP/PAL):
+  Mantine: HP110, Water, W:Lightning×2, 1C retreat
+  Zapdos: HP110, Lightning, W:Fighting×2 R:Metal-30, 1C retreat
+  Marill: HP60, Psychic (former Fairy), W:Metal×2, 1C
+  Azumarill: HP120, Psychic, Ability きらきらシャボン (すてみタックル costs 1 Psychic near Tera), W:Metal×2, 2C
+  Sylveon ex: HP270, Psychic/Tera, W:Metal×2, 2C; attacks: マジカルチャーム (超CC 160, next turn -100), エンジェライト (水雷超, bounce 2 bench)
+  Xerneas: HP130, Psychic, W:Metal×2, 2C retreat
+  Oricorio (Psychic): HP90, Psychic, W:Metal×2 R:Fighting-30, 1C
+  Mimikyu: HP70, Psychic, Ability しんびのまもり (no damage from ex/V), W:Metal×2, 1C (reg G)
+  Eevee: HP50, Colorless, Ability ブーストしんか (can evolve turn 1), W:Fighting×2, 1C
+  Snorlax: HP150, Colorless, W:Fighting×2, 4C retreat
+
+TRAINER TEXTS FILLED (all decks):
+  All standard trainers got textJa + textEn from card images/known SV-era texts.
+  Unique trainers: Granite Cave textJa, Spikemuth Gym textJa, Perfect Mixer textJa, Precious Carrier textJa.
+  Prof's Research variants: Birch (ssb, artist Hideki Ishikawa), Magnolia (ssmr, Taira Akitsu),
+    Turo (sstce, kirisAki), Sada (sstsy, kirisAki) — all same textJa/textEn, different nameJa subtitle.
+
+FILES CHANGED:
+- data/cards/ssb.json — all 19 cards fully populated
+- data/cards/ssmr.json — all 20 cards fully populated
+- data/cards/sstce.json — all 22 cards fully populated
+- data/cards/sstsy.json — all 22 cards fully populated
+- data/index.json — rebuilt (3184 entries)
+- data/index-sets/other.json — rebuilt (83 entries)
+- scripts/fill_starter_deck_data.js — new script
+
+PENDING / VERIFY LATER
+-----------------------
+- Verify sstce-6 nameJa "ブレイズrexex" — likely should be "ブレイズrex" (Ceruledge ex).
+  Wait for JP images to confirm actual card name.
+- Switch Cart (ssb-13, ssmr-14): If a SV-era EN reprint is ever found, add imageEn.
+  Could be in an SV-era promo deck or future set reprint.
+- SSP total of 191 cards — used as denominator; verify if actual printed total differs.
+- Git commit: no commit made this session.
