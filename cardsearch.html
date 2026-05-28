@@ -17,6 +17,63 @@
     <link rel="stylesheet" crossorigin href="/assets/SiteNav-CHZaZIcw.css">
     <link rel="stylesheet" crossorigin href="/assets/useModal-C3diO1_-.css">
     <link rel="stylesheet" crossorigin href="/assets/cardsearch-pmhE74-z.css">
+  <style>
+    /* ── Animated spinning border on search bar ─────────── */
+    @property --sb-angle {
+      syntax: '<angle>';
+      initial-value: 0deg;
+      inherits: false;
+    }
+
+    @keyframes sb-spin {
+      to { --sb-angle: 360deg; }
+    }
+
+    /* Wrapper gains padding so the gradient shows as a border */
+    .search-input-wrap {
+      padding: 2px;
+      border-radius: 10px;
+    }
+
+    .search-input-wrap::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 10px;
+      background: conic-gradient(
+        from var(--sb-angle),
+        transparent 0deg,
+        transparent 200deg,
+        #38bdf8   260deg,
+        #a8d4e8   300deg,
+        #67e8f9   320deg,
+        transparent 345deg
+      );
+      animation: sb-spin 4s linear infinite;
+      opacity: 0.35;
+      transition: opacity 0.35s;
+      pointer-events: none;
+    }
+
+    .search-input-wrap:focus-within::before {
+      opacity: 1;
+    }
+
+    /* Input sits above the gradient; its own border hides on focus */
+    .search-bar {
+      position: relative;
+      z-index: 1;
+      border-radius: 7px;
+    }
+
+    .search-bar:focus {
+      border-color: transparent;
+    }
+
+    .search-icon {
+      z-index: 2;
+    }
+  </style>
   </head>
   <body>
     <div id="root"></div>
