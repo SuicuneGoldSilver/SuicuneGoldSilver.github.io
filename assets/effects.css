@@ -1,0 +1,18 @@
+/* ── Glassmorphism modal ─────────────────────────────────
+   Frosted glass look for the card detail modal.
+   The backdrop already has blur(4px); the panel gets its
+   own deeper blur so it feels like layered glass.
+   ──────────────────────────────────────────────────────── */
+
+.modal-panel {
+  background: rgba(15, 17, 23, 0.72);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(168, 212, 232, 0.12);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+}
+
+.modal-image-wrap {
+  background: rgba(15, 17, 23, 0.45);
+  border-right-color: rgba(168, 212, 232, 0.1);
+}
