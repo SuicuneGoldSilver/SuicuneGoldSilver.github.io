@@ -27,6 +27,68 @@
   animation: heart-pulse 0.32s ease;
 }
 
+/* ── PWA install banner ──────────────────────────────────
+   Slides up from the bottom on eligible browsers.
+   ──────────────────────────────────────────────────────── */
+
+@keyframes pwa-up {
+  from { opacity: 0; transform: translateX(-50%) translateY(16px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+#pwa-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: rgba(26, 29, 39, 0.96);
+  border: 1px solid rgba(168, 212, 232, 0.2);
+  border-radius: 14px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  font-family: var(--font-body, "DM Sans", sans-serif);
+  font-size: 0.86rem;
+  color: #f0f0f5;
+  white-space: nowrap;
+  z-index: 9999;
+  animation: pwa-up 0.3s ease;
+}
+
+.pwa-text strong { color: #a8d4e8; font-weight: 600; }
+
+.pwa-install {
+  background: #a8d4e8;
+  color: #0f1117;
+  border: none;
+  border-radius: 7px;
+  padding: 6px 14px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.pwa-install:hover { opacity: 0.85; }
+
+.pwa-dismiss {
+  background: none;
+  border: none;
+  color: #8b8fa8;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 4px 6px;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+.pwa-dismiss:hover { color: #f0f0f5; }
+
 /* ── Hide "Evolves from" in card modal ───────────────── */
 .evolves-from { display: none; }
 

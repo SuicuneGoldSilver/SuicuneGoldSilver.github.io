@@ -23,6 +23,7 @@
 <body>
   <div id="root"></div>
   <script src="/assets/image-priority.js" defer></script>
+  <script src="/assets/pwa-prompt.js" defer></script>
   <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
   <script>document.addEventListener('click', e => { if (e.target.closest('.modal-favorite, .modal-fav-inline')) navigator.vibrate?.(10); });</script>
 </body>
