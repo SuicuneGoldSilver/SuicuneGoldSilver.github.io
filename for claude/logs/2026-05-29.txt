@@ -1,0 +1,194 @@
+Session Log — 2026-05-29
+========================
+
+CONTEXT
+-------
+Continuation of session 10 (2026-05-28). Started by confirming phase2_starter_decks.js
+had completed (37/37 Pokémon EN data filled, 0 failures). Rebuilt index.json (3184 entries).
+Then spent the session on visual polish, performance, and bug fixes.
+
+================================================================================
+VISUAL EFFECTS ADDED
+================================================================================
+
+All effects live in assets/effects.css (new shared file linked from all 4 pages).
+
+1. ANIMATED SEARCH BAR BORDER (cardsearch.html inline <style>)
+   - Spinning conic-gradient border using @property --sb-angle (CSS Houdini)
+   - Colors: transparent → #38bdf8 (sky blue) → #a8d4e8 (accent) → #67e8f9 (cyan)
+   - 35% opacity at rest, 100% on :focus-within
+   - 4s rotation speed (user tuned: tried 2.5s → 5s → settled on 4s)
+   - Technique: .search-input-wrap gets padding: 2px, ::before fills with conic-gradient,
+     .search-bar sits above (z-index:1), border turns transparent on focus
+   - @property allows animating the angle variable smoothly (vs jumping)
+
+2. ENERGY TYPE PILL COLORED GLOW (effects.css)
+   - Each pill gets --tg RGB triplet via [title="Type"] attribute selector
+   - One shared hover/active rule uses rgba(var(--tg), opacity) — no repetition
+   - Colors: Fire=#e85244, Water=#5ab0e8, Grass=#5cb870, Lightning=#f0c430,
+     Psychic=#c060d0, Fighting=#c07840, Darkness=#706090, Metal=#9898b0,
+     Dragon=#c8a028 (gold — changed from blue after user noted Dragon shouldn't be blue),
+     Colorless=#a0a0b8
+   - Hover: colored border + faint glow + background tint
+   - Active: stronger glow + border-width:2px
+
+3. GLASSMORPHISM MODAL (effects.css)
+   - .modal-panel: background rgba(15,17,23,0.72) + backdrop-filter:blur(28px)
+   - Border: rgba(168,212,232,0.12) subtle accent tint
+   - Inner glow: rgba(255,255,255,0.04) inset box-shadow
+   - .modal-image-wrap: rgba(15,17,23,0.45) — slightly more transparent for depth
+
+4. STAGGERED CARD FADE-IN (effects.css)
+   - @keyframes card-in: opacity 0→1, translateY 10px→0, 0.28s ease
+   - First 20 cards stagger 20ms apart (total 380ms cascade)
+   - Cards 21+: no delay, fade in immediately (safe for infinite scroll)
+   - Triggers on filter/search changes since React replaces DOM nodes
+
+5. CUSTOM SCROLLBAR (effects.css)
+   - Webkit: 6px wide, #0f1117 track, #2a2d3a thumb → #a8d4e8 on hover
+   - Firefox: scrollbar-width:thin, scrollbar-color matching
+   - Linked to all 4 pages (index, cardsearch, favorites, study)
+
+6. FAVORITE BUTTON HEART PULSE (effects.css)
+   - @keyframes heart-pulse: scale 1→1.4→0.88→1, 0.32s ease
+   - Triggers on :active (every click, both favorite and unfavorite)
+   - Applies to .modal-favorite (desktop) and .modal-fav-inline (mobile)
+
+7. HIDE "EVOLVES FROM" TEXT (effects.css)
+   - .evolves-from { display: none; } — one line, user preference
+
+================================================================================
+JAVASCRIPT FEATURES ADDED
+================================================================================
+
+8. HAPTIC FEEDBACK ON FAVORITE (inline script, cardsearch.html + favorites.html)
+   - document.addEventListener('click', ...) with e.target.closest()
+   - navigator.vibrate?.(10) — 10ms pulse, optional chaining for unsupported browsers
+   - Works on Android Chrome; silently no-ops on iOS/desktop
+
+9. SERVICE WORKER IMAGE CACHE (sw.js — new file at project root)
+   - Cache-first strategy for all image requests (destination === 'image')
+   - Covers both local JP images and pokemontcg.io CDN EN images
+   - Cache name: 'pokeref-img-v1' — versioned for future cache busting
+   - activate handler cleans up old cache versions automatically
+   - Registered via inline script in all 4 HTML pages
+
+10. FETCH PRIORITY + LAZY LOADING (assets/image-priority.js — new)
+    - MutationObserver watches for .card-thumb-img elements added by React
+    - First 8 images: fetchpriority="high" (browser fetches these first)
+    - Images 9+: loading="lazy" + fetchpriority="low" (defer until near viewport)
+    - Count resets when batch > 4 (detects filter/search re-render)
+    - Linked with defer in cardsearch.html and favorites.html
+
+11. PWA INSTALL PROMPT (assets/pwa-prompt.js — new)
+    - Shows after 3 visits (localStorage counter)
+    - Skips if already installed (display-mode: standalone) or dismissed
+    - Android/Chrome: intercepts beforeinstallprompt, shows native install flow
+    - iOS Safari: shows manual instructions (Share → Add to Home Screen)
+    - All text in Japanese:
+        Android: "SuicuneGSをホーム画面に追加しますか？" + 追加するボタン
+        iOS: "共有 → ホーム画面に追加でアプリとして使えます"
+    - Dismiss sets localStorage 'pwa-dismissed' = '1' (never shows again)
+    - Banner slides up from bottom with glassmorphism styling matching site theme
+    - Linked with defer in all 4 HTML pages
+
+================================================================================
+BUG FIX — MISSING SECRET RARE IMAGES (8 sets)
+================================================================================
+
+PROBLEM:
+  Secret rare cards in 8 sets showed broken images. The append_*_secrets.js scripts
+  had added card data to the JSON files but the NOTE at the bottom said
+  "JP images and EN images must still be downloaded." They never were.
+
+AFFECTED SETS (JP images missing):
+  cj (cyberjudge):         cards 72–100  (29 images)
+  wf (wildforce):          cards 72–100  (29 images)
+  mc (maskofchange):       cards 102–133 (32 images)
+  ch (crimsonhaze):        cards 67–96   (30 images)
+  nw (nightwanderer):      cards 65–94   (30 images)
+  sm (stellarmiracle):     cards 103–135 (33 images)
+  seb (superelectricbreaker): cards 107–138 (32 images)
+  pd (paradisedragona):    cards 65–94   (30 images)
+  Total: 245 JP images missing
+
+FIX — JP IMAGES (scripts/download_secret_rares_jp.js — new):
+  Downloads from https://serebii.net/card/{slug}/{n}.jpg
+  Serebii slugs sourced from for claude/SECRET_RARES_PROGRESS.txt
+  Result: 245/245 downloaded, 0 failed
+
+FIX — EN IMAGES (scripts/download_secret_rares_en.js — new):
+  Reads imageEn paths + numberEn from each set's JSON to build mapping automatically.
+  EN set → Serebii slug mapping:
+    tf  → temporalforces      (cj, wf)
+    tm  → twilightmasquerade  (mc, ch)
+    sf  → shroudedfable       (nw)
+    sv7 → stellarcrown        (sm)
+    sv8 → surgingsparks       (seb, pd)
+  Downloads EN card number from Serebii, saves as images/sets/{setId}/en/{jpNum}.jpg
+  Result: 239/239 downloaded, 0 failed
+  (Note: 6 cards per set have imageEn=null = JP-only, correctly skipped)
+
+================================================================================
+THINGS TRIED AND UNDONE
+================================================================================
+
+- Card hover shimmer: diagonal light-sweep on card images on hover.
+  Implemented via ::after pseudo-element on .card-thumb-img-wrap.
+  User asked to undo — removed effects.css and unlinked from HTML.
+
+================================================================================
+KEY LEARNINGS / NOTES
+================================================================================
+
+- @property CSS Houdini: allows animating custom properties (like --angle in
+  conic-gradient). Supported in all modern browsers. Without it, you can't
+  transition/animate inside gradient functions.
+
+- Service worker scope: sw.js must be at the root of the site (same level as index.html)
+  to have scope over all pages. GitHub Pages serves from root so this works correctly.
+
+- fetchpriority on dynamic React content: must use MutationObserver since the browser
+  has already started the fetch pipeline by the time React renders. Setting the attribute
+  after the fact still influences the browser's priority queue for pending requests.
+
+- Serebii image URL format: https://serebii.net/card/{setSlug}/{n}.jpg
+  No zero-padding on the card number. Requires User-Agent + Referer headers.
+
+- EN secret rare download approach: read numberEn from JSON to get EN card number,
+  map setIdEn to Serebii slug, download and save as {jpNum}.jpg (not {enNum}.jpg)
+  so the existing imageEn path in JSON stays correct.
+
+- Dragon type in TCG is gold, not blue. Blue is Water territory.
+
+- navigator.vibrate?.(10): optional chaining makes this safe everywhere.
+  Only works on Android Chrome. iOS ignores it silently.
+
+- PWA beforeinstallprompt: only fires on Android Chrome and desktop Chromium browsers.
+  iOS Safari requires manual instructions. The event must be preventDefault()d to
+  suppress the browser's own prompt before showing a custom one.
+
+================================================================================
+FILES CREATED
+================================================================================
+- sw.js                              — service worker (image cache)
+- assets/effects.css                 — all visual effects (shared across pages)
+- assets/image-priority.js           — fetchpriority + lazy loading via MutationObserver
+- assets/pwa-prompt.js               — PWA install prompt (JP, after 3 visits)
+- scripts/download_secret_rares_jp.js — download missing JP secret rare images
+- scripts/download_secret_rares_en.js — download missing EN secret rare images
+
+================================================================================
+FILES MODIFIED
+================================================================================
+- cardsearch.html  — search border <style>, effects.css, image-priority, pwa-prompt, SW
+- favorites.html   — effects.css, image-priority, pwa-prompt, SW, haptic script
+- index.html       — effects.css, pwa-prompt, SW
+- study.html       — effects.css, pwa-prompt, SW
+
+================================================================================
+IMAGES DOWNLOADED THIS SESSION
+================================================================================
+- 245 JP secret rare images across 8 sets
+- 239 EN secret rare images across 8 sets
+- Total: 484 new images on disk
