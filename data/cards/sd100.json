@@ -13791,9 +13791,9 @@
   {
     "id": "sd100-227",
     "setIdJa": "sd100",
-    "setIdEn": "ascendedheroes",
+    "setIdEn": "svp",
     "numberJa": "227/742",
-    "numberEn": "057/217",
+    "numberEn": "106",
     "nameJa": "ピカチュウex",
     "nameEn": "Pikachu ex",
     "supertype": "Pokémon",
@@ -13810,7 +13810,7 @@
     "attacks": [
       {
         "nameJa": "10まんボルト",
-        "nameEn": "Topaz Bolt",
+        "nameEn": "Thunderbolt",
         "cost": [
           "Lightning",
           "Lightning",
@@ -13819,7 +13819,7 @@
         "convertedEnergyCost": 3,
         "damage": "120",
         "textJa": null,
-        "textEn": "Discard 3 Energy from this Pokémon."
+        "textEn": null
       }
     ],
     "weaknesses": [
@@ -13833,8 +13833,8 @@
       "Colorless"
     ],
     "regulationMark": "H",
-    "rarity": "Double Rare",
-    "rarityJa": "RR",
+    "rarity": "Promo",
+    "rarityJa": "MC",
     "artist": "takuyoa",
     "nationalPokedexNumber": 25,
     "imageJa": "images/sets/sd100/jp/227.jpg",
@@ -42741,7 +42741,7 @@
     "setIdJa": "sd100",
     "setIdEn": "ascendedheroes",
     "numberJa": "764/742",
-    "numberEn": "057/217",
+    "numberEn": "276/217",
     "nameJa": "ピカチュウex",
     "nameEn": "Pikachu ex",
     "supertype": "Pokémon",
@@ -42752,36 +42752,36 @@
     "types": [
       "Lightning"
     ],
-    "hp": "200",
+    "hp": 200,
     "abilities": [],
     "attacks": [
       {
         "nameJa": "10まんボルト",
-        "nameEn": "Topaz Bolt",
+        "nameEn": "Thunderbolt",
         "cost": [
           "Lightning",
           "Lightning",
           "Colorless"
         ],
         "damage": "120",
-        "textJa": "",
-        "textEn": "Discard 3 Energy from this Pokémon."
+        "textJa": null,
+        "textEn": null
       }
     ],
-    "weaknesses": [],
-    "resistances": [
+    "weaknesses": [
       {
-        "type": "Water",
-        "value": "-20"
+        "type": "Fighting",
+        "value": "×2"
       }
     ],
+    "resistances": [],
     "retreatCost": [
       "Colorless"
     ],
     "regulationMark": "H",
-    "rarity": "MC",
+    "rarity": "Special Illustration Rare",
     "rarityJa": "MC",
-    "artist": "Isoabe",
+    "artist": "booota",
     "nationalPokedexNumber": 25,
     "imageJa": "images/sets/sd100/jp/764.jpg",
     "imageEn": "images/sets/sd100/en/764.jpg",
