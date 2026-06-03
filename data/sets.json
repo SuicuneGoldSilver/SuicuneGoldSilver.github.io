@@ -150,16 +150,6 @@
     "logo": "images/sets/bp/logo.png"
   },
   {
-    "id": "meg",
-    "language": "en",
-    "name": "Mega Evolution",
-    "series": "Scarlet & Violet",
-    "releaseDate": "2025-01-01",
-    "printedTotal": 132,
-    "regulationMark": "I",
-    "logo": "images/sets/meg/logo.png"
-  },
-  {
     "id": "tfex",
     "language": "ja",
     "name": "テラスタルフェス",
