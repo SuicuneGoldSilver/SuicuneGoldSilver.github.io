@@ -1,0 +1,8 @@
+node_modules/
+.claude/
+for claude/
+scripts/
+icon-options/
+package.json
+package-lock.json
+vite.config.ts
