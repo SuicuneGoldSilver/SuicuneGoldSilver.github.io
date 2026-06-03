@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Clean Pokéball in site accent colors -->
+  <rect width="32" height="32" rx="8" fill="#0f1117"/>
+  <!-- Top half -->
+  <path d="M5 16 A11 11 0 0 1 27 16 Z" fill="#a8d4e8"/>
+  <!-- Bottom half -->
+  <path d="M5 16 A11 11 0 0 0 27 16 Z" fill="#c4b0e8"/>
+  <!-- Band -->
+  <rect x="5" y="14.8" width="22" height="2.4" fill="#1a1c24"/>
+  <!-- Button ring -->
+  <circle cx="16" cy="16" r="3.8" fill="#1a1c24"/>
+  <circle cx="16" cy="16" r="2.4" fill="#e8e8f0"/>
+  <circle cx="16" cy="16" r="1.2" fill="#a8d4e8"/>
+</svg>

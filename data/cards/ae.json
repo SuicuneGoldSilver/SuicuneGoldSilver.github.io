@@ -1,0 +1,5759 @@
+[
+  {
+    "id": "ae-1",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "001/081",
+    "numberEn": null,
+    "nameJa": "トロピウス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 110,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "かじつのかおり",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分の山札を上から6枚見て、その中からポケモンを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
+      },
+      {
+        "nameJa": "ソーラービーム",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "60",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Akino Fukuji",
+    "nationalPokedexNumber": 357,
+    "imageJa": "images/sets/ae/jp/1.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-2",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "002/081",
+    "numberEn": null,
+    "nameJa": "アゴジムシ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "いとをはく",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "textJa": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Mina Nakai",
+    "nationalPokedexNumber": 736,
+    "imageJa": "images/sets/ae/jp/2.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-3",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "003/081",
+    "numberEn": null,
+    "nameJa": "カリキリ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "とつげき",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "30",
+        "textJa": "このポケモンにも10ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "nisimono",
+    "nationalPokedexNumber": 753,
+    "imageJa": "images/sets/ae/jp/3.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-4",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "004/081",
+    "numberEn": null,
+    "nameJa": "ラランテスex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 260,
+    "evolvesFrom": "カリキリ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "はつらつカッター",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "60+",
+        "textJa": "この番に、このポケモンのHPを回復していたなら、200ダメージ追加。"
+      },
+      {
+        "nameJa": "リーフガード",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "140",
+        "textJa": "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 754,
+    "imageJa": "images/sets/ae/jp/4.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-5",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "005/081",
+    "numberEn": null,
+    "nameJa": "チャデス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 30,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "ばけがくれ",
+        "textJa": "このポケモンは、相手のワザや特性の効果を受けない。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ひっそりのせる",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンに、ダメカンを1個のせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Mousho",
+    "nationalPokedexNumber": 1012,
+    "imageJa": "images/sets/ae/jp/5.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-6",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "006/081",
+    "numberEn": null,
+    "nameJa": "ヤバソチャ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 60,
+    "evolvesFrom": "チャデス",
+    "abilities": [
+      {
+        "nameJa": "ばけがくれ",
+        "textJa": "このポケモンは、相手のワザや特性の効果を受けない。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "まっちゃスピン",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが6枚以上あるなら、相手のポケモン全員に、それぞれダメカンを4個のせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "mingo",
+    "nationalPokedexNumber": 1013,
+    "imageJa": "images/sets/ae/jp/6.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-7",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "007/081",
+    "numberEn": null,
+    "nameJa": "ヒードラン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 140,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "こがす",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンをやけどにする。"
+      },
+      {
+        "nameJa": "ようがんウォール",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "120",
+        "textJa": "次の相手の番、このポケモンはやけどのポケモンからワザのダメージを受けない。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Tokeshi Nakamura",
+    "nationalPokedexNumber": 485,
+    "imageJa": "images/sets/ae/jp/7.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-8",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "008/081",
+    "numberEn": null,
+    "nameJa": "ヤクデ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 80,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "のやき",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "",
+        "textJa": "相手の山札を上から1枚トラッシュする。"
+      },
+      {
+        "nameJa": "バグパニック",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50×",
+        "textJa": "自分の山札を下から7枚オモテにして、その中にある、ワザ「バグパニック」を持つポケモンの枚数×50ダメージ。オモテにしたポケモンは山札にもどして切る。残りのカードはトラッシュする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Yuya Oka",
+    "nationalPokedexNumber": 850,
+    "imageJa": "images/sets/ae/jp/8.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-9",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "009/081",
+    "numberEn": null,
+    "nameJa": "マルヤクデ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 140,
+    "evolvesFrom": "ヤクデ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "のやき",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "",
+        "textJa": "相手の山札を上から2枚トラッシュする。"
+      },
+      {
+        "nameJa": "ヒートタックル",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "160",
+        "textJa": "このポケモンにも30ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Kouki Saitou",
+    "nationalPokedexNumber": 851,
+    "imageJa": "images/sets/ae/jp/9.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-10",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "010/081",
+    "numberEn": null,
+    "nameJa": "カルボウ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 80,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ぜんりょくパンチ",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "40",
+        "textJa": "コインを1回投げウラなら、このワザは失敗。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Ryuta Fuse",
+    "nationalPokedexNumber": 935,
+    "imageJa": "images/sets/ae/jp/10.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-11",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "011/081",
+    "numberEn": null,
+    "nameJa": "グレンアルマ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 140,
+    "evolvesFrom": "カルボウ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "フレイムレギオン",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "40+",
+        "textJa": "エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": "Jiro Sasumo",
+    "nationalPokedexNumber": 936,
+    "imageJa": "images/sets/ae/jp/11.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-12",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "012/081",
+    "numberEn": null,
+    "nameJa": "トサキント",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "つきさす",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Shibuzoh.",
+    "nationalPokedexNumber": 118,
+    "imageJa": "images/sets/ae/jp/12.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-13",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "013/081",
+    "numberEn": null,
+    "nameJa": "アズマオウ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 110,
+    "evolvesFrom": "トサキント",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ハイドロショット",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "相手のポケモン1匹に、このポケモンについている水エネルギーの数×30ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "OKUBO",
+    "nationalPokedexNumber": 119,
+    "imageJa": "images/sets/ae/jp/13.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-14",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "014/081",
+    "numberEn": null,
+    "nameJa": "ホエルコ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 130,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "みずでっぽう",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "40",
+        "textJa": ""
+      },
+      {
+        "nameJa": "スプラッシュ",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "80",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Asako Ito",
+    "nationalPokedexNumber": 320,
+    "imageJa": "images/sets/ae/jp/14.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-15",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "015/081",
+    "numberEn": null,
+    "nameJa": "ホエルオーex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 380,
+    "evolvesFrom": "ホエルコ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "なみのり",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "120",
+        "textJa": ""
+      },
+      {
+        "nameJa": "フォーリングダウン",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "270",
+        "textJa": "このポケモンをねむりにする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 321,
+    "imageJa": "images/sets/ae/jp/15.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-16",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "016/081",
+    "numberEn": null,
+    "nameJa": "ジーランス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 100,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "フォッシルビート",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10+",
+        "textJa": "名前に「古びた」とつく自分のベンチポケモンの数×30ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Naoya Kimura",
+    "nationalPokedexNumber": 369,
+    "imageJa": "images/sets/ae/jp/16.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-17",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "017/081",
+    "numberEn": null,
+    "nameJa": "アシマリ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "はたく",
+        "cost": [
+          "Water"
+        ],
+        "damage": "20",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Oswaldo KATO",
+    "nationalPokedexNumber": 728,
+    "imageJa": "images/sets/ae/jp/17.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-18",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "018/081",
+    "numberEn": null,
+    "nameJa": "オシャマリ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 90,
+    "evolvesFrom": "アシマリ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ハイパーボイス",
+        "cost": [
+          "Water"
+        ],
+        "damage": "40",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "MINAMINAMI Take",
+    "nationalPokedexNumber": 729,
+    "imageJa": "images/sets/ae/jp/18.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-19",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "019/081",
+    "numberEn": null,
+    "nameJa": "アシレーヌ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 150,
+    "evolvesFrom": "オシャマリ",
+    "abilities": [
+      {
+        "nameJa": "まんたんメロディ",
+        "textJa": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "アクアリターン",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "damage": "120",
+        "textJa": "このポケモンと、ついているすべてのカードを、山札にもどして切る。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": "Tairo Akitsu",
+    "nationalPokedexNumber": 730,
+    "imageJa": "images/sets/ae/jp/19.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-20",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "020/081",
+    "numberEn": null,
+    "nameJa": "ナミイルカ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 80,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ドレインフィン",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20",
+        "textJa": "このポケモンのHPを「20」回復する。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Yukiko Baba",
+    "nationalPokedexNumber": 963,
+    "imageJa": "images/sets/ae/jp/20.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-21",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "021/081",
+    "numberEn": null,
+    "nameJa": "イルカマン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 150,
+    "evolvesFrom": "ナミイルカ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ジャスティスナックル",
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "80+",
+        "textJa": "相手のサイドの残り枚数が1枚なら、200ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "satoma",
+    "nationalPokedexNumber": 964,
+    "imageJa": "images/sets/ae/jp/21.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-22",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "022/081",
+    "numberEn": null,
+    "nameJa": "ラクライ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "もってくる",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "",
+        "textJa": "自分の山札を1枚引く。"
+      },
+      {
+        "nameJa": "たいあたり",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "30",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Dsuke",
+    "nationalPokedexNumber": 309,
+    "imageJa": "images/sets/ae/jp/22.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-23",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "023/081",
+    "numberEn": null,
+    "nameJa": "ライボルト",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 120,
+    "evolvesFrom": "ラクライ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "フラッシュバリア",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "50",
+        "textJa": "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。"
+      },
+      {
+        "nameJa": "ソニックエッジ",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "110",
+        "textJa": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Uninori",
+    "nationalPokedexNumber": 310,
+    "imageJa": "images/sets/ae/jp/23.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-24",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "024/081",
+    "numberEn": null,
+    "nameJa": "デンチムシ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 100,
+    "evolvesFrom": "アゴジムシ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "はさむ",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "30",
+        "textJa": ""
+      },
+      {
+        "nameJa": "ぶつかる",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "50",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Kazuhisa Uragami",
+    "nationalPokedexNumber": 737,
+    "imageJa": "images/sets/ae/jp/24.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-25",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "025/081",
+    "numberEn": null,
+    "nameJa": "クワガノン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 160,
+    "evolvesFrom": "デンチムシ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "クイックダイブ",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "",
+        "textJa": "相手のポケモン1匹に、50ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕"
+      },
+      {
+        "nameJa": "ギガレールガン",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "260",
+        "textJa": "このポケモンに「ボルト⚡エネルギー」がついていないなら、このワザは失敗。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "KEIICHIRO ITO",
+    "nationalPokedexNumber": 738,
+    "imageJa": "images/sets/ae/jp/25.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-26",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "026/081",
+    "numberEn": null,
+    "nameJa": "メガゼラオラex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 270,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "サンダーフィスト",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "60×",
+        "textJa": "このポケモンについている⚡エネルギーの数×60ダメージ。"
+      },
+      {
+        "nameJa": "ゼプトターン",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "150",
+        "textJa": "このポケモンをベンチポケモンと入れ替える。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 807,
+    "imageJa": "images/sets/ae/jp/26.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-27",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "027/081",
+    "numberEn": null,
+    "nameJa": "ミライドン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 120,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "フォトンコード",
+        "textJa": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、このポケモンについている「基本⚡エネルギー」を2枚まで選び、ベンチポケモン1匹につけ替える。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "かみなり",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "90",
+        "textJa": "このポケモンにも30ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "mashu",
+    "nationalPokedexNumber": 1008,
+    "imageJa": "images/sets/ae/jp/27.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-28",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "028/081",
+    "numberEn": null,
+    "nameJa": "ヤドン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "すてほうだい",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "textJa": "自分の手札を好きなだけ選び、トラッシュする。"
+      },
+      {
+        "nameJa": "ずつき",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Nelnal",
+    "nationalPokedexNumber": 79,
+    "imageJa": "images/sets/ae/jp/28.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-29",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "029/081",
+    "numberEn": null,
+    "nameJa": "ヤドラン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 130,
+    "evolvesFrom": "ヤドン",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スッカラカン",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "50+",
+        "textJa": "自分の手札が1枚もないなら、160ダメージ追加。"
+      },
+      {
+        "nameJa": "しねんのずつき",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "110",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "CHORISO",
+    "nationalPokedexNumber": 80,
+    "imageJa": "images/sets/ae/jp/29.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-30",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "030/081",
+    "numberEn": null,
+    "nameJa": "ルージュラ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 100,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "きょうれつキッス",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "textJa": "次の相手の番の終わりに、このワザを受けたポケモンと、ついているすべてのカードを、トラッシュする。"
+      },
+      {
+        "nameJa": "ねんりき",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "50",
+        "textJa": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Yoshimoto Yoshimon",
+    "nationalPokedexNumber": 124,
+    "imageJa": "images/sets/ae/jp/30.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-31",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "031/081",
+    "numberEn": null,
+    "nameJa": "カゲボウズ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 50,
+    "evolvesFrom": null,
+    "abilities": [
+      {
+        "nameJa": "ばけがくれ",
+        "textJa": "このポケモンは、相手のワザや特性の効果を受けない。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ぶらさがる",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Bun Toujo",
+    "nationalPokedexNumber": 353,
+    "imageJa": "images/sets/ae/jp/31.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-32",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "032/081",
+    "numberEn": null,
+    "nameJa": "ジュペッタ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 80,
+    "evolvesFrom": "カゲボウズ",
+    "abilities": [
+      {
+        "nameJa": "ばけがくれ",
+        "textJa": "このポケモンは、相手のワザや特性の効果を受けない。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "にんぎょうキャッチ",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "80",
+        "textJa": "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Mugi Hamada",
+    "nationalPokedexNumber": 354,
+    "imageJa": "images/sets/ae/jp/32.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-33",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "033/081",
+    "numberEn": null,
+    "nameJa": "ミカルゲ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 60,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "たましいエンド",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "textJa": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが13枚以上あるなら、相手のポケモンを2匹選び、それぞれのっているダメカンの数が4倍になるように、ダメカンをのせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": "danciao",
+    "nationalPokedexNumber": 442,
+    "imageJa": "images/sets/ae/jp/33.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-34",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "034/081",
+    "numberEn": null,
+    "nameJa": "ヒトモシ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "おにび",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "20",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "HYOGONOSUKE",
+    "nationalPokedexNumber": 607,
+    "imageJa": "images/sets/ae/jp/34.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-35",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "035/081",
+    "numberEn": null,
+    "nameJa": "ランプラー",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 90,
+    "evolvesFrom": "ヒトモシ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ふえるあかり",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "textJa": "自分の山札から「ランプラー」を3枚まで選び、ベンチに出す。そして山札を切る。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "sowsow",
+    "nationalPokedexNumber": 608,
+    "imageJa": "images/sets/ae/jp/35.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-36",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "036/081",
+    "numberEn": null,
+    "nameJa": "メガシャンデラex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 350,
+    "evolvesFrom": "ランプラー",
+    "abilities": [
+      {
+        "nameJa": "じゅばくのほのお",
+        "textJa": "このポケモンがいるかぎり、相手のバトルポケモンは、にげるためのエネルギーが1個ぶん多くなる。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ファントムメイズ",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "130+",
+        "textJa": "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 609,
+    "imageJa": "images/sets/ae/jp/36.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-37",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "037/081",
+    "numberEn": null,
+    "nameJa": "ダダリン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 140,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "むねんのイカリ",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "30+",
+        "textJa": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが4枚以上あるなら、140ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Oku",
+    "nationalPokedexNumber": 781,
+    "imageJa": "images/sets/ae/jp/37.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-38",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "038/081",
+    "numberEn": null,
+    "nameJa": "マーシャドー",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 90,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "かげむすび",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "30×",
+        "textJa": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Nakamura Ippon",
+    "nationalPokedexNumber": 802,
+    "imageJa": "images/sets/ae/jp/38.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-39",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "039/081",
+    "numberEn": null,
+    "nameJa": "コノヨザル",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 150,
+    "evolvesFrom": "オコリザル",
+    "abilities": [
+      {
+        "nameJa": "くちないからだ",
+        "textJa": "このポケモンが、ワザのダメージを受てきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ゴーストブロー",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "100",
+        "textJa": "相手のベンチポケモン1匹に、ダメカンを5個のせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Haru Akasaka",
+    "nationalPokedexNumber": 979,
+    "imageJa": "images/sets/ae/jp/39.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-40",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "040/081",
+    "numberEn": null,
+    "nameJa": "マンキー",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 50,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "けたぐり",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "20",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Yuka Morii",
+    "nationalPokedexNumber": 56,
+    "imageJa": "images/sets/ae/jp/40.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-41",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "041/081",
+    "numberEn": null,
+    "nameJa": "オコリザル",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 110,
+    "evolvesFrom": "マンキー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "どつく",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "GOSSAN",
+    "nationalPokedexNumber": 57,
+    "imageJa": "images/sets/ae/jp/41.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-42",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "042/081",
+    "numberEn": null,
+    "nameJa": "ズガイドス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 100,
+    "evolvesFrom": "古びたずがいの化石",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "つきとばす",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "70",
+        "textJa": "相手のバトルポケモンをベンチポケモンと入れ替える。〔バトル場に出すポケモンは相手が選ぶ。〕"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Hideki Ishikawa",
+    "nationalPokedexNumber": 408,
+    "imageJa": "images/sets/ae/jp/42.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-43",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "043/081",
+    "numberEn": null,
+    "nameJa": "ラムパルドex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 330,
+    "evolvesFrom": "ズガイドス",
+    "abilities": [
+      {
+        "nameJa": "はかいのずつき",
+        "textJa": "このポケモンがバトル場にいるなら、自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ランページハンマー",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "150",
+        "textJa": "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+150」される。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "hncl",
+    "nationalPokedexNumber": 409,
+    "imageJa": "images/sets/ae/jp/43.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-44",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "044/081",
+    "numberEn": null,
+    "nameJa": "モグリュー",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "なかまをよぶ",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+      },
+      {
+        "nameJa": "ツメをたてる",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Atsushi Furusawa",
+    "nationalPokedexNumber": 529,
+    "imageJa": "images/sets/ae/jp/44.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-45",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "045/081",
+    "numberEn": null,
+    "nameJa": "コライドン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 130,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "バトルクロー",
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "30+",
+        "textJa": "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。"
+      },
+      {
+        "nameJa": "ガイアインパクト",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "190",
+        "textJa": "このポケモンについているエネルギーを、すべてトラッシュする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "kodama",
+    "nationalPokedexNumber": 1007,
+    "imageJa": "images/sets/ae/jp/45.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-46",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "046/081",
+    "numberEn": null,
+    "nameJa": "メガダークライex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ナイトレイド",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "110+",
+        "textJa": "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。"
+      },
+      {
+        "nameJa": "アビスアイ",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 491,
+    "imageJa": "images/sets/ae/jp/46.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-47",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "047/081",
+    "numberEn": null,
+    "nameJa": "バルチャイ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "はばたく",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10",
+        "textJa": ""
+      },
+      {
+        "nameJa": "かぜおこし",
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "20",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Shiburingaru",
+    "nationalPokedexNumber": 629,
+    "imageJa": "images/sets/ae/jp/47.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-48",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "048/081",
+    "numberEn": null,
+    "nameJa": "バルジーナ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 120,
+    "evolvesFrom": "バルチャイ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ボーンスナイプ",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "特殊エネルギーがついている相手のポケモン1匹に、70ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕"
+      },
+      {
+        "nameJa": "ブラストウインド",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "120",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Nisota Niso",
+    "nationalPokedexNumber": 630,
+    "imageJa": "images/sets/ae/jp/48.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-49",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "049/081",
+    "numberEn": null,
+    "nameJa": "マーイーカ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 60,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ちょうたつ",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+      },
+      {
+        "nameJa": "かいてんアタック",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "30",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Yuriko Akase",
+    "nationalPokedexNumber": 686,
+    "imageJa": "images/sets/ae/jp/49.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-50",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "050/081",
+    "numberEn": null,
+    "nameJa": "カラマネロ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 120,
+    "evolvesFrom": "マーイーカ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "まどわす",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンをこんらんにする。"
+      },
+      {
+        "nameJa": "ブレインクラッシュ",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "130",
+        "textJa": "相手のバトルポケモンがこんらんでないなら、このワザは失敗。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Naoki Saito",
+    "nationalPokedexNumber": 687,
+    "imageJa": "images/sets/ae/jp/50.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-51",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "051/081",
+    "numberEn": null,
+    "nameJa": "クスネ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "かじる",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10",
+        "textJa": ""
+      },
+      {
+        "nameJa": "うしろげり",
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Krgc",
+    "nationalPokedexNumber": 827,
+    "imageJa": "images/sets/ae/jp/51.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-52",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "052/081",
+    "numberEn": null,
+    "nameJa": "フォクスライ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 100,
+    "evolvesFrom": "クスネ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スキルシーフ",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。"
+      },
+      {
+        "nameJa": "するどいキバ",
+        "cost": [
+          "Darkness",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "80",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "GOTO minori",
+    "nationalPokedexNumber": 828,
+    "imageJa": "images/sets/ae/jp/52.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-53",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "053/081",
+    "numberEn": null,
+    "nameJa": "モルペコex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 180,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ホイールドロー",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。"
+      },
+      {
+        "nameJa": "はらぺこボンバー",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "40+",
+        "textJa": "このポケモンにのっているダメカンの数×40ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "sky CG Works",
+    "nationalPokedexNumber": 877,
+    "imageJa": "images/sets/ae/jp/53.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-54",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "054/081",
+    "numberEn": null,
+    "nameJa": "ザルード",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 130,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "うしろなげ",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "30",
+        "textJa": "自分のベンチポケモン1匹にも、30ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕"
+      },
+      {
+        "nameJa": "シャドーウィップ",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "100+",
+        "textJa": "自分のベンチポケモンに「シャドー悪エネルギー」がついているなら、70ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "matazo",
+    "nationalPokedexNumber": 893,
+    "imageJa": "images/sets/ae/jp/54.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-55",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "055/081",
+    "numberEn": null,
+    "nameJa": "オラチフ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "かみつく",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "40",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "ryoma uratsuka",
+    "nationalPokedexNumber": 942,
+    "imageJa": "images/sets/ae/jp/55.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-56",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "056/081",
+    "numberEn": null,
+    "nameJa": "マフィティフ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 140,
+    "evolvesFrom": "オラチフ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "かみつく",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "60",
+        "textJa": ""
+      },
+      {
+        "nameJa": "とびこみヘッド",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "210",
+        "textJa": "次の相手の番、このポケモンが受けるワザのダメージは「+100」される。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "kawayoo",
+    "nationalPokedexNumber": 943,
+    "imageJa": "images/sets/ae/jp/56.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-57",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "057/081",
+    "numberEn": null,
+    "nameJa": "イーユイ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 90,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "うずまくねたみ",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "20+",
+        "textJa": "このポケモンにダメカンが2個以上のっているなら、90ダメージ追加。このワザのダメージは弱点を計算しない。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": "IKEDA Saki",
+    "nationalPokedexNumber": 1004,
+    "imageJa": "images/sets/ae/jp/57.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-58",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "058/081",
+    "numberEn": null,
+    "nameJa": "エアームド",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 120,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スチールカッター",
+        "cost": [
+          "Metal"
+        ],
+        "damage": "40×",
+        "textJa": "自分の手札から「基本鋼エネルギー」を2枚までトラッシュし、その枚数×40ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Anesaki Dynamic",
+    "nationalPokedexNumber": 227,
+    "imageJa": "images/sets/ae/jp/58.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-59",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "059/081",
+    "numberEn": null,
+    "nameJa": "タテトプス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 100,
+    "evolvesFrom": "古びたたての化石",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "くだく",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "50",
+        "textJa": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Kurata So",
+    "nationalPokedexNumber": 410,
+    "imageJa": "images/sets/ae/jp/59.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-60",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "060/081",
+    "numberEn": null,
+    "nameJa": "トリデプス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 160,
+    "evolvesFrom": "タテトプス",
+    "abilities": [
+      {
+        "nameJa": "たいこのぼうへき",
+        "textJa": "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ぶちかます",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "160",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": "Kinu Nishimura",
+    "nationalPokedexNumber": 411,
+    "imageJa": "images/sets/ae/jp/60.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-61",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "061/081",
+    "numberEn": null,
+    "nameJa": "ドーミラー",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 80,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ミラーアタック",
+        "cost": [
+          "Metal"
+        ],
+        "damage": "10+",
+        "textJa": "相手のバトルポケモンが鋼ポケモンなら、30ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Saboteri",
+    "nationalPokedexNumber": 436,
+    "imageJa": "images/sets/ae/jp/61.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-62",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "062/081",
+    "numberEn": null,
+    "nameJa": "ドータクン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 130,
+    "evolvesFrom": "ドーミラー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ひっぱたく",
+        "cost": [
+          "Metal"
+        ],
+        "damage": "40",
+        "textJa": ""
+      },
+      {
+        "nameJa": "メタルブロック",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "120",
+        "textJa": "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Uta",
+    "nationalPokedexNumber": 437,
+    "imageJa": "images/sets/ae/jp/62.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-63",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "063/081",
+    "numberEn": null,
+    "nameJa": "メガドリュウズex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 340,
+    "evolvesFrom": "モグリュー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ほりくずす",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "damage": "90",
+        "textJa": "相手の山札を上から2枚トラッシュする。"
+      },
+      {
+        "nameJa": "マキシマムドリル",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal"
+        ],
+        "damage": "200+",
+        "textJa": "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、130ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Double Rare",
+    "rarityJa": "RR",
+    "artist": "Keisuke Azuma",
+    "nationalPokedexNumber": 530,
+    "imageJa": "images/sets/ae/jp/63.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-64",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "064/081",
+    "numberEn": null,
+    "nameJa": "ツツケラ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "にどづき",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10×",
+        "textJa": "コインを2回投げ、オモテの数×10ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Koji Nakata",
+    "nationalPokedexNumber": 731,
+    "imageJa": "images/sets/ae/jp/64.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-65",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "065/081",
+    "numberEn": null,
+    "nameJa": "ケラッパ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 90,
+    "evolvesFrom": "ツツケラ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "そらをとぶ",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "miki kudo",
+    "nationalPokedexNumber": 732,
+    "imageJa": "images/sets/ae/jp/65.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-66",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "066/081",
+    "numberEn": null,
+    "nameJa": "ドデカバシ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 150,
+    "evolvesFrom": "ケラッパ",
+    "abilities": [
+      {
+        "nameJa": "スカイドロー",
+        "textJa": "自分の番に1回使える。自分の山札を1枚引く。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "フェザーロンド",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "60+",
+        "textJa": "おたがいのベンチポケモンの数×20ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Masako Tomii",
+    "nationalPokedexNumber": 733,
+    "imageJa": "images/sets/ae/jp/66.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-67",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "067/081",
+    "numberEn": null,
+    "nameJa": "タイプ：ヌル",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 110,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "パワーエッジ",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Ligton",
+    "nationalPokedexNumber": 772,
+    "imageJa": "images/sets/ae/jp/67.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-68",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "068/081",
+    "numberEn": null,
+    "nameJa": "シルヴァディ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 140,
+    "evolvesFrom": "タイプ：ヌル",
+    "abilities": [
+      {
+        "nameJa": "バディコール",
+        "textJa": "自分の手札が1枚もないなら、自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "エアスラッシュ",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "130",
+        "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": "Takumi Wada",
+    "nationalPokedexNumber": 773,
+    "imageJa": "images/sets/ae/jp/68.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-69",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "069/081",
+    "numberEn": null,
+    "nameJa": "オトシドリ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 100,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "おとどけチャレンジ",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "コインを2回投げ、すべてオモテなら、自分の山札からポケモンを1枚選び、ベンチに出す。そして山札を切る。"
+      },
+      {
+        "nameJa": "スピードウイング",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "100",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "Wintr Wandr",
+    "nationalPokedexNumber": 962,
+    "imageJa": "images/sets/ae/jp/69.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-70",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "070/081",
+    "numberEn": null,
+    "nameJa": "ダークベル",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "おたがいのバトルポケモン（ダイヤポケモンをのぞく）を、それぞれこんらんにする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ae/jp/70.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-71",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "071/081",
+    "numberEn": null,
+    "nameJa": "古びたずがいの化石",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "AYUMI ODASHIMA",
+    "imageJa": "images/sets/ae/jp/71.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-72",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "072/081",
+    "numberEn": null,
+    "nameJa": "古びたたての化石",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Common",
+    "rarityJa": "C",
+    "artist": "AYUMI ODASHIMA",
+    "imageJa": "images/sets/ae/jp/72.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-73",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "073/081",
+    "numberEn": null,
+    "nameJa": "ごうかいボム",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "textJa": "このカードをつけているポケモン（「メガシンカex」をのぞく）が、バトル場で相手の「メガシンカex」から「240」以上のワザのダメージを受けたとき、ワザを使ったポケモン1匹につきダメカンを12個のせる。その後、このカードをトラッシュする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "inose yukie",
+    "imageJa": "images/sets/ae/jp/73.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-74",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "074/081",
+    "numberEn": null,
+    "nameJa": "リトライバッジ",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ae/jp/74.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-75",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "075/081",
+    "numberEn": null,
+    "nameJa": "カスミの元気",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードを使ったなら、自分の番は終わる。自分の山札から「基本水エネルギー」を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "En Morikura",
+    "imageJa": "images/sets/ae/jp/75.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-76",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "076/081",
+    "numberEn": null,
+    "nameJa": "グラジオの決戦",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。この番、自分のポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "akagi",
+    "imageJa": "images/sets/ae/jp/76.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-77",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "077/081",
+    "numberEn": null,
+    "nameJa": "サビ組のしたっぱ",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。相手の場のポケモンについているエネルギーを1個選び、トラッシュする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Teeziro",
+    "imageJa": "images/sets/ae/jp/77.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-78",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "078/081",
+    "numberEn": null,
+    "nameJa": "ムク",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の手札からポケモン（「ルールを持つポケモン」をのぞく）を2枚までトラッシュし、その枚数×3枚ぶん、山札を引く。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "nagimiso",
+    "imageJa": "images/sets/ae/jp/78.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-79",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "079/081",
+    "numberEn": null,
+    "nameJa": "化石採掘場",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Stadium"
+    ],
+    "textJa": "",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Uncommon",
+    "rarityJa": "U",
+    "artist": "Oswaldo KATO",
+    "imageJa": "images/sets/ae/jp/79.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-80",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "080/081",
+    "numberEn": null,
+    "nameJa": "ボルト⚡エネルギー",
+    "nameEn": null,
+    "supertype": "Energy",
+    "subtypes": [
+      "Special Energy"
+    ],
+    "textJa": "",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": null,
+    "imageJa": "images/sets/ae/jp/80.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-81",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "081/081",
+    "numberEn": null,
+    "nameJa": "シャドー悪エネルギー",
+    "nameEn": null,
+    "supertype": "Energy",
+    "subtypes": [
+      "Special Energy"
+    ],
+    "textJa": "",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Rare",
+    "rarityJa": "R",
+    "artist": null,
+    "imageJa": "images/sets/ae/jp/81.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-82",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "082/081",
+    "numberEn": null,
+    "nameJa": "カリキリ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "とつげき",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "30",
+        "textJa": "このポケモンにも10ダメージ。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Jiro Sasumo",
+    "nationalPokedexNumber": 753,
+    "imageJa": "images/sets/ae/jp/82.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-83",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "083/081",
+    "numberEn": null,
+    "nameJa": "グレンアルマ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "hp": 140,
+    "evolvesFrom": "カルボウ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "フレイムレギオン",
+        "cost": [
+          "Fire"
+        ],
+        "damage": "40+",
+        "textJa": "エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Iwamoto05",
+    "nationalPokedexNumber": 936,
+    "imageJa": "images/sets/ae/jp/83.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-84",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "084/081",
+    "numberEn": null,
+    "nameJa": "トサキント",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 70,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "つきさす",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Gemi",
+    "nationalPokedexNumber": 118,
+    "imageJa": "images/sets/ae/jp/84.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-85",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "085/081",
+    "numberEn": null,
+    "nameJa": "アシレーヌ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 150,
+    "evolvesFrom": "オシャマリ",
+    "abilities": [
+      {
+        "nameJa": "まんたんメロディ",
+        "textJa": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "アクアリターン",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "damage": "120",
+        "textJa": "このポケモンと、ついているすべてのカードを、山札にもどして切る。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "satoma",
+    "nationalPokedexNumber": 730,
+    "imageJa": "images/sets/ae/jp/85.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-86",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "086/081",
+    "numberEn": null,
+    "nameJa": "ライボルト",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 120,
+    "evolvesFrom": "ラクライ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "フラッシュバリア",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "50",
+        "textJa": "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。"
+      },
+      {
+        "nameJa": "ソニックエッジ",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "110",
+        "textJa": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "HICO KIM",
+    "nationalPokedexNumber": 310,
+    "imageJa": "images/sets/ae/jp/86.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-87",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "087/081",
+    "numberEn": null,
+    "nameJa": "ヤドラン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 130,
+    "evolvesFrom": "ヤドン",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スッカラカン",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "50+",
+        "textJa": "自分の手札が1枚もないなら、160ダメージ追加。"
+      },
+      {
+        "nameJa": "しねんのずつき",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "110",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Mckayju",
+    "nationalPokedexNumber": 80,
+    "imageJa": "images/sets/ae/jp/87.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-88",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "088/081",
+    "numberEn": null,
+    "nameJa": "ダダリン",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 140,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "むねんのイカリ",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "30+",
+        "textJa": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが4枚以上あるなら、140ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Nakamura Ippan",
+    "nationalPokedexNumber": 781,
+    "imageJa": "images/sets/ae/jp/88.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-89",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "089/081",
+    "numberEn": null,
+    "nameJa": "フォクスライ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 100,
+    "evolvesFrom": "クスネ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "スキルシーフ",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "textJa": "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。"
+      },
+      {
+        "nameJa": "するどいキバ",
+        "cost": [
+          "Darkness",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "80",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Jerky",
+    "nationalPokedexNumber": 828,
+    "imageJa": "images/sets/ae/jp/89.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-90",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "090/081",
+    "numberEn": null,
+    "nameJa": "ザルード",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 130,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "うしろなげ",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "30",
+        "textJa": "自分のベンチポケモン1匹にも、30ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕"
+      },
+      {
+        "nameJa": "シャドーウィップ",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "100+",
+        "textJa": "自分のベンチポケモンに「シャドー悪エネルギー」がついているなら、70ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "IKEDA Saki",
+    "nationalPokedexNumber": 893,
+    "imageJa": "images/sets/ae/jp/90.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-91",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "091/081",
+    "numberEn": null,
+    "nameJa": "トリデプス",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 160,
+    "evolvesFrom": "タテトプス",
+    "abilities": [
+      {
+        "nameJa": "たいこのぼうへき",
+        "textJa": "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ぶちかます",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "160",
+        "textJa": ""
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "Yoriyuki Ikegami",
+    "nationalPokedexNumber": 411,
+    "imageJa": "images/sets/ae/jp/91.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-92",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "092/081",
+    "numberEn": null,
+    "nameJa": "ドデカバシ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 150,
+    "evolvesFrom": "ケラッパ",
+    "abilities": [
+      {
+        "nameJa": "スカイドロー",
+        "textJa": "自分の番に1回使える。自分の山札を1枚引く。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "フェザーロンド",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "60+",
+        "textJa": "おたがいのベンチポケモンの数×20ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "miki kudo",
+    "nationalPokedexNumber": 733,
+    "imageJa": "images/sets/ae/jp/92.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-93",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "093/081",
+    "numberEn": null,
+    "nameJa": "シルヴァディ",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "hp": 140,
+    "evolvesFrom": "タイプ：ヌル",
+    "abilities": [
+      {
+        "nameJa": "バディコール",
+        "textJa": "自分の手札が1枚もないなら、自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "エアスラッシュ",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "130",
+        "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Art Rare",
+    "rarityJa": "AR",
+    "artist": "DOM",
+    "nationalPokedexNumber": 773,
+    "imageJa": "images/sets/ae/jp/93.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-94",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "094/081",
+    "numberEn": null,
+    "nameJa": "ラランテスex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "hp": 260,
+    "evolvesFrom": "カリキリ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "はつらつカッター",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "60+",
+        "textJa": "この番に、このポケモンのHPを回復していたなら、200ダメージ追加。"
+      },
+      {
+        "nameJa": "リーフガード",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "140",
+        "textJa": "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 754,
+    "imageJa": "images/sets/ae/jp/94.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-95",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "095/081",
+    "numberEn": null,
+    "nameJa": "ホエルオーex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Water"
+    ],
+    "hp": 380,
+    "evolvesFrom": "ホエルコ",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "なみのり",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "120",
+        "textJa": ""
+      },
+      {
+        "nameJa": "フォーリングダウン",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "270",
+        "textJa": "このポケモンをねむりにする。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 321,
+    "imageJa": "images/sets/ae/jp/95.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-96",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "096/081",
+    "numberEn": null,
+    "nameJa": "メガゼラオラex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 270,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "サンダーフィスト",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "60×",
+        "textJa": "このポケモンについている⚡エネルギーの数×60ダメージ。"
+      },
+      {
+        "nameJa": "ゼプトターン",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "150",
+        "textJa": "このポケモンをベンチポケモンと入れ替える。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 807,
+    "imageJa": "images/sets/ae/jp/96.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-97",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "097/081",
+    "numberEn": null,
+    "nameJa": "メガシャンデラex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 350,
+    "evolvesFrom": "ランプラー",
+    "abilities": [
+      {
+        "nameJa": "じゅばくのほのお",
+        "textJa": "このポケモンがいるかぎり、相手のバトルポケモンは、にげるためのエネルギーが1個ぶん多くなる。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ファントムメイズ",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "130+",
+        "textJa": "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 609,
+    "imageJa": "images/sets/ae/jp/97.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-98",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "098/081",
+    "numberEn": null,
+    "nameJa": "ラムパルドex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "hp": 330,
+    "evolvesFrom": "ズガイドス",
+    "abilities": [
+      {
+        "nameJa": "はかいのずつき",
+        "textJa": "このポケモンがバトル場にいるなら、自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ランページハンマー",
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "150",
+        "textJa": "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+150」される。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 409,
+    "imageJa": "images/sets/ae/jp/98.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-99",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "099/081",
+    "numberEn": null,
+    "nameJa": "メガダークライex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ナイトレイド",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "110+",
+        "textJa": "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。"
+      },
+      {
+        "nameJa": "アビスアイ",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 491,
+    "imageJa": "images/sets/ae/jp/99.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-100",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "100/081",
+    "numberEn": null,
+    "nameJa": "モルペコex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 180,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ホイールドロー",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。"
+      },
+      {
+        "nameJa": "はらぺこボンバー",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "40+",
+        "textJa": "このポケモンにのっているダメカンの数×40ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 877,
+    "imageJa": "images/sets/ae/jp/100.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-101",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "101/081",
+    "numberEn": null,
+    "nameJa": "メガドリュウズex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "hp": 340,
+    "evolvesFrom": "モグリュー",
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ほりくずす",
+        "cost": [
+          "Metal",
+          "Metal"
+        ],
+        "damage": "90",
+        "textJa": "相手の山札を上から2枚トラッシュする。"
+      },
+      {
+        "nameJa": "マキシマムドリル",
+        "cost": [
+          "Metal",
+          "Metal",
+          "Metal"
+        ],
+        "damage": "200+",
+        "textJa": "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、130ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Keisuke Azuma",
+    "nationalPokedexNumber": 530,
+    "imageJa": "images/sets/ae/jp/101.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-102",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "102/081",
+    "numberEn": null,
+    "nameJa": "アイアンディフェンダー",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "次の相手の番、自分の鋼ポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。（新しく場に出したポケモンもふくむ。）",
+    "textEn": null,
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Studio Bora Inc.",
+    "imageJa": "images/sets/ae/jp/102.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-103",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "103/081",
+    "numberEn": null,
+    "nameJa": "エネルギーつけかえ",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
+    "textEn": null,
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Studio Bora Inc.",
+    "imageJa": "images/sets/ae/jp/103.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-104",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "104/081",
+    "numberEn": null,
+    "nameJa": "クラッシュハンマー",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "コインを1回投げオモテなら、相手の場のポケモンについているエネルギーを1個選び、トラッシュする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Ayaka Yoshida",
+    "imageJa": "images/sets/ae/jp/104.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-105",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "105/081",
+    "numberEn": null,
+    "nameJa": "ダークベル",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "textJa": "おたがいのバトルポケモン（ダイヤポケモンをのぞく）を、それぞれこんらんにする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ae/jp/105.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-106",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "106/081",
+    "numberEn": null,
+    "nameJa": "ごうかいボム",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "textJa": "このカードをつけているポケモン（「メガシンカex」をのぞく）が、バトル場で相手の「メガシンカex」から「240」以上のワザのダメージを受けたとき、ワザを使ったポケモン1匹につきダメカンを12個のせる。その後、このカードをトラッシュする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "inose yukie",
+    "imageJa": "images/sets/ae/jp/106.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-107",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "107/081",
+    "numberEn": null,
+    "nameJa": "ブレイブバングル",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "textJa": "このカードをつけているポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+30」される。",
+    "textEn": null,
+    "regulationMark": "I",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Toyste Beach",
+    "imageJa": "images/sets/ae/jp/107.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-108",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "108/081",
+    "numberEn": null,
+    "nameJa": "カスミの元気",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードを使ったなら、自分の番は終わる。自分の山札から「基本水エネルギー」を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "En Morikura",
+    "imageJa": "images/sets/ae/jp/108.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-109",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "109/081",
+    "numberEn": null,
+    "nameJa": "グラジオの決戦",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。この番、自分のポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "akagi",
+    "imageJa": "images/sets/ae/jp/109.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-110",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "110/081",
+    "numberEn": null,
+    "nameJa": "サビ組のしたっぱ",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。相手の場のポケモンについているエネルギーを1個選び、トラッシュする。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "Teeziro",
+    "imageJa": "images/sets/ae/jp/110.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-111",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "111/081",
+    "numberEn": null,
+    "nameJa": "ムク",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の手札からポケモン（「ルールを持つポケモン」をのぞく）を2枚までトラッシュし、その枚数×3枚ぶん、山札を引く。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Illustration Rare",
+    "rarityJa": "SR",
+    "artist": "nagimiso",
+    "imageJa": "images/sets/ae/jp/111.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-112",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "112/081",
+    "numberEn": null,
+    "nameJa": "メガゼラオラex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "hp": 270,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "サンダーフィスト",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "60×",
+        "textJa": "このポケモンについている⚡エネルギーの数×60ダメージ。"
+      },
+      {
+        "nameJa": "ゼプトターン",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "150",
+        "textJa": "このポケモンをベンチポケモンと入れ替える。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "GIDORA",
+    "nationalPokedexNumber": 807,
+    "imageJa": "images/sets/ae/jp/112.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-113",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "113/081",
+    "numberEn": null,
+    "nameJa": "メガシャンデラex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "hp": 350,
+    "evolvesFrom": "ランプラー",
+    "abilities": [
+      {
+        "nameJa": "じゅばくのほのお",
+        "textJa": "このポケモンがいるかぎり、相手のバトルポケモンは、にげるためのエネルギーが1個ぶん多くなる。"
+      }
+    ],
+    "attacks": [
+      {
+        "nameJa": "ファントムメイズ",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "130+",
+        "textJa": "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "REND",
+    "nationalPokedexNumber": 609,
+    "imageJa": "images/sets/ae/jp/113.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-114",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "114/081",
+    "numberEn": null,
+    "nameJa": "メガダークライex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ナイトレイド",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "110+",
+        "textJa": "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。"
+      },
+      {
+        "nameJa": "アビスアイ",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "AKIRA EGAWA",
+    "nationalPokedexNumber": 491,
+    "imageJa": "images/sets/ae/jp/114.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-115",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "115/081",
+    "numberEn": null,
+    "nameJa": "モルペコex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 180,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ホイールドロー",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。"
+      },
+      {
+        "nameJa": "はらぺこボンバー",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "40+",
+        "textJa": "このポケモンにのっているダメカンの数×40ダメージ追加。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "NC Empire",
+    "nationalPokedexNumber": 877,
+    "imageJa": "images/sets/ae/jp/115.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-116",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "116/081",
+    "numberEn": null,
+    "nameJa": "グラジオの決戦",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。この番、自分のポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "DOM",
+    "imageJa": "images/sets/ae/jp/116.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-117",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "117/081",
+    "numberEn": null,
+    "nameJa": "ムク",
+    "nameEn": null,
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "textJa": "自分の手札からポケモン（「ルールを持つポケモン」をのぞく）を2枚までトラッシュし、その枚数×3枚ぶん、山札を引く。",
+    "textEn": null,
+    "regulationMark": "J",
+    "rarity": "Special Art Rare",
+    "rarityJa": "SAR",
+    "artist": "Naoki Saito",
+    "imageJa": "images/sets/ae/jp/117.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "ae-118",
+    "setIdJa": "ae",
+    "setIdEn": null,
+    "numberJa": "118/081",
+    "numberEn": null,
+    "nameJa": "メガダークライex",
+    "nameEn": null,
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Mega Evolution ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "hp": 280,
+    "evolvesFrom": null,
+    "abilities": [],
+    "attacks": [
+      {
+        "nameJa": "ナイトレイド",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "110+",
+        "textJa": "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。"
+      },
+      {
+        "nameJa": "アビスアイ",
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "",
+        "textJa": "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。"
+      }
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "rarity": "Hyper Rare",
+    "rarityJa": "MUR",
+    "artist": "5ban Graphics",
+    "nationalPokedexNumber": 491,
+    "imageJa": "images/sets/ae/jp/118.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  }
+]
