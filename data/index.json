@@ -47044,36 +47044,6 @@
     "enAvailable": false
   },
   {
-    "id": "jtp-4",
-    "setIdJa": "jtp",
-    "nameJa": "ネストボール",
-    "nameEn": "Nest Ball",
-    "supertype": "Trainer",
-    "subtypes": [
-      "Item"
-    ],
-    "types": [],
-    "regulationMark": "H",
-    "imageJa": "images/sets/jtp/jp/125.jpg",
-    "imageEn": null,
-    "enAvailable": false
-  },
-  {
-    "id": "jtp-5",
-    "setIdJa": "jtp",
-    "nameJa": "ポケモンいれかえ",
-    "nameEn": "Switch",
-    "supertype": "Trainer",
-    "subtypes": [
-      "Item"
-    ],
-    "types": [],
-    "regulationMark": "H",
-    "imageJa": "images/sets/jtp/jp/126.jpg",
-    "imageEn": null,
-    "enAvailable": false
-  },
-  {
     "id": "jtp-6",
     "setIdJa": "jtp",
     "nameJa": "ライム",
@@ -47085,21 +47055,6 @@
     "types": [],
     "regulationMark": "H",
     "imageJa": "images/sets/jtp/jp/127.jpg",
-    "imageEn": null,
-    "enAvailable": false
-  },
-  {
-    "id": "jtp-7",
-    "setIdJa": "jtp",
-    "nameJa": "チリ",
-    "nameEn": "Rika",
-    "supertype": "Trainer",
-    "subtypes": [
-      "Supporter"
-    ],
-    "types": [],
-    "regulationMark": "H",
-    "imageJa": "images/sets/jtp/jp/128.jpg",
     "imageEn": null,
     "enAvailable": false
   },
@@ -47165,36 +47120,6 @@
     ],
     "regulationMark": "H",
     "imageJa": "images/sets/jtp/jp/152.jpg",
-    "imageEn": null,
-    "enAvailable": false
-  },
-  {
-    "id": "jtp-12",
-    "setIdJa": "jtp",
-    "nameJa": "ネモ",
-    "nameEn": "Nemona",
-    "supertype": "Trainer",
-    "subtypes": [
-      "Supporter"
-    ],
-    "types": [],
-    "regulationMark": "H",
-    "imageJa": "images/sets/jtp/jp/153.jpg",
-    "imageEn": null,
-    "enAvailable": false
-  },
-  {
-    "id": "jtp-13",
-    "setIdJa": "jtp",
-    "nameJa": "ネモ",
-    "nameEn": "Nemona",
-    "supertype": "Trainer",
-    "subtypes": [
-      "Supporter"
-    ],
-    "types": [],
-    "regulationMark": "H",
-    "imageJa": "images/sets/jtp/jp/154.jpg",
     "imageEn": null,
     "enAvailable": false
   },
