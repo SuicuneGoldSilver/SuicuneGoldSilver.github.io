@@ -82,7 +82,12 @@
       "WebFetch(domain:www.elitefourum.com)",
       "WebFetch(domain:www.cardtrader.com)",
       "WebFetch(domain:d1wx537rtdixyy.cloudfront.net)",
-      "WebFetch(domain:tcgcodex.com)"
+      "WebFetch(domain:tcgcodex.com)",
+      "WebFetch(domain:www.pokemon-card.com)",
+      "WebFetch(domain:limitlesstcg.nyc3.cdn.digitaloceanspaces.com)",
+      "WebFetch(domain:pokemontcg.io)",
+      "WebFetch(domain:images.pokemontcg.io)",
+      "WebFetch(domain:www.tcgrepublic.com)"
     ]
   }
 }

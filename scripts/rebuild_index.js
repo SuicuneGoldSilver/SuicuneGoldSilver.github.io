@@ -21,6 +21,8 @@ const sets = readJson(setsPath).filter(s => s.language === 'ja');
 // Sub-deck IDs that are grouped under the virtual "other" set pill
 const OTHER_SUBSETS = ['ssb', 'ssmr', 'sstce', 'sstsy'];
 
+const STANDARD_MARKS = new Set(['H', 'I', 'J']);
+
 const entries = [];
 for (const set of sets) {
   if (set.id === 'other') {
@@ -29,15 +31,19 @@ for (const set of sets) {
       if (!fs.existsSync(cardFile)) { console.warn(`  SKIP other/${subId}: no cards file`); continue; }
       const cards = readJson(cardFile);
       for (const c of cards) {
+        if (!STANDARD_MARKS.has(c.regulationMark)) continue;
         entries.push({
-          id:          c.id,
-          setIdJa:     c.setIdJa,
-          nameJa:      c.nameJa,
-          nameEn:      c.nameEn,
-          types:       c.types ?? [],
-          imageJa:     c.imageJa,
-          imageEn:     c.imageEn,
-          enAvailable: c.imageEn !== null,
+          id:             c.id,
+          setIdJa:        c.setIdJa,
+          nameJa:         c.nameJa,
+          nameEn:         c.nameEn,
+          supertype:      c.supertype,
+          subtypes:       c.subtypes ?? [],
+          types:          c.types ?? [],
+          regulationMark: c.regulationMark,
+          imageJa:        c.imageJa,
+          imageEn:        c.imageEn,
+          enAvailable:    c.imageEn !== null,
         });
       }
       console.log(`  other/${subId}: ${cards.length} cards`);
@@ -48,15 +54,19 @@ for (const set of sets) {
   if (!fs.existsSync(cardFile)) { console.warn(`  SKIP ${set.id}: no cards file`); continue; }
   const cards = readJson(cardFile);
   for (const c of cards) {
+    if (!STANDARD_MARKS.has(c.regulationMark)) continue;
     entries.push({
-      id:          c.id,
-      setIdJa:     c.setIdJa,
-      nameJa:      c.nameJa,
-      nameEn:      c.nameEn,
-      types:       c.types ?? [],
-      imageJa:     c.imageJa,
-      imageEn:     c.imageEn,
-      enAvailable: c.imageEn !== null,
+      id:             c.id,
+      setIdJa:        c.setIdJa,
+      nameJa:         c.nameJa,
+      nameEn:         c.nameEn,
+      supertype:      c.supertype,
+      subtypes:       c.subtypes ?? [],
+      types:          c.types ?? [],
+      regulationMark: c.regulationMark,
+      imageJa:        c.imageJa,
+      imageEn:        c.imageEn,
+      enAvailable:    c.imageEn !== null,
     });
   }
   console.log(`  ${set.id}: ${cards.length} cards`);
@@ -65,8 +75,17 @@ for (const set of sets) {
 fs.writeFileSync(indexPath, JSON.stringify(entries, null, 2), 'utf8');
 console.log(`\nindex.json written: ${entries.length} total entries`);
 
-// Regenerate split files
+// Regenerate split files — delete stale files first
 fs.mkdirSync(splitDir, { recursive: true });
+const validSetIds = new Set(entries.map(e => e.setIdJa));
+validSetIds.add('other');
+for (const existing of fs.readdirSync(splitDir)) {
+  const id = existing.replace(/\.json$/, '');
+  if (!validSetIds.has(id)) {
+    fs.unlinkSync(path.join(splitDir, existing));
+    console.log(`  deleted stale: ${existing}`);
+  }
+}
 const bySet = {};
 for (const e of entries) {
   if (!bySet[e.setIdJa]) bySet[e.setIdJa] = [];
