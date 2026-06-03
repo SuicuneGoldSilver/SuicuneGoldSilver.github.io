@@ -320,6 +320,26 @@
     "logo": "images/sets/wht/logo.png"
   },
   {
+    "id": "jtp",
+    "language": "ja",
+    "name": "大会プロモ",
+    "series": "Scarlet & Violet",
+    "releaseDate": null,
+    "printedTotal": 69,
+    "regulationMark": null,
+    "logo": null
+  },
+  {
+    "id": "entp",
+    "language": "ja",
+    "name": "海外大会プロモ",
+    "series": "Scarlet & Violet",
+    "releaseDate": null,
+    "printedTotal": 190,
+    "regulationMark": null,
+    "logo": null
+  },
+  {
     "id": "other",
     "language": "ja",
     "name": "その他",

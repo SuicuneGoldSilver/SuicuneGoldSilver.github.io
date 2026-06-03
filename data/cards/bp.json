@@ -4783,7 +4783,7 @@
       "Basic"
     ],
     "types": [
-      "Dragon"
+      "Colorless"
     ],
     "hp": 60,
     "evolvesFrom": null,
@@ -4839,7 +4839,7 @@
       "Stage 1"
     ],
     "types": [
-      "Dragon"
+      "Colorless"
     ],
     "hp": 110,
     "evolvesFrom": "オンバット",
@@ -6255,7 +6255,7 @@
       "Basic"
     ],
     "types": [
-      "Dragon"
+      "Colorless"
     ],
     "hp": 60,
     "evolvesFrom": null,

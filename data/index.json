@@ -17095,7 +17095,7 @@
     "nameJa": "するどいエネルギー",
     "nameEn": "Spiky Energy",
     "types": [],
-    "imageJa": null,
+    "imageJa": "images/sets/sd100/jp/737.jpg",
     "imageEn": "images/sets/sd100/en/737.jpg",
     "enAvailable": true
   },
@@ -23043,7 +23043,7 @@
     "nameJa": "オンバット",
     "nameEn": "Noibat",
     "types": [
-      "Dragon"
+      "Colorless"
     ],
     "imageJa": "images/sets/bp/jp/80.jpg",
     "imageEn": "images/sets/bp/en/80.jpg",
@@ -23055,7 +23055,7 @@
     "nameJa": "オンバーン",
     "nameEn": "Noivern",
     "types": [
-      "Dragon"
+      "Colorless"
     ],
     "imageJa": "images/sets/bp/jp/81.jpg",
     "imageEn": "images/sets/bp/en/81.jpg",
@@ -23389,7 +23389,7 @@
     "nameJa": "オンバット",
     "nameEn": "Noibat",
     "types": [
-      "Dragon"
+      "Colorless"
     ],
     "imageJa": "images/sets/bp/jp/111.jpg",
     "imageEn": "images/sets/bp/en/111.jpg",
@@ -36151,6 +36151,2900 @@
     ],
     "imageJa": "images/sets/cj/jp/100.jpg",
     "imageEn": "images/sets/cj/en/100.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "jtp-1",
+    "setIdJa": "jtp",
+    "nameJa": "ウパー",
+    "nameEn": "Wooper",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/jtp/jp/121.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-2",
+    "setIdJa": "jtp",
+    "nameJa": "ヌオー",
+    "nameEn": "Quagsire",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/jtp/jp/122.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-3",
+    "setIdJa": "jtp",
+    "nameJa": "フラミゴex",
+    "nameEn": "Flamigo ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/jtp/jp/124.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-4",
+    "setIdJa": "jtp",
+    "nameJa": "ネストボール",
+    "nameEn": "Nest Ball",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/125.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-5",
+    "setIdJa": "jtp",
+    "nameJa": "ポケモンいれかえ",
+    "nameEn": "Switch",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/126.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-6",
+    "setIdJa": "jtp",
+    "nameJa": "ライム",
+    "nameEn": "Ryme",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/127.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-7",
+    "setIdJa": "jtp",
+    "nameJa": "チリ",
+    "nameEn": "Rika",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/128.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-8",
+    "setIdJa": "jtp",
+    "nameJa": "マツバの確信",
+    "nameEn": "Morty's Conviction",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/147.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-9",
+    "setIdJa": "jtp",
+    "nameJa": "なかよしポフィン",
+    "nameEn": "Buddy-Buddy Poffin",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/150.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-10",
+    "setIdJa": "jtp",
+    "nameJa": "ミライドン",
+    "nameEn": "Miraidon",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/jtp/jp/151.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-11",
+    "setIdJa": "jtp",
+    "nameJa": "コライドン",
+    "nameEn": "Koraidon",
+    "types": [
+      "Dragon"
+    ],
+    "imageJa": "images/sets/jtp/jp/152.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-12",
+    "setIdJa": "jtp",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/153.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-13",
+    "setIdJa": "jtp",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/154.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-14",
+    "setIdJa": "jtp",
+    "nameJa": "タイカイデンex",
+    "nameEn": "Kilowattrel ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/jtp/jp/155.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-15",
+    "setIdJa": "jtp",
+    "nameJa": "ズルッグ",
+    "nameEn": "Scraggy",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/jtp/jp/157.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-16",
+    "setIdJa": "jtp",
+    "nameJa": "ズルズキン",
+    "nameEn": "Scrafty",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/jtp/jp/158.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-17",
+    "setIdJa": "jtp",
+    "nameJa": "ロトムスティック",
+    "nameEn": "Roto-Stick",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/160.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-18",
+    "setIdJa": "jtp",
+    "nameJa": "ヤンヤンマ",
+    "nameEn": "Yanma",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/jtp/jp/163.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-19",
+    "setIdJa": "jtp",
+    "nameJa": "メガヤンマ",
+    "nameEn": "Yanmega",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/jtp/jp/164.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-20",
+    "setIdJa": "jtp",
+    "nameJa": "ミガルーサex",
+    "nameEn": "Veluza ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/jtp/jp/165.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-21",
+    "setIdJa": "jtp",
+    "nameJa": "ビリー & オナレ",
+    "nameEn": "Billy & O'Nare",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/170.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-22",
+    "setIdJa": "jtp",
+    "nameJa": "ゼイユ",
+    "nameEn": "Carmine",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/171.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-23",
+    "setIdJa": "jtp",
+    "nameJa": "ヨルノズク",
+    "nameEn": "Noctowl",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/jtp/jp/173.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-24",
+    "setIdJa": "jtp",
+    "nameJa": "おいわいファンファーレ",
+    "nameEn": "Celebratory Fanfare",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/174.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-25",
+    "setIdJa": "jtp",
+    "nameJa": "アローラ ナッシーex",
+    "nameEn": "Alolan Exeggutor ex",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/jtp/jp/183.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-26",
+    "setIdJa": "jtp",
+    "nameJa": "ベラカスex",
+    "nameEn": "Rabsca ex",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/jtp/jp/184.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-27",
+    "setIdJa": "jtp",
+    "nameJa": "ヒポポタス",
+    "nameEn": "Hippopotas",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/jtp/jp/186.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-28",
+    "setIdJa": "jtp",
+    "nameJa": "カバルドン",
+    "nameEn": "Hippowdon",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/jtp/jp/187.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-29",
+    "setIdJa": "jtp",
+    "nameJa": "わざマシン",
+    "nameEn": "TM Machine",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/189.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-30",
+    "setIdJa": "jtp",
+    "nameJa": "アカマツ",
+    "nameEn": "Crispin",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/191.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-31",
+    "setIdJa": "jtp",
+    "nameJa": "イーブイ",
+    "nameEn": "Eevee",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/jtp/jp/196.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-32",
+    "setIdJa": "jtp",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/jtp/jp/197.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-33",
+    "setIdJa": "jtp",
+    "nameJa": "イーブイ",
+    "nameEn": "Eevee",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/jtp/jp/198.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-34",
+    "setIdJa": "jtp",
+    "nameJa": "シャリタツ",
+    "nameEn": "Tatsugiri",
+    "types": [
+      "Dragon"
+    ],
+    "imageJa": "images/sets/jtp/jp/201.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-35",
+    "setIdJa": "jtp",
+    "nameJa": "ハッサムex",
+    "nameEn": "Scizor ex",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/jtp/jp/210.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-36",
+    "setIdJa": "jtp",
+    "nameJa": "改造ハンマー",
+    "nameEn": "Enhanced Hammer",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/211.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-37",
+    "setIdJa": "jtp",
+    "nameJa": "カイ",
+    "nameEn": "Irida",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/219.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-38",
+    "setIdJa": "jtp",
+    "nameJa": "ホップのバチンウニex",
+    "nameEn": "Hop's Pincurchin ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/jtp/jp/233.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-39",
+    "setIdJa": "jtp",
+    "nameJa": "フワンテ",
+    "nameEn": "Drifloon",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/jtp/jp/234.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-40",
+    "setIdJa": "jtp",
+    "nameJa": "フワライド",
+    "nameEn": "Drifblim",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/jtp/jp/235.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-41",
+    "setIdJa": "jtp",
+    "nameJa": "シャリタツ",
+    "nameEn": "Tatsugiri",
+    "types": [
+      "Dragon"
+    ],
+    "imageJa": "images/sets/jtp/jp/236.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-42",
+    "setIdJa": "jtp",
+    "nameJa": "なかよしポフィン",
+    "nameEn": "Buddy-Buddy Poffin",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/237.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-43",
+    "setIdJa": "jtp",
+    "nameJa": "ペパー",
+    "nameEn": "Arven",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/238.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-44",
+    "setIdJa": "jtp",
+    "nameJa": "ポケモンセンターのお姉さん",
+    "nameEn": "Pokémon Center Lady",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/239.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-45",
+    "setIdJa": "jtp",
+    "nameJa": "カキツバタ",
+    "nameEn": "Drayton",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/240.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-46",
+    "setIdJa": "jtp",
+    "nameJa": "なかよしポフィン",
+    "nameEn": "Buddy-Buddy Poffin",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/244.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-47",
+    "setIdJa": "jtp",
+    "nameJa": "ハイパーボール",
+    "nameEn": "Ultra Ball",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/245.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-48",
+    "setIdJa": "jtp",
+    "nameJa": "ふしぎなアメ",
+    "nameEn": "Rare Candy",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/246.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-49",
+    "setIdJa": "jtp",
+    "nameJa": "ポケギア3.0",
+    "nameEn": "Poké Gear 3.0",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/247.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-50",
+    "setIdJa": "jtp",
+    "nameJa": "ポケモンいれかえ",
+    "nameEn": "Switch",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/248.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-51",
+    "setIdJa": "jtp",
+    "nameJa": "からておうの指令",
+    "nameEn": "Black Belt's Training",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/249.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-52",
+    "setIdJa": "jtp",
+    "nameJa": "ポケモンセンターのお姉さん",
+    "nameEn": "Pokémon Center Lady",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/250.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-53",
+    "setIdJa": "jtp",
+    "nameJa": "エキサイトスタジアム",
+    "nameEn": "Lively Stadium",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/251.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-54",
+    "setIdJa": "jtp",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/252.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-55",
+    "setIdJa": "jtp",
+    "nameJa": "ネモ",
+    "nameEn": "Nemona",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/253.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-56",
+    "setIdJa": "jtp",
+    "nameJa": "ヒビキのホウオウex",
+    "nameEn": "Ethan's Ho-Oh ex",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/jtp/jp/254.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-57",
+    "setIdJa": "jtp",
+    "nameJa": "シロナのガブリアスex",
+    "nameEn": "Cynthia's Garchomp ex",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/jtp/jp/255.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-58",
+    "setIdJa": "jtp",
+    "nameJa": "ペパーのマフィティフex",
+    "nameEn": "Arven's Mabosstiff ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/jtp/jp/256.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-59",
+    "setIdJa": "jtp",
+    "nameJa": "ガチグマアカツキex",
+    "nameEn": "Bloodmoon Ursaluna ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/jtp/jp/258.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-60",
+    "setIdJa": "jtp",
+    "nameJa": "コダック",
+    "nameEn": "Psyduck",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/jtp/jp/262.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-61",
+    "setIdJa": "jtp",
+    "nameJa": "ゴルダック",
+    "nameEn": "Golduck",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/jtp/jp/263.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-62",
+    "setIdJa": "jtp",
+    "nameJa": "ハバタクカミ",
+    "nameEn": "Flutter Mane",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/jtp/jp/264.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-63",
+    "setIdJa": "jtp",
+    "nameJa": "ロケット団のガルーラex",
+    "nameEn": "Team Rocket's Kangaskhan ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/jtp/jp/265.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-64",
+    "setIdJa": "jtp",
+    "nameJa": "夜のタンカ",
+    "nameEn": "Night Stretcher",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/266.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-65",
+    "setIdJa": "jtp",
+    "nameJa": "ロケット団の催眠装置",
+    "nameEn": "Team Rocket's Hypnosis Device",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/267.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-66",
+    "setIdJa": "jtp",
+    "nameJa": "スグリ",
+    "nameEn": "Kieran",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/268.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-67",
+    "setIdJa": "jtp",
+    "nameJa": "アイリスの闘志",
+    "nameEn": "Iris's Fighting Spirit",
+    "types": [],
+    "imageJa": "images/sets/jtp/jp/269.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-68",
+    "setIdJa": "jtp",
+    "nameJa": "ビクティニ",
+    "nameEn": "Victini",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/jtp/jp/288.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "jtp-69",
+    "setIdJa": "jtp",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/jtp/jp/291.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "entp-1",
+    "setIdJa": "entp",
+    "nameJa": "パラダイスリゾート",
+    "nameEn": "Paradise Resort",
+    "types": [],
+    "imageJa": "images/sets/entp/en/150.jpg",
+    "imageEn": "images/sets/entp/en/150.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-2",
+    "setIdJa": "entp",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/190.jpg",
+    "imageEn": "images/sets/entp/en/190.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-3",
+    "setIdJa": "entp",
+    "nameJa": "パラダイスリゾート",
+    "nameEn": "Paradise Resort",
+    "types": [],
+    "imageJa": "images/sets/entp/en/224.jpg",
+    "imageEn": "images/sets/entp/en/224.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-4",
+    "setIdJa": "entp",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/225.jpg",
+    "imageEn": "images/sets/entp/en/225.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-5",
+    "setIdJa": "entp",
+    "nameJa": "キチキギスex",
+    "nameEn": "Fezandipiti ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se7_18.png",
+    "imageEn": "images/sets/entp/en/se7_18.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-6",
+    "setIdJa": "entp",
+    "nameJa": "リーリエのピッピex",
+    "nameEn": "Lillie's Clefairy ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_36.png",
+    "imageEn": "images/sets/entp/en/se7_36.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-7",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのゾロアークex",
+    "nameEn": "N's Zoroark ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se8_40.png",
+    "imageEn": "images/sets/entp/en/se8_40.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-8",
+    "setIdJa": "entp",
+    "nameJa": "ヒビキのバクフーン",
+    "nameEn": "Ethan's Typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_14.png",
+    "imageEn": "images/sets/entp/en/se8_14.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-9",
+    "setIdJa": "entp",
+    "nameJa": "メガガルーラex",
+    "nameEn": "Mega Kangaskhan ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se8_32.png",
+    "imageEn": "images/sets/entp/en/se8_32.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-10",
+    "setIdJa": "entp",
+    "nameJa": "メガアブソルex",
+    "nameEn": "Mega Absol ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se8_29.png",
+    "imageEn": "images/sets/entp/en/se8_29.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-11",
+    "setIdJa": "entp",
+    "nameJa": "ふうせん",
+    "nameEn": "Air Balloon",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_50.png",
+    "imageEn": "images/sets/entp/en/se8_50.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-12",
+    "setIdJa": "entp",
+    "nameJa": "ルナトーン",
+    "nameEn": "Lunatone",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_27.png",
+    "imageEn": "images/sets/entp/en/se8_27.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-13",
+    "setIdJa": "entp",
+    "nameJa": "リーリエの決心",
+    "nameEn": "Lillie's Determination",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_61.png",
+    "imageEn": "images/sets/entp/en/se8_61.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-14",
+    "setIdJa": "entp",
+    "nameJa": "ゲノセクトex",
+    "nameEn": "Genesect ex",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se8_15.png",
+    "imageEn": "images/sets/entp/en/se8_15.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-15",
+    "setIdJa": "entp",
+    "nameJa": "ブリジュラス",
+    "nameEn": "Archaludon",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se8_1.png",
+    "imageEn": "images/sets/entp/en/se8_1.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-16",
+    "setIdJa": "entp",
+    "nameJa": "ペパーのマフィティアex",
+    "nameEn": "Arven's Mabosstiff ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se8_2.png",
+    "imageEn": "images/sets/entp/en/se8_2.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-17",
+    "setIdJa": "entp",
+    "nameJa": "スボミー",
+    "nameEn": "Budew",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se8_3.png",
+    "imageEn": "images/sets/entp/en/se8_3.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-18",
+    "setIdJa": "entp",
+    "nameJa": "エースバーン",
+    "nameEn": "Cinderace",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_4.png",
+    "imageEn": "images/sets/entp/en/se8_4.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-19",
+    "setIdJa": "entp",
+    "nameJa": "ローブシン",
+    "nameEn": "Conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_5.png",
+    "imageEn": "images/sets/entp/en/se8_5.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-20",
+    "setIdJa": "entp",
+    "nameJa": "シロナのガバイト",
+    "nameEn": "Cynthia's Gabite",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_6.png",
+    "imageEn": "images/sets/entp/en/se8_6.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-21",
+    "setIdJa": "entp",
+    "nameJa": "シロナのガブリアスex",
+    "nameEn": "Cynthia's Garchomp ex",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_7.png",
+    "imageEn": "images/sets/entp/en/se8_7.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-22",
+    "setIdJa": "entp",
+    "nameJa": "シロナのロズレイド",
+    "nameEn": "Cynthia's Roserade",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se8_8.png",
+    "imageEn": "images/sets/entp/en/se8_8.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-23",
+    "setIdJa": "entp",
+    "nameJa": "シビビール",
+    "nameEn": "Eelektrik",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se8_9.png",
+    "imageEn": "images/sets/entp/en/se8_9.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-24",
+    "setIdJa": "entp",
+    "nameJa": "エンブオー",
+    "nameEn": "Emboar",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_10.png",
+    "imageEn": "images/sets/entp/en/se8_10.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-25",
+    "setIdJa": "entp",
+    "nameJa": "ヒビキのホウオウex",
+    "nameEn": "Ethan's Ho-Oh ex",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_11.png",
+    "imageEn": "images/sets/entp/en/se8_11.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-26",
+    "setIdJa": "entp",
+    "nameJa": "ヒビキのマグカルゴ",
+    "nameEn": "Ethan's Magcargo",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_12.png",
+    "imageEn": "images/sets/entp/en/se8_12.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-27",
+    "setIdJa": "entp",
+    "nameJa": "ヒビキのマグマラシ",
+    "nameEn": "Ethan's Quilava",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_13.png",
+    "imageEn": "images/sets/entp/en/se8_13.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-28",
+    "setIdJa": "entp",
+    "nameJa": "ハリテヤマ",
+    "nameEn": "Hariyama",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_16.png",
+    "imageEn": "images/sets/entp/en/se8_16.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-29",
+    "setIdJa": "entp",
+    "nameJa": "ホップのバイウールー",
+    "nameEn": "Hop's Dubwool",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se8_17.png",
+    "imageEn": "images/sets/entp/en/se8_17.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-30",
+    "setIdJa": "entp",
+    "nameJa": "ホップのカビゴン",
+    "nameEn": "Hop's Snorlax",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se8_18.png",
+    "imageEn": "images/sets/entp/en/se8_18.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-31",
+    "setIdJa": "entp",
+    "nameJa": "ホップのザシアンex",
+    "nameEn": "Hop's Zacian ex",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se8_19.png",
+    "imageEn": "images/sets/entp/en/se8_19.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-32",
+    "setIdJa": "entp",
+    "nameJa": "ナンジャモのパラボルテーex",
+    "nameEn": "Iono's Bellibolt ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se8_20.png",
+    "imageEn": "images/sets/entp/en/se8_20.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-33",
+    "setIdJa": "entp",
+    "nameJa": "ナンジャモのタイカイデン",
+    "nameEn": "Iono's Kilowattrel",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se8_21.png",
+    "imageEn": "images/sets/entp/en/se8_21.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-34",
+    "setIdJa": "entp",
+    "nameJa": "ナンジャモのビリリダマ",
+    "nameEn": "Iono's Voltorb",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se8_22.png",
+    "imageEn": "images/sets/entp/en/se8_22.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-35",
+    "setIdJa": "entp",
+    "nameJa": "キュレムex",
+    "nameEn": "Kyurem ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se8_23.png",
+    "imageEn": "images/sets/entp/en/se8_23.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-36",
+    "setIdJa": "entp",
+    "nameJa": "ラティオス",
+    "nameEn": "Latios",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se8_24.png",
+    "imageEn": "images/sets/entp/en/se8_24.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-37",
+    "setIdJa": "entp",
+    "nameJa": "リーリエのピッピex",
+    "nameEn": "Lillie's Clefairy ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se8_25.png",
+    "imageEn": "images/sets/entp/en/se8_25.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-38",
+    "setIdJa": "entp",
+    "nameJa": "リーリエのアブリボン",
+    "nameEn": "Lillie's Ribombee",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se8_26.png",
+    "imageEn": "images/sets/entp/en/se8_26.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-39",
+    "setIdJa": "entp",
+    "nameJa": "メガユキノオーex",
+    "nameEn": "Mega Abomasnow ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se8_28.png",
+    "imageEn": "images/sets/entp/en/se8_28.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-40",
+    "setIdJa": "entp",
+    "nameJa": "メガバクーダex",
+    "nameEn": "Mega Camerupt ex",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_30.png",
+    "imageEn": "images/sets/entp/en/se8_30.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-41",
+    "setIdJa": "entp",
+    "nameJa": "メガサーナイトex",
+    "nameEn": "Mega Gardevoir ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se8_31.png",
+    "imageEn": "images/sets/entp/en/se8_31.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-42",
+    "setIdJa": "entp",
+    "nameJa": "メガラティアスex",
+    "nameEn": "Mega Latias ex",
+    "types": [
+      "Dragon"
+    ],
+    "imageJa": "images/sets/entp/en/se8_33.png",
+    "imageEn": "images/sets/entp/en/se8_33.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-43",
+    "setIdJa": "entp",
+    "nameJa": "メガルカリオex",
+    "nameEn": "Mega Lucario ex",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_34.png",
+    "imageEn": "images/sets/entp/en/se8_34.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-44",
+    "setIdJa": "entp",
+    "nameJa": "メガライボルトex",
+    "nameEn": "Mega Manectric ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se8_35.png",
+    "imageEn": "images/sets/entp/en/se8_35.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-45",
+    "setIdJa": "entp",
+    "nameJa": "メガクチートex",
+    "nameEn": "Mega Mawile ex",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se8_36.png",
+    "imageEn": "images/sets/entp/en/se8_36.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-46",
+    "setIdJa": "entp",
+    "nameJa": "メガフシギバナex",
+    "nameEn": "Mega Venusaur ex",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se8_37.png",
+    "imageEn": "images/sets/entp/en/se8_37.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-47",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのヒヒダルマ",
+    "nameEn": "N's Darmanitan",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_38.png",
+    "imageEn": "images/sets/entp/en/se8_38.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-48",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのレシラム",
+    "nameEn": "N's Reshiram",
+    "types": [
+      "Dragon"
+    ],
+    "imageJa": "images/sets/entp/en/se8_39.png",
+    "imageEn": "images/sets/entp/en/se8_39.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-49",
+    "setIdJa": "entp",
+    "nameJa": "レシラムex",
+    "nameEn": "Reshiram ex",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se8_41.png",
+    "imageEn": "images/sets/entp/en/se8_41.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-50",
+    "setIdJa": "entp",
+    "nameJa": "シェイミ",
+    "nameEn": "Shaymin",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se8_42.png",
+    "imageEn": "images/sets/entp/en/se8_42.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-51",
+    "setIdJa": "entp",
+    "nameJa": "ソルロック",
+    "nameEn": "Solrock",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se8_43.png",
+    "imageEn": "images/sets/entp/en/se8_43.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-52",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のクロバットex",
+    "nameEn": "Team Rocket's Crobat ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se8_44.png",
+    "imageEn": "images/sets/entp/en/se8_44.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-53",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のミュウツーex",
+    "nameEn": "Team Rocket's Mewtwo ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se8_45.png",
+    "imageEn": "images/sets/entp/en/se8_45.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-54",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のニドキングex",
+    "nameEn": "Team Rocket's Nidoking ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se8_46.png",
+    "imageEn": "images/sets/entp/en/se8_46.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-55",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のワナイダー",
+    "nameEn": "Team Rocket's Spidops",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se8_47.png",
+    "imageEn": "images/sets/entp/en/se8_47.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-56",
+    "setIdJa": "entp",
+    "nameJa": "メガヤンマex",
+    "nameEn": "Yanmega ex",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se8_48.png",
+    "imageEn": "images/sets/entp/en/se8_48.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-57",
+    "setIdJa": "entp",
+    "nameJa": "ゼクロムex",
+    "nameEn": "Zekrom ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se8_49.png",
+    "imageEn": "images/sets/entp/en/se8_49.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-58",
+    "setIdJa": "entp",
+    "nameJa": "ボスの指令",
+    "nameEn": "Boss's Orders",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_51.png",
+    "imageEn": "images/sets/entp/en/se8_51.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-59",
+    "setIdJa": "entp",
+    "nameJa": "ブリリアントブレンダー",
+    "nameEn": "Brilliant Blender",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_52.png",
+    "imageEn": "images/sets/entp/en/se8_52.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-60",
+    "setIdJa": "entp",
+    "nameJa": "シロナのパワーウエイト",
+    "nameEn": "Cynthia's Power Weight",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_53.png",
+    "imageEn": "images/sets/entp/en/se8_53.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-61",
+    "setIdJa": "entp",
+    "nameJa": "エネルギー転送PRO",
+    "nameEn": "Energy Search Pro",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_54.png",
+    "imageEn": "images/sets/entp/en/se8_54.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-62",
+    "setIdJa": "entp",
+    "nameJa": "ヒビキの冒険",
+    "nameEn": "Ethan's Adventure",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_55.png",
+    "imageEn": "images/sets/entp/en/se8_55.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-63",
+    "setIdJa": "entp",
+    "nameJa": "ファイトゴング",
+    "nameEn": "Fighting Gong",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_56.png",
+    "imageEn": "images/sets/entp/en/se8_56.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-64",
+    "setIdJa": "entp",
+    "nameJa": "活力の森",
+    "nameEn": "Forest of Vitality",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_57.png",
+    "imageEn": "images/sets/entp/en/se8_57.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-65",
+    "setIdJa": "entp",
+    "nameJa": "ホップのこだわりハチマキ",
+    "nameEn": "Hop's Choice Band",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_58.png",
+    "imageEn": "images/sets/entp/en/se8_58.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-66",
+    "setIdJa": "entp",
+    "nameJa": "アイアンディフェンダー",
+    "nameEn": "Iron Defender",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_59.png",
+    "imageEn": "images/sets/entp/en/se8_59.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-67",
+    "setIdJa": "entp",
+    "nameJa": "ハッコウシティ",
+    "nameEn": "Levincia",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_60.png",
+    "imageEn": "images/sets/entp/en/se8_60.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-68",
+    "setIdJa": "entp",
+    "nameJa": "リーリエのしんじゅ",
+    "nameEn": "Lillie's Pearl",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_62.png",
+    "imageEn": "images/sets/entp/en/se8_62.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-69",
+    "setIdJa": "entp",
+    "nameJa": "つりざおMAX",
+    "nameEn": "Max Rod",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_63.png",
+    "imageEn": "images/sets/entp/en/se8_63.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-70",
+    "setIdJa": "entp",
+    "nameJa": "メガシグナル",
+    "nameEn": "Mega Signal",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_64.png",
+    "imageEn": "images/sets/entp/en/se8_64.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-71",
+    "setIdJa": "entp",
+    "nameJa": "ミステリーガーデン",
+    "nameEn": "Mystery Garden",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_65.png",
+    "imageEn": "images/sets/entp/en/se8_65.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-72",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのポイントアップ",
+    "nameEn": "N's PP Up",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_66.png",
+    "imageEn": "images/sets/entp/en/se8_66.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-73",
+    "setIdJa": "entp",
+    "nameJa": "ハロンタウン",
+    "nameEn": "Postwick",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_67.png",
+    "imageEn": "images/sets/entp/en/se8_67.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-74",
+    "setIdJa": "entp",
+    "nameJa": "プレシャスキャリー",
+    "nameEn": "Precious Trolley",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_68.png",
+    "imageEn": "images/sets/entp/en/se8_68.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-75",
+    "setIdJa": "entp",
+    "nameJa": "パワープロテイン",
+    "nameEn": "Premium Power Pro",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_69.png",
+    "imageEn": "images/sets/entp/en/se8_69.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-76",
+    "setIdJa": "entp",
+    "nameJa": "危険な廃墟",
+    "nameEn": "Risky Ruins",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_70.png",
+    "imageEn": "images/sets/entp/en/se8_70.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-77",
+    "setIdJa": "entp",
+    "nameJa": "きらめく結晶",
+    "nameEn": "Sparkling Crystal",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_71.png",
+    "imageEn": "images/sets/entp/en/se8_71.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-78",
+    "setIdJa": "entp",
+    "nameJa": "あやしい時計",
+    "nameEn": "Strange Timepiece",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_72.png",
+    "imageEn": "images/sets/entp/en/se8_72.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-79",
+    "setIdJa": "entp",
+    "nameJa": "なみのりビーチ",
+    "nameEn": "Surfing Beach",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_73.png",
+    "imageEn": "images/sets/entp/en/se8_73.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-80",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のアルオロ",
+    "nameEn": "Team Rocket's Archer",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_74.png",
+    "imageEn": "images/sets/entp/en/se8_74.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-81",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のアテナ",
+    "nameEn": "Team Rocket's Ariana",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_75.png",
+    "imageEn": "images/sets/entp/en/se8_75.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-82",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団エネルギー",
+    "nameEn": "Team Rocket's Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_76.png",
+    "imageEn": "images/sets/entp/en/se8_76.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-83",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のファクトリー",
+    "nameEn": "Team Rocket's Factory",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_77.png",
+    "imageEn": "images/sets/entp/en/se8_77.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-84",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のサカキ",
+    "nameEn": "Team Rocket's Giovanni",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_78.png",
+    "imageEn": "images/sets/entp/en/se8_78.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-85",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のラムダ",
+    "nameEn": "Team Rocket's Petrel",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_79.png",
+    "imageEn": "images/sets/entp/en/se8_79.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-86",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のランス",
+    "nameEn": "Team Rocket's Proton",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_80.png",
+    "imageEn": "images/sets/entp/en/se8_80.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-87",
+    "setIdJa": "entp",
+    "nameJa": "ロケット団のレシーバー",
+    "nameEn": "Team Rocket's Transceiver",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_81.png",
+    "imageEn": "images/sets/entp/en/se8_81.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-88",
+    "setIdJa": "entp",
+    "nameJa": "ミツルの思いやり",
+    "nameEn": "Wally's Compassion",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_82.png",
+    "imageEn": "images/sets/entp/en/se8_82.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-89",
+    "setIdJa": "entp",
+    "nameJa": "基本悪エネルギー",
+    "nameEn": "Basic Darkness Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_83.png",
+    "imageEn": "images/sets/entp/en/se8_83.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-90",
+    "setIdJa": "entp",
+    "nameJa": "基本闘エネルギー",
+    "nameEn": "Basic Fighting Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_84.png",
+    "imageEn": "images/sets/entp/en/se8_84.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-91",
+    "setIdJa": "entp",
+    "nameJa": "基本炎エネルギー",
+    "nameEn": "Basic Fire Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_85.png",
+    "imageEn": "images/sets/entp/en/se8_85.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-92",
+    "setIdJa": "entp",
+    "nameJa": "基本草エネルギー",
+    "nameEn": "Basic Grass Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_86.png",
+    "imageEn": "images/sets/entp/en/se8_86.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-93",
+    "setIdJa": "entp",
+    "nameJa": "基本雷エネルギー",
+    "nameEn": "Basic Lightning Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_87.png",
+    "imageEn": "images/sets/entp/en/se8_87.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-94",
+    "setIdJa": "entp",
+    "nameJa": "基本鋼エネルギー",
+    "nameEn": "Basic Metal Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_88.png",
+    "imageEn": "images/sets/entp/en/se8_88.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-95",
+    "setIdJa": "entp",
+    "nameJa": "基本超エネルギー",
+    "nameEn": "Basic Psychic Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_89.png",
+    "imageEn": "images/sets/entp/en/se8_89.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-96",
+    "setIdJa": "entp",
+    "nameJa": "基本水エネルギー",
+    "nameEn": "Basic Water Energy",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se8_90.png",
+    "imageEn": "images/sets/entp/en/se8_90.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-97",
+    "setIdJa": "entp",
+    "nameJa": "ブリジュラス",
+    "nameEn": "Archaludon",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se7_1.png",
+    "imageEn": "images/sets/entp/en/se7_1.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-98",
+    "setIdJa": "entp",
+    "nameJa": "ブリジュラスex",
+    "nameEn": "Archaludon ex",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se7_2.png",
+    "imageEn": "images/sets/entp/en/se7_2.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-99",
+    "setIdJa": "entp",
+    "nameJa": "マリルリ",
+    "nameEn": "Azumarill",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_3.png",
+    "imageEn": "images/sets/entp/en/se7_3.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-100",
+    "setIdJa": "entp",
+    "nameJa": "ハピナスex",
+    "nameEn": "Blissey ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_4.png",
+    "imageEn": "images/sets/entp/en/se7_4.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-101",
+    "setIdJa": "entp",
+    "nameJa": "アカツキのすがたガチグマex",
+    "nameEn": "Bloodmoon Ursaluna ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_5.png",
+    "imageEn": "images/sets/entp/en/se7_5.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-102",
+    "setIdJa": "entp",
+    "nameJa": "バッフロン",
+    "nameEn": "Bouffalant",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_6.png",
+    "imageEn": "images/sets/entp/en/se7_6.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-103",
+    "setIdJa": "entp",
+    "nameJa": "スボミー",
+    "nameEn": "Budew",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se7_7.png",
+    "imageEn": "images/sets/entp/en/se7_7.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-104",
+    "setIdJa": "entp",
+    "nameJa": "ソウブレイズex",
+    "nameEn": "Ceruledge ex",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se7_8.png",
+    "imageEn": "images/sets/entp/en/se7_8.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-105",
+    "setIdJa": "entp",
+    "nameJa": "ローブシン",
+    "nameEn": "Conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se7_9.png",
+    "imageEn": "images/sets/entp/en/se7_9.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-106",
+    "setIdJa": "entp",
+    "nameJa": "モグリュー",
+    "nameEn": "Drilbur",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se7_10.png",
+    "imageEn": "images/sets/entp/en/se7_10.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-107",
+    "setIdJa": "entp",
+    "nameJa": "ノコッチ",
+    "nameEn": "Dudunsparce",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_11.png",
+    "imageEn": "images/sets/entp/en/se7_11.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-108",
+    "setIdJa": "entp",
+    "nameJa": "サマヨール",
+    "nameEn": "Dusclops",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_12.png",
+    "imageEn": "images/sets/entp/en/se7_12.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-109",
+    "setIdJa": "entp",
+    "nameJa": "ヨノワール",
+    "nameEn": "Dusknoir",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_13.png",
+    "imageEn": "images/sets/entp/en/se7_13.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-110",
+    "setIdJa": "entp",
+    "nameJa": "イーブイ",
+    "nameEn": "Eevee",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_14.png",
+    "imageEn": "images/sets/entp/en/se7_14.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-111",
+    "setIdJa": "entp",
+    "nameJa": "イーブイex",
+    "nameEn": "Eevee ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_15.png",
+    "imageEn": "images/sets/entp/en/se7_15.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-112",
+    "setIdJa": "entp",
+    "nameJa": "エーフィex",
+    "nameEn": "Espeon ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_16.png",
+    "imageEn": "images/sets/entp/en/se7_16.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-113",
+    "setIdJa": "entp",
+    "nameJa": "ファンロトム",
+    "nameEn": "Fan Rotom",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_17.png",
+    "imageEn": "images/sets/entp/en/se7_17.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-114",
+    "setIdJa": "entp",
+    "nameJa": "ブースターex",
+    "nameEn": "Flareon ex",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se7_19.png",
+    "imageEn": "images/sets/entp/en/se7_19.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-115",
+    "setIdJa": "entp",
+    "nameJa": "ユキメノコ",
+    "nameEn": "Froslass",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_20.png",
+    "imageEn": "images/sets/entp/en/se7_20.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-116",
+    "setIdJa": "entp",
+    "nameJa": "デンチュラ",
+    "nameEn": "Galvantula",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_21.png",
+    "imageEn": "images/sets/entp/en/se7_21.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-117",
+    "setIdJa": "entp",
+    "nameJa": "トリトドン",
+    "nameEn": "Gastrodon",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_22.png",
+    "imageEn": "images/sets/entp/en/se7_22.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-118",
+    "setIdJa": "entp",
+    "nameJa": "グレイシアex",
+    "nameEn": "Glaceon ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_23.png",
+    "imageEn": "images/sets/entp/en/se7_23.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-119",
+    "setIdJa": "entp",
+    "nameJa": "ゲッコウガex",
+    "nameEn": "Greninja ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_24.png",
+    "imageEn": "images/sets/entp/en/se7_24.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-120",
+    "setIdJa": "entp",
+    "nameJa": "ホウオウ",
+    "nameEn": "Ho-Oh",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se7_25.png",
+    "imageEn": "images/sets/entp/en/se7_25.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-121",
+    "setIdJa": "entp",
+    "nameJa": "ホップのバイウールー",
+    "nameEn": "Hop's Dubwool",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_26.png",
+    "imageEn": "images/sets/entp/en/se7_26.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-122",
+    "setIdJa": "entp",
+    "nameJa": "ホップのカビゴン",
+    "nameEn": "Hop's Snorlax",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_27.png",
+    "imageEn": "images/sets/entp/en/se7_27.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-123",
+    "setIdJa": "entp",
+    "nameJa": "ホップのザシアンex",
+    "nameEn": "Hop's Zacian ex",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se7_28.png",
+    "imageEn": "images/sets/entp/en/se7_28.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-124",
+    "setIdJa": "entp",
+    "nameJa": "ナンジャモのパラボルテーex",
+    "nameEn": "Iono's Bellibolt ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_29.png",
+    "imageEn": "images/sets/entp/en/se7_29.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-125",
+    "setIdJa": "entp",
+    "nameJa": "ナンジャモのタイカイデン",
+    "nameEn": "Iono's Kilowattrel",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_30.png",
+    "imageEn": "images/sets/entp/en/se7_30.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-126",
+    "setIdJa": "entp",
+    "nameJa": "ナンジャモのビリリダマ",
+    "nameEn": "Iono's Voltorb",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_31.png",
+    "imageEn": "images/sets/entp/en/se7_31.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-127",
+    "setIdJa": "entp",
+    "nameJa": "テツノイバラex",
+    "nameEn": "Iron Thorns ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_32.png",
+    "imageEn": "images/sets/entp/en/se7_32.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-128",
+    "setIdJa": "entp",
+    "nameJa": "サンダースex",
+    "nameEn": "Jolteon ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_33.png",
+    "imageEn": "images/sets/entp/en/se7_33.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-129",
+    "setIdJa": "entp",
+    "nameJa": "バチュル",
+    "nameEn": "Joltik",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_34.png",
+    "imageEn": "images/sets/entp/en/se7_34.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-130",
+    "setIdJa": "entp",
+    "nameJa": "ラティアスex",
+    "nameEn": "Latias ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_35.png",
+    "imageEn": "images/sets/entp/en/se7_35.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-131",
+    "setIdJa": "entp",
+    "nameJa": "リーリエのアブリボン",
+    "nameEn": "Lillie's Ribombee",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_37.png",
+    "imageEn": "images/sets/entp/en/se7_37.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-132",
+    "setIdJa": "entp",
+    "nameJa": "レアコイル",
+    "nameEn": "Magneton",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_38.png",
+    "imageEn": "images/sets/entp/en/se7_38.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-133",
+    "setIdJa": "entp",
+    "nameJa": "マンムーex",
+    "nameEn": "Mamoswine ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_39.png",
+    "imageEn": "images/sets/entp/en/se7_39.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-134",
+    "setIdJa": "entp",
+    "nameJa": "メタング",
+    "nameEn": "Metang",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se7_40.png",
+    "imageEn": "images/sets/entp/en/se7_40.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-135",
+    "setIdJa": "entp",
+    "nameJa": "マシマシラ",
+    "nameEn": "Munkidori",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_41.png",
+    "imageEn": "images/sets/entp/en/se7_41.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-136",
+    "setIdJa": "entp",
+    "nameJa": "ヨルノズク",
+    "nameEn": "Noctowl",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_42.png",
+    "imageEn": "images/sets/entp/en/se7_42.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-137",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのヒヒダルマ",
+    "nameEn": "N's Darmanitan",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se7_43.png",
+    "imageEn": "images/sets/entp/en/se7_43.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-138",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのレシラム",
+    "nameEn": "N's Reshiram",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se7_44.png",
+    "imageEn": "images/sets/entp/en/se7_44.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-139",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのゾロアークex",
+    "nameEn": "N's Zoroark ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se7_45.png",
+    "imageEn": "images/sets/entp/en/se7_45.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-140",
+    "setIdJa": "entp",
+    "nameJa": "ピカチュウex",
+    "nameEn": "Pikachu ex",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_46.png",
+    "imageEn": "images/sets/entp/en/se7_46.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-141",
+    "setIdJa": "entp",
+    "nameJa": "ラブスカ",
+    "nameEn": "Rabsca",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_47.png",
+    "imageEn": "images/sets/entp/en/se7_47.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-142",
+    "setIdJa": "entp",
+    "nameJa": "レジギガス",
+    "nameEn": "Regigigas",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_48.png",
+    "imageEn": "images/sets/entp/en/se7_48.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-143",
+    "setIdJa": "entp",
+    "nameJa": "ニンフィアex",
+    "nameEn": "Sylveon ex",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_49.png",
+    "imageEn": "images/sets/entp/en/se7_49.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-144",
+    "setIdJa": "entp",
+    "nameJa": "カプ・コケコ",
+    "nameEn": "Tapu Koko",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_50.png",
+    "imageEn": "images/sets/entp/en/se7_50.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-145",
+    "setIdJa": "entp",
+    "nameJa": "タツギリ",
+    "nameEn": "Tatsugiri",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_51.png",
+    "imageEn": "images/sets/entp/en/se7_51.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-146",
+    "setIdJa": "entp",
+    "nameJa": "はっぱのめんオーガポンex",
+    "nameEn": "Teal Mask Ogerpon ex",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se7_52.png",
+    "imageEn": "images/sets/entp/en/se7_52.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-147",
+    "setIdJa": "entp",
+    "nameJa": "テラパゴス",
+    "nameEn": "Terapagos",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_53.png",
+    "imageEn": "images/sets/entp/en/se7_53.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-148",
+    "setIdJa": "entp",
+    "nameJa": "テラパゴスex",
+    "nameEn": "Terapagos ex",
+    "types": [
+      "Colorless"
+    ],
+    "imageJa": "images/sets/entp/en/se7_54.png",
+    "imageEn": "images/sets/entp/en/se7_54.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-149",
+    "setIdJa": "entp",
+    "nameJa": "バンギラス",
+    "nameEn": "Tyranitar",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se7_55.png",
+    "imageEn": "images/sets/entp/en/se7_55.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-150",
+    "setIdJa": "entp",
+    "nameJa": "ブラッキーex",
+    "nameEn": "Umbreon ex",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se7_56.png",
+    "imageEn": "images/sets/entp/en/se7_56.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-151",
+    "setIdJa": "entp",
+    "nameJa": "シャワーズex",
+    "nameEn": "Vaporeon ex",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_57.png",
+    "imageEn": "images/sets/entp/en/se7_57.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-152",
+    "setIdJa": "entp",
+    "nameJa": "リーフィアex",
+    "nameEn": "Leafeon ex",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se7_58.png",
+    "imageEn": "images/sets/entp/en/se7_58.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-153",
+    "setIdJa": "entp",
+    "nameJa": "エリアゼロアンダーパーク",
+    "nameEn": "Area Zero Underdepths",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_59.png",
+    "imageEn": "images/sets/entp/en/se7_59.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-154",
+    "setIdJa": "entp",
+    "nameJa": "ベルのいちず",
+    "nameEn": "Bianca's Devotion",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_60.png",
+    "imageEn": "images/sets/entp/en/se7_60.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-155",
+    "setIdJa": "entp",
+    "nameJa": "スグリ",
+    "nameEn": "Briar",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_61.png",
+    "imageEn": "images/sets/entp/en/se7_61.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-156",
+    "setIdJa": "entp",
+    "nameJa": "ブリリアントブレンダー",
+    "nameEn": "Brilliant Blender",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_62.png",
+    "imageEn": "images/sets/entp/en/se7_62.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-157",
+    "setIdJa": "entp",
+    "nameJa": "タケシのスカウト",
+    "nameEn": "Brock's Scouting",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_63.png",
+    "imageEn": "images/sets/entp/en/se7_63.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-158",
+    "setIdJa": "entp",
+    "nameJa": "なかよしポフィン",
+    "nameEn": "Buddy-Buddy Poffin",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_64.png",
+    "imageEn": "images/sets/entp/en/se7_64.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-159",
+    "setIdJa": "entp",
+    "nameJa": "むしとりセット",
+    "nameEn": "Bug Catching Set",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_65.png",
+    "imageEn": "images/sets/entp/en/se7_65.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-160",
+    "setIdJa": "entp",
+    "nameJa": "カルミ",
+    "nameEn": "Carmine",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_66.png",
+    "imageEn": "images/sets/entp/en/se7_66.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-161",
+    "setIdJa": "entp",
+    "nameJa": "アクロマのねばり",
+    "nameEn": "Colress's Tenacity",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_67.png",
+    "imageEn": "images/sets/entp/en/se7_67.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-162",
+    "setIdJa": "entp",
+    "nameJa": "カウンターゲイン",
+    "nameEn": "Counter Gain",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_68.png",
+    "imageEn": "images/sets/entp/en/se7_68.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-163",
+    "setIdJa": "entp",
+    "nameJa": "アカマツ",
+    "nameEn": "Crispin",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_69.png",
+    "imageEn": "images/sets/entp/en/se7_69.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-164",
+    "setIdJa": "entp",
+    "nameJa": "パワーハンマー",
+    "nameEn": "Enhanced Hammer",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_70.png",
+    "imageEn": "images/sets/entp/en/se7_70.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-165",
+    "setIdJa": "entp",
+    "nameJa": "ガラスのトランペット",
+    "nameEn": "Glass Trumpet",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_71.png",
+    "imageEn": "images/sets/entp/en/se7_71.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-166",
+    "setIdJa": "entp",
+    "nameJa": "じゅうりょくさん",
+    "nameEn": "Gravity Mountain",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_72.png",
+    "imageEn": "images/sets/entp/en/se7_72.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-167",
+    "setIdJa": "entp",
+    "nameJa": "ホップのバッグ",
+    "nameEn": "Hop's Bag",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_73.png",
+    "imageEn": "images/sets/entp/en/se7_73.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-168",
+    "setIdJa": "entp",
+    "nameJa": "ホップのこだわりハチマキ",
+    "nameEn": "Hop's Choice Band",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_74.png",
+    "imageEn": "images/sets/entp/en/se7_74.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-169",
+    "setIdJa": "entp",
+    "nameJa": "アイリスの闘志",
+    "nameEn": "Iris's Fighting Spirit",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_75.png",
+    "imageEn": "images/sets/entp/en/se7_75.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-170",
+    "setIdJa": "entp",
+    "nameJa": "ジャミングタワー",
+    "nameEn": "Jamming Tower",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_76.png",
+    "imageEn": "images/sets/entp/en/se7_76.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-171",
+    "setIdJa": "entp",
+    "nameJa": "ハッコウシティ",
+    "nameEn": "Levincia",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_77.png",
+    "imageEn": "images/sets/entp/en/se7_77.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-172",
+    "setIdJa": "entp",
+    "nameJa": "リーリエのしんじゅ",
+    "nameEn": "Lillie's Pearl",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_78.png",
+    "imageEn": "images/sets/entp/en/se7_78.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-173",
+    "setIdJa": "entp",
+    "nameJa": "つりざおMAX",
+    "nameEn": "Max Rod",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_79.png",
+    "imageEn": "images/sets/entp/en/se7_79.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-174",
+    "setIdJa": "entp",
+    "nameJa": "夜のタンカ",
+    "nameEn": "Night Stretcher",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_80.png",
+    "imageEn": "images/sets/entp/en/se7_80.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-175",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのしろ",
+    "nameEn": "N's Castle",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_81.png",
+    "imageEn": "images/sets/entp/en/se7_81.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-176",
+    "setIdJa": "entp",
+    "nameJa": "Ｎのポイントアップ",
+    "nameEn": "N's PP Up",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_82.png",
+    "imageEn": "images/sets/entp/en/se7_82.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-177",
+    "setIdJa": "entp",
+    "nameJa": "ハロンタウン",
+    "nameEn": "Postwick",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_83.png",
+    "imageEn": "images/sets/entp/en/se7_83.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-178",
+    "setIdJa": "entp",
+    "nameJa": "パワーグラス",
+    "nameEn": "Powerglass",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_84.png",
+    "imageEn": "images/sets/entp/en/se7_84.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-179",
+    "setIdJa": "entp",
+    "nameJa": "プライムキャッチャー",
+    "nameEn": "Prime Catcher",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_85.png",
+    "imageEn": "images/sets/entp/en/se7_85.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-180",
+    "setIdJa": "entp",
+    "nameJa": "スクランブルスイッチ",
+    "nameEn": "Scramble Switch",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_86.png",
+    "imageEn": "images/sets/entp/en/se7_86.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-181",
+    "setIdJa": "entp",
+    "nameJa": "きらめく結晶",
+    "nameEn": "Sparkling Crystal",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_87.png",
+    "imageEn": "images/sets/entp/en/se7_87.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-182",
+    "setIdJa": "entp",
+    "nameJa": "テラオーブ",
+    "nameEn": "Tera Orb",
+    "types": [],
+    "imageJa": "images/sets/entp/en/se7_88.png",
+    "imageEn": "images/sets/entp/en/se7_88.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-183",
+    "setIdJa": "entp",
+    "nameJa": "基本草エネルギー",
+    "nameEn": "Basic Grass Energy",
+    "types": [
+      "Grass"
+    ],
+    "imageJa": "images/sets/entp/en/se7_89.png",
+    "imageEn": "images/sets/entp/en/se7_89.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-184",
+    "setIdJa": "entp",
+    "nameJa": "基本炎エネルギー",
+    "nameEn": "Basic Fire Energy",
+    "types": [
+      "Fire"
+    ],
+    "imageJa": "images/sets/entp/en/se7_90.png",
+    "imageEn": "images/sets/entp/en/se7_90.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-185",
+    "setIdJa": "entp",
+    "nameJa": "基本水エネルギー",
+    "nameEn": "Basic Water Energy",
+    "types": [
+      "Water"
+    ],
+    "imageJa": "images/sets/entp/en/se7_91.png",
+    "imageEn": "images/sets/entp/en/se7_91.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-186",
+    "setIdJa": "entp",
+    "nameJa": "基本雷エネルギー",
+    "nameEn": "Basic Lightning Energy",
+    "types": [
+      "Lightning"
+    ],
+    "imageJa": "images/sets/entp/en/se7_92.png",
+    "imageEn": "images/sets/entp/en/se7_92.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-187",
+    "setIdJa": "entp",
+    "nameJa": "基本超エネルギー",
+    "nameEn": "Basic Psychic Energy",
+    "types": [
+      "Psychic"
+    ],
+    "imageJa": "images/sets/entp/en/se7_93.png",
+    "imageEn": "images/sets/entp/en/se7_93.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-188",
+    "setIdJa": "entp",
+    "nameJa": "基本闘エネルギー",
+    "nameEn": "Basic Fighting Energy",
+    "types": [
+      "Fighting"
+    ],
+    "imageJa": "images/sets/entp/en/se7_94.png",
+    "imageEn": "images/sets/entp/en/se7_94.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-189",
+    "setIdJa": "entp",
+    "nameJa": "基本悪エネルギー",
+    "nameEn": "Basic Darkness Energy",
+    "types": [
+      "Darkness"
+    ],
+    "imageJa": "images/sets/entp/en/se7_95.png",
+    "imageEn": "images/sets/entp/en/se7_95.png",
+    "enAvailable": true
+  },
+  {
+    "id": "entp-190",
+    "setIdJa": "entp",
+    "nameJa": "基本鋼エネルギー",
+    "nameEn": "Basic Metal Energy",
+    "types": [
+      "Metal"
+    ],
+    "imageJa": "images/sets/entp/en/se7_96.png",
+    "imageEn": "images/sets/entp/en/se7_96.png",
     "enAvailable": true
   },
   {

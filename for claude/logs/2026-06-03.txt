@@ -1,0 +1,109 @@
+Session Log — 2026-06-03
+========================
+
+CONTEXT
+-------
+Continuation of previous sessions. Resumed work on the jtp (大会プロモ) set and fixed
+several modal/search bugs discovered while adding the new set's data.
+
+================================================================================
+DATA WORK — jtp (大会プロモ) SET COMPLETION
+================================================================================
+
+BACKGROUND:
+  jtp.json is the 69-card JP tournament promo set (大会プロモ). Previously the cards
+  existed with imageJa paths but no text data. This session applied full combat data
+  and Japanese text to all 69 cards.
+
+1. COMBAT DATA (scripts/patch_jtp_data.js — pre-written, run this session):
+   - Applied attacks[], hp, retreatCost, weakness, resistance to all 35 Pokémon cards
+   - All trainer cards got their supertype/subtype fields confirmed
+   - Script already existed; output: trainer and Pokémon fields populated
+
+2. JAPANESE TEXT — TRAINERS (34 cards):
+   - scripts/patch_jtp_ja.js created to hold all textJa strings
+   - Read all 34 trainer card images (jtp-35 through jtp-69 range, with some earlier IDs)
+   - Each card's textJa was transcribed from the card image and stored in the patch script
+   - Covers Items, Supporters, Stadiums, and Pokémon Tools
+
+3. JAPANESE TEXT — POKÉMON (35 cards):
+   - Read all 35 Pokémon card images (jtp-1 through jtp-34 range)
+   - Populated attacks[].nameJa, attacks[].textJa for all Pokémon
+   - Populated abilities[].nameJa, abilities[].textJa where applicable
+   - The earlier patch_jtp_data.js had used nameJa: null for attack names; fixed inline
+     by setting all 35 Pokémon attack nameJa from image readings
+
+4. INDEX REBUILD:
+   - node scripts/rebuild_index.js run after all data changes
+   - Final state: 3443 total index entries
+
+================================================================================
+BUG FIX — MODAL NOT SHOWING TEXT FOR jtp CARDS
+================================================================================
+
+PROBLEM:
+  jtp cards have imageEn: null (no EN counterpart). In useModal-Bne0OhqI.js:
+    - N = !!s.imageEn → false for jtp cards
+    - EN button render condition: N && e.jsx("button", ...) → EN button never rendered
+    - Cards opened in JP mode by default (correct), but textJa was null at the time
+
+  After textJa was populated, modal correctly shows JP text. No JS change needed.
+  The root cause was just missing data, not a code bug.
+
+ATTEMPTED FIX (reverted):
+  Tried changing EN button condition to show it when textEn exists even without imageEn.
+  User clarified: jtp cards should ONLY show the JP button. Reverted to original condition.
+
+FINAL STATE:
+  - imageEn: null on all jtp cards → N = false → EN button never shown → JP-only display
+  - This is correct behavior for this set
+
+================================================================================
+BUG FIX — SEARCH BLANK PAGE WHEN "ALL SETS" SELECTED
+================================================================================
+
+PROBLEM:
+  When searching across all sets (no set filter), the page went completely blank.
+  Root cause: filter function calls E(t.nameJa).includes(S) where E(a) = a.toLowerCase()
+  This throws TypeError: Cannot read properties of null (reading 'toLowerCase')
+  when nameJa is null.
+
+INVESTIGATION:
+  - Searched all 3443 index entries for null nameJa
+  - Found exactly 1 card: entp-59 (Brilliant Blender, SSP 164) — EN-only ACE SPEC promo
+    with no JP counterpart. Was added to entp.json without a Japanese name.
+
+FIX:
+  - Set nameJa = 'ブリリアントブレンダー' on entp-59 in data/cards/entp.json
+  - Rebuilt index: 3443 entries, 0 null nameJa
+  - Search across all sets now works without crashing
+
+================================================================================
+KEY LEARNINGS / NOTES
+================================================================================
+
+- Modal language toggle logic (useModal-Bne0OhqI.js):
+    N = !!s.imageEn             → EN button only renders when imageEn is non-null
+    enOnly = N && imageJa===imageEn  → true = same image used, shows EN-only
+    Default open lang: imageEn && imageJa===imageEn ? "en" : "ja"
+    → Cards with imageEn: null always open in JP mode
+
+- Any card added to the data files MUST have nameJa populated. The search filter
+  calls .toLowerCase() on nameJa directly without null-checking. A single null
+  nameJa will crash the entire search component.
+
+- BOM preservation: jtp.json and entp.json both start with '﻿'. Scripts must
+  detect and preserve the BOM on write (detect with raw.startsWith('﻿')).
+
+================================================================================
+FILES MODIFIED
+================================================================================
+- data/cards/jtp.json     — textJa for all 69 cards; attack/ability nameJa for 35 Pokémon
+- data/cards/entp.json    — entp-59 nameJa set to 'ブリリアントブレンダー'
+- data/index.json         — rebuilt (3443 entries)
+- data/index-sets/jtp.json — rebuilt
+
+================================================================================
+FILES CREATED
+================================================================================
+- scripts/patch_jtp_ja.js  — applies Japanese text to jtp trainer cards
