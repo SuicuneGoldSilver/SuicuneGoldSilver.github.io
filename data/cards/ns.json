@@ -4435,7 +4435,8 @@
     "artist": "Atsushi Furusawa",
     "nationalPokedexNumber": 650,
     "imageJa": "images/sets/ns/jp/84.jpg",
-    "imageEn": "images/sets/ns/en/84.jpg"
+    "imageEn": "images/sets/me4/87.jpg",
+    "enAvailable": true
   },
   {
     "id": "ns-85",
@@ -4555,7 +4556,8 @@
     "artist": "Susumu Maeya",
     "nationalPokedexNumber": 656,
     "imageJa": "images/sets/ns/jp/86.jpg",
-    "imageEn": "images/sets/ns/en/86.jpg"
+    "imageEn": "images/sets/me4/88.jpg",
+    "enAvailable": true
   },
   {
     "id": "ns-87",

@@ -4200,7 +4200,8 @@
     "artist": "kamonabe",
     "nationalPokedexNumber": 665,
     "imageJa": "images/sets/nz/jp/81.jpg",
-    "imageEn": "images/sets/nz/en/81.jpg"
+    "imageEn": "images/sets/me3/89.jpg",
+    "enAvailable": true
   },
   {
     "id": "nz-82",
@@ -4387,7 +4388,8 @@
     "artist": "Masa",
     "nationalPokedexNumber": 699,
     "imageJa": "images/sets/nz/jp/84.jpg",
-    "imageEn": "images/sets/nz/en/84.jpg"
+    "imageEn": "images/sets/me3/92.jpg",
+    "enAvailable": true
   },
   {
     "id": "nz-85",
@@ -4448,7 +4450,8 @@
     "artist": "HYOCONOSUKE",
     "nationalPokedexNumber": 702,
     "imageJa": "images/sets/nz/jp/85.jpg",
-    "imageEn": "images/sets/nz/en/85.jpg"
+    "imageEn": "images/sets/me3/93.jpg",
+    "enAvailable": true
   },
   {
     "id": "nz-86",
@@ -4509,7 +4512,8 @@
     "artist": "Cona Nitanda",
     "nationalPokedexNumber": 35,
     "imageJa": "images/sets/nz/jp/86.jpg",
-    "imageEn": "images/sets/nz/en/86.jpg"
+    "imageEn": "images/sets/me3/94.jpg",
+    "enAvailable": true
   },
   {
     "id": "nz-87",
@@ -4574,7 +4578,8 @@
     "artist": "MINAMINAMI Take",
     "nationalPokedexNumber": 677,
     "imageJa": "images/sets/nz/jp/87.jpg",
-    "imageEn": "images/sets/nz/en/87.jpg"
+    "imageEn": "images/sets/me3/95.jpg",
+    "enAvailable": true
   },
   {
     "id": "nz-88",

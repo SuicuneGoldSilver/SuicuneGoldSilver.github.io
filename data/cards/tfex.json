@@ -6487,7 +6487,7 @@
     "subtypes": [
       "Basic"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless"],
     "rarity": "Common", "rarityJa": "C",
@@ -6538,7 +6538,7 @@
     "subtypes": [
       "Stage 1"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless"],
     "rarity": "Uncommon", "rarityJa": "U",
@@ -6588,7 +6588,7 @@
       "Tera",
       "ex"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless"],
     "rarity": "Double Rare", "rarityJa": "RR",
@@ -6639,7 +6639,7 @@
     "subtypes": [
       "Basic"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless"],
     "rarity": "Rare", "rarityJa": "R",
@@ -6688,7 +6688,7 @@
       "Basic",
       "Ancient"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless", "Colorless"],
     "rarity": "Rare", "rarityJa": "R",
@@ -6742,7 +6742,7 @@
       "Basic",
       "Future"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless", "Colorless", "Colorless"],
     "rarity": "Rare", "rarityJa": "R",
@@ -6795,7 +6795,7 @@
       "Basic",
       "ex"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": ["Colorless", "Colorless", "Colorless"],
     "rarity": "Double Rare", "rarityJa": "RR",
@@ -7520,7 +7520,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7547,7 +7547,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7574,7 +7574,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -7601,7 +7601,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7628,7 +7628,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -7655,7 +7655,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Art Rare", "rarityJa": "AR",
@@ -7682,7 +7682,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7709,7 +7709,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7736,7 +7736,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7763,7 +7763,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Art Rare", "rarityJa": "AR",
@@ -7790,7 +7790,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -7817,7 +7817,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Art Rare", "rarityJa": "AR",
@@ -7844,7 +7844,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Art Rare", "rarityJa": "AR",
@@ -7871,7 +7871,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7898,7 +7898,7 @@
     "subtypes": [
       "Item"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7925,7 +7925,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Special Art Rare", "rarityJa": "SR",
@@ -7952,7 +7952,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -7979,7 +7979,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8006,7 +8006,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8033,7 +8033,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8060,7 +8060,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8087,7 +8087,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8114,7 +8114,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Special Art Rare", "rarityJa": "SR",
@@ -8141,7 +8141,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8168,7 +8168,7 @@
     "subtypes": [
       "Tool"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8195,7 +8195,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8222,7 +8222,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8249,7 +8249,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8276,7 +8276,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8303,7 +8303,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8330,7 +8330,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8357,7 +8357,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8384,7 +8384,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8411,7 +8411,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8438,7 +8438,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8465,7 +8465,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8492,7 +8492,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8519,7 +8519,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8546,7 +8546,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8573,7 +8573,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8600,7 +8600,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8627,7 +8627,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8654,7 +8654,7 @@
     "subtypes": [
       "Supporter"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8681,7 +8681,7 @@
     "subtypes": [
       "Stadium"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8708,7 +8708,7 @@
     "subtypes": [
       "Stadium"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Common", "rarityJa": "C",
@@ -8735,7 +8735,7 @@
     "subtypes": [
       "Stadium"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8762,7 +8762,7 @@
     "subtypes": [
       "Stadium"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8789,7 +8789,7 @@
     "subtypes": [
       "Stadium"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Special Art Rare", "rarityJa": "SR",
@@ -8816,7 +8816,7 @@
     "subtypes": [
       "Special Energy"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8843,7 +8843,7 @@
     "subtypes": [
       "Special Energy"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Uncommon", "rarityJa": "U",
@@ -8870,7 +8870,7 @@
     "subtypes": [
       "Special Energy"
     ],
-    "weaknesses": null,
+    "weaknesses": [],
     "resistances": [],
     "retreatCost": null,
     "rarity": "Special Art Rare", "rarityJa": "SR",

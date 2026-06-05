@@ -2116,9 +2116,9 @@
     "setIdJa": "mc",
     "setIdEn": "tm",
     "numberJa": "036/101",
-    "numberEn": "060/167",
+    "numberEn": "061/167",
     "nameJa": "イルカマンex",
-    "nameEn": "Palafin",
+    "nameEn": "Palafin ex",
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1",
@@ -2167,7 +2167,7 @@
     "artist": "PLANETA Mochizuki",
     "nationalPokedexNumber": 964,
     "imageJa": "images/sets/mc/jp/36.jpg",
-    "imageEn": "images/sets/tm/en/60.jpg",
+    "imageEn": "images/sets/tm/en/61.jpg",
     "enAvailable": true
   },
   {
@@ -4647,9 +4647,9 @@
     "setIdJa": "mc",
     "setIdEn": "tm",
     "numberJa": "077/101",
-    "numberEn": "059/167",
+    "numberEn": "124/167",
     "nameJa": "ブロロン",
-    "nameEn": "Finizen",
+    "nameEn": "Varoom",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4707,7 +4707,7 @@
     "artist": "Shigenori Negishi",
     "nationalPokedexNumber": 963,
     "imageJa": "images/sets/mc/jp/77.jpg",
-    "imageEn": "images/sets/tm/en/59.jpg",
+    "imageEn": "images/sets/tm/en/124.jpg",
     "enAvailable": true
   },
   {
@@ -4715,9 +4715,9 @@
     "setIdJa": "mc",
     "setIdEn": "tm",
     "numberJa": "078/101",
-    "numberEn": "060/167",
+    "numberEn": "125/167",
     "nameJa": "ブロロローム",
-    "nameEn": "Palafin",
+    "nameEn": "Revavroom",
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -4776,7 +4776,7 @@
     "artist": "Hasuno",
     "nationalPokedexNumber": 964,
     "imageJa": "images/sets/mc/jp/78.jpg",
-    "imageEn": "images/sets/tm/en/60.jpg",
+    "imageEn": "images/sets/tm/en/125.jpg",
     "enAvailable": true
   },
   {

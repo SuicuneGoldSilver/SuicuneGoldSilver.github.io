@@ -45,7 +45,7 @@
     "artist": "OKUBO",
     "nationalPokedexNumber": 102,
     "imageJa": "images/sets/seb/jp/1.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/2_hires.png"
+    "imageEn": "images/sets/seb/en/1.jpg"
   },
   {
     "id": "seb-2",
@@ -94,7 +94,7 @@
     "artist": "Oswaldo KATO",
     "nationalPokedexNumber": 103,
     "imageJa": "images/sets/seb/jp/2.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/3_hires.png"
+    "imageEn": "images/sets/seb/en/2.jpg"
   },
   {
     "id": "seb-3",
@@ -152,7 +152,7 @@
     "artist": "PLANETA Tsuji",
     "nationalPokedexNumber": 632,
     "imageJa": "images/sets/seb/jp/3.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/4_hires.png"
+    "imageEn": "images/sets/seb/en/3.jpg"
   },
   {
     "id": "seb-4",
@@ -200,7 +200,7 @@
     "artist": "Iori Suzuki",
     "nationalPokedexNumber": 664,
     "imageJa": "images/sets/seb/jp/4.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/5_hires.png"
+    "imageEn": "images/sets/seb/en/4.jpg"
   },
   {
     "id": "seb-5",
@@ -261,7 +261,7 @@
     "artist": "tono",
     "nationalPokedexNumber": 665,
     "imageJa": "images/sets/seb/jp/5.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/6_hires.png"
+    "imageEn": "images/sets/seb/en/5.jpg"
   },
   {
     "id": "seb-6",
@@ -320,7 +320,7 @@
     "artist": "Amelicart",
     "nationalPokedexNumber": 666,
     "imageJa": "images/sets/seb/jp/6.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/7_hires.png"
+    "imageEn": "images/sets/seb/en/6.jpg"
   },
   {
     "id": "seb-7",
@@ -369,7 +369,7 @@
     "artist": "Julie Hang",
     "nationalPokedexNumber": 951,
     "imageJa": "images/sets/seb/jp/7.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/12_hires.png"
+    "imageEn": "images/sets/seb/en/7.jpg"
   },
   {
     "id": "seb-8",
@@ -428,7 +428,7 @@
     "artist": "Toshinao Aoki",
     "nationalPokedexNumber": 953,
     "imageJa": "images/sets/seb/jp/8.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/13_hires.png"
+    "imageEn": "images/sets/seb/en/8.jpg"
   },
   {
     "id": "seb-9",
@@ -487,7 +487,7 @@
     "artist": "Masako Tomii",
     "nationalPokedexNumber": 954,
     "imageJa": "images/sets/seb/jp/9.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/14_hires.png"
+    "imageEn": "images/sets/seb/en/9.jpg"
   },
   {
     "id": "seb-10",
@@ -551,7 +551,7 @@
     "artist": "danciao",
     "nationalPokedexNumber": 1001,
     "imageJa": "images/sets/seb/jp/10.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/15_hires.png"
+    "imageEn": "images/sets/seb/en/10.jpg"
   },
   {
     "id": "seb-11",
@@ -613,7 +613,7 @@
     "artist": "Taiga Kasai",
     "nationalPokedexNumber": 128,
     "imageJa": "images/sets/seb/jp/11.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/18_hires.png"
+    "imageEn": "images/sets/seb/en/11.jpg"
   },
   {
     "id": "seb-12",
@@ -669,7 +669,7 @@
     "artist": "0313",
     "nationalPokedexNumber": 494,
     "imageJa": "images/sets/seb/jp/12.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/21_hires.png"
+    "imageEn": "images/sets/seb/en/12.jpg"
   },
   {
     "id": "seb-13",
@@ -730,7 +730,7 @@
     "artist": "MARINA Chikazawa",
     "nationalPokedexNumber": 636,
     "imageJa": "images/sets/seb/jp/13.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/24_hires.png"
+    "imageEn": "images/sets/seb/en/13.jpg"
   },
   {
     "id": "seb-14",
@@ -792,7 +792,7 @@
     "artist": "matazo",
     "nationalPokedexNumber": 637,
     "imageJa": "images/sets/seb/jp/14.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/25_hires.png"
+    "imageEn": "images/sets/seb/en/14.jpg"
   },
   {
     "id": "seb-15",
@@ -854,7 +854,7 @@
     "artist": "Minahamu",
     "nationalPokedexNumber": 850,
     "imageJa": "images/sets/seb/jp/15.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/27_hires.png"
+    "imageEn": "images/sets/seb/en/15.jpg"
   },
   {
     "id": "seb-16",
@@ -916,7 +916,7 @@
     "artist": "Aliya Chen",
     "nationalPokedexNumber": 851,
     "imageJa": "images/sets/seb/jp/16.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/28_hires.png"
+    "imageEn": "images/sets/seb/en/16.jpg"
   },
   {
     "id": "seb-17",
@@ -966,7 +966,7 @@
     "artist": "Tomomi Ozaki",
     "nationalPokedexNumber": 909,
     "imageJa": "images/sets/seb/jp/17.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/29_hires.png"
+    "imageEn": "images/sets/seb/en/17.jpg"
   },
   {
     "id": "seb-18",
@@ -1017,7 +1017,7 @@
     "artist": "Atsuya Uki",
     "nationalPokedexNumber": 910,
     "imageJa": "images/sets/seb/jp/18.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/30_hires.png"
+    "imageEn": "images/sets/seb/en/18.jpg"
   },
   {
     "id": "seb-19",
@@ -1075,7 +1075,7 @@
     "artist": "akagi",
     "nationalPokedexNumber": 911,
     "imageJa": "images/sets/seb/jp/19.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/31_hires.png"
+    "imageEn": "images/sets/seb/en/19.jpg"
   },
   {
     "id": "seb-20",
@@ -1137,7 +1137,7 @@
     "artist": "Mékayu",
     "nationalPokedexNumber": 935,
     "imageJa": "images/sets/seb/jp/20.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/33_hires.png"
+    "imageEn": "images/sets/seb/en/20.jpg"
   },
   {
     "id": "seb-21",
@@ -1200,7 +1200,7 @@
     "artist": "DOM",
     "nationalPokedexNumber": 936,
     "imageJa": "images/sets/seb/jp/21.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/34_hires.png"
+    "imageEn": "images/sets/seb/en/21.jpg"
   },
   {
     "id": "seb-22",
@@ -1262,7 +1262,7 @@
     "artist": "kantaro",
     "nationalPokedexNumber": 937,
     "imageJa": "images/sets/seb/jp/22.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/35_hires.png"
+    "imageEn": "images/sets/seb/en/22.jpg"
   },
   {
     "id": "seb-23",
@@ -1319,7 +1319,7 @@
     "artist": "PLANETA Mochizuki",
     "nationalPokedexNumber": 952,
     "imageJa": "images/sets/seb/jp/23.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/37_hires.png"
+    "imageEn": "images/sets/seb/en/23.jpg"
   },
   {
     "id": "seb-24",
@@ -1382,7 +1382,7 @@
     "artist": "toi8",
     "nationalPokedexNumber": 128,
     "imageJa": "images/sets/seb/jp/24.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/39_hires.png"
+    "imageEn": "images/sets/seb/en/24.jpg"
   },
   {
     "id": "seb-25",
@@ -1430,7 +1430,7 @@
     "artist": "Kedamahadaitai Yawarakai",
     "nationalPokedexNumber": 349,
     "imageJa": "images/sets/seb/jp/25.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/41_hires.png"
+    "imageEn": "images/sets/seb/en/25.jpg"
   },
   {
     "id": "seb-26",
@@ -1488,7 +1488,7 @@
     "artist": "hncl",
     "nationalPokedexNumber": 350,
     "imageJa": "images/sets/seb/jp/26.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/42_hires.png"
+    "imageEn": "images/sets/seb/en/26.jpg"
   },
   {
     "id": "seb-27",
@@ -1537,7 +1537,7 @@
     "artist": "Teeziro",
     "nationalPokedexNumber": 363,
     "imageJa": "images/sets/seb/jp/27.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/43_hires.png"
+    "imageEn": "images/sets/seb/en/27.jpg"
   },
   {
     "id": "seb-28",
@@ -1599,7 +1599,7 @@
     "artist": "Mina Nakai",
     "nationalPokedexNumber": 364,
     "imageJa": "images/sets/seb/jp/28.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/44_hires.png"
+    "imageEn": "images/sets/seb/en/28.jpg"
   },
   {
     "id": "seb-29",
@@ -1661,7 +1661,7 @@
     "artist": "Mitsuhiro Arita",
     "nationalPokedexNumber": 365,
     "imageJa": "images/sets/seb/jp/29.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/45_hires.png"
+    "imageEn": "images/sets/seb/en/29.jpg"
   },
   {
     "id": "seb-30",
@@ -1711,7 +1711,7 @@
     "artist": "Shinya Komatsu",
     "nationalPokedexNumber": 422,
     "imageJa": "images/sets/seb/jp/30.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/46_hires.png"
+    "imageEn": "images/sets/seb/en/30.jpg"
   },
   {
     "id": "seb-31",
@@ -1761,7 +1761,7 @@
     "artist": "rika",
     "nationalPokedexNumber": 991,
     "imageJa": "images/sets/seb/jp/31.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/55_hires.png"
+    "imageEn": "images/sets/seb/en/31.jpg"
   },
   {
     "id": "seb-32",
@@ -1818,7 +1818,7 @@
     "artist": "Yuya Oka",
     "nationalPokedexNumber": 1002,
     "imageJa": "images/sets/seb/jp/32.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/56_hires.png"
+    "imageEn": "images/sets/seb/en/32.jpg"
   },
   {
     "id": "seb-33",
@@ -1880,7 +1880,7 @@
     "artist": "aky CG Works",
     "nationalPokedexNumber": 25,
     "imageJa": "images/sets/seb/jp/33.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/57_hires.png"
+    "imageEn": "images/sets/seb/en/33.jpg"
   },
   {
     "id": "seb-34",
@@ -1928,7 +1928,7 @@
     "artist": "Hoshino KURO",
     "nationalPokedexNumber": 81,
     "imageJa": "images/sets/seb/jp/34.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/58_hires.png"
+    "imageEn": "images/sets/seb/en/34.jpg"
   },
   {
     "id": "seb-35",
@@ -1984,7 +1984,7 @@
     "artist": "Nisota Niso",
     "nationalPokedexNumber": 82,
     "imageJa": "images/sets/seb/jp/35.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/59_hires.png"
+    "imageEn": "images/sets/seb/en/35.jpg"
   },
   {
     "id": "seb-36",
@@ -2050,7 +2050,7 @@
     "artist": "Po-Suzuki",
     "nationalPokedexNumber": 462,
     "imageJa": "images/sets/seb/jp/36.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/60_hires.png"
+    "imageEn": "images/sets/seb/en/36.jpg"
   },
   {
     "id": "seb-37",
@@ -2109,7 +2109,7 @@
     "artist": "Shinya Mizuno",
     "nationalPokedexNumber": 479,
     "imageJa": "images/sets/seb/jp/37.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/61_hires.png"
+    "imageEn": "images/sets/seb/en/37.jpg"
   },
   {
     "id": "seb-38",
@@ -2169,7 +2169,7 @@
     "artist": "kamonabe",
     "nationalPokedexNumber": 522,
     "imageJa": "images/sets/seb/jp/38.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/62_hires.png"
+    "imageEn": "images/sets/seb/en/38.jpg"
   },
   {
     "id": "seb-39",
@@ -2230,7 +2230,7 @@
     "artist": "Sanosuke Sakuma",
     "nationalPokedexNumber": 523,
     "imageJa": "images/sets/seb/jp/39.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/63_hires.png"
+    "imageEn": "images/sets/seb/en/39.jpg"
   },
   {
     "id": "seb-40",
@@ -2280,7 +2280,7 @@
     "artist": "Miki Tanaka",
     "nationalPokedexNumber": 618,
     "imageJa": "images/sets/seb/jp/40.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/64_hires.png"
+    "imageEn": "images/sets/seb/en/40.jpg"
   },
   {
     "id": "seb-41",
@@ -2341,7 +2341,7 @@
     "artist": "Souichirou Gunjima",
     "nationalPokedexNumber": 785,
     "imageJa": "images/sets/seb/jp/41.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/65_hires.png"
+    "imageEn": "images/sets/seb/en/41.jpg"
   },
   {
     "id": "seb-42",
@@ -2394,7 +2394,7 @@
     "artist": "Pani Kobayashi",
     "nationalPokedexNumber": 940,
     "imageJa": "images/sets/seb/jp/42.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/66_hires.png"
+    "imageEn": "images/sets/seb/en/42.jpg"
   },
   {
     "id": "seb-43",
@@ -2461,7 +2461,7 @@
     "artist": "KEIICHIRO ITO",
     "nationalPokedexNumber": 941,
     "imageJa": "images/sets/seb/jp/43.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/67_hires.png"
+    "imageEn": "images/sets/seb/en/43.jpg"
   },
   {
     "id": "seb-44",
@@ -2524,7 +2524,7 @@
     "artist": "Nurikabe",
     "nationalPokedexNumber": 1008,
     "imageJa": "images/sets/seb/jp/44.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/69_hires.png"
+    "imageEn": "images/sets/seb/en/44.jpg"
   },
   {
     "id": "seb-45",
@@ -2573,7 +2573,7 @@
     "artist": "Yoko Hishida",
     "nationalPokedexNumber": 175,
     "imageJa": "images/sets/seb/jp/45.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/70_hires.png"
+    "imageEn": "images/sets/seb/en/45.jpg"
   },
   {
     "id": "seb-46",
@@ -2622,7 +2622,7 @@
     "artist": "Teeziro",
     "nationalPokedexNumber": 176,
     "imageJa": "images/sets/seb/jp/46.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/71_hires.png"
+    "imageEn": "images/sets/seb/en/46.jpg"
   },
   {
     "id": "seb-47",
@@ -2679,7 +2679,7 @@
     "artist": "Narano",
     "nationalPokedexNumber": 468,
     "imageJa": "images/sets/seb/jp/47.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/72_hires.png"
+    "imageEn": "images/sets/seb/en/47.jpg"
   },
   {
     "id": "seb-48",
@@ -2732,7 +2732,7 @@
     "artist": "HYOGONOSUKE",
     "nationalPokedexNumber": 480,
     "imageJa": "images/sets/seb/jp/48.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/78_hires.png"
+    "imageEn": "images/sets/seb/en/48.jpg"
   },
   {
     "id": "seb-49",
@@ -2797,7 +2797,7 @@
     "artist": "HYOGONOSUKE",
     "nationalPokedexNumber": 481,
     "imageJa": "images/sets/seb/jp/49.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/79_hires.png"
+    "imageEn": "images/sets/seb/en/49.jpg"
   },
   {
     "id": "seb-50",
@@ -2851,7 +2851,7 @@
     "artist": "HYOGONOSUKE",
     "nationalPokedexNumber": 482,
     "imageJa": "images/sets/seb/jp/50.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/80_hires.png"
+    "imageEn": "images/sets/seb/en/50.jpg"
   },
   {
     "id": "seb-51",
@@ -2917,7 +2917,7 @@
     "artist": "IKEDA Saki",
     "nationalPokedexNumber": 562,
     "imageJa": "images/sets/seb/jp/51.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/82_hires.png"
+    "imageEn": "images/sets/seb/en/51.jpg"
   },
   {
     "id": "seb-52",
@@ -2984,7 +2984,7 @@
     "artist": "Shiburingaru",
     "nationalPokedexNumber": 563,
     "imageJa": "images/sets/seb/jp/52.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/83_hires.png"
+    "imageEn": "images/sets/seb/en/52.jpg"
   },
   {
     "id": "seb-53",
@@ -3049,7 +3049,7 @@
     "artist": "Natsumi Yoshida",
     "nationalPokedexNumber": 677,
     "imageJa": "images/sets/seb/jp/53.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/84_hires.png"
+    "imageEn": "images/sets/seb/en/53.jpg"
   },
   {
     "id": "seb-54",
@@ -3111,7 +3111,7 @@
     "artist": "Yoriyuki Ikegami",
     "nationalPokedexNumber": 678,
     "imageJa": "images/sets/seb/jp/54.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/85_hires.png"
+    "imageEn": "images/sets/seb/en/54.jpg"
   },
   {
     "id": "seb-55",
@@ -3170,7 +3170,7 @@
     "artist": "Uninori",
     "nationalPokedexNumber": 702,
     "imageJa": "images/sets/seb/jp/55.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/87_hires.png"
+    "imageEn": "images/sets/seb/en/55.jpg"
   },
   {
     "id": "seb-56",
@@ -3227,7 +3227,7 @@
     "artist": "Koji Nakata",
     "nationalPokedexNumber": 769,
     "imageJa": "images/sets/seb/jp/56.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/90_hires.png"
+    "imageEn": "images/sets/seb/en/56.jpg"
   },
   {
     "id": "seb-57",
@@ -3298,7 +3298,7 @@
     "artist": "5ban Graphics",
     "nationalPokedexNumber": 770,
     "imageJa": "images/sets/seb/jp/57.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/91_hires.png"
+    "imageEn": "images/sets/seb/en/57.jpg"
   },
   {
     "id": "seb-58",
@@ -3359,7 +3359,7 @@
     "artist": "Sekio",
     "nationalPokedexNumber": 876,
     "imageJa": "images/sets/seb/jp/58.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/93_hires.png"
+    "imageEn": "images/sets/seb/en/58.jpg"
   },
   {
     "id": "seb-59",
@@ -3420,7 +3420,7 @@
     "artist": "Ebila",
     "nationalPokedexNumber": 987,
     "imageJa": "images/sets/seb/jp/59.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/96_hires.png"
+    "imageEn": "images/sets/seb/en/59.jpg"
   },
   {
     "id": "seb-60",
@@ -3468,7 +3468,7 @@
     "artist": "Apios",
     "nationalPokedexNumber": 56,
     "imageJa": "images/sets/seb/jp/60.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/98_hires.png"
+    "imageEn": "images/sets/seb/en/60.jpg"
   },
   {
     "id": "seb-61",
@@ -3529,7 +3529,7 @@
     "artist": "Felicia Chen",
     "nationalPokedexNumber": 57,
     "imageJa": "images/sets/seb/jp/61.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/99_hires.png"
+    "imageEn": "images/sets/seb/en/61.jpg"
   },
   {
     "id": "seb-62",
@@ -3590,7 +3590,7 @@
     "artist": "SIE NANAHARA",
     "nationalPokedexNumber": 979,
     "imageJa": "images/sets/seb/jp/62.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/100_hires.png"
+    "imageEn": "images/sets/seb/en/62.jpg"
   },
   {
     "id": "seb-63",
@@ -3653,7 +3653,7 @@
     "artist": "Uta",
     "nationalPokedexNumber": 128,
     "imageJa": "images/sets/seb/jp/63.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/101_hires.png"
+    "imageEn": "images/sets/seb/en/63.jpg"
   },
   {
     "id": "seb-64",
@@ -3702,7 +3702,7 @@
     "artist": "ryoma uratsuko",
     "nationalPokedexNumber": 231,
     "imageJa": "images/sets/seb/jp/64.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/102_hires.png"
+    "imageEn": "images/sets/seb/en/64.jpg"
   },
   {
     "id": "seb-65",
@@ -3766,7 +3766,7 @@
     "artist": "GOSSAN",
     "nationalPokedexNumber": 232,
     "imageJa": "images/sets/seb/jp/65.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/103_hires.png"
+    "imageEn": "images/sets/seb/en/65.jpg"
   },
   {
     "id": "seb-66",
@@ -3825,7 +3825,7 @@
     "artist": "Scav",
     "nationalPokedexNumber": 423,
     "imageJa": "images/sets/seb/jp/66.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/107_hires.png"
+    "imageEn": "images/sets/seb/en/66.jpg"
   },
   {
     "id": "seb-67",
@@ -3874,7 +3874,7 @@
     "artist": "Eri Kamei",
     "nationalPokedexNumber": 969,
     "imageJa": "images/sets/seb/jp/67.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/114_hires.png"
+    "imageEn": "images/sets/seb/en/67.jpg"
   },
   {
     "id": "seb-68",
@@ -3935,7 +3935,7 @@
     "artist": "takashi shiroishi",
     "nationalPokedexNumber": 970,
     "imageJa": "images/sets/seb/jp/68.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/115_hires.png"
+    "imageEn": "images/sets/seb/en/68.jpg"
   },
   {
     "id": "seb-69",
@@ -3999,7 +3999,7 @@
     "artist": "Ryuta Fuse",
     "nationalPokedexNumber": 1007,
     "imageJa": "images/sets/seb/jp/69.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/116_hires.png"
+    "imageEn": "images/sets/seb/en/69.jpg"
   },
   {
     "id": "seb-70",
@@ -4059,7 +4059,7 @@
     "artist": "YASHIRO Nanaco",
     "nationalPokedexNumber": 633,
     "imageJa": "images/sets/seb/jp/70.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/117_hires.png"
+    "imageEn": "images/sets/seb/en/70.jpg"
   },
   {
     "id": "seb-71",
@@ -4121,7 +4121,7 @@
     "artist": "chibi",
     "nationalPokedexNumber": 634,
     "imageJa": "images/sets/seb/jp/71.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/118_hires.png"
+    "imageEn": "images/sets/seb/en/71.jpg"
   },
   {
     "id": "seb-72",
@@ -4189,7 +4189,7 @@
     "artist": "5ban Graphics",
     "nationalPokedexNumber": 635,
     "imageJa": "images/sets/seb/jp/72.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/119_hires.png"
+    "imageEn": "images/sets/seb/en/72.jpg"
   },
   {
     "id": "seb-73",
@@ -4237,7 +4237,7 @@
     "artist": "Yukiko Baba",
     "nationalPokedexNumber": 944,
     "imageJa": "images/sets/seb/jp/73.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/120_hires.png"
+    "imageEn": "images/sets/seb/en/73.jpg"
   },
   {
     "id": "seb-74",
@@ -4297,7 +4297,7 @@
     "artist": "NC Empire",
     "nationalPokedexNumber": 945,
     "imageJa": "images/sets/seb/jp/74.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/121_hires.png"
+    "imageEn": "images/sets/seb/en/74.jpg"
   },
   {
     "id": "seb-75",
@@ -4406,7 +4406,7 @@
     "artist": "Akino Fukuji",
     "nationalPokedexNumber": 50,
     "imageJa": "images/sets/seb/jp/76.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/122_hires.png"
+    "imageEn": "images/sets/seb/en/76.jpg"
   },
   {
     "id": "seb-77",
@@ -4460,7 +4460,7 @@
     "artist": "Dsuke",
     "nationalPokedexNumber": 51,
     "imageJa": "images/sets/seb/jp/77.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/123_hires.png"
+    "imageEn": "images/sets/seb/en/77.jpg"
   },
   {
     "id": "seb-78",
@@ -4514,7 +4514,7 @@
     "artist": "Nabatame Kazutaka",
     "nationalPokedexNumber": 436,
     "imageJa": "images/sets/seb/jp/78.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/126_hires.png"
+    "imageEn": "images/sets/seb/en/78.jpg"
   },
   {
     "id": "seb-79",
@@ -4583,7 +4583,7 @@
     "artist": "kawayoo",
     "nationalPokedexNumber": 437,
     "imageJa": "images/sets/seb/jp/79.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/127_hires.png"
+    "imageEn": "images/sets/seb/en/79.jpg"
   },
   {
     "id": "seb-80",
@@ -4640,7 +4640,7 @@
     "artist": "AKIRA EGAWA",
     "nationalPokedexNumber": 890,
     "imageJa": "images/sets/seb/jp/80.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/141_hires.png"
+    "imageEn": "images/sets/seb/en/80.jpg"
   },
   {
     "id": "seb-81",
@@ -4699,7 +4699,7 @@
     "artist": "5ban Graphics",
     "nationalPokedexNumber": 978,
     "imageJa": "images/sets/seb/jp/81.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/142_hires.png"
+    "imageEn": "images/sets/seb/en/81.jpg"
   },
   {
     "id": "seb-82",
@@ -4748,7 +4748,7 @@
     "artist": "Aya Kusube",
     "nationalPokedexNumber": 287,
     "imageJa": "images/sets/seb/jp/82.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/145_hires.png"
+    "imageEn": "images/sets/seb/en/82.jpg"
   },
   {
     "id": "seb-83",
@@ -4798,7 +4798,7 @@
     "artist": "Kurata So",
     "nationalPokedexNumber": 288,
     "imageJa": "images/sets/seb/jp/83.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/146_hires.png"
+    "imageEn": "images/sets/seb/en/83.jpg"
   },
   {
     "id": "seb-84",
@@ -4858,7 +4858,7 @@
     "artist": "PLANETA Igarashi",
     "nationalPokedexNumber": 289,
     "imageJa": "images/sets/seb/jp/84.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/147_hires.png"
+    "imageEn": "images/sets/seb/en/84.jpg"
   },
   {
     "id": "seb-85",
@@ -4906,7 +4906,7 @@
     "artist": "Ligton",
     "nationalPokedexNumber": 335,
     "imageJa": "images/sets/seb/jp/85.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/149_hires.png"
+    "imageEn": "images/sets/seb/en/85.jpg"
   },
   {
     "id": "seb-86",
@@ -4962,7 +4962,7 @@
     "artist": "Shinji Kanda",
     "nationalPokedexNumber": 352,
     "imageJa": "images/sets/seb/jp/86.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/150_hires.png"
+    "imageEn": "images/sets/seb/en/86.jpg"
   },
   {
     "id": "seb-87",
@@ -5026,7 +5026,7 @@
     "artist": "Anesaki Dynamic",
     "nationalPokedexNumber": 626,
     "imageJa": "images/sets/seb/jp/87.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/151_hires.png"
+    "imageEn": "images/sets/seb/en/87.jpg"
   },
   {
     "id": "seb-88",
@@ -5087,7 +5087,7 @@
     "artist": "miki kudo",
     "nationalPokedexNumber": 694,
     "imageJa": "images/sets/seb/jp/88.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/154_hires.png"
+    "imageEn": "images/sets/seb/en/88.jpg"
   },
   {
     "id": "seb-89",
@@ -5148,7 +5148,7 @@
     "artist": "Ryota Murayama",
     "nationalPokedexNumber": 695,
     "imageJa": "images/sets/seb/jp/89.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/155_hires.png"
+    "imageEn": "images/sets/seb/en/89.jpg"
   },
   {
     "id": "seb-90",
@@ -5210,7 +5210,7 @@
     "artist": "Saboteri",
     "nationalPokedexNumber": 765,
     "imageJa": "images/sets/seb/jp/90.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/156_hires.png"
+    "imageEn": "images/sets/seb/en/90.jpg"
   },
   {
     "id": "seb-91",
@@ -5258,7 +5258,7 @@
     "artist": "USGMEN",
     "nationalPokedexNumber": 924,
     "imageJa": "images/sets/seb/jp/91.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/157_hires.png"
+    "imageEn": "images/sets/seb/en/91.jpg"
   },
   {
     "id": "seb-92",
@@ -5317,7 +5317,7 @@
     "artist": "DOM",
     "nationalPokedexNumber": 925,
     "imageJa": "images/sets/seb/jp/92.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/158_hires.png"
+    "imageEn": "images/sets/seb/en/92.jpg"
   },
   {
     "id": "seb-93",
@@ -5379,7 +5379,7 @@
     "artist": "GIDORA",
     "nationalPokedexNumber": 1024,
     "imageJa": "images/sets/seb/jp/93.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/161_hires.png"
+    "imageEn": "images/sets/seb/en/93.jpg"
   },
   {
     "id": "seb-94",
@@ -5400,7 +5400,7 @@
     "rarityJa": "U",
     "artist": "AYUMI ODASHIMA",
     "imageJa": "images/sets/seb/jp/94.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/171_hires.png"
+    "imageEn": "images/sets/seb/en/94.jpg"
   },
   {
     "id": "seb-95",
@@ -5422,7 +5422,7 @@
     "rarityJa": "ACE",
     "artist": "Ayako Yoshida",
     "imageJa": "images/sets/seb/jp/95.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/186_hires.png"
+    "imageEn": "images/sets/seb/en/95.jpg"
   },
   {
     "id": "seb-96",
@@ -5443,7 +5443,7 @@
     "rarityJa": "U",
     "artist": "AYUMI ODASHIMA",
     "imageJa": "images/sets/seb/jp/96.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/166_hires.png"
+    "imageEn": "images/sets/seb/en/96.jpg"
   },
   {
     "id": "seb-97",
@@ -5465,7 +5465,7 @@
     "rarityJa": "ACE",
     "artist": "inose yukie",
     "imageJa": "images/sets/seb/jp/97.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/183_hires.png"
+    "imageEn": "images/sets/seb/en/97.jpg"
   },
   {
     "id": "seb-98",
@@ -5487,7 +5487,7 @@
     "rarityJa": "ACE",
     "artist": "Toyste Beach",
     "imageJa": "images/sets/seb/jp/98.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/162_hires.png"
+    "imageEn": "images/sets/seb/en/98.jpg"
   },
   {
     "id": "seb-99",
@@ -5508,7 +5508,7 @@
     "rarityJa": "U",
     "artist": "Studio Bora Inc.",
     "imageJa": "images/sets/seb/jp/99.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/168_hires.png"
+    "imageEn": "images/sets/seb/en/99.jpg"
   },
   {
     "id": "seb-100",
@@ -5529,7 +5529,7 @@
     "rarityJa": "U",
     "artist": "Studio Bora Inc.",
     "imageJa": "images/sets/seb/jp/100.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/163_hires.png"
+    "imageEn": "images/sets/seb/en/100.jpg"
   },
   {
     "id": "seb-101",
@@ -5550,7 +5550,7 @@
     "rarityJa": "U",
     "artist": "Studio Bora Inc.",
     "imageJa": "images/sets/seb/jp/101.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/188_hires.png"
+    "imageEn": "images/sets/seb/en/101.jpg"
   },
   {
     "id": "seb-102",
@@ -5571,7 +5571,7 @@
     "rarityJa": "U",
     "artist": "Akira Komayama",
     "imageJa": "images/sets/seb/jp/102.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/170_hires.png"
+    "imageEn": "images/sets/seb/en/102.jpg"
   },
   {
     "id": "seb-103",
@@ -5592,7 +5592,7 @@
     "rarityJa": "U",
     "artist": "Naoki Saito",
     "imageJa": "images/sets/seb/jp/103.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/167_hires.png"
+    "imageEn": "images/sets/seb/en/103.jpg"
   },
   {
     "id": "seb-104",
@@ -5613,7 +5613,7 @@
     "rarityJa": "U",
     "artist": "Taira Akitsu",
     "imageJa": "images/sets/seb/jp/104.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/178_hires.png"
+    "imageEn": "images/sets/seb/en/104.jpg"
   },
   {
     "id": "seb-105",
@@ -5634,7 +5634,7 @@
     "rarityJa": "U",
     "artist": "imoniii",
     "imageJa": "images/sets/seb/jp/105.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/180_hires.png"
+    "imageEn": "images/sets/seb/en/105.jpg"
   },
   {
     "id": "seb-106",
@@ -5655,7 +5655,7 @@
     "rarityJa": "U",
     "artist": "AYUMI ODASHIMA",
     "imageJa": "images/sets/seb/jp/106.jpg",
-    "imageEn": "https://images.pokemontcg.io/sv8/177_hires.png"
+    "imageEn": "images/sets/seb/en/106.jpg"
   },
   {
     "id": "seb-107",
