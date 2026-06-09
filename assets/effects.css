@@ -4,11 +4,11 @@
    ──────────────────────────────────────────────────────── */
 
 ::-webkit-scrollbar              { width: 6px; height: 6px; }
-::-webkit-scrollbar-track        { background: #0f1117; }
-::-webkit-scrollbar-thumb        { background: #2a2d3a; border-radius: 3px; }
+::-webkit-scrollbar-track        { background: #09090b; }
+::-webkit-scrollbar-thumb        { background: #1e1e2c; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover  { background: #a8d4e8; }
 
-* { scrollbar-width: thin; scrollbar-color: #2a2d3a #0f1117; }
+* { scrollbar-width: thin; scrollbar-color: #1e1e2c #09090b; }
 
 /* ── Favorite button heart pulse ─────────────────────────
    Plays on every click (both favorite and unfavorite).
@@ -63,7 +63,7 @@
 
 .pwa-install {
   background: #a8d4e8;
-  color: #0f1117;
+  color: #09090b;
   border: none;
   border-radius: 7px;
   padding: 6px 14px;
