@@ -4112,23 +4112,23 @@
   {
     "id": "nz-79",
     "setIdJa": "nz",
-    "setIdEn": null,
+    "setIdEn": "por",
     "numberJa": "079/080",
-    "numberEn": null,
+    "numberEn": "088/088",
     "nameJa": "テレパス超エネルギー",
-    "nameEn": null,
+    "nameEn": "Telepathic Psychic Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
     ],
     "textJa": "このカードは、ポケモンについているかぎり、超エネルギー1個ぶんとしてはたらく。このカードを手札から超ポケモンにつけたとき、自分の山札から超タイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
-    "textEn": null,
+    "textEn": "As long as this card is attached to a Pokémon, it provides Psychic Energy.\n\nWhen you attach this card from your hand to a Psychic Pokémon, search your deck for up to 2 Basic Psychic Pokémon and put them onto your Bench. Then, shuffle your deck.",
     "regulationMark": "J",
     "rarity": "Rare",
     "rarityJa": "R",
     "artist": "",
     "imageJa": "images/sets/nz/jp/79.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/nz/en/88.jpg"
   },
   {
     "id": "nz-80",
