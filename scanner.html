@@ -132,35 +132,38 @@
     }
 
     /* ── Scan zone overlay ────────────────────────────── */
-    /* A large rectangle in the center of the frame.
-       The user holds the BOTTOM portion of the card inside this box.
-       Dimming outside = visual guide only, crop is the whole frame. */
+    /* A narrow horizontal band centered in the frame.
+       The user points the camera close at the card's bottom text strip.
+       Everything above/below is dimmed. The band is the crop target. */
     .scan-zone-wrap {
       position: absolute;
       inset: 0;
       pointer-events: none;
     }
 
-    /* Four dim corners — leaves the center rectangle clear */
-    .scan-zone-wrap::before {
-      content: '';
+    /* Dim top half */
+    .dim-top {
       position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.45);
-      /* punch out the center with mask */
-      -webkit-mask: linear-gradient(#000 0 0) exclude,
-                    linear-gradient(#000 0 0) 10% 20% / 80% 55% no-repeat;
-      mask: linear-gradient(#000 0 0) exclude,
-            linear-gradient(#000 0 0) 10% 20% / 80% 55% no-repeat;
+      top: 0; left: 0; right: 0;
+      height: 41%;
+      background: rgba(0,0,0,0.55);
     }
 
-    /* Border of the scan zone */
+    /* Dim bottom half */
+    .dim-bottom {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 41%;
+      background: rgba(0,0,0,0.55);
+    }
+
+    /* The scan band: a narrow strip centered at 50% */
     .scan-zone {
       position: absolute;
-      top: 20%; left: 10%;
-      width: 80%; height: 55%;
-      border: 2px solid rgba(168,212,232,0.7);
-      border-radius: 8px;
+      top: 41%; left: 6%; right: 6%;
+      height: 18%;
+      border: 2px solid var(--accent);
+      border-radius: 4px;
     }
 
     /* Corner accents */
@@ -168,7 +171,7 @@
     .scan-zone-br::before, .scan-zone-br::after {
       content: '';
       position: absolute;
-      width: 20px; height: 20px;
+      width: 16px; height: 16px;
       border-color: var(--accent);
       border-style: solid;
     }
@@ -177,35 +180,46 @@
     .scan-zone-br::before { bottom: -2px; left: -2px; border-width: 0 0 3px 3px; }
     .scan-zone-br::after  { bottom: -2px; right: -2px; border-width: 0 3px 3px 0; }
 
-    /* Animated scan line inside the zone */
+    /* Animated sweep line inside the band */
     .scan-beam {
       position: absolute;
-      top: 20%; left: 10%; width: 80%;
+      top: 41%; left: 6%; right: 6%;
       height: 2px;
       background: linear-gradient(90deg, transparent, var(--accent), transparent);
       opacity: 0;
-      transform: translateY(0);
     }
     .scan-beam.active {
       opacity: 1;
-      animation: beamSweep 2s linear infinite;
+      animation: beamSweep 1.8s ease-in-out infinite;
     }
     @keyframes beamSweep {
-      0%   { transform: translateY(0); opacity: 0.8; }
-      90%  { opacity: 0.8; }
-      100% { transform: translateY(calc(55vh * 0.55)); opacity: 0; }
+      0%   { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(calc(18vh * 0.9)); opacity: 0.3; }
     }
 
-    /* Instruction label */
+    /* Instruction label — above the band */
     .scan-label {
       position: absolute;
-      top: calc(20% - 36px);
-      left: 10%; right: 10%;
+      top: calc(41% - 40px);
+      left: 0; right: 0;
       text-align: center;
-      font-size: 0.78rem;
-      color: rgba(255,255,255,0.75);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.88);
+      text-shadow: 0 1px 6px rgba(0,0,0,1);
+      letter-spacing: 0.02em;
+      pointer-events: none;
+    }
+
+    /* Sub-label below the band */
+    .scan-sublabel {
+      position: absolute;
+      top: calc(59% + 10px);
+      left: 0; right: 0;
+      text-align: center;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.5);
       text-shadow: 0 1px 4px rgba(0,0,0,0.9);
-      letter-spacing: 0.03em;
       pointer-events: none;
     }
 
@@ -482,11 +496,14 @@
 
       <!-- Scan zone guide -->
       <div class="scan-zone-wrap" id="scan-zone-wrap" style="display:none">
-        <div class="scan-label">カードの下部テキストを枠内に近づけてください</div>
+        <div class="dim-top"></div>
+        <div class="dim-bottom"></div>
+        <div class="scan-label">カード底部のテキストをここに合わせて近づける</div>
         <div class="scan-zone" id="scan-zone">
           <div class="scan-zone-br"></div>
         </div>
         <div class="scan-beam" id="scan-beam"></div>
+        <div class="scan-sublabel">JP・EN 両対応 — セット番号が大きく映るように</div>
       </div>
 
       <!-- Live status bar (bottom of camera view) -->
@@ -515,9 +532,9 @@
         <div class="init-title">カードスキャナー</div>
         <div class="init-sub">カードの下部に印刷されたセットコード・カード番号をカメラで読み取ります。</div>
         <div class="init-tip">
-          📌 カードを平らな場所に置き、スマホを<br>
-          カードの<strong>下半分</strong>に近づけてください。<br>
-          文字が大きく見えると読み取りやすくなります。
+          📌 カードの<strong>下部テキスト行</strong>（セット番号が印刷されている部分）を<br>
+          カメラの中央の枠に合わせて、<strong>近づけてください</strong>。<br>
+          カード全体は映らなくて大丈夫です。
         </div>
         <button class="init-btn" id="init-btn" onclick="startScanner()">カメラを起動する</button>
         <div class="init-loading" id="init-loading">OCRモデルを読み込み中…</div>
@@ -582,11 +599,12 @@
 
     async function initOCR() {
       ocrWorker = await Tesseract.createWorker('eng', 1);
-      // PSM 11 = sparse text: finds any text anywhere in the image
-      // This is key — PSM 7 (single line) fails if alignment isn't perfect
+      // Primary mode is PSM 7 (single text line) — fast and accurate when the
+      // band is tightly cropped. We fall back to PSM 11 (sparse text) in runScan
+      // if PSM 7 gets nothing, handling slight misalignment.
       await ocrWorker.setParameters({
         tessedit_char_whitelist: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/ ',
-        tessedit_pageseg_mode: '11',
+        tessedit_pageseg_mode: '7',
       });
     }
 
@@ -647,17 +665,20 @@
       var vW = video.videoWidth  || 1280;
       var vH = video.videoHeight || 720;
 
-      // Capture the zone rectangle mapped from CSS to video pixels
+      // Capture the narrow band, mapped from CSS to video pixels
       var wrapB = document.getElementById('camera-wrap').getBoundingClientRect();
       var zoneB = zone.getBoundingClientRect();
 
-      var sx = Math.max(0, (zoneB.left - wrapB.left) / wrapB.width  * vW);
-      var sy = Math.max(0, (zoneB.top  - wrapB.top)  / wrapB.height * vH);
-      var sw = Math.min(vW - sx, zoneB.width  / wrapB.width  * vW);
-      var sh = Math.min(vH - sy, zoneB.height / wrapB.height * vH);
+      // Small horizontal padding, generous vertical padding so text isn't clipped
+      var hPad = 0;
+      var vPad = zoneB.height * 0.15;
+      var sx = Math.max(0, (zoneB.left - wrapB.left - hPad) / wrapB.width  * vW);
+      var sy = Math.max(0, (zoneB.top  - wrapB.top  - vPad) / wrapB.height * vH);
+      var sw = Math.min(vW - sx, (zoneB.width  + hPad * 2) / wrapB.width  * vW);
+      var sh = Math.min(vH - sy, (zoneB.height + vPad * 2) / wrapB.height * vH);
 
-      // Upscale 5× for better OCR on small text
-      var scale = 5;
+      // Upscale 6× — the text is close-up so we want maximum resolution
+      var scale = 6;
       var canvas = document.createElement('canvas');
       canvas.width  = sw * scale;
       canvas.height = sh * scale;
@@ -802,13 +823,26 @@
       try {
         var [normCanvas, invCanvas] = preprocessFrame(video, zone);
 
-        // Try both normal and inverted — use whichever gets the number pattern
-        var parsed = null;
+        // Pass order:
+        //   0: PSM 7 (single line) on normal threshold  — fastest, best when aligned
+        //   1: PSM 7 on inverted threshold              — catches dark-background cards
+        //   2: PSM 11 (sparse text) on normal           — fallback for slight misalignment
+        //   3: PSM 11 on inverted                       — last resort
+        var parsed  = null;
         var rawText = '';
+        var psm7 = '7', psm11 = '11';
 
-        for (var pass = 0; pass < 2; pass++) {
-          var canvas  = pass === 0 ? normCanvas : invCanvas;
-          var dataURL = canvas.toDataURL('image/png');
+        var passes = [
+          { canvas: normCanvas, psm: psm7  },
+          { canvas: invCanvas,  psm: psm7  },
+          { canvas: normCanvas, psm: psm11 },
+          { canvas: invCanvas,  psm: psm11 },
+        ];
+
+        for (var pass = 0; pass < passes.length; pass++) {
+          var p = passes[pass];
+          await ocrWorker.setParameters({ tessedit_pageseg_mode: p.psm });
+          var dataURL = p.canvas.toDataURL('image/png');
           var result  = await ocrWorker.recognize(dataURL);
           var text    = result.data.text.trim();
           var attempt = parseCardText(text);
@@ -817,8 +851,9 @@
             rawText = attempt.raw;
             break;
           }
-          // Keep the last non-empty raw text for live display
-          if (text.replace(/\s/g, '').length > 2) rawText = text.toUpperCase().replace(/[^A-Z0-9/ ]/g, '').replace(/\s+/g, ' ').trim();
+          if (text.replace(/\s/g, '').length > 2) {
+            rawText = text.toUpperCase().replace(/[^A-Z0-9/ ]/g, '').replace(/\s+/g, ' ').trim();
+          }
         }
 
         // Always show what we're seeing
