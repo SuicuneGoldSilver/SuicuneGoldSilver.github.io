@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カードスキャナー — SuicuneGS</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3DYGH17Q05"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3DYGH17Q05');</script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="カメラでポケカをスキャン。日英カード情報をすぐに確認できます。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --bg:          #09090b;
+      --surface:     #111118;
+      --border:      #1e1e2c;
+      --text:        #f0f0f5;
+      --text-muted:  #8b8fa8;
+      --accent:      #a8d4e8;
+      --font-display: "Bebas Neue", Impact, sans-serif;
+      --font-body:    "DM Sans", "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Nav ─────────────────────────────────────────── */
+    nav {
+      padding: 16px 48px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(168,212,232,0.04) 0%, transparent 100%);
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      position: relative;
+      flex-shrink: 0;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .nav-logo:hover { opacity: 0.8; }
+    .nav-links { display: flex; align-items: center; gap: 24px; }
+    .nav-link {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--accent); }
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      margin-left: auto;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: transform 0.22s ease, opacity 0.22s ease;
+    }
+    .nav-hamburger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.is-open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-mobile {
+      position: absolute;
+      top: 100%;
+      left: 0; right: 0;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-direction: column;
+      z-index: 200;
+      animation: navSlideDown 0.18s ease;
+    }
+    @keyframes navSlideDown {
+      from { opacity: 0; transform: translateY(-6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .nav-mobile-link {
+      padding: 14px 24px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.15s, background 0.15s;
+      display: block;
+    }
+    .nav-mobile-link:last-child { border-bottom: none; }
+    .nav-mobile-link:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+    .nav-mobile-link.active { color: var(--accent); }
+
+    /* ── Scanner layout ───────────────────────────────── */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .scanner-main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    /* Camera area */
+    .camera-wrap {
+      position: relative;
+      flex: 1;
+      min-height: 280px;
+      background: #000;
+      overflow: hidden;
+    }
+
+    #camera {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Overlay: dims everything outside the scan strip */
+    .scan-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .dim-top {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 68%;
+      background: rgba(0,0,0,0.5);
+    }
+
+    .dim-bottom {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 18%;
+      background: rgba(0,0,0,0.5);
+    }
+
+    /* The scan strip: between 68% and 82% of camera height */
+    .scan-strip {
+      position: absolute;
+      top: 68%; left: 5%; right: 5%;
+      height: 14%;
+      border: 2px solid var(--accent);
+      border-radius: 4px;
+      box-shadow: 0 0 0 1px rgba(168,212,232,0.15);
+    }
+
+    .scan-strip-label {
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0; right: 0;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+      white-space: nowrap;
+    }
+
+    /* Corner marks on the scan strip */
+    .scan-strip::before,
+    .scan-strip::after {
+      content: '';
+      position: absolute;
+      width: 12px; height: 12px;
+      border-color: var(--accent);
+      border-style: solid;
+    }
+    .scan-strip::before {
+      top: -2px; left: -2px;
+      border-width: 2px 0 0 2px;
+    }
+    .scan-strip::after {
+      bottom: -2px; right: -2px;
+      border-width: 0 2px 2px 0;
+    }
+
+    /* Scan animation line */
+    .scan-line {
+      position: absolute;
+      left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      opacity: 0;
+    }
+    .scan-line.active {
+      animation: scanSweep 1.5s ease-in-out infinite;
+      opacity: 1;
+    }
+    @keyframes scanSweep {
+      0%   { top: 0; }
+      100% { top: calc(100% - 2px); }
+    }
+
+    /* Init/permission overlay */
+    .camera-init {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      background: rgba(0,0,0,0.85);
+      color: var(--text);
+      text-align: center;
+      padding: 24px;
+    }
+    .camera-init-icon {
+      width: 56px; height: 56px;
+      background: rgba(168,212,232,0.1);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--accent);
+    }
+    .camera-init-title {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      letter-spacing: 0.06em;
+    }
+    .camera-init-sub {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      max-width: 280px;
+      line-height: 1.6;
+    }
+    .camera-init-btn {
+      background: var(--accent);
+      color: #09090b;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 28px;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .camera-init-btn:hover { opacity: 0.85; }
+
+    /* Loading dots */
+    .dots-loader {
+      display: flex; gap: 5px; align-items: center;
+    }
+    .dots-loader span {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: dotBounce 1.2s ease-in-out infinite;
+    }
+    .dots-loader span:nth-child(2) { animation-delay: 0.2s; }
+    .dots-loader span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes dotBounce {
+      0%, 80%, 100% { transform: scale(0.7); opacity: 0.5; }
+      40%            { transform: scale(1);   opacity: 1; }
+    }
+
+    /* Bottom control bar */
+    .scan-bar {
+      flex-shrink: 0;
+      padding: 16px 24px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+    }
+
+    .scan-status {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      min-height: 1.2em;
+      text-align: center;
+    }
+    .scan-status.ok { color: #5ec97e; }
+    .scan-status.err { color: #e05a5a; }
+
+    #scan-btn {
+      width: 100%;
+      max-width: 360px;
+      height: 52px;
+      background: var(--accent);
+      color: #09090b;
+      border: none;
+      border-radius: 12px;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: opacity 0.15s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    #scan-btn:active { transform: scale(0.97); }
+    #scan-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* ── Result panel ─────────────────────────────────── */
+    #result-panel {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      background: var(--bg);
+    }
+
+    .result-header {
+      padding: 16px 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .result-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+    .result-close {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .result-close:hover { color: var(--text); border-color: var(--text-muted); }
+
+    .result-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      padding: 12px 16px 20px;
+    }
+
+    .result-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      text-decoration: none;
+      color: var(--text);
+      transition: border-color 0.15s, transform 0.12s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .result-card:not(:first-child) { margin-top: 8px; }
+    .result-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .result-card:active { transform: scale(0.98); }
+
+    .result-card-img {
+      width: 60px;
+      height: 84px;
+      border-radius: 6px;
+      object-fit: contain;
+      background: var(--bg);
+      flex-shrink: 0;
+    }
+
+    .result-card-info {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .result-card-name-ja {
+      font-weight: 700;
+      font-size: 0.98rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .result-card-name-en {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .result-card-meta {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 2px;
+    }
+    .result-card-num {
+      font-family: monospace;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      opacity: 0.7;
+    }
+    .result-arrow {
+      color: var(--accent);
+      flex-shrink: 0;
+      opacity: 0.7;
+    }
+
+    /* ── Error / not found ────────────────────────────── */
+    .result-empty {
+      padding: 20px;
+      text-align: center;
+    }
+    .result-empty-icon {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+    .result-empty-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .result-empty-sub {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+    .result-raw {
+      margin-top: 10px;
+      font-family: monospace;
+      font-size: 0.75rem;
+      background: var(--border);
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: var(--text-muted);
+      word-break: break-all;
+    }
+
+    /* ── Hint tooltip on camera view ─────────────────── */
+    .scan-hint-overlay {
+      position: absolute;
+      bottom: 16%;
+      left: 0; right: 0;
+      text-align: center;
+      pointer-events: none;
+    }
+    .scan-hint-pill {
+      display: inline-block;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border: 1px solid rgba(168,212,232,0.2);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+    }
+
+    /* ── Desktop layout ───────────────────────────────── */
+    @media (min-width: 700px) {
+      .camera-wrap { max-height: 70vh; }
+      nav { padding: 16px 48px; }
+    }
+
+    @media (max-width: 700px) {
+      nav { padding: 14px 20px; gap: 16px; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">SuicuneGS</a>
+    <div class="nav-links">
+      <a href="/cardsearch.html" class="nav-link">カード検索</a>
+      <a href="/study.html" class="nav-link">カード勉強</a>
+      <a href="/favorites.html" class="nav-link">気に入りカード</a>
+      <a href="/vocablist.html" class="nav-link">日英単語リスト</a>
+    </div>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="メニュー" aria-expanded="false" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-mobile" id="nav-mobile" style="display:none">
+      <a href="/cardsearch.html" class="nav-mobile-link">カード検索</a>
+      <a href="/study.html" class="nav-mobile-link">カード勉強</a>
+      <a href="/favorites.html" class="nav-mobile-link">気に入りカード</a>
+      <a href="/vocablist.html" class="nav-mobile-link">日英単語リスト</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="scanner-main">
+
+      <!-- Camera area -->
+      <div class="camera-wrap" id="camera-wrap">
+        <video id="camera" autoplay playsinline muted></video>
+
+        <!-- Guide overlay -->
+        <div class="scan-overlay" id="scan-overlay">
+          <div class="dim-top"></div>
+          <div class="dim-bottom"></div>
+          <div class="scan-strip" id="scan-strip">
+            <span class="scan-strip-label">カードの下部テキストをここに合わせてください</span>
+            <div class="scan-line" id="scan-line"></div>
+          </div>
+          <div class="scan-hint-overlay">
+            <span class="scan-hint-pill">JP・EN両対応</span>
+          </div>
+        </div>
+
+        <!-- Init overlay (shown before camera starts) -->
+        <div class="camera-init" id="camera-init">
+          <div class="camera-init-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+              <circle cx="12" cy="13" r="4"/>
+            </svg>
+          </div>
+          <div class="camera-init-title">カードスキャナー</div>
+          <div class="camera-init-sub">カメラでポケカの下部テキストを読み取り、日英カード情報を表示します。</div>
+          <button class="camera-init-btn" id="start-btn" onclick="initScanner()">カメラを起動する</button>
+          <div id="init-error" style="display:none; font-size:0.82rem; color:#e05a5a; max-width:280px; text-align:center; line-height:1.6;"></div>
+        </div>
+      </div>
+
+      <!-- Control bar -->
+      <div class="scan-bar" id="scan-bar" style="display:none">
+        <div class="scan-status" id="scan-status">準備完了 — スキャンボタンを押してください</div>
+        <button id="scan-btn" onclick="doScan()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+          スキャン
+        </button>
+      </div>
+
+      <!-- Result panel -->
+      <div id="result-panel">
+        <div class="result-header">
+          <span class="result-title" id="result-title">スキャン結果</span>
+          <button class="result-close" onclick="clearResult()">もう一度</button>
+        </div>
+        <div id="result-cards" class="result-cards"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Tesseract.js v5 -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+
+  <script>
+    // ── Nav hamburger ────────────────────────────────────
+    function toggleMenu() {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      var isOpen = btn.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', isOpen);
+      menu.style.display = isOpen ? 'flex' : 'none';
+    }
+    document.addEventListener('click', function(e) {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      if (!document.querySelector('nav').contains(e.target) && btn.classList.contains('is-open')) {
+        btn.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.style.display = 'none';
+      }
+    });
+
+    // ── Set code mappings ────────────────────────────────
+
+    // JP printed code → JP setId
+    // Format on card: "[RegMark] [SetCode] [NNN/NNN] [Rarity]"
+    // e.g. "J M4 027/083 R"
+    const JP_CODES = {
+      // J regulation (2026)
+      'M4': 'ns',
+      'M3': 'nz',
+      // H regulation (2024) — SV era
+      'SV7': 'sm',   // ステラミラクル
+      // Add more here as confirmed from physical cards
+    };
+
+    // EN setIdEn (lowercase) → list of JP setIds to search
+    // EN printed code on card matches setIdEn (case-insensitive)
+    // Format on card: "[RegMark] [SetCode] EN [NNN/NNN] ★"
+    // e.g. "J CRI EN 027/086 ★"
+    const EN_TO_JP = {
+      'cri':      ['ns'],
+      'por':      ['nz'],
+      'pfl':      ['ix'],
+      'meg':      ['ms', 'mb'],
+      'dri':      ['gotr', 'haa'],
+      'jt':       ['bp'],
+      'sv8pt5':   ['tfex'],
+      'sv8':      ['seb', 'pd'],
+      'scr':      ['sm'],
+      'sv7':      ['sm'],
+      'sf':       ['nw', 'mc'],
+      'twm':      ['mc', 'ch'],
+      'tm':       ['mc', 'ch'],
+      'tef':      ['wf', 'cj'],
+      'tf':       ['wf', 'cj'],
+      'sv10':     ['md'],
+      'blk':      ['bwbb'],
+      'wht':      ['bwwf'],
+      'pal':      ['pal'],
+      // Common alternate OCR reads
+      'ssp':      ['seb', 'pd'],
+    };
+
+    // ── Data cache ───────────────────────────────────────
+    const dataCache = {};
+
+    async function fetchJSON(url) {
+      if (dataCache[url]) return dataCache[url];
+      const r = await fetch(url);
+      if (!r.ok) throw new Error('fetch failed: ' + url);
+      const d = await r.json();
+      dataCache[url] = d;
+      return d;
+    }
+
+    // ── Tesseract worker ─────────────────────────────────
+    let ocrWorker = null;
+
+    async function initOCR() {
+      ocrWorker = await Tesseract.createWorker('eng', 1);
+      await ocrWorker.setParameters({
+        tessedit_char_whitelist: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/ ',
+        tessedit_pageseg_mode: '7',
+      });
+    }
+
+    // ── Camera ───────────────────────────────────────────
+    let stream = null;
+
+    async function initScanner() {
+      var btn = document.getElementById('start-btn');
+      var errEl = document.getElementById('init-error');
+      btn.disabled = true;
+      btn.textContent = '起動中…';
+      errEl.style.display = 'none';
+
+      try {
+        // Start camera + OCR worker in parallel
+        const [s] = await Promise.all([
+          navigator.mediaDevices.getUserMedia({
+            video: {
+              facingMode: { ideal: 'environment' },
+              width: { ideal: 1280 },
+              height: { ideal: 720 },
+            }
+          }),
+          initOCR(),
+        ]);
+
+        stream = s;
+        const video = document.getElementById('camera');
+        video.srcObject = stream;
+        await video.play();
+
+        document.getElementById('camera-init').style.display = 'none';
+        document.getElementById('scan-bar').style.display = 'flex';
+
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = 'カメラを起動する';
+        errEl.style.display = 'block';
+        if (err.name === 'NotAllowedError' || err.name === 'PermissionDeniedError') {
+          errEl.textContent = 'カメラのアクセスが拒否されました。ブラウザの設定からカメラ許可を有効にしてください。';
+        } else if (err.name === 'NotFoundError') {
+          errEl.textContent = 'カメラが見つかりません。';
+        } else {
+          errEl.textContent = 'エラー: ' + err.message;
+        }
+      }
+    }
+
+    // ── Image preprocessing ──────────────────────────────
+    function preprocessCanvas(canvas) {
+      var ctx = canvas.getContext('2d');
+      var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      var data = imageData.data;
+
+      for (var i = 0; i < data.length; i += 4) {
+        var gray = 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+        // Boost contrast then threshold
+        gray = (gray - 128) * 1.8 + 128;
+        var val = gray > 140 ? 255 : 0;
+        data[i] = data[i + 1] = data[i + 2] = val;
+        data[i + 3] = 255;
+      }
+
+      ctx.putImageData(imageData, 0, 0);
+    }
+
+    function captureStrip() {
+      var video = document.getElementById('camera');
+      var strip = document.getElementById('scan-strip');
+      var cameraWrap = document.getElementById('camera-wrap');
+
+      var wrapB = cameraWrap.getBoundingClientRect();
+      var stripB = strip.getBoundingClientRect();
+
+      // Add generous vertical padding for OCR
+      var padPx = 8;
+      var relTop    = (stripB.top - wrapB.top - padPx) / wrapB.height;
+      var relBottom = (stripB.bottom - wrapB.top + padPx) / wrapB.height;
+      var relLeft   = (stripB.left - wrapB.left) / wrapB.width;
+      var relRight  = (stripB.right - wrapB.left) / wrapB.width;
+
+      var vW = video.videoWidth  || video.clientWidth;
+      var vH = video.videoHeight || video.clientHeight;
+
+      var sx = relLeft   * vW;
+      var sy = Math.max(0, relTop * vH);
+      var sw = (relRight - relLeft) * vW;
+      var sh = Math.min(vH - sy, (relBottom - relTop) * vH);
+
+      var scale = 4;
+      var canvas = document.createElement('canvas');
+      canvas.width  = sw * scale;
+      canvas.height = sh * scale;
+      var ctx = canvas.getContext('2d');
+      ctx.drawImage(video, sx, sy, sw, sh, 0, 0, canvas.width, canvas.height);
+
+      preprocessCanvas(canvas);
+      return canvas;
+    }
+
+    // ── OCR text parser ──────────────────────────────────
+    function parseCardText(raw) {
+      // Normalize: uppercase, collapse spaces, keep alphanumeric + /
+      var text = raw.toUpperCase().replace(/[^A-Z0-9/]+/g, ' ').replace(/\s+/g, ' ').trim();
+
+      // Card number pattern: NNN/NNN (1–3 digits slash 2–3 digits)
+      var numMatch = text.match(/\b(\d{1,3})\s*\/\s*(\d{2,3})\b/);
+      if (!numMatch) return null;
+
+      var cardNum   = parseInt(numMatch[1], 10);
+      var cardTotal = parseInt(numMatch[2], 10);
+
+      var isEN = /\bEN\b/.test(text);
+
+      if (isEN) {
+        // EN format: "... [SetCode] EN [NNN/NNN] ..."
+        // Find "EN" then take the token before it as set code
+        var enIdx = text.indexOf(' EN ');
+        if (enIdx < 0) enIdx = text.indexOf(' EN/');
+        if (enIdx < 0 && text.startsWith('EN ')) enIdx = -1; // edge case
+
+        var setCode = '';
+        if (enIdx > 0) {
+          var before = text.slice(0, enIdx).trim().split(/\s+/);
+          setCode = before[before.length - 1];
+        }
+        return { type: 'en', setCode: setCode.toLowerCase(), cardNum: cardNum, cardTotal: cardTotal, raw: text };
+      } else {
+        // JP format: "[RegMark] [SetCode] [NNN/NNN] [Rarity]"
+        var numPat  = /\b\d{1,3}\/\d{2,3}\b/;
+        var numPos  = text.search(numPat);
+        var before  = numPos > 0 ? text.slice(0, numPos).trim() : '';
+        var tokens  = before.split(/\s+/).filter(function(t) { return t.length > 0; });
+
+        var setCode = '';
+        var regMark = '';
+        if (tokens.length >= 2) {
+          regMark = tokens[tokens.length - 2];
+          setCode = tokens[tokens.length - 1];
+        } else if (tokens.length === 1) {
+          setCode = tokens[0];
+        }
+
+        return { type: 'jp', setCode: setCode, regMark: regMark, cardNum: cardNum, cardTotal: cardTotal, raw: text };
+      }
+    }
+
+    // ── Card lookup ──────────────────────────────────────
+    async function lookupCards(parsed) {
+      var results = [];
+
+      if (!parsed) return results;
+
+      if (parsed.type === 'en') {
+        var setIdEn  = parsed.setCode;
+        var jpSetIds = EN_TO_JP[setIdEn] || [];
+
+        for (var i = 0; i < jpSetIds.length; i++) {
+          try {
+            var cards = await fetchJSON('/data/cards/' + jpSetIds[i] + '.json');
+            for (var j = 0; j < cards.length; j++) {
+              var c = cards[j];
+              if (!c.setIdEn) continue;
+              if (c.setIdEn.toLowerCase() !== setIdEn) continue;
+              var enNum = parseInt(c.numberEn, 10);
+              if (enNum === parsed.cardNum) {
+                results.push(c);
+                break;
+              }
+            }
+          } catch (e) { /* set not found, skip */ }
+        }
+
+      } else if (parsed.type === 'jp') {
+        // Try direct set code lookup first
+        var jpSetId = JP_CODES[parsed.setCode];
+
+        if (jpSetId) {
+          results = await lookupInSet(jpSetId, parsed.cardNum, 'jp');
+        } else {
+          // Fallback: match by regulationMark + printedTotal from sets.json
+          try {
+            var sets = await fetchJSON('/data/sets.json');
+            var candidates = sets.filter(function(s) {
+              return s.language === 'ja' &&
+                     s.printedTotal === parsed.cardTotal &&
+                     (parsed.regMark ? s.regulationMark === parsed.regMark : true);
+            });
+            for (var k = 0; k < candidates.length; k++) {
+              var found = await lookupInSet(candidates[k].id, parsed.cardNum, 'jp');
+              results = results.concat(found);
+            }
+          } catch (e) { /* ignore */ }
+        }
+      }
+
+      return results;
+    }
+
+    async function lookupInSet(setId, cardNum, side) {
+      try {
+        var cards = await fetchJSON('/data/cards/' + setId + '.json');
+        for (var i = 0; i < cards.length; i++) {
+          var c = cards[i];
+          var n = side === 'jp' ? parseInt(c.numberJa, 10) : parseInt(c.numberEn, 10);
+          if (n === cardNum) return [c];
+        }
+      } catch (e) { /* ignore */ }
+      return [];
+    }
+
+    // ── Get set name from sets.json ──────────────────────
+    async function getSetName(setIdJa) {
+      try {
+        var sets = await fetchJSON('/data/sets.json');
+        var s = sets.find(function(x) { return x.id === setIdJa; });
+        return s ? s.name : setIdJa;
+      } catch (e) { return setIdJa; }
+    }
+
+    // ── Render result ───────────────────────────────────
+    async function renderResults(cards, parsed) {
+      var panel  = document.getElementById('result-panel');
+      var title  = document.getElementById('result-title');
+      var container = document.getElementById('result-cards');
+      container.innerHTML = '';
+
+      if (!cards || cards.length === 0) {
+        title.textContent = '見つかりませんでした';
+        var raw = parsed ? parsed.raw : '—';
+        container.innerHTML =
+          '<div class="result-empty">' +
+          '<div class="result-empty-title">カードが見つかりませんでした</div>' +
+          '<div class="result-empty-sub">カードの底部テキストを枠内に合わせて<br>再度スキャンしてください。</div>' +
+          (raw ? '<div class="result-raw">OCR: ' + escHtml(raw) + '</div>' : '') +
+          '</div>';
+      } else {
+        title.textContent = cards.length > 1 ? '候補: ' + cards.length + '件' : '見つかりました';
+        for (var i = 0; i < cards.length; i++) {
+          container.appendChild(await buildCardEl(cards[i]));
+        }
+      }
+
+      panel.style.display = 'flex';
+    }
+
+    async function buildCardEl(card) {
+      var setName = await getSetName(card.setIdJa);
+      var imgSrc  = card.imageJa || '';
+      var jpNum   = card.numberJa || '';
+      var enNum   = card.numberEn ? ' / EN ' + card.numberEn : '';
+
+      var a = document.createElement('a');
+      a.className = 'result-card';
+      a.href = '/cardsearch.html?card=' + encodeURIComponent(card.id);
+      a.innerHTML =
+        '<img class="result-card-img" src="/' + escHtml(imgSrc) + '" alt="" loading="lazy">' +
+        '<div class="result-card-info">' +
+          '<div class="result-card-name-ja">' + escHtml(card.nameJa || '—') + '</div>' +
+          '<div class="result-card-name-en">' + escHtml(card.nameEn || '') + '</div>' +
+          '<div class="result-card-meta">' +
+            '<span>' + escHtml(setName) + '</span>' +
+            '<span class="result-card-num">' + escHtml(jpNum) + escHtml(enNum) + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<svg class="result-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>';
+      return a;
+    }
+
+    function escHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // ── Scan ─────────────────────────────────────────────
+    var scanning = false;
+
+    async function doScan() {
+      if (scanning || !ocrWorker) return;
+      scanning = true;
+
+      var btn    = document.getElementById('scan-btn');
+      var status = document.getElementById('scan-status');
+      var line   = document.getElementById('scan-line');
+
+      btn.disabled = true;
+      status.className = 'scan-status';
+      status.textContent = 'スキャン中…';
+      line.classList.add('active');
+
+      // Haptic feedback
+      if (navigator.vibrate) navigator.vibrate(30);
+
+      try {
+        var canvas  = captureStrip();
+        var dataURL = canvas.toDataURL('image/png');
+
+        var result = await ocrWorker.recognize(dataURL);
+        var rawText = result.data.text.trim();
+
+        line.classList.remove('active');
+
+        var parsed = parseCardText(rawText);
+        var cards  = await lookupCards(parsed);
+
+        if (cards.length > 0) {
+          status.className = 'scan-status ok';
+          status.textContent = cards.length === 1 ? 'カードを認識しました' : cards.length + '件の候補が見つかりました';
+          if (navigator.vibrate) navigator.vibrate([20, 40, 20]);
+        } else {
+          status.className = 'scan-status err';
+          status.textContent = parsed
+            ? 'カードが見つかりません — もう一度試してください'
+            : 'テキストを読み取れません — 位置を調整してください';
+        }
+
+        await renderResults(cards, parsed);
+
+      } catch (err) {
+        line.classList.remove('active');
+        status.className = 'scan-status err';
+        status.textContent = 'エラーが発生しました: ' + err.message;
+      }
+
+      btn.disabled = false;
+      scanning = false;
+    }
+
+    function clearResult() {
+      document.getElementById('result-panel').style.display = 'none';
+      document.getElementById('result-cards').innerHTML = '';
+      document.getElementById('scan-status').className = 'scan-status';
+      document.getElementById('scan-status').textContent = '準備完了 — スキャンボタンを押してください';
+    }
+  </script>
+
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
+</body>
+</html>
