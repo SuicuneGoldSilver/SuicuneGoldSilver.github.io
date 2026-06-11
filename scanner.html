@@ -132,35 +132,26 @@
     }
 
     /* ── Scan zone overlay ────────────────────────────── */
-    /* A narrow horizontal band centered in the frame.
-       The user points the camera close at the card's bottom text strip.
-       Everything above/below is dimmed. The band is the crop target. */
     .scan-zone-wrap {
       position: absolute;
       inset: 0;
       pointer-events: none;
     }
 
-    /* Dim top half */
-    .dim-top {
+    /* Four dim panels — top, bottom, left, right of the scan band */
+    .dim-top, .dim-bottom, .dim-left, .dim-right {
       position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 41%;
-      background: rgba(0,0,0,0.55);
+      background: rgba(0,0,0,0.58);
     }
+    .dim-top    { top: 0;    left: 0; right: 0;  height: 41%; }
+    .dim-bottom { bottom: 0; left: 0; right: 0;  height: 41%; }
+    .dim-left   { top: 41%;  left: 0; width: 22%; height: 18%; }
+    .dim-right  { top: 41%;  right: 0; width: 22%; height: 18%; }
 
-    /* Dim bottom half */
-    .dim-bottom {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      height: 41%;
-      background: rgba(0,0,0,0.55);
-    }
-
-    /* The scan band: a narrow strip centered at 50% */
+    /* The scan band: narrow, centered — matches the width of the text strip */
     .scan-zone {
       position: absolute;
-      top: 41%; left: 6%; right: 6%;
+      top: 41%; left: 22%; right: 22%;
       height: 18%;
       border: 2px solid var(--accent);
       border-radius: 4px;
@@ -175,15 +166,15 @@
       border-color: var(--accent);
       border-style: solid;
     }
-    .scan-zone::before { top: -2px; left: -2px; border-width: 3px 0 0 3px; }
-    .scan-zone::after  { top: -2px; right: -2px; border-width: 3px 3px 0 0; }
-    .scan-zone-br::before { bottom: -2px; left: -2px; border-width: 0 0 3px 3px; }
+    .scan-zone::before { top: -2px; left: -2px;   border-width: 3px 0 0 3px; }
+    .scan-zone::after  { top: -2px; right: -2px;  border-width: 3px 3px 0 0; }
+    .scan-zone-br::before { bottom: -2px; left: -2px;  border-width: 0 0 3px 3px; }
     .scan-zone-br::after  { bottom: -2px; right: -2px; border-width: 0 3px 3px 0; }
 
     /* Animated sweep line inside the band */
     .scan-beam {
       position: absolute;
-      top: 41%; left: 6%; right: 6%;
+      top: 41%; left: 22%; right: 22%;
       height: 2px;
       background: linear-gradient(90deg, transparent, var(--accent), transparent);
       opacity: 0;
@@ -221,6 +212,28 @@
       color: rgba(255,255,255,0.5);
       text-shadow: 0 1px 4px rgba(0,0,0,0.9);
       pointer-events: none;
+    }
+
+    /* ── Tap-to-focus ring ────────────────────────────── */
+    .focus-ring {
+      position: absolute;
+      width: 56px; height: 56px;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      transform: translate(-50%, -50%) scale(1.4);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 6;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .focus-ring.show {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    .focus-ring.hide {
+      transform: translate(-50%, -50%) scale(0.9);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     /* ── Status bar ───────────────────────────────────── */
@@ -494,10 +507,15 @@
     <div class="camera-wrap" id="camera-wrap">
       <video id="camera" autoplay playsinline muted></video>
 
+      <!-- Tap-to-focus indicator -->
+      <div class="focus-ring" id="focus-ring"></div>
+
       <!-- Scan zone guide -->
       <div class="scan-zone-wrap" id="scan-zone-wrap" style="display:none">
         <div class="dim-top"></div>
         <div class="dim-bottom"></div>
+        <div class="dim-left"></div>
+        <div class="dim-right"></div>
         <div class="scan-label">カード底部のテキストをここに合わせて近づける</div>
         <div class="scan-zone" id="scan-zone">
           <div class="scan-zone-br"></div>
@@ -792,6 +810,48 @@
         var card  = cards.find(function(c) { return parseInt(c.numberJa, 10) === cardNum; });
         return card ? [card] : [];
       } catch(e) { return []; }
+    }
+
+    // ── Tap-to-focus ─────────────────────────────────────
+    var focusRingTimer = null;
+
+    document.getElementById('camera-wrap').addEventListener('click', function(e) {
+      // Only when camera is live and result overlay is not showing
+      if (!videoStream) return;
+      var overlay = document.getElementById('result-overlay');
+      if (overlay.style.display === 'flex') return;
+      tapToFocus(e.clientX, e.clientY);
+    });
+
+    function showFocusRing(clientX, clientY) {
+      var ring = document.getElementById('focus-ring');
+      var wrap = document.getElementById('camera-wrap');
+      var rect = wrap.getBoundingClientRect();
+      ring.style.left = (clientX - rect.left) + 'px';
+      ring.style.top  = (clientY - rect.top)  + 'px';
+      ring.className  = 'focus-ring show';
+      clearTimeout(focusRingTimer);
+      focusRingTimer = setTimeout(function() {
+        ring.className = 'focus-ring hide';
+      }, 1200);
+    }
+
+    async function tapToFocus(clientX, clientY) {
+      showFocusRing(clientX, clientY);
+      if (!videoStream) return;
+      var track = videoStream.getVideoTracks()[0];
+      if (!track) return;
+      try {
+        var wrap = document.getElementById('camera-wrap');
+        var rect = wrap.getBoundingClientRect();
+        var x = (clientX - rect.left) / rect.width;
+        var y = (clientY - rect.top)  / rect.height;
+        await track.applyConstraints({
+          advanced: [{ focusMode: 'single-shot', pointsOfInterest: [{ x: x, y: y }] }]
+        });
+      } catch(e) {
+        // ImageCapture focus not supported on this device — visual feedback still shown
+      }
     }
 
     // ── Scan loop ─────────────────────────────────────────
