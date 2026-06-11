@@ -6577,9 +6577,9 @@
   {
     "id": "sm-122",
     "setIdJa": "sm",
-    "setIdEn": null,
+    "setIdEn": "scr",
     "numberJa": "122/102",
-    "numberEn": null,
+    "numberEn": "173/142",
     "nameJa": "テラパゴスex",
     "nameEn": "Terapagos ex",
     "supertype": "Pokémon",
@@ -6638,7 +6638,7 @@
     "artist": "5ban Graphics",
     "nationalPokedexNumber": 1024,
     "imageJa": "images/sets/sm/jp/122.jpg",
-    "imageEn": null
+    "imageEn": "images/sets/sm/en/122.jpg"
   },
   {
     "id": "sm-123",
