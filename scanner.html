@@ -627,7 +627,8 @@
     }
 
     // ── Camera ───────────────────────────────────────────
-    var videoStream = null;
+    var videoStream  = null;
+    var imageCapture = null;
 
     async function startScanner() {
       var btn    = document.getElementById('init-btn');
@@ -651,6 +652,7 @@
         ]);
 
         videoStream = stream;
+        try { imageCapture = new ImageCapture(stream.getVideoTracks()[0]); } catch(e) {}
         var video = document.getElementById('camera');
         video.srcObject = stream;
         await video.play();
@@ -677,33 +679,56 @@
     }
 
     // ── Preprocessing ────────────────────────────────────
-    // Returns two canvases: light-background version and dark-background version.
-    // Cards can have white or dark bottom areas so we try both.
-    function preprocessFrame(video, zone) {
+    // Returns two canvases: light-background and dark-background versions.
+    // Pipeline: grabFrame (sharp sensor data) → contrast boost → sharpen at native
+    // resolution (fast) → 4× upscale → threshold.
+    async function preprocessFrame(video, zone) {
       var vW = video.videoWidth  || 1280;
       var vH = video.videoHeight || 720;
 
-      // Capture the narrow band, mapped from CSS to video pixels
       var wrapB = document.getElementById('camera-wrap').getBoundingClientRect();
       var zoneB = zone.getBoundingClientRect();
 
-      // Small horizontal padding, generous vertical padding so text isn't clipped
-      var hPad = 0;
       var vPad = zoneB.height * 0.15;
-      var sx = Math.max(0, (zoneB.left - wrapB.left - hPad) / wrapB.width  * vW);
+      var sx = Math.max(0, (zoneB.left - wrapB.left)        / wrapB.width  * vW);
       var sy = Math.max(0, (zoneB.top  - wrapB.top  - vPad) / wrapB.height * vH);
-      var sw = Math.min(vW - sx, (zoneB.width  + hPad * 2) / wrapB.width  * vW);
-      var sh = Math.min(vH - sy, (zoneB.height + vPad * 2) / wrapB.height * vH);
+      var sw = Math.min(vW - sx, zoneB.width  / wrapB.width  * vW);
+      var sh = Math.min(vH - sy, (zoneB.height + vPad * 2)  / wrapB.height * vH);
+      var iw = Math.round(sw), ih = Math.round(sh);
 
-      // Upscale 6× — the text is close-up so we want maximum resolution
-      var scale = 6;
+      // Step 1: Grab a full-resolution still from the camera sensor.
+      // grabFrame() returns a raw ImageBitmap (uncompressed, much sharper than
+      // a decoded video frame). Fall back to drawing from <video> if unavailable.
+      var rawCanvas = document.createElement('canvas');
+      rawCanvas.width = iw; rawCanvas.height = ih;
+      var rawCtx = rawCanvas.getContext('2d');
+      rawCtx.filter = 'contrast(1.7) brightness(1.05)';
+      if (imageCapture) {
+        try {
+          var bmp = await imageCapture.grabFrame();
+          rawCtx.drawImage(bmp, sx, sy, sw, sh, 0, 0, iw, ih);
+          bmp.close();
+        } catch(e) {
+          rawCtx.drawImage(video, sx, sy, sw, sh, 0, 0, iw, ih);
+        }
+      } else {
+        rawCtx.drawImage(video, sx, sy, sw, sh, 0, 0, iw, ih);
+      }
+      rawCtx.filter = 'none';
+
+      // Step 2: Sharpen at native resolution — cheap (≤250 K pixels) and effective.
+      applySharpen(rawCtx, iw, ih);
+
+      // Step 3: Upscale 4× for Tesseract (target ≥40 px per character height).
+      var scale = 4;
       var canvas = document.createElement('canvas');
-      canvas.width  = sw * scale;
-      canvas.height = sh * scale;
+      canvas.width = iw * scale; canvas.height = ih * scale;
       var ctx = canvas.getContext('2d');
-      ctx.drawImage(video, sx, sy, sw, sh, 0, 0, canvas.width, canvas.height);
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
+      ctx.drawImage(rawCanvas, 0, 0, canvas.width, canvas.height);
 
-      // Build two variants: normal threshold + inverted threshold
+      // Step 4: Binary threshold — two passes for light and dark card backgrounds.
       var id = ctx.getImageData(0, 0, canvas.width, canvas.height);
       var d  = id.data;
       var normCanvas = document.createElement('canvas');
@@ -717,9 +742,8 @@
 
       for (var i = 0; i < d.length; i += 4) {
         var gray = 0.299 * d[i] + 0.587 * d[i+1] + 0.114 * d[i+2];
-        // Adaptive: threshold at 50% of range (simple local-ish)
         var val  = gray > 128 ? 255 : 0;
-        var ival = val === 255 ? 0 : 255;
+        var ival = val ^ 255;
         nid.data[i] = nid.data[i+1] = nid.data[i+2] = val;  nid.data[i+3] = 255;
         iid.data[i] = iid.data[i+1] = iid.data[i+2] = ival; iid.data[i+3] = 255;
       }
@@ -727,6 +751,30 @@
       ic.putImageData(iid, 0, 0);
 
       return [normCanvas, invCanvas];
+    }
+
+    // 3×3 Laplacian sharpen kernel (cross only — fastest, no diagonal bleed).
+    // Operates in-place on a canvas context at native (pre-upscale) size.
+    function applySharpen(ctx, w, h) {
+      var id  = ctx.getImageData(0, 0, w, h);
+      var src = new Uint8ClampedArray(id.data);
+      var dst = id.data;
+      for (var y = 1; y < h - 1; y++) {
+        for (var x = 1; x < w - 1; x++) {
+          var base = (y * w + x) * 4;
+          for (var c = 0; c < 3; c++) {
+            dst[base + c] = Math.min(255, Math.max(0,
+              5 * src[base + c]
+              - src[((y-1)*w + x    ) * 4 + c]
+              - src[((y+1)*w + x    ) * 4 + c]
+              - src[(y    *w + x - 1) * 4 + c]
+              - src[(y    *w + x + 1) * 4 + c]
+            ));
+          }
+          dst[base + 3] = 255;
+        }
+      }
+      ctx.putImageData(id, 0, 0);
     }
 
     // ── OCR text parser ──────────────────────────────────
@@ -881,7 +929,7 @@
       var zone  = document.getElementById('scan-zone');
 
       try {
-        var [normCanvas, invCanvas] = preprocessFrame(video, zone);
+        var [normCanvas, invCanvas] = await preprocessFrame(video, zone);
 
         // Pass order:
         //   0: PSM 7 (single line) on normal threshold  — fastest, best when aligned
