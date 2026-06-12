@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>クイズ — SuicuneGS</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3DYGH17Q05"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3DYGH17Q05');</script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="ポケモンカードの英語名を当てるクイズ。60秒チャレンジ。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:          #09090b;
+      --surface:     #111118;
+      --border:      #1e1e2c;
+      --text:        #f0f0f5;
+      --text-muted:  #8b8fa8;
+      --accent:      #a8d4e8;
+      --ok:          #5ec97e;
+      --err:         #e07070;
+      --purple:      #c4b0e8;
+      --font-display: "Bebas Neue", Impact, sans-serif;
+      --font-body:    "DM Sans", "Segoe UI", sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Nav ───────────────────────────────────────────── */
+    nav {
+      padding: 12px 48px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(168,212,232,0.04) 0%, transparent 100%);
+      display: flex; align-items: center; gap: 32px;
+      position: relative; flex-shrink: 0;
+    }
+    .nav-logo { font-family: var(--font-display); font-size: 1.6rem; letter-spacing: 0.06em; color: var(--accent); text-decoration: none; }
+    .nav-links { display: flex; align-items: center; gap: 24px; }
+    .nav-link { font-size: 0.88rem; font-weight: 500; color: var(--text-muted); text-decoration: none; transition: color 0.15s; }
+    .nav-link:hover, .nav-link.is-active { color: var(--text); }
+    .nav-hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; margin-left: auto; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; transition: transform 0.22s ease, opacity 0.22s ease; }
+    .nav-hamburger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.is-open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-mobile { position: absolute; top: 100%; left: 0; right: 0; background: var(--surface); border-bottom: 1px solid var(--border); flex-direction: column; z-index: 200; animation: navSlideDown 0.18s ease; }
+    @keyframes navSlideDown { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+    .nav-mobile-link { padding: 14px 24px; font-size: 0.9rem; font-weight: 500; color: var(--text-muted); text-decoration: none; border-bottom: 1px solid var(--border); transition: color 0.15s, background 0.15s; display: block; }
+    .nav-mobile-link:last-child { border-bottom: none; }
+    .nav-mobile-link:hover { color: var(--text); background: rgba(255,255,255,0.03); }
+
+    /* ── Layout ────────────────────────────────────────── */
+    main { flex: 1; display: flex; flex-direction: column; max-width: 520px; width: 100%; margin: 0 auto; padding: 20px 16px 32px; }
+
+    /* ── Loading ───────────────────────────────────────── */
+    .quiz-loading { flex: 1; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.9rem; }
+
+    /* ── Setup Screen ──────────────────────────────────── */
+    #screen-setup { display: none; flex-direction: column; gap: 20px; flex: 1; }
+    .quiz-page-header { text-align: center; padding-top: 4px; }
+    .quiz-page-title { font-family: var(--font-display); font-size: 2.4rem; letter-spacing: 0.06em; color: var(--accent); line-height: 1; }
+    .quiz-page-sub { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; }
+
+    /* ── Mode selector ─────────────────────────────────── */
+    .mode-section-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+    .mode-list { display: flex; flex-direction: column; gap: 8px; }
+    .mode-card {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+      cursor: pointer;
+      text-align: left;
+      width: 100%;
+      transition: border-color 0.15s, background 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .mode-card:hover { border-color: var(--accent); }
+    .mode-card.is-selected { border-color: var(--accent); background: rgba(168,212,232,0.07); }
+    .mode-card-name { font-family: var(--font-display); font-size: 1.25rem; letter-spacing: 0.04em; color: var(--text); line-height: 1; }
+    .mode-card.is-selected .mode-card-name { color: var(--accent); }
+    .mode-card-desc { font-size: 0.8rem; color: var(--text-muted); margin-top: 5px; }
+
+    .quiz-select {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      padding: 10px 32px 10px 12px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b8fa8' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+    }
+
+    .start-btn {
+      background: var(--accent);
+      color: #09090b;
+      border: none;
+      border-radius: 12px;
+      padding: 16px;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .start-btn:hover { opacity: 0.88; }
+
+    .hs-row { background: var(--surface); border-radius: 12px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; }
+    .hs-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+    .hs-entry { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; }
+    .hs-label { color: var(--text-muted); }
+    .hs-value { font-weight: 700; color: var(--accent); }
+
+    /* ── Quiz Screen ───────────────────────────────────── */
+    #screen-quiz { display: none; flex-direction: column; flex: 1; gap: 12px; }
+    .quiz-hud { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; height: 44px; }
+    .hud-score { font-size: 0.88rem; color: var(--text-muted); }
+    .hud-score strong { color: var(--ok); font-size: 1.15rem; }
+    .hud-timer { font-family: var(--font-display); font-size: 2.4rem; letter-spacing: 0.04em; color: var(--accent); text-align: center; min-width: 60px; transition: color 0.3s; }
+    .hud-timer.urgent { color: var(--err); }
+    @keyframes streakPop { 0%,100% { transform: scale(1); } 50% { transform: scale(1.3); } }
+    .hud-timer.streak-pop { animation: streakPop 0.18s ease; }
+    @keyframes milestonePulse { 0%,100% { transform: scale(1); } 35%,65% { transform: scale(1.6); } }
+    .hud-timer.milestone-pulse { animation: milestonePulse 0.55s ease; }
+    .hud-timer.near-pb { color: var(--purple); }
+    .quiz-card-hint.hint-revealed { color: var(--text); font-weight: 600; font-size: 1rem; }
+    .hud-progress { font-size: 0.82rem; color: var(--text-muted); text-align: right; }
+    .quiz-pbar { height: 3px; background: var(--surface); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+    .quiz-pbar-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.3s ease; width: 0%; }
+
+    .quiz-card-area { display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; justify-content: center; min-height: 0; }
+    .quiz-card-img { max-height: 200px; width: auto; max-width: 100%; object-fit: contain; border-radius: 8px; display: block; }
+    .quiz-card-hint { font-size: 0.9rem; color: var(--text-muted); text-align: center; }
+
+    .quiz-options { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
+    .opt-btn {
+      background: var(--surface); border: 1.5px solid var(--border);
+      border-radius: 12px; padding: 0;
+      display: flex; align-items: stretch;
+      cursor: pointer;
+      transition: border-color 0.12s, background 0.12s;
+      -webkit-tap-highlight-color: transparent;
+      overflow: hidden;
+    }
+    .opt-btn:hover:not(:disabled) { border-color: var(--accent); }
+    .opt-btn:disabled { cursor: default; }
+    .opt-letter {
+      width: 44px; min-width: 44px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display); font-size: 1.1rem; letter-spacing: 0.04em;
+      color: var(--text-muted); border-right: 1px solid var(--border);
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      flex-shrink: 0;
+    }
+    .opt-text { padding: 13px 14px; font-size: 0.92rem; font-weight: 500; color: var(--text); line-height: 1.3; transition: color 0.12s; flex: 1; text-align: left; }
+    .opt-btn.is-correct { border-color: var(--ok); background: rgba(94,201,126,0.1); }
+    .opt-btn.is-correct .opt-letter { background: rgba(94,201,126,0.2); color: var(--ok); border-color: rgba(94,201,126,0.3); }
+    .opt-btn.is-correct .opt-text { color: var(--ok); }
+    .opt-btn.is-wrong { border-color: var(--err); background: rgba(224,112,112,0.1); }
+    .opt-btn.is-wrong .opt-letter { background: rgba(224,112,112,0.2); color: var(--err); border-color: rgba(224,112,112,0.3); }
+    .opt-btn.is-wrong .opt-text { color: var(--err); }
+    .opt-btn.is-dim { opacity: 0.3; }
+
+    /* ── Summary Screen ────────────────────────────────── */
+    #screen-summary { display: none; flex-direction: column; align-items: center; justify-content: center; flex: 1; gap: 20px; text-align: center; }
+    .summ-emoji { font-size: 3.6rem; line-height: 1; }
+    .summ-heading { font-family: var(--font-display); font-size: 2rem; letter-spacing: 0.06em; }
+    .summ-score-big { font-size: 3.8rem; font-weight: 700; color: var(--accent); line-height: 1; }
+    .summ-score-label { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; }
+    .summ-pb { display: inline-flex; align-items: center; gap: 6px; background: rgba(196,176,232,0.12); border: 1px solid rgba(196,176,232,0.35); border-radius: 20px; padding: 6px 16px; font-size: 0.82rem; color: var(--purple); font-weight: 600; }
+    .summ-actions { display: flex; flex-direction: column; gap: 10px; width: 100%; }
+    .summ-btn { border-radius: 12px; padding: 14px; font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: opacity 0.15s; -webkit-tap-highlight-color: transparent; }
+    .summ-btn:hover { opacity: 0.85; }
+    .summ-btn--primary { background: var(--accent); color: #09090b; border: none; }
+    .summ-btn--secondary { background: none; color: var(--text-muted); border: 1.5px solid var(--border); }
+    .summ-share { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: #000; color: #fff; border: none; border-radius: 12px; padding: 20px; font-family: var(--font-body); font-size: 1.05rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: opacity 0.15s; -webkit-tap-highlight-color: transparent; width: 100%; }
+    .summ-share:hover { opacity: 0.82; }
+
+    @media (max-width: 700px) {
+      nav { padding: 12px 20px; gap: 16px; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      main { padding: 16px 12px 24px; gap: 10px; }
+    }
+    @media (min-width: 700px) {
+      .quiz-card-img { max-height: 240px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">SuicuneGS</a>
+    <div class="nav-links">
+      <a href="/cardsearch.html" class="nav-link">カード検索</a>
+      <a href="/study.html" class="nav-link">カード勉強</a>
+      <a href="/quiz.html" class="nav-link is-active">クイズ</a>
+      <a href="/favorites.html" class="nav-link">気に入りカード</a>
+      <a href="/vocablist.html" class="nav-link">日英単語リスト</a>
+    </div>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="メニュー" aria-expanded="false" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-mobile" id="nav-mobile" style="display:none">
+      <a href="/cardsearch.html" class="nav-mobile-link">カード検索</a>
+      <a href="/study.html" class="nav-mobile-link">カード勉強</a>
+      <a href="/quiz.html" class="nav-mobile-link">クイズ</a>
+      <a href="/favorites.html" class="nav-mobile-link">気に入りカード</a>
+      <a href="/vocablist.html" class="nav-mobile-link">日英単語リスト</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="quiz-loading" id="screen-loading">読み込み中…</div>
+
+    <!-- ── Setup ────────────────────────────────────────── -->
+    <div id="screen-setup">
+      <div class="quiz-page-header">
+        <div class="quiz-page-title">クイズ</div>
+        <div class="quiz-page-sub">モードを選んでスタート</div>
+      </div>
+
+      <select class="quiz-select" id="set-select" onchange="refreshHs()"></select>
+
+      <div>
+        <div class="mode-section-label">モード</div>
+        <div class="mode-list" style="margin-top:8px">
+          <button class="mode-card is-selected" id="mode-60s" onclick="selectMode('60s')">
+            <div class="mode-card-name">60秒チャレンジ</div>
+            <div class="mode-card-desc">60秒で何問正解できる？</div>
+          </button>
+          <button class="mode-card" id="mode-survival" onclick="selectMode('survival')">
+            <div class="mode-card-name">サバイバル</div>
+            <div class="mode-card-desc">1問でも間違えたら終了。何問連続で正解できる？</div>
+          </button>
+        </div>
+      </div>
+
+      <button class="start-btn" onclick="startQuiz()">スタート</button>
+
+      <div class="hs-row" id="hs-row" style="display:none">
+        <div class="hs-title">ベストスコア</div>
+        <div id="hs-entries"></div>
+      </div>
+    </div>
+
+    <!-- ── Quiz ─────────────────────────────────────────── -->
+    <div id="screen-quiz">
+      <div class="quiz-hud">
+        <div class="hud-score" id="hud-score">✓&nbsp;<strong id="hud-correct">0</strong></div>
+        <div class="hud-timer" id="hud-timer">60</div>
+        <div class="hud-progress" id="hud-progress"></div>
+      </div>
+      <div class="quiz-pbar"><div class="quiz-pbar-fill" id="quiz-pbar-fill"></div></div>
+
+      <div class="quiz-card-area" id="quiz-card-area">
+        <img class="quiz-card-img" id="quiz-img" src="" alt="">
+        <div class="quiz-card-hint" id="quiz-hint"></div>
+      </div>
+
+      <div class="quiz-options">
+        <button class="opt-btn" id="opt-0" onclick="pick(0)"><span class="opt-letter">A</span><span class="opt-text" id="opt-text-0"></span></button>
+        <button class="opt-btn" id="opt-1" onclick="pick(1)"><span class="opt-letter">B</span><span class="opt-text" id="opt-text-1"></span></button>
+        <button class="opt-btn" id="opt-2" onclick="pick(2)"><span class="opt-letter">C</span><span class="opt-text" id="opt-text-2"></span></button>
+        <button class="opt-btn" id="opt-3" onclick="pick(3)"><span class="opt-letter">D</span><span class="opt-text" id="opt-text-3"></span></button>
+      </div>
+    </div>
+
+    <!-- ── Summary ──────────────────────────────────────── -->
+    <div id="screen-summary">
+      <div class="summ-emoji"  id="summ-emoji"></div>
+      <div class="summ-heading" id="summ-heading"></div>
+      <div>
+        <div class="summ-score-big"   id="summ-score-big"></div>
+        <div class="summ-score-label" id="summ-score-label"></div>
+      </div>
+      <div class="summ-pb" id="summ-pb" style="display:none"></div>
+      <div class="summ-actions">
+        <a class="summ-share" id="summ-share" href="#" target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h7.073l4.261 5.632 4.66-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Xでシェア
+        </a>
+        <button class="summ-btn summ-btn--primary"   onclick="retryQuiz()">もう一度</button>
+        <button class="summ-btn summ-btn--secondary" onclick="goSetup()">モード選択に戻る</button>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    // ── Nav ──────────────────────────────────────────────
+    function toggleMenu() {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      var open = btn.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open);
+      menu.style.display = open ? 'flex' : 'none';
+    }
+    document.addEventListener('click', function(e) {
+      var btn = document.getElementById('nav-hamburger');
+      var menu = document.getElementById('nav-mobile');
+      if (!document.querySelector('nav').contains(e.target) && btn.classList.contains('is-open')) {
+        btn.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.style.display = 'none';
+      }
+    });
+
+    // ── State ─────────────────────────────────────────────
+    var allCards    = [];
+    var sets        = [];
+    var pool        = [];
+    var queue       = [];
+    var currentQ    = null;
+    var score       = 0;
+    var attempted   = 0;
+    var answered    = false;
+    var timerVal      = 60;
+    var timerTick     = null;
+    var selectedMode  = '60s';
+    var sessionPrevBest = null;
+
+    // ── Boot ──────────────────────────────────────────────
+    window.addEventListener('DOMContentLoaded', async function() {
+      try {
+        var res = await Promise.all([
+          fetch('/data/index.json').then(function(r) { return r.json(); }),
+          fetch('/data/sets.json').then(function(r)  { return r.json(); }),
+        ]);
+        allCards = res[0];
+        sets     = res[1];
+        buildSetSelect();
+        refreshHs();
+        show('screen-setup');
+        hide('screen-loading');
+      } catch(e) {
+        document.getElementById('screen-loading').textContent = '読み込みエラー。ページを更新してください。';
+      }
+    });
+
+    function buildSetSelect() {
+      var promoIds = promoSet();
+      var validCards = allCards.filter(function(c) { return !promoIds.has(c.setIdJa); });
+      var jpSets = sets
+        .filter(function(s) { return s.language === 'ja' && s.releaseDate !== null; })
+        .sort(function(a, b) { return b.releaseDate.localeCompare(a.releaseDate); });
+      var sel = document.getElementById('set-select');
+      sel.innerHTML = '<option value="">全セット (' + validCards.length + ')</option>' +
+        jpSets.map(function(s) { return '<option value="' + s.id + '">' + s.name + '</option>'; }).join('');
+    }
+
+    function promoSet() {
+      return new Set(sets.filter(function(s) { return s.releaseDate === null; }).map(function(s) { return s.id; }));
+    }
+
+    // ── Mode selection ────────────────────────────────────
+    function selectMode(mode) {
+      selectedMode = mode;
+      document.querySelectorAll('.mode-card').forEach(function(c) { c.classList.remove('is-selected'); });
+      document.getElementById('mode-' + mode).classList.add('is-selected');
+      refreshHs();
+    }
+
+    // ── Personal best ─────────────────────────────────────
+    function hsKey() {
+      var setId = document.getElementById('set-select').value;
+      return 'quiz_hs_' + selectedMode + '_' + (setId || 'all');
+    }
+
+    function refreshHs() {
+      var val = localStorage.getItem(hsKey());
+      var row = document.getElementById('hs-row');
+      var el  = document.getElementById('hs-entries');
+      if (val !== null) {
+        el.innerHTML = '<div class="hs-entry"><span class="hs-label">ベスト</span><span class="hs-value">' + val + '問</span></div>';
+        row.style.display = 'flex';
+      } else {
+        row.style.display = 'none';
+      }
+    }
+
+    // ── Build pool ────────────────────────────────────────
+    function buildPool() {
+      var setId = document.getElementById('set-select').value;
+      var promoIds = promoSet();
+      var cards = setId
+        ? allCards.filter(function(c) { return c.setIdJa === setId; })
+        : allCards.filter(function(c) { return !promoIds.has(c.setIdJa); });
+      return cards.filter(function(c) { return c.nameEn; });
+    }
+
+    // ── Distractors ───────────────────────────────────────
+    function pickDistractors(card, count) {
+      var correct = card.nameEn;
+      function uniqueByName(arr) {
+        var seen = new Set();
+        return arr.filter(function(c) {
+          if (seen.has(c.nameEn)) return false;
+          seen.add(c.nameEn);
+          return true;
+        });
+      }
+      var sameType = uniqueByName(pool.filter(function(c) {
+        return c.id !== card.id && c.nameEn !== correct && c.supertype === card.supertype;
+      }));
+      var candidates = sameType.length >= count ? sameType : uniqueByName(pool.filter(function(c) {
+        return c.id !== card.id && c.nameEn !== correct;
+      }));
+      return shuffle(candidates.slice()).slice(0, count).map(function(c) { return c.nameEn; });
+    }
+
+    // ── Start ─────────────────────────────────────────────
+    function startQuiz() {
+      pool = buildPool();
+      if (pool.length < 4) {
+        alert('カードが少なすぎます（最低4枚必要）。別のセットを選んでください。');
+        return;
+      }
+      queue     = shuffle(pool.slice());
+      score     = 0;
+      attempted = 0;
+      answered  = false;
+      var pbRaw = localStorage.getItem(hsKey());
+      sessionPrevBest = pbRaw !== null ? parseInt(pbRaw) : null;
+
+      var timerEl = document.getElementById('hud-timer');
+      var scoreEl = document.getElementById('hud-score');
+
+      if (selectedMode === '60s') {
+        timerVal            = 60;
+        timerEl.textContent = '60';
+        timerEl.className   = 'hud-timer';
+        scoreEl.style.visibility = '';
+      } else {
+        timerEl.textContent = '0';
+        timerEl.className   = 'hud-timer';
+        scoreEl.style.visibility = 'hidden';
+      }
+
+      hide('screen-setup');
+      show('screen-quiz');
+      nextQuestion();
+      if (selectedMode === '60s') timerTick = setInterval(tickTimer, 1000);
+    }
+
+    function retryQuiz() { hide('screen-summary'); startQuiz(); }
+
+    function goSetup() {
+      stopTimer();
+      hide('screen-quiz');
+      hide('screen-summary');
+      refreshHs();
+      show('screen-setup');
+    }
+
+    // ── Timer ─────────────────────────────────────────────
+    function stopTimer() {
+      if (timerTick) { clearInterval(timerTick); timerTick = null; }
+    }
+
+    function tickTimer() {
+      timerVal--;
+      var el = document.getElementById('hud-timer');
+      el.textContent = timerVal;
+      if (timerVal <= 10) el.classList.add('urgent');
+      if (timerVal <= 0)  { stopTimer(); endSession(false); }
+    }
+
+    // ── Questions ─────────────────────────────────────────
+    function nextQuestion() {
+      if (queue.length === 0) {
+        stopTimer();
+        endSession(true);
+        return;
+      }
+
+      var card    = queue.shift();
+      var wrong   = pickDistractors(card, 3);
+      var options = shuffle([card.nameEn].concat(wrong));
+
+      currentQ = { card: card, options: options, correctIdx: options.indexOf(card.nameEn) };
+      answered = false;
+
+      var imgEl  = document.getElementById('quiz-img');
+      var hintEl = document.getElementById('quiz-hint');
+      imgEl.src = card.imageJa || '';
+      imgEl.style.display = 'block';
+      hintEl.textContent  = card.nameJa || '';
+      hintEl.classList.remove('hint-revealed');
+
+      var letters = ['A', 'B', 'C', 'D'];
+      for (var i = 0; i < 4; i++) {
+        var btn = document.getElementById('opt-' + i);
+        btn.className = 'opt-btn';
+        btn.disabled  = false;
+        btn.querySelector('.opt-letter').textContent = letters[i];
+        document.getElementById('opt-text-' + i).textContent = options[i] || '';
+      }
+
+      if (queue.length > 0) {
+        var next = queue[0];
+        if (next.imageJa) { var img = new Image(); img.src = next.imageJa; }
+      }
+
+      updateHud();
+    }
+
+    function updateHud() {
+      if (selectedMode === '60s') {
+        document.getElementById('hud-correct').textContent = score;
+      } else {
+        document.getElementById('hud-timer').textContent = score;
+      }
+      var done  = attempted;
+      var total = pool.length;
+      document.getElementById('hud-progress').textContent = done + ' / ' + total;
+      document.getElementById('quiz-pbar-fill').style.width = (done / total * 100) + '%';
+    }
+
+    function pick(idx) {
+      if (answered || !currentQ) return;
+      answered = true;
+      attempted++;
+
+      var correct = idx === currentQ.correctIdx;
+      if (correct) score++;
+      if (navigator.vibrate) navigator.vibrate(correct ? 10 : [20, 30, 20]);
+
+      var btns = document.querySelectorAll('.opt-btn');
+      btns.forEach(function(btn) { btn.disabled = true; });
+      btns[currentQ.correctIdx].classList.add('is-correct');
+      if (!correct) {
+        btns[idx].classList.add('is-wrong');
+        btns.forEach(function(btn, i) {
+          if (i !== idx && i !== currentQ.correctIdx) btn.classList.add('is-dim');
+        });
+      }
+
+      document.getElementById('hud-correct').textContent = score;
+
+      // Show EN name on hint for both modes
+      var hintEl2 = document.getElementById('quiz-hint');
+      hintEl2.textContent = currentQ.card.nameEn || currentQ.card.nameJa || '';
+      hintEl2.classList.add('hint-revealed');
+
+      if (selectedMode === 'survival') {
+        document.getElementById('hud-progress').textContent = attempted + ' / ' + pool.length;
+        document.getElementById('quiz-pbar-fill').style.width = (attempted / pool.length * 100) + '%';
+        if (correct) {
+          var streakEl = document.getElementById('hud-timer');
+          streakEl.textContent = score;
+          streakEl.classList.remove('streak-pop', 'milestone-pulse');
+          void streakEl.offsetWidth;
+          var milestones = [5, 10, 20, 30];
+          streakEl.classList.add(milestones.indexOf(score) !== -1 ? 'milestone-pulse' : 'streak-pop');
+          // Near-PB indicator: purple when one away from or tied with personal best
+          if (sessionPrevBest !== null) {
+            streakEl.classList.toggle('near-pb', score >= sessionPrevBest - 1 && score <= sessionPrevBest);
+          }
+          setTimeout(nextQuestion, 220);
+        } else {
+          setTimeout(function() { endSession(false); }, 900);
+        }
+        return;
+      }
+
+      var delay = correct ? 220 : 620;
+      setTimeout(nextQuestion, delay);
+    }
+
+    // ── End ───────────────────────────────────────────────
+    function endSession(completedAll) {
+      stopTimer();
+      hide('screen-quiz');
+
+      var pct = attempted > 0 ? Math.round(score / attempted * 100) : 0;
+
+      var emoji, heading, scoreBig, scoreLabel;
+      if (selectedMode === 'survival') {
+        emoji      = completedAll ? '🏆' : score >= 20 ? '🔥' : score >= 10 ? '🎯' : '💪';
+        heading    = completedAll ? '全カードクリア！' : 'ゲームオーバー';
+        scoreBig   = score + '問';
+        scoreLabel = completedAll ? '全問連続正解！' : score + '問連続正解';
+      } else if (completedAll) {
+        emoji      = pct >= 90 ? '🏆' : pct >= 70 ? '🎯' : '💪';
+        heading    = '全カードクリア！';
+        scoreBig   = pct + '%';
+        scoreLabel = pool.length + '問中 ' + score + '問正解';
+      } else {
+        emoji      = pct >= 80 ? '🎯' : '💪';
+        heading    = 'タイムアップ！';
+        scoreBig   = pct + '%';
+        scoreLabel = attempted + '問中 ' + score + '問正解';
+      }
+
+      document.getElementById('summ-emoji').textContent       = emoji;
+      document.getElementById('summ-heading').textContent     = heading;
+      document.getElementById('summ-score-big').textContent   = scoreBig;
+      document.getElementById('summ-score-label').textContent = scoreLabel;
+
+      var key     = hsKey();
+      var prev    = localStorage.getItem(key);
+      var prevNum = prev !== null ? parseInt(prev) : null;
+      var isNew   = prevNum === null || score > prevNum;
+      if (isNew && attempted > 0) localStorage.setItem(key, String(score));
+
+      var pbEl = document.getElementById('summ-pb');
+      if (isNew && prevNum !== null) {
+        pbEl.textContent   = '🆕 新記録！';
+        pbEl.style.display = 'inline-flex';
+      } else if (!isNew) {
+        pbEl.textContent   = 'ベスト: ' + prevNum + '問';
+        pbEl.style.display = 'inline-flex';
+      } else {
+        pbEl.style.display = 'none';
+      }
+
+      if (pct === 100 && attempted > 0) launchConfetti();
+
+      var setId   = document.getElementById('set-select').value;
+      var setName = setId ? (sets.find(function(s) { return s.id === setId; }) || {}).name || setId : '全セット';
+      var tweetText;
+      if (selectedMode === 'survival') {
+        tweetText = '@suicunegs\nサバイバル\n' + setName + '\n' + score + '問連続正解\nhttps://suicunegs.github.io/quiz.html';
+      } else {
+        tweetText = '@suicunegs\n60秒チャレンジ\n' + setName + '\n' + pct + '% · ' + score + '/' + attempted + '問正解\nhttps://suicunegs.github.io/quiz.html';
+      }
+      document.getElementById('summ-share').href = 'https://x.com/intent/tweet?text=' + encodeURIComponent(tweetText);
+
+      show('screen-summary');
+      refreshHs();
+    }
+
+    // ── Keyboard ──────────────────────────────────────────
+    document.addEventListener('keydown', function(e) {
+      var map = { '1': 0, '2': 1, '3': 2, '4': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+      var idx = map[e.key.toLowerCase()];
+      if (idx !== undefined && document.getElementById('screen-quiz').style.display !== 'none') {
+        pick(idx);
+      }
+    });
+
+    // ── Utils ─────────────────────────────────────────────
+    function shuffle(arr) {
+      for (var i = arr.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+      }
+      return arr;
+    }
+    function show(id) { document.getElementById(id).style.display = 'flex'; }
+    function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+    // ── Confetti ──────────────────────────────────────────
+    function launchConfetti() {
+      var cv = document.createElement('canvas');
+      cv.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999';
+      cv.width = window.innerWidth; cv.height = window.innerHeight;
+      document.body.appendChild(cv);
+      var ctx = cv.getContext('2d');
+      var colors = ['#a8d4e8','#c4b0e8','#4aba5a','#e8c84a','#e05070','#fff','#f0a0c0'];
+      var ps = Array.from({length: 100}, function() {
+        return { x: Math.random()*cv.width, y: Math.random()*-cv.height*0.6, w: Math.random()*9+4, h: Math.random()*5+2, color: colors[Math.floor(Math.random()*colors.length)], rot: Math.random()*Math.PI*2, vx: (Math.random()-0.5)*4, vy: Math.random()*3+2, vrot: (Math.random()-0.5)*0.18 };
+      });
+      var fr, start = Date.now();
+      function tick() {
+        ctx.clearRect(0, 0, cv.width, cv.height);
+        var el = Date.now() - start;
+        ctx.globalAlpha = el > 2800 ? Math.max(0, 1-(el-2800)/600) : 1;
+        ps.forEach(function(p) { p.x+=p.vx; p.y+=p.vy; p.rot+=p.vrot; ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot); ctx.fillStyle=p.color; ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h); ctx.restore(); });
+        if (el < 3400) { fr = requestAnimationFrame(tick); } else { cv.remove(); }
+      }
+      fr = requestAnimationFrame(tick);
+    }
+  </script>
+
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
+</body>
+</html>

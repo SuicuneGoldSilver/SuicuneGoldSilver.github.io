@@ -114,7 +114,7 @@ function W(){
   const progress=totalCards>0?(correct/totalCards)*100:0;
 
   return e.jsxs("div",{className:"study-page",children:[
-    e.jsx(P,{links:[{href:"/cardsearch.html",label:"カード検索"},{href:"/study.html",label:"カード勉強",active:true},{href:"/favorites.html",label:"気に入りカード"},{href:"/vocablist.html",label:"日英単語リスト"}]}),
+    e.jsx(P,{links:[{href:"/cardsearch.html",label:"カード検索"},{href:"/study.html",label:"カード勉強",active:true},{href:"/quiz.html",label:"クイズ"},{href:"/favorites.html",label:"気に入りカード"},{href:"/vocablist.html",label:"日英単語リスト"}]}),
     e.jsx("div",{className:"study-progress-bar",role:"progressbar","aria-valuenow":correct,"aria-valuemax":totalCards,children:e.jsx("div",{className:"study-progress-bar-fill",style:{width:`${progress}%`}})}),
     showSummary
       ?e.jsx("main",{className:"study-main",children:
