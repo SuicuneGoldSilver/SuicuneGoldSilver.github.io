@@ -144,7 +144,14 @@
     @keyframes milestonePulse { 0%,100% { transform: scale(1); } 35%,65% { transform: scale(1.6); } }
     .hud-timer.milestone-pulse { animation: milestonePulse 0.55s ease; }
     .hud-timer.near-pb { color: var(--purple); }
-    .quiz-card-hint.hint-revealed { color: var(--text); font-weight: 600; font-size: 1rem; }
+    .summ-wrong { width: 100%; }
+    .summ-wrong-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 8px; }
+    .summ-wrong-list { display: flex; flex-direction: column; gap: 6px; max-height: 200px; overflow-y: auto; }
+    .wrong-item { display: flex; align-items: center; gap: 10px; background: var(--surface); border-radius: 8px; padding: 8px 10px; }
+    .wrong-item-thumb { height: 44px; width: auto; border-radius: 4px; flex-shrink: 0; }
+    .wrong-item-names { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .wrong-item-ja { font-size: 0.78rem; color: var(--text-muted); }
+    .wrong-item-en { font-size: 0.88rem; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .hud-progress { font-size: 0.82rem; color: var(--text-muted); text-align: right; }
     .quiz-pbar { height: 3px; background: var(--surface); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
     .quiz-pbar-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.3s ease; width: 0%; }
@@ -297,6 +304,10 @@
         <div class="summ-score-label" id="summ-score-label"></div>
       </div>
       <div class="summ-pb" id="summ-pb" style="display:none"></div>
+      <div class="summ-wrong" id="summ-wrong" style="display:none">
+        <div class="summ-wrong-label">間違えたカード</div>
+        <div class="summ-wrong-list" id="summ-wrong-list"></div>
+      </div>
       <div class="summ-actions">
         <a class="summ-share" id="summ-share" href="#" target="_blank" rel="noopener">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h7.073l4.261 5.632 4.66-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -337,10 +348,11 @@
     var score       = 0;
     var attempted   = 0;
     var answered    = false;
-    var timerVal      = 60;
-    var timerTick     = null;
-    var selectedMode  = '60s';
+    var timerVal        = 60;
+    var timerTick       = null;
+    var selectedMode    = '60s';
     var sessionPrevBest = null;
+    var wrongCards      = [];
 
     // ── Boot ──────────────────────────────────────────────
     window.addEventListener('DOMContentLoaded', async function() {
@@ -444,6 +456,7 @@
       answered  = false;
       var pbRaw = localStorage.getItem(hsKey());
       sessionPrevBest = pbRaw !== null ? parseInt(pbRaw) : null;
+      wrongCards = [];
 
       var timerEl = document.getElementById('hud-timer');
       var scoreEl = document.getElementById('hud-score');
@@ -508,7 +521,6 @@
       imgEl.src = card.imageJa || '';
       imgEl.style.display = 'block';
       hintEl.textContent  = card.nameJa || '';
-      hintEl.classList.remove('hint-revealed');
 
       var letters = ['A', 'B', 'C', 'D'];
       for (var i = 0; i < 4; i++) {
@@ -559,11 +571,7 @@
       }
 
       document.getElementById('hud-correct').textContent = score;
-
-      // Show EN name on hint for both modes
-      var hintEl2 = document.getElementById('quiz-hint');
-      hintEl2.textContent = currentQ.card.nameEn || currentQ.card.nameJa || '';
-      hintEl2.classList.add('hint-revealed');
+      if (!correct) wrongCards.push(currentQ.card);
 
       if (selectedMode === 'survival') {
         document.getElementById('hud-progress').textContent = attempted + ' / ' + pool.length;
@@ -635,6 +643,21 @@
         pbEl.style.display = 'inline-flex';
       } else {
         pbEl.style.display = 'none';
+      }
+
+      var wrongEl = document.getElementById('summ-wrong');
+      if (selectedMode === '60s' && wrongCards.length > 0) {
+        document.getElementById('summ-wrong-list').innerHTML = wrongCards.map(function(c) {
+          return '<div class="wrong-item">' +
+            (c.imageJa ? '<img class="wrong-item-thumb" src="' + c.imageJa + '" alt="">' : '') +
+            '<div class="wrong-item-names">' +
+              '<div class="wrong-item-ja">' + (c.nameJa || '') + '</div>' +
+              '<div class="wrong-item-en">' + (c.nameEn || '') + '</div>' +
+            '</div></div>';
+        }).join('');
+        wrongEl.style.display = 'block';
+      } else {
+        wrongEl.style.display = 'none';
       }
 
       if (pct === 100 && attempted > 0) launchConfetti();
