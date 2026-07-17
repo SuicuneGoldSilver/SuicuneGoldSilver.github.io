@@ -1,5 +1,15 @@
 [
   {
+    "id": "ae",
+    "language": "ja",
+    "name": "アビスアイ",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2026-05-09",
+    "printedTotal": 81,
+    "regulationMark": "J",
+    "logo": "images/sets/ae/logo.png"
+  },
+  {
     "id": "ns",
     "language": "ja",
     "name": "ニンジャスピナー",
