@@ -12745,9 +12745,9 @@
     {
         "id": "sd100-210",
         "setIdJa": "sd100",
-        "setIdEn": "journeytogether",
+        "setIdEn": "twilightmasquerade",
         "numberJa": "210/742",
-        "numberEn": "137/159",
+        "numberEn": "58",
         "nameJa": "ウッウ",
         "nameEn": "Cramorant",
         "supertype": "Pokémon",
@@ -12763,18 +12763,18 @@
         "attacks": [
             {
                 "nameJa": "みずでっぽう",
-                "nameEn": "Ceaseless Spitting",
+                "nameEn": "Water Gun",
                 "cost": [
                     "Water"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "20",
                 "textJa": null,
-                "textEn": "Flip a coin until you get tails. This attack does 50 damage for each heads."
+                "textEn": ""
             },
             {
                 "nameJa": "スピットシュート",
-                "nameEn": null,
+                "nameEn": "Spit Shot",
                 "cost": [
                     "Colorless",
                     "Colorless",
@@ -12783,7 +12783,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "",
                 "textJa": "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン1匹に、120ダメージ。〔ベンチは弱点・抵抗力を計算しない。〕",
-                "textEn": null
+                "textEn": "Discard all Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
             }
         ],
         "weaknesses": [
@@ -15687,9 +15687,9 @@
     {
         "id": "sd100-258",
         "setIdJa": "sd100",
-        "setIdEn": "paldeanfates",
+        "setIdEn": "zsv10pt5",
         "numberJa": "258/742",
-        "numberEn": "139/91",
+        "numberEn": "33",
         "nameJa": "ボルトロス",
         "nameEn": "Thundurus",
         "supertype": "Pokémon",
@@ -15705,18 +15705,18 @@
         "attacks": [
             {
                 "nameJa": "じゅうでん",
-                "nameEn": "Gigantic Bolt",
+                "nameEn": "Charge",
                 "cost": [
                     "Colorless"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "",
                 "textJa": "自分の山札から「基本かみなりエネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
-                "textEn": "This Pokémon also does 90 damage to itself."
+                "textEn": "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
             },
             {
                 "nameJa": "ディザスターボルト",
-                "nameEn": null,
+                "nameEn": "Disaster Volt",
                 "cost": [
                     "Lightning",
                     "Colorless",
@@ -15725,7 +15725,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "110",
                 "textJa": "このポケモンについているエネルギーを1個選び、トラッシュする。",
-                "textEn": null
+                "textEn": "Discard an Energy from this Pokémon."
             }
         ],
         "weaknesses": [
@@ -19845,9 +19845,9 @@
     {
         "id": "sd100-324",
         "setIdJa": "sd100",
-        "setIdEn": "paldeaevolved",
+        "setIdEn": "rsv10pt5",
         "numberJa": "324/742",
-        "numberEn": "091/193",
+        "numberEn": "42",
         "nameJa": "ゴチミル",
         "nameEn": "Gothorita",
         "supertype": "Pokémon",
@@ -19862,15 +19862,15 @@
         "abilities": [
             {
                 "nameJa": "フォーチュンアイ",
-                "nameEn": null,
+                "nameEn": "Fortunate Eye",
                 "textJa": "相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。",
-                "textEn": null
+                "textEn": "Look at the top 5 cards of your opponent's deck and put them back in any order."
             }
         ],
         "attacks": [
             {
                 "nameJa": "サイコショット",
-                "nameEn": "Mind Bend",
+                "nameEn": null,
                 "cost": [
                     "Psychic",
                     "Colorless"
@@ -19878,7 +19878,7 @@
                 "convertedEnergyCost": 2,
                 "damage": "40",
                 "textJa": null,
-                "textEn": "Your opponent's Active Pokémon is now Confused."
+                "textEn": null
             }
         ],
         "weaknesses": [
@@ -20345,9 +20345,9 @@
     {
         "id": "sd100-332",
         "setIdJa": "sd100",
-        "setIdEn": "chaosrising",
+        "setIdEn": "surgingsparks",
         "numberJa": "332/742",
-        "numberEn": "037/86",
+        "numberEn": "85",
         "nameJa": "ニャオニクス",
         "nameEn": "Meowstic",
         "supertype": "Pokémon",
@@ -20362,15 +20362,15 @@
         "abilities": [
             {
                 "nameJa": "さそうしっぽ",
-                "nameEn": null,
+                "nameEn": "Beckoning Tail",
                 "textJa": "自分の番に、自分の手札から「のんびりじゃらし」を1枚トラッシュするなら、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
-                "textEn": null
+                "textEn": "You must discard a Chill Teaser Toy card from your hand in order to use this Ability. Once during your turn, you may switch in 1 of your opponent's Benched Pokémon to the Active Spot."
             }
         ],
         "attacks": [
             {
                 "nameJa": "サイコショット",
-                "nameEn": "Tricky Steps",
+                "nameEn": "Psyshot",
                 "cost": [
                     "Psychic",
                     "Colorless",
@@ -20379,7 +20379,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "80",
                 "textJa": null,
-                "textEn": "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon."
+                "textEn": ""
             }
         ],
         "weaknesses": [
@@ -24364,9 +24364,9 @@
     {
         "id": "sd100-396",
         "setIdJa": "sd100",
-        "setIdEn": "stellarcrown",
+        "setIdEn": "rsv10pt5",
         "numberJa": "396/742",
-        "numberEn": "084/142",
+        "numberEn": "53",
         "nameJa": "コジョンド",
         "nameEn": "Mienshao",
         "supertype": "Pokémon",
@@ -24382,18 +24382,18 @@
         "attacks": [
             {
                 "nameJa": "ローキック",
-                "nameEn": "Gale Roundhouse",
+                "nameEn": "Low Sweep",
                 "cost": [
                     "Fighting"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "40",
                 "textJa": null,
-                "textEn": "If your opponent has 5 or fewer cards in their hand, this attack does 60 more damage."
+                "textEn": ""
             },
             {
                 "nameJa": "スマッシュアッパー",
-                "nameEn": null,
+                "nameEn": "Smash Uppercut",
                 "cost": [
                     "Fighting",
                     "Fighting"
@@ -24401,7 +24401,7 @@
                 "convertedEnergyCost": 2,
                 "damage": "80",
                 "textJa": "このワザのダメージは抵抗力を計算しない。",
-                "textEn": null
+                "textEn": "This attack's damage isn't affected by Resistance."
             }
         ],
         "weaknesses": [
@@ -24561,9 +24561,9 @@
     {
         "id": "sd100-399",
         "setIdJa": "sd100",
-        "setIdEn": "ascendedheroes",
+        "setIdEn": "journeytogether",
         "numberJa": "399/742",
-        "numberEn": "115/217",
+        "numberEn": "83",
         "nameJa": "ヤンチャム",
         "nameEn": "Pancham",
         "supertype": "Pokémon",
@@ -24579,18 +24579,18 @@
         "attacks": [
             {
                 "nameJa": "どつく",
-                "nameEn": "Reckless Charge",
+                "nameEn": "Corkscrew Punch",
                 "cost": [
                     "Colorless"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "10",
                 "textJa": null,
-                "textEn": "This Pokémon also does 10 damage to itself."
+                "textEn": ""
             },
             {
                 "nameJa": "きあいづき",
-                "nameEn": null,
+                "nameEn": "Focus Fist",
                 "cost": [
                     "Colorless",
                     "Colorless",
@@ -24599,7 +24599,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "50",
                 "textJa": "コインを1回投げウラなら、このワザは失敗。",
-                "textEn": null
+                "textEn": "Flip a coin. If tails, this attack does nothing."
             }
         ],
         "weaknesses": [
@@ -29663,9 +29663,9 @@
     {
         "id": "sd100-481",
         "setIdJa": "sd100",
-        "setIdEn": "shroudedfable",
+        "setIdEn": "megaevolution",
         "numberJa": "481/742",
-        "numberEn": "035/64",
+        "numberEn": "88",
         "nameJa": "イベルタル",
         "nameEn": "Yveltal",
         "supertype": "Pokémon",
@@ -29681,18 +29681,18 @@
         "attacks": [
             {
                 "nameJa": "わしづかみ",
-                "nameEn": "Corrosive Winds",
+                "nameEn": "Clutch",
                 "cost": [
                     "Darkness"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "20",
                 "textJa": "次の相手の番、このワザを受けたポケモンは、にげられない。",
-                "textEn": "Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it."
+                "textEn": "During your opponent's next turn, the Defending Pokémon can't retreat."
             },
             {
                 "nameJa": "ダークフェザー",
-                "nameEn": "Destructive Beam",
+                "nameEn": "Dark Feather",
                 "cost": [
                     "Darkness",
                     "Darkness",
@@ -29701,7 +29701,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "110",
                 "textJa": "",
-                "textEn": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+                "textEn": ""
             }
         ],
         "weaknesses": [
@@ -31634,9 +31634,9 @@
     {
         "id": "sd100-511",
         "setIdJa": "sd100",
-        "setIdEn": "ascendedheroes",
+        "setIdEn": "zsv10pt5",
         "numberJa": "511/742",
-        "numberEn": "147/217",
+        "numberEn": "65",
         "nameJa": "キリキザン",
         "nameEn": "Bisharp",
         "supertype": "Pokémon",
@@ -31652,18 +31652,18 @@
         "attacks": [
             {
                 "nameJa": "きる",
-                "nameEn": "Rapid Draw",
+                "nameEn": "Cut Up",
                 "cost": [
                     "Metal"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "40",
                 "textJa": "",
-                "textEn": "Draw 2 cards."
+                "textEn": ""
             },
             {
                 "nameJa": "とどめをさす",
-                "nameEn": null,
+                "nameEn": "Finishing Blow",
                 "cost": [
                     "Metal",
                     "Colorless"
@@ -31671,7 +31671,7 @@
                 "convertedEnergyCost": 2,
                 "damage": "60+",
                 "textJa": "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
-                "textEn": null
+                "textEn": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage."
             }
         ],
         "weaknesses": [
@@ -32853,9 +32853,9 @@
     {
         "id": "sd100-529",
         "setIdJa": "sd100",
-        "setIdEn": "paldeanfates",
+        "setIdEn": "megaevolution",
         "numberJa": "529/742",
-        "numberEn": "166/91",
+        "numberEn": "97",
         "nameJa": "ナカヌチャン",
         "nameEn": "Tinkatuff",
         "supertype": "Pokémon",
@@ -32870,23 +32870,23 @@
         "abilities": [
             {
                 "nameJa": "でたとこハンマー",
-                "nameEn": null,
+                "nameEn": "Haphazard Hammer",
                 "type": "Ability",
                 "textJa": "自分の番に、このカードを手札から出して進化させたとき、1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
-                "textEn": null
+                "textEn": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
             }
         ],
         "attacks": [
             {
                 "nameJa": "なぐる",
-                "nameEn": "Play Rough",
+                "nameEn": "Light Punch",
                 "cost": [
                     "Metal"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "30",
                 "textJa": "",
-                "textEn": "Flip a coin. If heads, this attack does 30 more damage."
+                "textEn": ""
             }
         ],
         "weaknesses": [
@@ -33237,9 +33237,9 @@
     {
         "id": "sd100-535",
         "setIdJa": "sd100",
-        "setIdEn": "surgingsparks",
+        "setIdEn": "megaevolution",
         "numberJa": "535/742",
-        "numberEn": "131/191",
+        "numberEn": "99",
         "nameJa": "サーフゴー",
         "nameEn": "Gholdengo",
         "supertype": "Pokémon",
@@ -33255,18 +33255,18 @@
         "attacks": [
             {
                 "nameJa": "つかみほうだい",
-                "nameEn": "Strike It Rich",
+                "nameEn": "All-You-Can-Grab",
                 "cost": [
                     "Colorless"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "",
                 "textJa": "ウラが出るまでコインを投げ、オモテの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
-                "textEn": "If this Pokémon evolved from Gimmighoul during this turn, this attack does 90 more damage."
+                "textEn": "Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck."
             },
             {
                 "nameJa": "スピードアタック",
-                "nameEn": "Surf Back",
+                "nameEn": "Speed Attack",
                 "cost": [
                     "Metal",
                     "Colorless",
@@ -33275,7 +33275,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "100",
                 "textJa": "",
-                "textEn": "You may shuffle this Pokémon and all attached cards into your deck."
+                "textEn": ""
             }
         ],
         "weaknesses": [
@@ -34947,9 +34947,9 @@
     {
         "id": "sd100-563",
         "setIdJa": "sd100",
-        "setIdEn": "chaosrising",
+        "setIdEn": "destinedrivals",
         "numberJa": "563/742",
-        "numberEn": "069/86",
+        "numberEn": "152",
         "nameJa": "ケンタロス",
         "nameEn": "Tauros",
         "supertype": "Pokémon",
@@ -34964,18 +34964,18 @@
         "attacks": [
             {
                 "nameJa": "つのでつく",
-                "nameEn": "Target Together",
+                "nameEn": "Horn Attack",
                 "cost": [
                     "Colorless"
                 ],
                 "convertedEnergyCost": 1,
                 "damage": "30",
                 "textJa": "",
-                "textEn": "Choose 1 of your opponent's Pokémon and flip a coin for each of your Pokémon in play that has \"Tauros\" in its name. This attack does 50 damage to the chosen Pokémon for each heads. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+                "textEn": ""
             },
             {
                 "nameJa": "クリーンヒット",
-                "nameEn": null,
+                "nameEn": "Clean Hit",
                 "cost": [
                     "Colorless",
                     "Colorless"
@@ -34983,7 +34983,7 @@
                 "convertedEnergyCost": 2,
                 "damage": "50+",
                 "textJa": "相手のバトルポケモンが進化ポケモンなら、50ダメージ追加。",
-                "textEn": null
+                "textEn": "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 50 more damage."
             }
         ],
         "weaknesses": [
@@ -37920,9 +37920,9 @@
     {
         "id": "sd100-612",
         "setIdJa": "sd100",
-        "setIdEn": "perfectorder",
+        "setIdEn": "prismaticevolutions",
         "numberJa": "612/742",
-        "numberEn": "067",
+        "numberEn": "88",
         "nameJa": "トリミアン",
         "nameEn": "Furfrou",
         "supertype": "Pokémon",
@@ -37936,16 +37936,16 @@
         "abilities": [
             {
                 "nameJa": "ファーコート",
-                "nameEn": null,
+                "nameEn": "Fur Coat",
                 "type": "Ability",
                 "textJa": "このポケモンが受けるワザのダメージは「-20」される。",
-                "textEn": null
+                "textEn": "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance)."
             }
         ],
         "attacks": [
             {
                 "nameJa": "かみつく",
-                "nameEn": "Hand Trim",
+                "nameEn": "Bite",
                 "cost": [
                     "Colorless",
                     "Colorless",
@@ -37954,7 +37954,7 @@
                 "convertedEnergyCost": 3,
                 "damage": "80",
                 "textJa": "",
-                "textEn": "Discard random cards from your opponent's hand until they have 5 cards in their hand."
+                "textEn": ""
             }
         ],
         "weaknesses": [
