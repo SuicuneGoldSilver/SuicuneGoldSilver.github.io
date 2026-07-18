@@ -1331,7 +1331,7 @@
   {
     "id": "ae-80",
     "setIdJa": "ae",
-    "nameJa": "ボルトかみなりエネルギー",
+    "nameJa": "ボルト雷エネルギー",
     "nameEn": "Voltaic Lightning Energy",
     "supertype": "Energy",
     "subtypes": [
