@@ -4151,8 +4151,16 @@
         "subtypes": [
             "Item"
         ],
-        "textJa": "",
+        "textJa": "このカードは、HP60の★タイプのたねポケモンとして、場に出せる。\nこのカードは、特殊状態にならず、にげられない。\n自分の番の中でなら、場に出ているこのカードをトラッシュできる。",
         "textEn": "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.\n \nAt any time during your turn, you may discard this card from play.",
+        "abilities": [
+            {
+                "nameJa": "ずがいのトゲ",
+                "textJa": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
+                "nameEn": "Spiny Skull",
+                "textEn": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), place 3 damage counters on the Attacking Pokémon."
+            }
+        ],
         "regulationMark": "J",
         "rarity": "Common",
         "rarityJa": "C",
@@ -4173,8 +4181,16 @@
         "subtypes": [
             "Item"
         ],
-        "textJa": "",
+        "textJa": "このカードは、HP60の★タイプのたねポケモンとして、場に出せる。\nこのカードは、特殊状態にならず、にげられない。\n自分の番の中でなら、場に出ているこのカードをトラッシュできる。",
         "textEn": "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.\n \nAt any time during your turn, you may discard this card from play.",
+        "abilities": [
+            {
+                "nameJa": "たてのまもり",
+                "textJa": "このポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
+                "nameEn": "Protective Armor",
+                "textEn": "As long as this Pokémon is in the Active Spot, all of your Pokémon take 10 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance)."
+            }
+        ],
         "regulationMark": "J",
         "rarity": "Common",
         "rarityJa": "C",
@@ -4215,9 +4231,9 @@
         "nameEn": "Backtrack Badge",
         "supertype": "Trainer",
         "subtypes": [
-            "Item"
+            "Pokémon Tool"
         ],
-        "textJa": "",
+        "textJa": "自分の番ごとに1回、このカードをつけている★ポケモンのワザで自分がコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。",
         "textEn": "Once during your turn, after you flip any coins for an attack of the Colorless Pokémon this card is attached to, you may ignore all results of those coin flips and begin flipping those coins again.",
         "regulationMark": "J",
         "rarity": "Uncommon",

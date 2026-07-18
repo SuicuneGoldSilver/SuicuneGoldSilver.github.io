@@ -1245,7 +1245,7 @@
     "nameEn": "Backtrack Badge",
     "supertype": "Trainer",
     "subtypes": [
-      "Item"
+      "Pokémon Tool"
     ],
     "types": [],
     "regulationMark": "J",
