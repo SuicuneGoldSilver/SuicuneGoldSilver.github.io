@@ -1,5 +1,2742 @@
 [
   {
+    "id": "tc30-1",
+    "setIdJa": "tc30",
+    "nameJa": "タマタマ",
+    "nameEn": "Exeggcute",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/1.jpg",
+    "imageEn": "images/sets/tc30/en/1.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-2",
+    "setIdJa": "tc30",
+    "nameJa": "アローラナッシー",
+    "nameEn": "Alolan Exeggutor",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/2.jpg",
+    "imageEn": "images/sets/tc30/en/2.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-3",
+    "setIdJa": "tc30",
+    "nameJa": "バルビート",
+    "nameEn": "Volbeat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/3.jpg",
+    "imageEn": "images/sets/tc30/en/3.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-4",
+    "setIdJa": "tc30",
+    "nameJa": "イルミーゼ",
+    "nameEn": "Illumise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/4.jpg",
+    "imageEn": "images/sets/tc30/en/4.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-5",
+    "setIdJa": "tc30",
+    "nameJa": "ビビヨン",
+    "nameEn": "Vivillon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/5.jpg",
+    "imageEn": "images/sets/tc30/en/8.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-6",
+    "setIdJa": "tc30",
+    "nameJa": "ファイヤー",
+    "nameEn": "Moltres",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/6.jpg",
+    "imageEn": "images/sets/tc30/en/11.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-7",
+    "setIdJa": "tc30",
+    "nameJa": "ホウオウ",
+    "nameEn": "Ho-Oh",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/7.jpg",
+    "imageEn": "images/sets/tc30/en/12.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-8",
+    "setIdJa": "tc30",
+    "nameJa": "レシラム",
+    "nameEn": "Reshiram",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/8.jpg",
+    "imageEn": "images/sets/tc30/en/14.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-9",
+    "setIdJa": "tc30",
+    "nameJa": "ホゲータex",
+    "nameEn": "Fuecoco ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/9.jpg",
+    "imageEn": "images/sets/tc30/en/15.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-10",
+    "setIdJa": "tc30",
+    "nameJa": "ヤドン",
+    "nameEn": "Slowpoke",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/10.jpg",
+    "imageEn": "images/sets/tc30/en/16.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-11",
+    "setIdJa": "tc30",
+    "nameJa": "ラプラス",
+    "nameEn": "Lapras",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/11.jpg",
+    "imageEn": "images/sets/tc30/en/17.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-12",
+    "setIdJa": "tc30",
+    "nameJa": "フリーザー",
+    "nameEn": "Articuno",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/12.jpg",
+    "imageEn": "images/sets/tc30/en/18.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-13",
+    "setIdJa": "tc30",
+    "nameJa": "カイオーガ",
+    "nameEn": "Kyogre",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/13.jpg",
+    "imageEn": "images/sets/tc30/en/19.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-14",
+    "setIdJa": "tc30",
+    "nameJa": "パルキア",
+    "nameEn": "Palkia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/14.jpg",
+    "imageEn": "images/sets/tc30/en/20.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-15",
+    "setIdJa": "tc30",
+    "nameJa": "ゲッコウガex",
+    "nameEn": "Greninja ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/15.jpg",
+    "imageEn": "images/sets/tc30/en/21.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-16",
+    "setIdJa": "tc30",
+    "nameJa": "ヨワシ",
+    "nameEn": "Wishiwashi",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/16.jpg",
+    "imageEn": "images/sets/tc30/en/22.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-17",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/17.jpg",
+    "imageEn": "images/sets/tc30/en/23.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-18",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/18.jpg",
+    "imageEn": "images/sets/tc30/en/24.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-19",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/19.jpg",
+    "imageEn": "images/sets/tc30/en/25.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-20",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/20.jpg",
+    "imageEn": "images/sets/tc30/en/26.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-21",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/21.jpg",
+    "imageEn": "images/sets/tc30/en/27.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-22",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/22.jpg",
+    "imageEn": "images/sets/tc30/en/28.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-23",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/23.jpg",
+    "imageEn": "images/sets/tc30/en/29.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-24",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/24.jpg",
+    "imageEn": "images/sets/tc30/en/30.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-25",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/25.jpg",
+    "imageEn": "images/sets/tc30/en/31.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-26",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/26.jpg",
+    "imageEn": "images/sets/tc30/en/32.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-27",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/27.jpg",
+    "imageEn": "images/sets/tc30/en/33.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-28",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/28.jpg",
+    "imageEn": "images/sets/tc30/en/34.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-29",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/29.jpg",
+    "imageEn": "images/sets/tc30/en/35.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-30",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/30.jpg",
+    "imageEn": "images/sets/tc30/en/36.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-31",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/31.jpg",
+    "imageEn": "images/sets/tc30/en/37.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-32",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/32.jpg",
+    "imageEn": "images/sets/tc30/en/38.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-33",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/33.jpg",
+    "imageEn": "images/sets/tc30/en/39.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-34",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/34.jpg",
+    "imageEn": "images/sets/tc30/en/40.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-35",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/35.jpg",
+    "imageEn": "images/sets/tc30/en/41.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-36",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/36.jpg",
+    "imageEn": "images/sets/tc30/en/42.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-37",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/37.jpg",
+    "imageEn": "images/sets/tc30/en/43.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-38",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/38.jpg",
+    "imageEn": "images/sets/tc30/en/44.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-39",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/39.jpg",
+    "imageEn": "images/sets/tc30/en/45.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-40",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/40.jpg",
+    "imageEn": "images/sets/tc30/en/46.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-41",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/41.jpg",
+    "imageEn": "images/sets/tc30/en/47.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-42",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/42.jpg",
+    "imageEn": "images/sets/tc30/en/48.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-43",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/43.jpg",
+    "imageEn": "images/sets/tc30/en/49.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-44",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/44.jpg",
+    "imageEn": "images/sets/tc30/en/50.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-45",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/45.jpg",
+    "imageEn": "images/sets/tc30/en/51.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-46",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/46.jpg",
+    "imageEn": "images/sets/tc30/en/52.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-47",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウex",
+    "nameEn": "Pikachu ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/47.jpg",
+    "imageEn": "images/sets/tc30/en/53.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-48",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウex",
+    "nameEn": "Pikachu ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/48.jpg",
+    "imageEn": "images/sets/tc30/en/54.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-49",
+    "setIdJa": "tc30",
+    "nameJa": "サンダー",
+    "nameEn": "Zapdos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/49.jpg",
+    "imageEn": "images/sets/tc30/en/55.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-50",
+    "setIdJa": "tc30",
+    "nameJa": "ゼクロム",
+    "nameEn": "Zekrom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/50.jpg",
+    "imageEn": "images/sets/tc30/en/56.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-51",
+    "setIdJa": "tc30",
+    "nameJa": "ストリンダー",
+    "nameEn": "Toxtricity",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/51.jpg",
+    "imageEn": "images/sets/tc30/en/60.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-52",
+    "setIdJa": "tc30",
+    "nameJa": "モルペコ",
+    "nameEn": "Morpeko",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/52.jpg",
+    "imageEn": "images/sets/tc30/en/61.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-53",
+    "setIdJa": "tc30",
+    "nameJa": "ミライドン",
+    "nameEn": "Miraidon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/53.jpg",
+    "imageEn": "images/sets/tc30/en/62.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-54",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウツー",
+    "nameEn": "Mewtwo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/54.jpg",
+    "imageEn": "images/sets/tc30/en/63.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-55",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウツーex",
+    "nameEn": "Mewtwo ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/55.jpg",
+    "imageEn": "images/sets/tc30/en/64.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-56",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウ",
+    "nameEn": "Mew",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/56.jpg",
+    "imageEn": "images/sets/tc30/en/65.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-57",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウex",
+    "nameEn": "Mew ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/57.jpg",
+    "imageEn": "images/sets/tc30/en/66.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-58",
+    "setIdJa": "tc30",
+    "nameJa": "エーフィ",
+    "nameEn": "Espeon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/58.jpg",
+    "imageEn": "images/sets/tc30/en/69.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-59",
+    "setIdJa": "tc30",
+    "nameJa": "ニンフィアex",
+    "nameEn": "Sylveon ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/59.jpg",
+    "imageEn": "images/sets/tc30/en/71.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-60",
+    "setIdJa": "tc30",
+    "nameJa": "アンノーン",
+    "nameEn": "Unown",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/60.jpg",
+    "imageEn": "images/sets/tc30/en/72.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-61",
+    "setIdJa": "tc30",
+    "nameJa": "フワンテ",
+    "nameEn": "Drifloon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/61.jpg",
+    "imageEn": "images/sets/tc30/en/73.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-62",
+    "setIdJa": "tc30",
+    "nameJa": "シャンデラ",
+    "nameEn": "Chandelure",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/62.jpg",
+    "imageEn": "images/sets/tc30/en/75.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-63",
+    "setIdJa": "tc30",
+    "nameJa": "ゼルネアス",
+    "nameEn": "Xerneas",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/63.jpg",
+    "imageEn": "images/sets/tc30/en/76.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-64",
+    "setIdJa": "tc30",
+    "nameJa": "コスモッグ",
+    "nameEn": "Cosmog",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/64.jpg",
+    "imageEn": "images/sets/tc30/en/78.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-65",
+    "setIdJa": "tc30",
+    "nameJa": "コスモウム",
+    "nameEn": "Cosmoem",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/65.jpg",
+    "imageEn": "images/sets/tc30/en/79.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-66",
+    "setIdJa": "tc30",
+    "nameJa": "ルナアーラ",
+    "nameEn": "Lunala",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/66.jpg",
+    "imageEn": "images/sets/tc30/en/80.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-67",
+    "setIdJa": "tc30",
+    "nameJa": "コレクレー",
+    "nameEn": "Gimmighoul",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/67.jpg",
+    "imageEn": "images/sets/tc30/en/81.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-68",
+    "setIdJa": "tc30",
+    "nameJa": "グラードン",
+    "nameEn": "Groudon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/68.jpg",
+    "imageEn": "images/sets/tc30/en/82.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-69",
+    "setIdJa": "tc30",
+    "nameJa": "ルカリオ",
+    "nameEn": "Lucario",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/69.jpg",
+    "imageEn": "images/sets/tc30/en/83.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-70",
+    "setIdJa": "tc30",
+    "nameJa": "ガマゲロゲ",
+    "nameEn": "Seismitoad",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/70.jpg",
+    "imageEn": "images/sets/tc30/en/84.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-71",
+    "setIdJa": "tc30",
+    "nameJa": "ルガルガン",
+    "nameEn": "Lycanroc",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/71.jpg",
+    "imageEn": "images/sets/tc30/en/85.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-72",
+    "setIdJa": "tc30",
+    "nameJa": "コライドン",
+    "nameEn": "Koraidon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/72.jpg",
+    "imageEn": "images/sets/tc30/en/86.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-73",
+    "setIdJa": "tc30",
+    "nameJa": "ニドラン♀",
+    "nameEn": "Nidoran ♀",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/73.jpg",
+    "imageEn": "images/sets/tc30/en/87.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-74",
+    "setIdJa": "tc30",
+    "nameJa": "ニドリーナ",
+    "nameEn": "Nidorina",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/74.jpg",
+    "imageEn": "images/sets/tc30/en/88.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-75",
+    "setIdJa": "tc30",
+    "nameJa": "アローラニャース",
+    "nameEn": "Alolan Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/75.jpg",
+    "imageEn": "images/sets/tc30/en/89.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-76",
+    "setIdJa": "tc30",
+    "nameJa": "ゲンガーex",
+    "nameEn": "Gengar ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/76.jpg",
+    "imageEn": "images/sets/tc30/en/90.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-77",
+    "setIdJa": "tc30",
+    "nameJa": "ブラッキー",
+    "nameEn": "Umbreon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/77.jpg",
+    "imageEn": "images/sets/tc30/en/91.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-78",
+    "setIdJa": "tc30",
+    "nameJa": "ズルッグ",
+    "nameEn": "Scraggy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/78.jpg",
+    "imageEn": "images/sets/tc30/en/94.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-79",
+    "setIdJa": "tc30",
+    "nameJa": "イベルタル",
+    "nameEn": "Yveltal",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/79.jpg",
+    "imageEn": "images/sets/tc30/en/100.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-80",
+    "setIdJa": "tc30",
+    "nameJa": "ガルニャース",
+    "nameEn": "Galarian Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/80.jpg",
+    "imageEn": "images/sets/tc30/en/101.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-81",
+    "setIdJa": "tc30",
+    "nameJa": "ジラーチex",
+    "nameEn": "Jirachi ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/81.jpg",
+    "imageEn": "images/sets/tc30/en/102.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-82",
+    "setIdJa": "tc30",
+    "nameJa": "ディアルガ",
+    "nameEn": "Dialga",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/82.jpg",
+    "imageEn": "images/sets/tc30/en/103.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-83",
+    "setIdJa": "tc30",
+    "nameJa": "ナットレイ",
+    "nameEn": "Ferrothorn",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/83.jpg",
+    "imageEn": "images/sets/tc30/en/104.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-84",
+    "setIdJa": "tc30",
+    "nameJa": "ソルガレオ",
+    "nameEn": "Solgaleo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/84.jpg",
+    "imageEn": "images/sets/tc30/en/105.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-85",
+    "setIdJa": "tc30",
+    "nameJa": "ザシアン",
+    "nameEn": "Zacian",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/85.jpg",
+    "imageEn": "images/sets/tc30/en/106.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-86",
+    "setIdJa": "tc30",
+    "nameJa": "ザマゼンタ",
+    "nameEn": "Zamazenta",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/86.jpg",
+    "imageEn": "images/sets/tc30/en/107.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-87",
+    "setIdJa": "tc30",
+    "nameJa": "サーフゴー",
+    "nameEn": "Gholdengo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/87.jpg",
+    "imageEn": "images/sets/tc30/en/108.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-88",
+    "setIdJa": "tc30",
+    "nameJa": "ボーマンダex",
+    "nameEn": "Salamence ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/88.jpg",
+    "imageEn": "images/sets/tc30/en/109.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-89",
+    "setIdJa": "tc30",
+    "nameJa": "ジャラコ",
+    "nameEn": "Jangmo-o",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/89.jpg",
+    "imageEn": "images/sets/tc30/en/110.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-90",
+    "setIdJa": "tc30",
+    "nameJa": "ジャランゴ",
+    "nameEn": "Hakamo-o",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/90.jpg",
+    "imageEn": "images/sets/tc30/en/111.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-91",
+    "setIdJa": "tc30",
+    "nameJa": "ジャラランガ",
+    "nameEn": "Kommo-o",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/91.jpg",
+    "imageEn": "images/sets/tc30/en/112.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-92",
+    "setIdJa": "tc30",
+    "nameJa": "ニャース",
+    "nameEn": "Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/92.jpg",
+    "imageEn": "images/sets/tc30/en/113.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-93",
+    "setIdJa": "tc30",
+    "nameJa": "メタモン",
+    "nameEn": "Ditto",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/93.jpg",
+    "imageEn": "images/sets/tc30/en/115.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-94",
+    "setIdJa": "tc30",
+    "nameJa": "イーブイ",
+    "nameEn": "Eevee",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/94.jpg",
+    "imageEn": "images/sets/tc30/en/116.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-95",
+    "setIdJa": "tc30",
+    "nameJa": "カビゴン",
+    "nameEn": "Snorlax",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/95.jpg",
+    "imageEn": "images/sets/tc30/en/119.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-96",
+    "setIdJa": "tc30",
+    "nameJa": "ププリン",
+    "nameEn": "Igglybuff",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/96.jpg",
+    "imageEn": "images/sets/tc30/en/120.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-97",
+    "setIdJa": "tc30",
+    "nameJa": "ルギア",
+    "nameEn": "Lugia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/97.jpg",
+    "imageEn": "images/sets/tc30/en/121.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-98",
+    "setIdJa": "tc30",
+    "nameJa": "ヒスイゾロア",
+    "nameEn": "Hisuian Zorua",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/98.jpg",
+    "imageEn": "images/sets/tc30/en/122.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-99",
+    "setIdJa": "tc30",
+    "nameJa": "ヒスイゾロアーク",
+    "nameEn": "Hisuian Zoroark",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/99.jpg",
+    "imageEn": "images/sets/tc30/en/123.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-100",
+    "setIdJa": "tc30",
+    "nameJa": "イッカネズミ",
+    "nameEn": "Maushold",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/100.jpg",
+    "imageEn": "images/sets/tc30/en/125.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-101",
+    "setIdJa": "tc30",
+    "nameJa": "ハイパーボール",
+    "nameEn": "Ultra Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "types": [],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/101.jpg",
+    "imageEn": "images/sets/tc30/en/128.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-102",
+    "setIdJa": "tc30",
+    "nameJa": "ポケパッド",
+    "nameEn": "Poké Pad",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "types": [],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/102.jpg",
+    "imageEn": "images/sets/tc30/en/126.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-103",
+    "setIdJa": "tc30",
+    "nameJa": "ポケモンいれかえ",
+    "nameEn": "Switch",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "types": [],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/103.jpg",
+    "imageEn": "images/sets/tc30/en/127.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-104",
+    "setIdJa": "tc30",
+    "nameJa": "アローラナッシー",
+    "nameEn": "Alolan Exeggutor",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/104.jpg",
+    "imageEn": "images/sets/tc30/en/129.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-105",
+    "setIdJa": "tc30",
+    "nameJa": "ファイヤー",
+    "nameEn": "Moltres",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/105.jpg",
+    "imageEn": "images/sets/tc30/en/130.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-106",
+    "setIdJa": "tc30",
+    "nameJa": "ラプラス",
+    "nameEn": "Lapras",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/106.jpg",
+    "imageEn": "images/sets/tc30/en/131.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-107",
+    "setIdJa": "tc30",
+    "nameJa": "フリーザー",
+    "nameEn": "Articuno",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/107.jpg",
+    "imageEn": "images/sets/tc30/en/132.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-108",
+    "setIdJa": "tc30",
+    "nameJa": "サンダー",
+    "nameEn": "Zapdos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/108.jpg",
+    "imageEn": "images/sets/tc30/en/133.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-109",
+    "setIdJa": "tc30",
+    "nameJa": "ストリンダー",
+    "nameEn": "Toxtricity",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/109.jpg",
+    "imageEn": "images/sets/tc30/en/134.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-110",
+    "setIdJa": "tc30",
+    "nameJa": "モルペコ",
+    "nameEn": "Morpeko",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/110.jpg",
+    "imageEn": "images/sets/tc30/en/135.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-111",
+    "setIdJa": "tc30",
+    "nameJa": "フワンテ",
+    "nameEn": "Drifloon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/111.jpg",
+    "imageEn": "images/sets/tc30/en/136.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-112",
+    "setIdJa": "tc30",
+    "nameJa": "シャンデラ",
+    "nameEn": "Chandelure",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/112.jpg",
+    "imageEn": "images/sets/tc30/en/137.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-113",
+    "setIdJa": "tc30",
+    "nameJa": "ルガルガン",
+    "nameEn": "Lycanroc",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/113.jpg",
+    "imageEn": "images/sets/tc30/en/138.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-114",
+    "setIdJa": "tc30",
+    "nameJa": "ニドリーナ",
+    "nameEn": "Nidorina",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/114.jpg",
+    "imageEn": null,
+    "enAvailable": false
+  },
+  {
+    "id": "tc30-115",
+    "setIdJa": "tc30",
+    "nameJa": "アローラニャース",
+    "nameEn": "Alolan Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/115.jpg",
+    "imageEn": "images/sets/tc30/en/139.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-116",
+    "setIdJa": "tc30",
+    "nameJa": "ズルッグ",
+    "nameEn": "Scraggy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/116.jpg",
+    "imageEn": "images/sets/tc30/en/140.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-117",
+    "setIdJa": "tc30",
+    "nameJa": "ガルニャース",
+    "nameEn": "Galarian Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/117.jpg",
+    "imageEn": "images/sets/tc30/en/141.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-118",
+    "setIdJa": "tc30",
+    "nameJa": "サーフゴー",
+    "nameEn": "Gholdengo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/118.jpg",
+    "imageEn": "images/sets/tc30/en/142.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-120",
+    "setIdJa": "tc30",
+    "nameJa": "ニャース",
+    "nameEn": "Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/120.jpg",
+    "imageEn": "images/sets/tc30/en/144.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-122",
+    "setIdJa": "tc30",
+    "nameJa": "ヒスイゾロア",
+    "nameEn": "Hisuian Zorua",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/122.jpg",
+    "imageEn": "images/sets/tc30/en/145.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-123",
+    "setIdJa": "tc30",
+    "nameJa": "イッカネズミ",
+    "nameEn": "Maushold",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/123.jpg",
+    "imageEn": "images/sets/tc30/en/146.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-124",
+    "setIdJa": "tc30",
+    "nameJa": "ホゲータex",
+    "nameEn": "Fuecoco ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/124.jpg",
+    "imageEn": "images/sets/tc30/en/147.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-125",
+    "setIdJa": "tc30",
+    "nameJa": "ゲッコウガex",
+    "nameEn": "Greninja ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/125.jpg",
+    "imageEn": "images/sets/tc30/en/148.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-126",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウex",
+    "nameEn": "Pikachu ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/126.jpg",
+    "imageEn": "images/sets/tc30/en/149.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-127",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウex",
+    "nameEn": "Pikachu ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/127.jpg",
+    "imageEn": "images/sets/tc30/en/150.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-130",
+    "setIdJa": "tc30",
+    "nameJa": "ニンフィアex",
+    "nameEn": "Sylveon ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/130.jpg",
+    "imageEn": "images/sets/tc30/en/153.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-132",
+    "setIdJa": "tc30",
+    "nameJa": "ジラーチex",
+    "nameEn": "Jirachi ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/132.jpg",
+    "imageEn": "images/sets/tc30/en/155.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-133",
+    "setIdJa": "tc30",
+    "nameJa": "ボーマンダex",
+    "nameEn": "Salamence ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "types": [
+      "Dragon"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/133.jpg",
+    "imageEn": "images/sets/tc30/en/156.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-134",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウツーex",
+    "nameEn": "Mewtwo ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/134.jpg",
+    "imageEn": "images/sets/tc30/en/157.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-135",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウex",
+    "nameEn": "Mew ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": "J",
+    "imageJa": "images/sets/tc30/jp/135.jpg",
+    "imageEn": "images/sets/tc30/en/158.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-136",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ",
+    "nameEn": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/136.jpg",
+    "imageEn": "images/sets/tc30/en/h1.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-137",
+    "setIdJa": "tc30",
+    "nameJa": "リザードン",
+    "nameEn": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Fire"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/137.jpg",
+    "imageEn": "images/sets/tc30/en/h2.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-138",
+    "setIdJa": "tc30",
+    "nameJa": "カスミ",
+    "nameEn": "Misty",
+    "supertype": "Trainer",
+    "subtypes": [],
+    "types": [],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/138.jpg",
+    "imageEn": "images/sets/tc30/en/h3.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-139",
+    "setIdJa": "tc30",
+    "nameJa": "エリカのプリン",
+    "nameEn": "Erika's Jigglypuff",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/139.jpg",
+    "imageEn": "images/sets/tc30/en/h4.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-140",
+    "setIdJa": "tc30",
+    "nameJa": "ニューラ",
+    "nameEn": "Sneasel",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/140.jpg",
+    "imageEn": "images/sets/tc30/en/h5.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-141",
+    "setIdJa": "tc30",
+    "nameJa": "ひかるセレビィ",
+    "nameEn": "Shining Celebi",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/141.jpg",
+    "imageEn": "images/sets/tc30/en/h6.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-142",
+    "setIdJa": "tc30",
+    "nameJa": "クリスタルルギア",
+    "nameEn": "Crystal Lugia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/142.jpg",
+    "imageEn": "images/sets/tc30/en/h7.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-143",
+    "setIdJa": "tc30",
+    "nameJa": "エネコロロ",
+    "nameEn": "Delcatty",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/143.jpg",
+    "imageEn": "images/sets/tc30/en/h8.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-144",
+    "setIdJa": "tc30",
+    "nameJa": "ダークバンギラス",
+    "nameEn": "Dark Tyranitar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Darkness"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/144.jpg",
+    "imageEn": "images/sets/tc30/en/h9.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-145",
+    "setIdJa": "tc30",
+    "nameJa": "ハッサムex",
+    "nameEn": "Scizor ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/145.jpg",
+    "imageEn": "images/sets/tc30/en/h10.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-146",
+    "setIdJa": "tc30",
+    "nameJa": "メタグロス",
+    "nameEn": "Metagross",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Lightning",
+      "Water"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/146.jpg",
+    "imageEn": "images/sets/tc30/en/h11.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-147",
+    "setIdJa": "tc30",
+    "nameJa": "パルキアLV.X",
+    "nameEn": "Palkia LV.X",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "LV.X"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/147.jpg",
+    "imageEn": "images/sets/tc30/en/h12.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-148",
+    "setIdJa": "tc30",
+    "nameJa": "ユクシー",
+    "nameEn": "Uxie",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/148.jpg",
+    "imageEn": "images/sets/tc30/en/h13.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-149",
+    "setIdJa": "tc30",
+    "nameJa": "クロバットG",
+    "nameEn": "Crobat G",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/149.jpg",
+    "imageEn": "images/sets/tc30/en/h14.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-150",
+    "setIdJa": "tc30",
+    "nameJa": "ゲンガー",
+    "nameEn": "Gengar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/150.jpg",
+    "imageEn": "images/sets/tc30/en/h15.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-151",
+    "setIdJa": "tc30",
+    "nameJa": "ダークライ＆クレセリアLEGEND",
+    "nameEn": "Darkrai & Cresselia LEGEND",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "LEGEND"
+    ],
+    "types": [
+      "Darkness",
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/151.jpg",
+    "imageEn": "images/sets/tc30/en/h16.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-152",
+    "setIdJa": "tc30",
+    "nameJa": "ダークライ＆クレセリアLEGEND",
+    "nameEn": "Darkrai & Cresselia LEGEND",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "LEGEND"
+    ],
+    "types": [
+      "Darkness",
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/152.jpg",
+    "imageEn": "images/sets/tc30/en/h17.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-153",
+    "setIdJa": "tc30",
+    "nameJa": "N",
+    "nameEn": "N",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "types": [],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/153.jpg",
+    "imageEn": "images/sets/tc30/en/h18.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-154",
+    "setIdJa": "tc30",
+    "nameJa": "レックウザex",
+    "nameEn": "Rayquaza ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/154.jpg",
+    "imageEn": "images/sets/tc30/en/h19.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-155",
+    "setIdJa": "tc30",
+    "nameJa": "ゲノセクトEX",
+    "nameEn": "Genesect-EX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "types": [
+      "Grass"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/155.jpg",
+    "imageEn": "images/sets/tc30/en/h20.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-156",
+    "setIdJa": "tc30",
+    "nameJa": "メガサーナイトEX",
+    "nameEn": "M Gardevoir-EX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "MEGA"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/156.jpg",
+    "imageEn": "images/sets/tc30/en/h21.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-157",
+    "setIdJa": "tc30",
+    "nameJa": "ゲッコウガBREAK",
+    "nameEn": "Greninja BREAK",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "BREAK"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/157.jpg",
+    "imageEn": "images/sets/tc30/en/h22.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-158",
+    "setIdJa": "tc30",
+    "nameJa": "ソルガレオGX",
+    "nameEn": "Solgaleo-GX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "GX"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/158.jpg",
+    "imageEn": "images/sets/tc30/en/h23.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-159",
+    "setIdJa": "tc30",
+    "nameJa": "マッシブーンGX",
+    "nameEn": "Buzzwole-GX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "GX"
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/159.jpg",
+    "imageEn": "images/sets/tc30/en/h24.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-160",
+    "setIdJa": "tc30",
+    "nameJa": "ピカチュウ＆ゼクロムGX",
+    "nameEn": "Pikachu & Zekrom-GX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "TAG TEAM",
+      "GX"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/160.jpg",
+    "imageEn": "images/sets/tc30/en/h25.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-161",
+    "setIdJa": "tc30",
+    "nameJa": "ザシアンV",
+    "nameEn": "Zacian V",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "types": [
+      "Metal"
+    ],
+    "regulationMark": "D",
+    "imageJa": "images/sets/tc30/jp/161.jpg",
+    "imageEn": "images/sets/tc30/en/h26.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-162",
+    "setIdJa": "tc30",
+    "nameJa": "ライコウ",
+    "nameEn": "Raikou",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Lightning"
+    ],
+    "regulationMark": "D",
+    "imageJa": "images/sets/tc30/jp/162.jpg",
+    "imageEn": "images/sets/tc30/en/h27.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-163",
+    "setIdJa": "tc30",
+    "nameJa": "ミュウVMAX",
+    "nameEn": "Mew VMAX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "VMAX"
+    ],
+    "types": [
+      "Psychic"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/163.jpg",
+    "imageEn": "images/sets/tc30/en/h28.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-164",
+    "setIdJa": "tc30",
+    "nameJa": "アルセウスVSTAR",
+    "nameEn": "Arceus VSTAR",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "VSTAR"
+    ],
+    "types": [
+      "Colorless"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/164.jpg",
+    "imageEn": "images/sets/tc30/en/h29.jpg",
+    "enAvailable": true
+  },
+  {
+    "id": "tc30-165",
+    "setIdJa": "tc30",
+    "nameJa": "ひかるコイキング",
+    "nameEn": "Shining Magikarp",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "types": [
+      "Water"
+    ],
+    "regulationMark": null,
+    "imageJa": "images/sets/tc30/jp/165.jpg",
+    "imageEn": "images/sets/tc30/en/h30.jpg",
+    "enAvailable": true
+  },
+  {
     "id": "ae-1",
     "setIdJa": "ae",
     "nameJa": "トロピウス",

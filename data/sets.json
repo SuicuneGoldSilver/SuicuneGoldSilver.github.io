@@ -1,5 +1,15 @@
 [
   {
+    "id": "tc30",
+    "language": "ja",
+    "name": "30周年記念セット",
+    "series": "Scarlet & Violet",
+    "releaseDate": "2026-09-16",
+    "printedTotal": 175,
+    "regulationMark": "J",
+    "logo": "images/sets/tc30/logo.png"
+  },
+  {
     "id": "ae",
     "language": "ja",
     "name": "アビスアイ",
